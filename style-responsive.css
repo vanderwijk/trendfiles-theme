@@ -1,0 +1,123 @@
+/* iPad and iPad Retina Landscape mode */
+@media screen and (max-width: 1024px),
+screen and (min-device-width: 768px) and (max-device-width: 1024px) and (orientation: landscape),
+screen and (min-device-width: 1536px) and (max-device-width: 2048px) and (-webkit-min-device-pixel-ratio: 2) and (orientation: landscape) {
+
+}
+/* iPad and iPad Retina Portrait mode */
+@media screen and (max-width: 768px),
+screen and (min-device-width: 768px) and (max-device-width: 1024px) and (orientation: portrait),
+screen and (min-device-width: 1536px) and (max-device-width: 2048px) and (-webkit-min-device-pixel-ratio: 2) and (orientation: portrait) {
+	body {
+		margin: 0;
+	}
+	.wrapper {
+		box-shadow: none;
+	}
+	.col.one-third,
+	.col.two-thirds {
+		width: 50%;
+	}
+}
+/* Smartphones and HiDPI smartphones */
+@media screen and (max-width: 480px),
+screen and (device-width: 360px) and (device-height: 640px) and (-webkit-device-pixel-ratio: 3) {
+	.col,
+	.col.one-third,
+	.col.two-thirds {
+		width: 100%;
+	}
+	.col.one-fourth,
+	.col.one-fifth {
+		width: 50%;
+	}
+	.block {
+		margin: 2.27273%;
+		padding: 2.27273%;
+		width: 95.4545%;
+	}
+	.header .logo-trendfiles {
+		font-size: 0.781em;
+	}
+	.header .utilities {
+		display: none;
+	}
+	.block.download {
+		min-height: 0;
+	}
+	.menu-toggle {
+		color: #fff;
+		cursor: pointer;
+		display: inline-block;
+		margin: 0;
+		padding: 12px 0 12px 20px;
+	}
+	.menu-toggle:after {
+		-webkit-font-smoothing: antialiased;
+		font: normal 20px/0 'dashicons';
+		content: "\f333";
+		padding-left: 8px;
+		vertical-align: -6px;
+	}
+	.toggled-on .menu-toggle:after {
+		-webkit-font-smoothing: antialiased;
+		font: normal 20px/0 'dashicons';
+		content: "\f333";
+		vertical-align: 2px;
+	}
+	.toggled-on .nav-menu,
+	.toggled-on .nav-menu > ul {
+		display: block;
+		margin-left: 0;
+		padding: 0;
+		width: 100%;
+	}
+	.toggled-on li,
+	.toggled-on .children {
+		display: block;
+	}
+	.toggled-on .nav-menu li > ul {
+		background-color: transparent;
+		display: block;
+		float: none;
+		margin-left: 20px;
+		position: relative;
+		left: auto;
+		top: auto;
+	}
+	.toggled-on .nav-menu li > ul a {
+		color: #fff;
+		width: auto;
+	}
+	.toggled-on .nav-menu li:hover > a,
+	.toggled-on .nav-menu .children a {
+		background-color: transparent;
+	}
+	.toggled-on .nav-menu li a:hover,
+	.toggled-on .nav-menu ul a:hover {
+		background-color: #2e8d9e;
+		color: #00252d;
+	}
+	ul.nav-menu,
+	div.nav-menu > ul {
+		display: none;
+	}
+	.nav-menu .menu-parent-item > a {
+		background-image: none!important;
+	}
+	.nav-menu .current-menu-item.menu-item-991 > a {
+		background: url('/wp-content/themes/otib/img/cirkel-innovatie.svg') no-repeat 10px 14px;
+	}
+	.nav-menu .current-menu-item.menu-item-992 > a {
+		background: url('/wp-content/themes/otib/img/cirkel-personeel-en-organisatie.svg') no-repeat 10px 14px;
+	}
+	.nav-menu .current-menu-item.menu-item-994 > a {
+		background: url('/wp-content/themes/otib/img/cirkel-ondernemerschap.svg') no-repeat 10px 14px;
+	}
+	.nav-menu .current-menu-item.menu-item-993 > a {
+		background: url('/wp-content/themes/otib/img/cirkel-opleiden.svg') no-repeat 10px 14px;
+	}
+	.nav-menu .current-menu-item.menu-item-995 > a {
+		background: url('/wp-content/themes/otib/img/cirkel-arbeidsmarkt.svg') no-repeat 10px 14px;
+	}
+}

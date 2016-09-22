@@ -1,0 +1,1104 @@
+/*
+Theme Name: OTIB
+Theme URI: http://trendfiles.otib.nl
+Author: Johan van der Wijk
+Author URI: http://vanderwijk.nl
+Description: OTIB trendfiles WordPress theme.
+Version: 1.0
+*/
+
+/* Reset
+----------------------------------------------------------------------------------------------------*/
+*, *:before, *:after {
+	-moz-box-sizing: border-box;
+	-webkit-box-sizing: border-box;
+	box-sizing: border-box;
+}
+html, body, div, span, applet, object, iframe, h1, h2, h3, h4, h5, h6, p, blockquote, pre, a, abbr, acronym, address, big, cite, code, del, dfn, em, font, ins, kbd, q, s, samp, small, strike, strong, sub, sup, tt, var, dl, dt, dd, ol, ul, li, fieldset, form, label, legend, table, caption, tbody, tfoot, thead, tr, th, td {
+	border: 0;
+	color: #424244;
+	font-family: 'Droid Sans', sans-serif;
+	font-size: 100%;
+	font-style: inherit;
+	font-weight: inherit;
+	margin: 0;
+	outline: 0;
+	padding: 0;
+	vertical-align: baseline;
+}
+:focus {
+	outline: 0;
+}
+body {
+	line-height: 1;
+}
+ol, ul {
+	list-style: none;
+}
+table {
+	border-collapse: separate;
+	border-spacing: 0;
+}
+caption, th, td {
+	font-weight: normal;
+	text-align: left;
+}
+blockquote:before, blockquote:after, q:before, q:after {
+	content: "";
+}
+blockquote, q {
+	quotes: "" "";
+}
+a img {
+	border: 0;
+}
+a {
+	text-decoration: none;
+}
+article, aside, details, figcaption, figure, footer, header, hgroup, menu, nav, section {
+	display: block;
+}
+/* Base
+----------------------------------------------------------------------------------------------------*/
+body {
+	background: #ccc;
+	margin: 20px;
+}
+.wrapper {
+	background: #fff;
+	margin: 0 auto;
+	width: 100%;
+	max-width: 1320px;
+
+	-webkit-box-shadow: 0px 0px 5px 1px rgba(0, 0, 0, .1);
+	-moz-box-shadow: 0px 0px 5px 1px rgba(0, 0, 0, .1);
+	box-shadow: 0px 0px 5px 1px rgba(0, 0, 0, .1);
+}
+em {
+	font-style: italic;
+	color: #4e4e4e;
+}
+strong {
+	font-weight: bold;
+}
+small {
+	font-size: .846em; /* 11px */
+}
+.content .nopadding {
+	padding: 0;
+}
+.alignleft {
+	float: left;
+	margin: .5em 1em .5em 0;
+}
+.alignright {
+	float: right;
+	margin: .5em 0 .5em 1em;
+}
+.entry-content p {
+	line-height: 1.5em;
+}
+.entry-content h4 {
+	font-weight: bold;
+	margin: 1em 0 .8em 0;
+	line-height: 1em;
+}
+.entry-content ul {
+	list-style: disc;
+	margin: 0 0 1.5em 0;
+	padding: 0;
+}
+.entry-content li {
+	list-style-type: square;
+	margin: .25em 0 .25em 1.5em;
+}
+.entry-content ol {
+	margin:0 0 1.5em 1.5em;
+	padding:0;
+}
+.entry-content a {
+	text-decoration: underline;
+	color: #2e8d9e;
+}
+/* Grid
+----------------------------------------------------------------------------------------------------*/
+.row:before,
+.row:after {
+	content: " ";
+	display: table;
+}
+.row:after {
+	clear: both;
+}
+.row {
+	width: 100%; /* 1320px */
+	*zoom: 1;
+}
+.col {
+	float: left;
+	width: 100%; /* 1320px */
+}
+.col.half {
+	width: 50%; /* 660px */
+}
+.col.one-third {
+	width: 33.333333333333333%; /* 440px */
+}
+.col.one-fourth {
+	width: 25%; /* 315px */
+}
+.col.one-fifth {
+	width: 20%; /* 264px */
+}
+.col.two-thirds {
+	width: 66.666666666666666%; /* 880px */
+}
+.block {
+	float: left;
+	overflow: hidden;
+	position: relative;
+	margin: 0.7575757575757576%; /* 10px */
+	padding: 0.7575757575757576%; /* 10px */
+	width: 98.48484848484848%; /* 1300px */
+}
+.half .block {
+	margin: 1.136363636363636%; /* 10px */
+	padding: 1.136363636363636%; /* 10px */
+	width: 97.72727272727273%; /* 640px */
+}
+.one-third .block {
+	margin: 2.272727272727273%; /* 10px */
+	padding: 2.272727272727273%; /* 10px */
+	width: 95.45454545454545%; /* 420px */
+}
+.one-fourth .block {
+	margin: 3.03030303030303%; /* 10px */
+	padding: 3.03030303030303%; /* 10px */
+	width: 96.96969696969697%; /* 420px */
+}
+.one-fifth .block {
+	margin: 3.787878787878788%; /* 10px */
+	padding: 3.787878787878788%; /* 10px */
+	width: 96.21212121212121%; /* 420px */
+}
+.two-thirds .block {
+	margin: 1.25%; /* 10px */
+	padding: 1.25%; /* 10px */	
+	width: 97.5%; /* 420px */
+}
+/* Grid styles
+----------------------------------------------------------------------------------------------------*/
+.block a.category-link,
+.block a.article-link {
+	display: block;
+}
+.block .rsContent a {
+	border-bottom: 1px solid #238d9e;
+	color: #238d9e;
+}
+.block p,
+.block ul,
+.block ol {
+	color: #424244;
+	font-size: 13px;
+	line-height: 20px;
+	margin-bottom: 10px;
+}
+.block ol {
+	list-style:decimal;
+	padding-left: 20px;
+}
+.block ol li {
+	margin-bottom: 5px;
+}
+.block .figure {
+	background-color: #000;
+	display: inline-block;
+	line-height: 0;
+	margin: 1.2565% 0 2.513% 0; /* 10px */
+	position: relative;
+}
+.block .figure .thumbnail {
+	height: auto;
+	width: 100%;
+}
+.block a:hover img {
+	opacity: 0.9;
+}
+.block .figure img {
+	opacity: 1;
+}
+.one-third .block .category,
+.one-third .block .category-link {
+	margin-bottom: 2.513%; /* 10px */
+	margin-bottom: 5.026%; /* 20px */
+}
+/*.block .header,*/
+.block .intro {
+	padding-bottom: 2.513%; /* 10px */
+}
+.block h1 {
+	font-size: 15px;
+	font-weight: 400;
+	line-height: 20px;
+}
+.block h2 {
+	font-size: 15px;
+	font-weight: 400;
+	line-height: 20px;
+}
+.block h3 {
+	font-size: 13px;
+	font-weight: 700;
+	letter-spacing: 1px;
+	line-height: 20px;
+}
+/* Homepage
+----------------------------------------------------------------------------------------------------*/
+.home .one-third .block,
+.archive .one-third .block,
+.search .one-third .block {
+	border: 1px solid #ddd;
+}
+/* Format Quote (alleen quote) -> interview
+----------------------------------------------------------------------------------------------------*/
+.block blockquote p {
+	font-family: Roboto, sans-serif;
+	font-size: 1.313em; /* 21px */
+	font-weight: 300;
+	line-height: 1.429em;
+	text-align: center;
+}
+.format-quote .intro {
+	padding: 10% 0 10% 0;
+	text-align: center;
+}
+.block.format-quote blockquote {
+	margin-bottom: 1em; /* 16px */
+}
+/* Format Aside (quote met afbeelding) -> column
+----------------------------------------------------------------------------------------------------*/
+.format-aside .block blockquote p,
+.block.format-aside blockquote p {
+	text-align: left;
+}
+.block.format-aside .header {
+	padding-bottom: 5.026%; /* 20px */
+}
+.format-aside .block .figure,
+.block.format-aside .figure {
+	float: left;
+	margin-right: 5.026%; /* 20px */
+	width: 27.639%; /* 110px */
+}
+.format-aside .block .intro,
+.block.format-aside .intro {
+	float: left;
+	width: 66%;
+}
+/* Format Video
+----------------------------------------------------------------------------------------------------*/
+.block.format-video .figure {
+	margin: 0;
+}
+
+.page .entry-title,
+.block .category {
+	border-bottom: 4px solid #2e8d9e;
+	color: #2e8d9e;
+	display: block;
+	font-family: Roboto, sans-serif;
+	font-size: 15px;
+	font-weight: 700;
+	letter-spacing: 1px;
+	padding: 0 0 5px 0;
+	text-transform: uppercase;
+}
+.single .article .block a.category {
+	text-decoration: none;
+}
+.category-innovatie .category {
+	border-bottom: 4px solid #896377;
+	color: #896377;
+}
+.category-personeel-en-organisatie .category {
+	border-bottom: 4px solid #d4be59;
+	color: #d4be59;
+}
+.category-ondernemerschap .category {
+	border-bottom: 4px solid #a29c5a;
+	color: #a29c5a;
+}
+.category-opleiden .category {
+	border-bottom: 4px solid #688f8c;
+	color: #688f8c;
+}
+.category-arbeidsmarkt .category {
+	border-bottom: 4px solid #6d8293;
+	color: #6d8293;
+}
+
+
+
+.one-third .block.category-innovatie {
+	border: 1px solid #b8a1ad;
+}
+.one-third .block.category-personeel-en-organisatie {
+	border: 1px solid #e5d89b;
+}
+.one-third .block.category-ondernemerschap {
+	border: 1px solid #c7c49c;
+}
+.one-third .block.category-opleiden {
+	border: 1px solid #a4bcba;
+}
+.one-third .block.category-arbeidsmarkt {
+	border: 1px solid #a7b4be;
+}
+
+
+
+.category-arbeidsmarkt h1,
+.category-arbeidsmarkt h2,
+.category-arbeidsmarkt blockquote p {
+	color: #6d8293;
+}
+.category-innovatie h1,
+.category-innovatie h2,
+.category-innovatie blockquote p {
+	color: #896377;
+}
+.category-opleiden h1,
+.category-opleiden h2,
+.category-opleiden blockquote p {
+	color: #688f8c;
+}
+.category-personeel-en-organisatie h1,
+.category-personeel-en-organisatie h2,
+.category-personeel-en-organisatie blockquote p {
+	color: #d4be59;
+}
+.category-ondernemerschap h1,
+.category-ondernemerschap h2,
+.category-ondernemerschap blockquote p {
+	color: #a29c5a;
+}
+.icon-play {
+	height: auto;
+	left: 40%;
+	position: absolute;
+	top: 35%;
+	width: 20%;
+}
+/* Kerngegevens
+----------------------------------------------------------------------------------------------------*/
+.page-kerngegevens h2 {
+	color: #238d9e;
+	margin-bottom: 1em;
+}
+.kerngegevens-knoppen li {
+	list-style: none;
+	margin: 1em 0;
+}
+.kerngegevens-knoppen li a {
+	color: #238d9e;
+	background: url('/wp-content/themes/otib/img/iconen-kerngegevens.png') no-repeat;
+	text-decoration: underline;
+	padding: 25px 0 0 140px;
+	height: 75px;
+	display: block;
+}
+.kerngegevens-knoppen li.bedrijven a {
+	background-position: 0 3px;
+}
+.kerngegevens-knoppen li.omzet-en-werkvoorraad a {
+	background-position: 0 -130px;
+}
+.kerngegevens-knoppen li.werknemers a {
+	background-position: 0 -252px;
+}
+.kerngegevens-knoppen li.leerlingen a {
+	background-position: 0 -380px;
+}
+.kerngegevens-knoppen li.leerwerkbanen a {
+	background-position: 0 -462px;
+}
+.page-kerngegevens .kerngegevens-downloads li {
+	list-style: none;
+	margin: 1em 0;
+}
+.page-kerngegevens .kerngegevens-downloads li a {
+	color: #238d9e;
+	background: url('/wp-content/themes/otib/img/iconen-kerngegevens-2.png') no-repeat;
+	padding: 35px 0 0 100px;
+	height: 96px;
+	display: block;
+	border: 1px solid #ccc;
+}
+.page-kerngegevens .kerngegevens-downloads li:nth-child(1) a,
+.page-kerngegevens .kerngegevens-downloads li:nth-child(2) a {
+	background-position: 10px 7px;
+}
+.page-kerngegevens .kerngegevens-downloads li:nth-child(3) a {
+	background-position: 10px -99px;
+}
+.page-kerngegevens .kerngegevens-downloads li:nth-child(4) a {
+	background-position: 10px -200px;
+}
+.page-kerngegevens .kerngegevens-downloads li:nth-child(5) a {
+	background-position: 10px -250px;
+}
+.page-kerngegevens .regio {
+	display: none;
+}
+
+/* Sharing
+----------------------------------------------------------------------------------------------------*/
+.single .article .sharing li {
+	display: inline-block;
+	margin: 0 .625em 0 0; /* 10px */
+}
+.single .article .sharing li .dashicons {
+	font-size: 24px;
+	line-height: 24px;
+}
+.single .article .sharing a {
+	text-decoration: none;
+}
+/* Single
+----------------------------------------------------------------------------------------------------*/
+.single .block .category-link {
+	margin-bottom: 0;
+}
+.alignnone,
+.alignleft,
+.alignright,
+.single .block img {
+	max-width: 100%;
+	height: auto;
+}
+.single blockquote {
+	padding: .625em 0; /* 10px */
+}
+.single .category-prognoses h1 {
+	color: #2e8d9e;
+}
+.single .article a {
+	text-decoration: underline;
+}
+.single .article a:hover {
+	text-decoration: dotted;
+}
+.single .post-navigation {
+	display: none;
+}
+.single .postmeta {
+	display: none;
+}
+/* Prognoses
+----------------------------------------------------------------------------------------------------*/
+.single .category-prognoses .figure {
+	margin: 2em 0;
+}
+#custom_post_widget-6 {
+	border: 1px solid #ddd;
+	padding: 2.27273%;
+}
+/* Downloads
+----------------------------------------------------------------------------------------------------*/
+.page-template-archive-download-php h2 {
+	clear: both;
+	border-bottom: 1px solid #ccc;
+	display: block;
+	font-family: Roboto, sans-serif;
+	font-size: 14px;
+	font-weight: 400;
+	letter-spacing: 1px;
+	line-height: 20px;
+	margin: 0.7575757575757576% 1.515151515151515%;/* 10px 20px */
+	padding: 0.7575757575757576%; /* 10px */
+	width: 98.48484848484848%; /* 1300px */
+	word-break:break-all;
+}
+.block.download {
+	position: relative;
+	padding-bottom: 50px
+}
+.block.download .link-wrap {
+	bottom: 0;
+	margin-bottom: 10px;
+	position: absolute;
+}
+.block.download .link-wrap p {
+	margin-bottom: 0;
+}
+.block.download a {
+	border-bottom: 1px solid #2e8d9e;
+	color: #2e8d9e;
+}
+/* Links */
+.blogroll li {
+	display: inline-block;
+	margin: 1.515151515151515%;
+}
+/* Header
+----------------------------------------------------------------------------------------------------*/
+.logo-trendfiles {
+	background: url('/wp-content/themes/otib/img/logo-trendfiles.png') no-repeat;
+	background-size: 23.125em 3.250em;
+	float: left;
+	height: 3.250em; /* 52px */
+	overflow: hidden;
+	text-indent: -9999px;
+	width: 23.125em; /* 370px */
+}
+.svg .logo-trendfiles {
+	background: url('/wp-content/themes/otib/img/logo-trendfiles.svg') no-repeat;
+	background-size: 23.125em 3.250em;
+}
+.logo-otib {
+	background: url('/wp-content/themes/otib/img/logo-otib.png') no-repeat;
+	background-size: 3.333em 3.667em;
+	float: right;
+	height: 2.75em; /* 44px */
+	margin-left: 0.833em; /* 10px */
+	overflow: hidden;
+	text-indent: -9999px;
+	width: 2.5em; /* 40px */
+}
+.svg .logo-otib {
+	background: url('/wp-content/themes/otib/img/logo-otib.svg') no-repeat;
+	background-size: 2.5em 2.75em;
+}
+.utilities {
+	float: right;
+	font-size: .750em; /* 12px */
+}
+.utilities .search {
+	float: right;
+	overflow: hidden;
+}
+.utilities ul {
+	margin-bottom: 5px;
+	overflow: hidden;
+}
+.utilities .menu li {
+	float: left;
+	position: relative;
+	text-transform: uppercase;
+	border-right: 1px solid #ccc;
+}
+.utilities .menu li:last-child {
+	border-right: none;
+}
+.utilities .menu a {
+	color: #ccc;
+	text-decoration: none;
+	-webkit-transition: color .2s ease-in;
+	-moz-transition: color .2s ease-in;
+	transition: color .2s ease-in;
+	padding: 5px;
+}
+.utilities .menu a:hover {
+	color: #2e8d9e;
+}
+.utilities .menu .twitter a:before {
+	-webkit-font-smoothing: antialiased;
+	font: normal 1.250em/0 'dashicons'; /* 15px */
+	content: "\f301";
+	padding-right: 3px;
+	vertical-align: -3px;
+}
+.utilities .menu .twitter a:hover {
+	color: #2299CC;
+}
+/* Searchform
+----------------------------------------------------------------------------------------------------*/
+.search input[type=text] {
+	border: 1px solid #ccc;
+	color: #ccc;
+	font: 1em/1em 'Droid Sans', sans-serif;
+	margin: 0 10px 0 0;
+	padding: 1px 0 1px 4px;
+	text-transform: uppercase;
+	width: 160px;
+
+	-webkit-appearance:none;
+	-webkit-border-radius:0;
+}
+.search input[type=text]:focus {
+	border: 1px solid #2e8d9e;
+	color: #4e4e4e;
+	text-transform: lowercase;
+}
+.search input[type=submit] {
+	background: #fff;
+	border: none;
+	border-left: 1px solid #ccc;
+	color: #ccc;
+	font: normal 1.250em/1em 'dashicons'; /* 15px */
+	padding: 0 0 0 5px;
+	position: relative;
+	top: 2px;
+
+	-webkit-appearance:none;
+	-webkit-border-radius:0;
+}
+.search label {
+	display: inline-block;
+	min-width: 100px;
+}
+/* Breadcrubs
+----------------------------------------------------------------------------------------------------*/
+.breadcrumb {
+	float: left;
+	font-family: Roboto, sans-serif;
+	font-size: 14px;
+	font-weight: 400;
+	letter-spacing: 1px;
+}
+.breadcrumb span {
+	border-bottom: 1px solid #424244;
+}
+.breadcrumb span.breadcrumb_last {
+	border-bottom: 1px solid #fff;
+}
+/* Pagination
+----------------------------------------------------------------------------------------------------*/
+.pagination {
+	float: right;
+	font-family: Roboto, sans-serif;
+	font-size: 14px;
+	font-weight: 400;
+	letter-spacing: 1px;
+}
+.pagination .current {
+	color: #ccc;
+}
+.pagination a,
+.pagination span {
+	margin: 0 .3125em; /* 5px */
+}
+.pagination .nextpostslink {
+	border-left: 1px solid #424244;
+	padding-left : .625em; /* 5px */
+}
+.pagination .previouspostslink {
+	border-right: 1px solid #424244;
+	padding-right : .625em; /* 5px */
+}
+/* Navigation
+----------------------------------------------------------------------------------------------------*/
+.navigation {
+	background-color: #424244;
+	clear: both;
+	margin: 0 auto 1.250em auto; /* 20px */
+	min-height: 2.125em; /* 34px */
+	width: 100%;
+}
+.navigation .dashicons {
+	color: #fff;
+	line-height: 34px;
+}
+.navigation .hidden {
+	display: none;
+}
+.navigation .home a,
+.navigation .search a {
+	padding: 0 20px;
+	line-height: 34px;
+}
+/* Innovatie */
+ul.nav-menu ul .menu-item-1495 a:hover,
+.nav-menu ul ul .menu-item-1495 a:hover {
+	background-color: #896377;
+	color: #301b28;
+}
+/* Personeel en Organisatie */
+ul.nav-menu ul .menu-item-1498 a:hover,
+.nav-menu ul ul .menu-item-1498 a:hover {
+	background-color: #d4be59;
+	color: #353206;
+}
+/* Ondernemerschap */
+ul.nav-menu ul .menu-item-1496 a:hover,
+.nav-menu ul ul .menu-item-1496 a:hover {
+	background-color: #a29c5a;
+	color: #2e300e;
+}
+/* Opleiden */
+ul.nav-menu ul .menu-item-1497 a:hover,
+.nav-menu ul ul .menu-item-1497 a:hover {
+	background-color: #688f8c;
+	color: #122a29;
+}
+/* Arbeidsmarkt */
+ul.nav-menu ul .menu-item-1494 a:hover,
+.nav-menu ul ul .menu-item-1494 a:hover {
+	background-color: #6d8293;
+	color: #17232b;
+}
+ul.nav-menu,
+div.nav-menu > ul {
+	margin: 0;
+	padding: 0 0.78125%;
+}
+.nav-menu li {
+	display: inline-block;
+	position: relative;
+}
+.nav-menu li a {
+	color: #fff;
+	display: block;
+	font-family: Roboto, sans-serif;
+	font-size: 0.875em; /* 14px */
+	font-weight: 400;
+	line-height: 1;
+	padding: 0.714em 1.429em; /* 10px 20px */
+	text-decoration: none;
+}
+.nav-menu li:hover > a,
+.nav-menu li a:hover {
+	/*background-color: #2e8d9e;
+	color: #00252d;*/
+}
+.nav-menu .sub-menu,
+.nav-menu .children {
+	background-color: #424244;
+	display: none;
+	padding: 0;
+	position: absolute;
+	z-index: 99999;
+}
+.nav-menu .sub-menu ul,
+.nav-menu .children ul {
+	left: 100%;
+	top: 0;
+}
+ul.nav-menu ul a,
+.nav-menu ul ul a {
+/*	color: #00252d;*/
+	margin: 0;
+	width: 200px;
+}
+/* Innovatie */
+ul.nav-menu ul .menu-item-991 a:hover,
+.nav-menu ul ul .menu-item-991 a:hover {
+	background-color: #896377;
+	color: #301b28;
+}
+ul.nav-menu ul a:hover,
+.nav-menu ul ul a:hover {
+	background-color: #db572f; /* deze optie wijzigen voor categoriekleuren! */
+}
+ul.nav-menu li:hover > ul,
+.nav-menu ul li:hover > ul {
+	display: block;
+}
+.nav-menu .current_page_item > a,
+.nav-menu .current-menu-item > a,
+.nav-menu .current-page-ancestor > a,
+.nav-menu .current-menu-ancestor > a {
+	background: url('/wp-content/themes/otib/img/cirkel.svg') no-repeat 10px 14px;
+}
+.nav-menu .current-menu-ancestor.innovatie > a {
+	background: url('/wp-content/themes/otib/img/cirkel-innovatie.svg') no-repeat 10px 14px;
+}
+.nav-menu .current-menu-ancestor.personeel-en-organisatie > a {
+	background: url('/wp-content/themes/otib/img/cirkel-personeel-en-organisatie.svg') no-repeat 10px 14px;
+}
+.nav-menu .current-menu-ancestor.ondernemerschap > a {
+	background: url('/wp-content/themes/otib/img/cirkel-ondernemerschap.svg') no-repeat 10px 14px;
+}
+.nav-menu .current-menu-ancestor.opleiden > a {
+	background: url('/wp-content/themes/otib/img/cirkel-opleiden.svg') no-repeat 10px 14px;
+}
+.nav-menu .current-menu-ancestor.arbeidsmarkt > a {
+	background: url('/wp-content/themes/otib/img/cirkel-arbeidsmarkt.svg') no-repeat 10px 14px;
+}
+.nav-menu .menu-item-has-children .current_page_item > a,
+.nav-menu .menu-item-has-children .current-menu-item > a {
+	background: none;
+}
+.menu-toggle {
+	display: none;
+}
+/* Draaitabel
+----------------------------------------------------------------------------------------------------*/
+.page-draaitabel h2 {
+	background: url('/wp-content/themes/otib/img/leerlingen.png') no-repeat 0 0;
+	background-size: 142px 50px;
+	color: #2E8D9E;
+	height: 50px;
+	width: 100%;
+	padding-left: 150px;
+	padding-top: 5px;
+	margin-bottom: 30px;
+}
+.page-draaitabel .entry-content h3 {
+	border-bottom: 1px solid #ccc;
+	font-size: 14px;
+	font-weight: 700;
+	line-height: 24px;
+	margin-bottom: 15px;
+}
+.page-draaitabel .entry-content ul {
+	margin-bottom: 20px;
+	padding-top: 10px;
+}
+.page-draaitabel .entry-content li {
+	list-style: none;
+}
+.page-draaitabel label {
+	color: #424244;
+	font-size: 13px;
+	line-height: 20px;
+	margin-bottom: 10px;
+	vertical-align: top;
+}
+.page-draaitabel .entry-content input {
+	color: #424244;
+	margin-bottom: 5px;
+	margin-top: 0;
+	margin-right: 10px;
+	vertical-align: bottom;
+}
+.page-draaitabel .entry-content input[type=submit],
+.page-draaitabel .entry-content input[type=reset] {
+	background: none;
+	border: none;
+	color: #424244;
+	font-family: Roboto, sans-serif;
+	font-size: 14px;
+	letter-spacing: 1px;
+	text-decoration: underline;
+}
+.page-draaitabel .entry-content input[type=submit] {
+	color: #2e8d9e;
+}
+.page-draaitabel .group {
+	display: none;
+}
+.page-draaitabel fieldset {
+	border: 1px solid #ccc;
+}
+.page-draaitabel fieldset fieldset {
+	border: none;
+	float: left;
+	margin: 10px 4% 0;
+}
+.page-draaitabel .entry-content fieldset fieldset ul {
+	margin-bottom: 0;
+}
+.page-draaitabel fieldset fieldset li {
+	margin-left: 0;
+}
+.page-draaitabel .gender li {
+	display: inline-block;
+	margin-right: 1%;
+	text-align: center;
+	padding-top: 100px;
+}
+.page-draaitabel .gender:hover {
+	cursor: pointer;
+}
+.page-draaitabel .gender input {
+	display: none;
+}
+.page-draaitabel .gender label {
+	display: block;
+}
+.page-draaitabel .man-vrouw.licht {
+	background: url('/wp-content/themes/otib/img/man-vrouw-licht.png') no-repeat;
+	background-size: 57px 100px;
+	background-position: top center;
+	min-width: 57px;
+	margin-right: 70px;
+}
+.page-draaitabel .man.licht {
+	background: url('/wp-content/themes/otib/img/man-licht.png') no-repeat;
+	background-size: 39px 100px;
+	background-position: top center;
+}
+.page-draaitabel .vrouw.licht {
+	background: url('/wp-content/themes/otib/img/vrouw-licht.png') no-repeat;
+	background-size: 40px 100px;
+	background-position: top center;
+}
+.page-draaitabel .man-vrouw.donker {
+	background: url('/wp-content/themes/otib/img/man-vrouw-donker.png') no-repeat;
+	background-size: 57px 100px;
+	background-position: top center;
+}
+.page-draaitabel .man.donker {
+	background: url('/wp-content/themes/otib/img/man-donker.png') no-repeat;
+	background-size: 39px 100px;
+	background-position: top center;
+}
+.page-draaitabel .vrouw.donker {
+	background: url('/wp-content/themes/otib/img/vrouw-donker.png') no-repeat;
+	background-size: 40px 100px;
+	background-position: top center;
+}
+.page-draaitabel .ui-slider-horizontal.ui-slider-pips {
+	margin: 1.25em 1.25em 2.5em 1.25em;
+}
+.page-draaitabel .periode li{
+	display: inline-block;
+}
+.page-draaitabel .regio,
+.page-draaitabel .kaart {
+	display: inline-block;
+}
+.page-draaitabel .regio ul label {
+	display: inline-block;
+}
+.page-draaitabel .vakgebied li {
+	background-repeat: no-repeat;
+	display: inline-block;
+	margin: 0 10px 0 0;
+	text-align: center;
+	padding-top: 89px;
+	width: 120px;
+}
+.page-draaitabel .vakgebied:hover {
+	cursor: pointer;
+}
+.page-draaitabel .vakgebied input {
+	display: none;
+}
+.page-draaitabel .vakgebied label {
+	display: block;
+}
+.page-draaitabel .vakgebied li.alle-vakgebieden {
+	margin-right: 70px;
+}
+.page-draaitabel .alle-vakgebieden {
+	background-image: url('/wp-content/themes/otib/img/bedrijf-alle-vakgebieden-licht.png');
+	background-size: 122px 79px;
+}
+.page-draaitabel .electrotechniek {
+	background-image: url('/wp-content/themes/otib/img/bedrijf-electrotechniek-licht.png');
+	background-size: 100px 79px;
+	background-position: 20px 0;
+}
+.page-draaitabel .installatietechniek {
+	background-image: url('/wp-content/themes/otib/img/bedrijf-installatietechniek-licht.png');
+	background-size: 100px 79px;
+}
+.page-draaitabel .koeltechniek {
+	background-image: url('/wp-content/themes/otib/img/bedrijf-koeltechniek-licht.png');
+	background-size: 100px 79px;
+	background-position: 10px 0;
+}
+.page-draaitabel .alle-vakgebieden.donker {
+	background-image: url('/wp-content/themes/otib/img/bedrijf-alle-vakgebieden-donker.png');
+}
+.page-draaitabel .electrotechniek.donker {
+	background-image: url('/wp-content/themes/otib/img/bedrijf-electrotechniek-donker.png');
+}
+.page-draaitabel .installatietechniek.donker {
+	background-image: url('/wp-content/themes/otib/img/bedrijf-installatietechniek-donker.png');
+}
+.page-draaitabel .koeltechniek.donker {
+	background-image: url('/wp-content/themes/otib/img/bedrijf-koeltechniek-donker.png');
+}
+.page-draaitabel .check {
+	color: #00d900;
+	display: none;
+}
+.page-draaitabel .false {
+	color: #ff0000;
+	display: none;
+}
+.page-draaitabel .periode {
+	display: none;
+}
+.page-template-page-draaitabel-beroepspraktijkvorming .regio,
+.page-template-page-draaitabel-beroepspraktijkvorming .niveau,
+.page-template-page-draaitabel-beroepspraktijkvorming .overeenkomsten,
+.page-template-page-draaitabel-bedrijven .bedrijfsgrootte,
+.page-template-page-draaitabel-leerlingen .regio,
+.page-template-page-draaitabel-werknemers .regio,
+.page-template-page-draaitabel-werknemers .bedrijfsgrootte,
+.page-template-page-draaitabel-werknemers .leeftijden,
+.page-template-page-draaitabel-werknemers .functies {
+	margin-bottom: 20px;
+}
+.page-template-page-draaitabel-beroepspraktijkvorming .ui-slider-pips.ui-slider-horizontal {
+	margin: 40px 40px 60px 40px;
+}
+.page-template-page-draaitabel-beroepspraktijkvorming .ui-slider-pips .ui-slider-label {
+	margin-left: -32px;
+}
+.page-draaitabel label {
+	display: block;
+}
+label.noord-nederland {
+	color: #cbb65c;
+}
+label.gelderland-overijssel {
+	color: #5A8885;
+}
+label.midden-nederland {
+	color: #5E788E;
+}
+label.noord-holland {
+	color: #A05739;
+}
+label.zuid-holland {
+	color: #896377;
+}
+label.zuid-nederland {
+	color: #A39D59;
+}
+/* Slider
+----------------------------------------------------------------------------------------------------*/
+.rsSlide h2 {
+	margin-bottom: 0.714em; /* 10px */
+}
+.rsDefault,
+.rsDefault .rsOverflow,
+.rsDefault .rsSlide,
+.rsDefault .rsVideoFrameHolder,
+.rsDefault .rsThumbs {
+	background: #fff;
+}
+.block .rsBullets {
+	position: absolute;
+	z-index: 35;
+	left: 0;
+	bottom: 0;
+	width: 95.4545%;
+	height: auto;
+	margin: 10px 2.27273%; 
+
+	background: #fff;
+
+	text-align: left;
+	line-height: 8px;
+	overflow: hidden;
+}
+.block .rsBullet {
+	width: 8px;
+	height: 8px;
+	display: inline-block;
+	*display:inline; 
+	*zoom:1;
+	padding: 0 6px 5px 6px;
+}
+.block .rsBullet span {
+	display: block;
+	width: 8px;
+	height: 8px;
+	border-radius: 50%;
+	background: #ccc;
+}
+.block .rsBullet.rsNavSelected span {
+	background-color: #424244;
+}
+.rsDefault img.alignright {
+	height: auto;
+	margin: 0 0 .769em .769em;
+	width: 40%;
+}
