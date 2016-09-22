@@ -1,10 +1,10 @@
 /*
-Theme Name: OTIB
+Theme Name: Trendfiles
 Theme URI: http://trendfiles.otib.nl
 Author: Johan van der Wijk
 Author URI: http://vanderwijk.nl
 Description: OTIB trendfiles WordPress theme.
-Version: 1.0
+Version: 1.1
 */
 
 /* Reset
@@ -151,7 +151,7 @@ small {
 	width: 20%; /* 264px */
 }
 .col.two-thirds {
-	width: 66.666666666666666%; /* 880px */
+	width: 66.666666666666667%; /* 880px */
 }
 .block {
 	float: left;
@@ -183,8 +183,47 @@ small {
 }
 .two-thirds .block {
 	margin: 1.25%; /* 10px */
-	padding: 1.25%; /* 10px */	
+	padding: 1.25%; /* 10px */
 	width: 97.5%; /* 420px */
+}
+
+.flex {
+	display: flex;
+	flex-wrap: wrap;
+}
+.flex .one-third,
+.flex .two-thirds {
+	 display: flex;
+}
+/* Responsive video
+----------------------------------------------------------------------------------------------------*/
+.videowrapper {
+	position: relative;
+	padding-bottom: 56.25%; /* 16:9 */
+	height: 0;
+	margin-bottom: 10px;
+}
+.videowrapper iframe {
+	position: absolute;
+	top: 0;
+	left: 0;
+	width: 100%;
+	height: 100%;
+}
+/* Kaart
+----------------------------------------------------------------------------------------------------*/
+.home .map {
+	float: left;
+	margin-right: 20px;
+}
+.home .regio {
+	display: none;
+}
+#custom_post_widget-12 p {
+	margin-bottom: 0;
+}
+#custom_post_widget-12 ul {
+	margin-bottom: 10px;
 }
 /* Grid styles
 ----------------------------------------------------------------------------------------------------*/
@@ -230,8 +269,11 @@ small {
 }
 .one-third .block .category,
 .one-third .block .category-link {
-	margin-bottom: 2.513%; /* 10px */
 	margin-bottom: 5.026%; /* 20px */
+}
+.two-thirds .block .category,
+.two-thirds .block .category-link {
+	margin-bottom: 2.513%; /* 20px */
 }
 /*.block .header,*/
 .block .intro {
@@ -256,6 +298,7 @@ small {
 /* Homepage
 ----------------------------------------------------------------------------------------------------*/
 .home .one-third .block,
+.home .two-thirds .block,
 .archive .one-third .block,
 .search .one-third .block {
 	border: 1px solid #ddd;
@@ -317,7 +360,8 @@ small {
 .single .article .block a.category {
 	text-decoration: none;
 }
-.category-innovatie .category {
+.category-innovatie .category,
+.nieuws.category {
 	border-bottom: 4px solid #896377;
 	color: #896377;
 }
@@ -325,7 +369,8 @@ small {
 	border-bottom: 4px solid #d4be59;
 	color: #d4be59;
 }
-.category-ondernemerschap .category {
+.category-ondernemerschap .category,
+.factsheets.category {
 	border-bottom: 4px solid #a29c5a;
 	color: #a29c5a;
 }
@@ -333,7 +378,8 @@ small {
 	border-bottom: 4px solid #688f8c;
 	color: #688f8c;
 }
-.category-arbeidsmarkt .category {
+.category-arbeidsmarkt .category,
+.infographics.category {
 	border-bottom: 4px solid #6d8293;
 	color: #6d8293;
 }
@@ -1071,7 +1117,7 @@ label.zuid-nederland {
 	bottom: 0;
 	width: 95.4545%;
 	height: auto;
-	margin: 10px 2.27273%; 
+	margin: 10px 2.27273%;
 
 	background: #fff;
 
@@ -1083,7 +1129,7 @@ label.zuid-nederland {
 	width: 8px;
 	height: 8px;
 	display: inline-block;
-	*display:inline; 
+	*display:inline;
 	*zoom:1;
 	padding: 0 6px 5px 6px;
 }

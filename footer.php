@@ -18,7 +18,13 @@
 					</div>
 					<?php if ( !is_front_page() ) { ?>
 					<div class="pagination">
-						<?php if ( function_exists ( 'wp_pagenavi' ) ) { wp_pagenavi(); } ?>
+						<?php $paginate_args = array(
+							'show_all'           => true,
+							'prev_next'          => true,
+							'prev_text'          => __('Vorige |'),
+							'next_text'          => __('| Volgende')
+						);
+						echo paginate_links( $paginate_args ); ?>
 					</div>
 					<?php } ?>
 				</div>
