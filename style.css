@@ -519,7 +519,7 @@ small {
 .alignnone,
 .alignleft,
 .alignright,
-.single .block img {
+.block img {
 	max-width: 100%;
 	height: auto;
 }
