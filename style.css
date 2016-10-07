@@ -143,6 +143,7 @@ small {
 }
 .col.one-third {
 	width: 33.333333333333333%; /* 440px */
+	width: 33.3%; /* Safari 10 bugfix  */
 }
 .col.one-fourth {
 	width: 25%; /* 315px */
