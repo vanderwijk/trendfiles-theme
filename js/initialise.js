@@ -25,4 +25,15 @@ jQuery(document).ready(function($) {
 		}
 	});
 
+	$('.entry-title').click(function(){
+			//$(this).parent().parent().next( '.collapsible' ).toggle();
+			$(this).parent().parent().nextAll('.col').slice(0, 3).toggle();
+			$(this).toggleClass('collapsed');
+	});
+
+	function hideGraphs(){
+		$('.post-1510 .col.delayed').hide();
+	}
+	setTimeout(hideGraphs, 1500);
+
 });

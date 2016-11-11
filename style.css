@@ -358,6 +358,18 @@ small {
 	padding: 0 0 5px 0;
 	text-transform: uppercase;
 }
+.page .entry-title.collapsed {
+	border-bottom: 4px solid #939598;
+	color: #939598;
+	cursor: pointer;
+}
+.page .entry-title.collapsed:after {
+	margin-left: 10px;
+	content: '▼';
+}
+.hide {
+	display: none;
+}
 .single .article .block a.category {
 	text-decoration: none;
 }
