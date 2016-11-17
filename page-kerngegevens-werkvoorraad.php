@@ -608,28 +608,11 @@ get_header(); ?>
 
 <?php while ( have_posts() ) : the_post(); ?>
 <article id="post-<?php the_ID(); ?>" <?php post_class('article'); ?>>
-	<div class="row">
-		<div class="col">
-			<header class="block header">
-				<h1 class="entry-title"><?php the_title(); ?><span style="color:#424244;font-size:13px;text-transform:none;font-family:'Droid Sans',sans-serif;font-weight:200;float:right;">Bijgewerkt op 11-11-2016</span></h1>
-			</header>
-		</div>
-		<div class="col">
-			<div class="block entry-content">
-				<?php the_content(); ?>
-			</div>
-		</div>
-	</div>
-
-<style>
-.collapsible {}
-</style>
-
 
 	<div class="row">
 		<div class="col">
 			<header class="block header">
-				<h1 class="entry-title">Conjunctuurgegevens</h1>
+				<h1 class="entry-title">Conjunctuurgegevens kwartaal 4 2016</h1>
 			</header>
 		</div>
 			<div class="col one-third">
@@ -648,6 +631,33 @@ get_header(); ?>
 				</div>
 			</div>
 		</div>
+
+	<div class="row">
+		<div class="col">
+			<header class="block header">
+				<h1 class="entry-title"><?php the_title(); ?><span style="color:#424244;font-size:13px;text-transform:none;font-family:'Droid Sans',sans-serif;font-weight:200;float:right;">Bijgewerkt op 11-11-2016</span></h1>
+			</header>
+		</div>
+		<div class="col">
+			<div class="block entry-content">
+				<?php the_content(); ?>
+			</div>
+		</div>
+	</div>
+
+	<div class="row">
+		<div class="col">
+			<header class="block header">
+				<h1 class="entry-title">Marktomvang 2014</h1>
+			</header>
+		</div>
+		<div class="col">
+			<div class="block entry-content">
+				<p>Installatiebedrijven aangesloten bij Uneto-Vni zijn in 2014 bij elkaar goed voor circa 12,7 miljard euro omzet, bijna gelijk als het jaar daarvoor. Deze cijfers zijn gebaseerd op de meest recente jaarrekeningen van de aangesloten bedrijven. In omzet vertegenwoordigen de bij Uneto-Vni aangesloten bedrijven circa negentig procent van de markt. Gemeten naar het aantal werknemers is dat tachtig procent. De aangesloten bedrijven bieden aan bijna 100.000 personen werkgelegenheid.</p>
+				<p>Voor meer details:</p>
+			</div>
+		</div>
+	</div>
 
 
 	<div class="row">
