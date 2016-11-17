@@ -45,14 +45,10 @@ get_header(); ?>
 			legend: { position: 'bottom' },
 			colors: [ '#888d91', '#4e4d26', '#a39d5b','#f5821f','#8f4a02' ],
 			isStacked: true,
-			height: 600,
-			animation: {
+			height: 500,
+			animation:{
 				duration: 1000,
 				easing: 'out',
-			},
-			vAxis: {
-				minValue: 0,
-				maxValue: 900
 			},
 		};
 
@@ -61,14 +57,10 @@ get_header(); ?>
 			legend: { position: 'bottom' },
 			colors: [ '#888d91', '#4e4d26', '#a39d5b','#f5821f','#8f4a02' ],
 			isStacked: true,
-			height: 600,
-			animation: {
+			height: 500,
+			animation:{
 				duration: 1000,
 				easing: 'out',
-			},
-			vAxis: {
-				minValue: 0,
-				maxValue: 900
 			},
 		};
 
@@ -77,14 +69,10 @@ get_header(); ?>
 			legend: { position: 'bottom' },
 			colors: [ '#888d91', '#4e4d26', '#a39d5b','#f5821f','#8f4a02' ],
 			isStacked: true,
-			height: 600,
-			animation: {
+			height: 500,
+			animation:{
 				duration: 1000,
 				easing: 'out',
-			},
-			vAxis: {
-				minValue: 0,
-				maxValue: 900
 			},
 		};
 
@@ -93,14 +81,10 @@ get_header(); ?>
 			legend: { position: 'bottom' },
 			colors: [ '#888d91', '#4e4d26', '#a39d5b','#f5821f','#8f4a02' ],
 			isStacked: true,
-			height: 600,
-			animation: {
+			height: 500,
+			animation:{
 				duration: 1000,
 				easing: 'out',
-			},
-			vAxis: {
-				minValue: 0,
-				maxValue: 900
 			},
 		};
 
