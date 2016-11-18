@@ -52,7 +52,7 @@ get_header(); ?>
 			},
 			vAxis: {
 				minValue: 0,
-				maxValue: 900
+				maxValue: 1000
 			},
 		};
 
@@ -68,7 +68,7 @@ get_header(); ?>
 			},
 			vAxis: {
 				minValue: 0,
-				maxValue: 900
+				maxValue: 1000
 			},
 		};
 
@@ -84,7 +84,7 @@ get_header(); ?>
 			},
 			vAxis: {
 				minValue: 0,
-				maxValue: 900
+				maxValue: 200
 			},
 		};
 
@@ -100,7 +100,7 @@ get_header(); ?>
 			},
 			vAxis: {
 				minValue: 0,
-				maxValue: 900
+				maxValue: 200
 			},
 		};
 
