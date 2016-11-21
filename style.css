@@ -1161,3 +1161,39 @@ label.zuid-nederland {
 	margin: 0 0 .769em .769em;
 	width: 40%;
 }
+
+.chart {
+	position: relative;
+}
+.chart .overlay {
+	background-size: cover;
+	height: 100%;
+	position: absolute;
+	width: 100%;
+	z-index: 1;
+}
+.chart .overlay.technische-staf {
+	background-image: url( '/wp-content/themes/trendfiles-theme/img/technische-staf.png' );
+}
+.chart .overlay.overige-functies {
+	background-image: url( '/wp-content/themes/trendfiles-theme/img/overige-functies.png' );
+}
+.chart .overlay.zelfstandig-monteur {
+	background-image: url( '/wp-content/themes/trendfiles-theme/img/zelfstandig-monteur.png' );
+}
+.chart .overlay.leerling-monteur {
+	background-image: url( '/wp-content/themes/trendfiles-theme/img/leerling-monteur.png' );
+}
+button {
+	margin: 0 15px 15px 0;
+	background-color: #2e8d9e;
+	border-radius: 3px;
+	border: 1px solid #2e8d9e;
+	color: #fff;
+		font-family: 'Droid Sans', sans-serif;
+		padding: 5px 10px;
+}
+button:active {
+	position: relative;
+	top: 1px;
+}

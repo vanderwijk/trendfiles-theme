@@ -106,18 +106,31 @@ get_header(); ?>
 
 		var chart1a = new google.visualization.ColumnChart( document.getElementById( 'chart1a' ) );
 		chart1a.draw( leerlingMonteurNederland, optionsLeerlingMonteur );
+		jQuery( '.chart .overlay' ).attr( 'class', 'overlay leerling-monteur' );
 
 		document.getElementById( 'leerlingMonteur' ).onclick = function() {
 			chart1a.draw( leerlingMonteurNederland, optionsLeerlingMonteur );
+			jQuery( '.chart .overlay' ).fadeOut( 'fast', function() {
+				jQuery( '.chart .overlay' ).attr( 'class', 'overlay leerling-monteur' ).fadeIn( 'slow' );
+			});
 		}
 		document.getElementById( 'zelfstandigMonteur' ).onclick = function() {
 			chart1a.draw( zelfstandigMonteurNederland, optionsZelfstandigMonteur );
+			jQuery( '.chart .overlay' ).fadeOut( 'fast', function() {
+				jQuery( '.chart .overlay' ).attr( 'class', 'overlay zelfstandig-monteur' ).fadeIn( 'slow' );
+			});
 		}
 		document.getElementById( 'technischeStaf' ).onclick = function() {
 			chart1a.draw( technischeStafNederland, optionsTechnischeStaf );
+			jQuery( '.chart .overlay' ).fadeOut( 'fast', function() {
+				jQuery( '.chart .overlay' ).attr( 'class', 'overlay technische-staf' ).fadeIn( 'slow' );
+			});
 		}
 		document.getElementById( 'overigeFuncties' ).onclick = function() {
 			chart1a.draw( overigeFunctiesNederland, optionsOverigeFuncties );
+			jQuery( '.chart .overlay' ).fadeOut( 'fast', function() {
+				jQuery( '.chart .overlay' ).attr( 'class', 'overlay overige-functies' ).fadeIn( 'slow' );
+			});
 		}
 
 }
@@ -134,7 +147,8 @@ get_header(); ?>
 			</header>
 		</div>
 			<div class="col two-thirds">
-				<div class="block">
+				<div class="block chart">
+					<div class="overlay"></div>
 					<div id="chart1a"></div>
 				</div>
 			</div>
