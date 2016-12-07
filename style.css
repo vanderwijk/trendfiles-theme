@@ -1170,7 +1170,6 @@ label.zuid-nederland {
 	height: 100%;
 	position: absolute;
 	width: 100%;
-	z-index: 1;
 }
 .chart .overlay.technische-staf {
 	background-image: url( '/wp-content/themes/trendfiles-theme/img/technische-staf.png' );

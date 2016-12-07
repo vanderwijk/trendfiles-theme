@@ -45,6 +45,7 @@ get_header(); ?>
 			legend: { position: 'bottom' },
 			colors: [ '#888d91', '#4e4d26', '#a39d5b','#f5821f','#8f4a02' ],
 			isStacked: true,
+			backgroundColor: 'transparent',
 			height: 600,
 			animation: {
 				duration: 1000,
@@ -61,6 +62,7 @@ get_header(); ?>
 			legend: { position: 'bottom' },
 			colors: [ '#888d91', '#4e4d26', '#a39d5b','#f5821f','#8f4a02' ],
 			isStacked: true,
+			backgroundColor: 'transparent',
 			height: 600,
 			animation: {
 				duration: 1000,
@@ -77,6 +79,7 @@ get_header(); ?>
 			legend: { position: 'bottom' },
 			colors: [ '#888d91', '#4e4d26', '#a39d5b','#f5821f','#8f4a02' ],
 			isStacked: true,
+			backgroundColor: 'transparent',
 			height: 600,
 			animation: {
 				duration: 1000,
@@ -93,6 +96,7 @@ get_header(); ?>
 			legend: { position: 'bottom' },
 			colors: [ '#888d91', '#4e4d26', '#a39d5b','#f5821f','#8f4a02' ],
 			isStacked: true,
+			backgroundColor: 'transparent',
 			height: 600,
 			animation: {
 				duration: 1000,
