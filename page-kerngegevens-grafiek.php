@@ -138,6 +138,13 @@ get_header(); ?>
 		}
 
 }
+
+jQuery(function($) {
+	$( ".button" ).click( function() {
+		$( ".button" ).removeClass( "active" );
+		$( this ).addClass( "active" );
+	});
+});
 </script>
 
 
@@ -158,10 +165,10 @@ get_header(); ?>
 			</div>
 			<div class="col one-third">
 				<div class="block">
-					<button id="leerlingMonteur">Leerling Monteur</button>
-					<button id="zelfstandigMonteur">Zelfstandig Monteur</button>
-					<button id="technischeStaf">Technische Staf</button>
-					<button id="overigeFuncties">Overige functies</button>
+					<button id="leerlingMonteur" class="button">Leerling Monteur</button>
+					<button id="zelfstandigMonteur" class="button">Zelfstandig Monteur</button>
+					<button id="technischeStaf" class="button">Technische Staf</button>
+					<button id="overigeFuncties" class="button">Overige functies</button>
 				</div>
 			</div>
 			<div class="col">
