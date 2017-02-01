@@ -109,15 +109,15 @@ function include_scripts_styles () {
 		wp_register_script( 'magnific-popup-config', get_template_directory_uri() . '/js/magnific-popup/magnific-popup.js', array( 'magnific-popup' ), '1.0', true );
 		wp_register_script( 'fitvids', get_template_directory_uri() . '/js/jquery.fitvids.js', array( 'jquery' ), '1.1', true );
 		wp_register_script( 'fitvids-config', get_template_directory_uri() . '/js/fitvids/fitvids.js', array( 'fitvids' ), '1.0', true );
-		wp_register_script( 'map', '/wp-content/themes/otib/js/map.js', array( 'jquery' ), '1.0', true );
-		wp_register_script( 'map-draaitabel', '/wp-content/themes/otib/js/map-draaitabel.js', array( 'jquery' ), '1.0', true );
+		wp_register_script( 'map', get_template_directory_uri() . '/js/map.js', array( 'jquery' ), '1.0', true );
+		wp_register_script( 'map-draaitabel', get_template_directory_uri() . '/js/map-draaitabel.js', array( 'jquery' ), '1.0', true );
 		wp_register_script( 'jquery-ui', '//code.jquery.com/ui/1.10.4/jquery-ui.js', array( 'jquery' ), '1.10.4', true );
-		wp_register_script( 'jquery-ui-slider-pips', '/wp-content/themes/otib/js/slider-pips/jquery-ui-slider-pips.min.js', array( 'jquery-ui' ), '1.5.5', true );
+		wp_register_script( 'jquery-ui-slider-pips', get_template_directory_uri() . '/js/slider-pips/jquery-ui-slider-pips.min.js', array( 'jquery-ui' ), '1.5.5', true );
 
-		wp_register_script( 'draaitabel-bedrijven', '/wp-content/themes/otib/js/draaitabel-bedrijven.js', array( 'jquery' ), '1.0', true );
-		wp_register_script( 'draaitabel-leerlingen', '/wp-content/themes/otib/js/draaitabel-leerlingen.js', array( 'jquery' ), '1.0', true );
-		wp_register_script( 'draaitabel-werknemers', '/wp-content/themes/otib/js/draaitabel-werknemers.js', array( 'jquery' ), '1.1', true );
-		wp_register_script( 'draaitabel-beroepspraktijkvorming', '/wp-content/themes/otib/js/draaitabel-beroepspraktijkvorming.js', array( 'jquery' ), '1.0', true );
+		wp_register_script( 'draaitabel-bedrijven', get_template_directory_uri() . '/js/draaitabel-bedrijven.js', array( 'jquery' ), '1.0', true );
+		wp_register_script( 'draaitabel-leerlingen', get_template_directory_uri() . '/js/draaitabel-leerlingen.js', array( 'jquery' ), '1.0', true );
+		wp_register_script( 'draaitabel-werknemers', get_template_directory_uri() . '/js/draaitabel-werknemers.js', array( 'jquery' ), '1.1', true );
+		wp_register_script( 'draaitabel-beroepspraktijkvorming', get_template_directory_uri() . '/js/draaitabel-beroepspraktijkvorming.js', array( 'jquery' ), '1.0', true );
 
 		if ( is_front_page() ) {
 			wp_enqueue_style( 'royalslider-default' );

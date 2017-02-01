@@ -87,7 +87,7 @@ jQuery(document).ready(function($) {
 	// Stap 7: Jaar
 	var options = {
 		change: updateSlider,
-		max: 2016,
+		max: 2017,
 		min: 2009,
 		step: 1,
 		range: true,
@@ -167,6 +167,12 @@ jQuery(document).ready(function($) {
 			$("#2016").prop('checked', false);
 		} else {
 			$("#2016").prop('checked', true);
+		}
+
+		if (jQuery.inArray(2017, jaren) === -1) {
+			$("#2017").prop('checked', false);
+		} else {
+			$("#2017").prop('checked', true);
 		}
 
 	}
