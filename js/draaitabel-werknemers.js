@@ -87,17 +87,17 @@ jQuery(document).ready(function($) {
 	// Stap 7: Jaar
 	var options = {
 		change: updateSlider,
-		max: 2016,
-		min: 2009,
+		max: 2017,
+		min: 2010,
 		step: 1,
 		range: true,
-		values: [ 2009, 2010 ]
+		values: [ 2010, 2011 ]
 	}
 	var $slider = $("#periode").slider(options);
-	
+
 	// Pips voor labels
-	$slider.slider("pips", { 
-		 rest: "label",  
+	$slider.slider("pips", {
+		 rest: "label",
 	});
 
 	function updateSlider(e, ui) {
@@ -144,7 +144,7 @@ jQuery(document).ready(function($) {
 		} else {
 			$("#2012").prop('checked', true);
 		}
-		
+
 		if (jQuery.inArray(2013, jaren) === -1) {
 			$("#2013").prop('checked', false);
 		} else {
@@ -167,6 +167,12 @@ jQuery(document).ready(function($) {
 			$("#2016").prop('checked', false);
 		} else {
 			$("#2016").prop('checked', true);
+		}
+
+		if (jQuery.inArray(2017, jaren) === -1) {
+			$("#2017").prop('checked', false);
+		} else {
+			$("#2017").prop('checked', true);
 		}
 
 	}

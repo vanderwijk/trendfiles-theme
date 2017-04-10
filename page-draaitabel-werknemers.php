@@ -117,14 +117,14 @@ get_header(); ?>
 					<p>Sleep de balkjes om de tijdsperiode te selecteren</p>
 					<div id="periode"></div>
 					<ul class="periode">
-						<li><label><input type="checkbox" id="2009" value="2009" name="jaar_id[]" checked>2009</label></li>
-						<li><label><input type="checkbox" id="2010" value="2010" name="jaar_id[]">2010</label></li>
+						<li><label><input type="checkbox" id="2010" value="2010" name="jaar_id[]" checked>2010</label></li>
 						<li><label><input type="checkbox" id="2011" value="2011" name="jaar_id[]">2011</label></li>
 						<li><label><input type="checkbox" id="2012" value="2012" name="jaar_id[]">2012</label></li>
 						<li><label><input type="checkbox" id="2013" value="2013" name="jaar_id[]">2013</label></li>
 						<li><label><input type="checkbox" id="2014" value="2014" name="jaar_id[]">2014</label></li>
 						<li><label><input type="checkbox" id="2015" value="2015" name="jaar_id[]">2015</label></li>
 						<li><label><input type="checkbox" id="2016" value="2016" name="jaar_id[]">2016</label></li>
+						<li><label><input type="checkbox" id="2017" value="2017" name="jaar_id[]">2017</label></li>
 					</ul>
 					<input type="submit" name="submit" value="Zoeken">
 					<input type="submit" name="export" value="Exporteer naar Excel" id="exp">

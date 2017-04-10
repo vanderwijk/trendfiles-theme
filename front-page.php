@@ -11,7 +11,7 @@
 			<?php
 				$video_args = array(
 					'numberposts' => 1,
-					'category' => 25
+					'category_name' => 'video'
 				);
 				$video_posts = get_posts( $video_args );
 				foreach( $video_posts as $post ) {
@@ -40,7 +40,7 @@
 			<?php
 				$article_args = array(
 					'numberposts' => 2,
-					'category' => 24
+					'category_name' => 'artikelen'
 				);
 				$article_posts = get_posts( $article_args );
 

@@ -143,6 +143,7 @@ small {
 }
 .col.one-third {
 	width: 33.333333333333333%; /* 440px */
+	width: 33.3%; /* Safari 10 bugfix  */
 }
 .col.one-fourth {
 	width: 25%; /* 315px */
@@ -357,6 +358,18 @@ small {
 	padding: 0 0 5px 0;
 	text-transform: uppercase;
 }
+.page .entry-title.collapsed {
+	border-bottom: 4px solid #939598;
+	color: #939598;
+	cursor: pointer;
+}
+.page .entry-title.collapsed:after {
+	margin-left: 10px;
+	content: '▼';
+}
+.hide {
+	display: none;
+}
 .single .article .block a.category {
 	text-decoration: none;
 }
@@ -519,7 +532,7 @@ small {
 .alignnone,
 .alignleft,
 .alignright,
-.single .block img {
+.block img {
 	max-width: 100%;
 	height: auto;
 }
@@ -1147,4 +1160,39 @@ label.zuid-nederland {
 	height: auto;
 	margin: 0 0 .769em .769em;
 	width: 40%;
+}
+
+.chart {
+	position: relative;
+}
+.chart .overlay {
+	background-size: cover;
+	height: 100%;
+	position: absolute;
+	width: 100%;
+}
+.chart .overlay.technische-staf {
+	background-image: url( '/wp-content/themes/trendfiles-theme/img/technische-staf.png' );
+}
+.chart .overlay.overige-functies {
+	background-image: url( '/wp-content/themes/trendfiles-theme/img/overige-functies.png' );
+}
+.chart .overlay.zelfstandig-monteur {
+	background-image: url( '/wp-content/themes/trendfiles-theme/img/zelfstandig-monteur.png' );
+}
+.chart .overlay.leerling-monteur {
+	background-image: url( '/wp-content/themes/trendfiles-theme/img/leerling-monteur.png' );
+}
+button {
+	margin: 0 15px 15px 0;
+	background-color: #2e8d9e;
+	border-radius: 3px;
+	border: 1px solid #2e8d9e;
+	color: #fff;
+		font-family: 'Droid Sans', sans-serif;
+		padding: 5px 10px;
+}
+button:active {
+	position: relative;
+	top: 1px;
 }

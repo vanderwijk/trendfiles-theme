@@ -31,10 +31,11 @@ screen and (device-width: 360px) and (device-height: 640px) and (-webkit-device-
 	.col.one-fifth {
 		width: 50%;
 	}
-	.block {
-		margin: 2.27273%;
-		padding: 2.27273%;
-		width: 95.4545%;
+	.block,
+	.col.two-thirds .block {
+		margin: 2.272727272727273%; /* 10px */
+		padding: 2.272727272727273%; /* 10px */
+		width: 95.45454545454545%; /* 420px */
 	}
 	.header .logo-trendfiles {
 		font-size: 0.781em;
