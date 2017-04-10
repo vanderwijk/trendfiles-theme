@@ -16,11 +16,19 @@ get_header(); ?>
 		// 0a: Omzetverwachting
 		var data0a = google.visualization.arrayToDataTable([
 			['Periode', 'Vorig kwartaal', 'Huidig kwartaal' ],
+<<<<<<< HEAD
 			['< 5%', 5, 3 ],
 			['≤ 2,5%', 2, 6 ],
 			['< 2,5%', 27, 42 ],
 			['≥ 2,5%', 20, 35 ],
 			['> 5%', 45, 14 ],
+=======
+			['< 5%', 5, 4 ],
+			['≤ 2,5%', 5, 10 ],
+			['< 2,5%', 42, 32 ],
+			['≥ 2,5%', 22, 22 ],
+			['> 5%', 23, 31 ],
+>>>>>>> origin/master
 		]);
 
 		var view = new google.visualization.DataView(data0a);
@@ -53,9 +61,15 @@ get_header(); ?>
 		// 0b: Aantal monteurs in loondienst
 		var data0b = google.visualization.arrayToDataTable([
 			['Periode', 'Vorig kwartaal', 'Huidig kwartaal' ],
+<<<<<<< HEAD
 			['dalen', 0, 3 ],
 			['gelijk', 50, 45 ],
 			['stijgen', 49, 51 ],
+=======
+			['dalen', 5, 6 ],
+			['gelijk', 59, 51 ],
+			['stijgen', 38, 45 ],
+>>>>>>> origin/master
 		]);
 
 		var view = new google.visualization.DataView(data0b);
@@ -89,9 +103,15 @@ get_header(); ?>
 		// 0c: Aantal inleners
 		var data0c = google.visualization.arrayToDataTable([
 			['Periode', 'Vorig kwartaal', 'Huidig kwartaal' ],
+<<<<<<< HEAD
 			['dalen', 11, 9 ],
 			['gelijk', 28, 45 ],
 			['stijgen', 62, 45 ],
+=======
+			['dalen', 10, 12 ],
+			['gelijk', 50, 38 ],
+			['stijgen', 40, 49 ],
+>>>>>>> origin/master
 		]);
 
 		var view = new google.visualization.DataView(data0c);
@@ -612,7 +632,11 @@ get_header(); ?>
 	<div class="row">
 		<div class="col">
 			<header class="block header">
+<<<<<<< HEAD
 				<h1 class="entry-title">Conjunctuurgegevens kwartaal 1 2017</h1>
+=======
+				<h1 class="entry-title">Conjunctuurgegevens kwartaal 4 2016</h1>
+>>>>>>> origin/master
 			</header>
 		</div>
 			<div class="col one-third">
@@ -635,7 +659,11 @@ get_header(); ?>
 	<div class="row">
 		<div class="col">
 			<header class="block header">
+<<<<<<< HEAD
 				<h1 class="entry-title"><?php the_title(); ?><span style="color:#424244;font-size:13px;text-transform:none;font-family:'Droid Sans',sans-serif;font-weight:200;float:right;">Bijgewerkt op 11-02-2017</span></h1>
+=======
+				<h1 class="entry-title"><?php the_title(); ?><span style="color:#424244;font-size:13px;text-transform:none;font-family:'Droid Sans',sans-serif;font-weight:200;float:right;">Bijgewerkt op 11-11-2016</span></h1>
+>>>>>>> origin/master
 			</header>
 		</div>
 		<div class="col">
