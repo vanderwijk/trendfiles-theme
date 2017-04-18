@@ -113,7 +113,9 @@ function include_scripts_styles () {
 		wp_register_script( 'map-draaitabel', get_template_directory_uri() . '/js/map-draaitabel.js', array( 'jquery' ), '1.0', true );
 		wp_register_script( 'jquery-ui', '//code.jquery.com/ui/1.10.4/jquery-ui.js', array( 'jquery' ), '1.10.4', true );
 		wp_register_script( 'jquery-ui-slider-pips', get_template_directory_uri() . '/js/slider-pips/jquery-ui-slider-pips.min.js', array( 'jquery-ui' ), '1.5.5', true );
+		wp_register_script( 'svg-js', '//cdnjs.cloudflare.com/ajax/libs/svg.js/2.5.1/svg.min.js', array(), '2.5.1', true );
 
+		wp_register_script( 'prognose', get_template_directory_uri() . '/js/prognose.js', array(), '1.0', true );
 		wp_register_script( 'draaitabel-bedrijven', get_template_directory_uri() . '/js/draaitabel-bedrijven.js', array( 'jquery' ), '1.0', true );
 		wp_register_script( 'draaitabel-leerlingen', get_template_directory_uri() . '/js/draaitabel-leerlingen.js', array( 'jquery' ), '1.0', true );
 		wp_register_script( 'draaitabel-werknemers', get_template_directory_uri() . '/js/draaitabel-werknemers.js', array( 'jquery' ), '1.1', true );
@@ -143,6 +145,12 @@ function include_scripts_styles () {
 			wp_enqueue_script( 'fitvids' );
 			wp_enqueue_script( 'fitvids-config' );
 		}
+
+		if ( is_page( 'prognose' ) ) {
+			wp_enqueue_script( 'svg-js' );
+			wp_enqueue_script( 'prognose' );
+		}
+
 
 		if ( is_page( 'draaitabel' ) ) {
 			wp_enqueue_script( 'map-draaitabel' );

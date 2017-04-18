@@ -1111,6 +1111,14 @@ label.zuid-holland {
 label.zuid-nederland {
 	color: #A39D59;
 }
+/* Prognose
+----------------------------------------------------------------------------------------------------*/
+.page-template-page-prognose svg {
+	max-width: 100%;
+	height: auto;
+	display: block;
+	margin: 0 auto;
+}
 /* Slider
 ----------------------------------------------------------------------------------------------------*/
 .rsSlide h2 {
@@ -1195,4 +1203,8 @@ button {
 button:active {
 	position: relative;
 	top: 1px;
+}
+button.selected {
+	background-color: #4e4e4e;
+	border: 1px solid #4e4e4e;
 }

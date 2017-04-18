@@ -97,7 +97,7 @@ jQuery(document).ready(function($) {
 
 	// Pips voor labels
 	$slider.slider("pips", {
-		 rest: "label",
+		rest: "label",
 	});
 
 	function updateSlider(e, ui) {
@@ -106,10 +106,10 @@ jQuery(document).ready(function($) {
 
 		// Maak een array van alle waarden op de slider en verwijder het laatste
 		function range(start, end) {
-		  var arr = [];
-		  for(var i = start; i <= end; i++)
-			 arr.push(i);
-		  return arr;
+			var arr = [];
+			for(var i = start; i <= end; i++)
+				arr.push(i);
+			return arr;
 		}
 		var jaren = range(beginJaar, eindJaar);
 

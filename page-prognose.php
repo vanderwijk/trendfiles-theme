@@ -5,142 +5,6 @@
 
 get_header(); ?>
 
-<script src="//www.google.com/jsapi"></script>
-<script type="text/javascript">
-	google.load( "visualization", "1", { packages:["corechart"] } );
-	google.setOnLoadCallback(drawChart);
-
-	function drawChart() {
-
-		// 1a: Leerwerkbanen
-		var leerlingMonteurNederland = google.visualization.arrayToDataTable([
-			['Opleiding', 'vmbo', 'niveau 2', 'niveau 3', 'niveau 4', 'hbo' ],
-			['Wervingsbehoefte', 688, 118, 19, 21, 0 ],
-			['Wervingskracht', 410, 185, 30, 11, 0 ],
-		]);
-
-		var zelfstandigMonteurNederland = google.visualization.arrayToDataTable([
-			['Opleiding', 'vmbo', 'niveau 2', 'niveau 3', 'niveau 4', 'hbo' ],
-			['Wervingsbehoefte', 211, 63, 32, 192, 86 ],
-			['Wervingskracht', 5, 37, 21, 90, 13 ],
-		]);
-
-		var technischeStafNederland = google.visualization.arrayToDataTable([
-			['Opleiding', 'vmbo', 'niveau 2', 'niveau 3', 'niveau 4', 'hbo' ],
-			['Wervingsbehoefte', 0, 0, 0, 59, 72 ],
-			['Wervingskracht', 0, 0, 1, 33, 21 ],
-		]);
-
-		var overigeFunctiesNederland = google.visualization.arrayToDataTable([
-			['Opleiding', 'vmbo', 'niveau 2', 'niveau 3', 'niveau 4', 'hbo' ],
-			['Wervingsbehoefte', 14, 1, 2, 10, 38 ],
-			['Wervingskracht', 1, 1, 0, 7, 17 ],
-		]);
-
-		var view = new google.visualization.DataView( leerlingMonteurNederland );
-		view.setColumns( [0,1] );
-
-		var optionsLeerlingMonteur = {
-			title: 'Leerling Monteur',
-			legend: { position: 'bottom' },
-			colors: [ '#888d91', '#4e4d26', '#a39d5b','#f5821f','#8f4a02' ],
-			isStacked: true,
-			backgroundColor: 'transparent',
-			height: 600,
-			animation: {
-				duration: 1000,
-				easing: 'out',
-			},
-			vAxis: {
-				minValue: 0,
-				maxValue: 1000
-			},
-		};
-
-		var optionsZelfstandigMonteur = {
-			title: 'Zelfstandig Monteur',
-			legend: { position: 'bottom' },
-			colors: [ '#888d91', '#4e4d26', '#a39d5b','#f5821f','#8f4a02' ],
-			isStacked: true,
-			backgroundColor: 'transparent',
-			height: 600,
-			animation: {
-				duration: 1000,
-				easing: 'out',
-			},
-			vAxis: {
-				minValue: 0,
-				maxValue: 1000
-			},
-		};
-
-		var optionsTechnischeStaf = {
-			title: 'Technische Staf',
-			legend: { position: 'bottom' },
-			colors: [ '#888d91', '#4e4d26', '#a39d5b','#f5821f','#8f4a02' ],
-			isStacked: true,
-			backgroundColor: 'transparent',
-			height: 600,
-			animation: {
-				duration: 1000,
-				easing: 'out',
-			},
-			vAxis: {
-				minValue: 0,
-				maxValue: 200
-			},
-		};
-
-		var optionsOverigeFuncties = {
-			title: 'Overige Functies',
-			legend: { position: 'bottom' },
-			colors: [ '#888d91', '#4e4d26', '#a39d5b','#f5821f','#8f4a02' ],
-			isStacked: true,
-			backgroundColor: 'transparent',
-			height: 600,
-			animation: {
-				duration: 1000,
-				easing: 'out',
-			},
-			vAxis: {
-				minValue: 0,
-				maxValue: 200
-			},
-		};
-
-		var chart1a = new google.visualization.ColumnChart( document.getElementById( 'chart1a' ) );
-		chart1a.draw( leerlingMonteurNederland, optionsLeerlingMonteur );
-		jQuery( '.chart .overlay' ).attr( 'class', 'overlay leerling-monteur' );
-
-		document.getElementById( 'leerlingMonteur' ).onclick = function() {
-			chart1a.draw( leerlingMonteurNederland, optionsLeerlingMonteur );
-			jQuery( '.chart .overlay' ).fadeOut( 'fast', function() {
-				jQuery( '.chart .overlay' ).attr( 'class', 'overlay leerling-monteur' ).fadeIn( 'slow' );
-			});
-		}
-		document.getElementById( 'zelfstandigMonteur' ).onclick = function() {
-			chart1a.draw( zelfstandigMonteurNederland, optionsZelfstandigMonteur );
-			jQuery( '.chart .overlay' ).fadeOut( 'fast', function() {
-				jQuery( '.chart .overlay' ).attr( 'class', 'overlay zelfstandig-monteur' ).fadeIn( 'slow' );
-			});
-		}
-		document.getElementById( 'technischeStaf' ).onclick = function() {
-			chart1a.draw( technischeStafNederland, optionsTechnischeStaf );
-			jQuery( '.chart .overlay' ).fadeOut( 'fast', function() {
-				jQuery( '.chart .overlay' ).attr( 'class', 'overlay technische-staf' ).fadeIn( 'slow' );
-			});
-		}
-		document.getElementById( 'overigeFuncties' ).onclick = function() {
-			chart1a.draw( overigeFunctiesNederland, optionsOverigeFuncties );
-			jQuery( '.chart .overlay' ).fadeOut( 'fast', function() {
-				jQuery( '.chart .overlay' ).attr( 'class', 'overlay overige-functies' ).fadeIn( 'slow' );
-			});
-		}
-
-}
-</script>
-
-
 <?php while ( have_posts() ) : the_post(); ?>
 <article id="post-<?php the_ID(); ?>" <?php post_class('article'); ?>>
 
@@ -982,7 +846,6 @@ get_header(); ?>
 					</g>
 					<g id="functies">
 						<g id="totaal_functies">
-							<g>
 								<path fill="#3A3D40" d="M492.1,206.3c0-0.2,0.1-0.3,0.2-0.3c0,0,0.3-1,0.6-1.2c0.4-0.2,1.5-0.1,1.6-0.1c0.1-0.1,2-0.3,3.1-1.5
 							c0-0.5-0.6-1.1-0.2-1.4c0.2-0.1,1.2-3.8,1.2-4.3c-0.1-0.5,0.4-1.3,0.6-1.7c0.1-0.3,0.2-0.5,0.4-0.6c-0.5-0.5-0.2-1.1,0-1.8
 							c0.3-1.3-0.4-12.4-0.2-13.7c0.1-1.1,2.5-9.9,2.8-10.7c0.3-0.9,1.2-3.5,1.5-3.8v-0.1c0-0.3-0.1-0.6-0.2-1
@@ -1056,8 +919,6 @@ get_header(); ?>
 							c-0.5-0.3-0.7-1.1-1-1.7c-0.3-0.6-1-0.8-1.6-1.2c-0.5-0.4-0.4-1.6-0.4-1.6l-1-1.5c0,0-0.2-11.8-0.2-15.4c0-3.6-0.8-8.9-0.8-8.9
 							c-1.1,0.7-2.5,8.3-3.6,14.5c-1.2,6.2-3.8,12.7-3.8,12.7l-0.9,0.3c0,0,0,0.9-0.1,1.3c0,0.4-0.7,0.7-0.8,0.9
 							c-0.1,0.2-0.1,1.2-0.2,1.7s-0.6,0.7-1.5,0.9s-2.7,0.1-2.9-0.3c-0.2-0.4-0.3-1.2-0.3-1.8C438.1,205.1,438.8,204.1,439.2,203.6"></path>
-							</g>
-							<g>
 								<path fill="#3A3D40" d="M492.1,206.3c0-0.2,0.1-0.3,0.2-0.3c0,0,0.3-1,0.6-1.2c0.4-0.2,1.5-0.1,1.6-0.1c0.1-0.1,2-0.3,3.1-1.5
 							c0-0.5-0.6-1.1-0.2-1.4c0.2-0.1,1.2-3.8,1.2-4.3c-0.1-0.5,0.4-1.3,0.6-1.7c0.1-0.3,0.2-0.5,0.4-0.6c-0.5-0.5-0.2-1.1,0-1.8
 							c0.3-1.3-0.4-12.4-0.2-13.7c0.1-1.1,2.5-9.9,2.8-10.7c0.3-0.9,1.2-3.5,1.5-3.8v-0.1c0-0.3-0.1-0.6-0.2-1
@@ -1131,7 +992,6 @@ get_header(); ?>
 							c-0.5-0.3-0.7-1.1-1-1.7c-0.3-0.6-1-0.8-1.6-1.2c-0.5-0.4-0.4-1.6-0.4-1.6l-1-1.5c0,0-0.2-11.8-0.2-15.4c0-3.6-0.8-8.9-0.8-8.9
 							c-1.1,0.7-2.5,8.3-3.6,14.5c-1.2,6.2-3.8,12.7-3.8,12.7l-0.9,0.3c0,0,0,0.9-0.1,1.3c0,0.4-0.7,0.7-0.8,0.9
 							c-0.1,0.2-0.1,1.2-0.2,1.7s-0.6,0.7-1.5,0.9s-2.7,0.1-2.9-0.3c-0.2-0.4-0.3-1.2-0.3-1.8C438.1,205.1,438.8,204.1,439.2,203.6"></path>
-							</g>
 						</g>
 						<g id="monteur">
 							<path fill="#3A3D40" d="M445,203.1c0.5-0.6,0.3-1.1,0.3-1.1s2.6-16.3,2.7-18s1-3.2,1-4.6c0-0.8,0.5-4.8,0.8-8
@@ -1280,9 +1140,9 @@ get_header(); ?>
 								<line fill="none" stroke="#6F7477" stroke-width="0.9947" stroke-miterlimit="10" stroke-dasharray="5.1711,2.0684" x1="77.9" y1="0" x2="105.9" y2="0"></line>
 								<line fill="none" stroke="#6F7477" stroke-width="0.9947" stroke-miterlimit="10" x1="106.9" y1="0" x2="109.4" y2="0"></line>
 							</g>
-							<text font-family="'Droid Sans',sans-serif" font-size="9px" fill="#414042" text-anchor="middle" x="91" y="117">WB VMBO</text>
+							<text font-family="'Droid Sans',sans-serif" font-size="10px" fill="#414042" text-anchor="middle" x="91" y="117">WB VMBO</text>
 							<text id="wb_vmbo" font-family="'Roboto',sans-serif" font-size="12px" fill="#888d91" text-anchor="middle" x="91" y="130"></text>
-							<text font-family="'Droid Sans',sans-serif" font-size="9px" fill="#414042" text-anchor="middle" x="91" y="229">WK VMBO</text>
+							<text font-family="'Droid Sans',sans-serif" font-size="10px" fill="#414042" text-anchor="middle" x="91" y="229">WK VMBO</text>
 							<text id="wk_vmbo" font-family="'Roboto',sans-serif" font-size="12px" fill="#888D91" text-anchor="middle" x="91" y="241"></text>
 						</g>
 
@@ -1305,9 +1165,9 @@ get_header(); ?>
 								<line fill="none" stroke="#6F7477" stroke-width="0.9947" stroke-miterlimit="10" stroke-dasharray="5.1711,2.0684" x1="153.3" y1="0" x2="181.3" y2="0"></line>
 								<line fill="none" stroke="#6F7477" stroke-width="0.9947" stroke-miterlimit="10" x1="182.3" y1="0" x2="184.8" y2="0"></line>
 							</g>
-							<text font-family="'Droid Sans',sans-serif" font-size="9px" fill="#414042" text-anchor="middle" x="167" y="117">WB NIVEAU 2</text>
+							<text font-family="'Droid Sans',sans-serif" font-size="10px" fill="#414042" text-anchor="middle" x="167" y="117">WB NIVEAU 2</text>
 							<text id="wb_mbo2" font-family="'Roboto',sans-serif" font-size="12px" fill="#888d91" text-anchor="middle" x="167" y="130"></text>
-							<text font-family="'Droid Sans',sans-serif" font-size="9px" fill="#414042" text-anchor="middle" x="167" y="229">WK NIVEAU 2</text>
+							<text font-family="'Droid Sans',sans-serif" font-size="10px" fill="#414042" text-anchor="middle" x="167" y="229">WK NIVEAU 2</text>
 							<text id="wk_mbo2" font-family="'Roboto',sans-serif" font-size="12px" fill="#2E8D9E" text-anchor="middle" x="167" y="241"></text>
 						</g>
 
@@ -1330,9 +1190,9 @@ get_header(); ?>
 								<line fill="none" stroke="#6F7477" stroke-width="0.9947" stroke-miterlimit="10" stroke-dasharray="5.1711,2.0684" x1="228.7" y1="0" x2="256.7" y2="0"></line>
 								<line fill="none" stroke="#6F7477" stroke-width="0.9947" stroke-miterlimit="10" x1="257.7" y1="0" x2="260.2" y2="0"></line>
 							</g>
-							<text font-family="'Droid Sans',sans-serif" font-size="9px" fill="#414042" text-anchor="middle" x="242" y="117">WB NIVEAU 3</text>
+							<text font-family="'Droid Sans',sans-serif" font-size="10px" fill="#414042" text-anchor="middle" x="242" y="117">WB NIVEAU 3</text>
 							<text id="wb_mbo3" font-family="'Roboto',sans-serif" font-size="12px" fill="#888d91" text-anchor="middle" x="242" y="130"></text>
-							<text font-family="'Droid Sans',sans-serif" font-size="9px" fill="#414042" text-anchor="middle" x="242" y="229">WK NIVEAU 3</text>
+							<text font-family="'Droid Sans',sans-serif" font-size="10px" fill="#414042" text-anchor="middle" x="242" y="229">WK NIVEAU 3</text>
 							<text id="wk_mbo3" font-family="'Roboto',sans-serif" font-size="12px" fill="#044954" text-anchor="middle" x="242" y="241"></text>
 						</g>
 
@@ -1355,9 +1215,9 @@ get_header(); ?>
 								<line fill="none" stroke="#6F7477" stroke-width="0.9947" stroke-miterlimit="10" stroke-dasharray="5.1711,2.0684" x1="304.1" y1="0" x2="332.1" y2="0"></line>
 								<line fill="none" stroke="#6F7477" stroke-width="0.9947" stroke-miterlimit="10" x1="333.1" y1="0" x2="335.6" y2="0"></line>
 							</g>
-							<text font-family="'Droid Sans',sans-serif" font-size="9px" fill="#414042" text-anchor="middle" x="318" y="117">WB NIVEAU 4</text>
+							<text font-family="'Droid Sans',sans-serif" font-size="10px" fill="#414042" text-anchor="middle" x="318" y="117">WB NIVEAU 4</text>
 							<text id="wb_mbo4" font-family="'Roboto',sans-serif" font-size="12px" fill="#888d91" text-anchor="middle" x="318" y="130"></text>
-							<text font-family="'Droid Sans',sans-serif" font-size="9px" fill="#414042" text-anchor="middle" x="318" y="229">WK NIVEAU 4</text>
+							<text font-family="'Droid Sans',sans-serif" font-size="10px" fill="#414042" text-anchor="middle" x="318" y="229">WK NIVEAU 4</text>
 							<text id="wk_mbo4" font-family="'Roboto',sans-serif" font-size="12px" fill="#F58220" text-anchor="middle" x="318" y="241"></text>
 						</g>
 
@@ -1379,9 +1239,9 @@ get_header(); ?>
 								<line fill="none" stroke="#6F7477" stroke-width="0.9947" stroke-miterlimit="10" stroke-dasharray="5.1711,2.0684" x1="379.6" y1="0" x2="407.5" y2="0"></line>
 								<line fill="none" stroke="#6F7477" stroke-width="0.9947" stroke-miterlimit="10" x1="408.5" y1="0" x2="411" y2="0"></line>
 							</g>
-							<text font-family="'Droid Sans',sans-serif" font-size="9px" fill="#414042" text-anchor="middle" x="393" y="117">WB HBO</text>
+							<text font-family="'Droid Sans',sans-serif" font-size="10px" fill="#414042" text-anchor="middle" x="393" y="117">WB HBO</text>
 							<text id="wb_hbo" font-family="'Roboto',sans-serif" font-size="12px" fill="#888d91" text-anchor="middle" x="393" y="130"></text>
-							<text font-family="'Droid Sans',sans-serif" font-size="9px" fill="#414042" text-anchor="middle" x="393" y="229">WK HBO</text>
+							<text font-family="'Droid Sans',sans-serif" font-size="10px" fill="#414042" text-anchor="middle" x="393" y="229">WK HBO</text>
 							<text id="wk_hbo" font-family="'Roboto',sans-serif" font-size="12px" fill="#8E4A02" text-anchor="middle" x="393" y="241"></text>
 						</g>
 
@@ -1390,10 +1250,29 @@ get_header(); ?>
 			</div>
 			<div class="col one-third">
 				<div class="block">
-					<button id="leerlingMonteur">Leerling Monteur</button>
-					<button id="zelfstandigMonteur">Zelfstandig Monteur</button>
-					<button id="technischeStaf">Technische Staf</button>
-					<button id="overigeFuncties">Overige functies</button>
+
+					<div id="knoppen_functies">
+
+						<button id="knop_totaal_functies" onClick="kiesFunctie('totaal_functies');">Alle functies</button>
+						<button id="knop_leerling" onClick="kiesFunctie('leerling');">Leerling</button>
+						<button id="knop_overige_functies" onClick="kiesFunctie('overige_functies');">Overige functies</button>
+						<button id="knop_monteur" onClick="kiesFunctie('monteur');">Monteur</button>
+						<button id="knop_technicus" onClick="kiesFunctie('technicus');">Technicus</button>
+
+					</div>
+
+					<div id="knoppen_regios">
+
+						<button id="knop_totaal_regios" onClick="kiesRegio('totaal_regios');">Alle regio's</button>
+						<button id="knop_noord_holland" onClick="kiesRegio('noord_holland');">Noord-holland</button>
+						<button id="knop_gelderland_overijssel" onClick="kiesRegio('gelderland_overijssel');">Gelderland / Overijssel</button>
+						<button id="knop_noord_nederland" onClick="kiesRegio('noord_nederland');">Noord Nederland</button>
+						<button id="knop_zuid_holland" onClick="kiesRegio('zuid_holland');">Zuid-Holland</button>
+						<button id="knop_zuid_nederland" onClick="kiesRegio('zuid_nederland');">Zuid Nederland</button>
+						<button id="knop_midden_nederland" onClick="kiesRegio('midden_nederland');">Midden Nederland</button>
+
+					</div>
+
 				</div>
 			</div>
 			<div class="col">
