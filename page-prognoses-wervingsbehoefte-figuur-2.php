@@ -1221,7 +1221,8 @@ get_header(); ?>
 			<div class="col">
 				<div class="block">
 					<ul class="next-previous">
-						<li class="next"><a href="/prognoses/wervingsbehoefte/figuur-2/">Volgende figuur &raquo;</a></li>
+						<li class="previous"><a href="/prognoses/wervingsbehoefte/figuur-1/">&laquo; Vorige figuur</a></li>
+						<li class="next"><a href="/prognoses/wervingsbehoefte/figuur-3/">Volgende figuur &raquo;</a></li>
 					</ul>
 				</div>
 			</div>

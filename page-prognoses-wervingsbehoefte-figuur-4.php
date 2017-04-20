@@ -1310,7 +1310,6 @@ get_header(); ?>
 				<div class="block">
 					<ul class="next-previous">
 						<li class="previous"><a href="/prognoses/wervingsbehoefte/figuur-3/">&laquo; Vorige figuur</a></li>
-						<li class="next"><a href="">Volgende figuur &raquo;</a></li>
 					</ul>
 				</div>
 			</div>
