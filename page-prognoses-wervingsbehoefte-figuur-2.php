@@ -1,6 +1,6 @@
 <?php
 /**
- * Template Name: Prognose
+ * Template Name: Prognoses Wervingsbehoefte Figuur 2
  */
 
 get_header(); ?>
@@ -13,8 +13,38 @@ get_header(); ?>
 			<header class="block header">
 				<h1 class="entry-title"><?php the_title(); ?></h1>
 			</header>
+			<nav class="block progress">
+				<ul>
+					<li>
+						<a href="/prognoses/wervingsbehoefte/figuur-1/">
+							<h2>Figuur 1</h2>
+							<h3>Ontwikkeling omvang TI-branche</h3>
+						</a>
+					</li>
+					<li class="active">
+						<a href="/prognoses/wervingsbehoefte/figuur-2/">
+							<h2>Figuur 2</h2>
+							<h3>Ontwikkeling uitstroom</h3>
+						</a>
+					</li>
+					<li>
+						<a href="/prognoses/wervingsbehoefte/figuur-3/">
+							<h2>Figuur 3</h2>
+							<h3>Wervingsbehoefte naar zij-instroom en schoolverlaters</h3>
+						</a>
+					</li>
+					<li>
+						<a href="/prognoses/wervingsbehoefte/figuur-4/">
+							<h2>Figuur 4</h2>
+							<h3>Overschot en tekort aan schoolverlaters naar opleidingsniveau</h3>
+						</a>
+					</li>
+				</ul>
+			</nav>
 		</div>
-			<div class="col two-thirds">
+
+		<div class="col two-thirds">
+			<div class="block entry-content">
 				<svg version="1.1" id="wervingsbehoeftefiguur4" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px" viewBox="0 0 532 338.7" enable-background="new 0 0 532 338.7" xml:space="preserve">
 					<g id="kaart">
 						<g id="noord_holland">
@@ -1119,150 +1149,64 @@ get_header(); ?>
 						c-0.1,0.1-0.2,0.2-0.2,0.3C448.8,204.9,448.8,205.2,448.9,205.4"></path>
 						</g>
 					</g>
-					<g id="bekers">
-
-						<g id="vmbo">
-							<path id="bodem_vmbo" fill="#888D91" d="M105.5,195.9c-10.2,3.4-20.2,3.1-28.3,0c-2-0.8-3.8-1.6-3.8-3.5h36
-						C109.4,194.3,107.5,195.3,105.5,195.9z"></path>
-							<rect id="rechthoek_vmbo" x="73.4" y="151.7" fill="#888D91" width="36" height="0"></rect>
-							<path id="beker_vmbo" fill="none" stroke="#3A3D40" stroke-width="1.0046" stroke-linecap="round" stroke-miterlimit="10" d="
-						M68.3,146.1l2.7,6.3V193c0,2.9,2.8,4,5.7,5.2c7.9,3.4,20.8,2.9,29.4,0c3-1,5.7-2.3,5.7-5.2v-40.5l4.5-0.2v17.3
-						c0,1.2,1,2.1,2.1,2.1l0,0c1,0,1.9-0.8,1.9-1.9v-23.1c0-1.2-1-2.3-2.2-2.2c-12.6,0.9-35.7,1.3-48.6,0
-						C68.6,144.4,68,145.4,68.3,146.1z"></path>
-							<path id="plasje_vmbo" fill="#888D91" d="M109.3,198.2c-0.9,0-1.7,0.1-2.6,0.2c-0.2,0.1-0.3,0.1-0.5,0.2c-4.3,1.4-10,2.4-15.8,2.4
-						c-5,0-9.9-0.7-13.8-2.4l-0.3-0.1c-2.3-1-4.6-2-5.4-4l0,0c-1.7-0.9-3,0.7-3.7,2.1c-0.4,0.8-0.7,1.7-1.2,2.6
-						c-0.3,0.6-1.2,1.1-1.3,1.7c-0.1,0.4,0.1,0.9,0.4,1.2c0.2,0.2,0.4,0.3,0.6,0.4c2.7,1.3,5.5-0.1,8.3,1.1c0.6,0.3,1.3,0.7,1.9,0.8
-						c1.4,0.4,2.9-0.1,4.3,0.1c0.8,0.1,1.5,0.5,2.2,0.7c2,0.7,4.2,0.8,6.3,0.9c1.9,0.1,3.8,0.1,5.7-0.2c2-0.3,3.9-1.1,5.9-1.4
-						c1.1-0.2,2.2-0.2,3.3-0.2c2.8-0.2,5.5-0.8,8.3-1.3c0.4-0.1,0.7-0.2,1-0.3c1.1-0.7,1-2.4,0-3.3
-						C111.9,198.4,110.5,198.2,109.3,198.2z"></path>
-							<g id="maatlijn_vmbo">
-								<line fill="none" stroke="#6F7477" stroke-width="0.9947" stroke-miterlimit="10" x1="73.4" y1="0" x2="75.9" y2="0"></line>
-								<line fill="none" stroke="#6F7477" stroke-width="0.9947" stroke-miterlimit="10" stroke-dasharray="5.1711,2.0684" x1="77.9" y1="0" x2="105.9" y2="0"></line>
-								<line fill="none" stroke="#6F7477" stroke-width="0.9947" stroke-miterlimit="10" x1="106.9" y1="0" x2="109.4" y2="0"></line>
-							</g>
-							<text font-family="'Droid Sans',sans-serif" font-size="10px" fill="#414042" text-anchor="middle" x="91" y="117">WB VMBO</text>
-							<text id="wb_vmbo" font-family="'Roboto',sans-serif" font-size="12px" fill="#888d91" text-anchor="middle" x="91" y="130"></text>
-							<text font-family="'Droid Sans',sans-serif" font-size="10px" fill="#414042" text-anchor="middle" x="91" y="229">WK VMBO</text>
-							<text id="wk_vmbo" font-family="'Roboto',sans-serif" font-size="12px" fill="#888D91" text-anchor="middle" x="91" y="241"></text>
-						</g>
-
-						<g id="mbo2">
-							<path id="bodem_mbo2" fill="#2E8D9E" d="M180.9,195.9c-10.2,3.4-20.2,3.1-28.3,0c-2-0.8-3.8-1.6-3.8-3.5h36
-						C184.8,194.3,182.9,195.3,180.9,195.9z"></path>
-							<rect id="rechthoek_mbo2" x="148.8" y="151.7" fill="#2E8D9E" width="36" height="0"></rect>
-							<path id="beker_mbo2" fill="none" stroke="#3A3D40" stroke-width="1.0046" stroke-linecap="round" stroke-miterlimit="10" d="
-						M143.7,146.1l2.7,6.3V193c0,2.9,2.8,4,5.7,5.2c7.9,3.4,20.8,2.9,29.4,0c3-1,5.7-2.3,5.7-5.2v-40.5l4.5-0.2v17.3
-						c0,1.2,1,2.1,2.1,2.1l0,0c1,0,1.9-0.8,1.9-1.9v-23.1c0-1.2-1-2.3-2.2-2.2c-12.6,0.9-35.7,1.3-48.6,0
-						C144,144.4,143.4,145.4,143.7,146.1z"></path>
-							<path id="plasje_mbo2" fill="#2E8D9E" d="M184.7,198.2c-0.9,0-1.7,0.1-2.6,0.2c-0.2,0.1-0.3,0.1-0.5,0.2c-4.3,1.4-10,2.4-15.8,2.4
-						c-5,0-9.9-0.7-13.8-2.4l-0.3-0.1c-2.3-1-4.6-2-5.4-4l0,0c-1.7-0.9-3,0.7-3.7,2.1c-0.4,0.8-0.7,1.7-1.2,2.6
-						c-0.3,0.6-1.2,1.1-1.3,1.7c-0.1,0.4,0.1,0.9,0.4,1.2c0.2,0.2,0.4,0.3,0.6,0.4c2.7,1.3,5.5-0.1,8.3,1.1c0.6,0.3,1.3,0.7,1.9,0.8
-						c1.4,0.4,2.9-0.1,4.3,0.1c0.8,0.1,1.5,0.5,2.2,0.7c2,0.7,4.2,0.8,6.3,0.9c1.9,0.1,3.8,0.1,5.7-0.2c2-0.3,3.9-1.1,5.9-1.4
-						c1.1-0.2,2.2-0.2,3.3-0.2c2.8-0.2,5.5-0.8,8.3-1.3c0.4-0.1,0.7-0.2,1-0.3c1.1-0.7,1-2.4,0-3.3C187.4,198.4,186,198.2,184.7,198.2z
-						"></path>
-							<g id="maatlijn_mbo2">
-								<line fill="none" stroke="#6F7477" stroke-width="0.9947" stroke-miterlimit="10" x1="148.8" y1="0" x2="151.3" y2="0"></line>
-								<line fill="none" stroke="#6F7477" stroke-width="0.9947" stroke-miterlimit="10" stroke-dasharray="5.1711,2.0684" x1="153.3" y1="0" x2="181.3" y2="0"></line>
-								<line fill="none" stroke="#6F7477" stroke-width="0.9947" stroke-miterlimit="10" x1="182.3" y1="0" x2="184.8" y2="0"></line>
-							</g>
-							<text font-family="'Droid Sans',sans-serif" font-size="10px" fill="#414042" text-anchor="middle" x="167" y="117">WB NIVEAU 2</text>
-							<text id="wb_mbo2" font-family="'Roboto',sans-serif" font-size="12px" fill="#888d91" text-anchor="middle" x="167" y="130"></text>
-							<text font-family="'Droid Sans',sans-serif" font-size="10px" fill="#414042" text-anchor="middle" x="167" y="229">WK NIVEAU 2</text>
-							<text id="wk_mbo2" font-family="'Roboto',sans-serif" font-size="12px" fill="#2E8D9E" text-anchor="middle" x="167" y="241"></text>
-						</g>
-
-						<g id="mbo3">
-							<path id="bodem_mbo3" fill="#044954" d="M256.3,195.9c-10.2,3.4-20.2,3.1-28.3,0c-2-0.8-3.8-1.6-3.8-3.5h36
-						C260.2,194.3,258.3,195.3,256.3,195.9z"></path>
-							<rect id="rechthoek_mbo3" x="224.2" y="151.7" fill="#044954" width="36" height="0"></rect>
-							<path id="beker_mbo3" fill="none" stroke="#3A3D40" stroke-width="1.0046" stroke-linecap="round" stroke-miterlimit="10" d="
-						M219.2,146.1l2.7,6.3V193c0,2.9,2.8,4,5.7,5.2c7.9,3.4,20.8,2.9,29.4,0c3-1,5.7-2.3,5.7-5.2v-40.5l4.5-0.2v17.3
-						c0,1.2,1,2.1,2.1,2.1l0,0c1,0,1.9-0.8,1.9-1.9v-23.1c0-1.2-1-2.3-2.2-2.2c-12.6,0.9-35.7,1.3-48.6,0
-						C219.4,144.4,218.8,145.4,219.2,146.1z"></path>
-							<path id="plasje_mbo3" fill="#044954" d="M260.1,198.2c-0.9,0-1.7,0.1-2.6,0.2c-0.2,0.1-0.3,0.1-0.5,0.2c-4.3,1.4-10,2.4-15.8,2.4
-						c-5,0-9.9-0.7-13.8-2.4l-0.3-0.1c-2.3-1-4.6-2-5.4-4l0,0c-1.7-0.9-3,0.7-3.7,2.1c-0.4,0.8-0.7,1.7-1.2,2.6
-						c-0.3,0.6-1.2,1.1-1.3,1.7c-0.1,0.4,0.1,0.9,0.4,1.2c0.2,0.2,0.4,0.3,0.6,0.4c2.7,1.3,5.5-0.1,8.3,1.1c0.6,0.3,1.3,0.7,1.9,0.8
-						c1.4,0.4,2.9-0.1,4.3,0.1c0.8,0.1,1.5,0.5,2.2,0.7c2,0.7,4.2,0.8,6.3,0.9c1.9,0.1,3.8,0.1,5.7-0.2c2-0.3,3.9-1.1,5.9-1.4
-						c1.1-0.2,2.2-0.2,3.3-0.2c2.8-0.2,5.5-0.8,8.3-1.3c0.4-0.1,0.7-0.2,1-0.3c1.1-0.7,1-2.4,0-3.3
-						C262.8,198.4,261.4,198.2,260.1,198.2z"></path>
-							<g id="maatlijn_mbo3">
-								<line fill="none" stroke="#6F7477" stroke-width="0.9947" stroke-miterlimit="10" x1="224.2" y1="0" x2="226.7" y2="0"></line>
-								<line fill="none" stroke="#6F7477" stroke-width="0.9947" stroke-miterlimit="10" stroke-dasharray="5.1711,2.0684" x1="228.7" y1="0" x2="256.7" y2="0"></line>
-								<line fill="none" stroke="#6F7477" stroke-width="0.9947" stroke-miterlimit="10" x1="257.7" y1="0" x2="260.2" y2="0"></line>
-							</g>
-							<text font-family="'Droid Sans',sans-serif" font-size="10px" fill="#414042" text-anchor="middle" x="242" y="117">WB NIVEAU 3</text>
-							<text id="wb_mbo3" font-family="'Roboto',sans-serif" font-size="12px" fill="#888d91" text-anchor="middle" x="242" y="130"></text>
-							<text font-family="'Droid Sans',sans-serif" font-size="10px" fill="#414042" text-anchor="middle" x="242" y="229">WK NIVEAU 3</text>
-							<text id="wk_mbo3" font-family="'Roboto',sans-serif" font-size="12px" fill="#044954" text-anchor="middle" x="242" y="241"></text>
-						</g>
-
-						<g id="mbo4">
-							<path id="bodem_mbo4" fill="#F58220" d="M331.7,195.9c-10.2,3.4-20.2,3.1-28.3,0c-2-0.8-3.8-1.6-3.8-3.5h36
-						C335.6,194.3,333.7,195.3,331.7,195.9z"></path>
-							<rect id="rechthoek_mbo4" x="299.6" y="151.7" fill="#F58220" width="36" height="0"></rect>
-							<path id="beker_mbo4" fill="none" stroke="#3A3D40" stroke-width="1.0046" stroke-linecap="round" stroke-miterlimit="10" d="
-						M294.6,146.1l2.7,6.3V193c0,2.9,2.8,4,5.7,5.2c7.9,3.4,20.8,2.9,29.4,0c3-1,5.7-2.3,5.7-5.2v-40.5l4.5-0.2v17.3
-						c0,1.2,1,2.1,2.1,2.1l0,0c1,0,1.9-0.8,1.9-1.9v-23.1c0-1.2-1-2.3-2.2-2.2c-12.6,0.9-35.7,1.3-48.6,0
-						C294.8,144.4,294.2,145.4,294.6,146.1z"></path>
-							<path id="plasje_mbo4" fill="#F58220" d="M335.5,198.2c-0.9,0-1.7,0.1-2.6,0.2c-0.2,0.1-0.3,0.1-0.5,0.2c-4.3,1.4-10,2.4-15.8,2.4
-						c-5,0-9.9-0.7-13.8-2.4l-0.3-0.1c-2.3-1-4.6-2-5.4-4l0,0c-1.7-0.9-3,0.7-3.7,2.1c-0.4,0.8-0.7,1.7-1.2,2.6
-						c-0.3,0.6-1.2,1.1-1.3,1.7c-0.1,0.4,0.1,0.9,0.4,1.2c0.2,0.2,0.4,0.3,0.6,0.4c2.7,1.3,5.5-0.1,8.3,1.1c0.6,0.3,1.3,0.7,1.9,0.8
-						c1.4,0.4,2.9-0.1,4.3,0.1c0.8,0.1,1.5,0.5,2.2,0.7c2,0.7,4.2,0.8,6.3,0.9c1.9,0.1,3.8,0.1,5.7-0.2c2-0.3,3.9-1.1,5.9-1.4
-						c1.1-0.2,2.2-0.2,3.3-0.2c2.8-0.2,5.5-0.8,8.3-1.3c0.4-0.1,0.7-0.2,1-0.3c1.1-0.7,1-2.4,0-3.3
-						C338.2,198.4,336.8,198.2,335.5,198.2z"></path>
-							<g id="maatlijn_mbo4">
-								<line fill="none" stroke="#6F7477" stroke-width="0.9947" stroke-miterlimit="10" x1="299.6" y1="0" x2="302.1" y2="0"></line>
-								<line fill="none" stroke="#6F7477" stroke-width="0.9947" stroke-miterlimit="10" stroke-dasharray="5.1711,2.0684" x1="304.1" y1="0" x2="332.1" y2="0"></line>
-								<line fill="none" stroke="#6F7477" stroke-width="0.9947" stroke-miterlimit="10" x1="333.1" y1="0" x2="335.6" y2="0"></line>
-							</g>
-							<text font-family="'Droid Sans',sans-serif" font-size="10px" fill="#414042" text-anchor="middle" x="318" y="117">WB NIVEAU 4</text>
-							<text id="wb_mbo4" font-family="'Roboto',sans-serif" font-size="12px" fill="#888d91" text-anchor="middle" x="318" y="130"></text>
-							<text font-family="'Droid Sans',sans-serif" font-size="10px" fill="#414042" text-anchor="middle" x="318" y="229">WK NIVEAU 4</text>
-							<text id="wk_mbo4" font-family="'Roboto',sans-serif" font-size="12px" fill="#F58220" text-anchor="middle" x="318" y="241"></text>
-						</g>
-
-						<g id="hbo">
-							<path id="bodem_hbo" fill="#8E4A02" d="M407.2,195.9c-10.2,3.4-20.2,3.1-28.3,0c-2-0.8-3.8-1.6-3.8-3.5h36
-						C411,194.3,409.2,195.3,407.2,195.9z"></path>
-							<rect id="rechthoek_hbo" x="375" y="151.7" fill="#8E4A02" width="36" height="0"></rect>
-							<path id="beker_hbo" fill="none" stroke="#3A3D40" stroke-width="1.0046" stroke-linecap="round" stroke-miterlimit="10" d="
-						M370,146.1l2.7,6.3V193c0,2.9,2.8,4,5.7,5.2c7.9,3.4,20.8,2.9,29.4,0c3-1,5.7-2.3,5.7-5.2v-40.5l4.5-0.2v17.3c0,1.2,1,2.1,2.1,2.1
-						l0,0c1,0,1.9-0.8,1.9-1.9v-23.1c0-1.2-1-2.3-2.2-2.2c-12.6,0.9-35.7,1.3-48.6,0C370.2,144.4,369.6,145.4,370,146.1z"></path>
-							<path id="plasje_hbo" fill="#8E4A02" d="M410.9,198.2c-0.9,0-1.7,0.1-2.6,0.2c-0.2,0.1-0.3,0.1-0.5,0.2c-4.3,1.4-10,2.4-15.8,2.4
-						c-5,0-9.9-0.7-13.8-2.4l-0.3-0.1c-2.3-1-4.6-2-5.4-4l0,0c-1.7-0.9-3,0.7-3.7,2.1c-0.4,0.8-0.7,1.7-1.2,2.6
-						c-0.3,0.6-1.2,1.1-1.3,1.7c-0.1,0.4,0.1,0.9,0.4,1.2c0.2,0.2,0.4,0.3,0.6,0.4c2.7,1.3,5.5-0.1,8.3,1.1c0.6,0.3,1.3,0.7,1.9,0.8
-						c1.4,0.4,2.9-0.1,4.3,0.1c0.8,0.1,1.5,0.5,2.2,0.7c2,0.7,4.2,0.8,6.3,0.9c1.9,0.1,3.8,0.1,5.7-0.2c2-0.3,3.9-1.1,5.9-1.4
-						c1.1-0.2,2.2-0.2,3.3-0.2c2.8-0.2,5.5-0.8,8.3-1.3c0.4-0.1,0.7-0.2,1-0.3c1.1-0.7,1-2.4,0-3.3
-						C413.6,198.4,412.2,198.2,410.9,198.2z"></path>
-							<g id="maatlijn_hbo">
-								<line fill="none" stroke="#6F7477" stroke-width="0.9947" stroke-miterlimit="10" x1="375" y1="0" x2="377.5" y2="0"></line>
-								<line fill="none" stroke="#6F7477" stroke-width="0.9947" stroke-miterlimit="10" stroke-dasharray="5.1711,2.0684" x1="379.6" y1="0" x2="407.5" y2="0"></line>
-								<line fill="none" stroke="#6F7477" stroke-width="0.9947" stroke-miterlimit="10" x1="408.5" y1="0" x2="411" y2="0"></line>
-							</g>
-							<text font-family="'Droid Sans',sans-serif" font-size="10px" fill="#414042" text-anchor="middle" x="393" y="117">WB HBO</text>
-							<text id="wb_hbo" font-family="'Roboto',sans-serif" font-size="12px" fill="#888d91" text-anchor="middle" x="393" y="130"></text>
-							<text font-family="'Droid Sans',sans-serif" font-size="10px" fill="#414042" text-anchor="middle" x="393" y="229">WK HBO</text>
-							<text id="wk_hbo" font-family="'Roboto',sans-serif" font-size="12px" fill="#8E4A02" text-anchor="middle" x="393" y="241"></text>
-						</g>
-
+					<g id="aswaarden">
+						<text font-family="'Droid Sans',sans-serif" font-size="8px" fill="#939598" text-anchor="end" x="100" y="196">0</text>
+						<text font-family="'Droid Sans',sans-serif" font-size="8px" fill="#939598" text-anchor="end" x="100" y="164">30000</text>
+						<text font-family="'Droid Sans',sans-serif" font-size="8px" fill="#939598" text-anchor="end" x="100" y="131">60000</text>
+						<text font-family="'Droid Sans',sans-serif" font-size="8px" fill="#939598" text-anchor="end" x="100" y="98">90000</text>
+						<text font-family="'Droid Sans',sans-serif" font-size="8px" fill="#939598" text-anchor="end" x="100" y="66">120000</text>
+						<text font-family="'Droid Sans',sans-serif" font-size="8px" fill="#939598" text-anchor="end" x="100" y="33">150000</text>
 					</g>
+					<g id="xlijnen">
+						<line fill="none" stroke="#A7A9AC" stroke-width="0.5016" stroke-miterlimit="10" x1="109" y1="196.7" x2="387" y2="196.7"/>
+						<line fill="none" stroke="#A7A9AC" stroke-width="0.5016" stroke-miterlimit="10" x1="109" y1="164.7" x2="387" y2="164.7"/>
+						<line fill="none" stroke="#A7A9AC" stroke-width="0.5016" stroke-miterlimit="10" x1="109" y1="131.7" x2="387" y2="131.7"/>
+						<line fill="none" stroke="#A7A9AC" stroke-width="0.5016" stroke-miterlimit="10" x1="109" y1="98.7" x2="387" y2="98.7"/>
+						<line fill="none" stroke="#A7A9AC" stroke-width="0.5016" stroke-miterlimit="10" x1="109" y1="66.7" x2="387" y2="66.7"/>
+						<line fill="none" stroke="#A7A9AC" stroke-width="0.5016" stroke-miterlimit="10" x1="109" y1="33.7" x2="387" y2="33.7"/>
+					</g>
+					<g id="staven"><!-- 100% = 163 basis = 196.7 -->
+						<rect id="staaf_2016" x="112.8" y="196.7" fill="#2E8D9E" stroke="#2E8D9E" stroke-width=".5" width="27" height="0"><title></title></rect>
+						<rect id="staaf_2017" x="164.8" y="196.7" fill="#2E8D9E" stroke="#2E8D9E" stroke-width=".5" width="27" height="0"><title></title></rect>
+						<rect id="staaf_2018" x="220.8" y="196.7" fill="#2E8D9E" stroke="#2E8D9E" stroke-width=".5" width="27" height="0"><title></title></rect>
+						<rect id="staaf_2019" x="275.8" y="196.7" fill="#2E8D9E" stroke="#2E8D9E" stroke-width=".5" width="27" height="0"><title></title></rect>
+						<rect id="staaf_2020" x="333.8" y="196.7" fill="#2E8D9E" stroke="#2E8D9E" stroke-width=".5" width="27" height="0"><title></title></rect>
+					</g>
+					<g id="staven_uitstroom"><!-- 100% = 163 basis = 196.7 -->
+						<rect id="staaf_2016_uitstroom" x="112.8" y="196.7" fill="#ffffff" stroke="#424244" stroke-width=".5" width="27" height="0"><title></title></rect>
+						<rect id="staaf_2017_uitstroom" x="164.8" y="196.7" fill="#ffffff" stroke="#424244" stroke-width=".5" width="27" height="0"><title></title></rect>
+						<rect id="staaf_2018_uitstroom" x="220.8" y="196.7" fill="#ffffff" stroke="#424244" stroke-width=".5" width="27" height="0"><title></title></rect>
+						<rect id="staaf_2019_uitstroom" x="275.8" y="196.7" fill="#ffffff" stroke="#424244" stroke-width=".5" width="27" height="0"><title></title></rect>
+						<rect id="staaf_2020_uitstroom" x="333.8" y="196.7" fill="#ffffff" stroke="#424244" stroke-width=".5" width="27" height="0"><title></title></rect>
+					</g>
+					<g id="jaren">
+						<text font-family="'Droid Sans',sans-serif" font-size="10px" fill="#494646" text-anchor="middle" x="124" y="229">2016</text>
+						<text font-family="'Droid Sans',sans-serif" font-size="10px" fill="#494646" text-anchor="middle" x="178" y="229">2017</text>
+						<text font-family="'Droid Sans',sans-serif" font-size="10px" fill="#494646" text-anchor="middle" x="234" y="229">2018</text>
+						<text font-family="'Droid Sans',sans-serif" font-size="10px" fill="#494646" text-anchor="middle" x="289" y="229">2019</text>
+						<text font-family="'Droid Sans',sans-serif" font-size="10px" fill="#494646" text-anchor="middle" x="346" y="229">2020</text>
+					</g>
+
 				</svg>
+
+				<?php the_content(); ?>
+
+				</div>
 			</div>
 			<div class="col one-third">
-				<div class="block">
+				<div class="block filter">
 
+					<h4>Functiegroep</h4>
 					<div id="knoppen_functies">
-
 						<button id="knop_totaal_functies" onClick="kiesFunctie('totaal_functies');">Alle functies</button>
 						<button id="knop_leerling" onClick="kiesFunctie('leerling');">Leerling</button>
 						<button id="knop_overige_functies" onClick="kiesFunctie('overige_functies');">Overige functies</button>
 						<button id="knop_monteur" onClick="kiesFunctie('monteur');">Monteur</button>
 						<button id="knop_technicus" onClick="kiesFunctie('technicus');">Technicus</button>
-
 					</div>
 
+					<h4>Regio</h4>
 					<div id="knoppen_regios">
-
 						<button id="knop_totaal_regios" onClick="kiesRegio('totaal_regios');">Alle regio's</button>
 						<button id="knop_noord_holland" onClick="kiesRegio('noord_holland');">Noord-holland</button>
 						<button id="knop_gelderland_overijssel" onClick="kiesRegio('gelderland_overijssel');">Gelderland / Overijssel</button>
@@ -1270,14 +1214,15 @@ get_header(); ?>
 						<button id="knop_zuid_holland" onClick="kiesRegio('zuid_holland');">Zuid-Holland</button>
 						<button id="knop_zuid_nederland" onClick="kiesRegio('zuid_nederland');">Zuid Nederland</button>
 						<button id="knop_midden_nederland" onClick="kiesRegio('midden_nederland');">Midden Nederland</button>
-
 					</div>
 
 				</div>
 			</div>
 			<div class="col">
-				<div class="block entry-content">
-					<?php the_content(); ?>
+				<div class="block">
+					<ul class="next-previous">
+						<li class="next"><a href="/prognoses/wervingsbehoefte/figuur-2/">Volgende figuur &raquo;</a></li>
+					</ul>
 				</div>
 			</div>
 		</div>

@@ -1111,13 +1111,74 @@ label.zuid-holland {
 label.zuid-nederland {
 	color: #A39D59;
 }
+/* Stappen-navigatie
+----------------------------------------------------------------------------------------------------*/
+.progress ul {
+	border-top: 1px solid #d9d9d9;
+}
+.progress li {
+	float: left;
+	margin-top: -12px;
+	padding-left: 15px;
+	width: 24%;
+}
+.progress li:before {
+	color: #9d9d9d;
+	content: "\25CF";
+	font-size: 20px;
+	left: -17px;
+	position: relative;
+	top: 0;
+}
+.progress h2 {
+	color: #9d9d9d;
+	font-weight: 700;
+}
+.progress h3 {
+	color: #9d9d9d;
+	font-weight: 400;
+}
+.progress li.active:before {
+	color: #424244;
+}
+.progress li.active h2 {
+	color: #2e8d9e;
+}
+.progress li.active h3 {
+	color: #424244;
+}
 /* Prognose
 ----------------------------------------------------------------------------------------------------*/
-.page-template-page-prognose svg {
+.filter h4 {
+	margin: 15px 0;
+}
+.filter button {
+	background-color: #9d9d9d;
+	border: 1px solid #9d9d9d;
+}
+.filter button.selected {
+	background-color: #2e8d9e;
+	border: 1px solid #2e8d9e;
+}
+svg {
 	max-width: 100%;
 	height: auto;
 	display: block;
 	margin: 0 auto;
+}
+.next-previous {
+	list-style: none;
+}
+.next-previous li {
+	display: inline-block;
+	margin: 20px 0 0 0;
+}
+.next-previous a {
+	color: #2e8d9e;
+	text-decoration: none;
+}
+.next-previous .next {
+	float: right;
 }
 /* Slider
 ----------------------------------------------------------------------------------------------------*/
@@ -1203,8 +1264,4 @@ button {
 button:active {
 	position: relative;
 	top: 1px;
-}
-button.selected {
-	background-color: #4e4e4e;
-	border: 1px solid #4e4e4e;
 }

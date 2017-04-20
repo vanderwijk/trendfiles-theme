@@ -1,0 +1,782 @@
+{
+  "jaar_2016": {
+    "totaal_regios": {
+      "leerling": {
+        "totaalaantalTI": 6935,
+        "uitregio": 840
+      },
+      "overige_functies": {
+        "totaalaantalTI": 14356,
+        "uitregio": 840
+      },
+      "monteur": {
+        "totaalaantalTI": 12456,
+        "uitregio": 840
+      },
+      "technicus": {
+        "totaalaantalTI": 8563,
+        "uitregio": 840
+      },
+      "totaal_functies": {
+        "totaalaantalTI": 19176,
+        "uitregio": 14391
+      }
+    },
+    "noord_holland": {
+      "leerling": {
+        "totaalaantalTI": 66935,
+        "uitregio": 8640
+      },
+      "overige_functies": {
+        "totaalaantalTI": 14356,
+        "uitregio": 840
+      },
+      "monteur": {
+        "totaalaantalTI": 12456,
+        "uitregio": 840
+      },
+      "technicus": {
+        "totaalaantalTI": 8563,
+        "uitregio": 840
+      },
+      "totaal_functies": {
+        "totaalaantalTI": 89176,
+        "uitregio": 14391
+      }
+    },
+    "gelderland_overijssel": {
+      "leerling": {
+        "totaalaantalTI": 29935,
+        "uitregio": 8640
+      },
+      "overige_functies": {
+        "totaalaantalTI": 5456,
+        "uitregio": 3540
+      },
+      "monteur": {
+        "totaalaantalTI": 12456,
+        "uitregio": 840
+      },
+      "technicus": {
+        "totaalaantalTI": 8563,
+        "uitregio": 840
+      },
+      "totaal_functies": {
+        "totaalaantalTI": 72176,
+        "uitregio": 14391
+      }
+    },
+    "noord_nederland": {
+      "leerling": {
+        "totaalaantalTI": 26535,
+        "uitregio": 989
+      },
+      "overige_functies": {
+        "totaalaantalTI": 58962,
+        "uitregio": 22200
+      },
+      "monteur": {
+        "totaalaantalTI": 12456,
+        "uitregio": 840
+      },
+      "technicus": {
+        "totaalaantalTI": 8563,
+        "uitregio": 840
+      },
+      "totaal_functies": {
+        "totaalaantalTI": 129555,
+        "uitregio": 14391
+      }
+    },
+    "zuid_holland": {
+      "leerling": {
+        "totaalaantalTI": 12935,
+        "uitregio": 5440
+      },
+      "overige_functies": {
+        "totaalaantalTI": 91456,
+        "uitregio": 840
+      },
+      "monteur": {
+        "totaalaantalTI": 12456,
+        "uitregio": 840
+      },
+      "technicus": {
+        "totaalaantalTI": 8563,
+        "uitregio": 840
+      },
+      "totaal_functies": {
+        "totaalaantalTI": 69176,
+        "uitregio": 7191
+      }
+    },
+    "zuid_nederland": {
+      "leerling": {
+        "totaalaantalTI": 12935,
+        "uitregio": 5440
+      },
+      "overige_functies": {
+        "totaalaantalTI": 25456,
+        "uitregio": 840
+      },
+      "monteur": {
+        "totaalaantalTI": 12456,
+        "uitregio": 840
+      },
+      "technicus": {
+        "totaalaantalTI": 8563,
+        "uitregio": 840
+      },
+      "totaal_functies": {
+        "totaalaantalTI": 12176,
+        "uitregio": 1191
+      }
+    },
+    "midden_nederland": {
+      "leerling": {
+        "totaalaantalTI": 82935,
+        "uitregio": 5440
+      },
+      "overige_functies": {
+        "totaalaantalTI": 99456,
+        "uitregio": 840
+      },
+      "monteur": {
+        "totaalaantalTI": 12456,
+        "uitregio": 840
+      },
+      "technicus": {
+        "totaalaantalTI": 8563,
+        "uitregio": 840
+      },
+      "totaal_functies": {
+        "totaalaantalTI": 33176,
+        "uitregio": 3191
+      }
+    }
+  },
+  "jaar_2017": {
+    "totaal_regios": {
+      "leerling": {
+        "totaalaantalTI": 6935,
+        "uitregio": 1840
+      },
+      "overige_functies": {
+        "totaalaantalTI": 24456,
+        "uitregio": 1840
+      },
+      "monteur": {
+        "totaalaantalTI": 12456,
+        "uitregio": 8400
+      },
+      "technicus": {
+        "totaalaantalTI": 18563,
+        "uitregio": 8840
+      },
+      "totaal_functies": {
+        "totaalaantalTI": 19976,
+        "uitregio": 14391
+      }
+    },
+    "noord_holland": {
+      "leerling": {
+        "totaalaantalTI": 66935,
+        "uitregio": 8640
+      },
+      "overige_functies": {
+        "totaalaantalTI": 14456,
+        "uitregio": 840
+      },
+      "monteur": {
+        "totaalaantalTI": 12456,
+        "uitregio": 840
+      },
+      "technicus": {
+        "totaalaantalTI": 8563,
+        "uitregio": 840
+      },
+      "totaal_functies": {
+        "totaalaantalTI": 59176,
+        "uitregio": 14391
+      }
+    },
+    "gelderland_overijssel": {
+      "leerling": {
+        "totaalaantalTI": 29935,
+        "uitregio": 8640
+      },
+      "overige_functies": {
+        "totaalaantalTI": 5456,
+        "uitregio": 3540
+      },
+      "monteur": {
+        "totaalaantalTI": 12456,
+        "uitregio": 840
+      },
+      "technicus": {
+        "totaalaantalTI": 8563,
+        "uitregio": 840
+      },
+      "totaal_functies": {
+        "totaalaantalTI": 35176,
+        "uitregio": 4391
+      }
+    },
+    "noord_nederland": {
+      "leerling": {
+        "totaalaantalTI": 26535,
+        "uitregio": 989
+      },
+      "overige_functies": {
+        "totaalaantalTI": 58962,
+        "uitregio": 22200
+      },
+      "monteur": {
+        "totaalaantalTI": 12456,
+        "uitregio": 840
+      },
+      "technicus": {
+        "totaalaantalTI": 8563,
+        "uitregio": 840
+      },
+      "totaal_functies": {
+        "totaalaantalTI": 88176,
+        "uitregio": 4391
+      }
+    },
+    "zuid_holland": {
+      "leerling": {
+        "totaalaantalTI": 12935,
+        "uitregio": 5440
+      },
+      "overige_functies": {
+        "totaalaantalTI": 14456,
+        "uitregio": 840
+      },
+      "monteur": {
+        "totaalaantalTI": 12456,
+        "uitregio": 840
+      },
+      "technicus": {
+        "totaalaantalTI": 8563,
+        "uitregio": 840
+      },
+      "totaal_functies": {
+        "totaalaantalTI": 39176,
+        "uitregio": 13191
+      }
+    },
+    "zuid_nederland": {
+      "leerling": {
+        "totaalaantalTI": 12935,
+        "uitregio": 5440
+      },
+      "overige_functies": {
+        "totaalaantalTI": 7456,
+        "uitregio": 840
+      },
+      "monteur": {
+        "totaalaantalTI": 12456,
+        "uitregio": 840
+      },
+      "technicus": {
+        "totaalaantalTI": 8563,
+        "uitregio": 840
+      },
+      "totaal_functies": {
+        "totaalaantalTI": 78176,
+        "uitregio": 9191
+      }
+    },
+    "midden_nederland": {
+      "leerling": {
+        "totaalaantalTI": 82935,
+        "uitregio": 5440
+      },
+      "overige_functies": {
+        "totaalaantalTI": 54456,
+        "uitregio": 840
+      },
+      "monteur": {
+        "totaalaantalTI": 12456,
+        "uitregio": 840
+      },
+      "technicus": {
+        "totaalaantalTI": 8563,
+        "uitregio": 840
+      },
+      "totaal_functies": {
+        "totaalaantalTI": 39176,
+        "uitregio": 13191
+      }
+    }
+  },
+  "jaar_2018": {
+    "totaal_regios": {
+      "leerling": {
+        "totaalaantalTI": 16935,
+        "uitregio": 840
+      },
+      "overige_functies": {
+        "totaalaantalTI": 56456,
+        "uitregio": 840
+      },
+      "monteur": {
+        "totaalaantalTI": 12456,
+        "uitregio": 840
+      },
+      "technicus": {
+        "totaalaantalTI": 8563,
+        "uitregio": 840
+      },
+      "totaal_functies": {
+        "totaalaantalTI": 56544,
+        "uitregio": 14391
+      }
+    },
+    "noord_holland": {
+      "leerling": {
+        "totaalaantalTI": 66935,
+        "uitregio": 8640
+      },
+      "overige_functies": {
+        "totaalaantalTI": 85598,
+        "uitregio": 840
+      },
+      "monteur": {
+        "totaalaantalTI": 12456,
+        "uitregio": 840
+      },
+      "technicus": {
+        "totaalaantalTI": 8563,
+        "uitregio": 840
+      },
+      "totaal_functies": {
+        "totaalaantalTI": 71916,
+        "uitregio": 14391
+      }
+    },
+    "gelderland_overijssel": {
+      "leerling": {
+        "totaalaantalTI": 29935,
+        "uitregio": 8640
+      },
+      "overige_functies": {
+        "totaalaantalTI": 5456,
+        "uitregio": 3540
+      },
+      "monteur": {
+        "totaalaantalTI": 12456,
+        "uitregio": 840
+      },
+      "technicus": {
+        "totaalaantalTI": 8563,
+        "uitregio": 840
+      },
+      "totaal_functies": {
+        "totaalaantalTI": 63176,
+        "uitregio": 14391
+      }
+    },
+    "noord_nederland": {
+      "leerling": {
+        "totaalaantalTI": 26535,
+        "uitregio": 989
+      },
+      "overige_functies": {
+        "totaalaantalTI": 58962,
+        "uitregio": 22200
+      },
+      "monteur": {
+        "totaalaantalTI": 12456,
+        "uitregio": 840
+      },
+      "technicus": {
+        "totaalaantalTI": 8563,
+        "uitregio": 840
+      },
+      "totaal_functies": {
+        "totaalaantalTI": 44558,
+        "uitregio": 14391
+      }
+    },
+    "zuid_holland": {
+      "leerling": {
+        "totaalaantalTI": 12935,
+        "uitregio": 5440
+      },
+      "overige_functies": {
+        "totaalaantalTI": 22558,
+        "uitregio": 840
+      },
+      "monteur": {
+        "totaalaantalTI": 12456,
+        "uitregio": 840
+      },
+      "technicus": {
+        "totaalaantalTI": 8563,
+        "uitregio": 840
+      },
+      "totaal_functies": {
+        "totaalaantalTI": 79176,
+        "uitregio": 3191
+      }
+    },
+    "zuid_nederland": {
+      "leerling": {
+        "totaalaantalTI": 12935,
+        "uitregio": 5440
+      },
+      "overige_functies": {
+        "totaalaantalTI": 56688,
+        "uitregio": 840
+      },
+      "monteur": {
+        "totaalaantalTI": 12456,
+        "uitregio": 840
+      },
+      "technicus": {
+        "totaalaantalTI": 8563,
+        "uitregio": 840
+      },
+      "totaal_functies": {
+        "totaalaantalTI": 142176,
+        "uitregio": 3191
+      }
+    },
+    "midden_nederland": {
+      "leerling": {
+        "totaalaantalTI": 62935,
+        "uitregio": 9440
+      },
+      "overige_functies": {
+        "totaalaantalTI": 35566,
+        "uitregio": 840
+      },
+      "monteur": {
+        "totaalaantalTI": 12456,
+        "uitregio": 840
+      },
+      "technicus": {
+        "totaalaantalTI": 8563,
+        "uitregio": 840
+      },
+      "totaal_functies": {
+        "totaalaantalTI": 22554,
+        "uitregio": 3191
+      }
+    }
+  },
+  "jaar_2019": {
+    "totaal_regios": {
+      "leerling": {
+        "totaalaantalTI": 20935,
+        "uitregio": 8240
+      },
+      "overige_functies": {
+        "totaalaantalTI": 14556,
+        "uitregio": 840
+      },
+      "monteur": {
+        "totaalaantalTI": 12456,
+        "uitregio": 840
+      },
+      "technicus": {
+        "totaalaantalTI": 8563,
+        "uitregio": 840
+      },
+      "totaal_functies": {
+        "totaalaantalTI": 56988,
+        "uitregio": 14391
+      }
+    },
+    "noord_holland": {
+      "leerling": {
+        "totaalaantalTI": 136935,
+        "uitregio": 8640
+      },
+      "overige_functies": {
+        "totaalaantalTI": 75699,
+        "uitregio": 840
+      },
+      "monteur": {
+        "totaalaantalTI": 12456,
+        "uitregio": 840
+      },
+      "technicus": {
+        "totaalaantalTI": 28563,
+        "uitregio": 1840
+      },
+      "totaal_functies": {
+        "totaalaantalTI": 98176,
+        "uitregio": 14391
+      }
+    },
+    "gelderland_overijssel": {
+      "leerling": {
+        "totaalaantalTI": 29935,
+        "uitregio": 8640
+      },
+      "overige_functies": {
+        "totaalaantalTI": 5456,
+        "uitregio": 3540
+      },
+      "monteur": {
+        "totaalaantalTI": 12456,
+        "uitregio": 840
+      },
+      "technicus": {
+        "totaalaantalTI": 8563,
+        "uitregio": 840
+      },
+      "totaal_functies": {
+        "totaalaantalTI": 15698,
+        "uitregio": 14391
+      }
+    },
+    "noord_nederland": {
+      "leerling": {
+        "totaalaantalTI": 26535,
+        "uitregio": 989
+      },
+      "overige_functies": {
+        "totaalaantalTI": 58962,
+        "uitregio": 22200
+      },
+      "monteur": {
+        "totaalaantalTI": 12456,
+        "uitregio": 840
+      },
+      "technicus": {
+        "totaalaantalTI": 8563,
+        "uitregio": 840
+      },
+      "totaal_functies": {
+        "totaalaantalTI": 42558,
+        "uitregio": 14391
+      }
+    },
+    "zuid_holland": {
+      "leerling": {
+        "totaalaantalTI": 12935,
+        "uitregio": 5440
+      },
+      "overige_functies": {
+        "totaalaantalTI": 36995,
+        "uitregio": 840
+      },
+      "monteur": {
+        "totaalaantalTI": 12456,
+        "uitregio": 840
+      },
+      "technicus": {
+        "totaalaantalTI": 8563,
+        "uitregio": 840
+      },
+      "totaal_functies": {
+        "totaalaantalTI": 47888,
+        "uitregio": 13191
+      }
+    },
+    "zuid_nederland": {
+      "leerling": {
+        "totaalaantalTI": 12935,
+        "uitregio": 5440
+      },
+      "overige_functies": {
+        "totaalaantalTI": 12225,
+        "uitregio": 840
+      },
+      "monteur": {
+        "totaalaantalTI": 12456,
+        "uitregio": 840
+      },
+      "technicus": {
+        "totaalaantalTI": 8563,
+        "uitregio": 840
+      },
+      "totaal_functies": {
+        "totaalaantalTI": 57788,
+        "uitregio": 8191
+      }
+    },
+    "midden_nederland": {
+      "leerling": {
+        "totaalaantalTI": 131935,
+        "uitregio": 5440
+      },
+      "overige_functies": {
+        "totaalaantalTI": 85225,
+        "uitregio": 840
+      },
+      "monteur": {
+        "totaalaantalTI": 12456,
+        "uitregio": 840
+      },
+      "technicus": {
+        "totaalaantalTI": 8563,
+        "uitregio": 840
+      },
+      "totaal_functies": {
+        "totaalaantalTI": 78788,
+        "uitregio": 53191
+      }
+    }
+  },
+  "jaar_2020": {
+    "totaal_regios": {
+      "leerling": {
+        "totaalaantalTI": 6935,
+        "uitregio": 840
+      },
+      "overige_functies": {
+        "totaalaantalTI": 67888,
+        "uitregio": 840
+      },
+      "monteur": {
+        "totaalaantalTI": 12456,
+        "uitregio": 840
+      },
+      "technicus": {
+        "totaalaantalTI": 8563,
+        "uitregio": 840
+      },
+      "totaal_functies": {
+        "totaalaantalTI": 87833,
+        "uitregio": 4391
+      }
+    },
+    "noord_holland": {
+      "leerling": {
+        "totaalaantalTI": 66935,
+        "uitregio": 8640
+      },
+      "overige_functies": {
+        "totaalaantalTI": 75777,
+        "uitregio": 840
+      },
+      "monteur": {
+        "totaalaantalTI": 12456,
+        "uitregio": 840
+      },
+      "technicus": {
+        "totaalaantalTI": 8563,
+        "uitregio": 840
+      },
+      "totaal_functies": {
+        "totaalaantalTI": 125777,
+        "uitregio": 14391
+      }
+    },
+    "gelderland_overijssel": {
+      "leerling": {
+        "totaalaantalTI": 29935,
+        "uitregio": 8640
+      },
+      "overige_functies": {
+        "totaalaantalTI": 5456,
+        "uitregio": 3540
+      },
+      "monteur": {
+        "totaalaantalTI": 12456,
+        "uitregio": 840
+      },
+      "technicus": {
+        "totaalaantalTI": 8563,
+        "uitregio": 840
+      },
+      "totaal_functies": {
+        "totaalaantalTI": 25556,
+        "uitregio": 14391
+      }
+    },
+    "noord_nederland": {
+      "leerling": {
+        "totaalaantalTI": 26535,
+        "uitregio": 989
+      },
+      "overige_functies": {
+        "totaalaantalTI": 58962,
+        "uitregio": 22200
+      },
+      "monteur": {
+        "totaalaantalTI": 12456,
+        "uitregio": 840
+      },
+      "technicus": {
+        "totaalaantalTI": 8563,
+        "uitregio": 840
+      },
+      "totaal_functies": {
+        "totaalaantalTI": 125555,
+        "uitregio": 14391
+      }
+    },
+    "zuid_holland": {
+      "leerling": {
+        "totaalaantalTI": 12935,
+        "uitregio": 5440
+      },
+      "overige_functies": {
+        "totaalaantalTI": 12544,
+        "uitregio": 840
+      },
+      "monteur": {
+        "totaalaantalTI": 12456,
+        "uitregio": 840
+      },
+      "technicus": {
+        "totaalaantalTI": 8563,
+        "uitregio": 840
+      },
+      "totaal_functies": {
+        "totaalaantalTI": 25568,
+        "uitregio": 7319
+      }
+    },
+    "zuid_nederland": {
+      "leerling": {
+        "totaalaantalTI": 12935,
+        "uitregio": 5440
+      },
+      "overige_functies": {
+        "totaalaantalTI": 35699,
+        "uitregio": 840
+      },
+      "monteur": {
+        "totaalaantalTI": 12456,
+        "uitregio": 840
+      },
+      "technicus": {
+        "totaalaantalTI": 8563,
+        "uitregio": 840
+      },
+      "totaal_functies": {
+        "totaalaantalTI": 155536,
+        "uitregio": 13191
+      }
+    },
+    "midden_nederland": {
+      "leerling": {
+        "totaalaantalTI": 52935,
+        "uitregio": 5440
+      },
+      "overige_functies": {
+        "totaalaantalTI": 95525,
+        "uitregio": 840
+      },
+      "monteur": {
+        "totaalaantalTI": 12456,
+        "uitregio": 840
+      },
+      "technicus": {
+        "totaalaantalTI": 8563,
+        "uitregio": 840
+      },
+      "totaal_functies": {
+        "totaalaantalTI": 129176,
+        "uitregio": 93191
+      }
+    }
+  }
+}
