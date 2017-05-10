@@ -1,7 +1,7 @@
 // Laad gegevens via JSON vanaf externe server
 var gegevens;
 jQuery.ajax({
-	url: 'http://trendfiles.otib.dev/wp-content/themes/trendfiles-theme/js/json-figuur-3.json',
+	url: 'http://trendfiles.otib.nl/data/json-figuur-3.json',
 	dataType: 'json',
 	success: function ( data, textStatus, jqXHR ) {
 		gegevens = data;
@@ -100,26 +100,44 @@ function maakGrafiek( regio, functie ) {
 	var staaf_2020_SVTI_TIverwantdiploma = SVG.get('staaf_2020_SVTI_TIverwantdiploma');
 	var staaf_2020_SVoverig = SVG.get('staaf_2020_SVoverig');
 
+	jQuery( '#staaf_2016_zijinstroom title' ).text( gegevens.jaar_2016[regio][functie].zijinstroom );
+	jQuery( '#staaf_2017_zijinstroom title' ).text( gegevens.jaar_2017[regio][functie].zijinstroom );
+	jQuery( '#staaf_2018_zijinstroom title' ).text( gegevens.jaar_2018[regio][functie].zijinstroom );
+	jQuery( '#staaf_2019_zijinstroom title' ).text( gegevens.jaar_2019[regio][functie].zijinstroom );
+	jQuery( '#staaf_2020_zijinstroom title' ).text( gegevens.jaar_2020[regio][functie].zijinstroom );
+
+	jQuery( '#staaf_2016_SVTI_TIverwantdiploma title' ).text( gegevens.jaar_2020[regio][functie].SVTI_TIverwantdiploma );
+	jQuery( '#staaf_2017_SVTI_TIverwantdiploma title' ).text( gegevens.jaar_2020[regio][functie].SVTI_TIverwantdiploma );	
+	jQuery( '#staaf_2018_SVTI_TIverwantdiploma title' ).text( gegevens.jaar_2020[regio][functie].SVTI_TIverwantdiploma );
+	jQuery( '#staaf_2019_SVTI_TIverwantdiploma title' ).text( gegevens.jaar_2020[regio][functie].SVTI_TIverwantdiploma );
+	jQuery( '#staaf_2020_SVTI_TIverwantdiploma title' ).text( gegevens.jaar_2020[regio][functie].SVTI_TIverwantdiploma );
+
+	jQuery( '#staaf_2016_SVoverig title' ).text( gegevens.jaar_2016[regio][functie].SVoverig );
+	jQuery( '#staaf_2017_SVoverig title' ).text( gegevens.jaar_2017[regio][functie].SVoverig );
+	jQuery( '#staaf_2018_SVoverig title' ).text( gegevens.jaar_2018[regio][functie].SVoverig );
+	jQuery( '#staaf_2019_SVoverig title' ).text( gegevens.jaar_2019[regio][functie].SVoverig );
+	jQuery( '#staaf_2020_SVoverig title' ).text( gegevens.jaar_2020[regio][functie].SVoverig );
+
 	// Bereken percentages
 	percentage_zijinstroom_2016 = 100 * gegevens.jaar_2016[regio][functie].zijinstroom / gegevens.jaar_2016[regio][functie].wb_totaal;
 	percentage_SVTI_TIverwantdiploma_2016 = 100 * gegevens.jaar_2016[regio][functie].SVTI_TIverwantdiploma / gegevens.jaar_2016[regio][functie].wb_totaal;
 	percentage_SVoverig_2016 = 100 * gegevens.jaar_2016[regio][functie].SVoverig / gegevens.jaar_2016[regio][functie].wb_totaal;
 
-	percentage_zijinstroom_2017 = 100 * gegevens.jaar_2016[regio][functie].zijinstroom / gegevens.jaar_2016[regio][functie].wb_totaal;
-	percentage_SVTI_TIverwantdiploma_2017 = 100 * gegevens.jaar_2016[regio][functie].SVTI_TIverwantdiploma / gegevens.jaar_2016[regio][functie].wb_totaal;
-	percentage_SVoverig_2017 = 100 * gegevens.jaar_2016[regio][functie].SVoverig / gegevens.jaar_2016[regio][functie].wb_totaal;
+	percentage_zijinstroom_2017 = 100 * gegevens.jaar_2017[regio][functie].zijinstroom / gegevens.jaar_2017[regio][functie].wb_totaal;
+	percentage_SVTI_TIverwantdiploma_2017 = 100 * gegevens.jaar_2017[regio][functie].SVTI_TIverwantdiploma / gegevens.jaar_2017[regio][functie].wb_totaal;
+	percentage_SVoverig_2017 = 100 * gegevens.jaar_2017[regio][functie].SVoverig / gegevens.jaar_2017[regio][functie].wb_totaal;
 
-	percentage_zijinstroom_2018 = 100 * gegevens.jaar_2016[regio][functie].zijinstroom / gegevens.jaar_2016[regio][functie].wb_totaal;
-	percentage_SVTI_TIverwantdiploma_2018 = 100 * gegevens.jaar_2016[regio][functie].SVTI_TIverwantdiploma / gegevens.jaar_2016[regio][functie].wb_totaal;
-	percentage_SVoverig_2018 = 100 * gegevens.jaar_2016[regio][functie].SVoverig / gegevens.jaar_2016[regio][functie].wb_totaal;
+	percentage_zijinstroom_2018 = 100 * gegevens.jaar_2018[regio][functie].zijinstroom / gegevens.jaar_2018[regio][functie].wb_totaal;
+	percentage_SVTI_TIverwantdiploma_2018 = 100 * gegevens.jaar_2018[regio][functie].SVTI_TIverwantdiploma / gegevens.jaar_2018[regio][functie].wb_totaal;
+	percentage_SVoverig_2018 = 100 * gegevens.jaar_2018[regio][functie].SVoverig / gegevens.jaar_2018[regio][functie].wb_totaal;
 
-	percentage_zijinstroom_2019 = 100 * gegevens.jaar_2016[regio][functie].zijinstroom / gegevens.jaar_2016[regio][functie].wb_totaal;
-	percentage_SVTI_TIverwantdiploma_2019 = 100 * gegevens.jaar_2016[regio][functie].SVTI_TIverwantdiploma / gegevens.jaar_2016[regio][functie].wb_totaal;
-	percentage_SVoverig_2019 = 100 * gegevens.jaar_2016[regio][functie].SVoverig / gegevens.jaar_2016[regio][functie].wb_totaal;
+	percentage_zijinstroom_2019 = 100 * gegevens.jaar_2019[regio][functie].zijinstroom / gegevens.jaar_2019[regio][functie].wb_totaal;
+	percentage_SVTI_TIverwantdiploma_2019 = 100 * gegevens.jaar_2019[regio][functie].SVTI_TIverwantdiploma / gegevens.jaar_2019[regio][functie].wb_totaal;
+	percentage_SVoverig_2019 = 100 * gegevens.jaar_2019[regio][functie].SVoverig / gegevens.jaar_2019[regio][functie].wb_totaal;
 
-	percentage_zijinstroom_2020 = 100 * gegevens.jaar_2016[regio][functie].zijinstroom / gegevens.jaar_2016[regio][functie].wb_totaal;
-	percentage_SVTI_TIverwantdiploma_2020 = 100 * gegevens.jaar_2016[regio][functie].SVTI_TIverwantdiploma / gegevens.jaar_2016[regio][functie].wb_totaal;
-	percentage_SVoverig_2020 = 100 * gegevens.jaar_2016[regio][functie].SVoverig / gegevens.jaar_2016[regio][functie].wb_totaal;
+	percentage_zijinstroom_2020 = 100 * gegevens.jaar_2020[regio][functie].zijinstroom / gegevens.jaar_2020[regio][functie].wb_totaal;
+	percentage_SVTI_TIverwantdiploma_2020 = 100 * gegevens.jaar_2020[regio][functie].SVTI_TIverwantdiploma / gegevens.jaar_2020[regio][functie].wb_totaal;
+	percentage_SVoverig_2020 = 100 * gegevens.jaar_2020[regio][functie].SVoverig / gegevens.jaar_2020[regio][functie].wb_totaal;
 
 	// Converteer ingevoerde percentage naar absolute svg data
 	var hoogte_staaf_zijinstroom_2016 = (percentage_zijinstroom_2016 / 100 * 41);
@@ -144,10 +162,10 @@ function maakGrafiek( regio, functie ) {
 
 	// Waarden in tekst
 	jQuery( "#wb_2016" ).text( gegevens.jaar_2016[regio][functie].wb_totaal );
-	jQuery( "#wb_2017" ).text( gegevens.jaar_2016[regio][functie].wb_totaal );
-	jQuery( "#wb_2018" ).text( gegevens.jaar_2016[regio][functie].wb_totaal );
-	jQuery( "#wb_2019" ).text( gegevens.jaar_2016[regio][functie].wb_totaal );
-	jQuery( "#wb_2020" ).text( gegevens.jaar_2016[regio][functie].wb_totaal );
+	jQuery( "#wb_2017" ).text( gegevens.jaar_2017[regio][functie].wb_totaal );
+	jQuery( "#wb_2018" ).text( gegevens.jaar_2018[regio][functie].wb_totaal );
+	jQuery( "#wb_2019" ).text( gegevens.jaar_2019[regio][functie].wb_totaal );
+	jQuery( "#wb_2020" ).text( gegevens.jaar_2020[regio][functie].wb_totaal );
 
 	// Animaties
 	staaf_2016_zijinstroom.animate().attr('height', hoogte_staaf_zijinstroom_2016 ).y(192.4 - hoogte_staaf_zijinstroom_2016);

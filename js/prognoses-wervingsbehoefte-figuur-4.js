@@ -1,7 +1,7 @@
 // Laad gegevens via JSON vanaf externe server
 var gegevens;
 jQuery.ajax({
-	url: 'http://trendfiles.otib.dev/wp-content/themes/trendfiles-theme/js/json-figuur-4.json',
+	url: 'http://trendfiles.otib.nl/data/json-figuur-4.json',
 	dataType: 'json',
 	success: function ( data, textStatus, jqXHR ) {
 		gegevens = data;
@@ -45,12 +45,12 @@ function kiesFunctie( geselecteerde_functie ) {
 
 function maakGrafiek(regio, functie) {
 
-	//console.log( 'Regio: ' + regio );
-	//console.log( 'Functie: ' + functie );
-	//console.log( 'LocalStorage regio: ' + regio );
-	//console.log( 'LocalStorage functie: ' + functie );
-	//console.log( gegevens );
-	//console.log( kleuren );
+	console.log( 'Regio: ' + regio );
+	console.log( 'Functie: ' + functie );
+	console.log( 'LocalStorage regio: ' + regio );
+	console.log( 'LocalStorage functie: ' + functie );
+	console.log( gegevens );
+	console.log( kleuren );
 
 	// Kleur regio's aan de hand van kleuren json
 	jQuery( '#kaart path' ).css({ fill: kleuren.totaal_regios.licht });
@@ -105,16 +105,16 @@ function maakGrafiek(regio, functie) {
 	var maatlijn_hbo = SVG.get('maatlijn_hbo');
 
 	// Bereken percentages
-	percentage_wb_vmbo = 100 * gegevens.jaar_2020[regio][functie].vmbo.wb_vmbo / gegevens.jaar_2020[regio][functie].vmbo.totaal_vmbo;
-	percentage_wk_vmbo = 100 * gegevens.jaar_2020[regio][functie].vmbo.wk_vmbo / gegevens.jaar_2020[regio][functie].vmbo.totaal_vmbo;
-	percentage_wb_mbo2 = 100 * gegevens.jaar_2020[regio][functie].mbo2.wb_mbo2 / gegevens.jaar_2020[regio][functie].mbo2.totaal_mbo2;
-	percentage_wk_mbo2 = 100 * gegevens.jaar_2020[regio][functie].mbo2.wk_mbo2 / gegevens.jaar_2020[regio][functie].mbo2.totaal_mbo2;
-	percentage_wb_mbo3 = 100 * gegevens.jaar_2020[regio][functie].mbo3.wb_mbo3 / gegevens.jaar_2020[regio][functie].mbo3.totaal_mbo3;
-	percentage_wk_mbo3 = 100 * gegevens.jaar_2020[regio][functie].mbo3.wk_mbo3 / gegevens.jaar_2020[regio][functie].mbo3.totaal_mbo3;
-	percentage_wb_mbo4 = 100 * gegevens.jaar_2020[regio][functie].mbo4.wb_mbo4 / gegevens.jaar_2020[regio][functie].mbo4.totaal_mbo4;
-	percentage_wk_mbo4 = 100 * gegevens.jaar_2020[regio][functie].mbo4.wk_mbo4 / gegevens.jaar_2020[regio][functie].mbo4.totaal_mbo4;
-	percentage_wb_hbo = 100 * gegevens.jaar_2020[regio][functie].hbo.wb_hbo / gegevens.jaar_2020[regio][functie].hbo.totaal_hbo;
-	percentage_wk_hbo = 100 * gegevens.jaar_2020[regio][functie].hbo.wk_hbo / gegevens.jaar_2020[regio][functie].hbo.totaal_hbo;
+	percentage_wb_vmbo = 100 * gegevens.jaar_2020[regio][functie].wb_vmbo / gegevens.jaar_2020[regio][functie].wk_totaal;
+	percentage_wk_vmbo = 100 * gegevens.jaar_2020[regio][functie].wk_vmbo / gegevens.jaar_2020[regio][functie].wk_totaal;
+	percentage_wb_mbo2 = 100 * gegevens.jaar_2020[regio][functie].wb_mbo2 / gegevens.jaar_2020[regio][functie].wk_totaal;
+	percentage_wk_mbo2 = 100 * gegevens.jaar_2020[regio][functie].wk_mbo2 / gegevens.jaar_2020[regio][functie].wk_totaal;
+	percentage_wb_mbo3 = 100 * gegevens.jaar_2020[regio][functie].wb_mbo3 / gegevens.jaar_2020[regio][functie].wk_totaal;
+	percentage_wk_mbo3 = 100 * gegevens.jaar_2020[regio][functie].wk_mbo3 / gegevens.jaar_2020[regio][functie].wk_totaal;
+	percentage_wb_mbo4 = 100 * gegevens.jaar_2020[regio][functie].wb_mbo4 / gegevens.jaar_2020[regio][functie].wk_totaal;
+	percentage_wk_mbo4 = 100 * gegevens.jaar_2020[regio][functie].wk_mbo4 / gegevens.jaar_2020[regio][functie].wk_totaal;
+	percentage_wb_hbo = 100 * gegevens.jaar_2020[regio][functie].wb_hbo / gegevens.jaar_2020[regio][functie].wk_totaal;
+	percentage_wk_hbo = 100 * gegevens.jaar_2020[regio][functie].wk_hbo / gegevens.jaar_2020[regio][functie].wk_totaal;
 
 	// Converteer ingevoerde percentage naar absolute svg data
 	var rechthoek_wk_vmbo = (percentage_wk_vmbo / 100 * 41);
@@ -183,16 +183,22 @@ function maakGrafiek(regio, functie) {
 	}
 
 	// Waarden in tekst
-	jQuery( "#wb_vmbo" ).text( gegevens.jaar_2020[regio][functie].vmbo.wb_vmbo );
-	jQuery( "#wk_vmbo" ).text( gegevens.jaar_2020[regio][functie].vmbo.wk_vmbo );
-	jQuery( "#wb_mbo2" ).text( gegevens.jaar_2020[regio][functie].mbo2.wb_mbo2 );
-	jQuery( "#wk_mbo2" ).text( gegevens.jaar_2020[regio][functie].mbo2.wk_mbo2);
-	jQuery( "#wb_mbo3" ).text( gegevens.jaar_2020[regio][functie].mbo3.wb_mbo3 );
-	jQuery( "#wk_mbo3" ).text( gegevens.jaar_2020[regio][functie].mbo3.wk_mbo3);
-	jQuery( "#wb_mbo4" ).text( gegevens.jaar_2020[regio][functie].mbo4.wb_mbo4 );
-	jQuery( "#wk_mbo4" ).text( gegevens.jaar_2020[regio][functie].mbo4.wk_mbo4 );
-	jQuery( "#wb_hbo" ).text( gegevens.jaar_2020[regio][functie].hbo.wb_hbo );
-	jQuery( "#wk_hbo" ).text( gegevens.jaar_2020[regio][functie].hbo.wk_hbo );
+	jQuery( "#wb_vmbo" ).text( gegevens.jaar_2020[regio][functie].wb_vmbo );
+	jQuery( "#wk_vmbo" ).text( gegevens.jaar_2020[regio][functie].wk_vmbo );
+	jQuery( "#wb_mbo2" ).text( gegevens.jaar_2020[regio][functie].wb_mbo2 );
+	jQuery( "#wk_mbo2" ).text( gegevens.jaar_2020[regio][functie].wk_mbo2);
+	jQuery( "#wb_mbo3" ).text( gegevens.jaar_2020[regio][functie].wb_mbo3 );
+	jQuery( "#wk_mbo3" ).text( gegevens.jaar_2020[regio][functie].wk_mbo3);
+	jQuery( "#wb_mbo4" ).text( gegevens.jaar_2020[regio][functie].wb_mbo4 );
+	jQuery( "#wk_mbo4" ).text( gegevens.jaar_2020[regio][functie].wk_mbo4 );
+	jQuery( "#wb_hbo" ).text( gegevens.jaar_2020[regio][functie].wb_hbo );
+	jQuery( "#wk_hbo" ).text( gegevens.jaar_2020[regio][functie].wk_hbo );
+
+	jQuery( '#rechthoek_vmbo title' ).text( gegevens.jaar_2020[regio][functie].wk_vmbo );
+	jQuery( '#rechthoek_mbo2 title' ).text( gegevens.jaar_2020[regio][functie].wk_mbo2 );
+	jQuery( '#rechthoek_mbo3 title' ).text( gegevens.jaar_2020[regio][functie].wk_mbo3 );
+	jQuery( '#rechthoek_mbo4 title' ).text( gegevens.jaar_2020[regio][functie].wk_mbo4 );
+	jQuery( '#rechthoek_hbo title' ).text( gegevens.jaar_2020[regio][functie].wk_hbo );
 
 	// Animaties
 	bodem_vmbo.opacity(bodemzichtbaar_wb_vmbo);

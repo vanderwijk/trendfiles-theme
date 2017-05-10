@@ -1150,11 +1150,11 @@ get_header(); ?>
 					</g>
 					<g id="aswaarden">
 						<text font-family="'Droid Sans',sans-serif" font-size="8px" fill="#939598" text-anchor="end" x="100" y="196">0</text>
-						<text font-family="'Droid Sans',sans-serif" font-size="8px" fill="#939598" text-anchor="end" x="100" y="164">30000</text>
-						<text font-family="'Droid Sans',sans-serif" font-size="8px" fill="#939598" text-anchor="end" x="100" y="131">60000</text>
-						<text font-family="'Droid Sans',sans-serif" font-size="8px" fill="#939598" text-anchor="end" x="100" y="98">90000</text>
-						<text font-family="'Droid Sans',sans-serif" font-size="8px" fill="#939598" text-anchor="end" x="100" y="66">120000</text>
-						<text font-family="'Droid Sans',sans-serif" font-size="8px" fill="#939598" text-anchor="end" x="100" y="33">150000</text>
+						<text id="y-1" font-family="'Droid Sans',sans-serif" font-size="8px" fill="#939598" text-anchor="end" x="100" y="164">30000</text>
+						<text id="y-2" font-family="'Droid Sans',sans-serif" font-size="8px" fill="#939598" text-anchor="end" x="100" y="131">60000</text>
+						<text id="y-3" font-family="'Droid Sans',sans-serif" font-size="8px" fill="#939598" text-anchor="end" x="100" y="98">90000</text>
+						<text id="y-4" font-family="'Droid Sans',sans-serif" font-size="8px" fill="#939598" text-anchor="end" x="100" y="66">120000</text>
+						<text id="y-5" font-family="'Droid Sans',sans-serif" font-size="8px" fill="#939598" text-anchor="end" x="100" y="33">150000</text>
 					</g>
 					<g id="xlijnen">
 						<line fill="none" stroke="#A7A9AC" stroke-width="0.5016" stroke-miterlimit="10" x1="109" y1="196.7" x2="387" y2="196.7"></line>

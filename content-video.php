@@ -14,13 +14,13 @@
 			<div class="header">
 				<h2><?php the_title(); ?></h2>
 			</div>
-			<div class="intro">
-				<?php the_excerpt(); ?>
-			</div>
 			<div class="figure">
 				<?php $image = wp_get_attachment_image_src( get_post_thumbnail_id( $post->ID ), 'thumb-video' ); ?>
 				<img class="thumbnail" src="<?php echo $image[0]; ?>" alt="<?php the_title_attribute(); ?>" />
 				<img class="icon-play" src="/wp-content/themes/otib/img/play-circle.svg" alt="Video afspelen">
+			</div>
+			<div class="intro">
+				<?php the_excerpt(); ?>
 			</div>
 		</a>
 	</div>

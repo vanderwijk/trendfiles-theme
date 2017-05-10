@@ -340,11 +340,6 @@ small {
 	float: left;
 	width: 66%;
 }
-/* Format Video
-----------------------------------------------------------------------------------------------------*/
-.block.format-video .figure {
-	margin: 0;
-}
 
 .page .entry-title,
 .block .category {

@@ -121,4 +121,15 @@ screen and (device-width: 360px) and (device-height: 640px) and (-webkit-device-
 	.nav-menu .current-menu-item.menu-item-995 > a {
 		background: url('/wp-content/themes/otib/img/cirkel-arbeidsmarkt.svg') no-repeat 10px 14px;
 	}
+	.progress ul {
+		border: none;
+	}
+	.progress li {
+		float: none;
+		margin-top: 10px;
+		width: 100%;
+	}
+	.progress li:before {
+		content: none;
+	}
 }

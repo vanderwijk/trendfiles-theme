@@ -1,7 +1,7 @@
 // Laad gegevens via JSON vanaf externe server
 var gegevens;
 jQuery.ajax({
-	url: 'http://trendfiles.otib.dev/wp-content/themes/trendfiles-theme/js/json-figuur-1-2.json',
+	url: 'http://trendfiles.otib.nl/data/json-figuur-1-2.json',
 	dataType: 'json',
 	success: function ( data, textStatus, jqXHR ) {
 		gegevens = data;
@@ -109,18 +109,35 @@ function maakGrafiek(regio, functie) {
 	var staaf_2019_uitstroom = SVG.get( 'staaf_2019_uitstroom' );
 	var staaf_2020_uitstroom = SVG.get( 'staaf_2020_uitstroom' );
 
-	// Bereken percentages
-	hoogte_staaf_2016 = gegevens.jaar_2016[regio][functie].totaalaantalTI * 163 / 150000;
-	hoogte_staaf_2017 = gegevens.jaar_2017[regio][functie].totaalaantalTI * 163 / 150000;
-	hoogte_staaf_2018 = gegevens.jaar_2018[regio][functie].totaalaantalTI * 163 / 150000;
-	hoogte_staaf_2019 = gegevens.jaar_2019[regio][functie].totaalaantalTI * 163 / 150000;
-	hoogte_staaf_2020 = gegevens.jaar_2020[regio][functie].totaalaantalTI * 163 / 150000;
+	// Wijzig de schaal van de y-as als een specifieke regio is gekozen zodat de staven niet te kort worden
+	if ( regio != 'totaal_regios') {
+		max_schaal = 30000;
+		jQuery( '#y-1' ).text( '6000' );
+		jQuery( '#y-2' ).text( '12000' );
+		jQuery( '#y-3' ).text( '18000' );
+		jQuery( '#y-4' ).text( '24000' );
+		jQuery( '#y-5' ).text( '30000' );
+	} else {
+		max_schaal = 150000;
+		jQuery( '#y-1' ).text( '30000' );
+		jQuery( '#y-2' ).text( '60000' );
+		jQuery( '#y-3' ).text( '90000' );
+		jQuery( '#y-4' ).text( '120000' );
+		jQuery( '#y-5' ).text( '150000' );
+	}
 
-	hoogte_staaf_2016_uitstroom = gegevens.jaar_2016[regio][functie].uitregio * 163 / 150000;
-	hoogte_staaf_2017_uitstroom = gegevens.jaar_2017[regio][functie].uitregio * 163 / 150000;
-	hoogte_staaf_2018_uitstroom = gegevens.jaar_2018[regio][functie].uitregio * 163 / 150000;
-	hoogte_staaf_2019_uitstroom = gegevens.jaar_2019[regio][functie].uitregio * 163 / 150000;
-	hoogte_staaf_2020_uitstroom = gegevens.jaar_2020[regio][functie].uitregio * 163 / 150000;
+	// Bereken percentages
+	hoogte_staaf_2016 = gegevens.jaar_2016[regio][functie].totaalaantalTI * 163 / max_schaal;
+	hoogte_staaf_2017 = gegevens.jaar_2017[regio][functie].totaalaantalTI * 163 / max_schaal;
+	hoogte_staaf_2018 = gegevens.jaar_2018[regio][functie].totaalaantalTI * 163 / max_schaal;
+	hoogte_staaf_2019 = gegevens.jaar_2019[regio][functie].totaalaantalTI * 163 / max_schaal;
+	hoogte_staaf_2020 = gegevens.jaar_2020[regio][functie].totaalaantalTI * 163 / max_schaal;
+
+	hoogte_staaf_2016_uitstroom = gegevens.jaar_2016[regio][functie].uitregio * 163 / max_schaal;
+	hoogte_staaf_2017_uitstroom = gegevens.jaar_2017[regio][functie].uitregio * 163 / max_schaal;
+	hoogte_staaf_2018_uitstroom = gegevens.jaar_2018[regio][functie].uitregio * 163 / max_schaal;
+	hoogte_staaf_2019_uitstroom = gegevens.jaar_2019[regio][functie].uitregio * 163 / max_schaal;
+	hoogte_staaf_2020_uitstroom = gegevens.jaar_2020[regio][functie].uitregio * 163 / max_schaal;
 
 
 	// Animaties

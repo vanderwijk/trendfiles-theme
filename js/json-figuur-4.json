@@ -1,962 +1,3667 @@
 {
   "jaar_2020": {
-    "totaal_regios": {
-      "leerling": {
-        "vmbo": {
-          "wb_vmbo": 96,
-          "wk_vmbo": 68,
-          "totaal_vmbo": 117
-        },
-        "mbo2": {
-          "wb_mbo2": 96,
-          "wk_mbo2": 49,
-          "totaal_mbo2": 117
-        },
-        "mbo3": {
-          "wb_mbo3": 28,
-          "wk_mbo3": 32,
-          "totaal_mbo3": 28
-        },
-        "mbo4": {
-          "wb_mbo4": 28,
-          "wk_mbo4": 32,
-          "totaal_mbo4": 28
-        },
-        "hbo": {
-          "wb_hbo": 28,
-          "wk_hbo": 32,
-          "totaal_hbo": 28
-        }
-      },
-      "overige_functies": {
-        "vmbo": {
-          "wb_vmbo": 96,
-          "wk_vmbo": 49,
-          "totaal_vmbo": 117
-        },
-        "mbo2": {
-          "wb_mbo2": 96,
-          "wk_mbo2": 49,
-          "totaal_mbo2": 117
-        },
-        "mbo3": {
-          "wb_mbo3": 28,
-          "wk_mbo3": 32,
-          "totaal_mbo3": 28
-        },
-        "mbo4": {
-          "wb_mbo4": 28,
-          "wk_mbo4": 32,
-          "totaal_mbo4": 28
-        },
-        "hbo": {
-          "wb_hbo": 28,
-          "wk_hbo": 32,
-          "totaal_hbo": 28
-        }
-      },
-      "monteur": {
-        "vmbo": {
-          "wb_vmbo": 96,
-          "wk_vmbo": 49,
-          "totaal_vmbo": 117
-        },
-        "mbo2": {
-          "wb_mbo2": 96,
-          "wk_mbo2": 49,
-          "totaal_mbo2": 117
-        },
-        "mbo3": {
-          "wb_mbo3": 28,
-          "wk_mbo3": 32,
-          "totaal_mbo3": 28
-        },
-        "mbo4": {
-          "wb_mbo4": 28,
-          "wk_mbo4": 32,
-          "totaal_mbo4": 28
-        },
-        "hbo": {
-          "wb_hbo": 28,
-          "wk_hbo": 32,
-          "totaal_hbo": 28
-        }
+    "zuid_nederland": {
+      "totaal_functies": {
+        "wk_TIverwant": 60,
+        "wk_mbo3": 11,
+        "wk_vmbo": 103,
+        "wb_mbo4": 69,
+        "wk_overig": 290,
+        "wk_TITIverwant": 210,
+        "wk_TI": 145,
+        "wb_mbo3": 13,
+        "wb_mbo2": 45,
+        "wk_mbo2": 42,
+        "wk_totaal": 500,
+        "wb_hbo": 48,
+        "wk_hbo": 14,
+        "wk_mbo4": 39,
+        "wb_vmbo": 216
       },
       "technicus": {
-        "vmbo": {
-          "wb_vmbo": 96,
-          "wk_vmbo": 49,
-          "totaal_vmbo": 117
-        },
-        "mbo2": {
-          "wb_mbo2": 96,
-          "wk_mbo2": 49,
-          "totaal_mbo2": 117
-        },
-        "mbo3": {
-          "wb_mbo3": 28,
-          "wk_mbo3": 32,
-          "totaal_mbo3": 28
-        },
-        "mbo4": {
-          "wb_mbo4": 28,
-          "wk_mbo4": 32,
-          "totaal_mbo4": 28
-        },
-        "hbo": {
-          "wb_hbo": 28,
-          "wk_hbo": 32,
-          "totaal_hbo": 28
-        }
+        "wk_TIverwant": 0,
+        "wk_mbo3": 0,
+        "wk_vmbo": 0,
+        "wb_mbo4": 13,
+        "wk_overig": 15,
+        "wk_TITIverwant": 15,
+        "wk_TI": 15,
+        "wb_mbo3": 0,
+        "wb_mbo2": 0,
+        "wk_mbo2": 0,
+        "wk_totaal": 30,
+        "wb_hbo": 18,
+        "wk_hbo": 6,
+        "wk_mbo4": 9,
+        "wb_vmbo": 0
       },
-      "totaal_functies": {
-        "vmbo": {
-          "wb_vmbo": 926,
-          "wk_vmbo": 459,
-          "totaal_vmbo": 1517
-        },
-        "mbo2": {
-          "wb_mbo2": 96,
-          "wk_mbo2": 49,
-          "totaal_mbo2": 117
-        },
-        "mbo3": {
-          "wb_mbo3": 28,
-          "wk_mbo3": 32,
-          "totaal_mbo3": 28
-        },
-        "mbo4": {
-          "wb_mbo4": 28,
-          "wk_mbo4": 32,
-          "totaal_mbo4": 28
-        },
-        "hbo": {
-          "wb_hbo": 28,
-          "wk_hbo": 32,
-          "totaal_hbo": 28
-        }
-      }
-    },
-    "noord_holland": {
       "leerling": {
-        "vmbo": {
-          "wb_vmbo": 68,
-          "wk_vmbo": 88,
-          "totaal_vmbo": 117
-        },
-        "mbo2": {
-          "wb_mbo2": 96,
-          "wk_mbo2": 49,
-          "totaal_mbo2": 117
-        },
-        "mbo3": {
-          "wb_mbo3": 28,
-          "wk_mbo3": 32,
-          "totaal_mbo3": 28
-        },
-        "mbo4": {
-          "wb_mbo4": 28,
-          "wk_mbo4": 32,
-          "totaal_mbo4": 28
-        },
-        "hbo": {
-          "wb_hbo": 28,
-          "wk_hbo": 32,
-          "totaal_hbo": 28
-        }
+        "wk_TIverwant": 60,
+        "wk_mbo3": 6,
+        "wk_vmbo": 101,
+        "wb_mbo4": 5,
+        "wk_overig": 95,
+        "wk_TITIverwant": 145,
+        "wk_TI": 90,
+        "wb_mbo3": 5,
+        "wb_mbo2": 29,
+        "wk_mbo2": 34,
+        "wk_totaal": 240,
+        "wb_hbo": 0,
+        "wk_hbo": 0,
+        "wk_mbo4": 3,
+        "wb_vmbo": 159
       },
       "overige_functies": {
-        "vmbo": {
-          "wb_vmbo": 96,
-          "wk_vmbo": 49,
-          "totaal_vmbo": 117
-        },
-        "mbo2": {
-          "wb_mbo2": 96,
-          "wk_mbo2": 49,
-          "totaal_mbo2": 117
-        },
-        "mbo3": {
-          "wb_mbo3": 28,
-          "wk_mbo3": 32,
-          "totaal_mbo3": 28
-        },
-        "mbo4": {
-          "wb_mbo4": 28,
-          "wk_mbo4": 32,
-          "totaal_mbo4": 28
-        },
-        "hbo": {
-          "wb_hbo": 28,
-          "wk_hbo": 32,
-          "totaal_hbo": 28
-        }
+        "wk_TIverwant": 0,
+        "wk_mbo3": 0,
+        "wk_vmbo": 0,
+        "wb_mbo4": 3,
+        "wk_overig": 30,
+        "wk_TITIverwant": 5,
+        "wk_TI": 0,
+        "wb_mbo3": 1,
+        "wb_mbo2": 0,
+        "wk_mbo2": 0,
+        "wk_totaal": 35,
+        "wb_hbo": 10,
+        "wk_hbo": 5,
+        "wk_mbo4": 2,
+        "wb_vmbo": 3
       },
       "monteur": {
-        "vmbo": {
-          "wb_vmbo": 96,
-          "wk_vmbo": 49,
-          "totaal_vmbo": 117
-        },
-        "mbo2": {
-          "wb_mbo2": 96,
-          "wk_mbo2": 49,
-          "totaal_mbo2": 117
-        },
-        "mbo3": {
-          "wb_mbo3": 28,
-          "wk_mbo3": 32,
-          "totaal_mbo3": 28
-        },
-        "mbo4": {
-          "wb_mbo4": 28,
-          "wk_mbo4": 32,
-          "totaal_mbo4": 28
-        },
-        "hbo": {
-          "wb_hbo": 28,
-          "wk_hbo": 32,
-          "totaal_hbo": 28
-        }
-      },
-      "technicus": {
-        "vmbo": {
-          "wb_vmbo": 96,
-          "wk_vmbo": 49,
-          "totaal_vmbo": 117
-        },
-        "mbo2": {
-          "wb_mbo2": 96,
-          "wk_mbo2": 49,
-          "totaal_mbo2": 117
-        },
-        "mbo3": {
-          "wb_mbo3": 28,
-          "wk_mbo3": 32,
-          "totaal_mbo3": 28
-        },
-        "mbo4": {
-          "wb_mbo4": 28,
-          "wk_mbo4": 32,
-          "totaal_mbo4": 28
-        },
-        "hbo": {
-          "wb_hbo": 28,
-          "wk_hbo": 32,
-          "totaal_hbo": 28
-        }
-      },
-      "totaal_functies": {
-        "vmbo": {
-          "wb_vmbo": 96,
-          "wk_vmbo": 49,
-          "totaal_vmbo": 117
-        },
-        "mbo2": {
-          "wb_mbo2": 96,
-          "wk_mbo2": 49,
-          "totaal_mbo2": 117
-        },
-        "mbo3": {
-          "wb_mbo3": 28,
-          "wk_mbo3": 32,
-          "totaal_mbo3": 28
-        },
-        "mbo4": {
-          "wb_mbo4": 28,
-          "wk_mbo4": 32,
-          "totaal_mbo4": 28
-        },
-        "hbo": {
-          "wb_hbo": 28,
-          "wk_hbo": 32,
-          "totaal_hbo": 28
-        }
-      }
-    },
-    "gelderland_overijssel": {
-      "leerling": {
-        "vmbo": {
-          "wb_vmbo": 96,
-          "wk_vmbo": 49,
-          "totaal_vmbo": 117
-        },
-        "mbo2": {
-          "wb_mbo2": 96,
-          "wk_mbo2": 49,
-          "totaal_mbo2": 117
-        },
-        "mbo3": {
-          "wb_mbo3": 28,
-          "wk_mbo3": 32,
-          "totaal_mbo3": 28
-        },
-        "mbo4": {
-          "wb_mbo4": 28,
-          "wk_mbo4": 32,
-          "totaal_mbo4": 28
-        },
-        "hbo": {
-          "wb_hbo": 28,
-          "wk_hbo": 32,
-          "totaal_hbo": 28
-        }
-      },
-      "overige_functies": {
-        "vmbo": {
-          "wb_vmbo": 96,
-          "wk_vmbo": 49,
-          "totaal_vmbo": 117
-        },
-        "mbo2": {
-          "wb_mbo2": 96,
-          "wk_mbo2": 49,
-          "totaal_mbo2": 117
-        },
-        "mbo3": {
-          "wb_mbo3": 28,
-          "wk_mbo3": 32,
-          "totaal_mbo3": 28
-        },
-        "mbo4": {
-          "wb_mbo4": 28,
-          "wk_mbo4": 32,
-          "totaal_mbo4": 28
-        },
-        "hbo": {
-          "wb_hbo": 28,
-          "wk_hbo": 32,
-          "totaal_hbo": 28
-        }
-      },
-      "monteur": {
-        "vmbo": {
-          "wb_vmbo": 96,
-          "wk_vmbo": 49,
-          "totaal_vmbo": 117
-        },
-        "mbo2": {
-          "wb_mbo2": 96,
-          "wk_mbo2": 49,
-          "totaal_mbo2": 117
-        },
-        "mbo3": {
-          "wb_mbo3": 28,
-          "wk_mbo3": 32,
-          "totaal_mbo3": 28
-        },
-        "mbo4": {
-          "wb_mbo4": 28,
-          "wk_mbo4": 32,
-          "totaal_mbo4": 28
-        },
-        "hbo": {
-          "wb_hbo": 28,
-          "wk_hbo": 32,
-          "totaal_hbo": 28
-        }
-      },
-      "technicus": {
-        "vmbo": {
-          "wb_vmbo": 96,
-          "wk_vmbo": 49,
-          "totaal_vmbo": 117
-        },
-        "mbo2": {
-          "wb_mbo2": 96,
-          "wk_mbo2": 49,
-          "totaal_mbo2": 117
-        },
-        "mbo3": {
-          "wb_mbo3": 28,
-          "wk_mbo3": 32,
-          "totaal_mbo3": 28
-        },
-        "mbo4": {
-          "wb_mbo4": 28,
-          "wk_mbo4": 32,
-          "totaal_mbo4": 28
-        },
-        "hbo": {
-          "wb_hbo": 28,
-          "wk_hbo": 32,
-          "totaal_hbo": 28
-        }
-      },
-      "totaal_functies": {
-        "vmbo": {
-          "wb_vmbo": 96,
-          "wk_vmbo": 49,
-          "totaal_vmbo": 117
-        },
-        "mbo2": {
-          "wb_mbo2": 96,
-          "wk_mbo2": 49,
-          "totaal_mbo2": 117
-        },
-        "mbo3": {
-          "wb_mbo3": 28,
-          "wk_mbo3": 32,
-          "totaal_mbo3": 28
-        },
-        "mbo4": {
-          "wb_mbo4": 28,
-          "wk_mbo4": 32,
-          "totaal_mbo4": 28
-        },
-        "hbo": {
-          "wb_hbo": 28,
-          "wk_hbo": 32,
-          "totaal_hbo": 28
-        }
+        "wk_TIverwant": 0,
+        "wk_mbo3": 5,
+        "wk_vmbo": 1,
+        "wb_mbo4": 49,
+        "wk_overig": 150,
+        "wk_TITIverwant": 45,
+        "wk_TI": 40,
+        "wb_mbo3": 8,
+        "wb_mbo2": 16,
+        "wk_mbo2": 8,
+        "wk_totaal": 195,
+        "wb_hbo": 21,
+        "wk_hbo": 4,
+        "wk_mbo4": 25,
+        "wb_vmbo": 54
       }
     },
     "noord_nederland": {
-      "leerling": {
-        "vmbo": {
-          "wb_vmbo": 96,
-          "wk_vmbo": 49,
-          "totaal_vmbo": 117
-        },
-        "mbo2": {
-          "wb_mbo2": 96,
-          "wk_mbo2": 49,
-          "totaal_mbo2": 117
-        },
-        "mbo3": {
-          "wb_mbo3": 28,
-          "wk_mbo3": 32,
-          "totaal_mbo3": 28
-        },
-        "mbo4": {
-          "wb_mbo4": 28,
-          "wk_mbo4": 32,
-          "totaal_mbo4": 28
-        },
-        "hbo": {
-          "wb_hbo": 28,
-          "wk_hbo": 32,
-          "totaal_hbo": 28
-        }
-      },
-      "overige_functies": {
-        "vmbo": {
-          "wb_vmbo": 96,
-          "wk_vmbo": 49,
-          "totaal_vmbo": 117
-        },
-        "mbo2": {
-          "wb_mbo2": 96,
-          "wk_mbo2": 49,
-          "totaal_mbo2": 117
-        },
-        "mbo3": {
-          "wb_mbo3": 28,
-          "wk_mbo3": 32,
-          "totaal_mbo3": 28
-        },
-        "mbo4": {
-          "wb_mbo4": 28,
-          "wk_mbo4": 32,
-          "totaal_mbo4": 28
-        },
-        "hbo": {
-          "wb_hbo": 28,
-          "wk_hbo": 32,
-          "totaal_hbo": 28
-        }
-      },
-      "monteur": {
-        "vmbo": {
-          "wb_vmbo": 96,
-          "wk_vmbo": 49,
-          "totaal_vmbo": 117
-        },
-        "mbo2": {
-          "wb_mbo2": 96,
-          "wk_mbo2": 49,
-          "totaal_mbo2": 117
-        },
-        "mbo3": {
-          "wb_mbo3": 28,
-          "wk_mbo3": 32,
-          "totaal_mbo3": 28
-        },
-        "mbo4": {
-          "wb_mbo4": 28,
-          "wk_mbo4": 32,
-          "totaal_mbo4": 28
-        },
-        "hbo": {
-          "wb_hbo": 28,
-          "wk_hbo": 32,
-          "totaal_hbo": 28
-        }
+      "totaal_functies": {
+        "wk_TIverwant": 25,
+        "wk_mbo3": 9,
+        "wk_vmbo": 36,
+        "wb_mbo4": 31,
+        "wk_overig": 175,
+        "wk_TITIverwant": 110,
+        "wk_TI": 75,
+        "wb_mbo3": 6,
+        "wb_mbo2": 17,
+        "wk_mbo2": 35,
+        "wk_totaal": 285,
+        "wb_hbo": 21,
+        "wk_hbo": 7,
+        "wk_mbo4": 20,
+        "wb_vmbo": 42
       },
       "technicus": {
-        "vmbo": {
-          "wb_vmbo": 96,
-          "wk_vmbo": 49,
-          "totaal_vmbo": 117
-        },
-        "mbo2": {
-          "wb_mbo2": 96,
-          "wk_mbo2": 49,
-          "totaal_mbo2": 117
-        },
-        "mbo3": {
-          "wb_mbo3": 28,
-          "wk_mbo3": 32,
-          "totaal_mbo3": 28
-        },
-        "mbo4": {
-          "wb_mbo4": 28,
-          "wk_mbo4": 32,
-          "totaal_mbo4": 28
-        },
-        "hbo": {
-          "wb_hbo": 28,
-          "wk_hbo": 32,
-          "totaal_hbo": 28
-        }
+        "wk_TIverwant": 0,
+        "wk_mbo3": 0,
+        "wk_vmbo": 0,
+        "wb_mbo4": 5,
+        "wk_overig": 10,
+        "wk_TITIverwant": 10,
+        "wk_TI": 5,
+        "wb_mbo3": 0,
+        "wb_mbo2": 0,
+        "wk_mbo2": 0,
+        "wk_totaal": 20,
+        "wb_hbo": 5,
+        "wk_hbo": 3,
+        "wk_mbo4": 5,
+        "wb_vmbo": 0
       },
-      "totaal_functies": {
-        "vmbo": {
-          "wb_vmbo": 96,
-          "wk_vmbo": 49,
-          "totaal_vmbo": 117
-        },
-        "mbo2": {
-          "wb_mbo2": 96,
-          "wk_mbo2": 49,
-          "totaal_mbo2": 117
-        },
-        "mbo3": {
-          "wb_mbo3": 28,
-          "wk_mbo3": 32,
-          "totaal_mbo3": 28
-        },
-        "mbo4": {
-          "wb_mbo4": 28,
-          "wk_mbo4": 32,
-          "totaal_mbo4": 28
-        },
-        "hbo": {
-          "wb_hbo": 28,
-          "wk_hbo": 32,
-          "totaal_hbo": 28
-        }
+      "leerling": {
+        "wk_TIverwant": 20,
+        "wk_mbo3": 5,
+        "wk_vmbo": 35,
+        "wb_mbo4": 2,
+        "wk_overig": 50,
+        "wk_TITIverwant": 70,
+        "wk_TI": 50,
+        "wb_mbo3": 1,
+        "wb_mbo2": 9,
+        "wk_mbo2": 29,
+        "wk_totaal": 120,
+        "wb_hbo": 0,
+        "wk_hbo": 0,
+        "wk_mbo4": 2,
+        "wb_vmbo": 23
+      },
+      "overige_functies": {
+        "wk_TIverwant": 0,
+        "wk_mbo3": 0,
+        "wk_vmbo": 0,
+        "wb_mbo4": 1,
+        "wk_overig": 30,
+        "wk_TITIverwant": 5,
+        "wk_TI": 0,
+        "wb_mbo3": 0,
+        "wb_mbo2": 0,
+        "wk_mbo2": 0,
+        "wk_totaal": 35,
+        "wb_hbo": 4,
+        "wk_hbo": 2,
+        "wk_mbo4": 1,
+        "wb_vmbo": 1
+      },
+      "monteur": {
+        "wk_TIverwant": 5,
+        "wk_mbo3": 4,
+        "wk_vmbo": 0,
+        "wb_mbo4": 24,
+        "wk_overig": 85,
+        "wk_TITIverwant": 25,
+        "wk_TI": 20,
+        "wb_mbo3": 4,
+        "wb_mbo2": 8,
+        "wk_mbo2": 6,
+        "wk_totaal": 110,
+        "wb_hbo": 12,
+        "wk_hbo": 2,
+        "wk_mbo4": 13,
+        "wb_vmbo": 18
       }
     },
     "zuid_holland": {
-      "leerling": {
-        "vmbo": {
-          "wb_vmbo": 96,
-          "wk_vmbo": 49,
-          "totaal_vmbo": 117
-        },
-        "mbo2": {
-          "wb_mbo2": 96,
-          "wk_mbo2": 49,
-          "totaal_mbo2": 117
-        },
-        "mbo3": {
-          "wb_mbo3": 28,
-          "wk_mbo3": 32,
-          "totaal_mbo3": 28
-        },
-        "mbo4": {
-          "wb_mbo4": 28,
-          "wk_mbo4": 32,
-          "totaal_mbo4": 28
-        },
-        "hbo": {
-          "wb_hbo": 28,
-          "wk_hbo": 32,
-          "totaal_hbo": 28
-        }
-      },
-      "overige_functies": {
-        "vmbo": {
-          "wb_vmbo": 96,
-          "wk_vmbo": 49,
-          "totaal_vmbo": 117
-        },
-        "mbo2": {
-          "wb_mbo2": 96,
-          "wk_mbo2": 49,
-          "totaal_mbo2": 117
-        },
-        "mbo3": {
-          "wb_mbo3": 28,
-          "wk_mbo3": 32,
-          "totaal_mbo3": 28
-        },
-        "mbo4": {
-          "wb_mbo4": 28,
-          "wk_mbo4": 32,
-          "totaal_mbo4": 28
-        },
-        "hbo": {
-          "wb_hbo": 28,
-          "wk_hbo": 32,
-          "totaal_hbo": 28
-        }
-      },
-      "monteur": {
-        "vmbo": {
-          "wb_vmbo": 96,
-          "wk_vmbo": 49,
-          "totaal_vmbo": 117
-        },
-        "mbo2": {
-          "wb_mbo2": 96,
-          "wk_mbo2": 49,
-          "totaal_mbo2": 117
-        },
-        "mbo3": {
-          "wb_mbo3": 28,
-          "wk_mbo3": 32,
-          "totaal_mbo3": 28
-        },
-        "mbo4": {
-          "wb_mbo4": 28,
-          "wk_mbo4": 32,
-          "totaal_mbo4": 28
-        },
-        "hbo": {
-          "wb_hbo": 28,
-          "wk_hbo": 32,
-          "totaal_hbo": 28
-        }
+      "totaal_functies": {
+        "wk_TIverwant": 40,
+        "wk_mbo3": 8,
+        "wk_vmbo": 78,
+        "wb_mbo4": 50,
+        "wk_overig": 195,
+        "wk_TITIverwant": 165,
+        "wk_TI": 120,
+        "wb_mbo3": 10,
+        "wb_mbo2": 39,
+        "wk_mbo2": 48,
+        "wk_totaal": 360,
+        "wb_hbo": 35,
+        "wk_hbo": 6,
+        "wk_mbo4": 25,
+        "wb_vmbo": 234
       },
       "technicus": {
-        "vmbo": {
-          "wb_vmbo": 96,
-          "wk_vmbo": 49,
-          "totaal_vmbo": 117
-        },
-        "mbo2": {
-          "wb_mbo2": 96,
-          "wk_mbo2": 49,
-          "totaal_mbo2": 117
-        },
-        "mbo3": {
-          "wb_mbo3": 28,
-          "wk_mbo3": 32,
-          "totaal_mbo3": 28
-        },
-        "mbo4": {
-          "wb_mbo4": 28,
-          "wk_mbo4": 32,
-          "totaal_mbo4": 28
-        },
-        "hbo": {
-          "wb_hbo": 28,
-          "wk_hbo": 32,
-          "totaal_hbo": 28
-        }
+        "wk_TIverwant": 0,
+        "wk_mbo3": 0,
+        "wk_vmbo": 0,
+        "wb_mbo4": 12,
+        "wk_overig": 10,
+        "wk_TITIverwant": 10,
+        "wk_TI": 10,
+        "wb_mbo3": 0,
+        "wb_mbo2": 0,
+        "wk_mbo2": 0,
+        "wk_totaal": 20,
+        "wb_hbo": 14,
+        "wk_hbo": 3,
+        "wk_mbo4": 6,
+        "wb_vmbo": 0
       },
-      "totaal_functies": {
-        "vmbo": {
-          "wb_vmbo": 96,
-          "wk_vmbo": 49,
-          "totaal_vmbo": 117
-        },
-        "mbo2": {
-          "wb_mbo2": 96,
-          "wk_mbo2": 49,
-          "totaal_mbo2": 117
-        },
-        "mbo3": {
-          "wb_mbo3": 28,
-          "wk_mbo3": 32,
-          "totaal_mbo3": 28
-        },
-        "mbo4": {
-          "wb_mbo4": 28,
-          "wk_mbo4": 32,
-          "totaal_mbo4": 28
-        },
-        "hbo": {
-          "wb_hbo": 28,
-          "wk_hbo": 32,
-          "totaal_hbo": 28
-        }
+      "leerling": {
+        "wk_TIverwant": 40,
+        "wk_mbo3": 5,
+        "wk_vmbo": 77,
+        "wb_mbo4": 5,
+        "wk_overig": 85,
+        "wk_TITIverwant": 125,
+        "wk_TI": 85,
+        "wb_mbo3": 5,
+        "wb_mbo2": 29,
+        "wk_mbo2": 40,
+        "wk_totaal": 210,
+        "wb_hbo": 0,
+        "wk_hbo": 0,
+        "wk_mbo4": 2,
+        "wb_vmbo": 192
+      },
+      "overige_functies": {
+        "wk_TIverwant": 0,
+        "wk_mbo3": 0,
+        "wk_vmbo": 0,
+        "wb_mbo4": 2,
+        "wk_overig": 0,
+        "wk_TITIverwant": 0,
+        "wk_TI": 0,
+        "wb_mbo3": 0,
+        "wb_mbo2": 0,
+        "wk_mbo2": 0,
+        "wk_totaal": 0,
+        "wb_hbo": 7,
+        "wk_hbo": 2,
+        "wk_mbo4": 1,
+        "wb_vmbo": 3
+      },
+      "monteur": {
+        "wk_TIverwant": 0,
+        "wk_mbo3": 3,
+        "wk_vmbo": 1,
+        "wb_mbo4": 31,
+        "wk_overig": 100,
+        "wk_TITIverwant": 30,
+        "wk_TI": 25,
+        "wb_mbo3": 5,
+        "wb_mbo2": 10,
+        "wk_mbo2": 8,
+        "wk_totaal": 130,
+        "wb_hbo": 14,
+        "wk_hbo": 2,
+        "wk_mbo4": 16,
+        "wb_vmbo": 38
       }
     },
-    "zuid_nederland": {
-      "leerling": {
-        "vmbo": {
-          "wb_vmbo": 96,
-          "wk_vmbo": 49,
-          "totaal_vmbo": 117
-        },
-        "mbo2": {
-          "wb_mbo2": 96,
-          "wk_mbo2": 49,
-          "totaal_mbo2": 117
-        },
-        "mbo3": {
-          "wb_mbo3": 28,
-          "wk_mbo3": 32,
-          "totaal_mbo3": 28
-        },
-        "mbo4": {
-          "wb_mbo4": 28,
-          "wk_mbo4": 32,
-          "totaal_mbo4": 28
-        },
-        "hbo": {
-          "wb_hbo": 28,
-          "wk_hbo": 32,
-          "totaal_hbo": 28
-        }
-      },
-      "overige_functies": {
-        "vmbo": {
-          "wb_vmbo": 96,
-          "wk_vmbo": 49,
-          "totaal_vmbo": 117
-        },
-        "mbo2": {
-          "wb_mbo2": 96,
-          "wk_mbo2": 49,
-          "totaal_mbo2": 117
-        },
-        "mbo3": {
-          "wb_mbo3": 28,
-          "wk_mbo3": 32,
-          "totaal_mbo3": 28
-        },
-        "mbo4": {
-          "wb_mbo4": 28,
-          "wk_mbo4": 32,
-          "totaal_mbo4": 28
-        },
-        "hbo": {
-          "wb_hbo": 28,
-          "wk_hbo": 32,
-          "totaal_hbo": 28
-        }
-      },
-      "monteur": {
-        "vmbo": {
-          "wb_vmbo": 96,
-          "wk_vmbo": 49,
-          "totaal_vmbo": 117
-        },
-        "mbo2": {
-          "wb_mbo2": 96,
-          "wk_mbo2": 49,
-          "totaal_mbo2": 117
-        },
-        "mbo3": {
-          "wb_mbo3": 28,
-          "wk_mbo3": 32,
-          "totaal_mbo3": 28
-        },
-        "mbo4": {
-          "wb_mbo4": 28,
-          "wk_mbo4": 32,
-          "totaal_mbo4": 28
-        },
-        "hbo": {
-          "wb_hbo": 28,
-          "wk_hbo": 32,
-          "totaal_hbo": 28
-        }
+    "noord_holland": {
+      "totaal_functies": {
+        "wk_TIverwant": 30,
+        "wk_mbo3": 12,
+        "wk_vmbo": 62,
+        "wb_mbo4": 28,
+        "wk_overig": 165,
+        "wk_TITIverwant": 120,
+        "wk_TI": 80,
+        "wb_mbo3": 5,
+        "wb_mbo2": 21,
+        "wk_mbo2": 26,
+        "wk_totaal": 285,
+        "wb_hbo": 24,
+        "wk_hbo": 7,
+        "wk_mbo4": 10,
+        "wb_vmbo": 139
       },
       "technicus": {
-        "vmbo": {
-          "wb_vmbo": 96,
-          "wk_vmbo": 49,
-          "totaal_vmbo": 117
-        },
-        "mbo2": {
-          "wb_mbo2": 96,
-          "wk_mbo2": 49,
-          "totaal_mbo2": 117
-        },
-        "mbo3": {
-          "wb_mbo3": 28,
-          "wk_mbo3": 32,
-          "totaal_mbo3": 28
-        },
-        "mbo4": {
-          "wb_mbo4": 28,
-          "wk_mbo4": 32,
-          "totaal_mbo4": 28
-        },
-        "hbo": {
-          "wb_hbo": 28,
-          "wk_hbo": 32,
-          "totaal_hbo": 28
-        }
+        "wk_TIverwant": 0,
+        "wk_mbo3": 0,
+        "wk_vmbo": 0,
+        "wb_mbo4": 9,
+        "wk_overig": 5,
+        "wk_TITIverwant": 5,
+        "wk_TI": 5,
+        "wb_mbo3": 0,
+        "wb_mbo2": 0,
+        "wk_mbo2": 0,
+        "wk_totaal": 10,
+        "wb_hbo": 12,
+        "wk_hbo": 3,
+        "wk_mbo4": 2,
+        "wb_vmbo": 0
       },
-      "totaal_functies": {
-        "vmbo": {
-          "wb_vmbo": 96,
-          "wk_vmbo": 49,
-          "totaal_vmbo": 117
-        },
-        "mbo2": {
-          "wb_mbo2": 96,
-          "wk_mbo2": 49,
-          "totaal_mbo2": 117
-        },
-        "mbo3": {
-          "wb_mbo3": 28,
-          "wk_mbo3": 32,
-          "totaal_mbo3": 28
-        },
-        "mbo4": {
-          "wb_mbo4": 28,
-          "wk_mbo4": 32,
-          "totaal_mbo4": 28
-        },
-        "hbo": {
-          "wb_hbo": 28,
-          "wk_hbo": 32,
-          "totaal_hbo": 28
-        }
+      "leerling": {
+        "wk_TIverwant": 30,
+        "wk_mbo3": 7,
+        "wk_vmbo": 61,
+        "wb_mbo4": 3,
+        "wk_overig": 60,
+        "wk_TITIverwant": 90,
+        "wk_TI": 60,
+        "wb_mbo3": 2,
+        "wb_mbo2": 16,
+        "wk_mbo2": 22,
+        "wk_totaal": 150,
+        "wb_hbo": 0,
+        "wk_hbo": 0,
+        "wk_mbo4": 1,
+        "wb_vmbo": 118
+      },
+      "overige_functies": {
+        "wk_TIverwant": 0,
+        "wk_mbo3": 0,
+        "wk_vmbo": 0,
+        "wb_mbo4": 2,
+        "wk_overig": 30,
+        "wk_TITIverwant": 5,
+        "wk_TI": 0,
+        "wb_mbo3": 0,
+        "wb_mbo2": 0,
+        "wk_mbo2": 0,
+        "wk_totaal": 35,
+        "wb_hbo": 5,
+        "wk_hbo": 2,
+        "wk_mbo4": 1,
+        "wb_vmbo": 2
+      },
+      "monteur": {
+        "wk_TIverwant": 0,
+        "wk_mbo3": 5,
+        "wk_vmbo": 1,
+        "wb_mbo4": 15,
+        "wk_overig": 70,
+        "wk_TITIverwant": 20,
+        "wk_TI": 15,
+        "wb_mbo3": 2,
+        "wb_mbo2": 5,
+        "wk_mbo2": 4,
+        "wk_totaal": 90,
+        "wb_hbo": 7,
+        "wk_hbo": 2,
+        "wk_mbo4": 7,
+        "wb_vmbo": 19
       }
     },
     "midden_nederland": {
-      "leerling": {
-        "vmbo": {
-          "wb_vmbo": 96,
-          "wk_vmbo": 49,
-          "totaal_vmbo": 117
-        },
-        "mbo2": {
-          "wb_mbo2": 96,
-          "wk_mbo2": 49,
-          "totaal_mbo2": 117
-        },
-        "mbo3": {
-          "wb_mbo3": 28,
-          "wk_mbo3": 32,
-          "totaal_mbo3": 28
-        },
-        "mbo4": {
-          "wb_mbo4": 28,
-          "wk_mbo4": 32,
-          "totaal_mbo4": 28
-        },
-        "hbo": {
-          "wb_hbo": 28,
-          "wk_hbo": 32,
-          "totaal_hbo": 28
-        }
-      },
-      "overige_functies": {
-        "vmbo": {
-          "wb_vmbo": 96,
-          "wk_vmbo": 49,
-          "totaal_vmbo": 117
-        },
-        "mbo2": {
-          "wb_mbo2": 96,
-          "wk_mbo2": 49,
-          "totaal_mbo2": 117
-        },
-        "mbo3": {
-          "wb_mbo3": 28,
-          "wk_mbo3": 32,
-          "totaal_mbo3": 28
-        },
-        "mbo4": {
-          "wb_mbo4": 28,
-          "wk_mbo4": 32,
-          "totaal_mbo4": 28
-        },
-        "hbo": {
-          "wb_hbo": 28,
-          "wk_hbo": 32,
-          "totaal_hbo": 28
-        }
-      },
-      "monteur": {
-        "vmbo": {
-          "wb_vmbo": 96,
-          "wk_vmbo": 49,
-          "totaal_vmbo": 117
-        },
-        "mbo2": {
-          "wb_mbo2": 96,
-          "wk_mbo2": 49,
-          "totaal_mbo2": 117
-        },
-        "mbo3": {
-          "wb_mbo3": 28,
-          "wk_mbo3": 32,
-          "totaal_mbo3": 28
-        },
-        "mbo4": {
-          "wb_mbo4": 28,
-          "wk_mbo4": 32,
-          "totaal_mbo4": 28
-        },
-        "hbo": {
-          "wb_hbo": 28,
-          "wk_hbo": 32,
-          "totaal_hbo": 28
-        }
+      "totaal_functies": {
+        "wk_TIverwant": 15,
+        "wk_mbo3": 2,
+        "wk_vmbo": 39,
+        "wb_mbo4": 35,
+        "wk_overig": 125,
+        "wk_TITIverwant": 85,
+        "wk_TI": 65,
+        "wb_mbo3": 7,
+        "wb_mbo2": 24,
+        "wk_mbo2": 25,
+        "wk_totaal": 210,
+        "wb_hbo": 21,
+        "wk_hbo": 5,
+        "wk_mbo4": 12,
+        "wb_vmbo": 103
       },
       "technicus": {
-        "vmbo": {
-          "wb_vmbo": 96,
-          "wk_vmbo": 49,
-          "totaal_vmbo": 117
-        },
-        "mbo2": {
-          "wb_mbo2": 96,
-          "wk_mbo2": 49,
-          "totaal_mbo2": 117
-        },
-        "mbo3": {
-          "wb_mbo3": 28,
-          "wk_mbo3": 32,
-          "totaal_mbo3": 28
-        },
-        "mbo4": {
-          "wb_mbo4": 28,
-          "wk_mbo4": 32,
-          "totaal_mbo4": 28
-        },
-        "hbo": {
-          "wb_hbo": 28,
-          "wk_hbo": 32,
-          "totaal_hbo": 28
-        }
+        "wk_TIverwant": 0,
+        "wk_mbo3": 0,
+        "wk_vmbo": 0,
+        "wb_mbo4": 9,
+        "wk_overig": 5,
+        "wk_TITIverwant": 5,
+        "wk_TI": 5,
+        "wb_mbo3": 0,
+        "wb_mbo2": 0,
+        "wk_mbo2": 0,
+        "wk_totaal": 10,
+        "wb_hbo": 10,
+        "wk_hbo": 2,
+        "wk_mbo4": 3,
+        "wb_vmbo": 0
+      },
+      "leerling": {
+        "wk_TIverwant": 15,
+        "wk_mbo3": 1,
+        "wk_vmbo": 39,
+        "wb_mbo4": 3,
+        "wk_overig": 40,
+        "wk_TITIverwant": 60,
+        "wk_TI": 45,
+        "wb_mbo3": 3,
+        "wb_mbo2": 17,
+        "wk_mbo2": 21,
+        "wk_totaal": 100,
+        "wb_hbo": 0,
+        "wk_hbo": 0,
+        "wk_mbo4": 1,
+        "wb_vmbo": 75
+      },
+      "overige_functies": {
+        "wk_TIverwant": 0,
+        "wk_mbo3": 0,
+        "wk_vmbo": 0,
+        "wb_mbo4": 1,
+        "wk_overig": 30,
+        "wk_TITIverwant": 5,
+        "wk_TI": 0,
+        "wb_mbo3": 0,
+        "wb_mbo2": 0,
+        "wk_mbo2": 0,
+        "wk_totaal": 35,
+        "wb_hbo": 2,
+        "wk_hbo": 2,
+        "wk_mbo4": 1,
+        "wb_vmbo": 1
+      },
+      "monteur": {
+        "wk_TIverwant": 0,
+        "wk_mbo3": 1,
+        "wk_vmbo": 1,
+        "wb_mbo4": 23,
+        "wk_overig": 50,
+        "wk_TITIverwant": 15,
+        "wk_TI": 15,
+        "wb_mbo3": 4,
+        "wb_mbo2": 7,
+        "wk_mbo2": 4,
+        "wk_totaal": 65,
+        "wb_hbo": 9,
+        "wk_hbo": 1,
+        "wk_mbo4": 8,
+        "wb_vmbo": 27
+      }
+    },
+    "totaal_regios": {
+      "leerling": {
+        "wk_TIverwant": 220,
+        "wk_mbo3": 30,
+        "wk_vmbo": 410,
+        "wb_mbo4": 21,
+        "wk_overig": 425,
+        "wk_TITIverwant": 635,
+        "wk_TI": 415,
+        "wb_mbo3": 19,
+        "wb_mbo2": 118,
+        "wk_mbo2": 185,
+        "wk_totaal": 1060,
+        "wb_hbo": 0,
+        "wk_hbo": 0,
+        "wk_mbo4": 11,
+        "wb_vmbo": 688
+      },
+      "technicus": {
+        "wk_TIverwant": 0,
+        "wk_mbo3": 1,
+        "wk_vmbo": 0,
+        "wb_mbo4": 59,
+        "wk_overig": 55,
+        "wk_TITIverwant": 55,
+        "wk_TI": 50,
+        "wb_mbo3": 0,
+        "wb_mbo2": 0,
+        "wk_mbo2": 0,
+        "wk_totaal": 110,
+        "wb_hbo": 72,
+        "wk_hbo": 21,
+        "wk_mbo4": 33,
+        "wb_vmbo": 0
       },
       "totaal_functies": {
-        "vmbo": {
-          "wb_vmbo": 96,
-          "wk_vmbo": 49,
-          "totaal_vmbo": 117
-        },
-        "mbo2": {
-          "wb_mbo2": 96,
-          "wk_mbo2": 49,
-          "totaal_mbo2": 117
-        },
-        "mbo3": {
-          "wb_mbo3": 28,
-          "wk_mbo3": 32,
-          "totaal_mbo3": 28
-        },
-        "mbo4": {
-          "wb_mbo4": 28,
-          "wk_mbo4": 32,
-          "totaal_mbo4": 28
-        },
-        "hbo": {
-          "wb_hbo": 28,
-          "wk_hbo": 32,
-          "totaal_hbo": 28
-        }
+        "wk_TIverwant": 230,
+        "wk_mbo3": 52,
+        "wk_vmbo": 416,
+        "wb_mbo4": 282,
+        "wk_overig": 1235,
+        "wk_TITIverwant": 890,
+        "wk_TI": 615,
+        "wb_mbo3": 52,
+        "wb_mbo2": 183,
+        "wk_mbo2": 224,
+        "wk_totaal": 2125,
+        "wb_hbo": 196,
+        "wk_hbo": 52,
+        "wk_mbo4": 140,
+        "wb_vmbo": 912
+      },
+      "overige_functies": {
+        "wk_TIverwant": 0,
+        "wk_mbo3": 0,
+        "wk_vmbo": 1,
+        "wb_mbo4": 10,
+        "wk_overig": 180,
+        "wk_TITIverwant": 30,
+        "wk_TI": 0,
+        "wb_mbo3": 2,
+        "wb_mbo2": 1,
+        "wk_mbo2": 1,
+        "wk_totaal": 210,
+        "wb_hbo": 38,
+        "wk_hbo": 17,
+        "wk_mbo4": 7,
+        "wb_vmbo": 14
+      },
+      "monteur": {
+        "wk_TIverwant": 10,
+        "wk_mbo3": 21,
+        "wk_vmbo": 5,
+        "wb_mbo4": 192,
+        "wk_overig": 575,
+        "wk_TITIverwant": 170,
+        "wk_TI": 150,
+        "wb_mbo3": 32,
+        "wb_mbo2": 63,
+        "wk_mbo2": 37,
+        "wk_totaal": 745,
+        "wb_hbo": 86,
+        "wk_hbo": 13,
+        "wk_mbo4": 90,
+        "wb_vmbo": 211
+      }
+    },
+    "gelderland_overijssel": {
+      "totaal_functies": {
+        "wk_TIverwant": 60,
+        "wk_mbo3": 9,
+        "wk_vmbo": 98,
+        "wb_mbo4": 69,
+        "wk_overig": 285,
+        "wk_TITIverwant": 200,
+        "wk_TI": 130,
+        "wb_mbo3": 12,
+        "wb_mbo2": 36,
+        "wk_mbo2": 48,
+        "wk_totaal": 485,
+        "wb_hbo": 46,
+        "wk_hbo": 12,
+        "wk_mbo4": 33,
+        "wb_vmbo": 179
+      },
+      "technicus": {
+        "wk_TIverwant": 0,
+        "wk_mbo3": 0,
+        "wk_vmbo": 0,
+        "wb_mbo4": 13,
+        "wk_overig": 10,
+        "wk_TITIverwant": 10,
+        "wk_TI": 10,
+        "wb_mbo3": 0,
+        "wb_mbo2": 0,
+        "wk_mbo2": 0,
+        "wk_totaal": 20,
+        "wb_hbo": 14,
+        "wk_hbo": 5,
+        "wk_mbo4": 8,
+        "wb_vmbo": 0
+      },
+      "leerling": {
+        "wk_TIverwant": 55,
+        "wk_mbo3": 5,
+        "wk_vmbo": 97,
+        "wb_mbo4": 3,
+        "wk_overig": 95,
+        "wk_TITIverwant": 145,
+        "wk_TI": 85,
+        "wb_mbo3": 3,
+        "wb_mbo2": 20,
+        "wk_mbo2": 40,
+        "wk_totaal": 240,
+        "wb_hbo": 0,
+        "wk_hbo": 0,
+        "wk_mbo4": 3,
+        "wb_vmbo": 121
+      },
+      "overige_functies": {
+        "wk_TIverwant": 0,
+        "wk_mbo3": 0,
+        "wk_vmbo": 0,
+        "wb_mbo4": 3,
+        "wk_overig": 60,
+        "wk_TITIverwant": 10,
+        "wk_TI": 0,
+        "wb_mbo3": 1,
+        "wb_mbo2": 0,
+        "wk_mbo2": 0,
+        "wk_totaal": 70,
+        "wb_hbo": 9,
+        "wk_hbo": 4,
+        "wk_mbo4": 2,
+        "wb_vmbo": 3
+      },
+      "monteur": {
+        "wk_TIverwant": 5,
+        "wk_mbo3": 4,
+        "wk_vmbo": 1,
+        "wb_mbo4": 50,
+        "wk_overig": 120,
+        "wk_TITIverwant": 35,
+        "wk_TI": 35,
+        "wb_mbo3": 8,
+        "wb_mbo2": 17,
+        "wk_mbo2": 8,
+        "wk_totaal": 155,
+        "wb_hbo": 23,
+        "wk_hbo": 3,
+        "wk_mbo4": 21,
+        "wb_vmbo": 55
+      }
+    }
+  },
+  "jaar_2018": {
+    "zuid_nederland": {
+      "totaal_functies": {
+        "wk_TIverwant": 40,
+        "wk_mbo3": 10,
+        "wk_vmbo": 103,
+        "wb_mbo4": 59,
+        "wk_overig": 290,
+        "wk_TITIverwant": 210,
+        "wk_TI": 145,
+        "wb_mbo3": 11,
+        "wb_mbo2": 40,
+        "wk_mbo2": 40,
+        "wk_totaal": 500,
+        "wb_hbo": 43,
+        "wk_hbo": 14,
+        "wk_mbo4": 38,
+        "wb_vmbo": 199
+      },
+      "technicus": {
+        "wk_TIverwant": 0,
+        "wk_mbo3": 0,
+        "wk_vmbo": 0,
+        "wb_mbo4": 11,
+        "wk_overig": 15,
+        "wk_TITIverwant": 15,
+        "wk_TI": 15,
+        "wb_mbo3": 0,
+        "wb_mbo2": 0,
+        "wk_mbo2": 0,
+        "wk_totaal": 30,
+        "wb_hbo": 16,
+        "wk_hbo": 6,
+        "wk_mbo4": 9,
+        "wb_vmbo": 0
+      },
+      "leerling": {
+        "wk_TIverwant": 40,
+        "wk_mbo3": 6,
+        "wk_vmbo": 102,
+        "wb_mbo4": 5,
+        "wk_overig": 95,
+        "wk_TITIverwant": 145,
+        "wk_TI": 95,
+        "wb_mbo3": 4,
+        "wb_mbo2": 27,
+        "wk_mbo2": 33,
+        "wk_totaal": 240,
+        "wb_hbo": 0,
+        "wk_hbo": 0,
+        "wk_mbo4": 3,
+        "wb_vmbo": 149
+      },
+      "overige_functies": {
+        "wk_TIverwant": 0,
+        "wk_mbo3": 0,
+        "wk_vmbo": 0,
+        "wb_mbo4": 2,
+        "wk_overig": 30,
+        "wk_TITIverwant": 5,
+        "wk_TI": 0,
+        "wb_mbo3": 0,
+        "wb_mbo2": 0,
+        "wk_mbo2": 0,
+        "wk_totaal": 35,
+        "wb_hbo": 9,
+        "wk_hbo": 5,
+        "wk_mbo4": 2,
+        "wb_vmbo": 3
+      },
+      "monteur": {
+        "wk_TIverwant": 0,
+        "wk_mbo3": 4,
+        "wk_vmbo": 1,
+        "wb_mbo4": 41,
+        "wk_overig": 150,
+        "wk_TITIverwant": 45,
+        "wk_TI": 35,
+        "wb_mbo3": 7,
+        "wb_mbo2": 13,
+        "wk_mbo2": 7,
+        "wk_totaal": 195,
+        "wb_hbo": 17,
+        "wk_hbo": 4,
+        "wk_mbo4": 24,
+        "wb_vmbo": 47
+      }
+    },
+    "noord_nederland": {
+      "totaal_functies": {
+        "wk_TIverwant": 25,
+        "wk_mbo3": 8,
+        "wk_vmbo": 36,
+        "wb_mbo4": 27,
+        "wk_overig": 170,
+        "wk_TITIverwant": 105,
+        "wk_TI": 75,
+        "wb_mbo3": 5,
+        "wb_mbo2": 15,
+        "wk_mbo2": 34,
+        "wk_totaal": 275,
+        "wb_hbo": 19,
+        "wk_hbo": 7,
+        "wk_mbo4": 20,
+        "wb_vmbo": 38
+      },
+      "technicus": {
+        "wk_TIverwant": 0,
+        "wk_mbo3": 0,
+        "wk_vmbo": 0,
+        "wb_mbo4": 5,
+        "wk_overig": 5,
+        "wk_TITIverwant": 5,
+        "wk_TI": 5,
+        "wb_mbo3": 0,
+        "wb_mbo2": 0,
+        "wk_mbo2": 0,
+        "wk_totaal": 10,
+        "wb_hbo": 5,
+        "wk_hbo": 3,
+        "wk_mbo4": 5,
+        "wb_vmbo": 0
+      },
+      "leerling": {
+        "wk_TIverwant": 20,
+        "wk_mbo3": 5,
+        "wk_vmbo": 35,
+        "wb_mbo4": 2,
+        "wk_overig": 50,
+        "wk_TITIverwant": 70,
+        "wk_TI": 50,
+        "wb_mbo3": 1,
+        "wb_mbo2": 9,
+        "wk_mbo2": 28,
+        "wk_totaal": 120,
+        "wb_hbo": 0,
+        "wk_hbo": 0,
+        "wk_mbo4": 1,
+        "wb_vmbo": 22
+      },
+      "overige_functies": {
+        "wk_TIverwant": 0,
+        "wk_mbo3": 0,
+        "wk_vmbo": 0,
+        "wb_mbo4": 1,
+        "wk_overig": 30,
+        "wk_TITIverwant": 5,
+        "wk_TI": 0,
+        "wb_mbo3": 0,
+        "wb_mbo2": 0,
+        "wk_mbo2": 0,
+        "wk_totaal": 35,
+        "wb_hbo": 4,
+        "wk_hbo": 2,
+        "wk_mbo4": 1,
+        "wb_vmbo": 1
+      },
+      "monteur": {
+        "wk_TIverwant": 5,
+        "wk_mbo3": 3,
+        "wk_vmbo": 0,
+        "wb_mbo4": 20,
+        "wk_overig": 85,
+        "wk_TITIverwant": 25,
+        "wk_TI": 20,
+        "wb_mbo3": 3,
+        "wb_mbo2": 6,
+        "wk_mbo2": 6,
+        "wk_totaal": 110,
+        "wb_hbo": 10,
+        "wk_hbo": 2,
+        "wk_mbo4": 13,
+        "wb_vmbo": 15
+      }
+    },
+    "zuid_holland": {
+      "totaal_functies": {
+        "wk_TIverwant": 30,
+        "wk_mbo3": 7,
+        "wk_vmbo": 80,
+        "wb_mbo4": 43,
+        "wk_overig": 180,
+        "wk_TITIverwant": 160,
+        "wk_TI": 125,
+        "wb_mbo3": 9,
+        "wb_mbo2": 35,
+        "wk_mbo2": 46,
+        "wk_totaal": 340,
+        "wb_hbo": 31,
+        "wk_hbo": 6,
+        "wk_mbo4": 24,
+        "wb_vmbo": 214
+      },
+      "technicus": {
+        "wk_TIverwant": 0,
+        "wk_mbo3": 0,
+        "wk_vmbo": 0,
+        "wb_mbo4": 11,
+        "wk_overig": 10,
+        "wk_TITIverwant": 10,
+        "wk_TI": 10,
+        "wb_mbo3": 0,
+        "wb_mbo2": 0,
+        "wk_mbo2": 0,
+        "wk_totaal": 20,
+        "wb_hbo": 13,
+        "wk_hbo": 3,
+        "wk_mbo4": 6,
+        "wb_vmbo": 0
+      },
+      "leerling": {
+        "wk_TIverwant": 30,
+        "wk_mbo3": 4,
+        "wk_vmbo": 79,
+        "wb_mbo4": 5,
+        "wk_overig": 85,
+        "wk_TITIverwant": 125,
+        "wk_TI": 90,
+        "wb_mbo3": 4,
+        "wb_mbo2": 26,
+        "wk_mbo2": 39,
+        "wk_totaal": 210,
+        "wb_hbo": 0,
+        "wk_hbo": 0,
+        "wk_mbo4": 2,
+        "wb_vmbo": 178
+      },
+      "overige_functies": {
+        "wk_TIverwant": 0,
+        "wk_mbo3": 0,
+        "wk_vmbo": 0,
+        "wb_mbo4": 2,
+        "wk_overig": 0,
+        "wk_TITIverwant": 0,
+        "wk_TI": 0,
+        "wb_mbo3": 0,
+        "wb_mbo2": 0,
+        "wk_mbo2": 0,
+        "wk_totaal": 0,
+        "wb_hbo": 6,
+        "wk_hbo": 2,
+        "wk_mbo4": 1,
+        "wb_vmbo": 3
+      },
+      "monteur": {
+        "wk_TIverwant": 0,
+        "wk_mbo3": 3,
+        "wk_vmbo": 1,
+        "wb_mbo4": 26,
+        "wk_overig": 85,
+        "wk_TITIverwant": 25,
+        "wk_TI": 25,
+        "wb_mbo3": 4,
+        "wb_mbo2": 8,
+        "wk_mbo2": 7,
+        "wk_totaal": 110,
+        "wb_hbo": 12,
+        "wk_hbo": 2,
+        "wk_mbo4": 15,
+        "wb_vmbo": 33
+      }
+    },
+    "noord_holland": {
+      "totaal_functies": {
+        "wk_TIverwant": 25,
+        "wk_mbo3": 11,
+        "wk_vmbo": 63,
+        "wb_mbo4": 24,
+        "wk_overig": 165,
+        "wk_TITIverwant": 120,
+        "wk_TI": 85,
+        "wb_mbo3": 5,
+        "wb_mbo2": 19,
+        "wk_mbo2": 25,
+        "wk_totaal": 285,
+        "wb_hbo": 21,
+        "wk_hbo": 7,
+        "wk_mbo4": 10,
+        "wb_vmbo": 128
+      },
+      "technicus": {
+        "wk_TIverwant": 0,
+        "wk_mbo3": 0,
+        "wk_vmbo": 0,
+        "wb_mbo4": 8,
+        "wk_overig": 5,
+        "wk_TITIverwant": 5,
+        "wk_TI": 5,
+        "wb_mbo3": 0,
+        "wb_mbo2": 0,
+        "wk_mbo2": 0,
+        "wk_totaal": 10,
+        "wb_hbo": 11,
+        "wk_hbo": 3,
+        "wk_mbo4": 2,
+        "wb_vmbo": 0
+      },
+      "leerling": {
+        "wk_TIverwant": 25,
+        "wk_mbo3": 6,
+        "wk_vmbo": 62,
+        "wb_mbo4": 3,
+        "wk_overig": 60,
+        "wk_TITIverwant": 90,
+        "wk_TI": 65,
+        "wb_mbo3": 2,
+        "wb_mbo2": 14,
+        "wk_mbo2": 21,
+        "wk_totaal": 150,
+        "wb_hbo": 0,
+        "wk_hbo": 0,
+        "wk_mbo4": 1,
+        "wb_vmbo": 110
+      },
+      "overige_functies": {
+        "wk_TIverwant": 0,
+        "wk_mbo3": 0,
+        "wk_vmbo": 0,
+        "wb_mbo4": 1,
+        "wk_overig": 30,
+        "wk_TITIverwant": 5,
+        "wk_TI": 0,
+        "wb_mbo3": 0,
+        "wb_mbo2": 0,
+        "wk_mbo2": 0,
+        "wk_totaal": 35,
+        "wb_hbo": 5,
+        "wk_hbo": 2,
+        "wk_mbo4": 1,
+        "wb_vmbo": 1
+      },
+      "monteur": {
+        "wk_TIverwant": 0,
+        "wk_mbo3": 5,
+        "wk_vmbo": 1,
+        "wb_mbo4": 12,
+        "wk_overig": 70,
+        "wk_TITIverwant": 20,
+        "wk_TI": 15,
+        "wb_mbo3": 2,
+        "wb_mbo2": 4,
+        "wk_mbo2": 4,
+        "wk_totaal": 90,
+        "wb_hbo": 6,
+        "wk_hbo": 2,
+        "wk_mbo4": 6,
+        "wb_vmbo": 17
+      }
+    },
+    "midden_nederland": {
+      "totaal_functies": {
+        "wk_TIverwant": 15,
+        "wk_mbo3": 2,
+        "wk_vmbo": 42,
+        "wb_mbo4": 30,
+        "wk_overig": 100,
+        "wk_TITIverwant": 85,
+        "wk_TI": 70,
+        "wb_mbo3": 6,
+        "wb_mbo2": 22,
+        "wk_mbo2": 24,
+        "wk_totaal": 185,
+        "wb_hbo": 18,
+        "wk_hbo": 5,
+        "wk_mbo4": 12,
+        "wb_vmbo": 94
+      },
+      "technicus": {
+        "wk_TIverwant": 0,
+        "wk_mbo3": 0,
+        "wk_vmbo": 0,
+        "wb_mbo4": 8,
+        "wk_overig": 5,
+        "wk_TITIverwant": 5,
+        "wk_TI": 5,
+        "wb_mbo3": 0,
+        "wb_mbo2": 0,
+        "wk_mbo2": 0,
+        "wk_totaal": 10,
+        "wb_hbo": 9,
+        "wk_hbo": 2,
+        "wk_mbo4": 3,
+        "wb_vmbo": 0
+      },
+      "leerling": {
+        "wk_TIverwant": 15,
+        "wk_mbo3": 1,
+        "wk_vmbo": 41,
+        "wb_mbo4": 3,
+        "wk_overig": 45,
+        "wk_TITIverwant": 65,
+        "wk_TI": 50,
+        "wb_mbo3": 3,
+        "wb_mbo2": 16,
+        "wk_mbo2": 20,
+        "wk_totaal": 110,
+        "wb_hbo": 0,
+        "wk_hbo": 0,
+        "wk_mbo4": 1,
+        "wb_vmbo": 70
+      },
+      "overige_functies": {
+        "wk_TIverwant": 0,
+        "wk_mbo3": 0,
+        "wk_vmbo": 0,
+        "wb_mbo4": 0,
+        "wk_overig": 0,
+        "wk_TITIverwant": 0,
+        "wk_TI": 0,
+        "wb_mbo3": 0,
+        "wb_mbo2": 0,
+        "wk_mbo2": 0,
+        "wk_totaal": 0,
+        "wb_hbo": 2,
+        "wk_hbo": 2,
+        "wk_mbo4": 1,
+        "wb_vmbo": 1
+      },
+      "monteur": {
+        "wk_TIverwant": 0,
+        "wk_mbo3": 1,
+        "wk_vmbo": 1,
+        "wb_mbo4": 19,
+        "wk_overig": 50,
+        "wk_TITIverwant": 15,
+        "wk_TI": 15,
+        "wb_mbo3": 3,
+        "wb_mbo2": 6,
+        "wk_mbo2": 4,
+        "wk_totaal": 65,
+        "wb_hbo": 8,
+        "wk_hbo": 1,
+        "wk_mbo4": 7,
+        "wb_vmbo": 23
+      }
+    },
+    "totaal_regios": {
+      "leerling": {
+        "wk_TIverwant": 180,
+        "wk_mbo3": 27,
+        "wk_vmbo": 416,
+        "wb_mbo4": 19,
+        "wk_overig": 430,
+        "wk_TITIverwant": 640,
+        "wk_TI": 445,
+        "wb_mbo3": 18,
+        "wb_mbo2": 111,
+        "wk_mbo2": 179,
+        "wk_totaal": 1070,
+        "wb_hbo": 0,
+        "wk_hbo": 0,
+        "wk_mbo4": 10,
+        "wb_vmbo": 643
+      },
+      "technicus": {
+        "wk_TIverwant": 0,
+        "wk_mbo3": 0,
+        "wk_vmbo": 0,
+        "wb_mbo4": 54,
+        "wk_overig": 50,
+        "wk_TITIverwant": 50,
+        "wk_TI": 50,
+        "wb_mbo3": 0,
+        "wb_mbo2": 0,
+        "wk_mbo2": 0,
+        "wk_totaal": 100,
+        "wb_hbo": 66,
+        "wk_hbo": 21,
+        "wk_mbo4": 31,
+        "wb_vmbo": 0
+      },
+      "totaal_functies": {
+        "wk_TIverwant": 185,
+        "wk_mbo3": 47,
+        "wk_vmbo": 422,
+        "wb_mbo4": 243,
+        "wk_overig": 1190,
+        "wk_TITIverwant": 880,
+        "wk_TI": 635,
+        "wb_mbo3": 46,
+        "wb_mbo2": 164,
+        "wk_mbo2": 215,
+        "wk_totaal": 2070,
+        "wb_hbo": 172,
+        "wk_hbo": 51,
+        "wk_mbo4": 134,
+        "wb_vmbo": 838
+      },
+      "overige_functies": {
+        "wk_TIverwant": 0,
+        "wk_mbo3": 0,
+        "wk_vmbo": 1,
+        "wb_mbo4": 9,
+        "wk_overig": 150,
+        "wk_TITIverwant": 25,
+        "wk_TI": 0,
+        "wb_mbo3": 2,
+        "wb_mbo2": 1,
+        "wk_mbo2": 1,
+        "wk_totaal": 175,
+        "wb_hbo": 34,
+        "wk_hbo": 17,
+        "wk_mbo4": 6,
+        "wb_vmbo": 13
+      },
+      "monteur": {
+        "wk_TIverwant": 5,
+        "wk_mbo3": 19,
+        "wk_vmbo": 6,
+        "wb_mbo4": 160,
+        "wk_overig": 560,
+        "wk_TITIverwant": 165,
+        "wk_TI": 140,
+        "wb_mbo3": 26,
+        "wb_mbo2": 52,
+        "wk_mbo2": 35,
+        "wk_totaal": 725,
+        "wb_hbo": 72,
+        "wk_hbo": 13,
+        "wk_mbo4": 86,
+        "wb_vmbo": 183
+      }
+    },
+    "gelderland_overijssel": {
+      "totaal_functies": {
+        "wk_TIverwant": 50,
+        "wk_mbo3": 9,
+        "wk_vmbo": 98,
+        "wb_mbo4": 60,
+        "wk_overig": 285,
+        "wk_TITIverwant": 200,
+        "wk_TI": 135,
+        "wb_mbo3": 10,
+        "wb_mbo2": 33,
+        "wk_mbo2": 46,
+        "wk_totaal": 485,
+        "wb_hbo": 40,
+        "wk_hbo": 11,
+        "wk_mbo4": 31,
+        "wb_vmbo": 165
+      },
+      "technicus": {
+        "wk_TIverwant": 0,
+        "wk_mbo3": 0,
+        "wk_vmbo": 0,
+        "wb_mbo4": 12,
+        "wk_overig": 10,
+        "wk_TITIverwant": 10,
+        "wk_TI": 10,
+        "wb_mbo3": 0,
+        "wb_mbo2": 0,
+        "wk_mbo2": 0,
+        "wk_totaal": 20,
+        "wb_hbo": 12,
+        "wk_hbo": 5,
+        "wk_mbo4": 7,
+        "wb_vmbo": 0
+      },
+      "leerling": {
+        "wk_TIverwant": 50,
+        "wk_mbo3": 5,
+        "wk_vmbo": 96,
+        "wb_mbo4": 3,
+        "wk_overig": 95,
+        "wk_TITIverwant": 145,
+        "wk_TI": 95,
+        "wb_mbo3": 3,
+        "wb_mbo2": 18,
+        "wk_mbo2": 38,
+        "wk_totaal": 240,
+        "wb_hbo": 0,
+        "wk_hbo": 0,
+        "wk_mbo4": 2,
+        "wb_vmbo": 114
+      },
+      "overige_functies": {
+        "wk_TIverwant": 0,
+        "wk_mbo3": 0,
+        "wk_vmbo": 0,
+        "wb_mbo4": 2,
+        "wk_overig": 60,
+        "wk_TITIverwant": 10,
+        "wk_TI": 0,
+        "wb_mbo3": 0,
+        "wb_mbo2": 0,
+        "wk_mbo2": 0,
+        "wk_totaal": 70,
+        "wb_hbo": 8,
+        "wk_hbo": 4,
+        "wk_mbo4": 2,
+        "wb_vmbo": 3
+      },
+      "monteur": {
+        "wk_TIverwant": 0,
+        "wk_mbo3": 4,
+        "wk_vmbo": 1,
+        "wb_mbo4": 42,
+        "wk_overig": 120,
+        "wk_TITIverwant": 35,
+        "wk_TI": 30,
+        "wb_mbo3": 7,
+        "wb_mbo2": 14,
+        "wk_mbo2": 7,
+        "wk_totaal": 155,
+        "wb_hbo": 20,
+        "wk_hbo": 3,
+        "wk_mbo4": 20,
+        "wb_vmbo": 48
+      }
+    }
+  },
+  "jaar_2015": {
+    "zuid_nederland": {
+      "totaal_functies": {
+        "wk_TIverwant": 20,
+        "wk_mbo3": 9,
+        "wk_vmbo": 79,
+        "wb_mbo4": 37,
+        "wk_overig": 245,
+        "wk_TITIverwant": 170,
+        "wk_TI": 140,
+        "wb_mbo3": 8,
+        "wb_mbo2": 29,
+        "wk_mbo2": 35,
+        "wk_totaal": 415,
+        "wb_hbo": 29,
+        "wk_hbo": 14,
+        "wk_mbo4": 34,
+        "wb_vmbo": 148
+      },
+      "technicus": {
+        "wk_TIverwant": 0,
+        "wk_mbo3": 0,
+        "wk_vmbo": 0,
+        "wb_mbo4": 8,
+        "wk_overig": 15,
+        "wk_TITIverwant": 15,
+        "wk_TI": 15,
+        "wb_mbo3": 0,
+        "wb_mbo2": 0,
+        "wk_mbo2": 0,
+        "wk_totaal": 30,
+        "wb_hbo": 11,
+        "wk_hbo": 6,
+        "wk_mbo4": 8,
+        "wb_vmbo": 0
+      },
+      "leerling": {
+        "wk_TIverwant": 20,
+        "wk_mbo3": 5,
+        "wk_vmbo": 78,
+        "wb_mbo4": 4,
+        "wk_overig": 80,
+        "wk_TITIverwant": 115,
+        "wk_TI": 95,
+        "wb_mbo3": 3,
+        "wb_mbo2": 21,
+        "wk_mbo2": 29,
+        "wk_totaal": 195,
+        "wb_hbo": 0,
+        "wk_hbo": 0,
+        "wk_mbo4": 3,
+        "wb_vmbo": 115
+      },
+      "overige_functies": {
+        "wk_TIverwant": 0,
+        "wk_mbo3": 0,
+        "wk_vmbo": 0,
+        "wb_mbo4": 2,
+        "wk_overig": 30,
+        "wk_TITIverwant": 5,
+        "wk_TI": 0,
+        "wb_mbo3": 0,
+        "wb_mbo2": 0,
+        "wk_mbo2": 0,
+        "wk_totaal": 35,
+        "wb_hbo": 8,
+        "wk_hbo": 4,
+        "wk_mbo4": 2,
+        "wb_vmbo": 2
+      },
+      "monteur": {
+        "wk_TIverwant": 0,
+        "wk_mbo3": 4,
+        "wk_vmbo": 1,
+        "wb_mbo4": 23,
+        "wk_overig": 120,
+        "wk_TITIverwant": 35,
+        "wk_TI": 30,
+        "wb_mbo3": 4,
+        "wb_mbo2": 8,
+        "wk_mbo2": 6,
+        "wk_totaal": 155,
+        "wb_hbo": 10,
+        "wk_hbo": 3,
+        "wk_mbo4": 22,
+        "wb_vmbo": 30
+      }
+    },
+    "noord_nederland": {
+      "totaal_functies": {
+        "wk_TIverwant": 5,
+        "wk_mbo3": 7,
+        "wk_vmbo": 32,
+        "wb_mbo4": 13,
+        "wk_overig": 145,
+        "wk_TITIverwant": 90,
+        "wk_TI": 80,
+        "wb_mbo3": 3,
+        "wb_mbo2": 10,
+        "wk_mbo2": 30,
+        "wk_totaal": 235,
+        "wb_hbo": 10,
+        "wk_hbo": 6,
+        "wk_mbo4": 18,
+        "wb_vmbo": 27
+      },
+      "technicus": {
+        "wk_TIverwant": 0,
+        "wk_mbo3": 0,
+        "wk_vmbo": 0,
+        "wb_mbo4": 3,
+        "wk_overig": 5,
+        "wk_TITIverwant": 5,
+        "wk_TI": 5,
+        "wb_mbo3": 0,
+        "wb_mbo2": 0,
+        "wk_mbo2": 0,
+        "wk_totaal": 10,
+        "wb_hbo": 3,
+        "wk_hbo": 3,
+        "wk_mbo4": 4,
+        "wb_vmbo": 0
+      },
+      "leerling": {
+        "wk_TIverwant": 5,
+        "wk_mbo3": 4,
+        "wk_vmbo": 32,
+        "wb_mbo4": 1,
+        "wk_overig": 40,
+        "wk_TITIverwant": 60,
+        "wk_TI": 55,
+        "wb_mbo3": 1,
+        "wb_mbo2": 7,
+        "wk_mbo2": 25,
+        "wk_totaal": 100,
+        "wb_hbo": 0,
+        "wk_hbo": 0,
+        "wk_mbo4": 1,
+        "wb_vmbo": 18
+      },
+      "overige_functies": {
+        "wk_TIverwant": 0,
+        "wk_mbo3": 0,
+        "wk_vmbo": 0,
+        "wb_mbo4": 0,
+        "wk_overig": 30,
+        "wk_TITIverwant": 5,
+        "wk_TI": 0,
+        "wb_mbo3": 0,
+        "wb_mbo2": 0,
+        "wk_mbo2": 0,
+        "wk_totaal": 35,
+        "wb_hbo": 2,
+        "wk_hbo": 2,
+        "wk_mbo4": 1,
+        "wb_vmbo": 1
+      },
+      "monteur": {
+        "wk_TIverwant": 0,
+        "wk_mbo3": 3,
+        "wk_vmbo": 0,
+        "wb_mbo4": 9,
+        "wk_overig": 70,
+        "wk_TITIverwant": 20,
+        "wk_TI": 20,
+        "wb_mbo3": 1,
+        "wb_mbo2": 3,
+        "wk_mbo2": 5,
+        "wk_totaal": 90,
+        "wb_hbo": 5,
+        "wk_hbo": 2,
+        "wk_mbo4": 11,
+        "wb_vmbo": 7
+      }
+    },
+    "zuid_holland": {
+      "totaal_functies": {
+        "wk_TIverwant": 15,
+        "wk_mbo3": 6,
+        "wk_vmbo": 75,
+        "wb_mbo4": 27,
+        "wk_overig": 170,
+        "wk_TITIverwant": 150,
+        "wk_TI": 135,
+        "wb_mbo3": 6,
+        "wb_mbo2": 27,
+        "wk_mbo2": 40,
+        "wk_totaal": 320,
+        "wb_hbo": 20,
+        "wk_hbo": 6,
+        "wk_mbo4": 21,
+        "wb_vmbo": 169
+      },
+      "technicus": {
+        "wk_TIverwant": 0,
+        "wk_mbo3": 0,
+        "wk_vmbo": 0,
+        "wb_mbo4": 7,
+        "wk_overig": 10,
+        "wk_TITIverwant": 10,
+        "wk_TI": 10,
+        "wb_mbo3": 0,
+        "wb_mbo2": 0,
+        "wk_mbo2": 0,
+        "wk_totaal": 20,
+        "wb_hbo": 9,
+        "wk_hbo": 2,
+        "wk_mbo4": 5,
+        "wb_vmbo": 0
+      },
+      "leerling": {
+        "wk_TIverwant": 15,
+        "wk_mbo3": 4,
+        "wk_vmbo": 74,
+        "wb_mbo4": 4,
+        "wk_overig": 75,
+        "wk_TITIverwant": 115,
+        "wk_TI": 100,
+        "wb_mbo3": 4,
+        "wb_mbo2": 23,
+        "wk_mbo2": 34,
+        "wk_totaal": 190,
+        "wb_hbo": 0,
+        "wk_hbo": 0,
+        "wk_mbo4": 2,
+        "wb_vmbo": 146
+      },
+      "overige_functies": {
+        "wk_TIverwant": 0,
+        "wk_mbo3": 0,
+        "wk_vmbo": 0,
+        "wb_mbo4": 2,
+        "wk_overig": 0,
+        "wk_TITIverwant": 0,
+        "wk_TI": 0,
+        "wb_mbo3": 0,
+        "wb_mbo2": 0,
+        "wk_mbo2": 0,
+        "wk_totaal": 0,
+        "wb_hbo": 5,
+        "wk_hbo": 2,
+        "wk_mbo4": 1,
+        "wb_vmbo": 2
+      },
+      "monteur": {
+        "wk_TIverwant": 0,
+        "wk_mbo3": 3,
+        "wk_vmbo": 1,
+        "wb_mbo4": 14,
+        "wk_overig": 85,
+        "wk_TITIverwant": 25,
+        "wk_TI": 25,
+        "wb_mbo3": 2,
+        "wb_mbo2": 5,
+        "wk_mbo2": 6,
+        "wk_totaal": 110,
+        "wb_hbo": 6,
+        "wk_hbo": 1,
+        "wk_mbo4": 14,
+        "wb_vmbo": 20
+      }
+    },
+    "noord_holland": {
+      "totaal_functies": {
+        "wk_TIverwant": 15,
+        "wk_mbo3": 10,
+        "wk_vmbo": 60,
+        "wb_mbo4": 15,
+        "wk_overig": 145,
+        "wk_TITIverwant": 110,
+        "wk_TI": 90,
+        "wb_mbo3": 3,
+        "wb_mbo2": 15,
+        "wk_mbo2": 22,
+        "wk_totaal": 255,
+        "wb_hbo": 14,
+        "wk_hbo": 7,
+        "wk_mbo4": 9,
+        "wb_vmbo": 106
+      },
+      "technicus": {
+        "wk_TIverwant": 0,
+        "wk_mbo3": 0,
+        "wk_vmbo": 0,
+        "wb_mbo4": 5,
+        "wk_overig": 5,
+        "wk_TITIverwant": 5,
+        "wk_TI": 5,
+        "wb_mbo3": 0,
+        "wb_mbo2": 0,
+        "wk_mbo2": 0,
+        "wk_totaal": 10,
+        "wb_hbo": 7,
+        "wk_hbo": 3,
+        "wk_mbo4": 2,
+        "wb_vmbo": 0
+      },
+      "leerling": {
+        "wk_TIverwant": 15,
+        "wk_mbo3": 6,
+        "wk_vmbo": 59,
+        "wb_mbo4": 2,
+        "wk_overig": 60,
+        "wk_TITIverwant": 85,
+        "wk_TI": 70,
+        "wb_mbo3": 2,
+        "wb_mbo2": 13,
+        "wk_mbo2": 18,
+        "wk_totaal": 145,
+        "wb_hbo": 0,
+        "wk_hbo": 0,
+        "wk_mbo4": 1,
+        "wb_vmbo": 97
+      },
+      "overige_functies": {
+        "wk_TIverwant": 0,
+        "wk_mbo3": 0,
+        "wk_vmbo": 0,
+        "wb_mbo4": 1,
+        "wk_overig": 30,
+        "wk_TITIverwant": 5,
+        "wk_TI": 0,
+        "wb_mbo3": 0,
+        "wb_mbo2": 0,
+        "wk_mbo2": 0,
+        "wk_totaal": 35,
+        "wb_hbo": 4,
+        "wk_hbo": 2,
+        "wk_mbo4": 0,
+        "wb_vmbo": 1
+      },
+      "monteur": {
+        "wk_TIverwant": 0,
+        "wk_mbo3": 4,
+        "wk_vmbo": 1,
+        "wb_mbo4": 6,
+        "wk_overig": 50,
+        "wk_TITIverwant": 15,
+        "wk_TI": 15,
+        "wb_mbo3": 1,
+        "wb_mbo2": 2,
+        "wk_mbo2": 4,
+        "wk_totaal": 65,
+        "wb_hbo": 3,
+        "wk_hbo": 2,
+        "wk_mbo4": 6,
+        "wb_vmbo": 8
+      }
+    },
+    "midden_nederland": {
+      "totaal_functies": {
+        "wk_TIverwant": 5,
+        "wk_mbo3": 2,
+        "wk_vmbo": 40,
+        "wb_mbo4": 18,
+        "wk_overig": 95,
+        "wk_TITIverwant": 80,
+        "wk_TI": 70,
+        "wb_mbo3": 4,
+        "wb_mbo2": 17,
+        "wk_mbo2": 21,
+        "wk_totaal": 175,
+        "wb_hbo": 12,
+        "wk_hbo": 5,
+        "wk_mbo4": 11,
+        "wb_vmbo": 71
+      },
+      "technicus": {
+        "wk_TIverwant": 0,
+        "wk_mbo3": 0,
+        "wk_vmbo": 0,
+        "wb_mbo4": 6,
+        "wk_overig": 5,
+        "wk_TITIverwant": 5,
+        "wk_TI": 5,
+        "wb_mbo3": 0,
+        "wb_mbo2": 0,
+        "wk_mbo2": 0,
+        "wk_totaal": 10,
+        "wb_hbo": 6,
+        "wk_hbo": 2,
+        "wk_mbo4": 2,
+        "wb_vmbo": 0
+      },
+      "leerling": {
+        "wk_TIverwant": 5,
+        "wk_mbo3": 1,
+        "wk_vmbo": 40,
+        "wb_mbo4": 2,
+        "wk_overig": 40,
+        "wk_TITIverwant": 60,
+        "wk_TI": 55,
+        "wb_mbo3": 2,
+        "wb_mbo2": 13,
+        "wk_mbo2": 17,
+        "wk_totaal": 100,
+        "wb_hbo": 0,
+        "wk_hbo": 0,
+        "wk_mbo4": 1,
+        "wb_vmbo": 57
+      },
+      "overige_functies": {
+        "wk_TIverwant": 0,
+        "wk_mbo3": 0,
+        "wk_vmbo": 0,
+        "wb_mbo4": 0,
+        "wk_overig": 0,
+        "wk_TITIverwant": 0,
+        "wk_TI": 0,
+        "wb_mbo3": 0,
+        "wb_mbo2": 0,
+        "wk_mbo2": 0,
+        "wk_totaal": 0,
+        "wb_hbo": 1,
+        "wk_hbo": 2,
+        "wk_mbo4": 1,
+        "wb_vmbo": 1
+      },
+      "monteur": {
+        "wk_TIverwant": 0,
+        "wk_mbo3": 1,
+        "wk_vmbo": 1,
+        "wb_mbo4": 10,
+        "wk_overig": 50,
+        "wk_TITIverwant": 15,
+        "wk_TI": 10,
+        "wb_mbo3": 2,
+        "wb_mbo2": 3,
+        "wk_mbo2": 3,
+        "wk_totaal": 65,
+        "wb_hbo": 4,
+        "wk_hbo": 1,
+        "wk_mbo4": 7,
+        "wb_vmbo": 13
+      }
+    },
+    "totaal_regios": {
+      "leerling": {
+        "wk_TIverwant": 75,
+        "wk_mbo3": 23,
+        "wk_vmbo": 338,
+        "wb_mbo4": 16,
+        "wk_overig": 355,
+        "wk_TITIverwant": 530,
+        "wk_TI": 450,
+        "wb_mbo3": 15,
+        "wb_mbo2": 92,
+        "wk_mbo2": 156,
+        "wk_totaal": 885,
+        "wb_hbo": 0,
+        "wk_hbo": 0,
+        "wk_mbo4": 9,
+        "wb_vmbo": 519
+      },
+      "technicus": {
+        "wk_TIverwant": 0,
+        "wk_mbo3": 0,
+        "wk_vmbo": 0,
+        "wb_mbo4": 38,
+        "wk_overig": 50,
+        "wk_TITIverwant": 50,
+        "wk_TI": 50,
+        "wb_mbo3": 0,
+        "wb_mbo2": 0,
+        "wk_mbo2": 0,
+        "wk_totaal": 100,
+        "wb_hbo": 46,
+        "wk_hbo": 20,
+        "wk_mbo4": 28,
+        "wb_vmbo": 0
+      },
+      "totaal_functies": {
+        "wk_TIverwant": 75,
+        "wk_mbo3": 40,
+        "wk_vmbo": 343,
+        "wb_mbo4": 146,
+        "wk_overig": 1035,
+        "wk_TITIverwant": 745,
+        "wk_TI": 625,
+        "wb_mbo3": 30,
+        "wb_mbo2": 121,
+        "wk_mbo2": 188,
+        "wk_totaal": 1780,
+        "wb_hbo": 113,
+        "wk_hbo": 49,
+        "wk_mbo4": 121,
+        "wb_vmbo": 636
+      },
+      "overige_functies": {
+        "wk_TIverwant": 0,
+        "wk_mbo3": 0,
+        "wk_vmbo": 0,
+        "wb_mbo4": 7,
+        "wk_overig": 150,
+        "wk_TITIverwant": 25,
+        "wk_TI": 0,
+        "wb_mbo3": 1,
+        "wb_mbo2": 1,
+        "wk_mbo2": 1,
+        "wk_totaal": 175,
+        "wb_hbo": 27,
+        "wk_hbo": 16,
+        "wk_mbo4": 6,
+        "wb_vmbo": 9
+      },
+      "monteur": {
+        "wk_TIverwant": 0,
+        "wk_mbo3": 17,
+        "wk_vmbo": 5,
+        "wb_mbo4": 85,
+        "wk_overig": 480,
+        "wk_TITIverwant": 140,
+        "wk_TI": 125,
+        "wb_mbo3": 14,
+        "wb_mbo2": 28,
+        "wk_mbo2": 30,
+        "wk_totaal": 620,
+        "wb_hbo": 40,
+        "wk_hbo": 12,
+        "wk_mbo4": 78,
+        "wb_vmbo": 108
+      }
+    },
+    "gelderland_overijssel": {
+      "totaal_functies": {
+        "wk_TIverwant": 15,
+        "wk_mbo3": 7,
+        "wk_vmbo": 56,
+        "wb_mbo4": 36,
+        "wk_overig": 235,
+        "wk_TITIverwant": 145,
+        "wk_TI": 110,
+        "wb_mbo3": 6,
+        "wb_mbo2": 22,
+        "wk_mbo2": 40,
+        "wk_totaal": 380,
+        "wb_hbo": 26,
+        "wk_hbo": 11,
+        "wk_mbo4": 28,
+        "wb_vmbo": 116
+      },
+      "technicus": {
+        "wk_TIverwant": 0,
+        "wk_mbo3": 0,
+        "wk_vmbo": 0,
+        "wb_mbo4": 8,
+        "wk_overig": 10,
+        "wk_TITIverwant": 10,
+        "wk_TI": 10,
+        "wb_mbo3": 0,
+        "wb_mbo2": 0,
+        "wk_mbo2": 0,
+        "wk_totaal": 20,
+        "wb_hbo": 9,
+        "wk_hbo": 4,
+        "wk_mbo4": 7,
+        "wb_vmbo": 0
+      },
+      "leerling": {
+        "wk_TIverwant": 15,
+        "wk_mbo3": 4,
+        "wk_vmbo": 55,
+        "wb_mbo4": 3,
+        "wk_overig": 60,
+        "wk_TITIverwant": 95,
+        "wk_TI": 75,
+        "wb_mbo3": 2,
+        "wb_mbo2": 14,
+        "wk_mbo2": 33,
+        "wk_totaal": 155,
+        "wb_hbo": 0,
+        "wk_hbo": 0,
+        "wk_mbo4": 2,
+        "wb_vmbo": 85
+      },
+      "overige_functies": {
+        "wk_TIverwant": 0,
+        "wk_mbo3": 0,
+        "wk_vmbo": 0,
+        "wb_mbo4": 2,
+        "wk_overig": 60,
+        "wk_TITIverwant": 10,
+        "wk_TI": 0,
+        "wb_mbo3": 0,
+        "wb_mbo2": 0,
+        "wk_mbo2": 0,
+        "wk_totaal": 70,
+        "wb_hbo": 6,
+        "wk_hbo": 4,
+        "wk_mbo4": 1,
+        "wb_vmbo": 2
+      },
+      "monteur": {
+        "wk_TIverwant": 0,
+        "wk_mbo3": 3,
+        "wk_vmbo": 1,
+        "wb_mbo4": 23,
+        "wk_overig": 105,
+        "wk_TITIverwant": 30,
+        "wk_TI": 25,
+        "wb_mbo3": 4,
+        "wb_mbo2": 8,
+        "wk_mbo2": 6,
+        "wk_totaal": 135,
+        "wb_hbo": 11,
+        "wk_hbo": 3,
+        "wk_mbo4": 18,
+        "wb_vmbo": 29
+      }
+    }
+  },
+  "jaar_2017": {
+    "zuid_nederland": {
+      "totaal_functies": {
+        "wk_TIverwant": 40,
+        "wk_mbo3": 10,
+        "wk_vmbo": 104,
+        "wb_mbo4": 52,
+        "wk_overig": 290,
+        "wk_TITIverwant": 210,
+        "wk_TI": 150,
+        "wb_mbo3": 10,
+        "wb_mbo2": 38,
+        "wk_mbo2": 40,
+        "wk_totaal": 500,
+        "wb_hbo": 38,
+        "wk_hbo": 14,
+        "wk_mbo4": 37,
+        "wb_vmbo": 190
+      },
+      "technicus": {
+        "wk_TIverwant": 0,
+        "wk_mbo3": 0,
+        "wk_vmbo": 0,
+        "wb_mbo4": 10,
+        "wk_overig": 15,
+        "wk_TITIverwant": 15,
+        "wk_TI": 15,
+        "wb_mbo3": 0,
+        "wb_mbo2": 0,
+        "wk_mbo2": 0,
+        "wk_totaal": 30,
+        "wb_hbo": 15,
+        "wk_hbo": 6,
+        "wk_mbo4": 9,
+        "wb_vmbo": 0
+      },
+      "leerling": {
+        "wk_TIverwant": 40,
+        "wk_mbo3": 6,
+        "wk_vmbo": 103,
+        "wb_mbo4": 5,
+        "wk_overig": 95,
+        "wk_TITIverwant": 145,
+        "wk_TI": 100,
+        "wb_mbo3": 4,
+        "wb_mbo2": 26,
+        "wk_mbo2": 33,
+        "wk_totaal": 240,
+        "wb_hbo": 0,
+        "wk_hbo": 0,
+        "wk_mbo4": 3,
+        "wb_vmbo": 146
+      },
+      "overige_functies": {
+        "wk_TIverwant": 0,
+        "wk_mbo3": 0,
+        "wk_vmbo": 0,
+        "wb_mbo4": 2,
+        "wk_overig": 30,
+        "wk_TITIverwant": 5,
+        "wk_TI": 0,
+        "wb_mbo3": 0,
+        "wb_mbo2": 0,
+        "wk_mbo2": 0,
+        "wk_totaal": 35,
+        "wb_hbo": 8,
+        "wk_hbo": 5,
+        "wk_mbo4": 2,
+        "wb_vmbo": 3
+      },
+      "monteur": {
+        "wk_TIverwant": 0,
+        "wk_mbo3": 4,
+        "wk_vmbo": 1,
+        "wb_mbo4": 35,
+        "wk_overig": 150,
+        "wk_TITIverwant": 45,
+        "wk_TI": 35,
+        "wb_mbo3": 6,
+        "wb_mbo2": 11,
+        "wk_mbo2": 7,
+        "wk_totaal": 195,
+        "wb_hbo": 15,
+        "wk_hbo": 4,
+        "wk_mbo4": 24,
+        "wb_vmbo": 41
+      }
+    },
+    "noord_nederland": {
+      "totaal_functies": {
+        "wk_TIverwant": 20,
+        "wk_mbo3": 8,
+        "wk_vmbo": 36,
+        "wb_mbo4": 23,
+        "wk_overig": 170,
+        "wk_TITIverwant": 105,
+        "wk_TI": 80,
+        "wb_mbo3": 4,
+        "wb_mbo2": 14,
+        "wk_mbo2": 34,
+        "wk_totaal": 275,
+        "wb_hbo": 16,
+        "wk_hbo": 7,
+        "wk_mbo4": 19,
+        "wb_vmbo": 36
+      },
+      "technicus": {
+        "wk_TIverwant": 0,
+        "wk_mbo3": 0,
+        "wk_vmbo": 0,
+        "wb_mbo4": 4,
+        "wk_overig": 5,
+        "wk_TITIverwant": 5,
+        "wk_TI": 5,
+        "wb_mbo3": 0,
+        "wb_mbo2": 0,
+        "wk_mbo2": 0,
+        "wk_totaal": 10,
+        "wb_hbo": 4,
+        "wk_hbo": 3,
+        "wk_mbo4": 5,
+        "wb_vmbo": 0
+      },
+      "leerling": {
+        "wk_TIverwant": 15,
+        "wk_mbo3": 5,
+        "wk_vmbo": 35,
+        "wb_mbo4": 1,
+        "wk_overig": 50,
+        "wk_TITIverwant": 70,
+        "wk_TI": 55,
+        "wb_mbo3": 1,
+        "wb_mbo2": 9,
+        "wk_mbo2": 28,
+        "wk_totaal": 120,
+        "wb_hbo": 0,
+        "wk_hbo": 0,
+        "wk_mbo4": 1,
+        "wb_vmbo": 22
+      },
+      "overige_functies": {
+        "wk_TIverwant": 0,
+        "wk_mbo3": 0,
+        "wk_vmbo": 0,
+        "wb_mbo4": 1,
+        "wk_overig": 30,
+        "wk_TITIverwant": 5,
+        "wk_TI": 0,
+        "wb_mbo3": 0,
+        "wb_mbo2": 0,
+        "wk_mbo2": 0,
+        "wk_totaal": 35,
+        "wb_hbo": 3,
+        "wk_hbo": 2,
+        "wk_mbo4": 1,
+        "wb_vmbo": 1
+      },
+      "monteur": {
+        "wk_TIverwant": 5,
+        "wk_mbo3": 3,
+        "wk_vmbo": 0,
+        "wb_mbo4": 17,
+        "wk_overig": 85,
+        "wk_TITIverwant": 25,
+        "wk_TI": 20,
+        "wb_mbo3": 3,
+        "wb_mbo2": 5,
+        "wk_mbo2": 6,
+        "wk_totaal": 110,
+        "wb_hbo": 8,
+        "wk_hbo": 2,
+        "wk_mbo4": 13,
+        "wb_vmbo": 13
+      }
+    },
+    "zuid_holland": {
+      "totaal_functies": {
+        "wk_TIverwant": 30,
+        "wk_mbo3": 7,
+        "wk_vmbo": 82,
+        "wb_mbo4": 38,
+        "wk_overig": 180,
+        "wk_TITIverwant": 160,
+        "wk_TI": 135,
+        "wb_mbo3": 8,
+        "wb_mbo2": 33,
+        "wk_mbo2": 46,
+        "wk_totaal": 340,
+        "wb_hbo": 28,
+        "wk_hbo": 6,
+        "wk_mbo4": 24,
+        "wb_vmbo": 206
+      },
+      "technicus": {
+        "wk_TIverwant": 0,
+        "wk_mbo3": 0,
+        "wk_vmbo": 0,
+        "wb_mbo4": 10,
+        "wk_overig": 10,
+        "wk_TITIverwant": 10,
+        "wk_TI": 10,
+        "wb_mbo3": 0,
+        "wb_mbo2": 0,
+        "wk_mbo2": 0,
+        "wk_totaal": 20,
+        "wb_hbo": 12,
+        "wk_hbo": 3,
+        "wk_mbo4": 6,
+        "wb_vmbo": 0
+      },
+      "leerling": {
+        "wk_TIverwant": 30,
+        "wk_mbo3": 4,
+        "wk_vmbo": 81,
+        "wb_mbo4": 4,
+        "wk_overig": 85,
+        "wk_TITIverwant": 125,
+        "wk_TI": 100,
+        "wb_mbo3": 4,
+        "wb_mbo2": 26,
+        "wk_mbo2": 39,
+        "wk_totaal": 210,
+        "wb_hbo": 0,
+        "wk_hbo": 0,
+        "wk_mbo4": 2,
+        "wb_vmbo": 174
+      },
+      "overige_functies": {
+        "wk_TIverwant": 0,
+        "wk_mbo3": 0,
+        "wk_vmbo": 0,
+        "wb_mbo4": 2,
+        "wk_overig": 0,
+        "wk_TITIverwant": 0,
+        "wk_TI": 0,
+        "wb_mbo3": 0,
+        "wb_mbo2": 0,
+        "wk_mbo2": 0,
+        "wk_totaal": 0,
+        "wb_hbo": 6,
+        "wk_hbo": 2,
+        "wk_mbo4": 1,
+        "wb_vmbo": 3
+      },
+      "monteur": {
+        "wk_TIverwant": 0,
+        "wk_mbo3": 3,
+        "wk_vmbo": 1,
+        "wb_mbo4": 22,
+        "wk_overig": 85,
+        "wk_TITIverwant": 25,
+        "wk_TI": 25,
+        "wb_mbo3": 4,
+        "wb_mbo2": 7,
+        "wk_mbo2": 7,
+        "wk_totaal": 110,
+        "wb_hbo": 10,
+        "wk_hbo": 2,
+        "wk_mbo4": 15,
+        "wb_vmbo": 29
+      }
+    },
+    "noord_holland": {
+      "totaal_functies": {
+        "wk_TIverwant": 25,
+        "wk_mbo3": 11,
+        "wk_vmbo": 64,
+        "wb_mbo4": 21,
+        "wk_overig": 165,
+        "wk_TITIverwant": 120,
+        "wk_TI": 85,
+        "wb_mbo3": 4,
+        "wb_mbo2": 18,
+        "wk_mbo2": 25,
+        "wk_totaal": 285,
+        "wb_hbo": 19,
+        "wk_hbo": 7,
+        "wk_mbo4": 10,
+        "wb_vmbo": 123
+      },
+      "technicus": {
+        "wk_TIverwant": 0,
+        "wk_mbo3": 0,
+        "wk_vmbo": 0,
+        "wb_mbo4": 7,
+        "wk_overig": 5,
+        "wk_TITIverwant": 5,
+        "wk_TI": 5,
+        "wb_mbo3": 0,
+        "wb_mbo2": 0,
+        "wk_mbo2": 0,
+        "wk_totaal": 10,
+        "wb_hbo": 10,
+        "wk_hbo": 3,
+        "wk_mbo4": 2,
+        "wb_vmbo": 0
+      },
+      "leerling": {
+        "wk_TIverwant": 25,
+        "wk_mbo3": 6,
+        "wk_vmbo": 63,
+        "wb_mbo4": 2,
+        "wk_overig": 60,
+        "wk_TITIverwant": 90,
+        "wk_TI": 65,
+        "wb_mbo3": 2,
+        "wb_mbo2": 14,
+        "wk_mbo2": 21,
+        "wk_totaal": 150,
+        "wb_hbo": 0,
+        "wk_hbo": 0,
+        "wk_mbo4": 1,
+        "wb_vmbo": 108
+      },
+      "overige_functies": {
+        "wk_TIverwant": 0,
+        "wk_mbo3": 0,
+        "wk_vmbo": 0,
+        "wb_mbo4": 1,
+        "wk_overig": 30,
+        "wk_TITIverwant": 5,
+        "wk_TI": 0,
+        "wb_mbo3": 0,
+        "wb_mbo2": 0,
+        "wk_mbo2": 0,
+        "wk_totaal": 35,
+        "wb_hbo": 5,
+        "wk_hbo": 2,
+        "wk_mbo4": 1,
+        "wb_vmbo": 1
+      },
+      "monteur": {
+        "wk_TIverwant": 0,
+        "wk_mbo3": 5,
+        "wk_vmbo": 1,
+        "wb_mbo4": 10,
+        "wk_overig": 70,
+        "wk_TITIverwant": 20,
+        "wk_TI": 15,
+        "wb_mbo3": 2,
+        "wb_mbo2": 3,
+        "wk_mbo2": 4,
+        "wk_totaal": 90,
+        "wb_hbo": 5,
+        "wk_hbo": 2,
+        "wk_mbo4": 6,
+        "wb_vmbo": 14
+      }
+    },
+    "midden_nederland": {
+      "totaal_functies": {
+        "wk_TIverwant": 10,
+        "wk_mbo3": 2,
+        "wk_vmbo": 43,
+        "wb_mbo4": 26,
+        "wk_overig": 100,
+        "wk_TITIverwant": 85,
+        "wk_TI": 70,
+        "wb_mbo3": 5,
+        "wb_mbo2": 21,
+        "wk_mbo2": 24,
+        "wk_totaal": 185,
+        "wb_hbo": 16,
+        "wk_hbo": 5,
+        "wk_mbo4": 12,
+        "wb_vmbo": 90
+      },
+      "technicus": {
+        "wk_TIverwant": 0,
+        "wk_mbo3": 0,
+        "wk_vmbo": 0,
+        "wb_mbo4": 7,
+        "wk_overig": 5,
+        "wk_TITIverwant": 5,
+        "wk_TI": 5,
+        "wb_mbo3": 0,
+        "wb_mbo2": 0,
+        "wk_mbo2": 0,
+        "wk_totaal": 10,
+        "wb_hbo": 8,
+        "wk_hbo": 2,
+        "wk_mbo4": 3,
+        "wb_vmbo": 0
+      },
+      "leerling": {
+        "wk_TIverwant": 10,
+        "wk_mbo3": 1,
+        "wk_vmbo": 42,
+        "wb_mbo4": 3,
+        "wk_overig": 45,
+        "wk_TITIverwant": 65,
+        "wk_TI": 50,
+        "wb_mbo3": 3,
+        "wb_mbo2": 16,
+        "wk_mbo2": 20,
+        "wk_totaal": 110,
+        "wb_hbo": 0,
+        "wk_hbo": 0,
+        "wk_mbo4": 1,
+        "wb_vmbo": 69
+      },
+      "overige_functies": {
+        "wk_TIverwant": 0,
+        "wk_mbo3": 0,
+        "wk_vmbo": 0,
+        "wb_mbo4": 0,
+        "wk_overig": 0,
+        "wk_TITIverwant": 0,
+        "wk_TI": 0,
+        "wb_mbo3": 0,
+        "wb_mbo2": 0,
+        "wk_mbo2": 0,
+        "wk_totaal": 0,
+        "wb_hbo": 2,
+        "wk_hbo": 2,
+        "wk_mbo4": 1,
+        "wb_vmbo": 1
+      },
+      "monteur": {
+        "wk_TIverwant": 0,
+        "wk_mbo3": 1,
+        "wk_vmbo": 1,
+        "wb_mbo4": 16,
+        "wk_overig": 50,
+        "wk_TITIverwant": 15,
+        "wk_TI": 15,
+        "wb_mbo3": 3,
+        "wb_mbo2": 5,
+        "wk_mbo2": 4,
+        "wk_totaal": 65,
+        "wb_hbo": 7,
+        "wk_hbo": 1,
+        "wk_mbo4": 7,
+        "wb_vmbo": 20
+      }
+    },
+    "totaal_regios": {
+      "leerling": {
+        "wk_TIverwant": 160,
+        "wk_mbo3": 27,
+        "wk_vmbo": 421,
+        "wb_mbo4": 19,
+        "wk_overig": 430,
+        "wk_TITIverwant": 640,
+        "wk_TI": 470,
+        "wb_mbo3": 17,
+        "wb_mbo2": 109,
+        "wk_mbo2": 179,
+        "wk_totaal": 1070,
+        "wb_hbo": 0,
+        "wk_hbo": 0,
+        "wk_mbo4": 10,
+        "wb_vmbo": 631
+      },
+      "technicus": {
+        "wk_TIverwant": 0,
+        "wk_mbo3": 0,
+        "wk_vmbo": 0,
+        "wb_mbo4": 50,
+        "wk_overig": 50,
+        "wk_TITIverwant": 50,
+        "wk_TI": 50,
+        "wb_mbo3": 0,
+        "wb_mbo2": 0,
+        "wk_mbo2": 0,
+        "wk_totaal": 100,
+        "wb_hbo": 60,
+        "wk_hbo": 21,
+        "wk_mbo4": 31,
+        "wb_vmbo": 0
+      },
+      "totaal_functies": {
+        "wk_TIverwant": 165,
+        "wk_mbo3": 46,
+        "wk_vmbo": 428,
+        "wb_mbo4": 213,
+        "wk_overig": 1190,
+        "wk_TITIverwant": 880,
+        "wk_TI": 660,
+        "wb_mbo3": 41,
+        "wb_mbo2": 155,
+        "wk_mbo2": 216,
+        "wk_totaal": 2070,
+        "wb_hbo": 154,
+        "wk_hbo": 50,
+        "wk_mbo4": 133,
+        "wb_vmbo": 801
+      },
+      "overige_functies": {
+        "wk_TIverwant": 0,
+        "wk_mbo3": 0,
+        "wk_vmbo": 1,
+        "wb_mbo4": 8,
+        "wk_overig": 150,
+        "wk_TITIverwant": 25,
+        "wk_TI": 0,
+        "wb_mbo3": 2,
+        "wb_mbo2": 1,
+        "wk_mbo2": 1,
+        "wk_totaal": 175,
+        "wb_hbo": 32,
+        "wk_hbo": 17,
+        "wk_mbo4": 6,
+        "wb_vmbo": 12
+      },
+      "monteur": {
+        "wk_TIverwant": 5,
+        "wk_mbo3": 19,
+        "wk_vmbo": 6,
+        "wb_mbo4": 136,
+        "wk_overig": 560,
+        "wk_TITIverwant": 165,
+        "wk_TI": 140,
+        "wb_mbo3": 22,
+        "wb_mbo2": 45,
+        "wk_mbo2": 35,
+        "wk_totaal": 725,
+        "wb_hbo": 62,
+        "wk_hbo": 13,
+        "wk_mbo4": 85,
+        "wb_vmbo": 159
+      }
+    },
+    "gelderland_overijssel": {
+      "totaal_functies": {
+        "wk_TIverwant": 40,
+        "wk_mbo3": 8,
+        "wk_vmbo": 98,
+        "wb_mbo4": 52,
+        "wk_overig": 285,
+        "wk_TITIverwant": 200,
+        "wk_TI": 140,
+        "wb_mbo3": 9,
+        "wb_mbo2": 30,
+        "wk_mbo2": 46,
+        "wk_totaal": 485,
+        "wb_hbo": 36,
+        "wk_hbo": 11,
+        "wk_mbo4": 31,
+        "wb_vmbo": 157
+      },
+      "technicus": {
+        "wk_TIverwant": 0,
+        "wk_mbo3": 0,
+        "wk_vmbo": 0,
+        "wb_mbo4": 11,
+        "wk_overig": 10,
+        "wk_TITIverwant": 10,
+        "wk_TI": 10,
+        "wb_mbo3": 0,
+        "wb_mbo2": 0,
+        "wk_mbo2": 0,
+        "wk_totaal": 20,
+        "wb_hbo": 11,
+        "wk_hbo": 5,
+        "wk_mbo4": 7,
+        "wb_vmbo": 0
+      },
+      "leerling": {
+        "wk_TIverwant": 40,
+        "wk_mbo3": 5,
+        "wk_vmbo": 97,
+        "wb_mbo4": 3,
+        "wk_overig": 95,
+        "wk_TITIverwant": 145,
+        "wk_TI": 100,
+        "wb_mbo3": 3,
+        "wb_mbo2": 18,
+        "wk_mbo2": 38,
+        "wk_totaal": 240,
+        "wb_hbo": 0,
+        "wk_hbo": 0,
+        "wk_mbo4": 2,
+        "wb_vmbo": 112
+      },
+      "overige_functies": {
+        "wk_TIverwant": 0,
+        "wk_mbo3": 0,
+        "wk_vmbo": 0,
+        "wb_mbo4": 2,
+        "wk_overig": 60,
+        "wk_TITIverwant": 10,
+        "wk_TI": 0,
+        "wb_mbo3": 0,
+        "wb_mbo2": 0,
+        "wk_mbo2": 0,
+        "wk_totaal": 70,
+        "wb_hbo": 8,
+        "wk_hbo": 4,
+        "wk_mbo4": 2,
+        "wb_vmbo": 3
+      },
+      "monteur": {
+        "wk_TIverwant": 0,
+        "wk_mbo3": 3,
+        "wk_vmbo": 1,
+        "wb_mbo4": 36,
+        "wk_overig": 120,
+        "wk_TITIverwant": 35,
+        "wk_TI": 30,
+        "wb_mbo3": 6,
+        "wb_mbo2": 12,
+        "wk_mbo2": 7,
+        "wk_totaal": 155,
+        "wb_hbo": 17,
+        "wk_hbo": 3,
+        "wk_mbo4": 20,
+        "wb_vmbo": 42
+      }
+    }
+  },
+  "jaar_2016": {
+    "zuid_nederland": {
+      "totaal_functies": {
+        "wk_TIverwant": 40,
+        "wk_mbo3": 9,
+        "wk_vmbo": 112,
+        "wb_mbo4": 43,
+        "wk_overig": 280,
+        "wk_TITIverwant": 210,
+        "wk_TI": 155,
+        "wb_mbo3": 9,
+        "wb_mbo2": 33,
+        "wk_mbo2": 38,
+        "wk_totaal": 490,
+        "wb_hbo": 32,
+        "wk_hbo": 14,
+        "wk_mbo4": 36,
+        "wb_vmbo": 166
+      },
+      "technicus": {
+        "wk_TIverwant": 0,
+        "wk_mbo3": 0,
+        "wk_vmbo": 0,
+        "wb_mbo4": 9,
+        "wk_overig": 15,
+        "wk_TITIverwant": 15,
+        "wk_TI": 15,
+        "wb_mbo3": 0,
+        "wb_mbo2": 0,
+        "wk_mbo2": 0,
+        "wk_totaal": 30,
+        "wb_hbo": 13,
+        "wk_hbo": 6,
+        "wk_mbo4": 8,
+        "wb_vmbo": 0
+      },
+      "leerling": {
+        "wk_TIverwant": 40,
+        "wk_mbo3": 5,
+        "wk_vmbo": 110,
+        "wb_mbo4": 4,
+        "wk_overig": 100,
+        "wk_TITIverwant": 150,
+        "wk_TI": 105,
+        "wb_mbo3": 4,
+        "wb_mbo2": 24,
+        "wk_mbo2": 31,
+        "wk_totaal": 250,
+        "wb_hbo": 0,
+        "wk_hbo": 0,
+        "wk_mbo4": 3,
+        "wb_vmbo": 130
+      },
+      "overige_functies": {
+        "wk_TIverwant": 0,
+        "wk_mbo3": 0,
+        "wk_vmbo": 0,
+        "wb_mbo4": 2,
+        "wk_overig": 30,
+        "wk_TITIverwant": 5,
+        "wk_TI": 0,
+        "wb_mbo3": 0,
+        "wb_mbo2": 0,
+        "wk_mbo2": 0,
+        "wk_totaal": 35,
+        "wb_hbo": 8,
+        "wk_hbo": 5,
+        "wk_mbo4": 2,
+        "wb_vmbo": 2
+      },
+      "monteur": {
+        "wk_TIverwant": 0,
+        "wk_mbo3": 4,
+        "wk_vmbo": 2,
+        "wb_mbo4": 28,
+        "wk_overig": 135,
+        "wk_TITIverwant": 40,
+        "wk_TI": 35,
+        "wb_mbo3": 5,
+        "wb_mbo2": 9,
+        "wk_mbo2": 7,
+        "wk_totaal": 175,
+        "wb_hbo": 12,
+        "wk_hbo": 4,
+        "wk_mbo4": 23,
+        "wb_vmbo": 34
+      }
+    },
+    "noord_nederland": {
+      "totaal_functies": {
+        "wk_TIverwant": 15,
+        "wk_mbo3": 7,
+        "wk_vmbo": 38,
+        "wb_mbo4": 18,
+        "wk_overig": 155,
+        "wk_TITIverwant": 100,
+        "wk_TI": 80,
+        "wb_mbo3": 3,
+        "wb_mbo2": 12,
+        "wk_mbo2": 33,
+        "wk_totaal": 255,
+        "wb_hbo": 13,
+        "wk_hbo": 6,
+        "wk_mbo4": 18,
+        "wb_vmbo": 31
+      },
+      "technicus": {
+        "wk_TIverwant": 0,
+        "wk_mbo3": 0,
+        "wk_vmbo": 0,
+        "wb_mbo4": 3,
+        "wk_overig": 5,
+        "wk_TITIverwant": 5,
+        "wk_TI": 5,
+        "wb_mbo3": 0,
+        "wb_mbo2": 0,
+        "wk_mbo2": 0,
+        "wk_totaal": 10,
+        "wb_hbo": 4,
+        "wk_hbo": 3,
+        "wk_mbo4": 4,
+        "wb_vmbo": 0
+      },
+      "leerling": {
+        "wk_TIverwant": 15,
+        "wk_mbo3": 4,
+        "wk_vmbo": 37,
+        "wb_mbo4": 1,
+        "wk_overig": 50,
+        "wk_TITIverwant": 70,
+        "wk_TI": 55,
+        "wb_mbo3": 1,
+        "wb_mbo2": 8,
+        "wk_mbo2": 27,
+        "wk_totaal": 120,
+        "wb_hbo": 0,
+        "wk_hbo": 0,
+        "wk_mbo4": 1,
+        "wb_vmbo": 20
+      },
+      "overige_functies": {
+        "wk_TIverwant": 0,
+        "wk_mbo3": 0,
+        "wk_vmbo": 0,
+        "wb_mbo4": 1,
+        "wk_overig": 30,
+        "wk_TITIverwant": 5,
+        "wk_TI": 0,
+        "wb_mbo3": 0,
+        "wb_mbo2": 0,
+        "wk_mbo2": 0,
+        "wk_totaal": 35,
+        "wb_hbo": 3,
+        "wk_hbo": 2,
+        "wk_mbo4": 1,
+        "wb_vmbo": 1
+      },
+      "monteur": {
+        "wk_TIverwant": 0,
+        "wk_mbo3": 3,
+        "wk_vmbo": 1,
+        "wb_mbo4": 12,
+        "wk_overig": 70,
+        "wk_TITIverwant": 20,
+        "wk_TI": 20,
+        "wb_mbo3": 2,
+        "wb_mbo2": 4,
+        "wk_mbo2": 5,
+        "wk_totaal": 90,
+        "wb_hbo": 6,
+        "wk_hbo": 2,
+        "wk_mbo4": 12,
+        "wb_vmbo": 10
+      }
+    },
+    "zuid_holland": {
+      "totaal_functies": {
+        "wk_TIverwant": 25,
+        "wk_mbo3": 7,
+        "wk_vmbo": 83,
+        "wb_mbo4": 31,
+        "wk_overig": 180,
+        "wk_TITIverwant": 160,
+        "wk_TI": 140,
+        "wb_mbo3": 7,
+        "wb_mbo2": 29,
+        "wk_mbo2": 44,
+        "wk_totaal": 340,
+        "wb_hbo": 23,
+        "wk_hbo": 6,
+        "wk_mbo4": 22,
+        "wb_vmbo": 183
+      },
+      "technicus": {
+        "wk_TIverwant": 0,
+        "wk_mbo3": 0,
+        "wk_vmbo": 0,
+        "wb_mbo4": 8,
+        "wk_overig": 10,
+        "wk_TITIverwant": 10,
+        "wk_TI": 10,
+        "wb_mbo3": 0,
+        "wb_mbo2": 0,
+        "wk_mbo2": 0,
+        "wk_totaal": 20,
+        "wb_hbo": 10,
+        "wk_hbo": 2,
+        "wk_mbo4": 5,
+        "wb_vmbo": 0
+      },
+      "leerling": {
+        "wk_TIverwant": 25,
+        "wk_mbo3": 4,
+        "wk_vmbo": 82,
+        "wb_mbo4": 4,
+        "wk_overig": 85,
+        "wk_TITIverwant": 125,
+        "wk_TI": 105,
+        "wb_mbo3": 4,
+        "wb_mbo2": 24,
+        "wk_mbo2": 37,
+        "wk_totaal": 210,
+        "wb_hbo": 0,
+        "wk_hbo": 0,
+        "wk_mbo4": 2,
+        "wb_vmbo": 157
+      },
+      "overige_functies": {
+        "wk_TIverwant": 0,
+        "wk_mbo3": 0,
+        "wk_vmbo": 0,
+        "wb_mbo4": 2,
+        "wk_overig": 0,
+        "wk_TITIverwant": 0,
+        "wk_TI": 0,
+        "wb_mbo3": 0,
+        "wb_mbo2": 0,
+        "wk_mbo2": 0,
+        "wk_totaal": 0,
+        "wb_hbo": 6,
+        "wk_hbo": 2,
+        "wk_mbo4": 1,
+        "wb_vmbo": 3
+      },
+      "monteur": {
+        "wk_TIverwant": 0,
+        "wk_mbo3": 3,
+        "wk_vmbo": 1,
+        "wb_mbo4": 17,
+        "wk_overig": 85,
+        "wk_TITIverwant": 25,
+        "wk_TI": 25,
+        "wb_mbo3": 3,
+        "wb_mbo2": 6,
+        "wk_mbo2": 7,
+        "wk_totaal": 110,
+        "wb_hbo": 8,
+        "wk_hbo": 2,
+        "wk_mbo4": 14,
+        "wb_vmbo": 24
+      }
+    },
+    "noord_holland": {
+      "totaal_functies": {
+        "wk_TIverwant": 20,
+        "wk_mbo3": 10,
+        "wk_vmbo": 58,
+        "wb_mbo4": 17,
+        "wk_overig": 145,
+        "wk_TITIverwant": 110,
+        "wk_TI": 85,
+        "wb_mbo3": 4,
+        "wb_mbo2": 16,
+        "wk_mbo2": 24,
+        "wk_totaal": 255,
+        "wb_hbo": 16,
+        "wk_hbo": 7,
+        "wk_mbo4": 9,
+        "wb_vmbo": 112
+      },
+      "technicus": {
+        "wk_TIverwant": 0,
+        "wk_mbo3": 0,
+        "wk_vmbo": 0,
+        "wb_mbo4": 6,
+        "wk_overig": 5,
+        "wk_TITIverwant": 5,
+        "wk_TI": 5,
+        "wb_mbo3": 0,
+        "wb_mbo2": 0,
+        "wk_mbo2": 0,
+        "wk_totaal": 10,
+        "wb_hbo": 8,
+        "wk_hbo": 3,
+        "wk_mbo4": 2,
+        "wb_vmbo": 0
+      },
+      "leerling": {
+        "wk_TIverwant": 20,
+        "wk_mbo3": 6,
+        "wk_vmbo": 57,
+        "wb_mbo4": 2,
+        "wk_overig": 60,
+        "wk_TITIverwant": 85,
+        "wk_TI": 65,
+        "wb_mbo3": 2,
+        "wb_mbo2": 13,
+        "wk_mbo2": 20,
+        "wk_totaal": 145,
+        "wb_hbo": 0,
+        "wk_hbo": 0,
+        "wk_mbo4": 1,
+        "wb_vmbo": 99
+      },
+      "overige_functies": {
+        "wk_TIverwant": 0,
+        "wk_mbo3": 0,
+        "wk_vmbo": 0,
+        "wb_mbo4": 1,
+        "wk_overig": 30,
+        "wk_TITIverwant": 5,
+        "wk_TI": 0,
+        "wb_mbo3": 0,
+        "wb_mbo2": 0,
+        "wk_mbo2": 0,
+        "wk_totaal": 35,
+        "wb_hbo": 4,
+        "wk_hbo": 2,
+        "wk_mbo4": 1,
+        "wb_vmbo": 1
+      },
+      "monteur": {
+        "wk_TIverwant": 0,
+        "wk_mbo3": 4,
+        "wk_vmbo": 1,
+        "wb_mbo4": 8,
+        "wk_overig": 50,
+        "wk_TITIverwant": 15,
+        "wk_TI": 15,
+        "wb_mbo3": 1,
+        "wb_mbo2": 3,
+        "wk_mbo2": 4,
+        "wk_totaal": 65,
+        "wb_hbo": 4,
+        "wk_hbo": 2,
+        "wk_mbo4": 6,
+        "wb_vmbo": 11
+      }
+    },
+    "midden_nederland": {
+      "totaal_functies": {
+        "wk_TIverwant": 15,
+        "wk_mbo3": 2,
+        "wk_vmbo": 53,
+        "wb_mbo4": 21,
+        "wk_overig": 105,
+        "wk_TITIverwant": 95,
+        "wk_TI": 75,
+        "wb_mbo3": 4,
+        "wb_mbo2": 18,
+        "wk_mbo2": 23,
+        "wk_totaal": 200,
+        "wb_hbo": 14,
+        "wk_hbo": 5,
+        "wk_mbo4": 11,
+        "wb_vmbo": 79
+      },
+      "technicus": {
+        "wk_TIverwant": 0,
+        "wk_mbo3": 0,
+        "wk_vmbo": 0,
+        "wb_mbo4": 6,
+        "wk_overig": 5,
+        "wk_TITIverwant": 5,
+        "wk_TI": 5,
+        "wb_mbo3": 0,
+        "wb_mbo2": 0,
+        "wk_mbo2": 0,
+        "wk_totaal": 10,
+        "wb_hbo": 7,
+        "wk_hbo": 2,
+        "wk_mbo4": 3,
+        "wb_vmbo": 0
+      },
+      "leerling": {
+        "wk_TIverwant": 15,
+        "wk_mbo3": 1,
+        "wk_vmbo": 52,
+        "wb_mbo4": 2,
+        "wk_overig": 50,
+        "wk_TITIverwant": 75,
+        "wk_TI": 60,
+        "wb_mbo3": 2,
+        "wb_mbo2": 14,
+        "wk_mbo2": 19,
+        "wk_totaal": 125,
+        "wb_hbo": 0,
+        "wk_hbo": 0,
+        "wk_mbo4": 1,
+        "wb_vmbo": 62
+      },
+      "overige_functies": {
+        "wk_TIverwant": 0,
+        "wk_mbo3": 0,
+        "wk_vmbo": 0,
+        "wb_mbo4": 0,
+        "wk_overig": 0,
+        "wk_TITIverwant": 0,
+        "wk_TI": 0,
+        "wb_mbo3": 0,
+        "wb_mbo2": 0,
+        "wk_mbo2": 0,
+        "wk_totaal": 0,
+        "wb_hbo": 1,
+        "wk_hbo": 2,
+        "wk_mbo4": 1,
+        "wb_vmbo": 1
+      },
+      "monteur": {
+        "wk_TIverwant": 0,
+        "wk_mbo3": 1,
+        "wk_vmbo": 1,
+        "wb_mbo4": 13,
+        "wk_overig": 50,
+        "wk_TITIverwant": 15,
+        "wk_TI": 10,
+        "wb_mbo3": 2,
+        "wb_mbo2": 4,
+        "wk_mbo2": 3,
+        "wk_totaal": 65,
+        "wb_hbo": 5,
+        "wk_hbo": 1,
+        "wk_mbo4": 7,
+        "wb_vmbo": 16
+      }
+    },
+    "totaal_regios": {
+      "leerling": {
+        "wk_TIverwant": 155,
+        "wk_mbo3": 25,
+        "wk_vmbo": 423,
+        "wb_mbo4": 17,
+        "wk_overig": 430,
+        "wk_TITIverwant": 630,
+        "wk_TI": 475,
+        "wb_mbo3": 16,
+        "wb_mbo2": 99,
+        "wk_mbo2": 171,
+        "wk_totaal": 1060,
+        "wb_hbo": 0,
+        "wk_hbo": 0,
+        "wk_mbo4": 10,
+        "wb_vmbo": 567
+      },
+      "technicus": {
+        "wk_TIverwant": 0,
+        "wk_mbo3": 0,
+        "wk_vmbo": 0,
+        "wb_mbo4": 42,
+        "wk_overig": 50,
+        "wk_TITIverwant": 50,
+        "wk_TI": 50,
+        "wb_mbo3": 0,
+        "wb_mbo2": 0,
+        "wk_mbo2": 0,
+        "wk_totaal": 100,
+        "wb_hbo": 50,
+        "wk_hbo": 20,
+        "wk_mbo4": 30,
+        "wb_vmbo": 0
+      },
+      "totaal_functies": {
+        "wk_TIverwant": 155,
+        "wk_mbo3": 43,
+        "wk_vmbo": 430,
+        "wb_mbo4": 173,
+        "wk_overig": 1140,
+        "wk_TITIverwant": 855,
+        "wk_TI": 660,
+        "wb_mbo3": 35,
+        "wb_mbo2": 135,
+        "wk_mbo2": 206,
+        "wk_totaal": 1995,
+        "wb_hbo": 129,
+        "wk_hbo": 49,
+        "wk_mbo4": 127,
+        "wb_vmbo": 705
+      },
+      "overige_functies": {
+        "wk_TIverwant": 0,
+        "wk_mbo3": 0,
+        "wk_vmbo": 1,
+        "wb_mbo4": 8,
+        "wk_overig": 150,
+        "wk_TITIverwant": 25,
+        "wk_TI": 0,
+        "wb_mbo3": 2,
+        "wb_mbo2": 1,
+        "wk_mbo2": 1,
+        "wk_totaal": 175,
+        "wb_hbo": 29,
+        "wk_hbo": 16,
+        "wk_mbo4": 6,
+        "wb_vmbo": 10
+      },
+      "monteur": {
+        "wk_TIverwant": 0,
+        "wk_mbo3": 18,
+        "wk_vmbo": 6,
+        "wb_mbo4": 107,
+        "wk_overig": 510,
+        "wk_TITIverwant": 150,
+        "wk_TI": 135,
+        "wb_mbo3": 18,
+        "wb_mbo2": 35,
+        "wk_mbo2": 33,
+        "wk_totaal": 660,
+        "wb_hbo": 49,
+        "wk_hbo": 13,
+        "wk_mbo4": 81,
+        "wb_vmbo": 127
+      }
+    },
+    "gelderland_overijssel": {
+      "totaal_functies": {
+        "wk_TIverwant": 40,
+        "wk_mbo3": 8,
+        "wk_vmbo": 86,
+        "wb_mbo4": 42,
+        "wk_overig": 275,
+        "wk_TITIverwant": 180,
+        "wk_TI": 125,
+        "wb_mbo3": 8,
+        "wb_mbo2": 26,
+        "wk_mbo2": 44,
+        "wk_totaal": 455,
+        "wb_hbo": 30,
+        "wk_hbo": 11,
+        "wk_mbo4": 30,
+        "wb_vmbo": 134
+      },
+      "technicus": {
+        "wk_TIverwant": 0,
+        "wk_mbo3": 0,
+        "wk_vmbo": 0,
+        "wb_mbo4": 9,
+        "wk_overig": 10,
+        "wk_TITIverwant": 10,
+        "wk_TI": 10,
+        "wb_mbo3": 0,
+        "wb_mbo2": 0,
+        "wk_mbo2": 0,
+        "wk_totaal": 20,
+        "wb_hbo": 9,
+        "wk_hbo": 4,
+        "wk_mbo4": 7,
+        "wb_vmbo": 0
+      },
+      "leerling": {
+        "wk_TIverwant": 40,
+        "wk_mbo3": 5,
+        "wk_vmbo": 85,
+        "wb_mbo4": 3,
+        "wk_overig": 85,
+        "wk_TITIverwant": 125,
+        "wk_TI": 85,
+        "wb_mbo3": 3,
+        "wb_mbo2": 16,
+        "wk_mbo2": 37,
+        "wk_totaal": 210,
+        "wb_hbo": 0,
+        "wk_hbo": 0,
+        "wk_mbo4": 2,
+        "wb_vmbo": 98
+      },
+      "overige_functies": {
+        "wk_TIverwant": 0,
+        "wk_mbo3": 0,
+        "wk_vmbo": 0,
+        "wb_mbo4": 2,
+        "wk_overig": 60,
+        "wk_TITIverwant": 10,
+        "wk_TI": 0,
+        "wb_mbo3": 0,
+        "wb_mbo2": 0,
+        "wk_mbo2": 0,
+        "wk_totaal": 70,
+        "wb_hbo": 7,
+        "wk_hbo": 4,
+        "wk_mbo4": 1,
+        "wb_vmbo": 2
+      },
+      "monteur": {
+        "wk_TIverwant": 0,
+        "wk_mbo3": 3,
+        "wk_vmbo": 1,
+        "wb_mbo4": 29,
+        "wk_overig": 120,
+        "wk_TITIverwant": 35,
+        "wk_TI": 30,
+        "wb_mbo3": 5,
+        "wb_mbo2": 10,
+        "wk_mbo2": 7,
+        "wk_totaal": 155,
+        "wb_hbo": 14,
+        "wk_hbo": 3,
+        "wk_mbo4": 19,
+        "wb_vmbo": 33
+      }
+    }
+  },
+  "jaar_2019": {
+    "zuid_nederland": {
+      "totaal_functies": {
+        "wk_TIverwant": 55,
+        "wk_mbo3": 11,
+        "wk_vmbo": 103,
+        "wb_mbo4": 65,
+        "wk_overig": 290,
+        "wk_TITIverwant": 210,
+        "wk_TI": 145,
+        "wb_mbo3": 12,
+        "wb_mbo2": 43,
+        "wk_mbo2": 41,
+        "wk_totaal": 500,
+        "wb_hbo": 46,
+        "wk_hbo": 14,
+        "wk_mbo4": 38,
+        "wb_vmbo": 206
+      },
+      "technicus": {
+        "wk_TIverwant": 0,
+        "wk_mbo3": 0,
+        "wk_vmbo": 0,
+        "wb_mbo4": 12,
+        "wk_overig": 15,
+        "wk_TITIverwant": 15,
+        "wk_TI": 15,
+        "wb_mbo3": 0,
+        "wb_mbo2": 0,
+        "wk_mbo2": 0,
+        "wk_totaal": 30,
+        "wb_hbo": 17,
+        "wk_hbo": 6,
+        "wk_mbo4": 9,
+        "wb_vmbo": 0
+      },
+      "leerling": {
+        "wk_TIverwant": 55,
+        "wk_mbo3": 6,
+        "wk_vmbo": 102,
+        "wb_mbo4": 5,
+        "wk_overig": 95,
+        "wk_TITIverwant": 145,
+        "wk_TI": 90,
+        "wb_mbo3": 4,
+        "wb_mbo2": 28,
+        "wk_mbo2": 33,
+        "wk_totaal": 240,
+        "wb_hbo": 0,
+        "wk_hbo": 0,
+        "wk_mbo4": 3,
+        "wb_vmbo": 153
+      },
+      "overige_functies": {
+        "wk_TIverwant": 0,
+        "wk_mbo3": 0,
+        "wk_vmbo": 0,
+        "wb_mbo4": 2,
+        "wk_overig": 30,
+        "wk_TITIverwant": 5,
+        "wk_TI": 0,
+        "wb_mbo3": 0,
+        "wb_mbo2": 0,
+        "wk_mbo2": 0,
+        "wk_totaal": 35,
+        "wb_hbo": 10,
+        "wk_hbo": 5,
+        "wk_mbo4": 2,
+        "wb_vmbo": 3
+      },
+      "monteur": {
+        "wk_TIverwant": 0,
+        "wk_mbo3": 4,
+        "wk_vmbo": 1,
+        "wb_mbo4": 45,
+        "wk_overig": 150,
+        "wk_TITIverwant": 45,
+        "wk_TI": 40,
+        "wb_mbo3": 7,
+        "wb_mbo2": 15,
+        "wk_mbo2": 7,
+        "wk_totaal": 195,
+        "wb_hbo": 19,
+        "wk_hbo": 4,
+        "wk_mbo4": 25,
+        "wb_vmbo": 50
+      }
+    },
+    "noord_nederland": {
+      "totaal_functies": {
+        "wk_TIverwant": 25,
+        "wk_mbo3": 8,
+        "wk_vmbo": 36,
+        "wb_mbo4": 29,
+        "wk_overig": 175,
+        "wk_TITIverwant": 110,
+        "wk_TI": 75,
+        "wb_mbo3": 5,
+        "wb_mbo2": 16,
+        "wk_mbo2": 35,
+        "wk_totaal": 285,
+        "wb_hbo": 20,
+        "wk_hbo": 7,
+        "wk_mbo4": 20,
+        "wb_vmbo": 40
+      },
+      "technicus": {
+        "wk_TIverwant": 0,
+        "wk_mbo3": 0,
+        "wk_vmbo": 0,
+        "wb_mbo4": 5,
+        "wk_overig": 10,
+        "wk_TITIverwant": 10,
+        "wk_TI": 5,
+        "wb_mbo3": 0,
+        "wb_mbo2": 0,
+        "wk_mbo2": 0,
+        "wk_totaal": 20,
+        "wb_hbo": 5,
+        "wk_hbo": 3,
+        "wk_mbo4": 5,
+        "wb_vmbo": 0
+      },
+      "leerling": {
+        "wk_TIverwant": 20,
+        "wk_mbo3": 5,
+        "wk_vmbo": 35,
+        "wb_mbo4": 2,
+        "wk_overig": 50,
+        "wk_TITIverwant": 70,
+        "wk_TI": 50,
+        "wb_mbo3": 1,
+        "wb_mbo2": 9,
+        "wk_mbo2": 29,
+        "wk_totaal": 120,
+        "wb_hbo": 0,
+        "wk_hbo": 0,
+        "wk_mbo4": 2,
+        "wb_vmbo": 23
+      },
+      "overige_functies": {
+        "wk_TIverwant": 0,
+        "wk_mbo3": 0,
+        "wk_vmbo": 0,
+        "wb_mbo4": 1,
+        "wk_overig": 30,
+        "wk_TITIverwant": 5,
+        "wk_TI": 0,
+        "wb_mbo3": 0,
+        "wb_mbo2": 0,
+        "wk_mbo2": 0,
+        "wk_totaal": 35,
+        "wb_hbo": 4,
+        "wk_hbo": 2,
+        "wk_mbo4": 1,
+        "wb_vmbo": 1
+      },
+      "monteur": {
+        "wk_TIverwant": 5,
+        "wk_mbo3": 3,
+        "wk_vmbo": 0,
+        "wb_mbo4": 22,
+        "wk_overig": 85,
+        "wk_TITIverwant": 25,
+        "wk_TI": 20,
+        "wb_mbo3": 4,
+        "wb_mbo2": 7,
+        "wk_mbo2": 6,
+        "wk_totaal": 110,
+        "wb_hbo": 11,
+        "wk_hbo": 2,
+        "wk_mbo4": 13,
+        "wb_vmbo": 17
+      }
+    },
+    "zuid_holland": {
+      "totaal_functies": {
+        "wk_TIverwant": 35,
+        "wk_mbo3": 8,
+        "wk_vmbo": 79,
+        "wb_mbo4": 47,
+        "wk_overig": 180,
+        "wk_TITIverwant": 160,
+        "wk_TI": 125,
+        "wb_mbo3": 9,
+        "wb_mbo2": 37,
+        "wk_mbo2": 47,
+        "wk_totaal": 340,
+        "wb_hbo": 33,
+        "wk_hbo": 6,
+        "wk_mbo4": 24,
+        "wb_vmbo": 223
+      },
+      "technicus": {
+        "wk_TIverwant": 0,
+        "wk_mbo3": 0,
+        "wk_vmbo": 0,
+        "wb_mbo4": 11,
+        "wk_overig": 10,
+        "wk_TITIverwant": 10,
+        "wk_TI": 10,
+        "wb_mbo3": 0,
+        "wb_mbo2": 0,
+        "wk_mbo2": 0,
+        "wk_totaal": 20,
+        "wb_hbo": 13,
+        "wk_hbo": 3,
+        "wk_mbo4": 6,
+        "wb_vmbo": 0
+      },
+      "leerling": {
+        "wk_TIverwant": 35,
+        "wk_mbo3": 4,
+        "wk_vmbo": 78,
+        "wb_mbo4": 5,
+        "wk_overig": 85,
+        "wk_TITIverwant": 125,
+        "wk_TI": 90,
+        "wb_mbo3": 4,
+        "wb_mbo2": 27,
+        "wk_mbo2": 39,
+        "wk_totaal": 210,
+        "wb_hbo": 0,
+        "wk_hbo": 0,
+        "wk_mbo4": 2,
+        "wb_vmbo": 184
+      },
+      "overige_functies": {
+        "wk_TIverwant": 0,
+        "wk_mbo3": 0,
+        "wk_vmbo": 0,
+        "wb_mbo4": 2,
+        "wk_overig": 0,
+        "wk_TITIverwant": 0,
+        "wk_TI": 0,
+        "wb_mbo3": 0,
+        "wb_mbo2": 0,
+        "wk_mbo2": 0,
+        "wk_totaal": 0,
+        "wb_hbo": 7,
+        "wk_hbo": 2,
+        "wk_mbo4": 1,
+        "wb_vmbo": 3
+      },
+      "monteur": {
+        "wk_TIverwant": 0,
+        "wk_mbo3": 3,
+        "wk_vmbo": 1,
+        "wb_mbo4": 29,
+        "wk_overig": 85,
+        "wk_TITIverwant": 25,
+        "wk_TI": 25,
+        "wb_mbo3": 5,
+        "wb_mbo2": 9,
+        "wk_mbo2": 8,
+        "wk_totaal": 110,
+        "wb_hbo": 13,
+        "wk_hbo": 2,
+        "wk_mbo4": 16,
+        "wb_vmbo": 36
+      }
+    },
+    "noord_holland": {
+      "totaal_functies": {
+        "wk_TIverwant": 30,
+        "wk_mbo3": 12,
+        "wk_vmbo": 63,
+        "wb_mbo4": 26,
+        "wk_overig": 165,
+        "wk_TITIverwant": 120,
+        "wk_TI": 80,
+        "wb_mbo3": 5,
+        "wb_mbo2": 20,
+        "wk_mbo2": 26,
+        "wk_totaal": 285,
+        "wb_hbo": 23,
+        "wk_hbo": 7,
+        "wk_mbo4": 10,
+        "wb_vmbo": 132
+      },
+      "technicus": {
+        "wk_TIverwant": 0,
+        "wk_mbo3": 0,
+        "wk_vmbo": 0,
+        "wb_mbo4": 8,
+        "wk_overig": 5,
+        "wk_TITIverwant": 5,
+        "wk_TI": 5,
+        "wb_mbo3": 0,
+        "wb_mbo2": 0,
+        "wk_mbo2": 0,
+        "wk_totaal": 10,
+        "wb_hbo": 11,
+        "wk_hbo": 3,
+        "wk_mbo4": 2,
+        "wb_vmbo": 0
+      },
+      "leerling": {
+        "wk_TIverwant": 30,
+        "wk_mbo3": 7,
+        "wk_vmbo": 62,
+        "wb_mbo4": 3,
+        "wk_overig": 60,
+        "wk_TITIverwant": 90,
+        "wk_TI": 60,
+        "wb_mbo3": 2,
+        "wb_mbo2": 15,
+        "wk_mbo2": 21,
+        "wk_totaal": 150,
+        "wb_hbo": 0,
+        "wk_hbo": 0,
+        "wk_mbo4": 1,
+        "wb_vmbo": 113
+      },
+      "overige_functies": {
+        "wk_TIverwant": 0,
+        "wk_mbo3": 0,
+        "wk_vmbo": 0,
+        "wb_mbo4": 1,
+        "wk_overig": 30,
+        "wk_TITIverwant": 5,
+        "wk_TI": 0,
+        "wb_mbo3": 0,
+        "wb_mbo2": 0,
+        "wk_mbo2": 0,
+        "wk_totaal": 35,
+        "wb_hbo": 5,
+        "wk_hbo": 2,
+        "wk_mbo4": 1,
+        "wb_vmbo": 2
+      },
+      "monteur": {
+        "wk_TIverwant": 0,
+        "wk_mbo3": 5,
+        "wk_vmbo": 1,
+        "wb_mbo4": 14,
+        "wk_overig": 70,
+        "wk_TITIverwant": 20,
+        "wk_TI": 15,
+        "wb_mbo3": 2,
+        "wb_mbo2": 5,
+        "wk_mbo2": 4,
+        "wk_totaal": 90,
+        "wb_hbo": 6,
+        "wk_hbo": 2,
+        "wk_mbo4": 6,
+        "wb_vmbo": 18
+      }
+    },
+    "midden_nederland": {
+      "totaal_functies": {
+        "wk_TIverwant": 15,
+        "wk_mbo3": 2,
+        "wk_vmbo": 41,
+        "wb_mbo4": 33,
+        "wk_overig": 95,
+        "wk_TITIverwant": 80,
+        "wk_TI": 65,
+        "wb_mbo3": 6,
+        "wb_mbo2": 23,
+        "wk_mbo2": 24,
+        "wk_totaal": 175,
+        "wb_hbo": 20,
+        "wk_hbo": 5,
+        "wk_mbo4": 12,
+        "wb_vmbo": 98
+      },
+      "technicus": {
+        "wk_TIverwant": 0,
+        "wk_mbo3": 0,
+        "wk_vmbo": 0,
+        "wb_mbo4": 8,
+        "wk_overig": 5,
+        "wk_TITIverwant": 5,
+        "wk_TI": 5,
+        "wb_mbo3": 0,
+        "wb_mbo2": 0,
+        "wk_mbo2": 0,
+        "wk_totaal": 10,
+        "wb_hbo": 9,
+        "wk_hbo": 2,
+        "wk_mbo4": 3,
+        "wb_vmbo": 0
+      },
+      "leerling": {
+        "wk_TIverwant": 15,
+        "wk_mbo3": 1,
+        "wk_vmbo": 40,
+        "wb_mbo4": 3,
+        "wk_overig": 40,
+        "wk_TITIverwant": 60,
+        "wk_TI": 45,
+        "wb_mbo3": 3,
+        "wb_mbo2": 16,
+        "wk_mbo2": 20,
+        "wk_totaal": 100,
+        "wb_hbo": 0,
+        "wk_hbo": 0,
+        "wk_mbo4": 1,
+        "wb_vmbo": 72
+      },
+      "overige_functies": {
+        "wk_TIverwant": 0,
+        "wk_mbo3": 0,
+        "wk_vmbo": 0,
+        "wb_mbo4": 1,
+        "wk_overig": 0,
+        "wk_TITIverwant": 0,
+        "wk_TI": 0,
+        "wb_mbo3": 0,
+        "wb_mbo2": 0,
+        "wk_mbo2": 0,
+        "wk_totaal": 0,
+        "wb_hbo": 2,
+        "wk_hbo": 2,
+        "wk_mbo4": 1,
+        "wb_vmbo": 1
+      },
+      "monteur": {
+        "wk_TIverwant": 0,
+        "wk_mbo3": 1,
+        "wk_vmbo": 1,
+        "wb_mbo4": 21,
+        "wk_overig": 50,
+        "wk_TITIverwant": 15,
+        "wk_TI": 15,
+        "wb_mbo3": 3,
+        "wb_mbo2": 7,
+        "wk_mbo2": 4,
+        "wk_totaal": 65,
+        "wb_hbo": 9,
+        "wk_hbo": 1,
+        "wk_mbo4": 8,
+        "wb_vmbo": 25
+      }
+    },
+    "totaal_regios": {
+      "leerling": {
+        "wk_TIverwant": 205,
+        "wk_mbo3": 29,
+        "wk_vmbo": 414,
+        "wb_mbo4": 20,
+        "wk_overig": 425,
+        "wk_TITIverwant": 635,
+        "wk_TI": 430,
+        "wb_mbo3": 18,
+        "wb_mbo2": 114,
+        "wk_mbo2": 181,
+        "wk_totaal": 1060,
+        "wb_hbo": 0,
+        "wk_hbo": 0,
+        "wk_mbo4": 10,
+        "wb_vmbo": 661
+      },
+      "technicus": {
+        "wk_TIverwant": 0,
+        "wk_mbo3": 0,
+        "wk_vmbo": 0,
+        "wb_mbo4": 57,
+        "wk_overig": 55,
+        "wk_TITIverwant": 55,
+        "wk_TI": 50,
+        "wb_mbo3": 0,
+        "wb_mbo2": 0,
+        "wk_mbo2": 0,
+        "wk_totaal": 110,
+        "wb_hbo": 69,
+        "wk_hbo": 21,
+        "wk_mbo4": 32,
+        "wb_vmbo": 0
+      },
+      "totaal_functies": {
+        "wk_TIverwant": 210,
+        "wk_mbo3": 49,
+        "wk_vmbo": 420,
+        "wb_mbo4": 264,
+        "wk_overig": 1190,
+        "wk_TITIverwant": 880,
+        "wk_TI": 630,
+        "wb_mbo3": 49,
+        "wb_mbo2": 173,
+        "wk_mbo2": 219,
+        "wk_totaal": 2070,
+        "wb_hbo": 185,
+        "wk_hbo": 51,
+        "wk_mbo4": 137,
+        "wb_vmbo": 872
+      },
+      "overige_functies": {
+        "wk_TIverwant": 0,
+        "wk_mbo3": 0,
+        "wk_vmbo": 1,
+        "wb_mbo4": 10,
+        "wk_overig": 150,
+        "wk_TITIverwant": 25,
+        "wk_TI": 0,
+        "wb_mbo3": 2,
+        "wb_mbo2": 1,
+        "wk_mbo2": 1,
+        "wk_totaal": 175,
+        "wb_hbo": 36,
+        "wk_hbo": 17,
+        "wk_mbo4": 7,
+        "wb_vmbo": 13
+      },
+      "monteur": {
+        "wk_TIverwant": 5,
+        "wk_mbo3": 20,
+        "wk_vmbo": 6,
+        "wb_mbo4": 177,
+        "wk_overig": 560,
+        "wk_TITIverwant": 165,
+        "wk_TI": 150,
+        "wb_mbo3": 29,
+        "wb_mbo2": 58,
+        "wk_mbo2": 36,
+        "wk_totaal": 725,
+        "wb_hbo": 80,
+        "wk_hbo": 13,
+        "wk_mbo4": 88,
+        "wb_vmbo": 198
+      }
+    },
+    "gelderland_overijssel": {
+      "totaal_functies": {
+        "wk_TIverwant": 50,
+        "wk_mbo3": 9,
+        "wk_vmbo": 98,
+        "wb_mbo4": 65,
+        "wk_overig": 285,
+        "wk_TITIverwant": 200,
+        "wk_TI": 140,
+        "wb_mbo3": 11,
+        "wb_mbo2": 35,
+        "wk_mbo2": 47,
+        "wk_totaal": 485,
+        "wb_hbo": 43,
+        "wk_hbo": 12,
+        "wk_mbo4": 32,
+        "wb_vmbo": 172
+      },
+      "technicus": {
+        "wk_TIverwant": 0,
+        "wk_mbo3": 0,
+        "wk_vmbo": 0,
+        "wb_mbo4": 12,
+        "wk_overig": 10,
+        "wk_TITIverwant": 10,
+        "wk_TI": 10,
+        "wb_mbo3": 0,
+        "wb_mbo2": 0,
+        "wk_mbo2": 0,
+        "wk_totaal": 20,
+        "wb_hbo": 13,
+        "wk_hbo": 5,
+        "wk_mbo4": 7,
+        "wb_vmbo": 0
+      },
+      "leerling": {
+        "wk_TIverwant": 50,
+        "wk_mbo3": 5,
+        "wk_vmbo": 97,
+        "wb_mbo4": 3,
+        "wk_overig": 95,
+        "wk_TITIverwant": 145,
+        "wk_TI": 95,
+        "wb_mbo3": 3,
+        "wb_mbo2": 19,
+        "wk_mbo2": 39,
+        "wk_totaal": 240,
+        "wb_hbo": 0,
+        "wk_hbo": 0,
+        "wk_mbo4": 2,
+        "wb_vmbo": 117
+      },
+      "overige_functies": {
+        "wk_TIverwant": 0,
+        "wk_mbo3": 0,
+        "wk_vmbo": 0,
+        "wb_mbo4": 2,
+        "wk_overig": 60,
+        "wk_TITIverwant": 10,
+        "wk_TI": 0,
+        "wb_mbo3": 0,
+        "wb_mbo2": 0,
+        "wk_mbo2": 0,
+        "wk_totaal": 70,
+        "wb_hbo": 9,
+        "wk_hbo": 4,
+        "wk_mbo4": 2,
+        "wb_vmbo": 3
+      },
+      "monteur": {
+        "wk_TIverwant": 0,
+        "wk_mbo3": 4,
+        "wk_vmbo": 1,
+        "wb_mbo4": 47,
+        "wk_overig": 120,
+        "wk_TITIverwant": 35,
+        "wk_TI": 35,
+        "wb_mbo3": 8,
+        "wb_mbo2": 15,
+        "wk_mbo2": 8,
+        "wk_totaal": 155,
+        "wb_hbo": 22,
+        "wk_hbo": 3,
+        "wk_mbo4": 21,
+        "wb_vmbo": 52
       }
     }
   }
