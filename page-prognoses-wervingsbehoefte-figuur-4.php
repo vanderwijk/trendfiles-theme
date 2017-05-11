@@ -1194,9 +1194,9 @@ get_header(); ?>
 								<line fill="none" stroke="#6F7477" stroke-width="0.9947" stroke-miterlimit="10" stroke-dasharray="5.1711,2.0684" x1="153.3" y1="192.4" x2="181.3" y2="192.4"></line>
 								<line fill="none" stroke="#6F7477" stroke-width="0.9947" stroke-miterlimit="10" x1="182.3" y1="192.4" x2="184.8" y2="192.4"></line>
 							</g>
-							<text font-family="'Droid Sans',sans-serif" font-size="10px" fill="#414042" text-anchor="middle" x="167" y="117">WB NIVEAU 2</text>
+							<text font-family="'Droid Sans',sans-serif" font-size="10px" fill="#414042" text-anchor="middle" x="167" y="117">WB MBO 2</text>
 							<text id="wb_mbo2" font-family="'Roboto',sans-serif" font-size="12px" fill="#888d91" text-anchor="middle" x="167" y="130"></text>
-							<text font-family="'Droid Sans',sans-serif" font-size="10px" fill="#414042" text-anchor="middle" x="167" y="229">WK NIVEAU 2</text>
+							<text font-family="'Droid Sans',sans-serif" font-size="10px" fill="#414042" text-anchor="middle" x="167" y="229">WK MBO 2</text>
 							<text id="wk_mbo2" font-family="'Roboto',sans-serif" font-size="12px" fill="#2E8D9E" text-anchor="middle" x="167" y="241"></text>
 						</g>
 
@@ -1219,9 +1219,9 @@ get_header(); ?>
 								<line fill="none" stroke="#6F7477" stroke-width="0.9947" stroke-miterlimit="10" stroke-dasharray="5.1711,2.0684" x1="228.7" y1="192.4" x2="256.7" y2="192.4"></line>
 								<line fill="none" stroke="#6F7477" stroke-width="0.9947" stroke-miterlimit="10" x1="257.7" y1="192.4" x2="260.2" y2="192.4"></line>
 							</g>
-							<text font-family="'Droid Sans',sans-serif" font-size="10px" fill="#414042" text-anchor="middle" x="242" y="117">WB NIVEAU 3</text>
+							<text font-family="'Droid Sans',sans-serif" font-size="10px" fill="#414042" text-anchor="middle" x="242" y="117">WB MBO 3</text>
 							<text id="wb_mbo3" font-family="'Roboto',sans-serif" font-size="12px" fill="#888d91" text-anchor="middle" x="242" y="130"></text>
-							<text font-family="'Droid Sans',sans-serif" font-size="10px" fill="#414042" text-anchor="middle" x="242" y="229">WK NIVEAU 3</text>
+							<text font-family="'Droid Sans',sans-serif" font-size="10px" fill="#414042" text-anchor="middle" x="242" y="229">WK MBO 3</text>
 							<text id="wk_mbo3" font-family="'Roboto',sans-serif" font-size="12px" fill="#044954" text-anchor="middle" x="242" y="241"></text>
 						</g>
 
@@ -1244,9 +1244,9 @@ get_header(); ?>
 								<line fill="none" stroke="#6F7477" stroke-width="0.9947" stroke-miterlimit="10" stroke-dasharray="5.1711,2.0684" x1="304.1" y1="192.4" x2="332.1" y2="192.4"></line>
 								<line fill="none" stroke="#6F7477" stroke-width="0.9947" stroke-miterlimit="10" x1="333.1" y1="192.4" x2="335.6" y2="192.4"></line>
 							</g>
-							<text font-family="'Droid Sans',sans-serif" font-size="10px" fill="#414042" text-anchor="middle" x="318" y="117">WB NIVEAU 4</text>
+							<text font-family="'Droid Sans',sans-serif" font-size="10px" fill="#414042" text-anchor="middle" x="318" y="117">WB MBO 4</text>
 							<text id="wb_mbo4" font-family="'Roboto',sans-serif" font-size="12px" fill="#888d91" text-anchor="middle" x="318" y="130"></text>
-							<text font-family="'Droid Sans',sans-serif" font-size="10px" fill="#414042" text-anchor="middle" x="318" y="229">WK NIVEAU 4</text>
+							<text font-family="'Droid Sans',sans-serif" font-size="10px" fill="#414042" text-anchor="middle" x="318" y="229">WK MBO 4</text>
 							<text id="wk_mbo4" font-family="'Roboto',sans-serif" font-size="12px" fill="#F58220" text-anchor="middle" x="318" y="241"></text>
 						</g>
 

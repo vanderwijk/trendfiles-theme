@@ -182,23 +182,27 @@ function maakGrafiek(regio, functie) {
 		plasjezichtbaar_wb_hbo = 1;
 	}
 
-	// Waarden in tekst
-	jQuery( "#wb_vmbo" ).text( gegevens.jaar_2020[regio][functie].wb_vmbo );
-	jQuery( "#wk_vmbo" ).text( gegevens.jaar_2020[regio][functie].wk_vmbo );
-	jQuery( "#wb_mbo2" ).text( gegevens.jaar_2020[regio][functie].wb_mbo2 );
-	jQuery( "#wk_mbo2" ).text( gegevens.jaar_2020[regio][functie].wk_mbo2);
-	jQuery( "#wb_mbo3" ).text( gegevens.jaar_2020[regio][functie].wb_mbo3 );
-	jQuery( "#wk_mbo3" ).text( gegevens.jaar_2020[regio][functie].wk_mbo3);
-	jQuery( "#wb_mbo4" ).text( gegevens.jaar_2020[regio][functie].wb_mbo4 );
-	jQuery( "#wk_mbo4" ).text( gegevens.jaar_2020[regio][functie].wk_mbo4 );
-	jQuery( "#wb_hbo" ).text( gegevens.jaar_2020[regio][functie].wb_hbo );
-	jQuery( "#wk_hbo" ).text( gegevens.jaar_2020[regio][functie].wk_hbo );
+	function formatNumber (num) {
+		return num.toString().replace(/(\d)(?=(\d{3})+(?!\d))/g, "$1.")
+	}
 
-	jQuery( '#rechthoek_vmbo title' ).text( gegevens.jaar_2020[regio][functie].wk_vmbo );
-	jQuery( '#rechthoek_mbo2 title' ).text( gegevens.jaar_2020[regio][functie].wk_mbo2 );
-	jQuery( '#rechthoek_mbo3 title' ).text( gegevens.jaar_2020[regio][functie].wk_mbo3 );
-	jQuery( '#rechthoek_mbo4 title' ).text( gegevens.jaar_2020[regio][functie].wk_mbo4 );
-	jQuery( '#rechthoek_hbo title' ).text( gegevens.jaar_2020[regio][functie].wk_hbo );
+	// Waarden in tekst
+	jQuery( "#wb_vmbo" ).text( formatNumber( gegevens.jaar_2020[regio][functie].wb_vmbo ));
+	jQuery( "#wk_vmbo" ).text( formatNumber( gegevens.jaar_2020[regio][functie].wk_vmbo ));
+	jQuery( "#wb_mbo2" ).text( formatNumber( gegevens.jaar_2020[regio][functie].wb_mbo2 ));
+	jQuery( "#wk_mbo2" ).text( formatNumber( gegevens.jaar_2020[regio][functie].wk_mbo2 ));
+	jQuery( "#wb_mbo3" ).text( formatNumber( gegevens.jaar_2020[regio][functie].wb_mbo3 ));
+	jQuery( "#wk_mbo3" ).text( formatNumber( gegevens.jaar_2020[regio][functie].wk_mbo3 ));
+	jQuery( "#wb_mbo4" ).text( formatNumber( gegevens.jaar_2020[regio][functie].wb_mbo4 ));
+	jQuery( "#wk_mbo4" ).text( formatNumber( gegevens.jaar_2020[regio][functie].wk_mbo4 ));
+	jQuery( "#wb_hbo" ).text( formatNumber( gegevens.jaar_2020[regio][functie].wb_hbo ));
+	jQuery( "#wk_hbo" ).text( formatNumber( gegevens.jaar_2020[regio][functie].wk_hbo ));
+
+	jQuery( '#rechthoek_vmbo title' ).text( formatNumber(gegevens.jaar_2020[regio][functie].wk_vmbo ));
+	jQuery( '#rechthoek_mbo2 title' ).text( formatNumber(gegevens.jaar_2020[regio][functie].wk_mbo2 ));
+	jQuery( '#rechthoek_mbo3 title' ).text( formatNumber(gegevens.jaar_2020[regio][functie].wk_mbo3 ));
+	jQuery( '#rechthoek_mbo4 title' ).text( formatNumber(gegevens.jaar_2020[regio][functie].wk_mbo4 ));
+	jQuery( '#rechthoek_hbo title' ).text( formatNumber(gegevens.jaar_2020[regio][functie].wk_hbo ));
 
 	// Animaties
 	bodem_vmbo.opacity(bodemzichtbaar_wb_vmbo);

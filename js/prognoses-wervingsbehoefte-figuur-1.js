@@ -75,12 +75,16 @@ function maakGrafiek( regio, functie ) {
 	jQuery( '#functies g').hide();
 	jQuery( '#' + functie ).show();
 
+	function formatNumber (num) {
+		return num.toString().replace(/(\d)(?=(\d{3})+(?!\d))/g, "$1.")
+	}
+
 	// Toon waarden op staven in title attribute (zichtbaar bij mouseover)
-	jQuery( '#staaf_2016 title' ).text( gegevens.jaar_2016[regio][functie].totaalaantalTI );
-	jQuery( '#staaf_2017 title' ).text( gegevens.jaar_2017[regio][functie].totaalaantalTI );
-	jQuery( '#staaf_2018 title' ).text( gegevens.jaar_2018[regio][functie].totaalaantalTI );
-	jQuery( '#staaf_2019 title' ).text( gegevens.jaar_2019[regio][functie].totaalaantalTI );
-	jQuery( '#staaf_2020 title' ).text( gegevens.jaar_2020[regio][functie].totaalaantalTI );
+	jQuery( '#staaf_2016 title' ).text( formatNumber( gegevens.jaar_2016[regio][functie].totaalaantalTI ) );
+	jQuery( '#staaf_2017 title' ).text( formatNumber( gegevens.jaar_2017[regio][functie].totaalaantalTI ) );
+	jQuery( '#staaf_2018 title' ).text( formatNumber( gegevens.jaar_2018[regio][functie].totaalaantalTI ) );
+	jQuery( '#staaf_2019 title' ).text( formatNumber( gegevens.jaar_2019[regio][functie].totaalaantalTI ) );
+	jQuery( '#staaf_2020 title' ).text( formatNumber( gegevens.jaar_2020[regio][functie].totaalaantalTI ) );
 
 	// Activeer svg elementen voor svg.js
 	var staaf_2016 = SVG.get( 'staaf_2016' );
@@ -92,18 +96,18 @@ function maakGrafiek( regio, functie ) {
 	// Wijzig de schaal van de y-as als een specifieke regio is gekozen zodat de staven niet te kort worden
 	if ( regio != 'totaal_regios') {
 		max_schaal = 30000;
-		jQuery( '#y-1' ).text( '6000' );
-		jQuery( '#y-2' ).text( '12000' );
-		jQuery( '#y-3' ).text( '18000' );
-		jQuery( '#y-4' ).text( '24000' );
-		jQuery( '#y-5' ).text( '30000' );
+		jQuery( '#y-1' ).text( formatNumber('6000') );
+		jQuery( '#y-2' ).text( formatNumber('12000' ) );
+		jQuery( '#y-3' ).text( formatNumber('18000' ) );
+		jQuery( '#y-4' ).text( formatNumber('24000' ) );
+		jQuery( '#y-5' ).text( formatNumber('30000' ) );
 	} else {
 		max_schaal = 150000;
-		jQuery( '#y-1' ).text( '30000' );
-		jQuery( '#y-2' ).text( '60000' );
-		jQuery( '#y-3' ).text( '90000' );
-		jQuery( '#y-4' ).text( '120000' );
-		jQuery( '#y-5' ).text( '150000' );
+		jQuery( '#y-1' ).text( formatNumber('30000' ) );
+		jQuery( '#y-2' ).text( formatNumber('60000' ) );
+		jQuery( '#y-3' ).text( formatNumber('90000' ) );
+		jQuery( '#y-4' ).text( formatNumber('120000' ) );
+		jQuery( '#y-5' ).text( formatNumber('150000' ) );
 	}
 
 	// Bereken percentages (163 is de maximum hoogte van de staaf en 150000 de maximum Y-as waarde)
