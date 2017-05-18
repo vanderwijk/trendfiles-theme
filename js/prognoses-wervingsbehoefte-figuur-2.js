@@ -145,16 +145,18 @@ function maakGrafiek(regio, functie) {
 
 
 	// Animaties
-	staaf_2016.animate().attr( 'height', ( hoogte_staaf_2016 - hoogte_staaf_2016_uitstroom ) ).y( 196.7 - ( hoogte_staaf_2016 - hoogte_staaf_2016_uitstroom ) );
-	staaf_2017.animate().attr( 'height', hoogte_staaf_2017 ).y( 196.7 - hoogte_staaf_2017 );
-	staaf_2018.animate().attr( 'height', hoogte_staaf_2018 ).y( 196.7 - hoogte_staaf_2018 );
-	staaf_2019.animate().attr( 'height', hoogte_staaf_2019 ).y( 196.7 - hoogte_staaf_2019 );
-	staaf_2020.animate().attr( 'height', hoogte_staaf_2020 ).y( 196.7 - hoogte_staaf_2020 );
+	staaf_2016.attr( 'height', hoogte_staaf_2016 ).y( 196.7 - hoogte_staaf_2016 );
+	staaf_2017.attr( 'height', hoogte_staaf_2017 ).y( 196.7 - hoogte_staaf_2017 );
+	staaf_2018.attr( 'height', hoogte_staaf_2018 ).y( 196.7 - hoogte_staaf_2018 );
+	staaf_2019.attr( 'height', hoogte_staaf_2019 ).y( 196.7 - hoogte_staaf_2019 );
+	staaf_2020.attr( 'height', hoogte_staaf_2020 ).y( 196.7 - hoogte_staaf_2020 );
 
-	staaf_2016_uitstroom.animate().attr( 'height', hoogte_staaf_2016_uitstroom ).y( 196.7 - hoogte_staaf_2016 );
-	staaf_2017_uitstroom.animate().attr( 'height', hoogte_staaf_2017_uitstroom ).y( 196.7 - hoogte_staaf_2017 );
-	staaf_2018_uitstroom.animate().attr( 'height', hoogte_staaf_2018_uitstroom ).y( 196.7 - hoogte_staaf_2018 );
-	staaf_2019_uitstroom.animate().attr( 'height', hoogte_staaf_2019_uitstroom ).y( 196.7 - hoogte_staaf_2019 );
-	staaf_2020_uitstroom.animate().attr( 'height', hoogte_staaf_2020_uitstroom ).y( 196.7 - hoogte_staaf_2020 );
+
+
+	staaf_2016_uitstroom.attr( 'height', 0 ).y( 196.7 - hoogte_staaf_2016 ).animate().attr( 'height', hoogte_staaf_2016_uitstroom );
+	staaf_2017_uitstroom.attr( 'height', 0 ).y( 196.7 - hoogte_staaf_2017 ).animate().attr( 'height', hoogte_staaf_2017_uitstroom );
+	staaf_2018_uitstroom.attr( 'height', 0 ).y( 196.7 - hoogte_staaf_2018 ).animate().attr( 'height', hoogte_staaf_2018_uitstroom );
+	staaf_2019_uitstroom.attr( 'height', 0 ).y( 196.7 - hoogte_staaf_2019 ).animate().attr( 'height', hoogte_staaf_2019_uitstroom );
+	staaf_2020_uitstroom.attr( 'height', 0 ).y( 196.7 - hoogte_staaf_2020 ).animate().attr( 'height', hoogte_staaf_2020_uitstroom );
 
 }

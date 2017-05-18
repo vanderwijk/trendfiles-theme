@@ -44,6 +44,7 @@ get_header(); ?>
 		</div>
 			<div class="col two-thirds">
 				<div class="block entry-content">
+				<h2 class="grafiektitel">Totaal aantal werknemers TI <sup>*</sup></h2>
 				<svg version="1.1" id="wervingsbehoefte-figuur-1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px" viewBox="0 0 532 338.7" enable-background="new 0 0 532 338.7" xml:space="preserve">
 					<g id="kaart">
 						<g id="noord_holland">

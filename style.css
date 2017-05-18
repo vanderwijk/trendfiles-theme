@@ -1144,6 +1144,15 @@ label.zuid-nederland {
 }
 /* Prognose
 ----------------------------------------------------------------------------------------------------*/
+h2.grafiektitel {
+	color: #2e8d9e;
+	font-weight: 700;
+	text-align: center;
+}
+.grafiektitel sup {
+	color: #238d9e;
+	font-weight: 400;
+}
 .filter h4 {
 	margin: 15px 0;
 }

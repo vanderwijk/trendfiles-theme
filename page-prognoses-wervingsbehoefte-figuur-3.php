@@ -44,6 +44,7 @@ get_header(); ?>
 		</div>
 			<div class="col two-thirds">
 				<div class="block entry-content">
+				<h2 class="grafiektitel">Uitstroom = wervingsbehoefte <sup>*</sup></h2>
 				<svg version="1.1" id="wervingsbehoeftefiguur4" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px" viewBox="0 0 532 338.7" enable-background="new 0 0 532 338.7" xml:space="preserve">
 					<g id="kaart">
 						<g id="noord_holland">
@@ -1160,7 +1161,6 @@ get_header(); ?>
 						M68.3,146.1l2.7,6.3V193c0,2.9,2.8,4,5.7,5.2c7.9,3.4,20.8,2.9,29.4,0c3-1,5.7-2.3,5.7-5.2v-40.5l4.5-0.2v17.3
 						c0,1.2,1,2.1,2.1,2.1l0,0c1,0,1.9-0.8,1.9-1.9v-23.1c0-1.2-1-2.3-2.2-2.2c-12.6,0.9-35.7,1.3-48.6,0
 						C68.6,144.4,68,145.4,68.3,146.1z"></path>
-							<text font-family="'Droid Sans',sans-serif" font-size="10px" fill="#414042" text-anchor="middle" x="91" y="117">WB TOTAAL</text>
 							<text id="wb_2016" font-family="'Roboto',sans-serif" font-size="12px" fill="#888d91" text-anchor="middle" x="91" y="130"></text>
 							<text font-family="'Droid Sans',sans-serif" font-size="10px" fill="#414042" text-anchor="middle" x="91" y="229">2016</text>
 						</g>
@@ -1175,7 +1175,6 @@ get_header(); ?>
 						M143.7,146.1l2.7,6.3V193c0,2.9,2.8,4,5.7,5.2c7.9,3.4,20.8,2.9,29.4,0c3-1,5.7-2.3,5.7-5.2v-40.5l4.5-0.2v17.3
 						c0,1.2,1,2.1,2.1,2.1l0,0c1,0,1.9-0.8,1.9-1.9v-23.1c0-1.2-1-2.3-2.2-2.2c-12.6,0.9-35.7,1.3-48.6,0
 						C144,144.4,143.4,145.4,143.7,146.1z"></path>
-							<text font-family="'Droid Sans',sans-serif" font-size="10px" fill="#414042" text-anchor="middle" x="167" y="117">WB TOTAAL</text>
 							<text id="wb_2017" font-family="'Roboto',sans-serif" font-size="12px" fill="#888d91" text-anchor="middle" x="167" y="130"></text>
 							<text font-family="'Droid Sans',sans-serif" font-size="10px" fill="#414042" text-anchor="middle" x="167" y="229">2017</text>
 						</g>
@@ -1190,7 +1189,6 @@ get_header(); ?>
 						M219.2,146.1l2.7,6.3V193c0,2.9,2.8,4,5.7,5.2c7.9,3.4,20.8,2.9,29.4,0c3-1,5.7-2.3,5.7-5.2v-40.5l4.5-0.2v17.3
 						c0,1.2,1,2.1,2.1,2.1l0,0c1,0,1.9-0.8,1.9-1.9v-23.1c0-1.2-1-2.3-2.2-2.2c-12.6,0.9-35.7,1.3-48.6,0
 						C219.4,144.4,218.8,145.4,219.2,146.1z"></path>
-							<text font-family="'Droid Sans',sans-serif" font-size="10px" fill="#414042" text-anchor="middle" x="242" y="117">WB TOTAAL</text>
 							<text id="wb_2018" font-family="'Roboto',sans-serif" font-size="12px" fill="#888d91" text-anchor="middle" x="242" y="130"></text>
 							<text font-family="'Droid Sans',sans-serif" font-size="10px" fill="#414042" text-anchor="middle" x="242" y="229">2018</text>
 						</g>
@@ -1205,7 +1203,6 @@ get_header(); ?>
 						M294.6,146.1l2.7,6.3V193c0,2.9,2.8,4,5.7,5.2c7.9,3.4,20.8,2.9,29.4,0c3-1,5.7-2.3,5.7-5.2v-40.5l4.5-0.2v17.3
 						c0,1.2,1,2.1,2.1,2.1l0,0c1,0,1.9-0.8,1.9-1.9v-23.1c0-1.2-1-2.3-2.2-2.2c-12.6,0.9-35.7,1.3-48.6,0
 						C294.8,144.4,294.2,145.4,294.6,146.1z"></path>
-							<text font-family="'Droid Sans',sans-serif" font-size="10px" fill="#414042" text-anchor="middle" x="318" y="117">WB TOTAAL</text>
 							<text id="wb_2019" font-family="'Roboto',sans-serif" font-size="12px" fill="#888d91" text-anchor="middle" x="318" y="130"></text>
 							<text font-family="'Droid Sans',sans-serif" font-size="10px" fill="#414042" text-anchor="middle" x="318" y="229">2019</text>
 						</g>
@@ -1219,7 +1216,6 @@ get_header(); ?>
 							<path id="beker_2020" fill="none" stroke="#3A3D40" stroke-width="1.0046" stroke-linecap="round" stroke-miterlimit="10" d="
 						M370,146.1l2.7,6.3V193c0,2.9,2.8,4,5.7,5.2c7.9,3.4,20.8,2.9,29.4,0c3-1,5.7-2.3,5.7-5.2v-40.5l4.5-0.2v17.3c0,1.2,1,2.1,2.1,2.1
 						l0,0c1,0,1.9-0.8,1.9-1.9v-23.1c0-1.2-1-2.3-2.2-2.2c-12.6,0.9-35.7,1.3-48.6,0C370.2,144.4,369.6,145.4,370,146.1z"></path>
-							<text font-family="'Droid Sans',sans-serif" font-size="10px" fill="#414042" text-anchor="middle" x="393" y="117">WB TOTAAL</text>
 							<text id="wb_2020" font-family="'Roboto',sans-serif" font-size="12px" fill="#888d91" text-anchor="middle" x="393" y="130"></text>
 							<text font-family="'Droid Sans',sans-serif" font-size="10px" fill="#414042" text-anchor="middle" x="393" y="229">2020</text>
 						</g>

@@ -44,6 +44,7 @@ get_header(); ?>
 		</div>
 			<div class="col two-thirds">
 				<div class="block entry-content">
+				<h2 class="grafiektitel">Wervingsbehoefte en wervingskracht schoolverlaters 2020 <sup>*</sup></h2>
 				<svg version="1.1" id="wervingsbehoeftefiguur4" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px" viewBox="0 0 532 338.7" enable-background="new 0 0 532 338.7" xml:space="preserve">
 					<g id="kaart">
 						<g id="noord_holland">
@@ -1169,9 +1170,9 @@ get_header(); ?>
 								<line fill="none" stroke="#6F7477" stroke-width="0.9947" stroke-miterlimit="10" stroke-dasharray="5.1711,2.0684" x1="77.9" y1="192.4" x2="105.9" y2="192.4"></line>
 								<line fill="none" stroke="#6F7477" stroke-width="0.9947" stroke-miterlimit="10" x1="106.9" y1="192.4" x2="109.4" y2="192.4"></line>
 							</g>
-							<text font-family="'Droid Sans',sans-serif" font-size="10px" fill="#414042" text-anchor="middle" x="91" y="117">WB VMBO</text>
+							<text font-family="'Droid Sans',sans-serif" font-size="10px" fill="#414042" text-anchor="middle" x="91" y="117">VMBO</text>
 							<text id="wb_vmbo" font-family="'Roboto',sans-serif" font-size="12px" fill="#888d91" text-anchor="middle" x="91" y="130"></text>
-							<text font-family="'Droid Sans',sans-serif" font-size="10px" fill="#414042" text-anchor="middle" x="91" y="229">WK VMBO</text>
+							<text font-family="'Droid Sans',sans-serif" font-size="10px" fill="#414042" text-anchor="middle" x="91" y="229">VMBO</text>
 							<text id="wk_vmbo" font-family="'Roboto',sans-serif" font-size="12px" fill="#888D91" text-anchor="middle" x="91" y="241"></text>
 						</g>
 
@@ -1194,9 +1195,9 @@ get_header(); ?>
 								<line fill="none" stroke="#6F7477" stroke-width="0.9947" stroke-miterlimit="10" stroke-dasharray="5.1711,2.0684" x1="153.3" y1="192.4" x2="181.3" y2="192.4"></line>
 								<line fill="none" stroke="#6F7477" stroke-width="0.9947" stroke-miterlimit="10" x1="182.3" y1="192.4" x2="184.8" y2="192.4"></line>
 							</g>
-							<text font-family="'Droid Sans',sans-serif" font-size="10px" fill="#414042" text-anchor="middle" x="167" y="117">WB MBO 2</text>
+							<text font-family="'Droid Sans',sans-serif" font-size="10px" fill="#414042" text-anchor="middle" x="167" y="117">MBO 2</text>
 							<text id="wb_mbo2" font-family="'Roboto',sans-serif" font-size="12px" fill="#888d91" text-anchor="middle" x="167" y="130"></text>
-							<text font-family="'Droid Sans',sans-serif" font-size="10px" fill="#414042" text-anchor="middle" x="167" y="229">WK MBO 2</text>
+							<text font-family="'Droid Sans',sans-serif" font-size="10px" fill="#414042" text-anchor="middle" x="167" y="229">MBO 2</text>
 							<text id="wk_mbo2" font-family="'Roboto',sans-serif" font-size="12px" fill="#2E8D9E" text-anchor="middle" x="167" y="241"></text>
 						</g>
 
@@ -1219,9 +1220,9 @@ get_header(); ?>
 								<line fill="none" stroke="#6F7477" stroke-width="0.9947" stroke-miterlimit="10" stroke-dasharray="5.1711,2.0684" x1="228.7" y1="192.4" x2="256.7" y2="192.4"></line>
 								<line fill="none" stroke="#6F7477" stroke-width="0.9947" stroke-miterlimit="10" x1="257.7" y1="192.4" x2="260.2" y2="192.4"></line>
 							</g>
-							<text font-family="'Droid Sans',sans-serif" font-size="10px" fill="#414042" text-anchor="middle" x="242" y="117">WB MBO 3</text>
+							<text font-family="'Droid Sans',sans-serif" font-size="10px" fill="#414042" text-anchor="middle" x="242" y="117">MBO 3</text>
 							<text id="wb_mbo3" font-family="'Roboto',sans-serif" font-size="12px" fill="#888d91" text-anchor="middle" x="242" y="130"></text>
-							<text font-family="'Droid Sans',sans-serif" font-size="10px" fill="#414042" text-anchor="middle" x="242" y="229">WK MBO 3</text>
+							<text font-family="'Droid Sans',sans-serif" font-size="10px" fill="#414042" text-anchor="middle" x="242" y="229">MBO 3</text>
 							<text id="wk_mbo3" font-family="'Roboto',sans-serif" font-size="12px" fill="#044954" text-anchor="middle" x="242" y="241"></text>
 						</g>
 
@@ -1244,9 +1245,9 @@ get_header(); ?>
 								<line fill="none" stroke="#6F7477" stroke-width="0.9947" stroke-miterlimit="10" stroke-dasharray="5.1711,2.0684" x1="304.1" y1="192.4" x2="332.1" y2="192.4"></line>
 								<line fill="none" stroke="#6F7477" stroke-width="0.9947" stroke-miterlimit="10" x1="333.1" y1="192.4" x2="335.6" y2="192.4"></line>
 							</g>
-							<text font-family="'Droid Sans',sans-serif" font-size="10px" fill="#414042" text-anchor="middle" x="318" y="117">WB MBO 4</text>
+							<text font-family="'Droid Sans',sans-serif" font-size="10px" fill="#414042" text-anchor="middle" x="318" y="117">MBO 4</text>
 							<text id="wb_mbo4" font-family="'Roboto',sans-serif" font-size="12px" fill="#888d91" text-anchor="middle" x="318" y="130"></text>
-							<text font-family="'Droid Sans',sans-serif" font-size="10px" fill="#414042" text-anchor="middle" x="318" y="229">WK MBO 4</text>
+							<text font-family="'Droid Sans',sans-serif" font-size="10px" fill="#414042" text-anchor="middle" x="318" y="229">MBO 4</text>
 							<text id="wk_mbo4" font-family="'Roboto',sans-serif" font-size="12px" fill="#F58220" text-anchor="middle" x="318" y="241"></text>
 						</g>
 
@@ -1268,13 +1269,15 @@ get_header(); ?>
 								<line fill="none" stroke="#6F7477" stroke-width="0.9947" stroke-miterlimit="10" stroke-dasharray="5.1711,2.0684" x1="379.6" y1="192.4" x2="407.5" y2="192.4"></line>
 								<line fill="none" stroke="#6F7477" stroke-width="0.9947" stroke-miterlimit="10" x1="408.5" y1="192.4" x2="411" y2="192.4"></line>
 							</g>
-							<text font-family="'Droid Sans',sans-serif" font-size="10px" fill="#414042" text-anchor="middle" x="393" y="117">WB HBO</text>
+							<text font-family="'Droid Sans',sans-serif" font-size="10px" fill="#414042" text-anchor="middle" x="393" y="117">HBO</text>
 							<text id="wb_hbo" font-family="'Roboto',sans-serif" font-size="12px" fill="#888d91" text-anchor="middle" x="393" y="130"></text>
-							<text font-family="'Droid Sans',sans-serif" font-size="10px" fill="#414042" text-anchor="middle" x="393" y="229">WK HBO</text>
+							<text font-family="'Droid Sans',sans-serif" font-size="10px" fill="#414042" text-anchor="middle" x="393" y="229">HBO</text>
 							<text id="wk_hbo" font-family="'Roboto',sans-serif" font-size="12px" fill="#8E4A02" text-anchor="middle" x="393" y="241"></text>
 						</g>
 
 					</g>
+					<text font-family="'Droid Sans',sans-serif" font-size="10px" fill="#414042" text-anchor="middle" x="267" y="70">WERVINGSBEHOEFTE</text>
+					<text font-family="'Droid Sans',sans-serif" font-size="10px" fill="#414042" text-anchor="middle" x="267" y="270">WERVINGSKRACHT</text>
 				</svg>
 
 				<?php the_content(); ?>
