@@ -1154,9 +1154,9 @@ get_header(); ?>
 						<g id="jaar_2016">
 							<path id="bodem_2016" fill="#2E8D9E" d="M105.5,195.9c-10.2,3.4-20.2,3.1-28.3,0c-2-0.8-3.8-1.6-3.8-3.5h36
 						C109.4,194.3,107.5,195.3,105.5,195.9z"></path>
-							<rect id="staaf_2016_zijinstroom" x="73.4" y="193" fill="#2E8D9E" width="36" height="1"><title></title></rect>
-							<rect id="staaf_2016_SVTI_TIverwantdiploma" x="73.4" y="193" fill="#F58220" width="36" height="1"><title></title></rect>
-							<rect id="staaf_2016_SVoverig" x="73.4" y="193" fill="#8E4A02" width="36" height="1"><title></title></rect>
+							<rect id="staaf_2016_zijinstroom" x="73.4" y="193" fill="#2E8D9E" width="36" height="1" class="tooltip"></rect>
+							<rect id="staaf_2016_SVTI_TIverwantdiploma" x="73.4" y="193" fill="#F58220" width="36" height="1" class="tooltip"></rect>
+							<rect id="staaf_2016_SVoverig" x="73.4" y="193" fill="#8E4A02" width="36" height="1" class="tooltip"></rect>
 							<path id="beker_2016" fill="none" stroke="#3A3D40" stroke-width="1.0046" stroke-linecap="round" stroke-miterlimit="10" d="
 						M68.3,146.1l2.7,6.3V193c0,2.9,2.8,4,5.7,5.2c7.9,3.4,20.8,2.9,29.4,0c3-1,5.7-2.3,5.7-5.2v-40.5l4.5-0.2v17.3
 						c0,1.2,1,2.1,2.1,2.1l0,0c1,0,1.9-0.8,1.9-1.9v-23.1c0-1.2-1-2.3-2.2-2.2c-12.6,0.9-35.7,1.3-48.6,0
@@ -1168,9 +1168,9 @@ get_header(); ?>
 						<g id="jaar_2017">
 							<path id="bodem_2017" fill="#2E8D9E" d="M180.9,195.9c-10.2,3.4-20.2,3.1-28.3,0c-2-0.8-3.8-1.6-3.8-3.5h36
 						C184.8,194.3,182.9,195.3,180.9,195.9z"></path>
-							<rect id="staaf_2017_zijinstroom" x="148.8" y="193" fill="#2E8D9E" width="36" height="1"><title></title></rect>
-							<rect id="staaf_2017_SVTI_TIverwantdiploma" x="148.8" y="193" fill="#F58220" width="36" height="1"><title></title></rect>
-							<rect id="staaf_2017_SVoverig" x="148.8" y="193" fill="#8E4A02" width="36" height="1"><title></title></rect>
+							<rect id="staaf_2017_zijinstroom" x="148.8" y="193" fill="#2E8D9E" width="36" height="1" class="tooltip"></rect>
+							<rect id="staaf_2017_SVTI_TIverwantdiploma" x="148.8" y="193" fill="#F58220" width="36" height="1" class="tooltip"></rect>
+							<rect id="staaf_2017_SVoverig" x="148.8" y="193" fill="#8E4A02" width="36" height="1" class="tooltip"></rect>
 							<path id="beker_2017" fill="none" stroke="#3A3D40" stroke-width="1.0046" stroke-linecap="round" stroke-miterlimit="10" d="
 						M143.7,146.1l2.7,6.3V193c0,2.9,2.8,4,5.7,5.2c7.9,3.4,20.8,2.9,29.4,0c3-1,5.7-2.3,5.7-5.2v-40.5l4.5-0.2v17.3
 						c0,1.2,1,2.1,2.1,2.1l0,0c1,0,1.9-0.8,1.9-1.9v-23.1c0-1.2-1-2.3-2.2-2.2c-12.6,0.9-35.7,1.3-48.6,0
@@ -1182,9 +1182,9 @@ get_header(); ?>
 						<g id="jaar_2018">
 							<path id="bodem_2018" fill="#2E8D9E" d="M256.3,195.9c-10.2,3.4-20.2,3.1-28.3,0c-2-0.8-3.8-1.6-3.8-3.5h36
 						C260.2,194.3,258.3,195.3,256.3,195.9z"></path>
-							<rect id="staaf_2018_zijinstroom" x="224.2" y="193" fill="#2E8D9E" width="36" height="1"><title></title></rect>
-							<rect id="staaf_2018_SVTI_TIverwantdiploma" x="224.2" y="193" fill="#F58220" width="36" height="1"><title></title></rect>
-							<rect id="staaf_2018_SVoverig" x="224.2" y="193" fill="#8E4A02" width="36" height="1"><title></title></rect>
+							<rect id="staaf_2018_zijinstroom" x="224.2" y="193" fill="#2E8D9E" width="36" height="1" class="tooltip"></rect>
+							<rect id="staaf_2018_SVTI_TIverwantdiploma" x="224.2" y="193" fill="#F58220" width="36" height="1" class="tooltip"></rect>
+							<rect id="staaf_2018_SVoverig" x="224.2" y="193" fill="#8E4A02" width="36" height="1" class="tooltip"></rect>
 							<path id="beker_2018" fill="none" stroke="#3A3D40" stroke-width="1.0046" stroke-linecap="round" stroke-miterlimit="10" d="
 						M219.2,146.1l2.7,6.3V193c0,2.9,2.8,4,5.7,5.2c7.9,3.4,20.8,2.9,29.4,0c3-1,5.7-2.3,5.7-5.2v-40.5l4.5-0.2v17.3
 						c0,1.2,1,2.1,2.1,2.1l0,0c1,0,1.9-0.8,1.9-1.9v-23.1c0-1.2-1-2.3-2.2-2.2c-12.6,0.9-35.7,1.3-48.6,0
@@ -1196,9 +1196,9 @@ get_header(); ?>
 						<g id="jaar_2019">
 							<path id="bodem_2019" fill="#2E8D9E" d="M331.7,195.9c-10.2,3.4-20.2,3.1-28.3,0c-2-0.8-3.8-1.6-3.8-3.5h36
 						C335.6,194.3,333.7,195.3,331.7,195.9z"></path>
-							<rect id="staaf_2019_zijinstroom" x="299.6" y="193" fill="#2E8D9E" width="36" height="1"><title></title></rect>
-							<rect id="staaf_2019_SVTI_TIverwantdiploma" x="299.6" y="193" fill="#F58220" width="36" height="1"><title></title></rect>
-							<rect id="staaf_2019_SVoverig" x="299.6" y="193" fill="#8E4A02" width="36" height="1"><title></title></rect>
+							<rect id="staaf_2019_zijinstroom" x="299.6" y="193" fill="#2E8D9E" width="36" height="1" class="tooltip"></rect>
+							<rect id="staaf_2019_SVTI_TIverwantdiploma" x="299.6" y="193" fill="#F58220" width="36" height="1" class="tooltip"></rect>
+							<rect id="staaf_2019_SVoverig" x="299.6" y="193" fill="#8E4A02" width="36" height="1" class="tooltip"></rect>
 							<path id="beker_2019" fill="none" stroke="#3A3D40" stroke-width="1.0046" stroke-linecap="round" stroke-miterlimit="10" d="
 						M294.6,146.1l2.7,6.3V193c0,2.9,2.8,4,5.7,5.2c7.9,3.4,20.8,2.9,29.4,0c3-1,5.7-2.3,5.7-5.2v-40.5l4.5-0.2v17.3
 						c0,1.2,1,2.1,2.1,2.1l0,0c1,0,1.9-0.8,1.9-1.9v-23.1c0-1.2-1-2.3-2.2-2.2c-12.6,0.9-35.7,1.3-48.6,0
@@ -1210,9 +1210,9 @@ get_header(); ?>
 						<g id="jaar_2020">
 							<path id="bodem_2020" fill="#2E8D9E" d="M407.2,195.9c-10.2,3.4-20.2,3.1-28.3,0c-2-0.8-3.8-1.6-3.8-3.5h36
 						C411,194.3,409.2,195.3,407.2,195.9z"></path>
-							<rect id="staaf_2020_zijinstroom" x="375" y="193" fill="#2E8D9E" width="36" height="1"><title></title></rect>
-							<rect id="staaf_2020_SVTI_TIverwantdiploma" x="375" y="193" fill="#F58220" width="36" height="1"><title></title></rect>
-							<rect id="staaf_2020_SVoverig" x="375" y="193" fill="#8E4A02" width="36" height="1"><title></title></rect>
+							<rect id="staaf_2020_zijinstroom" x="375" y="193" fill="#2E8D9E" width="36" height="1" class="tooltip"></rect>
+							<rect id="staaf_2020_SVTI_TIverwantdiploma" x="375" y="193" fill="#F58220" width="36" height="1" class="tooltip"></rect>
+							<rect id="staaf_2020_SVoverig" x="375" y="193" fill="#8E4A02" width="36" height="1" class="tooltip"></rect>
 							<path id="beker_2020" fill="none" stroke="#3A3D40" stroke-width="1.0046" stroke-linecap="round" stroke-miterlimit="10" d="
 						M370,146.1l2.7,6.3V193c0,2.9,2.8,4,5.7,5.2c7.9,3.4,20.8,2.9,29.4,0c3-1,5.7-2.3,5.7-5.2v-40.5l4.5-0.2v17.3c0,1.2,1,2.1,2.1,2.1
 						l0,0c1,0,1.9-0.8,1.9-1.9v-23.1c0-1.2-1-2.3-2.2-2.2c-12.6,0.9-35.7,1.3-48.6,0C370.2,144.4,369.6,145.4,370,146.1z"></path>

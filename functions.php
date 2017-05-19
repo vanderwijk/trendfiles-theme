@@ -99,6 +99,8 @@ function include_scripts_styles () {
 		wp_register_style( 'jquery-ui-smoothness', '//code.jquery.com/ui/1.10.4/themes/smoothness/jquery-ui.css' );
 		wp_register_style( 'jquery-ui-slider-pips', get_template_directory_uri() . '/js/slider-pips/jquery-ui-slider-pips.css' );
 
+		wp_register_style( 'tooltipster', get_template_directory_uri() . '/js/tooltipster/css/tooltipster.bundle.min.css' );
+
 		wp_register_script( 'royalslider', get_template_directory_uri() . '/js/royalslider/jquery.royalslider.min.js', array( 'jquery' ), '9.5.4', true );
 		wp_register_script( 'royalslider-config', get_template_directory_uri() . '/js/royalslider/royalslider.js', array( 'royalslider' ), '1.0', true );
 
@@ -123,6 +125,9 @@ function include_scripts_styles () {
 		wp_register_script( 'draaitabel-leerlingen', get_template_directory_uri() . '/js/draaitabel-leerlingen.js', array( 'jquery' ), '1.0', true );
 		wp_register_script( 'draaitabel-werknemers', get_template_directory_uri() . '/js/draaitabel-werknemers.js', array( 'jquery' ), '1.1', true );
 		wp_register_script( 'draaitabel-beroepspraktijkvorming', get_template_directory_uri() . '/js/draaitabel-beroepspraktijkvorming.js', array( 'jquery' ), '1.0', true );
+
+		wp_register_script( 'tooltipster-js', get_template_directory_uri() . '/js/tooltipster/js/tooltipster.bundle.min.js', array( 'jquery' ), '4.0.0', true );
+		wp_register_script( 'tooltipster-js-svg', get_template_directory_uri() . '/js/tooltipster/js/plugins/tooltipster/SVG/tooltipster-SVG.js', array( 'jquery' ), '4.0.0', true );
 
 		if ( is_front_page() ) {
 			wp_enqueue_style( 'royalslider-default' );
@@ -149,26 +154,26 @@ function include_scripts_styles () {
 			wp_enqueue_script( 'fitvids-config' );
 		}
 
-		if ( is_page( 'figuur-1' ) ) {
+		if ( is_page( array('figuur-1', 'figuur-2', 'figuur-3', 'figuur-4'))) {
+			wp_enqueue_style( 'tooltipster' );
+			wp_enqueue_script( 'tooltipster-js' );
+			wp_enqueue_script( 'tooltipster-js-svg' );
 			wp_enqueue_script( 'svg-js' );
 			wp_enqueue_script( 'prognoses-wervingsbehoefte-figuur-1' );
 		}
 
-		if ( is_page( 'figuur-2' ) ) {
-			wp_enqueue_script( 'svg-js' );
+		if ( is_page('figuur-1')) {
+			wp_enqueue_script( 'prognoses-wervingsbehoefte-figuur-1' );
+		}
+		if ( is_page('figuur-2')) {
 			wp_enqueue_script( 'prognoses-wervingsbehoefte-figuur-2' );
 		}
-
-		if ( is_page( 'figuur-3' ) ) {
-			wp_enqueue_script( 'svg-js' );
+		if ( is_page('figuur-3')) {
 			wp_enqueue_script( 'prognoses-wervingsbehoefte-figuur-3' );
 		}
-
-		if ( is_page( 'figuur-4' ) ) {
-			wp_enqueue_script( 'svg-js' );
+		if ( is_page('figuur-4')) {
 			wp_enqueue_script( 'prognoses-wervingsbehoefte-figuur-4' );
 		}
-
 
 		if ( is_page( 'draaitabel' ) ) {
 			wp_enqueue_script( 'map-draaitabel' );

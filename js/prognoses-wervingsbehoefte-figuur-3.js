@@ -79,6 +79,11 @@ function maakGrafiek( regio, functie ) {
 	jQuery( '#functies g').hide();
 	jQuery( '#' + functie ).show();
 
+	// Toon een punt bij duizendtallen
+	function formatNumber (num) {
+		return num.toString().replace(/(\d)(?=(\d{3})+(?!\d))/g, "$1.")
+	}
+
 	// Activeer svg elementen voor svg.js
 	var staaf_2016_zijinstroom = SVG.get('staaf_2016_zijinstroom');
 	var staaf_2016_SVTI_TIverwantdiploma = SVG.get('staaf_2016_SVTI_TIverwantdiploma');
@@ -100,34 +105,12 @@ function maakGrafiek( regio, functie ) {
 	var staaf_2020_SVTI_TIverwantdiploma = SVG.get('staaf_2020_SVTI_TIverwantdiploma');
 	var staaf_2020_SVoverig = SVG.get('staaf_2020_SVoverig');
 
-	function formatNumber (num) {
-		return num.toString().replace(/(\d)(?=(\d{3})+(?!\d))/g, "$1.")
-	}
-
 	// Waarden in tekst
 	jQuery( "#wb_2016" ).text( formatNumber (gegevens.jaar_2016[regio][functie].wb_totaal ));
 	jQuery( "#wb_2017" ).text( formatNumber (gegevens.jaar_2017[regio][functie].wb_totaal ));
 	jQuery( "#wb_2018" ).text( formatNumber (gegevens.jaar_2018[regio][functie].wb_totaal ));
 	jQuery( "#wb_2019" ).text( formatNumber (gegevens.jaar_2019[regio][functie].wb_totaal ));
 	jQuery( "#wb_2020" ).text( formatNumber (gegevens.jaar_2020[regio][functie].wb_totaal ));
-
-	jQuery( '#staaf_2016_zijinstroom title' ).text( formatNumber (gegevens.jaar_2016[regio][functie].zijinstroom ));
-	jQuery( '#staaf_2017_zijinstroom title' ).text( formatNumber (gegevens.jaar_2017[regio][functie].zijinstroom ));
-	jQuery( '#staaf_2018_zijinstroom title' ).text( formatNumber (gegevens.jaar_2018[regio][functie].zijinstroom ));
-	jQuery( '#staaf_2019_zijinstroom title' ).text( formatNumber (gegevens.jaar_2019[regio][functie].zijinstroom ));
-	jQuery( '#staaf_2020_zijinstroom title' ).text( formatNumber (gegevens.jaar_2020[regio][functie].zijinstroom ));
-
-	jQuery( '#staaf_2016_SVTI_TIverwantdiploma title' ).text( formatNumber (gegevens.jaar_2020[regio][functie].SVTI_TIverwantdiploma ));
-	jQuery( '#staaf_2017_SVTI_TIverwantdiploma title' ).text( formatNumber (gegevens.jaar_2020[regio][functie].SVTI_TIverwantdiploma ));
-	jQuery( '#staaf_2018_SVTI_TIverwantdiploma title' ).text( formatNumber (gegevens.jaar_2020[regio][functie].SVTI_TIverwantdiploma ));
-	jQuery( '#staaf_2019_SVTI_TIverwantdiploma title' ).text( formatNumber (gegevens.jaar_2020[regio][functie].SVTI_TIverwantdiploma ));
-	jQuery( '#staaf_2020_SVTI_TIverwantdiploma title' ).text( formatNumber (gegevens.jaar_2020[regio][functie].SVTI_TIverwantdiploma ));
-
-	jQuery( '#staaf_2016_SVoverig title' ).text( formatNumber (gegevens.jaar_2016[regio][functie].SVoverig ));
-	jQuery( '#staaf_2017_SVoverig title' ).text( formatNumber (gegevens.jaar_2017[regio][functie].SVoverig ));
-	jQuery( '#staaf_2018_SVoverig title' ).text( formatNumber (gegevens.jaar_2018[regio][functie].SVoverig ));
-	jQuery( '#staaf_2019_SVoverig title' ).text( formatNumber (gegevens.jaar_2019[regio][functie].SVoverig ));
-	jQuery( '#staaf_2020_SVoverig title' ).text( formatNumber (gegevens.jaar_2020[regio][functie].SVoverig ));
 
 	// Bereken percentages
 	percentage_zijinstroom_2016 = 100 * gegevens.jaar_2016[regio][functie].zijinstroom / gegevens.jaar_2016[regio][functie].wb_totaal;
@@ -191,5 +174,30 @@ function maakGrafiek( regio, functie ) {
 	staaf_2020_zijinstroom.animate().attr('height', hoogte_staaf_zijinstroom_2020 ).y(192.4 - hoogte_staaf_zijinstroom_2020 );
 	staaf_2020_SVTI_TIverwantdiploma.animate().attr('height', hoogte_staaf_SVTI_TIverwantdiploma_2020 ).y(192.4 - hoogte_staaf_SVTI_TIverwantdiploma_2020 - hoogte_staaf_zijinstroom_2020 );
 	staaf_2020_SVoverig.animate().attr('height', hoogte_staaf_SVoverig_2020 ).y(192.4 - hoogte_staaf_SVoverig_2020 - hoogte_staaf_zijinstroom_2020 - hoogte_staaf_SVTI_TIverwantdiploma_2020 );
+
+
+	jQuery('.tooltip:not(.tooltipstered)').tooltipster({
+		'delay': 50,
+		'side': 'right'
+	});
+	
+	jQuery('#staaf_2016_zijinstroom').tooltipster('content', gegevens.jaar_2016[regio][functie].zijinstroom);
+
+
+	var jaren = [ 2016, 2017, 2018, 2019, 2020 ];
+	jQuery.each( jaren, function( i, jaartal ) {
+
+		// Kleur staven aan de hand van geselecteerde regio
+		//jQuery('#staaf_' + jaartal).css({ fill: kleuren[regio].hoofdkleur });
+		//jQuery('#staaf_' + jaartal).css({ stroke: kleuren[regio].hoofdkleur });
+		//jQuery('#staaf_' + jaartal + '_uitstroom').css({ stroke: kleuren[regio].hoofdkleur });
+		
+		// Tooltips
+		jQuery( '#staaf_' + jaartal + '_zijinstroom' ).tooltipster('content', formatNumber(eval('gegevens.jaar_' + jaartal + '[regio][functie].zijinstroom')));
+		jQuery( '#staaf_' + jaartal + '_SVTI_TIverwantdiploma' ).tooltipster('content', formatNumber(eval('gegevens.jaar_' + jaartal + '[regio][functie].SVTI_TIverwantdiploma')));
+		jQuery( '#staaf_' + jaartal + '_SVoverig' ).tooltipster('content', formatNumber(eval('gegevens.jaar_' + jaartal + '[regio][functie].SVoverig')));
+
+	});
+
 
 }

@@ -1,5 +1,11 @@
 // Laad gegevens via JSON vanaf externe server
 var gegevens;
+
+// Toon een punt bij duizendtallen
+function formatNumber (num) {
+	return num.toString().replace(/(\d)(?=(\d{3})+(?!\d))/g, "$1.")
+}
+
 jQuery.ajax({
 	url: 'http://trendfiles.otib.nl/data/json-figuur-4.json',
 	dataType: 'json',
@@ -45,12 +51,12 @@ function kiesFunctie( geselecteerde_functie ) {
 
 function maakGrafiek(regio, functie) {
 
-	console.log( 'Regio: ' + regio );
-	console.log( 'Functie: ' + functie );
+	//console.log( 'Regio: ' + regio );
+	//console.log( 'Functie: ' + functie );
 	console.log( 'LocalStorage regio: ' + regio );
 	console.log( 'LocalStorage functie: ' + functie );
 	console.log( gegevens );
-	console.log( kleuren );
+	//console.log( kleuren );
 
 	// Kleur regio's aan de hand van kleuren json
 	jQuery( '#kaart path' ).css({ fill: kleuren.totaal_regios.licht });
@@ -182,10 +188,6 @@ function maakGrafiek(regio, functie) {
 		plasjezichtbaar_wb_hbo = 1;
 	}
 
-	function formatNumber (num) {
-		return num.toString().replace(/(\d)(?=(\d{3})+(?!\d))/g, "$1.")
-	}
-
 	// Waarden in tekst
 	jQuery( "#wb_vmbo" ).text( formatNumber( gegevens.jaar_2020[regio][functie].wb_vmbo ));
 	jQuery( "#wk_vmbo" ).text( formatNumber( gegevens.jaar_2020[regio][functie].wk_vmbo ));
@@ -198,42 +200,63 @@ function maakGrafiek(regio, functie) {
 	jQuery( "#wb_hbo" ).text( formatNumber( gegevens.jaar_2020[regio][functie].wb_hbo ));
 	jQuery( "#wk_hbo" ).text( formatNumber( gegevens.jaar_2020[regio][functie].wk_hbo ));
 
-	jQuery( '#rechthoek_vmbo title' ).text( formatNumber(gegevens.jaar_2020[regio][functie].wk_vmbo ));
-	jQuery( '#rechthoek_mbo2 title' ).text( formatNumber(gegevens.jaar_2020[regio][functie].wk_mbo2 ));
-	jQuery( '#rechthoek_mbo3 title' ).text( formatNumber(gegevens.jaar_2020[regio][functie].wk_mbo3 ));
-	jQuery( '#rechthoek_mbo4 title' ).text( formatNumber(gegevens.jaar_2020[regio][functie].wk_mbo4 ));
-	jQuery( '#rechthoek_hbo title' ).text( formatNumber(gegevens.jaar_2020[regio][functie].wk_hbo ));
-
 	// Animaties
 	bodem_vmbo.opacity(bodemzichtbaar_wb_vmbo);
 	plasje_vmbo.animate().opacity(plasjezichtbaar_wb_vmbo);
 	rechthoek_vmbo.animate().attr('height', rechthoek_wk_vmbo).y(192.7 - rechthoek_wk_vmbo);
-	maatlijn_vmbo.each(function (i, children) { // Loop door alle kinderen van het parent ID
-		this.animate().y(192.7 - maatlijn_wb_vmbo);
-	})
+	if (jQuery.isNumeric(maatlijn_wb_vmbo)) {
+		maatlijn_vmbo.each(function (i, children) { // Loop door alle kinderen van het parent ID
+			this.animate().y(192.7 - maatlijn_wb_vmbo);
+		})
+	}
 	bodem_mbo2.opacity(bodemzichtbaar_wb_mbo2);
 	plasje_mbo2.animate().opacity(plasjezichtbaar_wb_mbo2);
 	rechthoek_mbo2.animate().attr('height', rechthoek_wk_mbo2).y(192.7 - rechthoek_wk_mbo2);
-	maatlijn_mbo2.each(function (i, children) { // Loop door alle kinderen van het parent ID
-		this.animate().y(192.7 - maatlijn_wb_mbo2);
-	})
+	if (jQuery.isNumeric(maatlijn_wb_mbo2)) {
+		maatlijn_mbo2.each(function (i, children) { // Loop door alle kinderen van het parent ID
+			this.animate().y(192.7 - maatlijn_wb_mbo2);
+		})
+	}
 	bodem_mbo3.opacity(bodemzichtbaar_wb_mbo3);
 	plasje_mbo3.animate().opacity(plasjezichtbaar_wb_mbo3);
 	rechthoek_mbo3.animate().attr('height', rechthoek_wk_mbo3).y(192.7 - rechthoek_wk_mbo3);
-	maatlijn_mbo3.each(function (i, children) { // Loop door alle kinderen van het parent ID
-		this.animate().y(192.7 - maatlijn_wb_mbo3);
-	})
+	if (jQuery.isNumeric(maatlijn_wb_mbo3)) {
+		maatlijn_mbo3.each(function (i, children) { // Loop door alle kinderen van het parent ID
+			this.animate().y(192.7 - maatlijn_wb_mbo3);
+		})
+	}
 	bodem_mbo4.opacity(bodemzichtbaar_wb_mbo4);
 	plasje_mbo4.animate().opacity(plasjezichtbaar_wb_mbo4);
 	rechthoek_mbo4.animate().attr('height', rechthoek_wk_mbo4).y(192.7 - rechthoek_wk_mbo4);
-	maatlijn_mbo4.each(function (i, children) { // Loop door alle kinderen van het parent ID
-		this.animate().y(192.7 - maatlijn_wb_mbo4);
-	})
+	if (jQuery.isNumeric(maatlijn_wb_mbo4)) {
+		maatlijn_mbo4.each(function (i, children) { // Loop door alle kinderen van het parent ID
+			this.animate().y(192.7 - maatlijn_wb_mbo4);
+		})
+	}
 	bodem_hbo.opacity(bodemzichtbaar_wb_hbo);
 	plasje_hbo.animate().opacity(plasjezichtbaar_wb_hbo);
 	rechthoek_hbo.animate().attr('height', rechthoek_wk_hbo).y(192.7 - rechthoek_wk_hbo);
-	maatlijn_hbo.each(function (i, children) { // Loop door alle kinderen van het parent ID
-		this.animate().y(192.7 - maatlijn_wb_hbo);
-	})
+	if (jQuery.isNumeric(maatlijn_wb_hbo)) {
+		maatlijn_hbo.each(function (i, children) { // Loop door alle kinderen van het parent ID
+			this.animate().y(192.7 - maatlijn_wb_hbo);
+		})
+	}
+
+	jQuery('.tooltip:not(.tooltipstered)').tooltipster({
+		'delay': 50
+	});
+
+	jQuery( '#rechthoek_vmbo' ).tooltipster('content', formatNumber(gegevens.jaar_2020[regio][functie].wk_vmbo ));
+	jQuery( '#rechthoek_mbo2' ).tooltipster('content', formatNumber(gegevens.jaar_2020[regio][functie].wk_mbo2 ));
+	jQuery( '#rechthoek_mbo3' ).tooltipster('content', formatNumber(gegevens.jaar_2020[regio][functie].wk_mbo3 ));
+	jQuery( '#rechthoek_mbo4' ).tooltipster('content', formatNumber(gegevens.jaar_2020[regio][functie].wk_mbo4 ));
+	jQuery( '#rechthoek_hbo' ).tooltipster('content', formatNumber(gegevens.jaar_2020[regio][functie].wk_hbo ));
+
+	jQuery( '#maatlijn_vmbo' ).tooltipster('content', formatNumber(gegevens.jaar_2020[regio][functie].wb_vmbo ));
+	jQuery( '#maatlijn_mbo2' ).tooltipster('content', formatNumber(gegevens.jaar_2020[regio][functie].wb_mbo2 ));
+	jQuery( '#maatlijn_mbo3' ).tooltipster('content', formatNumber(gegevens.jaar_2020[regio][functie].wb_mbo3 ));
+	jQuery( '#maatlijn_mbo4' ).tooltipster('content', formatNumber(gegevens.jaar_2020[regio][functie].wb_mbo4 ));
+	jQuery( '#maatlijn_hbo' ).tooltipster('content', formatNumber(gegevens.jaar_2020[regio][functie].wb_hbo ));
+
 
 }
