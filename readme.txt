@@ -12,3 +12,4 @@ Bevat custom post type specificatie en andere site-specifieke functies.
 == Changelog ==
 = 0.1 =
 * Eerste versie
+* Gewijzigigde versie onder GIT version control
