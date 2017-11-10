@@ -38,7 +38,7 @@ get_header(); ?>
 		</div>
 			<div class="col two-thirds">
 				<div class="block entry-content">
-				<h2 class="grafiektitel">Opvulling wervingsbehoefte (uitstroom + economische groei)</h2>
+				<h2 class="grafiektitel">Opvullen wervingsbehoefte met zij-instromers en schoolverlaters</h2>
 				<svg version="1.1" id="wervingsbehoeftefiguur4" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px" viewBox="0 0 532 338.7" enable-background="new 0 0 532 338.7" xml:space="preserve">
 				
 					<g id="legenda">
