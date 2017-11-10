@@ -1,7 +1,7 @@
 // Laad gegevens via JSON vanaf externe server
 var gegevens;
 jQuery.ajax({
-	url: 'http://trendfiles.otib.nl/data/json-figuur-3.json',
+	url: 'http://trendfiles.otib.nl/wp-content/data/json-figuur-3.json',
 	dataType: 'json',
 	success: function ( data, textStatus, jqXHR ) {
 		gegevens = data;
@@ -193,9 +193,9 @@ function maakGrafiek( regio, functie ) {
 		//jQuery('#staaf_' + jaartal + '_uitstroom').css({ stroke: kleuren[regio].hoofdkleur });
 		
 		// Tooltips
-		jQuery( '#staaf_' + jaartal + '_zijinstroom' ).tooltipster('content', formatNumber(eval('gegevens.jaar_' + jaartal + '[regio][functie].zijinstroom')));
-		jQuery( '#staaf_' + jaartal + '_SVTI_TIverwantdiploma' ).tooltipster('content', formatNumber(eval('gegevens.jaar_' + jaartal + '[regio][functie].SVTI_TIverwantdiploma')));
-		jQuery( '#staaf_' + jaartal + '_SVoverig' ).tooltipster('content', formatNumber(eval('gegevens.jaar_' + jaartal + '[regio][functie].SVoverig')));
+		jQuery( '#staaf_' + jaartal + '_zijinstroom' ).tooltipster('content', 'Zij-instromers: ' + formatNumber(eval('gegevens.jaar_' + jaartal + '[regio][functie].zijinstroom')));
+		jQuery( '#staaf_' + jaartal + '_SVTI_TIverwantdiploma' ).tooltipster('content', 'Schoolverlaters TI verwant: ' + formatNumber(eval('gegevens.jaar_' + jaartal + '[regio][functie].SVTI_TIverwantdiploma')));
+		jQuery( '#staaf_' + jaartal + '_SVoverig' ).tooltipster('content', 'Schoolverlaters Overig: ' + formatNumber(eval('gegevens.jaar_' + jaartal + '[regio][functie].SVoverig')));
 
 	});
 

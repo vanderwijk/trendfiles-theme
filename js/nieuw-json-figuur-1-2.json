@@ -1,0 +1,1568 @@
+{
+    "jaar_2020": {
+        "zuid_nederland": {
+            "leerling": {
+                "wervingsbehoefte": 531,
+                "uit regio en functie": 429,
+                "saldo doorstroom tussen functies": 193,
+                "groei": 102,
+                "referentiejaar": 1855
+            },
+            "technicus": {
+                "wervingsbehoefte": 396,
+                "uit regio en functie": 343,
+                "saldo doorstroom tussen functies": 14,
+                "groei": 53,
+                "referentiejaar": 2716
+            },
+            "totaal_functies": {
+                "wervingsbehoefte": 5896,
+                "uit regio en functie": 4946,
+                "saldo doorstroom tussen functies": 0,
+                "groei": 950,
+                "referentiejaar": 31479
+            },
+            "monteur": {
+                "wervingsbehoefte": 3759,
+                "uit regio en functie": 3097,
+                "saldo doorstroom tussen functies": -197,
+                "groei": 662,
+                "referentiejaar": 20240
+            },
+            "overige_functies": {
+                "wervingsbehoefte": 1210,
+                "uit regio en functie": 1077,
+                "saldo doorstroom tussen functies": -11,
+                "groei": 133,
+                "referentiejaar": 6667
+            }
+        },
+        "noord_nederland": {
+            "leerling": {
+                "wervingsbehoefte": 137,
+                "uit regio en functie": 114,
+                "saldo doorstroom tussen functies": 50,
+                "groei": 23,
+                "referentiejaar": 436
+            },
+            "technicus": {
+                "wervingsbehoefte": 145,
+                "uit regio en functie": 126,
+                "saldo doorstroom tussen functies": 9,
+                "groei": 19,
+                "referentiejaar": 977
+            },
+            "totaal_functies": {
+                "wervingsbehoefte": 1800,
+                "uit regio en functie": 1491,
+                "saldo doorstroom tussen functies": 0,
+                "groei": 309,
+                "referentiejaar": 10404
+            },
+            "monteur": {
+                "wervingsbehoefte": 1136,
+                "uit regio en functie": 914,
+                "saldo doorstroom tussen functies": -53,
+                "groei": 222,
+                "referentiejaar": 6755
+            },
+            "overige_functies": {
+                "wervingsbehoefte": 382,
+                "uit regio en functie": 337,
+                "saldo doorstroom tussen functies": -6,
+                "groei": 45,
+                "referentiejaar": 2234
+            }
+        },
+        "zuid_holland": {
+            "leerling": {
+                "wervingsbehoefte": 683,
+                "uit regio en functie": 562,
+                "saldo doorstroom tussen functies": 279,
+                "groei": 122,
+                "referentiejaar": 2149
+            },
+            "technicus": {
+                "wervingsbehoefte": 349,
+                "uit regio en functie": 300,
+                "saldo doorstroom tussen functies": 10,
+                "groei": 49,
+                "referentiejaar": 2490
+            },
+            "totaal_functies": {
+                "wervingsbehoefte": 5253,
+                "uit regio en functie": 4356,
+                "saldo doorstroom tussen functies": 0,
+                "groei": 897,
+                "referentiejaar": 29354
+            },
+            "monteur": {
+                "wervingsbehoefte": 3007,
+                "uit regio en functie": 2412,
+                "saldo doorstroom tussen functies": -288,
+                "groei": 595,
+                "referentiejaar": 18112
+            },
+            "overige_functies": {
+                "wervingsbehoefte": 1213,
+                "uit regio en functie": 1082,
+                "saldo doorstroom tussen functies": -1,
+                "groei": 131,
+                "referentiejaar": 6601
+            }
+        },
+        "noord_holland": {
+            "leerling": {
+                "wervingsbehoefte": 443,
+                "uit regio en functie": 372,
+                "saldo doorstroom tussen functies": 179,
+                "groei": 71,
+                "referentiejaar": 1312
+            },
+            "technicus": {
+                "wervingsbehoefte": 227,
+                "uit regio en functie": 199,
+                "saldo doorstroom tussen functies": 9,
+                "groei": 28,
+                "referentiejaar": 1451
+            },
+            "totaal_functies": {
+                "wervingsbehoefte": 3113,
+                "uit regio en functie": 2610,
+                "saldo doorstroom tussen functies": 0,
+                "groei": 503,
+                "referentiejaar": 16531
+            },
+            "monteur": {
+                "wervingsbehoefte": 1725,
+                "uit regio en functie": 1397,
+                "saldo doorstroom tussen functies": -187,
+                "groei": 328,
+                "referentiejaar": 10024
+            },
+            "overige_functies": {
+                "wervingsbehoefte": 718,
+                "uit regio en functie": 643,
+                "saldo doorstroom tussen functies": -1,
+                "groei": 75,
+                "referentiejaar": 3743
+            }
+        },
+        "midden_nederland": {
+            "leerling": {
+                "wervingsbehoefte": 259,
+                "uit regio en functie": 210,
+                "saldo doorstroom tussen functies": 102,
+                "groei": 49,
+                "referentiejaar": 898
+            },
+            "technicus": {
+                "wervingsbehoefte": 213,
+                "uit regio en functie": 185,
+                "saldo doorstroom tussen functies": 11,
+                "groei": 28,
+                "referentiejaar": 1402
+            },
+            "totaal_functies": {
+                "wervingsbehoefte": 2817,
+                "uit regio en functie": 2368,
+                "saldo doorstroom tussen functies": 0,
+                "groei": 449,
+                "referentiejaar": 15005
+            },
+            "monteur": {
+                "wervingsbehoefte": 1664,
+                "uit regio en functie": 1364,
+                "saldo doorstroom tussen functies": -116,
+                "groei": 300,
+                "referentiejaar": 9074
+            },
+            "overige_functies": {
+                "wervingsbehoefte": 681,
+                "uit regio en functie": 609,
+                "saldo doorstroom tussen functies": 3,
+                "groei": 72,
+                "referentiejaar": 3629
+            }
+        },
+        "totaal_regios": {
+            "totaal_functies": {
+                "wervingsbehoefte": 23515,
+                "uit regio en functie": 19614,
+                "saldo doorstroom tussen functies": 0,
+                "groei": 3901,
+                "referentiejaar": 129630
+            },
+            "technicus": {
+                "wervingsbehoefte": 1713,
+                "uit regio en functie": 1484,
+                "saldo doorstroom tussen functies": 79,
+                "groei": 230,
+                "referentiejaar": 11713
+            },
+            "leerling": {
+                "wervingsbehoefte": 2462,
+                "uit regio en functie": 2016,
+                "saldo doorstroom tussen functies": 951,
+                "groei": 446,
+                "referentiejaar": 8143
+            },
+            "monteur": {
+                "wervingsbehoefte": 14098,
+                "uit regio en functie": 11450,
+                "saldo doorstroom tussen functies": -1010,
+                "groei": 2648,
+                "referentiejaar": 80833
+            },
+            "overige_functies": {
+                "wervingsbehoefte": 5241,
+                "uit regio en functie": 4665,
+                "saldo doorstroom tussen functies": -20,
+                "groei": 576,
+                "referentiejaar": 28940
+            }
+        },
+        "gelderland_overijssel": {
+            "leerling": {
+                "wervingsbehoefte": 409,
+                "uit regio en functie": 330,
+                "saldo doorstroom tussen functies": 148,
+                "groei": 79,
+                "referentiejaar": 1489
+            },
+            "technicus": {
+                "wervingsbehoefte": 384,
+                "uit regio en functie": 331,
+                "saldo doorstroom tussen functies": 27,
+                "groei": 52,
+                "referentiejaar": 2674
+            },
+            "totaal_functies": {
+                "wervingsbehoefte": 4636,
+                "uit regio en functie": 3843,
+                "saldo doorstroom tussen functies": 0,
+                "groei": 793,
+                "referentiejaar": 26854
+            },
+            "monteur": {
+                "wervingsbehoefte": 2806,
+                "uit regio en functie": 2266,
+                "saldo doorstroom tussen functies": -169,
+                "groei": 541,
+                "referentiejaar": 16627
+            },
+            "overige_functies": {
+                "wervingsbehoefte": 1037,
+                "uit regio en functie": 917,
+                "saldo doorstroom tussen functies": -5,
+                "groei": 120,
+                "referentiejaar": 6063
+            }
+        }
+    },
+    "jaar_2018": {
+        "zuid_nederland": {
+            "leerling": {
+                "wervingsbehoefte": 496,
+                "uit regio en functie": 405,
+                "saldo doorstroom tussen functies": 196,
+                "groei": 92,
+                "referentiejaar": 1666
+            },
+            "technicus": {
+                "wervingsbehoefte": 367,
+                "uit regio en functie": 316,
+                "saldo doorstroom tussen functies": 16,
+                "groei": 51,
+                "referentiejaar": 2613
+            },
+            "totaal_functies": {
+                "wervingsbehoefte": 5161,
+                "uit regio en functie": 4266,
+                "saldo doorstroom tussen functies": 0,
+                "groei": 895,
+                "referentiejaar": 29662
+            },
+            "monteur": {
+                "wervingsbehoefte": 3193,
+                "uit regio en functie": 2569,
+                "saldo doorstroom tussen functies": -202,
+                "groei": 625,
+                "referentiejaar": 18972
+            },
+            "overige_functies": {
+                "wervingsbehoefte": 1104,
+                "uit regio en functie": 976,
+                "saldo doorstroom tussen functies": -10,
+                "groei": 128,
+                "referentiejaar": 6409
+            }
+        },
+        "noord_nederland": {
+            "leerling": {
+                "wervingsbehoefte": 130,
+                "uit regio en functie": 109,
+                "saldo doorstroom tussen functies": 52,
+                "groei": 21,
+                "referentiejaar": 393
+            },
+            "technicus": {
+                "wervingsbehoefte": 136,
+                "uit regio en functie": 118,
+                "saldo doorstroom tussen functies": 10,
+                "groei": 18,
+                "referentiejaar": 940
+            },
+            "totaal_functies": {
+                "wervingsbehoefte": 1579,
+                "uit regio en functie": 1287,
+                "saldo doorstroom tussen functies": 0,
+                "groei": 292,
+                "referentiejaar": 9811
+            },
+            "monteur": {
+                "wervingsbehoefte": 962,
+                "uit regio en functie": 752,
+                "saldo doorstroom tussen functies": -56,
+                "groei": 210,
+                "referentiejaar": 6329
+            },
+            "overige_functies": {
+                "wervingsbehoefte": 350,
+                "uit regio en functie": 308,
+                "saldo doorstroom tussen functies": -6,
+                "groei": 43,
+                "referentiejaar": 2148
+            }
+        },
+        "zuid_holland": {
+            "leerling": {
+                "wervingsbehoefte": 631,
+                "uit regio en functie": 522,
+                "saldo doorstroom tussen functies": 271,
+                "groei": 109,
+                "referentiejaar": 1925
+            },
+            "technicus": {
+                "wervingsbehoefte": 321,
+                "uit regio en functie": 274,
+                "saldo doorstroom tussen functies": 11,
+                "groei": 47,
+                "referentiejaar": 2395
+            },
+            "totaal_functies": {
+                "wervingsbehoefte": 4609,
+                "uit regio en functie": 3766,
+                "saldo doorstroom tussen functies": 0,
+                "groei": 844,
+                "referentiejaar": 27641
+            },
+            "monteur": {
+                "wervingsbehoefte": 2553,
+                "uit regio en functie": 1992,
+                "saldo doorstroom tussen functies": -282,
+                "groei": 561,
+                "referentiejaar": 16972
+            },
+            "overige_functies": {
+                "wervingsbehoefte": 1104,
+                "uit regio en functie": 978,
+                "saldo doorstroom tussen functies": -1,
+                "groei": 126,
+                "referentiejaar": 6347
+            }
+        },
+        "noord_holland": {
+            "leerling": {
+                "wervingsbehoefte": 412,
+                "uit regio en functie": 348,
+                "saldo doorstroom tussen functies": 175,
+                "groei": 64,
+                "referentiejaar": 1181
+            },
+            "technicus": {
+                "wervingsbehoefte": 207,
+                "uit regio en functie": 180,
+                "saldo doorstroom tussen functies": 9,
+                "groei": 27,
+                "referentiejaar": 1395
+            },
+            "totaal_functies": {
+                "wervingsbehoefte": 2731,
+                "uit regio en functie": 2257,
+                "saldo doorstroom tussen functies": 0,
+                "groei": 474,
+                "referentiejaar": 15570
+            },
+            "monteur": {
+                "wervingsbehoefte": 1458,
+                "uit regio en functie": 1148,
+                "saldo doorstroom tussen functies": -184,
+                "groei": 310,
+                "referentiejaar": 9395
+            },
+            "overige_functies": {
+                "wervingsbehoefte": 654,
+                "uit regio en functie": 581,
+                "saldo doorstroom tussen functies": 0,
+                "groei": 72,
+                "referentiejaar": 3597
+            }
+        },
+        "midden_nederland": {
+            "leerling": {
+                "wervingsbehoefte": 243,
+                "uit regio en functie": 199,
+                "saldo doorstroom tussen functies": 103,
+                "groei": 44,
+                "referentiejaar": 807
+            },
+            "technicus": {
+                "wervingsbehoefte": 197,
+                "uit regio en functie": 170,
+                "saldo doorstroom tussen functies": 12,
+                "groei": 27,
+                "referentiejaar": 1348
+            },
+            "totaal_functies": {
+                "wervingsbehoefte": 2471,
+                "uit regio en functie": 2048,
+                "saldo doorstroom tussen functies": 0,
+                "groei": 423,
+                "referentiejaar": 14146
+            },
+            "monteur": {
+                "wervingsbehoefte": 1405,
+                "uit regio en functie": 1122,
+                "saldo doorstroom tussen functies": -117,
+                "groei": 283,
+                "referentiejaar": 8500
+            },
+            "overige_functies": {
+                "wervingsbehoefte": 626,
+                "uit regio en functie": 557,
+                "saldo doorstroom tussen functies": 2,
+                "groei": 70,
+                "referentiejaar": 3489
+            }
+        },
+        "totaal_regios": {
+            "totaal_functies": {
+                "wervingsbehoefte": 20630,
+                "uit regio en functie": 16953,
+                "saldo doorstroom tussen functies": 0,
+                "groei": 3677,
+                "referentiejaar": 122166
+            },
+            "technicus": {
+                "wervingsbehoefte": 1578,
+                "uit regio en functie": 1357,
+                "saldo doorstroom tussen functies": 86,
+                "groei": 221,
+                "referentiejaar": 11267
+            },
+            "leerling": {
+                "wervingsbehoefte": 2300,
+                "uit regio en functie": 1898,
+                "saldo doorstroom tussen functies": 951,
+                "groei": 402,
+                "referentiejaar": 7317
+            },
+            "monteur": {
+                "wervingsbehoefte": 11969,
+                "uit regio en functie": 9469,
+                "saldo doorstroom tussen functies": -1016,
+                "groei": 2499,
+                "referentiejaar": 75761
+            },
+            "overige_functies": {
+                "wervingsbehoefte": 4783,
+                "uit regio en functie": 4229,
+                "saldo doorstroom tussen functies": -21,
+                "groei": 554,
+                "referentiejaar": 27820
+            }
+        },
+        "gelderland_overijssel": {
+            "leerling": {
+                "wervingsbehoefte": 387,
+                "uit regio en functie": 315,
+                "saldo doorstroom tussen functies": 153,
+                "groei": 72,
+                "referentiejaar": 1342
+            },
+            "technicus": {
+                "wervingsbehoefte": 351,
+                "uit regio en functie": 300,
+                "saldo doorstroom tussen functies": 28,
+                "groei": 51,
+                "referentiejaar": 2572
+            },
+            "totaal_functies": {
+                "wervingsbehoefte": 4079,
+                "uit regio en functie": 3330,
+                "saldo doorstroom tussen functies": 0,
+                "groei": 749,
+                "referentiejaar": 25334
+            },
+            "monteur": {
+                "wervingsbehoefte": 2397,
+                "uit regio en functie": 1887,
+                "saldo doorstroom tussen functies": -175,
+                "groei": 511,
+                "referentiejaar": 15590
+            },
+            "overige_functies": {
+                "wervingsbehoefte": 944,
+                "uit regio en functie": 828,
+                "saldo doorstroom tussen functies": -6,
+                "groei": 116,
+                "referentiejaar": 5829
+            }
+        }
+    },
+    "jaar_2015": {
+        "zuid_nederland": {
+            "leerling": {
+                "wervingsbehoefte": 368,
+                "uit regio en functie": null,
+                "saldo doorstroom tussen functies": null,
+                "groei": null,
+                "referentiejaar": null
+            },
+            "technicus": {
+                "wervingsbehoefte": 264,
+                "uit regio en functie": null,
+                "saldo doorstroom tussen functies": null,
+                "groei": null,
+                "referentiejaar": null
+            },
+            "totaal_functies": {
+                "wervingsbehoefte": 3061,
+                "uit regio en functie": null,
+                "saldo doorstroom tussen functies": null,
+                "groei": null,
+                "referentiejaar": null
+            },
+            "monteur": {
+                "wervingsbehoefte": 1709,
+                "uit regio en functie": null,
+                "saldo doorstroom tussen functies": null,
+                "groei": null,
+                "referentiejaar": null
+            },
+            "overige_functies": {
+                "wervingsbehoefte": 720,
+                "uit regio en functie": null,
+                "saldo doorstroom tussen functies": null,
+                "groei": null,
+                "referentiejaar": null
+            }
+        },
+        "noord_nederland": {
+            "leerling": {
+                "wervingsbehoefte": 105,
+                "uit regio en functie": null,
+                "saldo doorstroom tussen functies": null,
+                "groei": null,
+                "referentiejaar": null
+            },
+            "technicus": {
+                "wervingsbehoefte": 96,
+                "uit regio en functie": null,
+                "saldo doorstroom tussen functies": null,
+                "groei": null,
+                "referentiejaar": null
+            },
+            "totaal_functies": {
+                "wervingsbehoefte": 849,
+                "uit regio en functie": null,
+                "saldo doorstroom tussen functies": null,
+                "groei": null,
+                "referentiejaar": null
+            },
+            "monteur": {
+                "wervingsbehoefte": 428,
+                "uit regio en functie": null,
+                "saldo doorstroom tussen functies": null,
+                "groei": null,
+                "referentiejaar": null
+            },
+            "overige_functies": {
+                "wervingsbehoefte": 220,
+                "uit regio en functie": null,
+                "saldo doorstroom tussen functies": null,
+                "groei": null,
+                "referentiejaar": null
+            }
+        },
+        "zuid_holland": {
+            "leerling": {
+                "wervingsbehoefte": 499,
+                "uit regio en functie": null,
+                "saldo doorstroom tussen functies": null,
+                "groei": null,
+                "referentiejaar": null
+            },
+            "technicus": {
+                "wervingsbehoefte": 229,
+                "uit regio en functie": null,
+                "saldo doorstroom tussen functies": null,
+                "groei": null,
+                "referentiejaar": null
+            },
+            "totaal_functies": {
+                "wervingsbehoefte": 2712,
+                "uit regio en functie": null,
+                "saldo doorstroom tussen functies": null,
+                "groei": null,
+                "referentiejaar": null
+            },
+            "monteur": {
+                "wervingsbehoefte": 1262,
+                "uit regio en functie": null,
+                "saldo doorstroom tussen functies": null,
+                "groei": null,
+                "referentiejaar": null
+            },
+            "overige_functies": {
+                "wervingsbehoefte": 722,
+                "uit regio en functie": null,
+                "saldo doorstroom tussen functies": null,
+                "groei": null,
+                "referentiejaar": null
+            }
+        },
+        "noord_holland": {
+            "leerling": {
+                "wervingsbehoefte": 349,
+                "uit regio en functie": null,
+                "saldo doorstroom tussen functies": null,
+                "groei": null,
+                "referentiejaar": null
+            },
+            "technicus": {
+                "wervingsbehoefte": 153,
+                "uit regio en functie": null,
+                "saldo doorstroom tussen functies": null,
+                "groei": null,
+                "referentiejaar": null
+            },
+            "totaal_functies": {
+                "wervingsbehoefte": 1604,
+                "uit regio en functie": null,
+                "saldo doorstroom tussen functies": null,
+                "groei": null,
+                "referentiejaar": null
+            },
+            "monteur": {
+                "wervingsbehoefte": 669,
+                "uit regio en functie": null,
+                "saldo doorstroom tussen functies": null,
+                "groei": null,
+                "referentiejaar": null
+            },
+            "overige_functies": {
+                "wervingsbehoefte": 434,
+                "uit regio en functie": null,
+                "saldo doorstroom tussen functies": null,
+                "groei": null,
+                "referentiejaar": null
+            }
+        },
+        "midden_nederland": {
+            "leerling": {
+                "wervingsbehoefte": 192,
+                "uit regio en functie": null,
+                "saldo doorstroom tussen functies": null,
+                "groei": null,
+                "referentiejaar": null
+            },
+            "technicus": {
+                "wervingsbehoefte": 146,
+                "uit regio en functie": null,
+                "saldo doorstroom tussen functies": null,
+                "groei": null,
+                "referentiejaar": null
+            },
+            "totaal_functies": {
+                "wervingsbehoefte": 1496,
+                "uit regio en functie": null,
+                "saldo doorstroom tussen functies": null,
+                "groei": null,
+                "referentiejaar": null
+            },
+            "monteur": {
+                "wervingsbehoefte": 723,
+                "uit regio en functie": null,
+                "saldo doorstroom tussen functies": null,
+                "groei": null,
+                "referentiejaar": null
+            },
+            "overige_functies": {
+                "wervingsbehoefte": 435,
+                "uit regio en functie": null,
+                "saldo doorstroom tussen functies": null,
+                "groei": null,
+                "referentiejaar": null
+            }
+        },
+        "totaal_regios": {
+            "totaal_functies": {
+                "wervingsbehoefte": 12125,
+                "uit regio en functie": null,
+                "saldo doorstroom tussen functies": null,
+                "groei": null,
+                "referentiejaar": null
+            },
+            "technicus": {
+                "wervingsbehoefte": 1142,
+                "uit regio en functie": null,
+                "saldo doorstroom tussen functies": null,
+                "groei": null,
+                "referentiejaar": null
+            },
+            "leerling": {
+                "wervingsbehoefte": 1794,
+                "uit regio en functie": null,
+                "saldo doorstroom tussen functies": null,
+                "groei": null,
+                "referentiejaar": null
+            },
+            "monteur": {
+                "wervingsbehoefte": 6044,
+                "uit regio en functie": null,
+                "saldo doorstroom tussen functies": null,
+                "groei": null,
+                "referentiejaar": null
+            },
+            "overige_functies": {
+                "wervingsbehoefte": 3144,
+                "uit regio en functie": null,
+                "saldo doorstroom tussen functies": null,
+                "groei": null,
+                "referentiejaar": null
+            }
+        },
+        "gelderland_overijssel": {
+            "leerling": {
+                "wervingsbehoefte": 281,
+                "uit regio en functie": null,
+                "saldo doorstroom tussen functies": null,
+                "groei": null,
+                "referentiejaar": null
+            },
+            "technicus": {
+                "wervingsbehoefte": 256,
+                "uit regio en functie": null,
+                "saldo doorstroom tussen functies": null,
+                "groei": null,
+                "referentiejaar": null
+            },
+            "totaal_functies": {
+                "wervingsbehoefte": 2402,
+                "uit regio en functie": null,
+                "saldo doorstroom tussen functies": null,
+                "groei": null,
+                "referentiejaar": null
+            },
+            "monteur": {
+                "wervingsbehoefte": 1253,
+                "uit regio en functie": null,
+                "saldo doorstroom tussen functies": null,
+                "groei": null,
+                "referentiejaar": null
+            },
+            "overige_functies": {
+                "wervingsbehoefte": 613,
+                "uit regio en functie": null,
+                "saldo doorstroom tussen functies": null,
+                "groei": null,
+                "referentiejaar": null
+            }
+        }
+    },
+    "jaar_2017": {
+        "zuid_nederland": {
+            "leerling": {
+                "wervingsbehoefte": 484,
+                "uit regio en functie": 397,
+                "saldo doorstroom tussen functies": 205,
+                "groei": 87,
+                "referentiejaar": 1579
+            },
+            "technicus": {
+                "wervingsbehoefte": 336,
+                "uit regio en functie": 299,
+                "saldo doorstroom tussen functies": 18,
+                "groei": 38,
+                "referentiejaar": 2576
+            },
+            "totaal_functies": {
+                "wervingsbehoefte": 4592,
+                "uit regio en functie": 3864,
+                "saldo doorstroom tussen functies": 0,
+                "groei": 728,
+                "referentiejaar": 28934
+            },
+            "monteur": {
+                "wervingsbehoefte": 2765,
+                "uit regio en functie": 2256,
+                "saldo doorstroom tussen functies": -212,
+                "groei": 509,
+                "referentiejaar": 18463
+            },
+            "overige_functies": {
+                "wervingsbehoefte": 1006,
+                "uit regio en functie": 912,
+                "saldo doorstroom tussen functies": -11,
+                "groei": 94,
+                "referentiejaar": 6315
+            }
+        },
+        "noord_nederland": {
+            "leerling": {
+                "wervingsbehoefte": 128,
+                "uit regio en functie": 108,
+                "saldo doorstroom tussen functies": 56,
+                "groei": 20,
+                "referentiejaar": 373
+            },
+            "technicus": {
+                "wervingsbehoefte": 124,
+                "uit regio en functie": 111,
+                "saldo doorstroom tussen functies": 10,
+                "groei": 13,
+                "referentiejaar": 927
+            },
+            "totaal_functies": {
+                "wervingsbehoefte": 1393,
+                "uit regio en functie": 1157,
+                "saldo doorstroom tussen functies": 0,
+                "groei": 236,
+                "referentiejaar": 9575
+            },
+            "monteur": {
+                "wervingsbehoefte": 823,
+                "uit regio en functie": 652,
+                "saldo doorstroom tussen functies": -61,
+                "groei": 171,
+                "referentiejaar": 6158
+            },
+            "overige_functies": {
+                "wervingsbehoefte": 318,
+                "uit regio en functie": 286,
+                "saldo doorstroom tussen functies": -6,
+                "groei": 32,
+                "referentiejaar": 2116
+            }
+        },
+        "zuid_holland": {
+            "leerling": {
+                "wervingsbehoefte": 613,
+                "uit regio en functie": 509,
+                "saldo doorstroom tussen functies": 279,
+                "groei": 104,
+                "referentiejaar": 1821
+            },
+            "technicus": {
+                "wervingsbehoefte": 296,
+                "uit regio en functie": 262,
+                "saldo doorstroom tussen functies": 12,
+                "groei": 35,
+                "referentiejaar": 2361
+            },
+            "totaal_functies": {
+                "wervingsbehoefte": 4138,
+                "uit regio en functie": 3449,
+                "saldo doorstroom tussen functies": 0,
+                "groei": 689,
+                "referentiejaar": 26952
+            },
+            "monteur": {
+                "wervingsbehoefte": 2213,
+                "uit regio en functie": 1755,
+                "saldo doorstroom tussen functies": -290,
+                "groei": 458,
+                "referentiejaar": 16515
+            },
+            "overige_functies": {
+                "wervingsbehoefte": 1016,
+                "uit regio en functie": 923,
+                "saldo doorstroom tussen functies": -1,
+                "groei": 93,
+                "referentiejaar": 6254
+            }
+        },
+        "noord_holland": {
+            "leerling": {
+                "wervingsbehoefte": 403,
+                "uit regio en functie": 342,
+                "saldo doorstroom tussen functies": 182,
+                "groei": 61,
+                "referentiejaar": 1120
+            },
+            "technicus": {
+                "wervingsbehoefte": 192,
+                "uit regio en functie": 172,
+                "saldo doorstroom tussen functies": 9,
+                "groei": 20,
+                "referentiejaar": 1375
+            },
+            "totaal_functies": {
+                "wervingsbehoefte": 2425,
+                "uit regio en functie": 2038,
+                "saldo doorstroom tussen functies": 0,
+                "groei": 387,
+                "referentiejaar": 15182
+            },
+            "monteur": {
+                "wervingsbehoefte": 1229,
+                "uit regio en functie": 976,
+                "saldo doorstroom tussen functies": -191,
+                "groei": 253,
+                "referentiejaar": 9143
+            },
+            "overige_functies": {
+                "wervingsbehoefte": 602,
+                "uit regio en functie": 548,
+                "saldo doorstroom tussen functies": 0,
+                "groei": 54,
+                "referentiejaar": 3543
+            }
+        },
+        "midden_nederland": {
+            "leerling": {
+                "wervingsbehoefte": 239,
+                "uit regio en functie": 197,
+                "saldo doorstroom tussen functies": 109,
+                "groei": 42,
+                "referentiejaar": 765
+            },
+            "technicus": {
+                "wervingsbehoefte": 180,
+                "uit regio en functie": 161,
+                "saldo doorstroom tussen functies": 12,
+                "groei": 20,
+                "referentiejaar": 1329
+            },
+            "totaal_functies": {
+                "wervingsbehoefte": 2211,
+                "uit regio en functie": 1867,
+                "saldo doorstroom tussen functies": 0,
+                "groei": 344,
+                "referentiejaar": 13802
+            },
+            "monteur": {
+                "wervingsbehoefte": 1216,
+                "uit regio en functie": 986,
+                "saldo doorstroom tussen functies": -124,
+                "groei": 230,
+                "referentiejaar": 8269
+            },
+            "overige_functies": {
+                "wervingsbehoefte": 575,
+                "uit regio en functie": 524,
+                "saldo doorstroom tussen functies": 2,
+                "groei": 51,
+                "referentiejaar": 3438
+            }
+        },
+        "totaal_regios": {
+            "totaal_functies": {
+                "wervingsbehoefte": 18404,
+                "uit regio en functie": 15413,
+                "saldo doorstroom tussen functies": 0,
+                "groei": 2991,
+                "referentiejaar": 119175
+            },
+            "technicus": {
+                "wervingsbehoefte": 1451,
+                "uit regio en functie": 1289,
+                "saldo doorstroom tussen functies": 90,
+                "groei": 163,
+                "referentiejaar": 11104
+            },
+            "leerling": {
+                "wervingsbehoefte": 2247,
+                "uit regio en functie": 1865,
+                "saldo doorstroom tussen functies": 995,
+                "groei": 382,
+                "referentiejaar": 6935
+            },
+            "monteur": {
+                "wervingsbehoefte": 10318,
+                "uit regio en functie": 8281,
+                "saldo doorstroom tussen functies": -1062,
+                "groei": 2037,
+                "referentiejaar": 73724
+            },
+            "overige_functies": {
+                "wervingsbehoefte": 4387,
+                "uit regio en functie": 3978,
+                "saldo doorstroom tussen functies": -22,
+                "groei": 409,
+                "referentiejaar": 27411
+            }
+        },
+        "gelderland_overijssel": {
+            "leerling": {
+                "wervingsbehoefte": 379,
+                "uit regio en functie": 311,
+                "saldo doorstroom tussen functies": 163,
+                "groei": 68,
+                "referentiejaar": 1274
+            },
+            "technicus": {
+                "wervingsbehoefte": 322,
+                "uit regio en functie": 285,
+                "saldo doorstroom tussen functies": 29,
+                "groei": 37,
+                "referentiejaar": 2535
+            },
+            "totaal_functies": {
+                "wervingsbehoefte": 3645,
+                "uit regio en functie": 3038,
+                "saldo doorstroom tussen functies": 0,
+                "groei": 607,
+                "referentiejaar": 24727
+            },
+            "monteur": {
+                "wervingsbehoefte": 2073,
+                "uit regio en functie": 1657,
+                "saldo doorstroom tussen functies": -185,
+                "groei": 416,
+                "referentiejaar": 15174
+            },
+            "overige_functies": {
+                "wervingsbehoefte": 870,
+                "uit regio en functie": 785,
+                "saldo doorstroom tussen functies": -7,
+                "groei": 85,
+                "referentiejaar": 5743
+            }
+        }
+    },
+    "jaar_2016": {
+        "zuid_nederland": {
+            "leerling": {
+                "wervingsbehoefte": 425,
+                "uit regio en functie": 402,
+                "saldo doorstroom tussen functies": 216,
+                "groei": 23,
+                "referentiejaar": 1556
+            },
+            "technicus": {
+                "wervingsbehoefte": 286,
+                "uit regio en functie": 287,
+                "saldo doorstroom tussen functies": 18,
+                "groei": -1,
+                "referentiejaar": 2576
+            },
+            "totaal_functies": {
+                "wervingsbehoefte": 3749,
+                "uit regio en functie": 3600,
+                "saldo doorstroom tussen functies": 0,
+                "groei": 149,
+                "referentiejaar": 28785
+            },
+            "monteur": {
+                "wervingsbehoefte": 2178,
+                "uit regio en functie": 2051,
+                "saldo doorstroom tussen functies": -223,
+                "groei": 127,
+                "referentiejaar": 18336
+            },
+            "overige_functies": {
+                "wervingsbehoefte": 860,
+                "uit regio en functie": 861,
+                "saldo doorstroom tussen functies": -11,
+                "groei": 0,
+                "referentiejaar": 6315
+            }
+        },
+        "noord_nederland": {
+            "leerling": {
+                "wervingsbehoefte": 117,
+                "uit regio en functie": 112,
+                "saldo doorstroom tussen functies": 62,
+                "groei": 5,
+                "referentiejaar": 368
+            },
+            "technicus": {
+                "wervingsbehoefte": 106,
+                "uit regio en functie": 107,
+                "saldo doorstroom tussen functies": 10,
+                "groei": 0,
+                "referentiejaar": 927
+            },
+            "totaal_functies": {
+                "wervingsbehoefte": 1110,
+                "uit regio en functie": 1062,
+                "saldo doorstroom tussen functies": 0,
+                "groei": 48,
+                "referentiejaar": 9528
+            },
+            "monteur": {
+                "wervingsbehoefte": 614,
+                "uit regio en functie": 570,
+                "saldo doorstroom tussen functies": -67,
+                "groei": 43,
+                "referentiejaar": 6114
+            },
+            "overige_functies": {
+                "wervingsbehoefte": 274,
+                "uit regio en functie": 274,
+                "saldo doorstroom tussen functies": -6,
+                "groei": 0,
+                "referentiejaar": 2116
+            }
+        },
+        "zuid_holland": {
+            "leerling": {
+                "wervingsbehoefte": 548,
+                "uit regio en functie": 518,
+                "saldo doorstroom tussen functies": 295,
+                "groei": 29,
+                "referentiejaar": 1792
+            },
+            "technicus": {
+                "wervingsbehoefte": 252,
+                "uit regio en functie": 253,
+                "saldo doorstroom tussen functies": 11,
+                "groei": -1,
+                "referentiejaar": 2361
+            },
+            "totaal_functies": {
+                "wervingsbehoefte": 3370,
+                "uit regio en functie": 3226,
+                "saldo doorstroom tussen functies": 0,
+                "groei": 143,
+                "referentiejaar": 26809
+            },
+            "monteur": {
+                "wervingsbehoefte": 1698,
+                "uit regio en functie": 1582,
+                "saldo doorstroom tussen functies": -305,
+                "groei": 116,
+                "referentiejaar": 16399
+            },
+            "overige_functies": {
+                "wervingsbehoefte": 872,
+                "uit regio en functie": 873,
+                "saldo doorstroom tussen functies": 0,
+                "groei": -1,
+                "referentiejaar": 6255
+            }
+        },
+        "noord_holland": {
+            "leerling": {
+                "wervingsbehoefte": 367,
+                "uit regio en functie": 352,
+                "saldo doorstroom tussen functies": 199,
+                "groei": 15,
+                "referentiejaar": 1105
+            },
+            "technicus": {
+                "wervingsbehoefte": 163,
+                "uit regio en functie": 164,
+                "saldo doorstroom tussen functies": 9,
+                "groei": 0,
+                "referentiejaar": 1375
+            },
+            "totaal_functies": {
+                "wervingsbehoefte": 1974,
+                "uit regio en functie": 1895,
+                "saldo doorstroom tussen functies": 0,
+                "groei": 79,
+                "referentiejaar": 15103
+            },
+            "monteur": {
+                "wervingsbehoefte": 922,
+                "uit regio en functie": 858,
+                "saldo doorstroom tussen functies": -207,
+                "groei": 64,
+                "referentiejaar": 9079
+            },
+            "overige_functies": {
+                "wervingsbehoefte": 522,
+                "uit regio en functie": 521,
+                "saldo doorstroom tussen functies": -1,
+                "groei": 0,
+                "referentiejaar": 3543
+            }
+        },
+        "midden_nederland": {
+            "leerling": {
+                "wervingsbehoefte": 213,
+                "uit regio en functie": 202,
+                "saldo doorstroom tussen functies": 118,
+                "groei": 11,
+                "referentiejaar": 754
+            },
+            "technicus": {
+                "wervingsbehoefte": 154,
+                "uit regio en functie": 154,
+                "saldo doorstroom tussen functies": 12,
+                "groei": 0,
+                "referentiejaar": 1329
+            },
+            "totaal_functies": {
+                "wervingsbehoefte": 1822,
+                "uit regio en functie": 1752,
+                "saldo doorstroom tussen functies": 0,
+                "groei": 70,
+                "referentiejaar": 13733
+            },
+            "monteur": {
+                "wervingsbehoefte": 945,
+                "uit regio en functie": 886,
+                "saldo doorstroom tussen functies": -133,
+                "groei": 59,
+                "referentiejaar": 8210
+            },
+            "overige_functies": {
+                "wervingsbehoefte": 510,
+                "uit regio en functie": 510,
+                "saldo doorstroom tussen functies": 3,
+                "groei": 0,
+                "referentiejaar": 3438
+            }
+        },
+        "totaal_regios": {
+            "totaal_functies": {
+                "wervingsbehoefte": 14998,
+                "uit regio en functie": 14391,
+                "saldo doorstroom tussen functies": 0,
+                "groei": 607,
+                "referentiejaar": 118568
+            },
+            "technicus": {
+                "wervingsbehoefte": 1233,
+                "uit regio en functie": 1236,
+                "saldo doorstroom tussen functies": 89,
+                "groei": -3,
+                "referentiejaar": 11107
+            },
+            "leerling": {
+                "wervingsbehoefte": 2000,
+                "uit regio en functie": 1900,
+                "saldo doorstroom tussen functies": 1059,
+                "groei": 100,
+                "referentiejaar": 6834
+            },
+            "monteur": {
+                "wervingsbehoefte": 7979,
+                "uit regio en functie": 7467,
+                "saldo doorstroom tussen functies": -1127,
+                "groei": 512,
+                "referentiejaar": 73212
+            },
+            "overige_functies": {
+                "wervingsbehoefte": 3786,
+                "uit regio en functie": 3788,
+                "saldo doorstroom tussen functies": -22,
+                "groei": -2,
+                "referentiejaar": 27413
+            }
+        },
+        "gelderland_overijssel": {
+            "leerling": {
+                "wervingsbehoefte": 330,
+                "uit regio en functie": 314,
+                "saldo doorstroom tussen functies": 170,
+                "groei": 17,
+                "referentiejaar": 1257
+            },
+            "technicus": {
+                "wervingsbehoefte": 272,
+                "uit regio en functie": 273,
+                "saldo doorstroom tussen functies": 29,
+                "groei": -1,
+                "referentiejaar": 2536
+            },
+            "totaal_functies": {
+                "wervingsbehoefte": 2974,
+                "uit regio en functie": 2855,
+                "saldo doorstroom tussen functies": 0,
+                "groei": 118,
+                "referentiejaar": 24609
+            },
+            "monteur": {
+                "wervingsbehoefte": 1623,
+                "uit regio en functie": 1520,
+                "saldo doorstroom tussen functies": -192,
+                "groei": 103,
+                "referentiejaar": 15071
+            },
+            "overige_functies": {
+                "wervingsbehoefte": 748,
+                "uit regio en functie": 749,
+                "saldo doorstroom tussen functies": -7,
+                "groei": -1,
+                "referentiejaar": 5744
+            }
+        }
+    },
+    "jaar_2019": {
+        "zuid_nederland": {
+            "leerling": {
+                "wervingsbehoefte": 510,
+                "uit regio en functie": 413,
+                "saldo doorstroom tussen functies": 191,
+                "groei": 97,
+                "referentiejaar": 1758
+            },
+            "technicus": {
+                "wervingsbehoefte": 384,
+                "uit regio en functie": 332,
+                "saldo doorstroom tussen functies": 15,
+                "groei": 52,
+                "referentiejaar": 2664
+            },
+            "totaal_functies": {
+                "wervingsbehoefte": 5554,
+                "uit regio en functie": 4632,
+                "saldo doorstroom tussen functies": 0,
+                "groei": 922,
+                "referentiejaar": 30557
+            },
+            "monteur": {
+                "wervingsbehoefte": 3497,
+                "uit regio en functie": 2855,
+                "saldo doorstroom tussen functies": -195,
+                "groei": 643,
+                "referentiejaar": 19597
+            },
+            "overige_functies": {
+                "wervingsbehoefte": 1163,
+                "uit regio en functie": 1032,
+                "saldo doorstroom tussen functies": -10,
+                "groei": 130,
+                "referentiejaar": 6537
+            }
+        },
+        "noord_nederland": {
+            "leerling": {
+                "wervingsbehoefte": 133,
+                "uit regio en functie": 111,
+                "saldo doorstroom tussen functies": 50,
+                "groei": 22,
+                "referentiejaar": 414
+            },
+            "technicus": {
+                "wervingsbehoefte": 140,
+                "uit regio en functie": 121,
+                "saldo doorstroom tussen functies": 9,
+                "groei": 19,
+                "referentiejaar": 958
+            },
+            "totaal_functies": {
+                "wervingsbehoefte": 1695,
+                "uit regio en functie": 1395,
+                "saldo doorstroom tussen functies": 0,
+                "groei": 300,
+                "referentiejaar": 10103
+            },
+            "monteur": {
+                "wervingsbehoefte": 1057,
+                "uit regio en functie": 841,
+                "saldo doorstroom tussen functies": -54,
+                "groei": 216,
+                "referentiejaar": 6539
+            },
+            "overige_functies": {
+                "wervingsbehoefte": 365,
+                "uit regio en functie": 322,
+                "saldo doorstroom tussen functies": -6,
+                "groei": 44,
+                "referentiejaar": 2191
+            }
+        },
+        "zuid_holland": {
+            "leerling": {
+                "wervingsbehoefte": 654,
+                "uit regio en functie": 538,
+                "saldo doorstroom tussen functies": 271,
+                "groei": 115,
+                "referentiejaar": 2034
+            },
+            "technicus": {
+                "wervingsbehoefte": 334,
+                "uit regio en functie": 286,
+                "saldo doorstroom tussen functies": 11,
+                "groei": 48,
+                "referentiejaar": 2442
+            },
+            "totaal_functies": {
+                "wervingsbehoefte": 4939,
+                "uit regio en functie": 4069,
+                "saldo doorstroom tussen functies": 0,
+                "groei": 870,
+                "referentiejaar": 28485
+            },
+            "monteur": {
+                "wervingsbehoefte": 2791,
+                "uit regio en functie": 2213,
+                "saldo doorstroom tussen functies": -282,
+                "groei": 578,
+                "referentiejaar": 17534
+            },
+            "overige_functies": {
+                "wervingsbehoefte": 1160,
+                "uit regio en functie": 1031,
+                "saldo doorstroom tussen functies": -1,
+                "groei": 128,
+                "referentiejaar": 6473
+            }
+        },
+        "noord_holland": {
+            "leerling": {
+                "wervingsbehoefte": 424,
+                "uit regio en functie": 357,
+                "saldo doorstroom tussen functies": 173,
+                "groei": 67,
+                "referentiejaar": 1245
+            },
+            "technicus": {
+                "wervingsbehoefte": 219,
+                "uit regio en functie": 191,
+                "saldo doorstroom tussen functies": 8,
+                "groei": 28,
+                "referentiejaar": 1423
+            },
+            "totaal_functies": {
+                "wervingsbehoefte": 2933,
+                "uit regio en functie": 2445,
+                "saldo doorstroom tussen functies": 0,
+                "groei": 488,
+                "referentiejaar": 16043
+            },
+            "monteur": {
+                "wervingsbehoefte": 1602,
+                "uit regio en functie": 1283,
+                "saldo doorstroom tussen functies": -181,
+                "groei": 319,
+                "referentiejaar": 9705
+            },
+            "overige_functies": {
+                "wervingsbehoefte": 688,
+                "uit regio en functie": 615,
+                "saldo doorstroom tussen functies": 0,
+                "groei": 74,
+                "referentiejaar": 3669
+            }
+        },
+        "midden_nederland": {
+            "leerling": {
+                "wervingsbehoefte": 250,
+                "uit regio en functie": 203,
+                "saldo doorstroom tussen functies": 101,
+                "groei": 47,
+                "referentiejaar": 852
+            },
+            "technicus": {
+                "wervingsbehoefte": 204,
+                "uit regio en functie": 177,
+                "saldo doorstroom tussen functies": 12,
+                "groei": 27,
+                "referentiejaar": 1375
+            },
+            "totaal_functies": {
+                "wervingsbehoefte": 2654,
+                "uit regio en functie": 2218,
+                "saldo doorstroom tussen functies": 0,
+                "groei": 436,
+                "referentiejaar": 14569
+            },
+            "monteur": {
+                "wervingsbehoefte": 1544,
+                "uit regio en functie": 1253,
+                "saldo doorstroom tussen functies": -115,
+                "groei": 291,
+                "referentiejaar": 8783
+            },
+            "overige_functies": {
+                "wervingsbehoefte": 656,
+                "uit regio en functie": 585,
+                "saldo doorstroom tussen functies": 3,
+                "groei": 71,
+                "referentiejaar": 3558
+            }
+        },
+        "totaal_regios": {
+            "totaal_functies": {
+                "wervingsbehoefte": 22153,
+                "uit regio en functie": 18366,
+                "saldo doorstroom tussen functies": 0,
+                "groei": 3787,
+                "referentiejaar": 125843
+            },
+            "technicus": {
+                "wervingsbehoefte": 1650,
+                "uit regio en functie": 1425,
+                "saldo doorstroom tussen functies": 83,
+                "groei": 225,
+                "referentiejaar": 11488
+            },
+            "leerling": {
+                "wervingsbehoefte": 2366,
+                "uit regio en functie": 1943,
+                "saldo doorstroom tussen functies": 934,
+                "groei": 424,
+                "referentiejaar": 7719
+            },
+            "monteur": {
+                "wervingsbehoefte": 13110,
+                "uit regio en functie": 10537,
+                "saldo doorstroom tussen functies": -997,
+                "groei": 2573,
+                "referentiejaar": 78260
+            },
+            "overige_functies": {
+                "wervingsbehoefte": 5026,
+                "uit regio en functie": 4461,
+                "saldo doorstroom tussen functies": -21,
+                "groei": 565,
+                "referentiejaar": 28375
+            }
+        },
+        "gelderland_overijssel": {
+            "leerling": {
+                "wervingsbehoefte": 396,
+                "uit regio en functie": 320,
+                "saldo doorstroom tussen functies": 148,
+                "groei": 75,
+                "referentiejaar": 1414
+            },
+            "technicus": {
+                "wervingsbehoefte": 368,
+                "uit regio en functie": 317,
+                "saldo doorstroom tussen functies": 28,
+                "groei": 51,
+                "referentiejaar": 2623
+            },
+            "totaal_functies": {
+                "wervingsbehoefte": 4377,
+                "uit regio en functie": 3606,
+                "saldo doorstroom tussen functies": 0,
+                "groei": 771,
+                "referentiejaar": 26083
+            },
+            "monteur": {
+                "wervingsbehoefte": 2618,
+                "uit regio en functie": 2093,
+                "saldo doorstroom tussen functies": -169,
+                "groei": 526,
+                "referentiejaar": 16101
+            },
+            "overige_functies": {
+                "wervingsbehoefte": 994,
+                "uit regio en functie": 876,
+                "saldo doorstroom tussen functies": -6,
+                "groei": 118,
+                "referentiejaar": 5944
+            }
+        }
+    }
+}

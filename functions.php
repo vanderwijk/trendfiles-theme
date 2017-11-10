@@ -117,10 +117,9 @@ function include_scripts_styles () {
 		wp_register_script( 'jquery-ui-slider-pips', get_template_directory_uri() . '/js/slider-pips/jquery-ui-slider-pips.min.js', array( 'jquery-ui' ), '1.5.5', true );
 		wp_register_script( 'svg-js', '//cdnjs.cloudflare.com/ajax/libs/svg.js/2.5.1/svg.min.js', array(), '2.5.1', true );
 
-		wp_register_script( 'prognoses-wervingsbehoefte-figuur-1', get_template_directory_uri() . '/js/prognoses-wervingsbehoefte-figuur-1.js', array( 'jquery' ), '1.0', true );
-		wp_register_script( 'prognoses-wervingsbehoefte-figuur-2', get_template_directory_uri() . '/js/prognoses-wervingsbehoefte-figuur-2.js', array( 'jquery' ), '1.0', true );
-		wp_register_script( 'prognoses-wervingsbehoefte-figuur-3', get_template_directory_uri() . '/js/prognoses-wervingsbehoefte-figuur-3.js', array( 'jquery' ), '1.0', true );
-		wp_register_script( 'prognoses-wervingsbehoefte-figuur-4', get_template_directory_uri() . '/js/prognoses-wervingsbehoefte-figuur-4.js', array( 'jquery' ), '1.0', true );
+		wp_register_script( 'prognoses-wervingsbehoefte-stap-1', get_template_directory_uri() . '/js/prognoses-wervingsbehoefte-stap-1.js', array( 'jquery' ), '1.0', true );
+		wp_register_script( 'prognoses-wervingsbehoefte-stap-2', get_template_directory_uri() . '/js/prognoses-wervingsbehoefte-stap-2.js', array( 'jquery' ), '1.0', true );
+		wp_register_script( 'prognoses-wervingsbehoefte-stap-3', get_template_directory_uri() . '/js/prognoses-wervingsbehoefte-stap-3.js', array( 'jquery' ), '1.0', true );
 		wp_register_script( 'draaitabel-bedrijven', get_template_directory_uri() . '/js/draaitabel-bedrijven.js', array( 'jquery' ), '1.0', true );
 		wp_register_script( 'draaitabel-leerlingen', get_template_directory_uri() . '/js/draaitabel-leerlingen.js', array( 'jquery' ), '1.0', true );
 		wp_register_script( 'draaitabel-werknemers', get_template_directory_uri() . '/js/draaitabel-werknemers.js', array( 'jquery' ), '1.1', true );
@@ -154,25 +153,21 @@ function include_scripts_styles () {
 			wp_enqueue_script( 'fitvids-config' );
 		}
 
-		if ( is_page( array('figuur-1', 'figuur-2', 'figuur-3', 'figuur-4'))) {
+		if ( is_page( array( 'stap-1', 'stap-2', 'stap-3' ))) {
 			wp_enqueue_style( 'tooltipster' );
 			wp_enqueue_script( 'tooltipster-js' );
 			wp_enqueue_script( 'tooltipster-js-svg' );
 			wp_enqueue_script( 'svg-js' );
-			wp_enqueue_script( 'prognoses-wervingsbehoefte-figuur-1' );
 		}
 
-		if ( is_page('figuur-1')) {
-			wp_enqueue_script( 'prognoses-wervingsbehoefte-figuur-1' );
+		if ( is_page('stap-1')) {
+			wp_enqueue_script( 'prognoses-wervingsbehoefte-stap-1' );
 		}
-		if ( is_page('figuur-2')) {
-			wp_enqueue_script( 'prognoses-wervingsbehoefte-figuur-2' );
+		if ( is_page('stap-2')) {
+			wp_enqueue_script( 'prognoses-wervingsbehoefte-stap-2' );
 		}
-		if ( is_page('figuur-3')) {
-			wp_enqueue_script( 'prognoses-wervingsbehoefte-figuur-3' );
-		}
-		if ( is_page('figuur-4')) {
-			wp_enqueue_script( 'prognoses-wervingsbehoefte-figuur-4' );
+		if ( is_page('stap-3')) {
+			wp_enqueue_script( 'prognoses-wervingsbehoefte-stap-3' );
 		}
 
 		if ( is_page( 'draaitabel' ) ) {

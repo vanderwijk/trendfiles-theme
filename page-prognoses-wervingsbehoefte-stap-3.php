@@ -1,6 +1,6 @@
 <?php
 /**
- * Template Name: Prognoses Wervingsbehoefte Figuur 3
+ * Template Name: Prognoses Wervingsbehoefte Stap 3
  */
 
 get_header(); ?>
@@ -16,27 +16,21 @@ get_header(); ?>
 			<nav class="block progress">
 				<ul>
 					<li>
-						<a href="/prognoses/wervingsbehoefte/figuur-1/">
-							<h2>Figuur 1</h2>
-							<h3>Ontwikkeling omvang TI-branche</h3>
+						<a href="/prognoses/wervingsbehoefte/stap-1/">
+							<h2>Stap 1</h2>
+							<h3>Prognose totaal aantal werknemers in TI + wervingsbehoefte</h3>
 						</a>
 					</li>
 					<li>
-						<a href="/prognoses/wervingsbehoefte/figuur-2/">
-							<h2>Figuur 2</h2>
-							<h3>Ontwikkeling uitstroom</h3>
+						<a href="/prognoses/wervingsbehoefte/stap-2/">
+							<h2>Stap 2</h2>
+							<h3>Opvullen wervingsbehoefte met zij-instromers en schoolverlaters</h3>
 						</a>
 					</li>
 					<li class="active">
-						<a href="/prognoses/wervingsbehoefte/figuur-3/">
-							<h2>Figuur 3</h2>
-							<h3>Wervingsbehoefte naar zij-instroom en schoolverlaters</h3>
-						</a>
-					</li>
-					<li>
-						<a href="/prognoses/wervingsbehoefte/figuur-4/">
-							<h2>Figuur 4</h2>
-							<h3>Overschot en tekort aan schoolverlaters naar opleidingsniveau</h3>
+						<a href="/prognoses/wervingsbehoefte/stap-3/">
+							<h2>Stap 3</h2>
+							<h3>Wervingsbehoefte &eacute;n wervingskracht schoolverlaters TI</h3>
 						</a>
 					</li>
 				</ul>
@@ -44,8 +38,25 @@ get_header(); ?>
 		</div>
 			<div class="col two-thirds">
 				<div class="block entry-content">
-				<h2 class="grafiektitel">Uitstroom = wervingsbehoefte <sup>*</sup></h2>
+				<h2 class="grafiektitel">Wervingsbehoefte &eacute;n wervingskracht schoolverlaters TI 2020 <sup>*</sup></h2>
 				<svg version="1.1" id="wervingsbehoeftefiguur4" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px" viewBox="0 0 532 338.7" enable-background="new 0 0 532 338.7" xml:space="preserve">
+					<g id="legenda">
+						<rect id="legenda_schoolverlaters" x="7.5" y="19.7" fill="#8E4A02" width="31" height="2" />
+						<path id="legenda_zijinstromers" opacity="0.68" fill="#2E8D9E" d="M35.2,52c-8.8,3.2-17.4,3-24.4,0c-1.7-0.7-3.3-1.5-3.3-3.4V24.7h31v23.9
+						C38.5,50.5,36.9,51.3,35.2,52z" />
+						<rect id="legenda_schoolverlatersTI" x="7.5" y="21.7" fill="#F58220" width="31" height="3" />
+						<path id="legenda_beker" fill="none" stroke="#3A3D40" stroke-width="0.8562" stroke-linecap="round" stroke-miterlimit="10"
+							d="M3.7,9.8
+						L6,15v34.6c0,2.5,2.4,3.4,4.9,4.5c6.8,2.9,17.9,2.5,25.3,0c2.5-0.9,4.9-2,4.9-4.5V15.2l3-0.1v14.8c0,0,1,1.8,2,1.8h0
+						c0.9,0,1-1.6,1-1.6l0-19.6c0-1.1-0.9-2-2-1.9c-10.6,0.7-29.7,1.1-40.4,0C3.9,8.4,3.5,9.1,3.7,9.8z" />
+						<g id="legenda_cirkel">
+							<g>
+								<path fill="#BE202E" d="M35.7,7.2c-6.9-6.2-16.6-6.8-24.5-2C5.1,8.9,0.3,16.4,4,23.5c4.3,8.2,15.3,10.6,23.8,10.2
+								c7.7-0.4,16.6-4.2,15-13.4C41.3,11.7,28.3,1.1,19.6,6c-0.4,0.2,0,0.9,0.4,0.7c9.7-5.5,26.5,9.9,21.1,20
+								c-4.4,8.2-18.8,7.1-26.2,4.5C4.9,27.6-0.5,17.2,7.8,8.9c7.4-7.5,19.5-8.3,27.4-1.2C35.5,8,36.1,7.5,35.7,7.2L35.7,7.2z" />
+							</g>
+						</g>
+					</g>
 					<g id="kaart">
 						<g id="noord_holland">
 							<path fill="#D9D9D9" d="M269.6,71.6c-0.1,0-0.3,0-0.5,0c-1.1,0-2.5,0.4-3.4,0.8c-1,0.4-2.3,0.8-3,1.3c-0.5,0.3-0.6,0.4-1.3,0.7
@@ -1151,88 +1162,108 @@ get_header(); ?>
 					</g>
 					<g id="bekers">
 
-						<g id="jaar_2016">
-							<path id="bodem_2016" fill="#2E8D9E" d="M105.5,195.9c-10.2,3.4-20.2,3.1-28.3,0c-2-0.8-3.8-1.6-3.8-3.5h36
+						<g id="vmbo">
+							<path id="bodem_vmbo" fill="#888D91" d="M105.5,195.9c-10.2,3.4-20.2,3.1-28.3,0c-2-0.8-3.8-1.6-3.8-3.5h36
 						C109.4,194.3,107.5,195.3,105.5,195.9z"></path>
-							<rect id="staaf_2016_zijinstroom" x="73.4" y="193" fill="#2E8D9E" width="36" height="1" class="tooltip"></rect>
-							<rect id="staaf_2016_SVTI_TIverwantdiploma" x="73.4" y="193" fill="#F58220" width="36" height="1" class="tooltip"></rect>
-							<rect id="staaf_2016_SVoverig" x="73.4" y="193" fill="#8E4A02" width="36" height="1" class="tooltip"></rect>
-							<path id="beker_2016" fill="none" stroke="#3A3D40" stroke-width="1.0046" stroke-linecap="round" stroke-miterlimit="10" d="
+							<rect id="rechthoek_vmbo" x="73.4" y="192.4" fill="#888D91" width="36" height="0" class="tooltip"></rect>
+							<path id="beker_vmbo" fill="none" stroke="#3A3D40" stroke-width="1.0046" stroke-linecap="round" stroke-miterlimit="10" d="
 						M68.3,146.1l2.7,6.3V193c0,2.9,2.8,4,5.7,5.2c7.9,3.4,20.8,2.9,29.4,0c3-1,5.7-2.3,5.7-5.2v-40.5l4.5-0.2v17.3
 						c0,1.2,1,2.1,2.1,2.1l0,0c1,0,1.9-0.8,1.9-1.9v-23.1c0-1.2-1-2.3-2.2-2.2c-12.6,0.9-35.7,1.3-48.6,0
 						C68.6,144.4,68,145.4,68.3,146.1z"></path>
-							<text id="wb_2016" font-family="'Roboto',sans-serif" font-size="12px" fill="#888d91" text-anchor="middle" x="91" y="130"></text>
-							<text font-family="'Droid Sans',sans-serif" font-size="10px" fill="#414042" text-anchor="middle" x="91" y="229">2016</text>
+							<path id="plasje_vmbo" fill="#888D91" d="M109.3,198.2c-0.9,0-1.7,0.1-2.6,0.2c-0.2,0.1-0.3,0.1-0.5,0.2c-4.3,1.4-10,2.4-15.8,2.4
+						c-5,0-9.9-0.7-13.8-2.4l-0.3-0.1c-2.3-1-4.6-2-5.4-4l0,0c-1.7-0.9-3,0.7-3.7,2.1c-0.4,0.8-0.7,1.7-1.2,2.6
+						c-0.3,0.6-1.2,1.1-1.3,1.7c-0.1,0.4,0.1,0.9,0.4,1.2c0.2,0.2,0.4,0.3,0.6,0.4c2.7,1.3,5.5-0.1,8.3,1.1c0.6,0.3,1.3,0.7,1.9,0.8
+						c1.4,0.4,2.9-0.1,4.3,0.1c0.8,0.1,1.5,0.5,2.2,0.7c2,0.7,4.2,0.8,6.3,0.9c1.9,0.1,3.8,0.1,5.7-0.2c2-0.3,3.9-1.1,5.9-1.4
+						c1.1-0.2,2.2-0.2,3.3-0.2c2.8-0.2,5.5-0.8,8.3-1.3c0.4-0.1,0.7-0.2,1-0.3c1.1-0.7,1-2.4,0-3.3
+						C111.9,198.4,110.5,198.2,109.3,198.2z"></path>
+							<text font-family="'Droid Sans',sans-serif" font-size="10px" fill="#414042" text-anchor="middle" x="91" y="117">VMBO</text>
+							<text id="wb_vmbo" font-family="'Roboto',sans-serif" font-size="12px" fill="#888d91" text-anchor="middle" x="91" y="130"></text>
+							<text font-family="'Droid Sans',sans-serif" font-size="10px" fill="#414042" text-anchor="middle" x="91" y="229">VMBO</text>
+							<text id="wk_vmbo" font-family="'Roboto',sans-serif" font-size="12px" fill="#888D91" text-anchor="middle" x="91" y="241"></text>
 						</g>
 
-						<g id="jaar_2017">
-							<path id="bodem_2017" fill="#2E8D9E" d="M180.9,195.9c-10.2,3.4-20.2,3.1-28.3,0c-2-0.8-3.8-1.6-3.8-3.5h36
+						<g id="mbo2">
+							<path id="bodem_mbo2" fill="#2E8D9E" d="M180.9,195.9c-10.2,3.4-20.2,3.1-28.3,0c-2-0.8-3.8-1.6-3.8-3.5h36
 						C184.8,194.3,182.9,195.3,180.9,195.9z"></path>
-							<rect id="staaf_2017_zijinstroom" x="148.8" y="193" fill="#2E8D9E" width="36" height="1" class="tooltip"></rect>
-							<rect id="staaf_2017_SVTI_TIverwantdiploma" x="148.8" y="193" fill="#F58220" width="36" height="1" class="tooltip"></rect>
-							<rect id="staaf_2017_SVoverig" x="148.8" y="193" fill="#8E4A02" width="36" height="1" class="tooltip"></rect>
-							<path id="beker_2017" fill="none" stroke="#3A3D40" stroke-width="1.0046" stroke-linecap="round" stroke-miterlimit="10" d="
+							<rect id="rechthoek_mbo2" x="148.8" y="192.4" fill="#2E8D9E" width="36" height="0" class="tooltip"></rect>
+							<path id="beker_mbo2" fill="none" stroke="#3A3D40" stroke-width="1.0046" stroke-linecap="round" stroke-miterlimit="10" d="
 						M143.7,146.1l2.7,6.3V193c0,2.9,2.8,4,5.7,5.2c7.9,3.4,20.8,2.9,29.4,0c3-1,5.7-2.3,5.7-5.2v-40.5l4.5-0.2v17.3
 						c0,1.2,1,2.1,2.1,2.1l0,0c1,0,1.9-0.8,1.9-1.9v-23.1c0-1.2-1-2.3-2.2-2.2c-12.6,0.9-35.7,1.3-48.6,0
 						C144,144.4,143.4,145.4,143.7,146.1z"></path>
-							<text id="wb_2017" font-family="'Roboto',sans-serif" font-size="12px" fill="#888d91" text-anchor="middle" x="167" y="130"></text>
-							<text font-family="'Droid Sans',sans-serif" font-size="10px" fill="#414042" text-anchor="middle" x="167" y="229">2017</text>
+							<path id="plasje_mbo2" fill="#2E8D9E" d="M184.7,198.2c-0.9,0-1.7,0.1-2.6,0.2c-0.2,0.1-0.3,0.1-0.5,0.2c-4.3,1.4-10,2.4-15.8,2.4
+						c-5,0-9.9-0.7-13.8-2.4l-0.3-0.1c-2.3-1-4.6-2-5.4-4l0,0c-1.7-0.9-3,0.7-3.7,2.1c-0.4,0.8-0.7,1.7-1.2,2.6
+						c-0.3,0.6-1.2,1.1-1.3,1.7c-0.1,0.4,0.1,0.9,0.4,1.2c0.2,0.2,0.4,0.3,0.6,0.4c2.7,1.3,5.5-0.1,8.3,1.1c0.6,0.3,1.3,0.7,1.9,0.8
+						c1.4,0.4,2.9-0.1,4.3,0.1c0.8,0.1,1.5,0.5,2.2,0.7c2,0.7,4.2,0.8,6.3,0.9c1.9,0.1,3.8,0.1,5.7-0.2c2-0.3,3.9-1.1,5.9-1.4
+						c1.1-0.2,2.2-0.2,3.3-0.2c2.8-0.2,5.5-0.8,8.3-1.3c0.4-0.1,0.7-0.2,1-0.3c1.1-0.7,1-2.4,0-3.3C187.4,198.4,186,198.2,184.7,198.2z
+						"></path>
+							<text font-family="'Droid Sans',sans-serif" font-size="10px" fill="#414042" text-anchor="middle" x="167" y="117">MBO 2</text>
+							<text id="wb_mbo2" font-family="'Roboto',sans-serif" font-size="12px" fill="#888d91" text-anchor="middle" x="167" y="130"></text>
+							<text font-family="'Droid Sans',sans-serif" font-size="10px" fill="#414042" text-anchor="middle" x="167" y="229">MBO 2</text>
+							<text id="wk_mbo2" font-family="'Roboto',sans-serif" font-size="12px" fill="#2E8D9E" text-anchor="middle" x="167" y="241"></text>
 						</g>
 
-						<g id="jaar_2018">
-							<path id="bodem_2018" fill="#2E8D9E" d="M256.3,195.9c-10.2,3.4-20.2,3.1-28.3,0c-2-0.8-3.8-1.6-3.8-3.5h36
+						<g id="mbo3">
+							<path id="bodem_mbo3" fill="#044954" d="M256.3,195.9c-10.2,3.4-20.2,3.1-28.3,0c-2-0.8-3.8-1.6-3.8-3.5h36
 						C260.2,194.3,258.3,195.3,256.3,195.9z"></path>
-							<rect id="staaf_2018_zijinstroom" x="224.2" y="193" fill="#2E8D9E" width="36" height="1" class="tooltip"></rect>
-							<rect id="staaf_2018_SVTI_TIverwantdiploma" x="224.2" y="193" fill="#F58220" width="36" height="1" class="tooltip"></rect>
-							<rect id="staaf_2018_SVoverig" x="224.2" y="193" fill="#8E4A02" width="36" height="1" class="tooltip"></rect>
-							<path id="beker_2018" fill="none" stroke="#3A3D40" stroke-width="1.0046" stroke-linecap="round" stroke-miterlimit="10" d="
+							<rect id="rechthoek_mbo3" x="224.2" y="192.4" fill="#044954" width="36" height="0" class="tooltip"></rect>
+							<path id="beker_mbo3" fill="none" stroke="#3A3D40" stroke-width="1.0046" stroke-linecap="round" stroke-miterlimit="10" d="
 						M219.2,146.1l2.7,6.3V193c0,2.9,2.8,4,5.7,5.2c7.9,3.4,20.8,2.9,29.4,0c3-1,5.7-2.3,5.7-5.2v-40.5l4.5-0.2v17.3
 						c0,1.2,1,2.1,2.1,2.1l0,0c1,0,1.9-0.8,1.9-1.9v-23.1c0-1.2-1-2.3-2.2-2.2c-12.6,0.9-35.7,1.3-48.6,0
 						C219.4,144.4,218.8,145.4,219.2,146.1z"></path>
-							<text id="wb_2018" font-family="'Roboto',sans-serif" font-size="12px" fill="#888d91" text-anchor="middle" x="242" y="130"></text>
-							<text font-family="'Droid Sans',sans-serif" font-size="10px" fill="#414042" text-anchor="middle" x="242" y="229">2018</text>
+							<path id="plasje_mbo3" fill="#044954" d="M260.1,198.2c-0.9,0-1.7,0.1-2.6,0.2c-0.2,0.1-0.3,0.1-0.5,0.2c-4.3,1.4-10,2.4-15.8,2.4
+						c-5,0-9.9-0.7-13.8-2.4l-0.3-0.1c-2.3-1-4.6-2-5.4-4l0,0c-1.7-0.9-3,0.7-3.7,2.1c-0.4,0.8-0.7,1.7-1.2,2.6
+						c-0.3,0.6-1.2,1.1-1.3,1.7c-0.1,0.4,0.1,0.9,0.4,1.2c0.2,0.2,0.4,0.3,0.6,0.4c2.7,1.3,5.5-0.1,8.3,1.1c0.6,0.3,1.3,0.7,1.9,0.8
+						c1.4,0.4,2.9-0.1,4.3,0.1c0.8,0.1,1.5,0.5,2.2,0.7c2,0.7,4.2,0.8,6.3,0.9c1.9,0.1,3.8,0.1,5.7-0.2c2-0.3,3.9-1.1,5.9-1.4
+						c1.1-0.2,2.2-0.2,3.3-0.2c2.8-0.2,5.5-0.8,8.3-1.3c0.4-0.1,0.7-0.2,1-0.3c1.1-0.7,1-2.4,0-3.3
+						C262.8,198.4,261.4,198.2,260.1,198.2z"></path>
+							<text font-family="'Droid Sans',sans-serif" font-size="10px" fill="#414042" text-anchor="middle" x="242" y="117">MBO 3</text>
+							<text id="wb_mbo3" font-family="'Roboto',sans-serif" font-size="12px" fill="#888d91" text-anchor="middle" x="242" y="130"></text>
+							<text font-family="'Droid Sans',sans-serif" font-size="10px" fill="#414042" text-anchor="middle" x="242" y="229">MBO 3</text>
+							<text id="wk_mbo3" font-family="'Roboto',sans-serif" font-size="12px" fill="#044954" text-anchor="middle" x="242" y="241"></text>
 						</g>
 
-						<g id="jaar_2019">
-							<path id="bodem_2019" fill="#2E8D9E" d="M331.7,195.9c-10.2,3.4-20.2,3.1-28.3,0c-2-0.8-3.8-1.6-3.8-3.5h36
+						<g id="mbo4">
+							<path id="bodem_mbo4" fill="#F58220" d="M331.7,195.9c-10.2,3.4-20.2,3.1-28.3,0c-2-0.8-3.8-1.6-3.8-3.5h36
 						C335.6,194.3,333.7,195.3,331.7,195.9z"></path>
-							<rect id="staaf_2019_zijinstroom" x="299.6" y="193" fill="#2E8D9E" width="36" height="1" class="tooltip"></rect>
-							<rect id="staaf_2019_SVTI_TIverwantdiploma" x="299.6" y="193" fill="#F58220" width="36" height="1" class="tooltip"></rect>
-							<rect id="staaf_2019_SVoverig" x="299.6" y="193" fill="#8E4A02" width="36" height="1" class="tooltip"></rect>
-							<path id="beker_2019" fill="none" stroke="#3A3D40" stroke-width="1.0046" stroke-linecap="round" stroke-miterlimit="10" d="
+							<rect id="rechthoek_mbo4" x="299.6" y="192.4" fill="#F58220" width="36" height="0" class="tooltip"></rect>
+							<path id="beker_mbo4" fill="none" stroke="#3A3D40" stroke-width="1.0046" stroke-linecap="round" stroke-miterlimit="10" d="
 						M294.6,146.1l2.7,6.3V193c0,2.9,2.8,4,5.7,5.2c7.9,3.4,20.8,2.9,29.4,0c3-1,5.7-2.3,5.7-5.2v-40.5l4.5-0.2v17.3
 						c0,1.2,1,2.1,2.1,2.1l0,0c1,0,1.9-0.8,1.9-1.9v-23.1c0-1.2-1-2.3-2.2-2.2c-12.6,0.9-35.7,1.3-48.6,0
 						C294.8,144.4,294.2,145.4,294.6,146.1z"></path>
-							<text id="wb_2019" font-family="'Roboto',sans-serif" font-size="12px" fill="#888d91" text-anchor="middle" x="318" y="130"></text>
-							<text font-family="'Droid Sans',sans-serif" font-size="10px" fill="#414042" text-anchor="middle" x="318" y="229">2019</text>
+							<path id="plasje_mbo4" fill="#F58220" d="M335.5,198.2c-0.9,0-1.7,0.1-2.6,0.2c-0.2,0.1-0.3,0.1-0.5,0.2c-4.3,1.4-10,2.4-15.8,2.4
+						c-5,0-9.9-0.7-13.8-2.4l-0.3-0.1c-2.3-1-4.6-2-5.4-4l0,0c-1.7-0.9-3,0.7-3.7,2.1c-0.4,0.8-0.7,1.7-1.2,2.6
+						c-0.3,0.6-1.2,1.1-1.3,1.7c-0.1,0.4,0.1,0.9,0.4,1.2c0.2,0.2,0.4,0.3,0.6,0.4c2.7,1.3,5.5-0.1,8.3,1.1c0.6,0.3,1.3,0.7,1.9,0.8
+						c1.4,0.4,2.9-0.1,4.3,0.1c0.8,0.1,1.5,0.5,2.2,0.7c2,0.7,4.2,0.8,6.3,0.9c1.9,0.1,3.8,0.1,5.7-0.2c2-0.3,3.9-1.1,5.9-1.4
+						c1.1-0.2,2.2-0.2,3.3-0.2c2.8-0.2,5.5-0.8,8.3-1.3c0.4-0.1,0.7-0.2,1-0.3c1.1-0.7,1-2.4,0-3.3
+						C338.2,198.4,336.8,198.2,335.5,198.2z"></path>
+							<text font-family="'Droid Sans',sans-serif" font-size="10px" fill="#414042" text-anchor="middle" x="318" y="117">MBO 4</text>
+							<text id="wb_mbo4" font-family="'Roboto',sans-serif" font-size="12px" fill="#888d91" text-anchor="middle" x="318" y="130"></text>
+							<text font-family="'Droid Sans',sans-serif" font-size="10px" fill="#414042" text-anchor="middle" x="318" y="229">MBO 4</text>
+							<text id="wk_mbo4" font-family="'Roboto',sans-serif" font-size="12px" fill="#F58220" text-anchor="middle" x="318" y="241"></text>
 						</g>
 
-						<g id="jaar_2020">
-							<path id="bodem_2020" fill="#2E8D9E" d="M407.2,195.9c-10.2,3.4-20.2,3.1-28.3,0c-2-0.8-3.8-1.6-3.8-3.5h36
+						<g id="hbo">
+							<path id="bodem_hbo" fill="#8E4A02" d="M407.2,195.9c-10.2,3.4-20.2,3.1-28.3,0c-2-0.8-3.8-1.6-3.8-3.5h36
 						C411,194.3,409.2,195.3,407.2,195.9z"></path>
-							<rect id="staaf_2020_zijinstroom" x="375" y="193" fill="#2E8D9E" width="36" height="1" class="tooltip"></rect>
-							<rect id="staaf_2020_SVTI_TIverwantdiploma" x="375" y="193" fill="#F58220" width="36" height="1" class="tooltip"></rect>
-							<rect id="staaf_2020_SVoverig" x="375" y="193" fill="#8E4A02" width="36" height="1" class="tooltip"></rect>
-							<path id="beker_2020" fill="none" stroke="#3A3D40" stroke-width="1.0046" stroke-linecap="round" stroke-miterlimit="10" d="
+							<rect id="rechthoek_hbo" x="375" y="192.4" fill="#8E4A02" width="36" height="0" class="tooltip"></rect>
+							<path id="beker_hbo" fill="none" stroke="#3A3D40" stroke-width="1.0046" stroke-linecap="round" stroke-miterlimit="10" d="
 						M370,146.1l2.7,6.3V193c0,2.9,2.8,4,5.7,5.2c7.9,3.4,20.8,2.9,29.4,0c3-1,5.7-2.3,5.7-5.2v-40.5l4.5-0.2v17.3c0,1.2,1,2.1,2.1,2.1
 						l0,0c1,0,1.9-0.8,1.9-1.9v-23.1c0-1.2-1-2.3-2.2-2.2c-12.6,0.9-35.7,1.3-48.6,0C370.2,144.4,369.6,145.4,370,146.1z"></path>
-							<text id="wb_2020" font-family="'Roboto',sans-serif" font-size="12px" fill="#888d91" text-anchor="middle" x="393" y="130"></text>
-							<text font-family="'Droid Sans',sans-serif" font-size="10px" fill="#414042" text-anchor="middle" x="393" y="229">2020</text>
+							<path id="plasje_hbo" fill="#8E4A02" d="M410.9,198.2c-0.9,0-1.7,0.1-2.6,0.2c-0.2,0.1-0.3,0.1-0.5,0.2c-4.3,1.4-10,2.4-15.8,2.4
+						c-5,0-9.9-0.7-13.8-2.4l-0.3-0.1c-2.3-1-4.6-2-5.4-4l0,0c-1.7-0.9-3,0.7-3.7,2.1c-0.4,0.8-0.7,1.7-1.2,2.6
+						c-0.3,0.6-1.2,1.1-1.3,1.7c-0.1,0.4,0.1,0.9,0.4,1.2c0.2,0.2,0.4,0.3,0.6,0.4c2.7,1.3,5.5-0.1,8.3,1.1c0.6,0.3,1.3,0.7,1.9,0.8
+						c1.4,0.4,2.9-0.1,4.3,0.1c0.8,0.1,1.5,0.5,2.2,0.7c2,0.7,4.2,0.8,6.3,0.9c1.9,0.1,3.8,0.1,5.7-0.2c2-0.3,3.9-1.1,5.9-1.4
+						c1.1-0.2,2.2-0.2,3.3-0.2c2.8-0.2,5.5-0.8,8.3-1.3c0.4-0.1,0.7-0.2,1-0.3c1.1-0.7,1-2.4,0-3.3
+						C413.6,198.4,412.2,198.2,410.9,198.2z"></path>
+							<text font-family="'Droid Sans',sans-serif" font-size="10px" fill="#414042" text-anchor="middle" x="393" y="117">HBO</text>
+							<text id="wb_hbo" font-family="'Roboto',sans-serif" font-size="12px" fill="#888d91" text-anchor="middle" x="393" y="130"></text>
+							<text font-family="'Droid Sans',sans-serif" font-size="10px" fill="#414042" text-anchor="middle" x="393" y="229">HBO</text>
+							<text id="wk_hbo" font-family="'Roboto',sans-serif" font-size="12px" fill="#8E4A02" text-anchor="middle" x="393" y="241"></text>
 						</g>
 
 					</g>
-					<g id="labelteksten">
-						<text font-family="'Droid Sans',sans-serif" font-size="6px" fill="#414042" text-anchor="start" x="302" y="281">Zij-instromers</text>
-						<text font-family="'Droid Sans',sans-serif" font-size="6px" fill="#414042" text-anchor="start" x="373" y="281">Schoolverlaters</text>
-						<text font-family="'Droid Sans',sans-serif" font-size="6px" fill="#414042" text-anchor="start" x="373" y="288">TI verwant</text>
-						<text font-family="'Droid Sans',sans-serif" font-size="6px" fill="#414042" text-anchor="start" x="448" y="281">Schoolverlaters</text>
-						<text font-family="'Droid Sans',sans-serif" font-size="6px" fill="#414042" text-anchor="start" x="448" y="288">Overig</text>
-					</g>
-					<g id="labels">
-						<rect id="label_zijinstroom" x="287" y="275" fill="#2E8D9E" width="12" height="12"></rect>
-						<rect x="358" y="275" fill="#F58220" width="12" height="12"></rect>
-						<rect x="433" y="275" fill="#8E4A02" width="12" height="12"></rect>
-					</g>
+					<text font-family="'Droid Sans',sans-serif" font-size="10px" fill="#414042" text-anchor="middle" x="267" y="70">WERVINGSBEHOEFTE</text>
+					<text font-family="'Droid Sans',sans-serif" font-size="10px" fill="#414042" text-anchor="middle" x="267" y="270">WERVINGSKRACHT</text>
 				</svg>
 
 				<?php the_content(); ?>
@@ -1267,8 +1298,7 @@ get_header(); ?>
 			<div class="col">
 				<div class="block">
 					<ul class="next-previous">
-						<li class="previous"><a href="/prognoses/wervingsbehoefte/figuur-2/">&laquo; Vorige figuur</a></li>
-						<li class="next"><a href="/prognoses/wervingsbehoefte/figuur-4/">Volgende figuur &raquo;</a></li>
+						<li class="previous"><a href="/prognoses/wervingsbehoefte/figuur-3/">&laquo; Vorige figuur</a></li>
 					</ul>
 				</div>
 			</div>

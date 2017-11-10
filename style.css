@@ -1115,7 +1115,7 @@ label.zuid-nederland {
 	float: left;
 	margin-top: -12px;
 	padding-left: 15px;
-	width: 24%;
+	width: 32%;
 }
 .progress li:before {
 	color: #9d9d9d;
@@ -1127,11 +1127,14 @@ label.zuid-nederland {
 }
 .progress h2 {
 	color: #9d9d9d;
+	font-family: Roboto, sans-serif;
 	font-weight: 700;
 }
 .progress h3 {
 	color: #9d9d9d;
+	font-family: Roboto, sans-serif;
 	font-weight: 400;
+	letter-spacing: 0;
 }
 .progress li.active:before {
 	color: #424244;

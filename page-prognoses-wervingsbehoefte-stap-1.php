@@ -1,6 +1,6 @@
 <?php
 /**
- * Template Name: Prognoses Wervingsbehoefte Figuur 2
+ * Template Name: Prognoses Wervingsbehoefte Stap 1
  */
 
 get_header(); ?>
@@ -15,28 +15,22 @@ get_header(); ?>
 			</header>
 			<nav class="block progress">
 				<ul>
-					<li>
-						<a href="/prognoses/wervingsbehoefte/figuur-1/">
-							<h2>Figuur 1</h2>
-							<h3>Ontwikkeling omvang TI-branche</h3>
-						</a>
-					</li>
 					<li class="active">
-						<a href="/prognoses/wervingsbehoefte/figuur-2/">
-							<h2>Figuur 2</h2>
-							<h3>Ontwikkeling uitstroom</h3>
+						<a href="/prognoses/wervingsbehoefte/stap-1/">
+							<h2>Stap 1</h2>
+							<h3>Prognose totaal aantal werknemers in TI + wervingsbehoefte</h3>
 						</a>
 					</li>
 					<li>
-						<a href="/prognoses/wervingsbehoefte/figuur-3/">
-							<h2>Figuur 3</h2>
-							<h3>Wervingsbehoefte naar zij-instroom en schoolverlaters</h3>
+						<a href="/prognoses/wervingsbehoefte/stap-2/">
+							<h2>Stap 2</h2>
+							<h3>Opvullen wervingsbehoefte met zij-instromers en schoolverlaters</h3>
 						</a>
 					</li>
 					<li>
-						<a href="/prognoses/wervingsbehoefte/figuur-4/">
-							<h2>Figuur 4</h2>
-							<h3>Overschot en tekort aan schoolverlaters naar opleidingsniveau</h3>
+						<a href="/prognoses/wervingsbehoefte/stap-3/">
+							<h2>Stap 3</h2>
+							<h3>Wervingsbehoefte &eacute;n wervingskracht schoolverlaters TI</h3>
 						</a>
 					</li>
 				</ul>
@@ -45,7 +39,7 @@ get_header(); ?>
 
 		<div class="col two-thirds">
 			<div class="block entry-content">
-				<h2 class="grafiektitel">Jaarlijkse uitstroom <sup>*</sup></h2>
+				<h2 class="grafiektitel">Prognose totaal aantal werknemers in TI + wervingsbehoefte</h2>
 				<svg version="1.1" id="wervingsbehoeftefiguur4" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px" viewBox="0 0 532 338.7" enable-background="new 0 0 532 338.7" xml:space="preserve">
 					<g id="kaart">
 						<g id="noord_holland">
@@ -1167,18 +1161,32 @@ get_header(); ?>
 						<line fill="none" stroke="#A7A9AC" stroke-width="0.5016" stroke-miterlimit="10" x1="109" y1="33.7" x2="387" y2="33.7"></line>
 					</g>
 					<g id="staven"><!-- 100% = 163 basis = 196.7 -->
-						<rect id="staaf_2016" x="112.8" y="196.7" fill="#2E8D9E" stroke="#2E8D9E" stroke-width=".5" width="27" height="0" class="tooltip"></rect>
-						<rect id="staaf_2017" x="164.8" y="196.7" fill="#2E8D9E" stroke="#2E8D9E" stroke-width=".5" width="27" height="0" class="tooltip"></rect>
-						<rect id="staaf_2018" x="220.8" y="196.7" fill="#2E8D9E" stroke="#2E8D9E" stroke-width=".5" width="27" height="0" class="tooltip"></rect>
-						<rect id="staaf_2019" x="275.8" y="196.7" fill="#2E8D9E" stroke="#2E8D9E" stroke-width=".5" width="27" height="0" class="tooltip"></rect>
-						<rect id="staaf_2020" x="333.8" y="196.7" fill="#2E8D9E" stroke="#2E8D9E" stroke-width=".5" width="27" height="0" class="tooltip"></rect>
+						<rect id="staaf_2016" x="112.8" y="196.7" fill="#2E8D9E" stroke="#2E8D9E" stroke-width="1" width="27" height="0" class="tooltip"></rect>
+						<rect id="staaf_2017" x="164.8" y="196.7" fill="#2E8D9E" stroke="#2E8D9E" stroke-width="1" width="27" height="0" class="tooltip"></rect>
+						<rect id="staaf_2018" x="220.8" y="196.7" fill="#2E8D9E" stroke="#2E8D9E" stroke-width="1" width="27" height="0" class="tooltip"></rect>
+						<rect id="staaf_2019" x="275.8" y="196.7" fill="#2E8D9E" stroke="#2E8D9E" stroke-width="1" width="27" height="0" class="tooltip"></rect>
+						<rect id="staaf_2020" x="333.8" y="196.7" fill="#2E8D9E" stroke="#2E8D9E" stroke-width="1" width="27" height="0" class="tooltip"></rect>
+					</g>
+					<g id="staven_wervingsbehoefte"><!-- 100% = 163 basis = 196.7 -->
+						<rect id="staaf_2016_wervingsbehoefte" x="112.8" y="196.7" fill="#ffffff" stroke="#424244" stroke-width="1" width="27" height="0" class="tooltip"></rect>
+						<rect id="staaf_2017_wervingsbehoefte" x="164.8" y="196.7" fill="#ffffff" stroke="#424244" stroke-width="1" width="27" height="0" class="tooltip"></rect>
+						<rect id="staaf_2018_wervingsbehoefte" x="220.8" y="196.7" fill="#ffffff" stroke="#424244" stroke-width="1" width="27" height="0" class="tooltip"></rect>
+						<rect id="staaf_2019_wervingsbehoefte" x="275.8" y="196.7" fill="#ffffff" stroke="#424244" stroke-width="1" width="27" height="0" class="tooltip"></rect>
+						<rect id="staaf_2020_wervingsbehoefte" x="333.8" y="196.7" fill="#ffffff" stroke="#424244" stroke-width="1" width="27" height="0" class="tooltip"></rect>
 					</g>
 					<g id="staven_uitstroom"><!-- 100% = 163 basis = 196.7 -->
-						<rect id="staaf_2016_uitstroom" x="112.8" y="196.7" fill="#ffffff" stroke="#424244" stroke-width=".5" width="27" height="0" class="tooltip"></rect>
-						<rect id="staaf_2017_uitstroom" x="164.8" y="196.7" fill="#ffffff" stroke="#424244" stroke-width=".5" width="27" height="0" class="tooltip"></rect>
-						<rect id="staaf_2018_uitstroom" x="220.8" y="196.7" fill="#ffffff" stroke="#424244" stroke-width=".5" width="27" height="0" class="tooltip"></rect>
-						<rect id="staaf_2019_uitstroom" x="275.8" y="196.7" fill="#ffffff" stroke="#424244" stroke-width=".5" width="27" height="0" class="tooltip"></rect>
-						<rect id="staaf_2020_uitstroom" x="333.8" y="196.7" fill="#ffffff" stroke="#424244" stroke-width=".5" width="27" height="0" class="tooltip"></rect>
+						<rect id="staaf_2016_uitstroom" x="112.8" y="196.7" fill="#ffffff" stroke="#db572f" stroke-width="1" width="27" height="0" class="tooltip"></rect>
+						<rect id="staaf_2017_uitstroom" x="164.8" y="196.7" fill="#ffffff" stroke="#db572f" stroke-width="1" width="27" height="0" class="tooltip"></rect>
+						<rect id="staaf_2018_uitstroom" x="220.8" y="196.7" fill="#ffffff" stroke="#db572f" stroke-width="1" width="27" height="0" class="tooltip"></rect>
+						<rect id="staaf_2019_uitstroom" x="275.8" y="196.7" fill="#ffffff" stroke="#db572f" stroke-width="1" width="27" height="0" class="tooltip"></rect>
+						<rect id="staaf_2020_uitstroom" x="333.8" y="196.7" fill="#ffffff" stroke="#db572f" stroke-width="1" width="27" height="0" class="tooltip"></rect>
+					</g>
+					<g id="staven_groei"><!-- 100% = 163 basis = 196.7 -->
+						<rect id="staaf_2016_groei" x="112.8" y="196.7" fill="#db572f" stroke="#db572f" stroke-width="1" width="27" height="0" class="tooltip"></rect>
+						<rect id="staaf_2017_groei" x="164.8" y="196.7" fill="#db572f" stroke="#db572f" stroke-width="1" width="27" height="0" class="tooltip"></rect>
+						<rect id="staaf_2018_groei" x="220.8" y="196.7" fill="#db572f" stroke="#db572f" stroke-width="1" width="27" height="0" class="tooltip"></rect>
+						<rect id="staaf_2019_groei" x="275.8" y="196.7" fill="#db572f" stroke="#db572f" stroke-width="1" width="27" height="0" class="tooltip"></rect>
+						<rect id="staaf_2020_groei" x="333.8" y="196.7" fill="#db572f" stroke="#db572f" stroke-width="1" width="27" height="0" class="tooltip"></rect>
 					</g>
 					<g id="jaren">
 						<text font-family="'Droid Sans',sans-serif" font-size="10px" fill="#494646" text-anchor="middle" x="124" y="229">2016</text>
@@ -1216,6 +1224,12 @@ get_header(); ?>
 						<button id="knop_zuid_nederland" onClick="kiesRegio('zuid_nederland');">Zuid Nederland</button>
 						<button id="knop_midden_nederland" onClick="kiesRegio('midden_nederland');">Midden Nederland</button>
 					</div>
+
+					<p><br />
+						<label>
+							<input type="checkbox" onClick="toggleUitsplitsen();" checked="checked">Splits wervingsbehoefte op in groei en uitstroom
+						</label>
+					</p>
 
 				</div>
 			</div>
