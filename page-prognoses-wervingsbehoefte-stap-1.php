@@ -1161,32 +1161,32 @@ get_header(); ?>
 						<line fill="none" stroke="#A7A9AC" stroke-width="0.5016" stroke-miterlimit="10" x1="109" y1="33.7" x2="387" y2="33.7"></line>
 					</g>
 					<g id="staven"><!-- 100% = 163 basis = 196.7 -->
-						<rect id="staaf_2016" x="112.8" y="196.7" fill="#2E8D9E" stroke="#2E8D9E" stroke-width="2" width="27" height="0" class="tooltip"></rect>
-						<rect id="staaf_2017" x="164.8" y="196.7" fill="#2E8D9E" stroke="#2E8D9E" stroke-width="2" width="27" height="0" class="tooltip"></rect>
-						<rect id="staaf_2018" x="220.8" y="196.7" fill="#2E8D9E" stroke="#2E8D9E" stroke-width="2" width="27" height="0" class="tooltip"></rect>
-						<rect id="staaf_2019" x="275.8" y="196.7" fill="#2E8D9E" stroke="#2E8D9E" stroke-width="2" width="27" height="0" class="tooltip"></rect>
-						<rect id="staaf_2020" x="333.8" y="196.7" fill="#2E8D9E" stroke="#2E8D9E" stroke-width="2" width="27" height="0" class="tooltip"></rect>
+						<rect id="staaf_2016" x="112.8" y="196.7" fill="#2E8D9E" stroke="#2E8D9E" stroke-width="1" width="27" height="0" class="tooltip"></rect>
+						<rect id="staaf_2017" x="164.8" y="196.7" fill="#2E8D9E" stroke="#2E8D9E" stroke-width="1" width="27" height="0" class="tooltip"></rect>
+						<rect id="staaf_2018" x="220.8" y="196.7" fill="#2E8D9E" stroke="#2E8D9E" stroke-width="1" width="27" height="0" class="tooltip"></rect>
+						<rect id="staaf_2019" x="275.8" y="196.7" fill="#2E8D9E" stroke="#2E8D9E" stroke-width="1" width="27" height="0" class="tooltip"></rect>
+						<rect id="staaf_2020" x="333.8" y="196.7" fill="#2E8D9E" stroke="#2E8D9E" stroke-width="1" width="27" height="0" class="tooltip"></rect>
 					</g>
 					<g id="staven_wervingsbehoefte"><!-- 100% = 163 basis = 196.7 -->
-						<rect id="staaf_2016_wervingsbehoefte" x="112.8" y="196.7" fill="#ffffff" stroke="#424244" stroke-width="2" width="27" height="0" class="tooltip"></rect>
-						<rect id="staaf_2017_wervingsbehoefte" x="164.8" y="196.7" fill="#ffffff" stroke="#424244" stroke-width="2" width="27" height="0" class="tooltip"></rect>
-						<rect id="staaf_2018_wervingsbehoefte" x="220.8" y="196.7" fill="#ffffff" stroke="#424244" stroke-width="2" width="27" height="0" class="tooltip"></rect>
-						<rect id="staaf_2019_wervingsbehoefte" x="275.8" y="196.7" fill="#ffffff" stroke="#424244" stroke-width="2" width="27" height="0" class="tooltip"></rect>
-						<rect id="staaf_2020_wervingsbehoefte" x="333.8" y="196.7" fill="#ffffff" stroke="#424244" stroke-width="2" width="27" height="0" class="tooltip"></rect>
+						<rect id="staaf_2016_wervingsbehoefte" x="112.8" y="196.7" fill="#ffffff" stroke="#424244" stroke-width="1" width="27" height="0" class="tooltip"></rect>
+						<rect id="staaf_2017_wervingsbehoefte" x="164.8" y="196.7" fill="#ffffff" stroke="#424244" stroke-width="1" width="27" height="0" class="tooltip"></rect>
+						<rect id="staaf_2018_wervingsbehoefte" x="220.8" y="196.7" fill="#ffffff" stroke="#424244" stroke-width="1" width="27" height="0" class="tooltip"></rect>
+						<rect id="staaf_2019_wervingsbehoefte" x="275.8" y="196.7" fill="#ffffff" stroke="#424244" stroke-width="1" width="27" height="0" class="tooltip"></rect>
+						<rect id="staaf_2020_wervingsbehoefte" x="333.8" y="196.7" fill="#ffffff" stroke="#424244" stroke-width="1" width="27" height="0" class="tooltip"></rect>
 					</g>
 					<g id="staven_uitstroom"><!-- 100% = 163 basis = 196.7 -->
-						<rect id="staaf_2016_uitstroom" x="112.8" y="196.7" fill="#ffffff" stroke="#db572f" stroke-width="2" width="27" height="0" class="tooltip"></rect>
-						<rect id="staaf_2017_uitstroom" x="164.8" y="196.7" fill="#ffffff" stroke="#db572f" stroke-width="2" width="27" height="0" class="tooltip"></rect>
-						<rect id="staaf_2018_uitstroom" x="220.8" y="196.7" fill="#ffffff" stroke="#db572f" stroke-width="2" width="27" height="0" class="tooltip"></rect>
-						<rect id="staaf_2019_uitstroom" x="275.8" y="196.7" fill="#ffffff" stroke="#db572f" stroke-width="2" width="27" height="0" class="tooltip"></rect>
-						<rect id="staaf_2020_uitstroom" x="333.8" y="196.7" fill="#ffffff" stroke="#db572f" stroke-width="2" width="27" height="0" class="tooltip"></rect>
+						<rect id="staaf_2016_uitstroom" x="112.8" y="196.7" fill="#ffffff" stroke="#db572f" stroke-width="1" width="27" height="0" class="tooltip"></rect>
+						<rect id="staaf_2017_uitstroom" x="164.8" y="196.7" fill="#ffffff" stroke="#db572f" stroke-width="1" width="27" height="0" class="tooltip"></rect>
+						<rect id="staaf_2018_uitstroom" x="220.8" y="196.7" fill="#ffffff" stroke="#db572f" stroke-width="1" width="27" height="0" class="tooltip"></rect>
+						<rect id="staaf_2019_uitstroom" x="275.8" y="196.7" fill="#ffffff" stroke="#db572f" stroke-width="1" width="27" height="0" class="tooltip"></rect>
+						<rect id="staaf_2020_uitstroom" x="333.8" y="196.7" fill="#ffffff" stroke="#db572f" stroke-width="1" width="27" height="0" class="tooltip"></rect>
 					</g>
 					<g id="staven_groei"><!-- 100% = 163 basis = 196.7 -->
-						<rect id="staaf_2016_groei" x="112.8" y="196.7" fill="#db572f" stroke="#db572f" stroke-width="2" width="27" height="0" class="tooltip"></rect>
-						<rect id="staaf_2017_groei" x="164.8" y="196.7" fill="#db572f" stroke="#db572f" stroke-width="2" width="27" height="0" class="tooltip"></rect>
-						<rect id="staaf_2018_groei" x="220.8" y="196.7" fill="#db572f" stroke="#db572f" stroke-width="2" width="27" height="0" class="tooltip"></rect>
-						<rect id="staaf_2019_groei" x="275.8" y="196.7" fill="#db572f" stroke="#db572f" stroke-width="2" width="27" height="0" class="tooltip"></rect>
-						<rect id="staaf_2020_groei" x="333.8" y="196.7" fill="#db572f" stroke="#db572f" stroke-width="2" width="27" height="0" class="tooltip"></rect>
+						<rect id="staaf_2016_groei" x="112.8" y="196.7" fill="#db572f" stroke="#db572f" stroke-width="1" width="27" height="0" class="tooltip"></rect>
+						<rect id="staaf_2017_groei" x="164.8" y="196.7" fill="#db572f" stroke="#db572f" stroke-width="1" width="27" height="0" class="tooltip"></rect>
+						<rect id="staaf_2018_groei" x="220.8" y="196.7" fill="#db572f" stroke="#db572f" stroke-width="1" width="27" height="0" class="tooltip"></rect>
+						<rect id="staaf_2019_groei" x="275.8" y="196.7" fill="#db572f" stroke="#db572f" stroke-width="1" width="27" height="0" class="tooltip"></rect>
+						<rect id="staaf_2020_groei" x="333.8" y="196.7" fill="#db572f" stroke="#db572f" stroke-width="1" width="27" height="0" class="tooltip"></rect>
 					</g>
 					<g id="jaren">
 						<text font-family="'Droid Sans',sans-serif" font-size="10px" fill="#494646" text-anchor="middle" x="124" y="229">2016</text>
