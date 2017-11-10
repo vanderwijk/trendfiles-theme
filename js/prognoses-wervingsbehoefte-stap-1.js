@@ -93,7 +93,7 @@ function maakGrafiek(regio, functie) {
 
 	jQuery('.tooltip:not(.tooltipstered)').tooltipster({
 		'delay': 50,
-		'side': 'top'
+		'side': 'right'
 	});
 
 	// Kleur regio's aan de hand van kleuren json
