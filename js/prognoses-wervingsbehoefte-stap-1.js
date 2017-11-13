@@ -34,6 +34,12 @@ toggleUitsplitsen
 function toggleUitsplitsen() {
 	jQuery( "#staven_uitstroom" ).toggle();
 	jQuery( "#staven_groei" ).toggle();
+	jQuery( "#labeltekst_uitstroom" ).toggle();
+	jQuery( "#label_uitstroom" ).toggle();
+	jQuery( "#labeltekst_groei" ).toggle();
+	jQuery( "#label_groei" ).toggle();
+	jQuery( "#labeltekst_wervingsbehoefte" ).toggle();
+	jQuery( "#label_wervingsbehoefte" ).toggle();
 }
 
 // Selecteer de regio na klikken op knop
@@ -105,6 +111,7 @@ function maakGrafiek(regio, functie) {
 	jQuery('#kaart path').css({ fill: kleuren.totaal_regios.licht });
 	jQuery('#kaart #' + regio + ' path').css({ fill: kleuren[regio].licht });
 	jQuery( '#label_totaal' ).css({ fill: kleuren[regio].hoofdkleur });
+	jQuery( '#label_wervingsbehoefte' ).css({ stroke: kleuren[regio].hoofdkleur });
 
 	// Activeer svg elementen voor svg.js
 	var staaf_2016 = SVG.get('staaf_2016');

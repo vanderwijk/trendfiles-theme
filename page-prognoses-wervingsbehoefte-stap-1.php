@@ -1197,14 +1197,16 @@ get_header(); ?>
 					</g>
 
 					<g id="labelteksten">
-						<text font-family="'Droid Sans',sans-serif" font-size="6px" fill="#414042" text-anchor="start" x="302" y="281">Blijvers</text>
-						<text font-family="'Droid Sans',sans-serif" font-size="6px" fill="#414042" text-anchor="start" x="373" y="281">Uitstroom</text>
-						<text font-family="'Droid Sans',sans-serif" font-size="6px" fill="#414042" text-anchor="start" x="448" y="281">Groei</text>
+						<text id="labeltekst_totaal" font-family="'Droid Sans',sans-serif" font-size="6px" fill="#414042" text-anchor="start" x="302" y="281">Blijvers</text>
+						<text id="labeltekst_wervingsbehoefte" font-family="'Droid Sans',sans-serif" font-size="6px" fill="#414042" text-anchor="start" x="373" y="281" style="display:none;">Wervingsbehoefte</text>
+						<text id="labeltekst_uitstroom" font-family="'Droid Sans',sans-serif" font-size="6px" fill="#414042" text-anchor="start" x="373" y="281">Uitstroom</text>
+						<text id="labeltekst_groei" font-family="'Droid Sans',sans-serif" font-size="6px" fill="#414042" text-anchor="start" x="448" y="281">Groei</text>
 					</g>
 					<g id="labels">
 						<rect id="label_totaal" x="287" y="275" fill="#2E8D9E" width="12" height="12"></rect>
-						<rect x="358" y="275" fill="#ffffff" stroke="#db572f" stroke-width="1" width="12" height="12"></rect>
-						<rect x="433" y="275" fill="#db572f" width="12" height="12"></rect>
+						<rect id="label_wervingsbehoefte" x="358" y="275" fill="#ffffff" stroke="#2E8D9E" stroke-width="1" width="12" height="12" style="display:none;"></rect>
+						<rect id="label_uitstroom" x="358" y="275" fill="#ffffff" stroke="#db572f" stroke-width="1" width="12" height="12"></rect>
+						<rect id="label_groei" x="433" y="275" fill="#db572f" width="12" height="12"></rect>
 					</g>
 
 				</svg>
