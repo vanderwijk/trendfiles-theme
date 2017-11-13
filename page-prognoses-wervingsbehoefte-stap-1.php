@@ -1196,6 +1196,17 @@ get_header(); ?>
 						<text font-family="'Droid Sans',sans-serif" font-size="10px" fill="#494646" text-anchor="middle" x="346" y="229">2020</text>
 					</g>
 
+					<g id="labelteksten">
+						<text font-family="'Droid Sans',sans-serif" font-size="6px" fill="#414042" text-anchor="start" x="302" y="281">Blijvers</text>
+						<text font-family="'Droid Sans',sans-serif" font-size="6px" fill="#414042" text-anchor="start" x="373" y="281">Uitstroom</text>
+						<text font-family="'Droid Sans',sans-serif" font-size="6px" fill="#414042" text-anchor="start" x="448" y="281">Groei</text>
+					</g>
+					<g id="labels">
+						<rect id="label_totaal" x="287" y="275" fill="#2E8D9E" width="12" height="12"></rect>
+						<rect x="358" y="275" fill="#ffffff" stroke="#db572f" stroke-width="1" width="12" height="12"></rect>
+						<rect x="433" y="275" fill="#db572f" width="12" height="12"></rect>
+					</g>
+
 				</svg>
 
 				<?php the_content(); ?>

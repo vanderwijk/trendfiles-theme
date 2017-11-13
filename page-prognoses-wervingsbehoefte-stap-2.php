@@ -50,7 +50,7 @@ get_header(); ?>
 							<line fill="none" stroke="#A7A9AC" stroke-width="0.1236" stroke-miterlimit="10" x1="1.8" y1="17.5" x2="47.8" y2="17.5"/>
 							<line fill="none" stroke="#A7A9AC" stroke-width="0.1236" stroke-miterlimit="10" x1="1.8" y1="7.7" x2="47.8" y2="7.7"/>
 						</g>
-						<rect id="legenda_totaal" x="19.8" y="21.7" fill="#2E8D9E" width="12" height="35"/>
+						<rect id="legenda_totaal" x="19.8" y="21.7" fill="#9d9d9d" width="12" height="35"/>
 						<g id="legenda_uitstroom">
 							<rect x="19.8" y="11.7" fill="#FFFFFF" width="12" height="10"/>
 						</g>

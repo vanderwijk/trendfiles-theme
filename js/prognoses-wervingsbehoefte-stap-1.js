@@ -104,6 +104,7 @@ function maakGrafiek(regio, functie) {
 	// Kleur regio's aan de hand van kleuren json
 	jQuery('#kaart path').css({ fill: kleuren.totaal_regios.licht });
 	jQuery('#kaart #' + regio + ' path').css({ fill: kleuren[regio].licht });
+	jQuery( '#label_totaal' ).css({ fill: kleuren[regio].hoofdkleur });
 
 	// Activeer svg elementen voor svg.js
 	var staaf_2016 = SVG.get('staaf_2016');
