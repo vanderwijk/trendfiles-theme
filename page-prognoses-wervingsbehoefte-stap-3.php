@@ -42,7 +42,7 @@ get_header(); ?>
 				<svg version="1.1" id="wervingsbehoeftefiguur4" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px" viewBox="0 0 532 338.7" enable-background="new 0 0 532 338.7" xml:space="preserve">
 					<g id="legenda">
 						<rect id="legenda_schoolverlaters" x="7.5" y="19.7" fill="#8E4A02" width="31" height="2" />
-						<path id="legenda_zijinstromers" opacity="0.68" fill="#2E8D9E" d="M35.2,52c-8.8,3.2-17.4,3-24.4,0c-1.7-0.7-3.3-1.5-3.3-3.4V24.7h31v23.9
+						<path id="legenda_zijinstromers" opacity="0.68" fill="#9d9d9d" d="M35.2,52c-8.8,3.2-17.4,3-24.4,0c-1.7-0.7-3.3-1.5-3.3-3.4V24.7h31v23.9
 						C38.5,50.5,36.9,51.3,35.2,52z" />
 						<rect id="legenda_schoolverlatersTI" x="7.5" y="21.7" fill="#F58220" width="31" height="3" />
 						<path id="legenda_beker" fill="none" stroke="#3A3D40" stroke-width="0.8562" stroke-linecap="round" stroke-miterlimit="10"
