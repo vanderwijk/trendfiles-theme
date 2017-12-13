@@ -16,11 +16,11 @@ get_header(); ?>
 		// 0a: Omzetverwachting
 		var data0a = google.visualization.arrayToDataTable([
 			['Periode', 'Vorig kwartaal', 'Huidig kwartaal' ],
-			['< 5%', 7, 3 ],
-			['≤ 2,5%', 4, 9 ],
-			['< 2,5%', 41, 39 ],
-			['≥ 2,5%', 23, 24 ],
-			['> 5%', 25, 25 ],
+			['< 5%', 3, 6 ],
+			['≤ 2,5%', 9, 9 ],
+			['< 2,5%', 39, 32 ],
+			['≥ 2,5%', 24, 19 ],
+			['> 5%', 25, 34 ],
 		]);
 
 		var view = new google.visualization.DataView(data0a);
@@ -53,9 +53,9 @@ get_header(); ?>
 		// 0b: Aantal monteurs in loondienst
 		var data0b = google.visualization.arrayToDataTable([
 			['Periode', 'Vorig kwartaal', 'Huidig kwartaal' ],
-			['dalen', 2, 1],
-			['gelijk', 46, 44 ],
-			['stijgen', 52, 55 ],
+			['dalen', 1, 3],
+			['gelijk', 44, 46 ],
+			['stijgen', 55, 51 ],
 		]);
 
 		var view = new google.visualization.DataView(data0b);
@@ -89,9 +89,9 @@ get_header(); ?>
 		// 0c: Aantal inleners
 		var data0c = google.visualization.arrayToDataTable([
 			['Periode', 'Vorig kwartaal', 'Huidig kwartaal' ],
-			['dalen', 9, 4 ],
-			['gelijk', 36, 36 ],
-			['stijgen', 55, 59 ],
+			['dalen', 4, 9 ],
+			['gelijk', 36, 30 ],
+			['stijgen', 59, 61 ],
 		]);
 
 		var view = new google.visualization.DataView(data0c);
@@ -612,7 +612,7 @@ get_header(); ?>
 	<div class="row">
 		<div class="col">
 			<header class="block header">
-				<h1 class="entry-title">Conjunctuurgegevens kwartaal 3 2017</h1>
+				<h1 class="entry-title">Conjunctuurgegevens kwartaal 4 2017</h1>
 			</header>
 		</div>
 			<div class="col one-third">
@@ -635,7 +635,7 @@ get_header(); ?>
 	<div class="row">
 		<div class="col">
 			<header class="block header">
-				<h1 class="entry-title"><?php the_title(); ?><span style="color:#424244;font-size:13px;text-transform:none;font-family:'Droid Sans',sans-serif;font-weight:200;float:right;">Bijgewerkt op 25-08-2017</span></h1>
+				<h1 class="entry-title"><?php the_title(); ?><span style="color:#424244;font-size:13px;text-transform:none;font-family:'Droid Sans',sans-serif;font-weight:200;float:right;">Bijgewerkt op 13-12-2017</span></h1>
 			</header>
 		</div>
 		<div class="col">
