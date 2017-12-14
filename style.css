@@ -198,13 +198,13 @@ small {
 }
 /* Responsive video
 ----------------------------------------------------------------------------------------------------*/
-.videowrapper {
+.responsive-video-wrapper {
 	position: relative;
 	padding-bottom: 56.25%; /* 16:9 */
 	height: 0;
 	margin-bottom: 10px;
 }
-.videowrapper iframe {
+.responsive-video-wrapper iframe {
 	position: absolute;
 	top: 0;
 	left: 0;

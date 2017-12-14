@@ -109,8 +109,6 @@ function include_scripts_styles () {
 		wp_register_script( 'initialise', get_template_directory_uri() . '/js/initialise.js', array( 'jquery' ), '1.0', true );
 		wp_register_script( 'magnific-popup', get_template_directory_uri() . '/js/magnific-popup/jquery.magnific-popup.min.js', array( 'jquery' ), '0.9.9', true );
 		wp_register_script( 'magnific-popup-config', get_template_directory_uri() . '/js/magnific-popup/magnific-popup.js', array( 'magnific-popup' ), '1.0', true );
-		wp_register_script( 'fitvids', get_template_directory_uri() . '/js/jquery.fitvids.js', array( 'jquery' ), '1.1', true );
-		wp_register_script( 'fitvids-config', get_template_directory_uri() . '/js/fitvids/fitvids.js', array( 'fitvids' ), '1.0', true );
 		wp_register_script( 'map', get_template_directory_uri() . '/js/map.js', array( 'jquery' ), '1.0', true );
 		wp_register_script( 'map-draaitabel', get_template_directory_uri() . '/js/map-draaitabel.js', array( 'jquery' ), '1.0', true );
 		wp_register_script( 'jquery-ui', '//code.jquery.com/ui/1.10.4/jquery-ui.js', array( 'jquery' ), '1.10.4', true );
@@ -142,15 +140,10 @@ function include_scripts_styles () {
 			wp_enqueue_script( 'magnific-popup' );
 			wp_enqueue_script( 'magnific-popup-config' );
 			wp_enqueue_style( 'magnific-popup' );
-
-			wp_enqueue_script( 'fitvids' );
-			wp_enqueue_script( 'fitvids-config' );
 		}
 
 		if ( is_page( 'kerngegevens' ) ) {
 			wp_enqueue_script( 'map' );
-			wp_enqueue_script( 'fitvids' );
-			wp_enqueue_script( 'fitvids-config' );
 		}
 
 		if ( is_page( array( 'stap-1', 'stap-2', 'stap-3' ))) {
@@ -198,7 +191,7 @@ function include_scripts_styles () {
 		wp_enqueue_style( 'font-droid-sans', '//fonts.googleapis.com/css?family=Droid+Sans:700,400', array(), null, 'screen' );
 		wp_enqueue_style( 'font-roboto', '//fonts.googleapis.com/css?family=Roboto:700,400,300', array(), null, 'screen' );
 		wp_enqueue_style( 'dashicons', get_stylesheet_uri(), array( 'dashicons' ), '1.0' );
-		wp_enqueue_style( 'style', get_stylesheet_uri() );
+		wp_enqueue_style( 'style', get_stylesheet_uri(), array(), '1.0' );
 		wp_enqueue_style( 'responsive', get_template_directory_uri() . '/style-responsive.css' );
 
 		wp_enqueue_script( 'modernizr' );
@@ -263,3 +256,10 @@ function ad_filter_wp_head_output( $output ) {
 }
 add_action( 'get_header', 'ad_ob_start' );
 add_action( 'wp_head', 'ad_ob_end_flush', 100 );
+
+
+// Add video container for embedded video's
+function wrap_embed_with_div( $html, $url, $attr ) {
+	   return '<div class="responsive-video-wrapper">' . $html . '</div>';
+}
+add_filter( 'embed_oembed_html', 'wrap_embed_with_div', 10, 3 );
