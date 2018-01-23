@@ -87,11 +87,11 @@ jQuery(document).ready(function($) {
 	// Stap 7: Jaar
 	var options = {
 		change: updateSlider,
-		max: 2017,
-		min: 2010,
+		max: 2018,
+		min: 2011,
 		step: 1,
 		range: true,
-		values: [ 2010, 2011 ]
+		values: [ 2011, 2012 ]
 	}
 	var $slider = $("#periode").slider(options);
 
@@ -173,6 +173,12 @@ jQuery(document).ready(function($) {
 			$("#2017").prop('checked', false);
 		} else {
 			$("#2017").prop('checked', true);
+		}
+
+		if (jQuery.inArray(2018, jaren) === -1) {
+			$("#2018").prop('checked', false);
+		} else {
+			$("#2018").prop('checked', true);
 		}
 
 	}
