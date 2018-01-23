@@ -120,7 +120,7 @@ function include_scripts_styles () {
 		wp_register_script( 'prognoses-wervingsbehoefte-stap-3', get_template_directory_uri() . '/js/prognoses-wervingsbehoefte-stap-3.js', array( 'jquery' ), '1.0', true );
 		wp_register_script( 'draaitabel-bedrijven', get_template_directory_uri() . '/js/draaitabel-bedrijven.js', array( 'jquery' ), '1.0', true );
 		wp_register_script( 'draaitabel-leerlingen', get_template_directory_uri() . '/js/draaitabel-leerlingen.js', array( 'jquery' ), '1.0', true );
-		wp_register_script( 'draaitabel-werknemers', get_template_directory_uri() . '/js/draaitabel-werknemers.js', array( 'jquery' ), '1.1', true );
+		wp_register_script( 'draaitabel-werknemers', get_template_directory_uri() . '/js/draaitabel-werknemers.js', array( 'jquery' ), '1.2', true );
 		wp_register_script( 'draaitabel-beroepspraktijkvorming', get_template_directory_uri() . '/js/draaitabel-beroepspraktijkvorming.js', array( 'jquery' ), '1.0', true );
 
 		wp_register_script( 'tooltipster-js', get_template_directory_uri() . '/js/tooltipster/js/tooltipster.bundle.min.js', array( 'jquery' ), '4.0.0', true );
