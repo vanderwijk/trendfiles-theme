@@ -40,6 +40,7 @@ get_header(); ?>
 						<li><label><input type="checkbox" id="2014" value="2014" name="jaar_id[]">2014/15</label></li>
 						<li><label><input type="checkbox" id="2015" value="2015" name="jaar_id[]">2015/16</label></li>
 						<li><label><input type="checkbox" id="2016" value="2016" name="jaar_id[]">2016/17</label></li>
+						<li><label><input type="checkbox" id="2017" value="2017" name="jaar_id[]">2017/18</label></li>
 					</ul>
 					<h3 id="regio">Stap 3: Regio</h3>
 					<div class="regio">
