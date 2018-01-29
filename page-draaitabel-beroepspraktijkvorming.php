@@ -31,8 +31,7 @@ get_header(); ?>
 					<p>Sleep de balk om de schooljaren te selecteren</p>
 					<div id="periode"></div>
 					<ul class="periode">
-						<li><label><input type="checkbox" id="2008" value="2008" name="jaar_id[]" checked>2008/09</label></li>
-						<li><label><input type="checkbox" id="2009" value="2009" name="jaar_id[]">2009/10</label></li>
+						<li><label><input type="checkbox" id="2009" value="2009" name="jaar_id[]" checked>2009/10</label></li>
 						<li><label><input type="checkbox" id="2010" value="2010" name="jaar_id[]">2010/11</label></li>
 						<li><label><input type="checkbox" id="2011" value="2011" name="jaar_id[]">2011/12</label></li>
 						<li><label><input type="checkbox" id="2012" value="2012" name="jaar_id[]">2012/13</label></li>
