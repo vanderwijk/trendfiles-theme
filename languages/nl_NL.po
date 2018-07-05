@@ -1,0 +1,523 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: OTIB Trendfiles\n"
+"POT-Creation-Date: 2018-07-05 08:52+0200\n"
+"PO-Revision-Date: 2018-07-05 08:55+0200\n"
+"Last-Translator: \n"
+"Language-Team: \n"
+"Language: nl_NL\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Generator: Poedit 2.0.8\n"
+"X-Poedit-Basepath: ..\n"
+"Plural-Forms: nplurals=2; plural=(n != 1);\n"
+"X-Poedit-Flags-xgettext: --add-comments=translators:\n"
+"X-Poedit-WPHeader: style.css\n"
+"X-Poedit-SourceCharset: UTF-8\n"
+"X-Poedit-KeywordsList: __;_e;_n:1,2;_x:1,2c;_ex:1,2c;_nx:4c,1,2;esc_attr__;"
+"esc_attr_e;esc_attr_x:1,2c;esc_html__;esc_html_e;esc_html_x:1,2c;"
+"_n_noop:1,2;_nx_noop:3c,1,2;__ngettext_noop:1,2\n"
+"X-Poedit-SearchPath-0: .\n"
+"X-Poedit-SearchPathExcluded-0: *.js\n"
+
+#: archive-download.php:87
+msgid "Links"
+msgstr ""
+
+#: custom-post-types.php:7
+msgctxt "Post Type General Name"
+msgid "Quotes"
+msgstr "Quotes"
+
+#: custom-post-types.php:8
+msgctxt "Post Type Singular Name"
+msgid "Quote"
+msgstr "Quote"
+
+#: custom-post-types.php:9
+msgid "Quotes"
+msgstr "Quotes"
+
+#: custom-post-types.php:10 custom-post-types.php:36
+msgid "Quote"
+msgstr "Quote"
+
+#: custom-post-types.php:11
+msgid "Quote Archives"
+msgstr "Quote archief"
+
+#: custom-post-types.php:12
+msgid "Quote Attributes"
+msgstr "Quote attributen"
+
+#: custom-post-types.php:13
+msgid "Parent Quote:"
+msgstr "Hoofdquote:"
+
+#: custom-post-types.php:14
+msgid "All Quotes"
+msgstr "Alle quotes"
+
+#: custom-post-types.php:15
+msgid "Add New Quote"
+msgstr "Nieuwe quote toevoegen"
+
+#: custom-post-types.php:16
+msgid "Add New"
+msgstr "Nieuwe toevoegen"
+
+#: custom-post-types.php:17
+msgid "New Quote"
+msgstr "Nieuwe quote"
+
+#: custom-post-types.php:18
+msgid "Edit Quote"
+msgstr "Bewerk quote"
+
+#: custom-post-types.php:19
+msgid "Update Quote"
+msgstr "Quote bijwerken"
+
+#: custom-post-types.php:20
+msgid "View Quote"
+msgstr "Bekijk quote"
+
+#: custom-post-types.php:21
+msgid "View Quotes"
+msgstr "Bekijk quotes"
+
+#: custom-post-types.php:22
+msgid "Search Quote"
+msgstr "Zoek quote"
+
+#: custom-post-types.php:23
+msgid "Not found"
+msgstr "Niet gevonden"
+
+#: custom-post-types.php:24
+msgid "Not found in Trash"
+msgstr "Niet gevonden in de prullenbak"
+
+#: custom-post-types.php:25
+msgid "Featured Image"
+msgstr "Uitgelichte afbeelding"
+
+#: custom-post-types.php:26
+msgid "Set featured image"
+msgstr "Stel uitgelichte afbeelding in"
+
+#: custom-post-types.php:27
+msgid "Remove featured image"
+msgstr "Verwijder uitgelichte afbeelding"
+
+#: custom-post-types.php:28
+msgid "Use as featured image"
+msgstr ""
+
+#: custom-post-types.php:29
+msgid "Insert into quote"
+msgstr ""
+
+#: custom-post-types.php:30
+msgid "Uploaded to this quote"
+msgstr ""
+
+#: custom-post-types.php:31
+msgid "Quotes list"
+msgstr ""
+
+#: custom-post-types.php:32
+msgid "Quotes list navigation"
+msgstr ""
+
+#: custom-post-types.php:33
+msgid "Filter quotes list"
+msgstr ""
+
+#: custom-post-types.php:37
+msgid "Quotes uit videos"
+msgstr ""
+
+#: footer.php:24
+msgid "Vorige |"
+msgstr ""
+
+#: footer.php:25
+msgid "| Volgende"
+msgstr ""
+
+#: header.php:53
+msgid "Menu"
+msgstr ""
+
+#: otib.php:17 otib.php:31
+msgctxt "category"
+msgid "Categories"
+msgstr ""
+
+#: otib.php:18
+msgctxt "category"
+msgid "Category"
+msgstr ""
+
+#: otib.php:19
+msgctxt "category"
+msgid "Search Categories"
+msgstr ""
+
+#: otib.php:20
+msgctxt "category"
+msgid "Popular Categories"
+msgstr ""
+
+#: otib.php:21
+msgctxt "category"
+msgid "All Categories"
+msgstr ""
+
+#: otib.php:22
+msgctxt "category"
+msgid "Parent Category"
+msgstr ""
+
+#: otib.php:23
+msgctxt "category"
+msgid "Parent Category:"
+msgstr ""
+
+#: otib.php:24
+msgctxt "category"
+msgid "Edit Category"
+msgstr ""
+
+#: otib.php:25
+msgctxt "category"
+msgid "Update Category"
+msgstr ""
+
+#: otib.php:26
+msgctxt "category"
+msgid "Add New Category"
+msgstr ""
+
+#: otib.php:27
+msgctxt "category"
+msgid "New Category Name"
+msgstr ""
+
+#: otib.php:28
+msgctxt "category"
+msgid "Separate categories with commas"
+msgstr ""
+
+#: otib.php:29
+msgctxt "category"
+msgid "Add or remove categories"
+msgstr ""
+
+#: otib.php:30
+msgctxt "category"
+msgid "Choose from the most used categories"
+msgstr ""
+
+#: otib.php:55 otib.php:66
+msgctxt "download"
+msgid "Downloads"
+msgstr ""
+
+#: otib.php:56
+msgctxt "download"
+msgid "Download"
+msgstr ""
+
+#: otib.php:57
+msgctxt "download"
+msgid "Add New"
+msgstr ""
+
+#: otib.php:58
+msgctxt "download"
+msgid "Add New Download"
+msgstr ""
+
+#: otib.php:59
+msgctxt "download"
+msgid "Edit Download"
+msgstr ""
+
+#: otib.php:60
+msgctxt "download"
+msgid "New Download"
+msgstr ""
+
+#: otib.php:61
+msgctxt "download"
+msgid "View Download"
+msgstr ""
+
+#: otib.php:62
+msgctxt "download"
+msgid "Search Downloads"
+msgstr ""
+
+#: otib.php:63
+msgctxt "download"
+msgid "No downloads found"
+msgstr ""
+
+#: otib.php:64
+msgctxt "download"
+msgid "No downloads found in Trash"
+msgstr ""
+
+#: otib.php:65
+msgctxt "download"
+msgid "Parent Download:"
+msgstr ""
+
+#: search.php:78
+msgid "Niets Gevonden"
+msgstr ""
+
+#: search.php:82
+msgid ""
+"Sorry, er zijn geen resultaten gevonden voor deze zoekopdracht. Probeer het "
+"opnieuw met andere zoekwoorden."
+msgstr ""
+
+#: taxonomies.php:6
+msgctxt "Taxonomy General Name"
+msgid "Personen"
+msgstr ""
+
+#: taxonomies.php:7
+msgctxt "Taxonomy Singular Name"
+msgid "Persoon"
+msgstr ""
+
+#: taxonomies.php:8
+msgid "Personen"
+msgstr ""
+
+#: taxonomies.php:9
+msgid "Alle personen"
+msgstr ""
+
+#: taxonomies.php:10
+msgid "Hoofdpersoon"
+msgstr ""
+
+#: taxonomies.php:11
+msgid "Hoofdpersoon:"
+msgstr ""
+
+#: taxonomies.php:12
+msgid "Nieuw persoon"
+msgstr ""
+
+#: taxonomies.php:13
+msgid "Voeg nieuwe persoon toe"
+msgstr ""
+
+#: taxonomies.php:14
+msgid "Bewerk persoon"
+msgstr ""
+
+#: taxonomies.php:15
+msgid "Persoon bijwerken"
+msgstr ""
+
+#: taxonomies.php:16
+msgid "Bekijk persoon"
+msgstr ""
+
+#: taxonomies.php:17
+msgid "Scheid personen met komma's"
+msgstr ""
+
+#: taxonomies.php:18
+msgid "Verwijder of voeg nieuwe persoon toe"
+msgstr ""
+
+#: taxonomies.php:19 taxonomies.php:58
+msgid "Kies uit de meest gebruikte"
+msgstr ""
+
+#: taxonomies.php:20
+msgid "Populaire personen"
+msgstr ""
+
+#: taxonomies.php:21
+msgid "Zoek personen"
+msgstr ""
+
+#: taxonomies.php:22 taxonomies.php:61
+msgid "Niet gevonden"
+msgstr ""
+
+#: taxonomies.php:23
+msgid "Geen personen"
+msgstr ""
+
+#: taxonomies.php:24
+msgid "Personenlijst"
+msgstr ""
+
+#: taxonomies.php:25
+msgid "Personenlijst navigatie"
+msgstr ""
+
+#: taxonomies.php:45
+msgctxt "Taxonomy General Name"
+msgid "Onderwerpen"
+msgstr ""
+
+#: taxonomies.php:46
+msgctxt "Taxonomy Singular Name"
+msgid "Onderwerp"
+msgstr ""
+
+#: taxonomies.php:47
+msgid "Onderwerpen"
+msgstr ""
+
+#: taxonomies.php:48
+msgid "Alle onderwerpen"
+msgstr ""
+
+#: taxonomies.php:49
+msgid "Hoofdonderwerp"
+msgstr ""
+
+#: taxonomies.php:50
+msgid "Hoofdonderwerp:"
+msgstr ""
+
+#: taxonomies.php:51
+msgid "Nieuw onderwerp"
+msgstr ""
+
+#: taxonomies.php:52
+msgid "Voeg nieuwe onderwerp toe"
+msgstr ""
+
+#: taxonomies.php:53
+msgid "Bewerk onderwerp"
+msgstr ""
+
+#: taxonomies.php:54
+msgid "Onderwerp bijwerken"
+msgstr ""
+
+#: taxonomies.php:55
+msgid "Bekijk onderwerp"
+msgstr ""
+
+#: taxonomies.php:56
+msgid "Scheid onderwerpen met komma's"
+msgstr ""
+
+#: taxonomies.php:57
+msgid "Verwijder of voeg nieuwe onderwerp toe"
+msgstr ""
+
+#: taxonomies.php:59
+msgid "Populaire onderwerpen"
+msgstr ""
+
+#: taxonomies.php:60
+msgid "Zoek onderwerpen"
+msgstr ""
+
+#: taxonomies.php:62
+msgid "Geen onderwerpen"
+msgstr ""
+
+#: taxonomies.php:63
+msgid "Onderwerpenlijst"
+msgstr ""
+
+#: taxonomies.php:64
+msgid "Onderwerpenlijst navigatie"
+msgstr ""
+
+#. Theme Name of the plugin/theme
+msgid "OTIB Trendfiles"
+msgstr ""
+
+#. Theme URI of the plugin/theme
+msgid "https://trendfiles.otib.nl"
+msgstr ""
+
+#. Description of the plugin/theme
+msgid "OTIB trendfiles WordPress theme."
+msgstr ""
+
+#. Author of the plugin/theme
+msgid "Johan van der Wijk"
+msgstr ""
+
+#. Author URI of the plugin/theme
+msgid "http://vanderwijk.nl"
+msgstr ""
+
+#. Template Name of the plugin/theme
+msgid "Downloads"
+msgstr ""
+
+#. Template Name of the plugin/theme
+msgid "Draaitabel bedrijven"
+msgstr ""
+
+#. Template Name of the plugin/theme
+msgid "Draaitabel beroepspraktijkvorming"
+msgstr ""
+
+#. Template Name of the plugin/theme
+msgid "Draaitabel leerlingen"
+msgstr ""
+
+#. Template Name of the plugin/theme
+msgid "Draaitabel werknemers"
+msgstr ""
+
+#. Template Name of the plugin/theme
+msgid "Leerwerkbanen"
+msgstr ""
+
+#. Template Name of the plugin/theme
+msgid "Werkvoorraad"
+msgstr ""
+
+#. Template Name of the plugin/theme
+msgid "Kerngegevens"
+msgstr ""
+
+#. Template Name of the plugin/theme
+msgid "Prognose"
+msgstr ""
+
+#. Template Name of the plugin/theme
+msgid "Prognoses Wervingsbehoefte Stap 1"
+msgstr ""
+
+#. Template Name of the plugin/theme
+msgid "Prognoses Wervingsbehoefte Stap 2"
+msgstr ""
+
+#. Template Name of the plugin/theme
+msgid "Prognoses Wervingsbehoefte Stap 3"
+msgstr ""
+
+#. Template Name of the plugin/theme
+msgid "Sidebar"
+msgstr ""
+
+#. Template Name of the plugin/theme
+msgid "Search Page"
+msgstr ""
+
+#. Template Name of the plugin/theme
+msgid "Sitemap"
+msgstr ""

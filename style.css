@@ -1272,3 +1272,21 @@ button:active {
 	position: relative;
 	top: 1px;
 }
+
+.searchfilters {
+	background-color: #2e8d9e;
+	font-size: 13px;
+	font-weight: 600;
+	/*color: #fff;*/
+}
+.searchfilters select {
+	border: 1px solid #fff;
+	margin: 0 10px 0 5px;
+}
+.scrollwrap {
+	overflow: scroll;
+	width: 5000px;
+}
+.scrollwrap .col.one-third {
+	width: 420px;
+}

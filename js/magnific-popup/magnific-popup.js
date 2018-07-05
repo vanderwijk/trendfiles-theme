@@ -17,4 +17,7 @@ jQuery(document).ready(function($) {
 			}
 		}
 	});
+	$('.lightbox-video').magnificPopup({ 
+		type: 'iframe'
+	});
 });
