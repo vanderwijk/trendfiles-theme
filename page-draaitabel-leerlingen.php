@@ -75,42 +75,22 @@ get_header(); ?>
 								<fieldset class="subgroup">
 									<label>Vakgebied</label>
 									<ul>
-										<li>
-											<label><input type="checkbox" name="id_vakgebied_vmbo[]" value="99" class="checkall">Techniek totaal</label>
-										</li>
-										<li>
-											<label><input type="checkbox" name="id_vakgebied_vmbo[]" value="9" class="ti-totaal">TI totaal</label>
-										</li>
-										<li>
-											<label><input type="checkbox" name="id_vakgebied_vmbo[]" value="1" class="ti">TI - elektrotechniek</label>
-										</li>
-										<li>
-											<label><input type="checkbox" name="id_vakgebied_vmbo[]" value="2" class="ti">TI - installatietechniek</label>
-										</li>
-										<li>
-											<label><input type="checkbox" name="id_vakgebied_vmbo[]" value="3" class="ti">TI - installektro</label>
-										</li>
-										<li>
-											<label><input type="checkbox" name="id_vakgebied_vmbo[]" value="4">Metaal</label>
-										</li>
-										<li>
-											<label><input type="checkbox" name="id_vakgebied_vmbo[]" value="5">Bouw</label>
-										</li>
-										<li>
-											<label><input type="checkbox" name="id_vakgebied_vmbo[]" value="6">Sectorbreed</label>
-										</li>
-										<li>
-											<label><input type="checkbox" name="id_vakgebied_vmbo[]" value="7">Overige techniek</label>
-										</li>
-										<li>
-											<label><input type="checkbox" name="id_vakgebied_vmbo[]" value="8">Intersectoraal techniek</label>
-										</li>
-										<li>
-											<label><input type="checkbox" name="id_vakgebied_vmbo[]" value="9">Doorlopende leerlijn vmbo-mbo techniek</label>
-										</li>
-										<li>
-											<label><input type="checkbox" name="id_vakgebied_vmbo[]" value="10">Produceren, installeren & energie</label>
-										</li>
+										<li><label><input type="checkbox" name="id_vakgebied_vmbo[]" value="99" class="checkall">Techniek totaal</label></li>
+										<li><label><input type="checkbox" name="id_vakgebied_vmbo[]" value="0" class="ti-totaal">TI totaal</label></li>
+										<li><label><input type="checkbox" name="id_vakgebied_vmbo[]" value="1" class= "ti">TI - elektrotechniek (gaat over in PIE)</label></li>
+										<li><label><input type="checkbox" name="id_vakgebied_vmbo[]" value="2" class= "ti">TI - installatietechniek (gaat over in PIE)</label></li>
+										<li><label><input type="checkbox" name="id_vakgebied_vmbo[]" value="3" class= "ti">TI - instalektro (gaat over in PIE)</label></li>
+										<li><label><input type="checkbox" name="id_vakgebied_vmbo[]" value="4"> Metaal (gaat over in PIE)</label></li>
+										<li><label><input type="checkbox" name="id_vakgebied_vmbo[]" value="5"> Bouw (gaat over in BWI)</label></li>
+										<li><label><input type="checkbox" name="id_vakgebied_vmbo[]" value="6"> Sectorbreed</label></li>
+										<li><label><input type="checkbox" name="id_vakgebied_vmbo[]" value="7"> Overige techniek</label></li>
+										<li><label><input type="checkbox" name="id_vakgebied_vmbo[]" value="8"> Intersectoraal techniek</label></li>
+										<li><label><input type="checkbox" name="id_vakgebied_vmbo[]" value="9"> Doorlopende leerlijn vmbo-mbo techniek</label></li>
+										<li><label><input type="checkbox" name="id_vakgebied_vmbo[]" value="10"> Profiel: Produceren Installeren & Energie (PIE)</label></li>
+										<li><label><input type="checkbox" name="id_vakgebied_vmbo[]" value="11"> Profiel: Bouwen, Wonen en Interieur (BWI)</label></li>
+										<li><label><input type="checkbox" name="id_vakgebied_vmbo[]" value="12"> Profiel: Mobiliteit en Transport</label></li>
+										<li><label><input type="checkbox" name="id_vakgebied_vmbo[]" value="13"> Profiel: Media, Vormgeving en ICT</label></li>
+										<li><label><input type="checkbox" name="id_vakgebied_vmbo[]" value="14"> Profiel: Maritiem en Techniek</label></li>
 									</ul>
 								</fieldset>
 								<fieldset class="subgroup">
