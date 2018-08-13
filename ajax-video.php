@@ -25,9 +25,9 @@ if ( isset($onderwerp ) && !empty($onderwerp) ) {
 $args = array(
 	'post_status' => 'publish',
 	'post_type' => array( 'quote' ),
-	'orderby' => 'date',
+	'orderby' => 'rand',
 	'order' => 'DESC',
-	'numberposts' => -1,
+	'posts_per_page' => -1,
 	/*'meta_query'	=> array(
 		'relation'		=> 'OR',
 		array(
@@ -69,7 +69,7 @@ if ( $query->have_posts() ) {
 			?>
 			<a href="<?php the_permalink(); ?>" data-fancybox data-type="iframe" data-src="<?php the_permalink(); ?>" title="<?php the_title_attribute(); ?>" class="lightbox-video article-link">
 				<div class="header">
-					<h2><?php echo $video->post_title; ?></h2>
+					<h2><?php the_title(); ?></h2>
 				</div>
 				<div class="figure">
 					<?php $image = wp_get_attachment_image_src( get_post_thumbnail_id( $video->ID ), 'thumb-video' ); ?>
@@ -89,7 +89,7 @@ if ( $query->have_posts() ) {
 } else { ?>
 	<div class="col one-third">
 		<div <?php post_class( 'block' ); ?>>
-			Niets gevonden
+			<p>Er zijn geen videos gevonden die voldoen aan de zoekcriteria.</p>
 		</div>
 	</div>
 <?php }

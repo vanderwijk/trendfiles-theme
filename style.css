@@ -1290,7 +1290,21 @@ button:active {
 .scrollwrap .col.one-third {
 	width: 420px;
 }
-/* Slider
+.scroll {
+	display: flex;
+	flex-wrap: nowrap;
+	overflow-y: hidden;
+	overflow-x: auto;
+	-webkit-overflow-scrolling: touch;
+	-ms-overflow-style: -ms-autohiding-scrollbar;
+}
+.scroll .col {
+	flex: 0 0 auto;
+}
+.scroll .col .block {
+	height: 95%;
+}
+/* Quotes
 ----------------------------------------------------------------------------------------------------*/
 .single-quote .header,
 .single-quote .navigation,
@@ -1304,4 +1318,20 @@ body.single-quote {
 .single-quote .wrapper {
 	box-shadow: none;
 	max-width: 100%;
+}
+.term-post-format-video #submit {
+	border: 1px solid #424244;
+	padding: 2px 10px;
+	background-color: #ddd;
+}
+.term-post-format-video .loading {
+	background-image: url('img/spinner-1.svg');
+	background-repeat: no-repeat;
+	background-position: right; /* For Safari */
+	background-position: calc(100% - 6px) center;
+	background-size: 14px 14px;
+	padding-right: 24px!important;
+}
+.term-post-format-video .pagination {
+	display: none;
 }

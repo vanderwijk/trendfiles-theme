@@ -132,4 +132,8 @@ screen and (device-width: 360px) and (device-height: 640px) and (-webkit-device-
 	.progress li:before {
 		content: none;
 	}
+	.searchfilters label {
+		display: block;
+		margin-bottom: 10px;
+	}
 }

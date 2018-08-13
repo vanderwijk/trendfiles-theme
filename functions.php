@@ -149,12 +149,16 @@ function include_scripts_styles () {
 			wp_enqueue_script( 'royalslider-config' );
 
 			wp_enqueue_script( 'map' );
+			wp_enqueue_script( 'fancybox' );
+			wp_enqueue_style( 'fancybox' );
 		}
 
 		// if ( is_single() || is_page() ) {
 			wp_enqueue_script( 'magnific-popup' );
 			wp_enqueue_script( 'magnific-popup-config' );
 			wp_enqueue_style( 'magnific-popup' );
+			wp_enqueue_script( 'fancybox' );
+			wp_enqueue_style( 'fancybox' );
 		//}
 
 		if ( is_page( 'kerngegevens' ) ) {

@@ -36,6 +36,30 @@
 			<div class="intro">
 				<?php the_excerpt(); ?>
 			</div>
+			<?php $quotes = get_posts(array(
+				'post_type' => 'quote',
+				'meta_query' => array(
+					array(
+						'key' => 'video',
+						'value' => get_the_ID(),
+						'compare' => '=',
+					)
+				)
+			)); ?>
+			<?php if ( $quotes ) { ?>
+			<div class="quotes">
+				<h2>Quotes</h2>
+				<ul>
+				<?php foreach( $quotes as $quote ): ?>
+					<li>
+						<a href="<?php echo get_permalink( $quote -> ID ); ?>>" data-fancybox data-type="iframe" data-src="<?php echo get_permalink( $quote -> ID ); ?>">
+							<?php echo get_the_title( $quote -> ID ); ?>
+						</a>
+					</li>
+				<?php endforeach; ?>
+				<ul>
+			</div>
+			<?php } ?>
 		</div>
 	</div>
 	<div class="col two-thirds">

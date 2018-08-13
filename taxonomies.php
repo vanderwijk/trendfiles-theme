@@ -77,3 +77,42 @@ function onderwerp_taxonomy() {
 
 }
 add_action( 'init', 'onderwerp_taxonomy', 0 );
+
+function rubriek_taxonomy() {
+
+	$labels = array(
+		'name'                       => _x( 'Rubrieken', 'Taxonomy General Name', 'trendfiles' ),
+		'singular_name'              => _x( 'Rubriek', 'Taxonomy Singular Name', 'trendfiles' ),
+		'menu_name'                  => __( 'Rubrieken', 'trendfiles' ),
+		'all_items'                  => __( 'Alle rubrieken', 'trendfiles' ),
+		'parent_item'                => __( 'Hoofdrubriek', 'trendfiles' ),
+		'parent_item_colon'          => __( 'Hoofdrubriek:', 'trendfiles' ),
+		'new_item_name'              => __( 'Nieuw rubriek', 'trendfiles' ),
+		'add_new_item'               => __( 'Voeg nieuwe rubriek toe', 'trendfiles' ),
+		'edit_item'                  => __( 'Bewerk rubriek', 'trendfiles' ),
+		'update_item'                => __( 'Rubriek bijwerken', 'trendfiles' ),
+		'view_item'                  => __( 'Bekijk rubriek', 'trendfiles' ),
+		'separate_items_with_commas' => __( 'Scheid rubrieken met komma\'s', 'trendfiles' ),
+		'add_or_remove_items'        => __( 'Verwijder of voeg nieuwe rubriek toe', 'trendfiles' ),
+		'choose_from_most_used'      => __( 'Kies uit de meest gebruikte', 'trendfiles' ),
+		'popular_items'              => __( 'Populaire rubrieken', 'trendfiles' ),
+		'search_items'               => __( 'Zoek rubrieken', 'trendfiles' ),
+		'not_found'                  => __( 'Niet gevonden', 'trendfiles' ),
+		'no_terms'                   => __( 'Geen rubrieken', 'trendfiles' ),
+		'items_list'                 => __( 'Rubriekenlijst', 'trendfiles' ),
+		'items_list_navigation'      => __( 'Rubriekenlijst navigatie', 'trendfiles' ),
+	);
+	$args = array(
+		'labels'                     => $labels,
+		'hierarchical'               => true,
+		'public'                     => true,
+		'show_ui'                    => true,
+		'show_admin_column'          => true,
+		'show_in_nav_menus'          => true,
+		'show_tagcloud'              => false,
+		'show_in_rest'               => true
+	);
+	register_taxonomy( 'rubriek', array( 'post' ), $args );
+
+}
+add_action( 'init', 'rubriek_taxonomy', 0 );

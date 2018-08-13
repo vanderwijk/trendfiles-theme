@@ -14,23 +14,24 @@ jQuery(function($) {
 			dataType   : "html",
 			url        : "/wp-content/themes/trendfiles-theme/ajax-video.php",
 			beforeSend : function(){  
-				console.log('click');
-				console.log(persoon);
+				jQuery('#submit').addClass('loading');
 			},
 			success    : function(data){
-				$( ".scrollwrap" ).html(data);
+				$( ".scroll" ).html(data);
 				console.log(data);
 			},
 			complete   : function(data){
 				console.log('complete');
+				jQuery('#submit').removeClass('loading');
+
 			},
 		});
 	}
 
-	$('#click').click(function() {
+	$('#submit').click(function() {
 		load_posts();
 	});
 
-	load_posts();
+	//load_posts();
 
 });
