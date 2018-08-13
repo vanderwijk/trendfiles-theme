@@ -14,7 +14,7 @@
 			Zoek onderwerp: 
 			<?php $onderwerpen = get_terms( array(
 				'taxonomy' => 'onderwerp',
-				'hide_empty' => false,
+				'hide_empty' => true,
 			) ); ?>
 			<select id="onderwerp">
 				<option value="">Onderwerp</option>
@@ -26,7 +26,7 @@
 			Zoek persoon: 
 			<?php $personen = get_terms( array(
 				'taxonomy' => 'persoon',
-				'hide_empty' => false,
+				'hide_empty' => true,
 			) ); ?>
 			<select id="persoon">
 				<option value="">Persoon</option>
