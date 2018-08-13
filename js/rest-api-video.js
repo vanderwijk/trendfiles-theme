@@ -1,16 +1,21 @@
 jQuery(function($) {
 
 	var load_posts = function() {
+
+		onderwerp = $( "#onderwerp" ).val();
+		persoon = $( '#persoon' ).val();
+
 		$.ajax({
-			type       : "GET",
+			type       : "POST",
 			data       : {
-				onderwerp: '30',
-				persoon: '33'
+				onderwerp: onderwerp,
+				persoon: persoon
 			},
 			dataType   : "html",
 			url        : "/wp-content/themes/trendfiles-theme/ajax-video.php",
 			beforeSend : function(){  
 				console.log('click');
+				console.log(persoon);
 			},
 			success    : function(data){
 				$( ".scrollwrap" ).html(data);

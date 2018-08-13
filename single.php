@@ -14,9 +14,4 @@ get_header(); ?>
 	<?php endwhile; // end of the loop. ?>
 </article>
 
-<nav class="post-navigation" role="navigation">
-	<?php previous_post_link('%link'); ?> 
-	<?php next_post_link('%link'); ?> 
-</nav>
-
 <?php get_footer(); ?>

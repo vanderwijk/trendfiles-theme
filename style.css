@@ -1290,3 +1290,18 @@ button:active {
 .scrollwrap .col.one-third {
 	width: 420px;
 }
+/* Slider
+----------------------------------------------------------------------------------------------------*/
+.single-quote .header,
+.single-quote .navigation,
+.single-quote .footer {
+	display: none;
+}
+body.single-quote {
+	background-color: #fff;
+	margin: 0;
+}
+.single-quote .wrapper {
+	box-shadow: none;
+	max-width: 100%;
+}

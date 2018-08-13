@@ -16,8 +16,8 @@
 				'taxonomy' => 'onderwerp',
 				'hide_empty' => false,
 			) ); ?>
-			<select>
-				<option>Onderwerp</option>
+			<select id="onderwerp">
+				<option value="">Onderwerp</option>
 				<?php foreach ( $onderwerpen as $onderwerp ) {
 					echo '<option value="' . $onderwerp -> term_id .'">' . $onderwerp -> name . '</option>';
 				} ?>
@@ -28,8 +28,8 @@
 				'taxonomy' => 'persoon',
 				'hide_empty' => false,
 			) ); ?>
-			<select>
-				<option>Persoon</option>
+			<select id="persoon">
+				<option value="">Persoon</option>
 				<?php foreach ( $personen as $persoon ) {
 					echo '<option value="' . $persoon -> term_id .'">' . $persoon -> name . '</option>';
 				} ?>

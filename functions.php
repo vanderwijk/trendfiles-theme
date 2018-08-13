@@ -107,6 +107,7 @@ function include_scripts_styles () {
 		wp_register_style( 'royalslider-default', get_template_directory_uri() . '/js/royalslider/skins/default/rs-default.css' );
 
 		wp_register_style( 'magnific-popup', get_template_directory_uri() . '/vendor/dimsemenov/magnific-popup/dist/magnific-popup.css' );
+		wp_register_style( 'fancybox', get_template_directory_uri() . '/js/fancybox-master/dist/jquery.fancybox.min.css' );
 		wp_register_style( 'jquery-ui-smoothness', '//code.jquery.com/ui/1.10.4/themes/smoothness/jquery-ui.css' );
 		wp_register_style( 'jquery-ui-slider-pips', get_template_directory_uri() . '/js/slider-pips/jquery-ui-slider-pips.css' );
 
@@ -121,6 +122,7 @@ function include_scripts_styles () {
 		wp_register_script( 'magnific-popup', get_template_directory_uri() . '/vendor/dimsemenov/magnific-popup/dist/jquery.magnific-popup.min.js', array( 'jquery' ), '1.1.0', true );
 		wp_register_script( 'magnific-popup-config', get_template_directory_uri() . '/js/magnific-popup/magnific-popup.js', array( 'magnific-popup' ), '1.0', true );
 		wp_register_script( 'map', get_template_directory_uri() . '/js/map.js', array( 'jquery' ), '1.0', true );
+		wp_register_script( 'fancybox', get_template_directory_uri() . '/js/fancybox-master/dist/jquery.fancybox.min.js', array( 'jquery' ), '3.3.5', true );
 		wp_register_script( 'map-draaitabel', get_template_directory_uri() . '/js/map-draaitabel.js', array( 'jquery' ), '1.0', true );
 		wp_register_script( 'jquery-ui', '//code.jquery.com/ui/1.10.4/jquery-ui.js', array( 'jquery' ), '1.10.4', true );
 		wp_register_script( 'jquery-ui-slider-pips', get_template_directory_uri() . '/js/slider-pips/jquery-ui-slider-pips.min.js', array( 'jquery-ui' ), '1.5.5', true );
@@ -211,7 +213,11 @@ function include_scripts_styles () {
 		wp_enqueue_script( 'matchheight' );
 		wp_enqueue_script( 'initialise' );
 
-		wp_enqueue_script( 'rest-api-video' );
+		if ( is_archive() && is_tax() ) {
+			wp_enqueue_script( 'fancybox' );
+			wp_enqueue_style( 'fancybox' );
+			wp_enqueue_script( 'rest-api-video' );
+		}
 
 	}
 
@@ -283,7 +289,7 @@ function se35728943_change_post_per_page( $params, $request ) {
 	$params['per_page']['maximum'] = $max;
 	return $params;
 }
-add_filter( 'rest_post_collection_params', 'se35728943_change_post_per_page', 10, 2 );
+//add_filter( 'rest_post_collection_params', 'se35728943_change_post_per_page', 10, 2 );
 
 
 function my_posts_where( $where ) {
