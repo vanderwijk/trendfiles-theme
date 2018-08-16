@@ -38,6 +38,9 @@
 			</div>
 			<?php $quotes = get_posts(array(
 				'post_type' => 'quote',
+				'posts_per_page' => -1,
+				'orderby' => 'date',
+				'order' => 'ASC',
 				'meta_query' => array(
 					array(
 						'key' => 'video',
@@ -51,10 +54,11 @@
 				<h2>Quotes</h2>
 				<ul>
 				<?php foreach( $quotes as $quote ): ?>
+				<?php $tijdcode = get_field( 'tijdcode', $quote->ID ); ?>
 					<li>
-						<a href="<?php echo get_permalink( $quote -> ID ); ?>>" data-fancybox data-type="iframe" data-src="<?php echo get_permalink( $quote -> ID ); ?>">
+						<a href="<?php echo get_permalink( $quote -> ID ); ?>" data-fancybox data-type="iframe" data-src="<?php echo get_permalink( $quote -> ID ); ?>">
 							<?php echo get_the_title( $quote -> ID ); ?>
-						</a>
+						</a> (<?php echo $tijdcode; ?>)
 					</li>
 				<?php endforeach; ?>
 				<ul>

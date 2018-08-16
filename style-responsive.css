@@ -27,6 +27,9 @@ screen and (device-width: 360px) and (device-height: 640px) and (-webkit-device-
 	.col.two-thirds {
 		width: 100%;
 	}
+	.scroll .col.one-third {
+		width: 75%;
+	}
 	.col.one-fourth,
 	.col.one-fifth {
 		width: 50%;
@@ -135,5 +138,11 @@ screen and (device-width: 360px) and (device-height: 640px) and (-webkit-device-
 	.searchfilters label {
 		display: block;
 		margin-bottom: 10px;
+	}
+	.home .kerngegevens,
+	.home .factsheets {
+		width: 100%;
+		float: none;
+		overflow: hidden;
 	}
 }

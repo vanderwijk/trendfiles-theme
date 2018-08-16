@@ -88,7 +88,6 @@ $args = array(
 	'post_status' => 'publish',
 	'post_type' => array( 'post' ),
 	'order' => 'DESC',
-
 	'tax_query' => array(
 		array(
 			'taxonomy' => 'rubriek',

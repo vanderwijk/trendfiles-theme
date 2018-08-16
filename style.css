@@ -1291,6 +1291,7 @@ button:active {
 	width: 420px;
 }
 .scroll {
+	background-color: #ddd;
 	display: flex;
 	flex-wrap: nowrap;
 	overflow-y: hidden;
@@ -1303,6 +1304,9 @@ button:active {
 }
 .scroll .col .block {
 	height: 95%;
+}
+.scroll .col.one-third {
+	width: 30%;
 }
 /* Quotes
 ----------------------------------------------------------------------------------------------------*/
@@ -1334,4 +1338,52 @@ body.single-quote {
 }
 .term-post-format-video .pagination {
 	display: none;
+}
+
+.home .kerngegevens {
+	width: 50%;
+	float:right;
+}
+.home .factsheets {
+	width: 50%;float: left;
+}
+
+
+.home .kerngegevens {
+	width: 50%;
+	float:right;
+}
+
+.home .kerngegevens-knoppen li {
+	display: inline-block;
+	}
+.home .kerngegevens-knoppen li a {
+text-indent: -1000px;
+display: inline-block;
+padding: 25px 0 0 120px;
+}
+
+.home .publicatie {
+	display: flex;
+	margin-bottom: 10px;
+}
+
+.home .publicatie .text {
+	width: 80%;
+}
+.home .publicatie figure {
+	width: 20%;
+	margin: 0 10px 0 0;
+}
+.home .publicatie img {
+	-webkit-box-shadow: 0px 0px 5px 1px rgba(0, 0, 0, .1);
+	-moz-box-shadow: 0px 0px 5px 1px rgba(0, 0, 0, .1);
+	box-shadow: 0px 0px 5px 1px rgba(0, 0, 0, .1);
+	width: 100%;
+
+	
+
+}
+.home .publicatie h2 {
+
 }
