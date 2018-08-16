@@ -62,7 +62,7 @@
 					}
 			} ?>
 
-			<p><strong><a href="/categorie/video/">Bekijk hier alle publicaties >></a></strong></p>
+			<p><strong><a href="/downloads-en-links/">Bekijk hier alle publicaties >></a></strong></p>
 		</div>
 	</div>
 
