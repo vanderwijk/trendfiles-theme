@@ -73,7 +73,13 @@
 			<?php
 				$video_args = array(
 					'numberposts' => 4,
-					'category_name' => 'video'
+					'tax_query' => array(
+						array(
+							'taxonomy' => 'post_format',
+							'field' => 'slug',
+							'terms' => array( 'post-format-video' )
+						)
+					)
 				);
 				$video_posts = get_posts( $video_args );
 				foreach( $video_posts as $post ) {
