@@ -1387,3 +1387,36 @@ padding: 25px 0 0 120px;
 .home .publicatie h2 {
 
 }
+
+.video-listing {
+	overflow: hidden;
+}
+.video-thumb {
+	width: calc(100% / 3 * 1);
+float: left;
+margin-bottom: 10px;
+}
+.video-thumb a {
+	display: block;
+}
+.video-thumb .figure {
+	margin: 0 0 10px 0;
+}
+.video-thumb h2 {
+	margin-bottom: 5px;
+}
+.video-thumb .video-excerpt {
+	display: none;
+}
+
+.video-thumb:first-child {
+	width: calc(100% / 3 * 2);
+	padding-right: 10px;
+}
+.video-thumb:first-child .video-excerpt {
+	display: block;
+}
+.quotes {
+	background-color: #ddd;
+	padding: 5px;
+}

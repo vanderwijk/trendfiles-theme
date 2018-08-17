@@ -145,4 +145,7 @@ screen and (device-width: 360px) and (device-height: 640px) and (-webkit-device-
 		float: none;
 		overflow: hidden;
 	}
+	.home .video-thumb {
+		width: 100%;
+	}
 }

@@ -68,30 +68,38 @@
 
 	<div class="col two-thirds">
 		<div class="block">
-			<a href="/categorie/video/" class="category videos">Video's</a>
-
+			<a href="/type/video/" class="category videos">Video's</a>
+			<div class="video-listing">
 			<?php
 				$video_args = array(
-					'numberposts' => 1,
+					'numberposts' => 4,
 					'category_name' => 'video'
 				);
 				$video_posts = get_posts( $video_args );
 				foreach( $video_posts as $post ) {
 					setup_postdata( $post );
-					the_content();
+					echo '<div class="video-thumb">';
+					echo '<a href="' . get_the_permalink() . '">';
+					echo '<div class="figure">';
+					the_post_thumbnail( 'large' );
+					echo '<img class="icon-play" src="/wp-content/themes/otib/img/play-circle.svg" alt="Video afspelen">';
+					echo '</div>';
 					echo '<h2>';
-					echo '<a href="' . get_the_permalink() . '">';
+	
 					the_title();
-					echo '</a>';
+	
 					echo '</h2>';
-					echo '<a href="' . get_the_permalink() . '">';
+					echo '<div class="video-excerpt">';
 					the_excerpt();
+					echo '</div>';
 					echo '</a>';
+					echo '</div>';
 				}
 				wp_reset_postdata();
 				?>
+				</div>
 
-			<p><strong><a href="/categorie/video/">Bekijk hier alle video's >></a></strong></p>
+			<p><strong><a href="/type/video/">Bekijk hier alle video's >></a></strong></p>
 		</div>
 	</div>
 
