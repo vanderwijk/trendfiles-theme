@@ -210,7 +210,7 @@ function include_scripts_styles () {
 		wp_enqueue_style( 'font-droid-sans', '//fonts.googleapis.com/css?family=Droid+Sans:700,400', array(), null, 'screen' );
 		wp_enqueue_style( 'font-roboto', '//fonts.googleapis.com/css?family=Roboto:700,400,300', array(), null, 'screen' );
 		wp_enqueue_style( 'dashicons', get_stylesheet_uri(), array( 'dashicons' ), '1.0' );
-		wp_enqueue_style( 'style', get_stylesheet_uri(), array(), '1.1.4' );
+		wp_enqueue_style( 'style', get_stylesheet_uri(), array(), '1.1.5' );
 		wp_enqueue_style( 'responsive', get_template_directory_uri() . '/style-responsive.css', '1.1.4' );
 
 		wp_enqueue_script( 'modernizr' );
