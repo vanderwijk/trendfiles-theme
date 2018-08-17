@@ -9,12 +9,72 @@ Version: 1.1
 
 /* Reset
 ----------------------------------------------------------------------------------------------------*/
-*, *:before, *:after {
+
+*,
+*:before,
+*:after {
 	-moz-box-sizing: border-box;
 	-webkit-box-sizing: border-box;
 	box-sizing: border-box;
 }
-html, body, div, span, applet, object, iframe, h1, h2, h3, h4, h5, h6, p, blockquote, pre, a, abbr, acronym, address, big, cite, code, del, dfn, em, font, ins, kbd, q, s, samp, small, strike, strong, sub, sup, tt, var, dl, dt, dd, ol, ul, li, fieldset, form, label, legend, table, caption, tbody, tfoot, thead, tr, th, td {
+
+html,
+body,
+div,
+span,
+applet,
+object,
+iframe,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p,
+blockquote,
+pre,
+a,
+abbr,
+acronym,
+address,
+big,
+cite,
+code,
+del,
+dfn,
+em,
+font,
+ins,
+kbd,
+q,
+s,
+samp,
+small,
+strike,
+strong,
+sub,
+sup,
+tt,
+var,
+dl,
+dt,
+dd,
+ol,
+ul,
+li,
+fieldset,
+form,
+label,
+legend,
+table,
+caption,
+tbody,
+tfoot,
+thead,
+tr,
+th,
+td {
 	border: 0;
 	color: #424244;
 	font-family: 'Droid Sans', sans-serif;
@@ -26,184 +86,273 @@ html, body, div, span, applet, object, iframe, h1, h2, h3, h4, h5, h6, p, blockq
 	padding: 0;
 	vertical-align: baseline;
 }
+
 :focus {
 	outline: 0;
 }
+
 body {
 	line-height: 1;
 }
-ol, ul {
+
+ol,
+ul {
 	list-style: none;
 }
+
 table {
 	border-collapse: separate;
 	border-spacing: 0;
 }
-caption, th, td {
+
+caption,
+th,
+td {
 	font-weight: normal;
 	text-align: left;
 }
-blockquote:before, blockquote:after, q:before, q:after {
+
+blockquote:before,
+blockquote:after,
+q:before,
+q:after {
 	content: "";
 }
-blockquote, q {
+
+blockquote,
+q {
 	quotes: "" "";
 }
+
 a img {
 	border: 0;
 }
+
 a {
 	text-decoration: none;
 }
-article, aside, details, figcaption, figure, footer, header, hgroup, menu, nav, section {
+
+article,
+aside,
+details,
+figcaption,
+figure,
+footer,
+header,
+hgroup,
+menu,
+nav,
+section {
 	display: block;
 }
+
 /* Base
 ----------------------------------------------------------------------------------------------------*/
+
 body {
 	background: #ccc;
 	margin: 20px;
 }
+
 .wrapper {
 	background: #fff;
 	margin: 0 auto;
 	width: 100%;
 	max-width: 1320px;
-
 	-webkit-box-shadow: 0px 0px 5px 1px rgba(0, 0, 0, .1);
 	-moz-box-shadow: 0px 0px 5px 1px rgba(0, 0, 0, .1);
 	box-shadow: 0px 0px 5px 1px rgba(0, 0, 0, .1);
 }
+
 em {
 	font-style: italic;
 	color: #4e4e4e;
 }
+
 strong {
 	font-weight: bold;
 }
+
 small {
-	font-size: .846em; /* 11px */
+	font-size: .846em;
+	/* 11px */
 }
+
 .content .nopadding {
 	padding: 0;
 }
+
 .alignleft {
 	float: left;
 	margin: .5em 1em .5em 0;
 }
+
 .alignright {
 	float: right;
 	margin: .5em 0 .5em 1em;
 }
+
 .entry-content p {
 	line-height: 1.5em;
 }
+
 .entry-content h4 {
 	font-weight: bold;
 	margin: 1em 0 .8em 0;
 	line-height: 1em;
 }
+
 .entry-content ul {
 	list-style: disc;
 	margin: 0 0 1.5em 0;
 	padding: 0;
 }
+
 .entry-content li {
 	list-style-type: square;
 	margin: .25em 0 .25em 1.5em;
 }
+
 .entry-content ol {
-	margin:0 0 1.5em 1.5em;
-	padding:0;
+	margin: 0 0 1.5em 1.5em;
+	padding: 0;
 }
+
 .entry-content a {
 	text-decoration: underline;
 	color: #2e8d9e;
 }
+
 /* Grid
 ----------------------------------------------------------------------------------------------------*/
+
 .row:before,
 .row:after {
 	content: " ";
 	display: table;
 }
+
 .row:after {
 	clear: both;
 }
+
 .row {
-	width: 100%; /* 1320px */
+	width: 100%;
+	/* 1320px */
 	*zoom: 1;
 }
+
 .col {
 	float: left;
-	width: 100%; /* 1320px */
+	width: 100%;
+	/* 1320px */
 }
+
 .col.half {
-	width: 50%; /* 660px */
+	width: 50%;
+	/* 660px */
 }
+
 .col.one-third {
-	width: 33.333333333333333%; /* 440px */
-	width: 33.3%; /* Safari 10 bugfix  */
+	width: 33.333333333333333%;
+	/* 440px */
+	width: 33.3%;
+	/* Safari 10 bugfix  */
 }
+
 .col.one-fourth {
-	width: 25%; /* 315px */
+	width: 25%;
+	/* 315px */
 }
+
 .col.one-fifth {
-	width: 20%; /* 264px */
+	width: 20%;
+	/* 264px */
 }
+
 .col.two-thirds {
-	width: 66.666666666666667%; /* 880px */
+	width: 66.666666666666667%;
+	/* 880px */
 }
+
 .block {
 	float: left;
 	overflow: hidden;
 	position: relative;
-	margin: 0.7575757575757576%; /* 10px */
-	padding: 0.7575757575757576%; /* 10px */
-	width: 98.48484848484848%; /* 1300px */
+	margin: 0.7575757575757576%;
+	/* 10px */
+	padding: 0.7575757575757576%;
+	/* 10px */
+	width: 98.48484848484848%;
+	/* 1300px */
 }
+
 .half .block {
-	margin: 1.136363636363636%; /* 10px */
-	padding: 1.136363636363636%; /* 10px */
-	width: 97.72727272727273%; /* 640px */
+	margin: 1.136363636363636%;
+	/* 10px */
+	padding: 1.136363636363636%;
+	/* 10px */
+	width: 97.72727272727273%;
+	/* 640px */
 }
+
 .one-third .block {
-	margin: 2.272727272727273%; /* 10px */
-	padding: 2.272727272727273%; /* 10px */
-	width: 95.45454545454545%; /* 420px */
+	margin: 2.272727272727273%;
+	/* 10px */
+	padding: 2.272727272727273%;
+	/* 10px */
+	width: 95.45454545454545%;
+	/* 420px */
 }
+
 .one-fourth .block {
-	margin: 3.03030303030303%; /* 10px */
-	padding: 3.03030303030303%; /* 10px */
-	width: 96.96969696969697%; /* 420px */
+	margin: 3.03030303030303%;
+	/* 10px */
+	padding: 3.03030303030303%;
+	/* 10px */
+	width: 96.96969696969697%;
+	/* 420px */
 }
+
 .one-fifth .block {
-	margin: 3.787878787878788%; /* 10px */
-	padding: 3.787878787878788%; /* 10px */
-	width: 96.21212121212121%; /* 420px */
+	margin: 3.787878787878788%;
+	/* 10px */
+	padding: 3.787878787878788%;
+	/* 10px */
+	width: 96.21212121212121%;
+	/* 420px */
 }
+
 .two-thirds .block {
-	margin: 1.25%; /* 10px */
-	padding: 1.25%; /* 10px */
-	width: 97.5%; /* 420px */
+	margin: 1.25%;
+	/* 10px */
+	padding: 1.25%;
+	/* 10px */
+	width: 97.5%;
+	/* 420px */
 }
 
 .flex {
 	display: flex;
 	flex-wrap: wrap;
 }
+
 .flex .one-third,
 .flex .two-thirds {
-	 display: flex;
+	display: flex;
 }
+
 /* Responsive video
 ----------------------------------------------------------------------------------------------------*/
+
 .responsive-video-wrapper {
 	position: relative;
-	padding-bottom: 56.25%; /* 16:9 */
+	padding-bottom: 56.25%;
+	/* 16:9 */
 	height: 0;
 	margin-bottom: 10px;
 }
+
 .responsive-video-wrapper iframe {
 	position: absolute;
 	top: 0;
@@ -211,31 +360,40 @@ small {
 	width: 100%;
 	height: 100%;
 }
+
 /* Kaart
 ----------------------------------------------------------------------------------------------------*/
+
 .home .map {
 	float: left;
 	margin-right: 20px;
 }
+
 .home .regio {
 	display: none;
 }
+
 #custom_post_widget-12 p {
 	margin-bottom: 0;
 }
+
 #custom_post_widget-12 ul {
 	margin-bottom: 10px;
 }
+
 /* Grid styles
 ----------------------------------------------------------------------------------------------------*/
+
 .block a.category-link,
 .block a.article-link {
 	display: block;
 }
+
 .block .rsContent a {
 	border-bottom: 1px solid #238d9e;
 	color: #238d9e;
 }
+
 .block p,
 .block ul,
 .block ol {
@@ -244,97 +402,130 @@ small {
 	line-height: 20px;
 	margin-bottom: 10px;
 }
+
 .block ol {
-	list-style:decimal;
+	list-style: decimal;
 	padding-left: 20px;
 }
+
 .block ol li {
 	margin-bottom: 5px;
 }
+
 .block .figure {
 	background-color: #000;
 	display: inline-block;
 	line-height: 0;
-	margin: 1.2565% 0 2.513% 0; /* 10px */
+	margin: 1.2565% 0 2.513% 0;
+	/* 10px */
 	position: relative;
 }
+
 .block .figure .thumbnail {
 	height: auto;
 	width: 100%;
 }
+
 .block a:hover img {
 	opacity: 0.9;
 }
+
 .block .figure img {
 	opacity: 1;
 }
+
 .one-third .block .category,
 .one-third .block .category-link {
-	margin-bottom: 5.026%; /* 20px */
+	margin-bottom: 5.026%;
+	/* 20px */
 }
+
 .two-thirds .block .category,
 .two-thirds .block .category-link {
-	margin-bottom: 2.513%; /* 20px */
+	margin-bottom: 2.513%;
+	/* 20px */
 }
+
 /*.block .header,*/
+
 .block .intro {
-	padding-bottom: 2.513%; /* 10px */
+	padding-bottom: 2.513%;
+	/* 10px */
 }
+
 .block h1 {
 	font-size: 15px;
 	font-weight: 400;
 	line-height: 20px;
 }
+
 .block h2 {
 	font-size: 15px;
 	font-weight: 400;
 	line-height: 20px;
 }
+
 .block h3 {
 	font-size: 13px;
 	font-weight: 700;
 	letter-spacing: 1px;
 	line-height: 20px;
 }
+
 /* Homepage
 ----------------------------------------------------------------------------------------------------*/
+
 .home .one-third .block,
 .home .two-thirds .block,
 .archive .one-third .block,
 .search .one-third .block {
 	border: 1px solid #ddd;
 }
+
 /* Format Quote (alleen quote) -> interview
 ----------------------------------------------------------------------------------------------------*/
+
 .block blockquote p {
 	font-family: Roboto, sans-serif;
-	font-size: 1.313em; /* 21px */
+	font-size: 1.313em;
+	/* 21px */
 	font-weight: 300;
 	line-height: 1.429em;
 	text-align: center;
 }
+
 .format-quote .intro {
 	padding: 10% 0 10% 0;
 	text-align: center;
 }
+
 .block.format-quote blockquote {
-	margin-bottom: 1em; /* 16px */
+	margin-bottom: 1em;
+	/* 16px */
 }
+
 /* Format Aside (quote met afbeelding) -> column
 ----------------------------------------------------------------------------------------------------*/
+
 .format-aside .block blockquote p,
 .block.format-aside blockquote p {
 	text-align: left;
 }
+
 .block.format-aside .header {
-	padding-bottom: 5.026%; /* 20px */
+	padding-bottom: 5.026%;
+	/* 20px */
 }
+
 .format-aside .block .figure,
 .block.format-aside .figure {
 	float: left;
-	margin-right: 5.026%; /* 20px */
-	width: 27.639%; /* 110px */
+	margin-right: 5.026%;
+	/* 20px */
+	width: 27.639%;
+	/* 110px */
 }
+
 .format-aside .block .intro,
 .block.format-aside .intro {
 	float: left;
@@ -353,90 +544,104 @@ small {
 	padding: 0 0 5px 0;
 	text-transform: uppercase;
 }
+
 .page .entry-title.collapsed {
 	border-bottom: 4px solid #939598;
 	color: #939598;
 	cursor: pointer;
 }
+
 .page .entry-title.collapsed:after {
 	margin-left: 10px;
 	content: '▼';
 }
+
 .hide {
 	display: none;
 }
+
 .single .article .block a.category {
 	text-decoration: none;
 }
+
 .category-innovatie .category,
 .artikelen.category {
 	border-bottom: 4px solid #896377;
 	color: #896377;
 }
+
 .category-personeel-en-organisatie .category {
 	border-bottom: 4px solid #d4be59;
 	color: #d4be59;
 }
+
 .category-ondernemerschap .category,
 .factsheets.category {
 	border-bottom: 4px solid #a29c5a;
 	color: #a29c5a;
 }
+
 .category-opleiden .category {
 	border-bottom: 4px solid #688f8c;
 	color: #688f8c;
 }
+
 .category-arbeidsmarkt .category,
 .infographics.category {
 	border-bottom: 4px solid #6d8293;
 	color: #6d8293;
 }
 
-
-
 .one-third .block.category-innovatie {
 	border: 1px solid #b8a1ad;
 }
+
 .one-third .block.category-personeel-en-organisatie {
 	border: 1px solid #e5d89b;
 }
+
 .one-third .block.category-ondernemerschap {
 	border: 1px solid #c7c49c;
 }
+
 .one-third .block.category-opleiden {
 	border: 1px solid #a4bcba;
 }
+
 .one-third .block.category-arbeidsmarkt {
 	border: 1px solid #a7b4be;
 }
-
-
 
 .category-arbeidsmarkt h1,
 .category-arbeidsmarkt h2,
 .category-arbeidsmarkt blockquote p {
 	color: #6d8293;
 }
+
 .category-innovatie h1,
 .category-innovatie h2,
 .category-innovatie blockquote p {
 	color: #896377;
 }
+
 .category-opleiden h1,
 .category-opleiden h2,
 .category-opleiden blockquote p {
 	color: #688f8c;
 }
+
 .category-personeel-en-organisatie h1,
 .category-personeel-en-organisatie h2,
 .category-personeel-en-organisatie blockquote p {
 	color: #d4be59;
 }
+
 .category-ondernemerschap h1,
 .category-ondernemerschap h2,
 .category-ondernemerschap blockquote p {
 	color: #a29c5a;
 }
+
 .icon-play {
 	height: auto;
 	left: 40%;
@@ -444,16 +649,20 @@ small {
 	top: 35%;
 	width: 20%;
 }
+
 /* Kerngegevens
 ----------------------------------------------------------------------------------------------------*/
+
 .page-kerngegevens h2 {
 	color: #238d9e;
 	margin-bottom: 1em;
 }
+
 .kerngegevens-knoppen li {
 	list-style: none;
 	margin: 1em 0;
 }
+
 .kerngegevens-knoppen li a {
 	color: #238d9e;
 	background: url('/wp-content/themes/otib/img/iconen-kerngegevens.png') no-repeat;
@@ -462,25 +671,32 @@ small {
 	height: 75px;
 	display: block;
 }
+
 .kerngegevens-knoppen li.bedrijven a {
 	background-position: 0 3px;
 }
+
 .kerngegevens-knoppen li.omzet-en-werkvoorraad a {
 	background-position: 0 -130px;
 }
+
 .kerngegevens-knoppen li.werknemers a {
 	background-position: 0 -252px;
 }
+
 .kerngegevens-knoppen li.leerlingen a {
 	background-position: 0 -380px;
 }
+
 .kerngegevens-knoppen li.leerwerkbanen a {
 	background-position: 0 -462px;
 }
+
 .page-kerngegevens .kerngegevens-downloads li {
 	list-style: none;
 	margin: 1em 0;
 }
+
 .page-kerngegevens .kerngegevens-downloads li a {
 	color: #238d9e;
 	background: url('/wp-content/themes/otib/img/iconen-kerngegevens-2.png') no-repeat;
@@ -489,41 +705,53 @@ small {
 	display: block;
 	border: 1px solid #ccc;
 }
+
 .page-kerngegevens .kerngegevens-downloads li:nth-child(1) a,
 .page-kerngegevens .kerngegevens-downloads li:nth-child(2) a {
 	background-position: 10px 7px;
 }
+
 .page-kerngegevens .kerngegevens-downloads li:nth-child(3) a {
 	background-position: 10px -99px;
 }
+
 .page-kerngegevens .kerngegevens-downloads li:nth-child(4) a {
 	background-position: 10px -200px;
 }
+
 .page-kerngegevens .kerngegevens-downloads li:nth-child(5) a {
 	background-position: 10px -250px;
 }
+
 .page-kerngegevens .regio {
 	display: none;
 }
 
 /* Sharing
 ----------------------------------------------------------------------------------------------------*/
+
 .single .article .sharing li {
 	display: inline-block;
-	margin: 0 .625em 0 0; /* 10px */
+	margin: 0 .625em 0 0;
+	/* 10px */
 }
+
 .single .article .sharing li .dashicons {
 	font-size: 24px;
 	line-height: 24px;
 }
+
 .single .article .sharing a {
 	text-decoration: none;
 }
+
 /* Single
 ----------------------------------------------------------------------------------------------------*/
+
 .single .block .category-link {
 	margin-bottom: 0;
 }
+
 .alignnone,
 .alignleft,
 .alignright,
@@ -531,35 +759,47 @@ small {
 	max-width: 100%;
 	height: auto;
 }
+
 .single blockquote {
-	padding: .625em 0; /* 10px */
+	padding: .625em 0;
+	/* 10px */
 }
+
 .single .category-prognoses h1 {
 	color: #2e8d9e;
 }
+
 .single .article a {
 	text-decoration: underline;
 }
+
 .single .article a:hover {
 	text-decoration: dotted;
 }
+
 .single .post-navigation {
 	display: none;
 }
+
 .single .postmeta {
 	display: none;
 }
+
 /* Prognoses
 ----------------------------------------------------------------------------------------------------*/
+
 .single .category-prognoses .figure {
 	margin: 2em 0;
 }
+
 #custom_post_widget-6 {
 	border: 1px solid #ddd;
 	padding: 2.27273%;
 }
+
 /* Downloads
 ----------------------------------------------------------------------------------------------------*/
+
 .page-template-archive-download-php h2 {
 	clear: both;
 	border-bottom: 1px solid #ccc;
@@ -569,82 +809,108 @@ small {
 	font-weight: 400;
 	letter-spacing: 1px;
 	line-height: 20px;
-	margin: 0.7575757575757576% 1.515151515151515%;/* 10px 20px */
-	padding: 0.7575757575757576%; /* 10px */
-	width: 98.48484848484848%; /* 1300px */
-	word-break:break-all;
+	margin: 0.7575757575757576% 1.515151515151515%;
+	/* 10px 20px */
+	padding: 0.7575757575757576%;
+	/* 10px */
+	width: 98.48484848484848%;
+	/* 1300px */
+	word-break: break-all;
 }
+
 .block.download {
 	position: relative;
 	padding-bottom: 50px
 }
+
 .block.download .link-wrap {
 	bottom: 0;
 	margin-bottom: 10px;
 	position: absolute;
 }
+
 .block.download .link-wrap p {
 	margin-bottom: 0;
 }
+
 .block.download a {
 	border-bottom: 1px solid #2e8d9e;
 	color: #2e8d9e;
 }
+
 /* Links */
+
 .blogroll li {
 	display: inline-block;
 	margin: 1.515151515151515%;
 }
+
 /* Header
 ----------------------------------------------------------------------------------------------------*/
+
 .logo-trendfiles {
 	background: url('/wp-content/themes/otib/img/logo-trendfiles.png') no-repeat;
 	background-size: 23.125em 3.250em;
 	float: left;
-	height: 3.250em; /* 52px */
+	height: 3.250em;
+	/* 52px */
 	overflow: hidden;
 	text-indent: -9999px;
-	width: 23.125em; /* 370px */
+	width: 23.125em;
+	/* 370px */
 }
+
 .svg .logo-trendfiles {
 	background: url('/wp-content/themes/otib/img/logo-trendfiles.svg') no-repeat;
 	background-size: 23.125em 3.250em;
 }
+
 .logo-otib {
 	background: url('/wp-content/themes/otib/img/logo-otib.png') no-repeat;
 	background-size: 3.333em 3.667em;
 	float: right;
-	height: 2.75em; /* 44px */
-	margin-left: 0.833em; /* 10px */
+	height: 2.75em;
+	/* 44px */
+	margin-left: 0.833em;
+	/* 10px */
 	overflow: hidden;
 	text-indent: -9999px;
-	width: 2.5em; /* 40px */
+	width: 2.5em;
+	/* 40px */
 }
+
 .svg .logo-otib {
 	background: url('/wp-content/themes/otib/img/logo-otib.svg') no-repeat;
 	background-size: 2.5em 2.75em;
 }
+
 .utilities {
 	float: right;
-	font-size: .750em; /* 12px */
+	font-size: .750em;
+	/* 12px */
 }
+
 .utilities .search {
 	float: right;
 	overflow: hidden;
 }
+
 .utilities ul {
 	margin-bottom: 5px;
 	overflow: hidden;
 }
+
 .utilities .menu li {
 	float: left;
 	position: relative;
 	text-transform: uppercase;
 	border-right: 1px solid #ccc;
 }
+
 .utilities .menu li:last-child {
 	border-right: none;
 }
+
 .utilities .menu a {
 	color: #ccc;
 	text-decoration: none;
@@ -653,21 +919,27 @@ small {
 	transition: color .2s ease-in;
 	padding: 5px;
 }
+
 .utilities .menu a:hover {
 	color: #2e8d9e;
 }
+
 .utilities .menu .twitter a:before {
 	-webkit-font-smoothing: antialiased;
-	font: normal 1.250em/0 'dashicons'; /* 15px */
+	font: normal 1.250em/0 'dashicons';
+	/* 15px */
 	content: "\f301";
 	padding-right: 3px;
 	vertical-align: -3px;
 }
+
 .utilities .menu .twitter a:hover {
 	color: #2299CC;
 }
+
 /* Searchform
 ----------------------------------------------------------------------------------------------------*/
+
 .search input[type=text] {
 	border: 1px solid #ccc;
 	color: #ccc;
@@ -676,34 +948,38 @@ small {
 	padding: 1px 0 1px 4px;
 	text-transform: uppercase;
 	width: 160px;
-
-	-webkit-appearance:none;
-	-webkit-border-radius:0;
+	-webkit-appearance: none;
+	-webkit-border-radius: 0;
 }
+
 .search input[type=text]:focus {
 	border: 1px solid #2e8d9e;
 	color: #4e4e4e;
 	text-transform: lowercase;
 }
+
 .search input[type=submit] {
 	background: #fff;
 	border: none;
 	border-left: 1px solid #ccc;
 	color: #ccc;
-	font: normal 1.250em/1em 'dashicons'; /* 15px */
+	font: normal 1.250em/1em 'dashicons';
+	/* 15px */
 	padding: 0 0 0 5px;
 	position: relative;
 	top: 2px;
-
-	-webkit-appearance:none;
-	-webkit-border-radius:0;
+	-webkit-appearance: none;
+	-webkit-border-radius: 0;
 }
+
 .search label {
 	display: inline-block;
 	min-width: 100px;
 }
+
 /* Breadcrubs
 ----------------------------------------------------------------------------------------------------*/
+
 .breadcrumb {
 	float: left;
 	font-family: Roboto, sans-serif;
@@ -711,14 +987,18 @@ small {
 	font-weight: 400;
 	letter-spacing: 1px;
 }
+
 .breadcrumb span {
 	border-bottom: 1px solid #424244;
 }
+
 .breadcrumb span.breadcrumb_last {
 	border-bottom: 1px solid #fff;
 }
+
 /* Pagination
 ----------------------------------------------------------------------------------------------------*/
+
 .pagination {
 	float: right;
 	font-family: Roboto, sans-serif;
@@ -726,96 +1006,127 @@ small {
 	font-weight: 400;
 	letter-spacing: 1px;
 }
+
 .pagination .current {
 	color: #ccc;
 }
+
 .pagination a,
 .pagination span {
-	margin: 0 .3125em; /* 5px */
+	margin: 0 .3125em;
+	/* 5px */
 }
+
 .pagination .nextpostslink {
 	border-left: 1px solid #424244;
-	padding-left : .625em; /* 5px */
+	padding-left: .625em;
+	/* 5px */
 }
+
 .pagination .previouspostslink {
 	border-right: 1px solid #424244;
-	padding-right : .625em; /* 5px */
+	padding-right: .625em;
+	/* 5px */
 }
+
 /* Navigation
 ----------------------------------------------------------------------------------------------------*/
+
 .navigation {
 	background-color: #424244;
 	clear: both;
-	margin: 0 auto 1.250em auto; /* 20px */
-	min-height: 2.125em; /* 34px */
+	margin: 0 auto 1.250em auto;
+	/* 20px */
+	min-height: 2.125em;
+	/* 34px */
 	width: 100%;
 }
+
 .navigation .dashicons {
 	color: #fff;
 	line-height: 34px;
 }
+
 .navigation .hidden {
 	display: none;
 }
+
 .navigation .home a,
 .navigation .search a {
 	padding: 0 20px;
 	line-height: 34px;
 }
+
 /* Innovatie */
+
 ul.nav-menu ul .menu-item-1495 a:hover,
 .nav-menu ul ul .menu-item-1495 a:hover {
 	background-color: #896377;
 	color: #301b28;
 }
+
 /* Personeel en Organisatie */
+
 ul.nav-menu ul .menu-item-1498 a:hover,
 .nav-menu ul ul .menu-item-1498 a:hover {
 	background-color: #d4be59;
 	color: #353206;
 }
+
 /* Ondernemerschap */
+
 ul.nav-menu ul .menu-item-1496 a:hover,
 .nav-menu ul ul .menu-item-1496 a:hover {
 	background-color: #a29c5a;
 	color: #2e300e;
 }
+
 /* Opleiden */
+
 ul.nav-menu ul .menu-item-1497 a:hover,
 .nav-menu ul ul .menu-item-1497 a:hover {
 	background-color: #688f8c;
 	color: #122a29;
 }
+
 /* Arbeidsmarkt */
+
 ul.nav-menu ul .menu-item-1494 a:hover,
 .nav-menu ul ul .menu-item-1494 a:hover {
 	background-color: #6d8293;
 	color: #17232b;
 }
+
 ul.nav-menu,
-div.nav-menu > ul {
+div.nav-menu>ul {
 	margin: 0;
 	padding: 0 0.78125%;
 }
+
 .nav-menu li {
 	display: inline-block;
 	position: relative;
 }
+
 .nav-menu li a {
 	color: #fff;
 	display: block;
 	font-family: Roboto, sans-serif;
-	font-size: 0.875em; /* 14px */
+	font-size: 0.875em;
+	/* 14px */
 	font-weight: 400;
 	line-height: 1;
-	padding: 0.714em 1.429em; /* 10px 20px */
+	padding: 0.714em 1.429em;
+	/* 10px 20px */
 	text-decoration: none;
 }
-.nav-menu li:hover > a,
+
+.nav-menu li:hover>a,
 .nav-menu li a:hover {
 	/*background-color: #2e8d9e;
 	color: #00252d;*/
 }
+
 .nav-menu .sub-menu,
 .nav-menu .children {
 	background-color: #424244;
@@ -824,61 +1135,78 @@ div.nav-menu > ul {
 	position: absolute;
 	z-index: 99999;
 }
+
 .nav-menu .sub-menu ul,
 .nav-menu .children ul {
 	left: 100%;
 	top: 0;
 }
+
 ul.nav-menu ul a,
 .nav-menu ul ul a {
-/*	color: #00252d;*/
+	/*	color: #00252d;*/
 	margin: 0;
 	width: 200px;
 }
+
 /* Innovatie */
+
 ul.nav-menu ul .menu-item-991 a:hover,
 .nav-menu ul ul .menu-item-991 a:hover {
 	background-color: #896377;
 	color: #301b28;
 }
+
 ul.nav-menu ul a:hover,
 .nav-menu ul ul a:hover {
-	background-color: #db572f; /* deze optie wijzigen voor categoriekleuren! */
+	background-color: #db572f;
+	/* deze optie wijzigen voor categoriekleuren! */
 }
-ul.nav-menu li:hover > ul,
-.nav-menu ul li:hover > ul {
+
+ul.nav-menu li:hover>ul,
+.nav-menu ul li:hover>ul {
 	display: block;
 }
-.nav-menu .current_page_item > a,
-.nav-menu .current-menu-item > a,
-.nav-menu .current-page-ancestor > a,
-.nav-menu .current-menu-ancestor > a {
+
+.nav-menu .current_page_item>a,
+.nav-menu .current-menu-item>a,
+.nav-menu .current-page-ancestor>a,
+.nav-menu .current-menu-ancestor>a {
 	background: url('/wp-content/themes/otib/img/cirkel.svg') no-repeat 10px 14px;
 }
-.nav-menu .current-menu-ancestor.innovatie > a {
+
+.nav-menu .current-menu-ancestor.innovatie>a {
 	background: url('/wp-content/themes/otib/img/cirkel-innovatie.svg') no-repeat 10px 14px;
 }
-.nav-menu .current-menu-ancestor.personeel-en-organisatie > a {
+
+.nav-menu .current-menu-ancestor.personeel-en-organisatie>a {
 	background: url('/wp-content/themes/otib/img/cirkel-personeel-en-organisatie.svg') no-repeat 10px 14px;
 }
-.nav-menu .current-menu-ancestor.ondernemerschap > a {
+
+.nav-menu .current-menu-ancestor.ondernemerschap>a {
 	background: url('/wp-content/themes/otib/img/cirkel-ondernemerschap.svg') no-repeat 10px 14px;
 }
-.nav-menu .current-menu-ancestor.opleiden > a {
+
+.nav-menu .current-menu-ancestor.opleiden>a {
 	background: url('/wp-content/themes/otib/img/cirkel-opleiden.svg') no-repeat 10px 14px;
 }
-.nav-menu .current-menu-ancestor.arbeidsmarkt > a {
+
+.nav-menu .current-menu-ancestor.arbeidsmarkt>a {
 	background: url('/wp-content/themes/otib/img/cirkel-arbeidsmarkt.svg') no-repeat 10px 14px;
 }
-.nav-menu .menu-item-has-children .current_page_item > a,
-.nav-menu .menu-item-has-children .current-menu-item > a {
+
+.nav-menu .menu-item-has-children .current_page_item>a,
+.nav-menu .menu-item-has-children .current-menu-item>a {
 	background: none;
 }
+
 .menu-toggle {
 	display: none;
 }
+
 /* Draaitabel
 ----------------------------------------------------------------------------------------------------*/
+
 .page-draaitabel h2 {
 	background: url('/wp-content/themes/otib/img/leerlingen.png') no-repeat 0 0;
 	background-size: 142px 50px;
@@ -889,6 +1217,7 @@ ul.nav-menu li:hover > ul,
 	padding-top: 5px;
 	margin-bottom: 30px;
 }
+
 .page-draaitabel .entry-content h3 {
 	border-bottom: 1px solid #ccc;
 	font-size: 14px;
@@ -896,13 +1225,16 @@ ul.nav-menu li:hover > ul,
 	line-height: 24px;
 	margin-bottom: 15px;
 }
+
 .page-draaitabel .entry-content ul {
 	margin-bottom: 20px;
 	padding-top: 10px;
 }
+
 .page-draaitabel .entry-content li {
 	list-style: none;
 }
+
 .page-draaitabel label {
 	color: #424244;
 	font-size: 13px;
@@ -910,6 +1242,7 @@ ul.nav-menu li:hover > ul,
 	margin-bottom: 10px;
 	vertical-align: top;
 }
+
 .page-draaitabel .entry-content input {
 	color: #424244;
 	margin-bottom: 5px;
@@ -917,6 +1250,7 @@ ul.nav-menu li:hover > ul,
 	margin-right: 10px;
 	vertical-align: bottom;
 }
+
 .page-draaitabel .entry-content input[type=submit],
 .page-draaitabel .entry-content input[type=reset] {
 	background: none;
@@ -927,41 +1261,52 @@ ul.nav-menu li:hover > ul,
 	letter-spacing: 1px;
 	text-decoration: underline;
 }
+
 .page-draaitabel .entry-content input[type=submit] {
 	color: #2e8d9e;
 }
+
 .page-draaitabel .group {
 	display: none;
 }
+
 .page-draaitabel fieldset {
 	border: 1px solid #ccc;
 }
+
 .page-draaitabel fieldset fieldset {
 	border: none;
 	float: left;
 	margin: 10px 4% 0;
 }
+
 .page-draaitabel .entry-content fieldset fieldset ul {
 	margin-bottom: 0;
 }
+
 .page-draaitabel fieldset fieldset li {
 	margin-left: 0;
 }
+
 .page-draaitabel .gender li {
 	display: inline-block;
 	margin-right: 1%;
 	text-align: center;
 	padding-top: 100px;
 }
+
 .page-draaitabel .gender:hover {
 	cursor: pointer;
 }
+
 .page-draaitabel .gender input {
 	display: none;
 }
+
 .page-draaitabel .gender label {
 	display: block;
 }
+
 .page-draaitabel .man-vrouw.licht {
 	background: url('/wp-content/themes/otib/img/man-vrouw-licht.png') no-repeat;
 	background-size: 57px 100px;
@@ -969,44 +1314,54 @@ ul.nav-menu li:hover > ul,
 	min-width: 57px;
 	margin-right: 70px;
 }
+
 .page-draaitabel .man.licht {
 	background: url('/wp-content/themes/otib/img/man-licht.png') no-repeat;
 	background-size: 39px 100px;
 	background-position: top center;
 }
+
 .page-draaitabel .vrouw.licht {
 	background: url('/wp-content/themes/otib/img/vrouw-licht.png') no-repeat;
 	background-size: 40px 100px;
 	background-position: top center;
 }
+
 .page-draaitabel .man-vrouw.donker {
 	background: url('/wp-content/themes/otib/img/man-vrouw-donker.png') no-repeat;
 	background-size: 57px 100px;
 	background-position: top center;
 }
+
 .page-draaitabel .man.donker {
 	background: url('/wp-content/themes/otib/img/man-donker.png') no-repeat;
 	background-size: 39px 100px;
 	background-position: top center;
 }
+
 .page-draaitabel .vrouw.donker {
 	background: url('/wp-content/themes/otib/img/vrouw-donker.png') no-repeat;
 	background-size: 40px 100px;
 	background-position: top center;
 }
+
 .page-draaitabel .ui-slider-horizontal.ui-slider-pips {
 	margin: 1.25em 1.25em 2.5em 1.25em;
 }
-.page-draaitabel .periode li{
+
+.page-draaitabel .periode li {
 	display: inline-block;
 }
+
 .page-draaitabel .regio,
 .page-draaitabel .kaart {
 	display: inline-block;
 }
+
 .page-draaitabel .regio ul label {
 	display: inline-block;
 }
+
 .page-draaitabel .vakgebied li {
 	background-repeat: no-repeat;
 	display: inline-block;
@@ -1015,59 +1370,75 @@ ul.nav-menu li:hover > ul,
 	padding-top: 89px;
 	width: 120px;
 }
+
 .page-draaitabel .vakgebied:hover {
 	cursor: pointer;
 }
+
 .page-draaitabel .vakgebied input {
 	display: none;
 }
+
 .page-draaitabel .vakgebied label {
 	display: block;
 }
+
 .page-draaitabel .vakgebied li.alle-vakgebieden {
 	margin-right: 70px;
 }
+
 .page-draaitabel .alle-vakgebieden {
 	background-image: url('/wp-content/themes/otib/img/bedrijf-alle-vakgebieden-licht.png');
 	background-size: 122px 79px;
 }
+
 .page-draaitabel .electrotechniek {
 	background-image: url('/wp-content/themes/otib/img/bedrijf-electrotechniek-licht.png');
 	background-size: 100px 79px;
 	background-position: 20px 0;
 }
+
 .page-draaitabel .installatietechniek {
 	background-image: url('/wp-content/themes/otib/img/bedrijf-installatietechniek-licht.png');
 	background-size: 100px 79px;
 }
+
 .page-draaitabel .koeltechniek {
 	background-image: url('/wp-content/themes/otib/img/bedrijf-koeltechniek-licht.png');
 	background-size: 100px 79px;
 	background-position: 10px 0;
 }
+
 .page-draaitabel .alle-vakgebieden.donker {
 	background-image: url('/wp-content/themes/otib/img/bedrijf-alle-vakgebieden-donker.png');
 }
+
 .page-draaitabel .electrotechniek.donker {
 	background-image: url('/wp-content/themes/otib/img/bedrijf-electrotechniek-donker.png');
 }
+
 .page-draaitabel .installatietechniek.donker {
 	background-image: url('/wp-content/themes/otib/img/bedrijf-installatietechniek-donker.png');
 }
+
 .page-draaitabel .koeltechniek.donker {
 	background-image: url('/wp-content/themes/otib/img/bedrijf-koeltechniek-donker.png');
 }
+
 .page-draaitabel .check {
 	color: #00d900;
 	display: none;
 }
+
 .page-draaitabel .false {
 	color: #ff0000;
 	display: none;
 }
+
 .page-draaitabel .periode {
 	display: none;
 }
+
 .page-template-page-draaitabel-beroepspraktijkvorming .regio,
 .page-template-page-draaitabel-beroepspraktijkvorming .niveau,
 .page-template-page-draaitabel-beroepspraktijkvorming .overeenkomsten,
@@ -1079,44 +1450,57 @@ ul.nav-menu li:hover > ul,
 .page-template-page-draaitabel-werknemers .functies {
 	margin-bottom: 20px;
 }
+
 .page-template-page-draaitabel-beroepspraktijkvorming .ui-slider-pips.ui-slider-horizontal {
 	margin: 40px 40px 60px 40px;
 }
+
 .page-template-page-draaitabel-beroepspraktijkvorming .ui-slider-pips .ui-slider-label {
 	margin-left: -32px;
 }
+
 .page-draaitabel label {
 	display: block;
 }
+
 label.noord-nederland {
 	color: #cbb65c;
 }
+
 label.gelderland-overijssel {
 	color: #5A8885;
 }
+
 label.midden-nederland {
 	color: #5E788E;
 }
+
 label.noord-holland {
 	color: #A05739;
 }
+
 label.zuid-holland {
 	color: #896377;
 }
+
 label.zuid-nederland {
 	color: #A39D59;
 }
+
 /* progress-navigatie
 ----------------------------------------------------------------------------------------------------*/
+
 .progress ul {
 	border-top: 1px solid #d9d9d9;
 }
+
 .progress li {
 	float: left;
 	margin-top: -12px;
 	padding-left: 15px;
 	width: 32%;
 }
+
 .progress li:before {
 	color: #9d9d9d;
 	content: "\25CF";
@@ -1125,73 +1509,93 @@ label.zuid-nederland {
 	position: relative;
 	top: 0;
 }
+
 .progress h2 {
 	color: #9d9d9d;
 	font-family: Roboto, sans-serif;
 	font-weight: 700;
 }
+
 .progress h3 {
 	color: #9d9d9d;
 	font-family: Roboto, sans-serif;
 	font-weight: 400;
 	letter-spacing: 0;
 }
+
 .progress li.active:before {
 	color: #424244;
 }
+
 .progress li.active h2 {
 	color: #2e8d9e;
 }
+
 .progress li.active h3 {
 	color: #424244;
 }
+
 /* Prognose
 ----------------------------------------------------------------------------------------------------*/
+
 h2.grafiektitel {
 	color: #2e8d9e;
 	font-weight: 700;
 	text-align: center;
 }
+
 .grafiektitel sup {
 	color: #238d9e;
 	font-weight: 400;
 }
+
 .filter h4 {
 	margin: 15px 0;
 }
+
 .filter button {
 	background-color: #9d9d9d;
 	border: 1px solid #9d9d9d;
 }
+
 .filter button.selected {
 	background-color: #2e8d9e;
 	border: 1px solid #2e8d9e;
 }
+
 svg {
 	max-width: 100%;
 	height: auto;
 	display: block;
 	margin: 0 auto;
 }
+
 .next-previous {
 	list-style: none;
 }
+
 .next-previous li {
 	display: inline-block;
 	margin: 20px 0 0 0;
 }
+
 .next-previous a {
 	color: #2e8d9e;
 	text-decoration: none;
 }
+
 .next-previous .next {
 	float: right;
 }
+
 /* Slider
 ----------------------------------------------------------------------------------------------------*/
+
 .rsSlide h2 {
-	margin-bottom: 0.714em; /* 10px */
+	margin-bottom: 0.714em;
+	/* 10px */
 }
+
 .rsDefault,
 .rsDefault .rsOverflow,
 .rsDefault .rsSlide,
@@ -1199,6 +1603,7 @@ svg {
 .rsDefault .rsThumbs {
 	background: #fff;
 }
+
 .block .rsBullets {
 	position: absolute;
 	z-index: 35;
@@ -1207,21 +1612,21 @@ svg {
 	width: 95.4545%;
 	height: auto;
 	margin: 10px 2.27273%;
-
 	background: #fff;
-
 	text-align: left;
 	line-height: 8px;
 	overflow: hidden;
 }
+
 .block .rsBullet {
 	width: 8px;
 	height: 8px;
 	display: inline-block;
-	*display:inline;
-	*zoom:1;
+	*display: inline;
+	*zoom: 1;
 	padding: 0 6px 5px 6px;
 }
+
 .block .rsBullet span {
 	display: block;
 	width: 8px;
@@ -1229,9 +1634,11 @@ svg {
 	border-radius: 50%;
 	background: #ccc;
 }
+
 .block .rsBullet.rsNavSelected span {
 	background-color: #424244;
 }
+
 .rsDefault img.alignright {
 	height: auto;
 	margin: 0 0 .769em .769em;
@@ -1241,33 +1648,40 @@ svg {
 .chart {
 	position: relative;
 }
+
 .chart .overlay {
 	background-size: cover;
 	height: 100%;
 	position: absolute;
 	width: 100%;
 }
+
 .chart .overlay.technische-staf {
-	background-image: url( '/wp-content/themes/trendfiles-theme/img/technische-staf.png' );
+	background-image: url('/wp-content/themes/trendfiles-theme/img/technische-staf.png');
 }
+
 .chart .overlay.overige-functies {
-	background-image: url( '/wp-content/themes/trendfiles-theme/img/overige-functies.png' );
+	background-image: url('/wp-content/themes/trendfiles-theme/img/overige-functies.png');
 }
+
 .chart .overlay.zelfstandig-monteur {
-	background-image: url( '/wp-content/themes/trendfiles-theme/img/zelfstandig-monteur.png' );
+	background-image: url('/wp-content/themes/trendfiles-theme/img/zelfstandig-monteur.png');
 }
+
 .chart .overlay.leerling-monteur {
-	background-image: url( '/wp-content/themes/trendfiles-theme/img/leerling-monteur.png' );
+	background-image: url('/wp-content/themes/trendfiles-theme/img/leerling-monteur.png');
 }
+
 button {
 	margin: 0 15px 15px 0;
 	background-color: #2e8d9e;
 	border-radius: 3px;
 	border: 1px solid #2e8d9e;
 	color: #fff;
-		font-family: 'Droid Sans', sans-serif;
-		padding: 5px 10px;
+	font-family: 'Droid Sans', sans-serif;
+	padding: 5px 10px;
 }
+
 button:active {
 	position: relative;
 	top: 1px;
@@ -1279,17 +1693,21 @@ button:active {
 	font-weight: 600;
 	/*color: #fff;*/
 }
+
 .searchfilters select {
 	border: 1px solid #fff;
 	margin: 0 10px 0 5px;
 }
+
 .scrollwrap {
 	overflow: scroll;
 	width: 5000px;
 }
+
 .scrollwrap .col.one-third {
 	width: 420px;
 }
+
 .scroll {
 	background-color: #ddd;
 	display: flex;
@@ -1299,68 +1717,89 @@ button:active {
 	-webkit-overflow-scrolling: touch;
 	-ms-overflow-style: -ms-autohiding-scrollbar;
 }
+
 .scroll .col {
 	flex: 0 0 auto;
 }
+
 .scroll .col .block {
 	height: 95%;
 }
+
 .scroll .col.one-third {
 	width: 30%;
 }
+
 /* Quotes
 ----------------------------------------------------------------------------------------------------*/
+
 .single-quote .header,
 .single-quote .navigation,
 .single-quote .footer {
 	display: none;
 }
+
 body.single-quote {
 	background-color: #fff;
 	margin: 0;
 }
+
 .single-quote .wrapper {
 	box-shadow: none;
 	max-width: 100%;
 }
+
 .term-post-format-video #submit {
 	border: 1px solid #424244;
 	padding: 2px 10px;
 	background-color: #ddd;
 }
+
 .term-post-format-video .loading {
 	background-image: url('img/spinner-1.svg');
 	background-repeat: no-repeat;
-	background-position: right; /* For Safari */
+	background-position: right;
+	/* For Safari */
 	background-position: calc(100% - 6px) center;
 	background-size: 14px 14px;
-	padding-right: 24px!important;
+	padding-right: 24px !important;
 }
+
 .term-post-format-video .pagination {
 	display: none;
 }
 
+.quotes {
+	background-color: #ddd;
+	padding: 5px;
+}
+
+/* Trends in cijfers blok op homepage
+----------------------------------------------------------------------------------------------------*/
+
 .home .kerngegevens {
 	width: 50%;
-	float:right;
+	float: right;
 }
+
 .home .factsheets {
-	width: 50%;float: left;
+	width: 50%;
+	float: left;
 }
-
 
 .home .kerngegevens {
 	width: 50%;
-	float:right;
+	float: right;
 }
 
 .home .kerngegevens-knoppen li {
 	display: inline-block;
-	}
+}
+
 .home .kerngegevens-knoppen li a {
-text-indent: -1000px;
-display: inline-block;
-padding: 25px 0 0 120px;
+	text-indent: -1000px;
+	display: inline-block;
+	padding: 25px 0 0 120px;
 }
 
 .home .publicatie {
@@ -1371,52 +1810,55 @@ padding: 25px 0 0 120px;
 .home .publicatie .text {
 	width: 80%;
 }
+
 .home .publicatie figure {
 	width: 20%;
 	margin: 0 10px 0 0;
 }
+
 .home .publicatie img {
 	-webkit-box-shadow: 0px 0px 5px 1px rgba(0, 0, 0, .1);
 	-moz-box-shadow: 0px 0px 5px 1px rgba(0, 0, 0, .1);
 	box-shadow: 0px 0px 5px 1px rgba(0, 0, 0, .1);
 	width: 100%;
-
-	
-
 }
-.home .publicatie h2 {
 
-}
+/* Video blok op homepage
+----------------------------------------------------------------------------------------------------*/
 
 .video-listing {
 	overflow: hidden;
 }
+
 .video-thumb {
-	width: calc(100% / 3 * 1);
-float: left;
-margin-bottom: 10px;
+	float: left;
+	margin-bottom: 10px;
+	width: 25%;
+	width: calc(100% / 4 * 1);
 }
+
 .video-thumb a {
 	display: block;
 }
+
 .video-thumb .figure {
 	margin: 0 0 10px 0;
 }
+
 .video-thumb h2 {
 	margin-bottom: 5px;
 }
+
 .video-thumb .video-excerpt {
 	display: none;
 }
 
 .video-thumb:first-child {
-	width: calc(100% / 3 * 2);
 	padding-right: 10px;
+	width: 75%;
+	width: calc(100% / 4 * 4);
 }
+
 .video-thumb:first-child .video-excerpt {
 	display: block;
-}
-.quotes {
-	background-color: #ddd;
-	padding: 5px;
 }
