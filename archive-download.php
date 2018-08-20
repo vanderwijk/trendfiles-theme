@@ -24,9 +24,28 @@ foreach( $categories as $category ) { ?>
 	$downloads = new WP_Query( 'post_type=download&download_categories=' . $category -> slug . '&post_status=publish&posts_per_page=-1' );
 	if ( $downloads -> have_posts() ) { 
 		while ( $downloads -> have_posts() ) { 
-			$downloads -> the_post(); ?>
+			$downloads -> the_post();
+			// Toon alle bijgesloten Word en PDF attachments
+			$args = array(
+				'post_type' => 'attachment',
+				'post_mime_type' => 'application/pdf,application/msword',
+				'numberposts' => -1,
+				'post_status' => null,
+				'post_parent' => $post -> ID,
+				'orderby' => 'menu_order',
+				'order' => 'desc'
+			);
+			$attachments = get_posts($args);
+			if ($attachments) {
+				foreach ($attachments as $attachment) {
+					$attachment_url = wp_get_attachment_url($attachment -> ID);
+				}
+			} ?>
 			<div class="col one-fifth">
 				<div class="block download <?php echo $category -> slug; ?>">
+				<?php if ($attachment_url) { ?>
+				<a href="<?php echo $attachment_url; ?>">
+				<?php } ?>
 					<figure class="figure">
 						<?php the_post_thumbnail( 'download-cover' ); ?>
 					</figure>
@@ -37,28 +56,12 @@ foreach( $categories as $category ) { ?>
 						<?php the_excerpt(); ?>
 					</div>
 					<div class="link-wrap">
-					<?php // Toon alle bijgesloten Word en PDF attachments
-						$args = array(
-							'post_type' => 'attachment',
-							'post_mime_type' => 'application/pdf,application/msword',
-							'numberposts' => -1,
-							'post_status' => null,
-							'post_parent' => $post -> ID,
-							'orderby' => 'menu_order',
-							'order' => 'desc'
-						);
-						$attachments = get_posts($args);
-						if ($attachments) {
-							foreach ($attachments as $attachment) {
-								echo '<p><a href="'.wp_get_attachment_url($attachment -> ID).'">Download</a></p>';
-							}
-						}
-
+					<?php
 						// Toon de download url uit de post meta
-						if ( get_post_meta($post -> ID, 'download_url', true) !== '' ) {
+						/*if ( get_post_meta($post -> ID, 'download_url', true) !== '' ) {
 							$download_url = get_post_meta($post -> ID, 'download_url', true);
 							echo '<p><a href="' . $download_url . '" rel="external">Bestel</a></p>';
-						};
+						};*/
 						
 						// Toon de themanummer url uit de post meta
 						if ( get_post_meta($post -> ID, 'themanummer_url', true) !== '' ) {
@@ -66,11 +69,13 @@ foreach( $categories as $category ) { ?>
 							echo '<p><a href="' . $themanummer_url . '" rel="external">Bekijk</a></p>';
 						}; ?>
 					</div>
-
+				<?php if ($attachment_url) { ?>
+				</a>
+				<?php } ?>
 				</div>
 			</div>
 			<?php
-		} 
+		}
 	}
 }
 wp_reset_postdata(); ?>
