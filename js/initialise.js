@@ -25,11 +25,18 @@ jQuery(document).ready(function($) {
 		}
 	});
 
-	$('.entry-title').click(function(){
+	$('.page-omzet-en-werkvoorraad .entry-title').click(function(){
 			//$(this).parent().parent().next( '.collapsible' ).toggle();
 			$(this).parent().parent().nextAll('.col').slice(0, 3).toggle();
-			$(this).toggleClass('collapsed');
+			$(this).parent().toggleClass('collapsed');
 	});
+
+	$('.page-downloads-en-links .entry-title').click(function(){
+		$(this).parents('.row.main').toggleClass('collapsed');
+		$(this).parents('.row.main').children('.one-fifth:gt(4)').toggle();
+	});
+
+	$('.page-downloads-en-links .collapsed').children('.one-fifth:gt(4)').hide();
 
 	function hideGraphs(){
 		$('.post-1510 .col.delayed').hide();

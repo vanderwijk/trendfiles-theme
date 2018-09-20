@@ -840,6 +840,37 @@ small {
 	color: #2e8d9e;
 }
 
+/*.collapsed .entry-title {
+	border-bottom: 4px solid #939598;
+	color: #939598;
+
+}*/
+.page-downloads-en-links .entry-title:hover {
+	cursor: pointer;
+}
+
+.collapsed .entry-title:after {
+	margin-left: 10px;
+	content: '▼';
+}
+.collapsed .entry-title:after {
+	margin-left: 10px;
+	content: '▼';
+}
+
+.meer {
+	display: none;
+	float: right;
+	text-transform: capitalize;
+	font-weight: 300;
+	font-size: .867em;
+	font-family: "Droid Sans", sans-serif;
+	color: #2e8d9e;
+}
+.collapsed .meer {
+	display: inherit;
+}
+
 /* Links */
 
 .blogroll li {

@@ -5,7 +5,6 @@
 
 get_header(); ?>
 
-<div class="row main" id="equalheight">
 <?php
 $cat_args = array(
 	'orderby' => 'slug', // kan ook name zijn
@@ -16,9 +15,12 @@ $categories = get_categories( $cat_args );
 
 foreach( $categories as $category ) { ?>
 
-	<h2 class="entry-title">
-		<?php echo $category -> name; ?>
-	</h2>
+<div class="row main flex <?php echo $category -> slug; if ( $category -> name == 'Enquêtes' ) { echo ' collapsed'; } ?>">
+	<div class="col">
+		<div class="block">
+			<h1 class="entry-title"><?php echo $category -> name; ?><span class="meer">Meer <?php echo $category -> name; ?></span></h1>
+		</div>
+	</div>
 
 	<?php
 	$downloads = new WP_Query( 'post_type=download&download_categories=' . $category -> slug . '&post_status=publish&posts_per_page=-1' );
@@ -76,28 +78,29 @@ foreach( $categories as $category ) { ?>
 			</div>
 			<?php
 		}
-	}
-}
+	} ?>
+	</div>
+<?php }
 wp_reset_postdata(); ?>
 
+<div class="row main">
 <?php $link_args = array(
-    'orderby'          => 'name',
-    'order'            => 'ASC',
-    'limit'            => -1,
-    'category'         => 2,
-    'hide_invisible'   => 1,
-    'show_updated'     => 0,
-    'echo'             => 1,
-    'categorize'       => 0,
-    'title_li'         => __('Links'),
-    'title_before'     => '<h2 class="entry-title">',
-    'title_after'      => '</h2>',
-    'category_orderby' => 'name',
-    'category_order'   => 'ASC',
-    'class'            => 'linkcat',
-    'category_before'  => '',
-    'category_after'   => '' );
-
+	'orderby'          => 'name',
+	'order'            => 'ASC',
+	'limit'            => -1,
+	'category'         => 2,
+	'hide_invisible'   => 1,
+	'show_updated'     => 0,
+	'echo'             => 1,
+	'categorize'       => 0,
+	'title_li'         => __('Links'),
+	'title_before'     => '<h2 class="entry-title">',
+	'title_after'      => '</h2>',
+	'category_orderby' => 'name',
+	'category_order'   => 'ASC',
+	'class'            => 'linkcat',
+	'category_before'  => '',
+	'category_after'   => '' );
 wp_list_bookmarks( $link_args ); ?>
 </div>
 
