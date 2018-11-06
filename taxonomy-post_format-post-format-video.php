@@ -81,6 +81,15 @@ if ( $query_talks -> have_posts() ) { ?>
 			get_template_part( 'content', get_post_format() );
 		endwhile; ?>
 	</div>
+	<div class="row">
+		<div class="col">
+			<div class="block" style="text-align: right; font-size: 13px;">
+				<strong>
+					<a href="/rubriek/trendfiles-talks/">Bekijk alle Trendfiles Talks >></a>
+				</strong>
+			</div>
+		</div>
+	</div>
 <?php } ?>
 
 <?php

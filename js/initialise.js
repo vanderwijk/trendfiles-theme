@@ -33,7 +33,7 @@ jQuery(document).ready(function($) {
 
 	$('.page-downloads-en-links .entry-title').click(function(){
 		$(this).parents('.row.main').toggleClass('collapsed');
-		$(this).parents('.row.main').children('.one-fifth:gt(4)').toggle();
+		$(this).parents('.row.main').children('.one-fifth:gt(4)').slideToggle();
 	});
 
 	$('.page-downloads-en-links .collapsed').children('.one-fifth:gt(4)').hide();
