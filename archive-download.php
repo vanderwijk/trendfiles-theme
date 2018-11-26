@@ -42,6 +42,8 @@ foreach( $categories as $category ) { ?>
 				foreach ($attachments as $attachment) {
 					$attachment_url = wp_get_attachment_url($attachment -> ID);
 				}
+			} else {
+				$attachment_url = get_post_meta($post -> ID, 'download_url', true);
 			} ?>
 			<div class="col one-fifth">
 				<div class="block download <?php echo $category -> slug; ?>">
