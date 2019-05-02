@@ -181,6 +181,12 @@ jQuery(document).ready(function($) {
 			$("#2018").prop('checked', true);
 		}
 
+		if (jQuery.inArray(2019, jaren) === -1) {
+			$("#2019").prop('checked', false);
+		} else {
+			$("#2019").prop('checked', true);
+		}
+
 	}
 
 });

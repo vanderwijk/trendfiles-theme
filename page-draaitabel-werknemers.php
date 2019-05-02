@@ -125,6 +125,7 @@ get_header(); ?>
 						<li><label><input type="checkbox" id="2016" value="2016" name="jaar_id[]">2016</label></li>
 						<li><label><input type="checkbox" id="2017" value="2017" name="jaar_id[]">2017</label></li>
 						<li><label><input type="checkbox" id="2018" value="2018" name="jaar_id[]">2018</label></li>
+						<li><label><input type="checkbox" id="2019" value="2019" name="jaar_id[]">2019</label></li>
 					</ul>
 					<input type="submit" name="submit" value="Zoeken">
 					<input type="submit" name="export" value="Exporteer naar Excel" id="exp">
