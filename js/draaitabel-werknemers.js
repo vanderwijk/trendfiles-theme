@@ -87,7 +87,7 @@ jQuery(document).ready(function($) {
 	// Stap 7: Jaar
 	var options = {
 		change: updateSlider,
-		max: 2018,
+		max: 2019,
 		min: 2011,
 		step: 1,
 		range: true,
