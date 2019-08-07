@@ -138,7 +138,7 @@ get_header(); ?>
 												<option value="77" title="LPI Den Bosch">LPI Den Bosch</option>
 											</select>
 										</li>
-										<li>
+										<li style="visibility: hidden;">
 											<label>Uitsplitsen naar school?<input type="checkbox" value="500" name="uitsplitsen_school"></label>
 										</li>
 									</ul>
