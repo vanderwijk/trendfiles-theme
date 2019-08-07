@@ -88,7 +88,7 @@
 					echo '<a href="' . get_the_permalink() . '">';
 					echo '<div class="figure">';
 					the_post_thumbnail( 'large' );
-					echo '<img class="icon-play" src="/wp-content/themes/otib/img/play-circle.svg" alt="Video afspelen">';
+					echo '<img class="icon-play" src="/wp-content/themes/trendfiles-theme/img/play-circle.svg" alt="Video afspelen">';
 					echo '</div>';
 					echo '<h2>';
 	

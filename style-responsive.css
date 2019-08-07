@@ -110,19 +110,19 @@ screen and (device-width: 360px) and (device-height: 640px) and (-webkit-device-
 		background-image: none!important;
 	}
 	.nav-menu .current-menu-item.menu-item-991 > a {
-		background: url('/wp-content/themes/otib/img/cirkel-innovatie.svg') no-repeat 10px 14px;
+		background: url('/wp-content/themes/trendfiles-theme/img/cirkel-innovatie.svg') no-repeat 10px 14px;
 	}
 	.nav-menu .current-menu-item.menu-item-992 > a {
-		background: url('/wp-content/themes/otib/img/cirkel-personeel-en-organisatie.svg') no-repeat 10px 14px;
+		background: url('/wp-content/themes/trendfiles-theme/img/cirkel-personeel-en-organisatie.svg') no-repeat 10px 14px;
 	}
 	.nav-menu .current-menu-item.menu-item-994 > a {
-		background: url('/wp-content/themes/otib/img/cirkel-ondernemerschap.svg') no-repeat 10px 14px;
+		background: url('/wp-content/themes/trendfiles-theme/img/cirkel-ondernemerschap.svg') no-repeat 10px 14px;
 	}
 	.nav-menu .current-menu-item.menu-item-993 > a {
-		background: url('/wp-content/themes/otib/img/cirkel-opleiden.svg') no-repeat 10px 14px;
+		background: url('/wp-content/themes/trendfiles-theme/img/cirkel-opleiden.svg') no-repeat 10px 14px;
 	}
 	.nav-menu .current-menu-item.menu-item-995 > a {
-		background: url('/wp-content/themes/otib/img/cirkel-arbeidsmarkt.svg') no-repeat 10px 14px;
+		background: url('/wp-content/themes/trendfiles-theme/img/cirkel-arbeidsmarkt.svg') no-repeat 10px 14px;
 	}
 	.progress ul {
 		border: none;

@@ -74,7 +74,7 @@ if ( $query->have_posts() ) {
 				<div class="figure">
 					<?php $image = wp_get_attachment_image_src( get_post_thumbnail_id( $video->ID ), 'thumb-video' ); ?>
 					<img class="thumbnail" src="<?php echo $image[0]; ?>" alt="<?php the_title_attribute(); ?>" />
-					<img class="icon-play" src="/wp-content/themes/otib/img/play-circle.svg" alt="Video afspelen">
+					<img class="icon-play" src="/wp-content/themes/trendfiles-theme/img/play-circle.svg" alt="Video afspelen">
 				</div>
 				<div class="intro">
 					<strong>Quote:</strong><br />

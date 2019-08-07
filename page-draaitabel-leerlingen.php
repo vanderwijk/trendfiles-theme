@@ -35,7 +35,7 @@ get_header(); ?>
 					</ul>
 					<p>Klik op de kaart om een regio te selecteren. Je kunt meerdere regio's selecteren.</p>
 					<p>
-						<object class="map" id="map" data="/wp-content/themes/otib/img/nederland.svg" width="186" height="235" type="image/svg+xml"></object>
+						<object class="map" id="map" data="/wp-content/themes/trendfiles-theme/img/nederland.svg" width="186" height="235" type="image/svg+xml"></object>
 					</p>
 					<div class="regio">
 						<label><input type="radio" name="rbpi_totaal" value="99" class="alle-regios" checked>Totaal Nederland</label>

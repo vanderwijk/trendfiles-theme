@@ -74,7 +74,7 @@ get_header(); ?>
 						</ul>
 					</div>
 					<div class="kaart">
-						<object class="map" id="map" data="/wp-content/themes/otib/img/nederland.svg" width="186" height="235" type="image/svg+xml"></object>
+						<object class="map" id="map" data="/wp-content/themes/trendfiles-theme/img/nederland.svg" width="186" height="235" type="image/svg+xml"></object>
 					</div>
 					<h3 id="jaar">Stap 4: Jaar</h3>
 					<p>Sleep de balkjes om de tijdsperiode te selecteren</p>

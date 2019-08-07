@@ -667,7 +667,7 @@ small {
 
 .kerngegevens-knoppen li a {
 	color: #238d9e;
-	background: url('/wp-content/themes/otib/img/iconen-kerngegevens.png') no-repeat;
+	background: url('/wp-content/themes/trendfiles-theme/img/iconen-kerngegevens.png') no-repeat;
 	text-decoration: underline;
 	padding: 25px 0 0 140px;
 	height: 75px;
@@ -701,7 +701,7 @@ small {
 
 .page-kerngegevens .kerngegevens-downloads li a {
 	color: #238d9e;
-	background: url('/wp-content/themes/otib/img/iconen-kerngegevens-2.png') no-repeat;
+	background: url('/wp-content/themes/trendfiles-theme/img/iconen-kerngegevens-2.png') no-repeat;
 	padding: 35px 0 0 100px;
 	height: 96px;
 	display: block;
@@ -882,7 +882,7 @@ small {
 ----------------------------------------------------------------------------------------------------*/
 
 .logo-trendfiles {
-	background: url('/wp-content/themes/otib/img/logo-trendfiles.png') no-repeat;
+	background: url('/wp-content/themes/trendfiles-theme/img/logo-trendfiles.png') no-repeat;
 	background-size: 23.125em 3.250em;
 	float: left;
 	height: 3.250em;
@@ -894,12 +894,12 @@ small {
 }
 
 .svg .logo-trendfiles {
-	background: url('/wp-content/themes/otib/img/logo-trendfiles.svg') no-repeat;
+	background: url('/wp-content/themes/trendfiles-theme/img/logo-trendfiles.svg') no-repeat;
 	background-size: 23.125em 3.250em;
 }
 
 .logo-otib {
-	background: url('/wp-content/themes/otib/img/logo-otib.png') no-repeat;
+	background: url('/wp-content/themes/trendfiles-theme/img/logo-otib.png') no-repeat;
 	background-size: 3.333em 3.667em;
 	float: right;
 	height: 2.75em;
@@ -913,7 +913,7 @@ small {
 }
 
 .svg .logo-otib {
-	background: url('/wp-content/themes/otib/img/logo-otib.svg') no-repeat;
+	background: url('/wp-content/themes/trendfiles-theme/img/logo-otib.svg') no-repeat;
 	background-size: 2.5em 2.75em;
 }
 
@@ -1205,27 +1205,27 @@ ul.nav-menu li:hover>ul,
 .nav-menu .current-menu-item>a,
 .nav-menu .current-page-ancestor>a,
 .nav-menu .current-menu-ancestor>a {
-	background: url('/wp-content/themes/otib/img/cirkel.svg') no-repeat 10px 14px;
+	background: url('/wp-content/themes/trendfiles-theme/img/cirkel.svg') no-repeat 10px 14px;
 }
 
 .nav-menu .current-menu-ancestor.innovatie>a {
-	background: url('/wp-content/themes/otib/img/cirkel-innovatie.svg') no-repeat 10px 14px;
+	background: url('/wp-content/themes/trendfiles-theme/img/cirkel-innovatie.svg') no-repeat 10px 14px;
 }
 
 .nav-menu .current-menu-ancestor.personeel-en-organisatie>a {
-	background: url('/wp-content/themes/otib/img/cirkel-personeel-en-organisatie.svg') no-repeat 10px 14px;
+	background: url('/wp-content/themes/trendfiles-theme/img/cirkel-personeel-en-organisatie.svg') no-repeat 10px 14px;
 }
 
 .nav-menu .current-menu-ancestor.ondernemerschap>a {
-	background: url('/wp-content/themes/otib/img/cirkel-ondernemerschap.svg') no-repeat 10px 14px;
+	background: url('/wp-content/themes/trendfiles-theme/img/cirkel-ondernemerschap.svg') no-repeat 10px 14px;
 }
 
 .nav-menu .current-menu-ancestor.opleiden>a {
-	background: url('/wp-content/themes/otib/img/cirkel-opleiden.svg') no-repeat 10px 14px;
+	background: url('/wp-content/themes/trendfiles-theme/img/cirkel-opleiden.svg') no-repeat 10px 14px;
 }
 
 .nav-menu .current-menu-ancestor.arbeidsmarkt>a {
-	background: url('/wp-content/themes/otib/img/cirkel-arbeidsmarkt.svg') no-repeat 10px 14px;
+	background: url('/wp-content/themes/trendfiles-theme/img/cirkel-arbeidsmarkt.svg') no-repeat 10px 14px;
 }
 
 .nav-menu .menu-item-has-children .current_page_item>a,
@@ -1241,7 +1241,7 @@ ul.nav-menu li:hover>ul,
 ----------------------------------------------------------------------------------------------------*/
 
 .page-draaitabel h2 {
-	background: url('/wp-content/themes/otib/img/leerlingen.png') no-repeat 0 0;
+	background: url('/wp-content/themes/trendfiles-theme/img/leerlingen.png') no-repeat 0 0;
 	background-size: 142px 50px;
 	color: #2E8D9E;
 	height: 50px;
@@ -1341,7 +1341,7 @@ ul.nav-menu li:hover>ul,
 }
 
 .page-draaitabel .man-vrouw.licht {
-	background: url('/wp-content/themes/otib/img/man-vrouw-licht.png') no-repeat;
+	background: url('/wp-content/themes/trendfiles-theme/img/man-vrouw-licht.png') no-repeat;
 	background-size: 57px 100px;
 	background-position: top center;
 	min-width: 57px;
@@ -1349,31 +1349,31 @@ ul.nav-menu li:hover>ul,
 }
 
 .page-draaitabel .man.licht {
-	background: url('/wp-content/themes/otib/img/man-licht.png') no-repeat;
+	background: url('/wp-content/themes/trendfiles-theme/img/man-licht.png') no-repeat;
 	background-size: 39px 100px;
 	background-position: top center;
 }
 
 .page-draaitabel .vrouw.licht {
-	background: url('/wp-content/themes/otib/img/vrouw-licht.png') no-repeat;
+	background: url('/wp-content/themes/trendfiles-theme/img/vrouw-licht.png') no-repeat;
 	background-size: 40px 100px;
 	background-position: top center;
 }
 
 .page-draaitabel .man-vrouw.donker {
-	background: url('/wp-content/themes/otib/img/man-vrouw-donker.png') no-repeat;
+	background: url('/wp-content/themes/trendfiles-theme/img/man-vrouw-donker.png') no-repeat;
 	background-size: 57px 100px;
 	background-position: top center;
 }
 
 .page-draaitabel .man.donker {
-	background: url('/wp-content/themes/otib/img/man-donker.png') no-repeat;
+	background: url('/wp-content/themes/trendfiles-theme/img/man-donker.png') no-repeat;
 	background-size: 39px 100px;
 	background-position: top center;
 }
 
 .page-draaitabel .vrouw.donker {
-	background: url('/wp-content/themes/otib/img/vrouw-donker.png') no-repeat;
+	background: url('/wp-content/themes/trendfiles-theme/img/vrouw-donker.png') no-repeat;
 	background-size: 40px 100px;
 	background-position: top center;
 }
@@ -1421,41 +1421,41 @@ ul.nav-menu li:hover>ul,
 }
 
 .page-draaitabel .alle-vakgebieden {
-	background-image: url('/wp-content/themes/otib/img/bedrijf-alle-vakgebieden-licht.png');
+	background-image: url('/wp-content/themes/trendfiles-theme/img/bedrijf-alle-vakgebieden-licht.png');
 	background-size: 122px 79px;
 }
 
 .page-draaitabel .electrotechniek {
-	background-image: url('/wp-content/themes/otib/img/bedrijf-electrotechniek-licht.png');
+	background-image: url('/wp-content/themes/trendfiles-theme/img/bedrijf-electrotechniek-licht.png');
 	background-size: 100px 79px;
 	background-position: 20px 0;
 }
 
 .page-draaitabel .installatietechniek {
-	background-image: url('/wp-content/themes/otib/img/bedrijf-installatietechniek-licht.png');
+	background-image: url('/wp-content/themes/trendfiles-theme/img/bedrijf-installatietechniek-licht.png');
 	background-size: 100px 79px;
 }
 
 .page-draaitabel .koeltechniek {
-	background-image: url('/wp-content/themes/otib/img/bedrijf-koeltechniek-licht.png');
+	background-image: url('/wp-content/themes/trendfiles-theme/img/bedrijf-koeltechniek-licht.png');
 	background-size: 100px 79px;
 	background-position: 10px 0;
 }
 
 .page-draaitabel .alle-vakgebieden.donker {
-	background-image: url('/wp-content/themes/otib/img/bedrijf-alle-vakgebieden-donker.png');
+	background-image: url('/wp-content/themes/trendfiles-theme/img/bedrijf-alle-vakgebieden-donker.png');
 }
 
 .page-draaitabel .electrotechniek.donker {
-	background-image: url('/wp-content/themes/otib/img/bedrijf-electrotechniek-donker.png');
+	background-image: url('/wp-content/themes/trendfiles-theme/img/bedrijf-electrotechniek-donker.png');
 }
 
 .page-draaitabel .installatietechniek.donker {
-	background-image: url('/wp-content/themes/otib/img/bedrijf-installatietechniek-donker.png');
+	background-image: url('/wp-content/themes/trendfiles-theme/img/bedrijf-installatietechniek-donker.png');
 }
 
 .page-draaitabel .koeltechniek.donker {
-	background-image: url('/wp-content/themes/otib/img/bedrijf-koeltechniek-donker.png');
+	background-image: url('/wp-content/themes/trendfiles-theme/img/bedrijf-koeltechniek-donker.png');
 }
 
 .page-draaitabel .check {

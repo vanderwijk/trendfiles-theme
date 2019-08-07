@@ -17,7 +17,7 @@
 			<div class="figure">
 				<?php $image = wp_get_attachment_image_src( get_post_thumbnail_id( $post->ID ), 'thumb-video' ); ?>
 				<img class="thumbnail" src="<?php echo $image[0]; ?>" alt="<?php the_title_attribute(); ?>" />
-				<img class="icon-play" src="/wp-content/themes/otib/img/play-circle.svg" alt="Video afspelen">
+				<img class="icon-play" src="/wp-content/themes/trendfiles-theme/img/play-circle.svg" alt="Video afspelen">
 			</div>
 			<div class="intro">
 				<?php the_excerpt(); ?>

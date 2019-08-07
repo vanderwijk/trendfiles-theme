@@ -73,7 +73,7 @@ get_header(); ?>
 						</ul>
 					</div>
 					<div class="kaart">
-						<object class="map" id="map" data="/wp-content/themes/otib/img/nederland.svg" width="186" height="235" type="image/svg+xml"></object>
+						<object class="map" id="map" data="/wp-content/themes/trendfiles-theme/img/nederland.svg" width="186" height="235" type="image/svg+xml"></object>
 					</div>
 					<h3 id="niveau">Stap 4: Niveau</h3>
 					<div class="niveau">
