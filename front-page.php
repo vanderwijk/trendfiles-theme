@@ -6,7 +6,7 @@
 
 	<div class="col four-fifths infographic">
 		<div class="block">
-			<?php echo file_get_contents('http://trendfiles.otib.local/wp-content/themes/trendfiles-theme/img/home-techniekketen.svg'); ?>
+			<?php echo file_get_contents('https://trendfiles.otib.nl/wp-content/themes/trendfiles-theme/img/home-techniekketen.svg'); ?>
 			<p class="meer-button" style="text-align: center; width: 100%;"><a href="/factsheet/ti-installatie/">TI Installatie</a></p>
 			<p style="text-align: center; width: 100%;">Bekijk alle trends, cijfers en ontwikkelingen binnen de TI branche.</p>
 		</div>
@@ -14,7 +14,7 @@
 
 	<div class="col one-fifth uitgelicht">
 		<div class="block">
-			<?php echo file_get_contents('http://trendfiles.otib.local/wp-content/themes/trendfiles-theme/img/home-uitgelicht.svg'); ?>
+			<?php echo file_get_contents('https://trendfiles.otib.nl/wp-content/themes/trendfiles-theme/img/home-uitgelicht.svg'); ?>
 			<h2>Nog geen kwart van de installatiebedrijven is actief als leerbedrijf.</h2>
 		</div>
 	</div>

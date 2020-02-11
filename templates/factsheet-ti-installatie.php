@@ -1,7 +1,7 @@
 <?php
 get_header(); ?>
 
-<script src="http://trendfiles.otib.local/wp-content/themes/trendfiles-theme/js/factsheet-technische-installatiebranche.js" type="text/javascript"></script>
+<script src="https://trendfiles.otib.nl/wp-content/themes/trendfiles-theme/js/factsheet-technische-installatiebranche.js" type="text/javascript"></script>
 
 <article <?php post_class('article'); ?>>
 	<div class="row header">
@@ -14,7 +14,7 @@ get_header(); ?>
 	<div class="row">
 		<div class="col">
 			<div class="block entry-content">
-				<?php echo file_get_contents('http://trendfiles.otib.local/wp-content/themes/trendfiles-theme/img/factsheet-ti-installatie.svg'); ?>
+				<?php echo file_get_contents('https://trendfiles.otib.nl/wp-content/themes/trendfiles-theme/img/factsheet-ti-installatie.svg'); ?>
 			</div>
 		</div>
 	</div>
