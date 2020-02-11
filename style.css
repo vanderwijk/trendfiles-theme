@@ -910,13 +910,13 @@ small {
 	/* 52px */
 	overflow: hidden;
 	text-indent: -9999px;
-	width: 23.125em;
+	width: 22.125em;
 	/* 370px */
 }
 
 .svg .logo-trendfiles {
 	background: url('/wp-content/themes/trendfiles-theme/img/logo-trendfiles.svg') no-repeat;
-	background-size: 23.125em 3.250em;
+	background-size: 22.125em 3.250em;
 }
 
 .logo-otib {

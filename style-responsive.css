@@ -43,7 +43,7 @@ screen and (device-width: 360px) and (device-height: 640px) and (-webkit-device-
 		width: 95.45454545454545%; /* 420px */
 	}
 	.header .logo-trendfiles {
-		font-size: 0.781em;
+		font-size: 12px;
 	}
 	.header .utilities {
 		display: none;
