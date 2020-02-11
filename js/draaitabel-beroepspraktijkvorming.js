@@ -5,7 +5,7 @@ jQuery(document).ready(function($) {
 	// Stap 2: Periode
 	var options = {
 		change: updateSlider,
-		max: 2018,
+		max: 2019,
 		min: 2009,
 		step: 1,
 		range: true,
@@ -16,7 +16,7 @@ jQuery(document).ready(function($) {
 	// Pips voor labels
 	$slider.slider("pips", { 
 		 rest: "label",
-		 labels: ['2009/2010', '2010/2011', '2011/2012', '2012/2013', '2013/2014', '2014/2015', '2015/2016', '2016/2017', '2017/2018', '2018/2019'] 
+		 labels: ['2009/2010', '2010/2011', '2011/2012', '2012/2013', '2013/2014', '2014/2015', '2015/2016', '2016/2017', '2017/2018', '2018/2019', '2019/2020'] 
 	});
 
 	function updateSlider(e, ui) {
@@ -84,6 +84,11 @@ jQuery(document).ready(function($) {
 			$("#2018").prop('checked', false);
 		} else {
 			$("#2018").prop('checked', true);
+		}
+		if (jQuery.inArray(2019, jaren) === -1) {
+			$("#2019").prop('checked', false);
+		} else {
+			$("#2019").prop('checked', true);
 		}
 	}
 
