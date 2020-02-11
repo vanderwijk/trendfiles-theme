@@ -2,22 +2,106 @@
 
 <div class="row main flex">
 
-	<div class="col two-thirds">
+	<?php if ( !function_exists('dynamic_sidebar') || !dynamic_sidebar('Home Intro') ) : endif; ?>
+
+	<div class="col four-fifths infographic">
 		<div class="block">
-			<a href="" class="category videos">Trends in Cijfers</a>
+			<?php echo file_get_contents('http://trendfiles.otib.local/wp-content/themes/trendfiles-theme/img/home-techniekketen.svg'); ?>
+			<p class="meer-button" style="text-align: center; width: 100%;"><a href="/factsheet/ti-installatie/">TI Installatie</a></p>
+			<p style="text-align: center; width: 100%;">Bekijk alle trends, cijfers en ontwikkelingen binnen de TI branche.</p>
+		</div>
+	</div>
 
-			<div class="factsheets">
-				<?php echo do_shortcode('[content_block id=1963]'); ?>
-			</div>
+	<div class="col one-fifth uitgelicht">
+		<div class="block">
+			<?php echo file_get_contents('http://trendfiles.otib.local/wp-content/themes/trendfiles-theme/img/home-uitgelicht.svg'); ?>
+			<h2>Nog geen kwart van de installatiebedrijven is actief als leerbedrijf.</h2>
+		</div>
+	</div>
 
-			<div class="kerngegevens">
-				<?php echo do_shortcode('[content_block id=2353]'); ?>
+	<div class="col">
+		<div class="block">
+			<a href="/type/video/" class="category videos">Video's</a>
+			<p style="width: 100%"><strong>Binnen alle video's kun je zoeken naar quotes op onderwerpen</strong></p>
+			<div class="video-listing">
+				<?php
+					$video_cats = array(102,103,104);
+					foreach ($video_cats as $video_cat) {
+					$video_args = array(
+						'cat' => $video_cat,
+						'numberposts' => 1,
+						'tax_query' => array(
+							array(
+								'taxonomy' => 'post_format',
+								'field' => 'slug',
+								'terms' => array( 'post-format-video' )
+							)
+						)
+					);
+					$video_posts = get_posts( $video_args );
+					foreach( $video_posts as $post ) {
+						setup_postdata( $post );
+						echo '<div class="video-thumb">';
+						echo '<h2>';
+						the_title();
+						echo '</h2>';
+
+						echo '<a href="' . get_the_permalink() . '">';
+
+						echo '<div class="figure">';
+						the_post_thumbnail( 'large' );
+						echo '<img class="icon-play" src="/wp-content/themes/trendfiles-theme/img/play-circle.svg" alt="Video afspelen">';
+						echo '</div>';
+
+						echo '<div class="video-excerpt">';
+						the_excerpt();
+						echo '</div>';
+
+						$category_link = get_category_link( $video_cat );
+
+						echo '</a>';
+						echo '<p class="meer-button"><a href="' . esc_url( $category_link ) . '">' . get_cat_name( $category_id = $video_cat ) . '</a></p>';
+						echo '</div>';
+					}
+					wp_reset_postdata();
+				} ?>
 			</div>
 
 		</div>
 	</div>
 
-	<?php if ( !function_exists('dynamic_sidebar') || !dynamic_sidebar('Home Intro') ) : endif; ?>
+	<div class="col two-thirds">
+		<div class="block">
+			<a href="/categorie/artikelen/" class="category artikelen">Artikelen</a>
+			<div class="artikel-listing">
+				<?php
+				$article_args = array(
+					'numberposts' => 2,
+					'category_name' => 'artikelen'
+				);
+				$article_posts = get_posts( $article_args );
+
+				foreach( $article_posts as $post ) {
+					setup_postdata( $post );
+					echo '<div class="artikel">';
+					echo '<a href="' . get_permalink() . '">';
+					the_post_thumbnail( 'thumbnail' );
+					echo '</a>';
+					echo '<h2>';
+					echo '<a href="' . get_permalink() . '">';
+					the_title();
+					echo '</a>';
+					echo '</h2>';
+					echo '<a href="' . get_permalink() . '">';
+					the_excerpt();
+					echo '</a>';
+					echo '</div>';
+				}
+				wp_reset_postdata(); ?>
+			</div>
+			<p class="meer-button"><a href="/categorie/artikelen/">meer artikelen</a></p>
+		</div>
+	</div>
 
 	<div class="col one-third">
 		<div class="block">
@@ -62,81 +146,7 @@
 					}
 			} ?>
 
-			<p><strong><a href="/downloads-en-links/">Bekijk hier alle publicaties >></a></strong></p>
-		</div>
-	</div>
-
-	<div class="col two-thirds">
-		<div class="block">
-			<a href="/type/video/" class="category videos">Video's</a>
-			<div class="video-listing">
-			<?php
-				$video_args = array(
-					'numberposts' => 4,
-					'tax_query' => array(
-						array(
-							'taxonomy' => 'post_format',
-							'field' => 'slug',
-							'terms' => array( 'post-format-video' )
-						)
-					)
-				);
-				$video_posts = get_posts( $video_args );
-				foreach( $video_posts as $post ) {
-					setup_postdata( $post );
-					echo '<div class="video-thumb">';
-					echo '<a href="' . get_the_permalink() . '">';
-					echo '<div class="figure">';
-					the_post_thumbnail( 'large' );
-					echo '<img class="icon-play" src="/wp-content/themes/trendfiles-theme/img/play-circle.svg" alt="Video afspelen">';
-					echo '</div>';
-					echo '<h2>';
-	
-					the_title();
-	
-					echo '</h2>';
-					echo '<div class="video-excerpt">';
-					the_excerpt();
-					echo '</div>';
-					echo '</a>';
-					echo '</div>';
-				}
-				wp_reset_postdata();
-				?>
-				</div>
-
-			<p><strong><a href="/type/video/">Bekijk hier alle video's >></a></strong></p>
-		</div>
-	</div>
-
-	<div class="col one-third">
-		<div class="block">
-			<a href="/categorie/artikelen/" class="category artikelen">Artikelen</a>
-
-			<?php
-				$article_args = array(
-					'numberposts' => 2,
-					'category_name' => 'artikelen'
-				);
-				$article_posts = get_posts( $article_args );
-
-				foreach( $article_posts as $post ) {
-					setup_postdata( $post );
-					echo '<a href="' . get_permalink() . '">';
-					the_post_thumbnail( 'thumbnail' );
-					echo '</a>';
-					echo '<h2>';
-					echo '<a href="' . get_permalink() . '">';
-					the_title();
-					echo '</a>';
-					echo '</h2>';
-					echo '<a href="' . get_permalink() . '">';
-					the_excerpt();
-					echo '</a>';
-				}
-				wp_reset_postdata(); ?>
-
-			<p><strong><a href="/categorie/artikelen/">Bekijk hier meer artikelen >></a></strong></p>
+			<p class="meer-button"><a href="/downloads-en-links/">meer publicaties</a></p>
 		</div>
 	</div>
 

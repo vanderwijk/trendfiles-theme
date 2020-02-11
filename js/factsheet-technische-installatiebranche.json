@@ -1,0 +1,33 @@
+{
+	"aantal_bedrijven_huidig": {
+		"totaal_regios": {
+			"Q04": 8961,
+			"Q03": 8903,
+			"Q02": 8758,
+			"Q01": 8652
+		},
+		"zuid_nederland": {
+			"Q04": 8961,
+			"Q03": 8903,
+			"Q02": 8758,
+			"Q01": 8652
+		}
+	},
+	"aantal_bedrijven": {
+		"totaal_regios": {
+			"2018": 8665,
+			"2017": 8412,
+			"2016": 8352
+		}
+	},
+	"werknemers_bedrijfsgrootte": {
+		"totaal_regios": {
+			"minder_dan_25_werknemers": 7610,
+			"25_tot_250_werknemers": 1323,
+			"meer_dan_250_werknemers": 29
+		}
+	}
+}
+
+
+

@@ -24,7 +24,9 @@ screen and (min-device-width: 1536px) and (max-device-width: 2048px) and (-webki
 screen and (device-width: 360px) and (device-height: 640px) and (-webkit-device-pixel-ratio: 3) {
 	.col,
 	.col.one-third,
-	.col.two-thirds {
+	.col.two-thirds,
+	.col.four-fifths,
+	.home .col.one-fifth {
 		width: 100%;
 	}
 	.scroll .col.one-third {
@@ -147,5 +149,14 @@ screen and (device-width: 360px) and (device-height: 640px) and (-webkit-device-
 	}
 	.home .video-thumb {
 		width: 100%;
+	}
+	.video-listing {
+		flex-flow: row wrap;
+	}
+	.home .col.one-fifth.uitgelicht .block {
+		display: flex;
+		flex-flow: row;
+		align-items: center;
+		justify-content: center;
 	}
 }

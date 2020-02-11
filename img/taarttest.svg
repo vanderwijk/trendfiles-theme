@@ -1,0 +1,19 @@
+<svg width="1888" height="2343" viewBox="0 0 1888 2343" fill="none" xmlns="http://www.w3.org/2000/svg">
+
+    <style>
+        .circle {
+            transform-box: fill-box;
+            transform-origin: center;
+            transform: rotate(-90deg);
+        }
+        svg {
+            background-color: green;
+        }
+    </style>
+        <circle id="bedrijfsgrootte_klein" fill="white" cx="480" cy="240" r="100" />
+    <circle class="circle" id="minder_dan_25_werknemers" stroke="#258999" stroke-dasharray="444,534" stroke-dashoffset="-3" stroke-width="10" fill="red" cx="480" cy="240" r="95" />
+
+
+
+
+</svg>

@@ -1,7 +1,7 @@
 <?php
 // Translation
 function trendfiles_setup(){
-    load_theme_textdomain( 'trendfiles', get_template_directory() . '/languages' );
+	load_theme_textdomain( 'trendfiles', get_template_directory() . '/languages' );
 }
 add_action( 'after_setup_theme', 'trendfiles_setup' );
 
@@ -208,7 +208,7 @@ function include_scripts_styles () {
 		}
 
 		wp_enqueue_style( 'font-droid-sans', '//fonts.googleapis.com/css?family=Droid+Sans:700,400', array(), null, 'screen' );
-		wp_enqueue_style( 'font-roboto', '//fonts.googleapis.com/css?family=Roboto:700,400,300', array(), null, 'screen' );
+		wp_enqueue_style( 'font-roboto', '//fonts.googleapis.com/css?family=Roboto:700,500,400,300', array(), null, 'screen' );
 		wp_enqueue_style( 'dashicons', get_stylesheet_uri(), array( 'dashicons' ), '1.0' );
 		wp_enqueue_style( 'style', get_stylesheet_uri(), array(), '1.1.7' );
 		wp_enqueue_style( 'responsive', get_template_directory_uri() . '/style-responsive.css', '1.1.4' );
@@ -227,8 +227,6 @@ function include_scripts_styles () {
 
 }
 add_action( 'wp_enqueue_scripts', 'include_scripts_styles' );
-
-
 
 // Post formats
 add_theme_support( 'post-formats', array( 'video', 'quote', 'aside', 'image', 'link' ) );
@@ -281,7 +279,6 @@ function ad_filter_wp_head_output( $output ) {
 add_action( 'get_header', 'ad_ob_start' );
 add_action( 'wp_head', 'ad_ob_end_flush', 100 );
 
-
 // Add video container for embedded video's
 function wrap_embed_with_div( $html, $url, $attr ) {
 	return '<div class="responsive-video-wrapper">' . $html . '</div>';
@@ -295,9 +292,42 @@ function se35728943_change_post_per_page( $params, $request ) {
 }
 //add_filter( 'rest_post_collection_params', 'se35728943_change_post_per_page', 10, 2 );
 
-
+// Fragmenten query
 function my_posts_where( $where ) {
 	$where = str_replace("meta_key = 'fragmenten_$", "meta_key LIKE 'fragmenten_%", $where);
 	return $where;
 }
 add_filter('posts_where', 'my_posts_where');
+
+
+
+// rewrite rules
+function otib_rewrite_rules() {
+	add_rewrite_rule('factsheet/ti-installatie/?$', 'index.php?factsheet=ti-installatie', 'top' );
+}
+add_action('init', 'otib_rewrite_rules');
+
+// query vars
+function otib_register_query_var( $vars ) {
+	$vars[] = 'factsheet';
+	return $vars;
+}
+add_filter('query_vars', 'otib_register_query_var' );
+
+// template include
+function otib_include_templates($template) {
+	global $wp_query;
+	
+	if ( isset($wp_query->query_vars['factsheet'])) {
+
+		$query_var = $wp_query->query_vars['factsheet'];
+
+		if ($query_var && $query_var === 'ti-installatie') {
+			return get_template_directory() . '/templates/factsheet-ti-installatie.php';
+		}
+
+	}
+
+	return $template;
+}
+add_filter('template_include', 'otib_include_templates', 1, 1);

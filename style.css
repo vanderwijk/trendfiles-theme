@@ -222,6 +222,22 @@ small {
 	text-decoration: underline;
 	color: #2e8d9e;
 }
+.block .meer-button {
+	align-self: flex-end;
+	margin: 10px 0;
+	display: inline-block;
+}
+.block .meer-button a {
+	background-color: #fff;
+	border: 1px solid #919494;
+	border-radius: 1em;
+	padding: 5px 10px;
+	font-weight: 500;
+	color: #2e8d9e;
+	font-family: Roboto, sans-serif;
+	box-shadow: 1px 1px 5px 1px rgba(0, 0, 0, .2);
+	line-height: initial;
+}
 
 /* Grid
 ----------------------------------------------------------------------------------------------------*/
@@ -268,6 +284,11 @@ small {
 .col.one-fifth {
 	width: 20%;
 	/* 264px */
+}
+
+.col.four-fifths {
+	width: 80%;
+	/* ‭1056‬px */
 }
 
 .col.two-thirds {
@@ -318,11 +339,9 @@ small {
 
 .one-fifth .block {
 	margin: 3.787878787878788%;
-	/* 10px */
 	padding: 3.787878787878788%;
-	/* 10px */
-	width: 96.21212121212121%;
-	/* 420px */
+	width: 244px;
+	width: 92.42424242424242%;
 }
 
 .two-thirds .block {
@@ -334,6 +353,12 @@ small {
 	/* 420px */
 }
 
+.four-fifths .block {
+	margin: 0.946969696969697%; /* 10px */
+	padding: 0.946969696969697%; /* 10px */
+	width: ‭78.48484848484848%; /* 1020px */
+}
+
 .flex {
 	display: flex;
 	flex-wrap: wrap;
@@ -343,7 +368,10 @@ small {
 .flex .two-thirds {
 	display: flex;
 }
-
+.flex .block {
+	display: flex;
+	flex-flow: wrap;
+}
 /* Responsive video
 ----------------------------------------------------------------------------------------------------*/
 
@@ -477,11 +505,30 @@ small {
 /* Homepage
 ----------------------------------------------------------------------------------------------------*/
 
-.home .one-third .block,
-.home .two-thirds .block,
+.home .block,
 .archive .one-third .block,
 .search .one-third .block {
 	border: 1px solid #ddd;
+}
+
+.header .block,
+.footer .block {
+	border: none;
+}
+
+.infographic .block,
+.uitgelicht .block {
+	border: none;
+}
+
+.uitgelicht {
+	display: flex;
+	align-items: center;
+	justify-content: center;
+}
+.uitgelicht h2 {
+	font-weight: 600;
+	text-align: center;
 }
 
 /* Format Quote (alleen quote) -> interview
@@ -536,15 +583,17 @@ small {
 
 .page .entry-title,
 .block .category {
-	border-bottom: 4px solid #2e8d9e;
+	border-bottom: 4px solid #074953;
 	color: #2e8d9e;
 	display: block;
 	font-family: Roboto, sans-serif;
 	font-size: 15px;
 	font-weight: 700;
 	letter-spacing: 1px;
+	margin-bottom: 15px;
 	padding: 0 0 5px 0;
 	text-transform: uppercase;
+	width: 100%;
 }
 
 .page .entry-title.collapsed {
@@ -564,34 +613,6 @@ small {
 
 .single .article .block a.category {
 	text-decoration: none;
-}
-
-.category-innovatie .category,
-.artikelen.category {
-	border-bottom: 4px solid #896377;
-	color: #896377;
-}
-
-.category-personeel-en-organisatie .category {
-	border-bottom: 4px solid #d4be59;
-	color: #d4be59;
-}
-
-.category-ondernemerschap .category,
-.factsheets.category {
-	border-bottom: 4px solid #a29c5a;
-	color: #a29c5a;
-}
-
-.category-opleiden .category {
-	border-bottom: 4px solid #688f8c;
-	color: #688f8c;
-}
-
-.category-arbeidsmarkt .category,
-.infographics.category {
-	border-bottom: 4px solid #6d8293;
-	color: #6d8293;
 }
 
 .one-third .block.category-innovatie {
@@ -1860,16 +1881,21 @@ body.single-quote {
 
 /* Video blok op homepage
 ----------------------------------------------------------------------------------------------------*/
-
+.artikel-listing,
 .video-listing {
-	overflow: hidden;
+	display: flex;
+	justify-content: space-between;
 }
-
 .video-thumb {
-	float: left;
-	margin-bottom: 10px;
-	width: 25%;
-	width: calc(100% / 4 * 1);
+	width: calc((100% / 3) - 2%);
+	display: flex;
+	flex-flow: row wrap;
+}
+.video-thumb .meer-button {
+	margin: 10px auto;
+}
+.artikel {
+	width: calc((100% / 2) - 2.25%);
 }
 
 .video-thumb a {
@@ -1882,18 +1908,4 @@ body.single-quote {
 
 .video-thumb h2 {
 	margin-bottom: 5px;
-}
-
-.video-thumb .video-excerpt {
-	display: none;
-}
-
-.video-thumb:first-child {
-	padding-right: 10px;
-	width: 75%;
-	width: calc(100% / 4 * 3);
-}
-
-.video-thumb:first-child .video-excerpt {
-	display: block;
 }
