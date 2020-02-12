@@ -135,6 +135,7 @@ function include_scripts_styles () {
 		wp_register_script( 'draaitabel-leerlingen', get_template_directory_uri() . '/js/draaitabel-leerlingen.js', array( 'jquery' ), '1.0', true );
 		wp_register_script( 'draaitabel-werknemers', get_template_directory_uri() . '/js/draaitabel-werknemers.js', array( 'jquery' ), '1.2', true );
 		wp_register_script( 'draaitabel-beroepspraktijkvorming', get_template_directory_uri() . '/js/draaitabel-beroepspraktijkvorming.js', array( 'jquery' ), '1.0', true );
+		wp_register_script( 'svg-pan-zoom', get_template_directory_uri() . '/vendor/svg-pan-zoom-master/dist/svg-pan-zoom.min.js', array( 'jquery' ), '1.0', true );
 
 		wp_register_script( 'rest-api-video', get_template_directory_uri() . '/js/rest-api-video.js', array( 'jquery' ), '1.0', true );
 
@@ -216,6 +217,8 @@ function include_scripts_styles () {
 		wp_enqueue_script( 'modernizr' );
 		wp_enqueue_script( 'matchheight' );
 		wp_enqueue_script( 'initialise' );
+
+		wp_enqueue_script( 'svg-pan-zoom' );
 
 		if ( is_archive() && is_tax() ) {
 			wp_enqueue_script( 'fancybox' );

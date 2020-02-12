@@ -21,3 +21,7 @@ get_header(); ?>
 </article>
 
 <?php get_footer(); ?>
+
+<script>
+var panZoomTiger = svgPanZoom('#factsheet-ti-installatie');
+</script>
