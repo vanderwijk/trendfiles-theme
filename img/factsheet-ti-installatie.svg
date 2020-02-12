@@ -626,9 +626,9 @@
 
     <script>
         var werknemers_bedrijfsgrootte = 8960;
-        var minder_dan_25_werknemers = 6610;
+        var minder_dan_25_werknemers = 7610;
         var van_25_tot_250_werknemers = 1320;
-        var meer_dan_250_werknemers = 1030;
+        var meer_dan_250_werknemers = 30;
 
         var element_bedrijfsgrootte_klein = document.getElementById("circle_bedrijfsgrootte_klein");
         var pathLength = element_bedrijfsgrootte_klein.getTotalLength();
