@@ -28,7 +28,7 @@ var panZoomTiger = svgPanZoom('#factsheet-ti-installatie', {
 , controlIconsEnabled: true
 , zoomEnabled: true
 , dblClickZoomEnabled: true
-, mouseWheelZoomEnabled: true
+, mouseWheelZoomEnabled: false
 , preventMouseEventsDefault: true
 , zoomScaleSensitivity: 0.2
 , minZoom: 1
