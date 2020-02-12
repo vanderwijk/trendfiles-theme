@@ -23,5 +23,25 @@ get_header(); ?>
 <?php get_footer(); ?>
 
 <script>
-var panZoomTiger = svgPanZoom('#factsheet-ti-installatie');
+var panZoomTiger = svgPanZoom('#factsheet-ti-installatie', {
+ panEnabled: true
+, controlIconsEnabled: true
+, zoomEnabled: true
+, dblClickZoomEnabled: true
+, mouseWheelZoomEnabled: true
+, preventMouseEventsDefault: true
+, zoomScaleSensitivity: 0.2
+, minZoom: 1
+, maxZoom: 10
+, fit: true
+, contain: false
+, center: true
+, refreshRate: 'auto'
+, beforeZoom: function(){}
+, onZoom: function(){}
+, beforePan: function(){}
+, onPan: function(){}
+, onUpdatedCTM: function(){}
+, eventsListenerElement: null
+});
 </script>
