@@ -61,6 +61,15 @@ function maakGrafiek(regio) {
 	document.getElementById("aantal_zzp_ers").textContent = formatNumber(aantal_zzp_ers_2019);
 	document.getElementById("aantal_bedrijven").textContent = formatNumber(aantal_bedrijven_per_jaar);
 
+	document.getElementById("aantal_bedrijven_per_jaar_2018").textContent = formatNumber(aantal_bedrijven_per_jaar_2018);
+	document.getElementById("aantal_bedrijven_per_jaar_2017").textContent = formatNumber(aantal_bedrijven_per_jaar_2017);
+	document.getElementById("aantal_bedrijven_per_jaar_2016").textContent = formatNumber(aantal_bedrijven_per_jaar_2016);
+
+	document.getElementById("aantal_bedrijven_per_kwartaal_1").textContent = formatNumber(aantal_bedrijven_per_kwartaal_1);
+	document.getElementById("aantal_bedrijven_per_kwartaal_2").textContent = formatNumber(aantal_bedrijven_per_kwartaal_2);
+	document.getElementById("aantal_bedrijven_per_kwartaal_3").textContent = formatNumber(aantal_bedrijven_per_kwartaal_3);
+	document.getElementById("aantal_bedrijven_per_kwartaal_4").textContent = formatNumber(aantal_bedrijven_per_kwartaal_4);
+
 	
 	
 	
