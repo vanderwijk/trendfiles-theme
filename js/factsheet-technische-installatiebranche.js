@@ -18,7 +18,7 @@ jQuery( document ).ready(function($) {
 		}
 	});
 
-	var jsonKleuren = '{"noord_holland":{"hoofdkleur":"#a75634","donker":"#5b2f17","licht":"#d3a999"},"gelderland_overijssel":{"hoofdkleur":"#688f8c","donker":"#3c5553","licht":"#b3c7c5"},"noord_nederland":{"hoofdkleur":"#d4be59","donker":"#685f2c","licht":"#eadeac"},"zuid_holland":{"hoofdkleur":"#896377","donker":"#46233c","licht":"#c5b1bc"},"zuid_nederland":{"hoofdkleur":"#a29c5a","donker":"#5b5a30","licht":"#d0cdac"},"midden_nederland":{"hoofdkleur":"#6d8293","donker":"#3b4851","licht":"#b6c0c9"},"nederland":{"hoofdkleur":"#2E8D9E","donker":"#044954","licht":"#F4F9FA","medium":"919494"}}';
+	var jsonKleuren = '{"noord_holland":{"hoofdkleur":"#a75634","donker":"#5b2f17","licht":"#f5ebe6"},"gelderland_overijssel":{"hoofdkleur":"#688f8c","donker":"#3c5553","licht":"#edf2f2"},"noord_nederland":{"hoofdkleur":"#d4be59","donker":"#685f2c","licht":"#f8f7ee"},"zuid_holland":{"hoofdkleur":"#896377","donker":"#46233c","licht":"#f1edef"},"zuid_nederland":{"hoofdkleur":"#a29c5a","donker":"#5b5a30","licht":"#f5f4ed"},"midden_nederland":{"hoofdkleur":"#6d8293","donker":"#3b4851","licht":"#edf1f4"},"nederland":{"hoofdkleur":"#2E8D9E","donker":"#044954","licht":"#F4F9FA","medium":"919494"}}';
 	kleuren = JSON.parse(jsonKleuren);
 
 	// selecteer de regio na klikken op knop
@@ -74,9 +74,6 @@ function maakGrafiek(regio) {
 	document.getElementById("aantal_bedrijven_per_kwartaal_3").textContent = formatNumber(aantal_bedrijven_per_kwartaal_3);
 	document.getElementById("aantal_bedrijven_per_kwartaal_4").textContent = formatNumber(aantal_bedrijven_per_kwartaal_4);
 
-	
-	
-	
 	var bedrijfsgroottes = ["g_", "m_", "k_"];
 	
 	bedrijfsgroottes.forEach(function(grootte) {
