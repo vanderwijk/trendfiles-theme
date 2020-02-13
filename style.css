@@ -1970,3 +1970,14 @@ body.single-quote {
 .video-thumb h2 {
 	margin-bottom: 5px;
 }
+
+/* Factsheets
+----------------------------------------------------------------------------------------------------*/
+#factsheet-ti-installatie .circle {
+	transform-box: fill-box;
+	transform-origin: center;
+	transform: rotate(-90deg);
+}
+#factsheet-ti-installatie svg {
+	background-color: #F4F9FA;
+}
