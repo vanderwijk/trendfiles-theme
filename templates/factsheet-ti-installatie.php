@@ -24,7 +24,7 @@ if (isset($_SERVER['HTTPS'])) {
 					<li class="disabled" id="zuid_holland">Zuid-Holland</li>
 				</ul>
 				<ul class="knoppen pdf">
-					<li><a href="/wp-content/themes/trendfiles-theme/pdf/factsheet-technischeinstallatiebranche-nederland.pdf">PDF / Printversie</a></li>
+					<li><a id="download-pdf" href="/wp-content/themes/trendfiles-theme/pdf/factsheet-technischeinstallatiebranche-nederland.pdf">PDF / Printversie</a></li>
 				</ul>
 			</header>
 		</div>

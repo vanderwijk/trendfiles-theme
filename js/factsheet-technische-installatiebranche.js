@@ -40,6 +40,10 @@ function maakGrafiek(regio) {
 	var aantal_bedrijven_per_jaar_2017 = gegevens[regio].aantal_bedrijven_per_jaar.jaar_2017;
 	var aantal_bedrijven_per_jaar_2016 = gegevens[regio].aantal_bedrijven_per_jaar.jaar_2016;
 
+	var x2_aantal_bedrijven_per_jaar_2018 = aantal_bedrijven_per_jaar_2018 * 487 / aantal_bedrijven_per_jaar;
+	var x2_aantal_bedrijven_per_jaar_2017 = aantal_bedrijven_per_jaar_2017 * 487 / aantal_bedrijven_per_jaar;
+	var x2_aantal_bedrijven_per_jaar_2016 = aantal_bedrijven_per_jaar_2016 * 487 / aantal_bedrijven_per_jaar;
+
 	var aantal_bedrijven_per_kwartaal_1 = gegevens[regio].aantal_bedrijven_per_kwartaal.kwartaal_1;
 	var aantal_bedrijven_per_kwartaal_2 = gegevens[regio].aantal_bedrijven_per_kwartaal.kwartaal_2;
 	var aantal_bedrijven_per_kwartaal_3 = gegevens[regio].aantal_bedrijven_per_kwartaal.kwartaal_3;
@@ -102,12 +106,22 @@ function maakGrafiek(regio) {
 	
 	})
 
+	jQuery('#download-pdf').attr('href', '/wp-content/themes/trendfiles-theme/pdf/factsheet_technischeinstallatiebranche_' + regio + '.pdf');
+
+	jQuery('#vulling_aantal_bedrijven_per_jaar_2018').attr('x2', x2_aantal_bedrijven_per_jaar_2018);
+	jQuery('#vulling_aantal_bedrijven_per_jaar_2017').attr('x2', x2_aantal_bedrijven_per_jaar_2017);
+	jQuery('#vulling_aantal_bedrijven_per_jaar_2016').attr('x2', x2_aantal_bedrijven_per_jaar_2016);
+
+	jQuery('#aantal_bedrijven_per_jaar_2018').attr('x', x2_aantal_bedrijven_per_jaar_2018 + 10);
+	jQuery('#aantal_bedrijven_per_jaar_2017').attr('x', x2_aantal_bedrijven_per_jaar_2017 + 10);
+	jQuery('#aantal_bedrijven_per_jaar_2016').attr('x', x2_aantal_bedrijven_per_jaar_2016 + 10);
+
 	// Kleur regio's aan de hand van kleuren json
 	jQuery('#achtergrond_bovenvlak').css({ fill: kleuren[regio].licht });
 	jQuery('#achtergrond_ondervlak').css({ fill: kleuren[regio].licht });
 
-	jQuery('#vulling_aantal_bedrijven_per_jaar_2018').css({ fill: kleuren[regio].hoofdkleur });
-	jQuery('#vulling_aantal_bedrijven_per_jaar_2017').css({ fill: kleuren[regio].donker });
+	jQuery('#vulling_aantal_bedrijven_per_jaar_2018').css({ stroke: kleuren[regio].hoofdkleur });
+	jQuery('#vulling_aantal_bedrijven_per_jaar_2017').css({ stroke: kleuren[regio].donker });
 
 	jQuery('#aantal_bedrijven_per_jaar_2018').css({ fill: kleuren[regio].hoofdkleur });
 	jQuery('#aantal_bedrijven_per_jaar_2017').css({ fill: kleuren[regio].donker });

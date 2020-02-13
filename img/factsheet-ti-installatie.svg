@@ -667,9 +667,9 @@
 		<g id="aantal-bedijven">
 
 
-		<path id="vulling_aantal_bedrijven_per_jaar_2018" d="M487 341.71H60v30.063h427V341.71z" fill="#26899D"/>
-		<path id="vulling_aantal_bedrijven_per_jaar_2017" d="M478 380.792H60v30.062h418v-30.062z" fill="#074953"/>
-		<path id="vulling_aantal_bedrijven_per_jaar_2016" d="M475 419.873H60v30.062h415v-30.062z" fill="#919494"/>
+		<line id="vulling_aantal_bedrijven_per_jaar_2018" x1="60" y1="357" x2="487" y2="357" stroke="#26899D" stroke-width="30" />
+		<line id="vulling_aantal_bedrijven_per_jaar_2017" x1="60" y1="397" x2="487" y2="397" stroke="#074953" stroke-width="30" />
+		<line id="vulling_aantal_bedrijven_per_jaar_2016" x1="60" y1="437" x2="487" y2="437" stroke="#919494" stroke-width="30" />
 
 
 		<g id="gebouwtje">
