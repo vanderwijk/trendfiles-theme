@@ -593,7 +593,7 @@
 		<path id="plus" d="M1771.8 153.284h16.26v8.758h-16.26v16.301h-8.75v-16.301h-16.26v-8.758h16.26v-16.301h8.75v16.301z" fill="#2E8C9D"/>
 
 
-		<text id="aantal_zzp_ers" font-family="Roboto" font-weight="500" font-size="45" fill="#51A1AE" text-anchor="middle" x="1650" y="195">18.100</text>
+		<text class="dynamic" id="aantal_zzp_ers" font-family="Roboto" font-weight="500" font-size="45" fill="#51A1AE" text-anchor="middle" x="1650" y="195">18.100</text>
 
 
 		<text id="december 2019" fill="#414143" xml:space="preserve" style="white-space:pre" font-family="Roboto" font-size="24" letter-spacing="0em">

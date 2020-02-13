@@ -1,16 +1,16 @@
 {
 	"nederland": {
 		"aantal_bedrijven_per_jaar": {
-			"jaar_2016": 8350,
-			"jaar_2017": 8410,
+			"jaar_2019": 8960,
 			"jaar_2018": 8670,
-			"jaar_2019": 8960
+			"jaar_2017": 8410,
+			"jaar_2016": 8350
 		},
 		"aantal_bedrijven_per_kwartaal": {
-			"kwartaal_4": 8960,
-			"kwartaal_3": 8900,
+			"kwartaal_1": 8650,
 			"kwartaal_2": 8760,
-			"kwartaal_1": 8650
+			"kwartaal_3": 8900,
+			"kwartaal_4": 8960
 		},
 		"werknemers_bedrijfsgrootte": {
 			"minder_dan_25_werknemers": 7610,
@@ -21,18 +21,84 @@
 			"jaar_2019": 18100
 		}
 	},
-	"noord_nederland": {
+	"gelderland_overijssel": {
 		"aantal_bedrijven_per_jaar": {
-			"jaar_2016": 710,
-			"jaar_2017": 710,
-			"jaar_2018": 750,
-			"jaar_2019": 780
+			"jaar_2019": 1860,
+			"jaar_2018": 1780,
+			"jaar_2017": 1730,
+			"jaar_2016": 1700
 		},
 		"aantal_bedrijven_per_kwartaal": {
-			"kwartaal_4": 780,
-			"kwartaal_3": 780,
+			"kwartaal_1": 1790,
+			"kwartaal_2": 1790,
+			"kwartaal_3": 1830,
+			"kwartaal_4": 1860
+		},
+		"werknemers_bedrijfsgrootte": {
+			"minder_dan_25_werknemers": 1540,
+			"van_25_tot_250_werknemers": 320,
+			"meer_dan_250_werknemers": 0
+		},
+		"aantal_zzp_ers": {
+			"jaar_2019": 2930
+		}
+	},
+	"midden_nederland": {
+		"aantal_bedrijven_per_jaar": {
+			"jaar_2019": 1010,
+			"jaar_2018": 970,
+			"jaar_2017": 960,
+			"jaar_2016": 960
+		},
+		"aantal_bedrijven_per_kwartaal": {
+			"kwartaal_1": 980,
+			"kwartaal_2": 990,
+			"kwartaal_3": 1010,
+			"kwartaal_4": 1010
+		},
+		"werknemers_bedrijfsgrootte": {
+			"minder_dan_25_werknemers": 850,
+			"van_25_tot_250_werknemers": 150,
+			"meer_dan_250_werknemers": 10
+		},
+		"aantal_zzp_ers": {
+			"jaar_2019": 1660
+		}
+	},
+	"noord_holland": {
+		"aantal_bedrijven_per_jaar": {
+			"jaar_2019": 1150,
+			"jaar_2018": 1110,
+			"jaar_2017": 1070,
+			"jaar_2016": 1050
+		},
+		"aantal_bedrijven_per_kwartaal": {
+			"kwartaal_1": 1090,
+			"kwartaal_2": 1110,
+			"kwartaal_3": 1140,
+			"kwartaal_4": 1150
+		},
+		"werknemers_bedrijfsgrootte": {
+			"minder_dan_25_werknemers": 990,
+			"van_25_tot_250_werknemers": 150,
+			"meer_dan_250_werknemers": 0
+		},
+		"aantal_zzp_ers": {
+			"jaar_2019": 3340
+		}
+	},
+	"noord_nederland": {
+		"aantal_bedrijven_per_jaar": {
+			"jaar_2019": 780,
+			"jaar_2018": 750,
+			"jaar_2017": 710,
+			"jaar_2016": 710
+		},
+		"aantal_bedrijven_per_kwartaal": {
+			"kwartaal_1": 750,
 			"kwartaal_2": 760,
-			"kwartaal_1": 750
+			"kwartaal_3": 780,
+			"kwartaal_4": 780
 		},
 		"werknemers_bedrijfsgrootte": {
 			"minder_dan_25_werknemers": 660,
@@ -41,6 +107,50 @@
 		},
 		"aantal_zzp_ers": {
 			"jaar_2019": 1590
+		}
+	},
+	"zuid_holland": {
+		"aantal_bedrijven_per_jaar": {
+			"jaar_2019": 1180,
+			"jaar_2018": 1850,
+			"jaar_2017": 1780,
+			"jaar_2016": 1770
+		},
+		"aantal_bedrijven_per_kwartaal": {
+			"kwartaal_1": 1840,
+			"kwartaal_2": 1860,
+			"kwartaal_3": 1180,
+			"kwartaal_4": 1180
+		},
+		"werknemers_bedrijfsgrootte": {
+			"minder_dan_25_werknemers": 1610,
+			"van_25_tot_250_werknemers": 260,
+			"meer_dan_250_werknemers": 10
+		},
+		"aantal_zzp_ers": {
+			"jaar_2019": 4450
+		}
+	},
+	"zuid_nederland": {
+		"aantal_bedrijven_per_jaar": {
+			"jaar_2019": 2290,
+			"jaar_2018": 2210,
+			"jaar_2017": 2160,
+			"jaar_2016": 2160
+		},
+		"aantal_bedrijven_per_kwartaal": {
+			"kwartaal_1": 2210,
+			"kwartaal_2": 2240,
+			"kwartaal_3": 2280,
+			"kwartaal_4": 2290
+		},
+		"werknemers_bedrijfsgrootte": {
+			"minder_dan_25_werknemers": 1960,
+			"van_25_tot_250_werknemers": 320,
+			"meer_dan_250_werknemers": 10
+		},
+		"aantal_zzp_ers": {
+			"jaar_2019": 4130
 		}
 	}
 }
