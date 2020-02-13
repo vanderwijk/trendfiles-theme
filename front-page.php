@@ -6,9 +6,9 @@
 
 	<div class="col four-fifths infographic">
 		<div class="block">
-			
+			<div class="svg-wrap">
 				<?php echo file_get_contents('https://trendfiles.otib.nl/wp-content/themes/trendfiles-theme/img/home-techniekketen-optimized.svg'); ?>
-			
+			</div>
 			<p class="meer-button" style="text-align: center; width: 100%;"><a href="/factsheet/ti-installatie/">TI Installatie</a></p>
 			<p style="text-align: center; width: 100%;">Bekijk alle trends, cijfers en ontwikkelingen binnen de TI branche.</p>
 		</div>
