@@ -139,4 +139,15 @@ function maakGrafiek(regio) {
 	document.getElementById("aantal_werknemers_per_kwartaal_3").textContent = formatNumber(aantal_werknemers_per_kwartaal_3);
 	document.getElementById("aantal_werknemers_per_kwartaal_4").textContent = formatNumber(aantal_werknemers_per_kwartaal_4);
 
+
+	var mannen = gegevens[regio].geslacht.mannen;
+	var vrouwen = gegevens[regio].geslacht.vrouwen;
+	document.getElementById("mannen").textContent = '(' + formatNumber(mannen) + ')';
+	document.getElementById("vrouwen").textContent = '(' + formatNumber(vrouwen) + ')';
+
+	var percentage_mannen = Math.round(mannen * 100 / (mannen + vrouwen));
+	var percentage_vrouwen = Math.round(vrouwen * 100 / (mannen + vrouwen));
+
+	document.getElementById("percentage_mannen").textContent = percentage_mannen + '%';
+	document.getElementById("percentage_vrouwen").textContent = percentage_vrouwen + '%';
 }
