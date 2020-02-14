@@ -18,9 +18,6 @@ jQuery( document ).ready(function($) {
 		}
 	});
 
-	var jsonKleuren = '{"noord_holland":{"hoofdkleur":"#a75634","donker":"#5b2f17","licht":"#f5ebe6"},"gelderland_overijssel":{"hoofdkleur":"#688f8c","donker":"#3c5553","licht":"#edf2f2"},"noord_nederland":{"hoofdkleur":"#d4be59","donker":"#685f2c","licht":"#f8f7ee"},"zuid_holland":{"hoofdkleur":"#896377","donker":"#46233c","licht":"#f1edef"},"zuid_nederland":{"hoofdkleur":"#a29c5a","donker":"#5b5a30","licht":"#f5f4ed"},"midden_nederland":{"hoofdkleur":"#6d8293","donker":"#3b4851","licht":"#edf1f4"},"nederland":{"hoofdkleur":"#2E8D9E","donker":"#044954","licht":"#F4F9FA","medium":"919494"}}';
-	kleuren = JSON.parse(jsonKleuren);
-
 	// selecteer de regio na klikken op knop
 	$('.knoppen li').click(function() {
 		$('.knoppen li').addClass('disabled');
@@ -33,7 +30,6 @@ jQuery( document ).ready(function($) {
 
 function maakGrafiek(regio) {
 	//console.log( gegevens );
-	//console.log( kleuren );
 
 	var aantal_bedrijven_per_jaar = gegevens[regio].aantal_bedrijven_per_jaar.jaar_2019;
 	var aantal_bedrijven_per_jaar_2018 = gegevens[regio].aantal_bedrijven_per_jaar.jaar_2018;
@@ -113,30 +109,4 @@ function maakGrafiek(regio) {
 	jQuery('#aantal_bedrijven_per_jaar_2017').attr('x', x2_aantal_bedrijven_per_jaar_2017 + 10);
 	jQuery('#aantal_bedrijven_per_jaar_2016').attr('x', x2_aantal_bedrijven_per_jaar_2016 + 10);
 
-	// Kleur regio's aan de hand van kleuren json
-	jQuery('#achtergrond_bovenvlak').css({ fill: kleuren[regio].licht });
-	jQuery('#achtergrond_ondervlak').css({ fill: kleuren[regio].licht });
-
-	jQuery('#vulling_aantal_bedrijven_per_jaar_2018').css({ stroke: kleuren[regio].hoofdkleur });
-	jQuery('#vulling_aantal_bedrijven_per_jaar_2017').css({ stroke: kleuren[regio].donker });
-
-	jQuery('#aantal_bedrijven_per_jaar_2018').css({ fill: kleuren[regio].hoofdkleur });
-	jQuery('#aantal_bedrijven_per_jaar_2017').css({ fill: kleuren[regio].donker });
-
-	jQuery('#k_minder_dan_25_werknemers').css({ stroke: kleuren[regio].hoofdkleur });
-	jQuery('#m_van_25_tot_250_werknemers').css({ stroke: kleuren[regio].donker });
-
-	jQuery('#aantal_minder_dan_25_werknemers').css({ fill: kleuren[regio].hoofdkleur });
-	jQuery('#aantal_van_25_tot_250_werknemers').css({ fill: kleuren[regio].donker });
-
-	jQuery('#aantal_zzp_ers').css({ fill: kleuren[regio].hoofdkleur });
-	jQuery('#plus').css({ fill: kleuren[regio].hoofdkleur });
-
-	jQuery('#aantal_bedrijven').css({ fill: kleuren[regio].donker });
-
-	jQuery( '#label_totaal' ).css({ fill: kleuren[regio].hoofdkleur });
-	jQuery( '#label_wervingsbehoefte' ).css({ stroke: kleuren[regio].hoofdkleur });
-
-
 }
-

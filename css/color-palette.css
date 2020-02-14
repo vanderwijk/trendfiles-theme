@@ -1,0 +1,137 @@
+.color_grey_1 { color: #414143; }
+.color_grey_2 { color: #919494; }
+.color_grey_3 { color: #D9DADB; }
+.color_1 { color: #074953; }
+.color_2 { color: #258999; }
+.color_3 { color: #51A1AE; }
+.color_4 { color: #7CB8C2; }
+.color_5 { color: #A8D0D6; }
+.color_6 { color: #F4F9FA; }
+#noord_nederland .color_1 { color: #776C31; }
+#noord_nederland .color_2 { color: #CCB65B; }
+#noord_nederland .color_3 { color: #D4C379; }
+#noord_nederland .color_4 { color: #DFD096; }
+#noord_nederland .color_5 { color: #E9E0B7; }
+#noord_nederland .color_6 { color: #F8F7EE; }
+#noord_holland .color_1 { color: #4E2109; }
+#noord_holland .color_2 { color: #A05639; }
+#noord_holland .color_3 { color: #AF7055; }
+#noord_holland .color_4 { color: #BF8C74; }
+#noord_holland .color_5 { color: #D2AD99; }
+#noord_holland .color_6 { color: #F5EBE6; }
+#midden_nederland .color_1 { color: #324554; }
+#midden_nederland .color_2 { color: #5C778D; }
+#midden_nederland .color_3 { color: #778EA2; }
+#midden_nederland .color_4 { color: #93A6B7; }
+#midden_nederland .color_5 { color: #B2C0CE; }
+#midden_nederland .color_6 { color: #EDF1F4; }
+#gelderland_overijssel .color_1 { color: #2E5150; }
+#gelderland_overijssel .color_2 { color: #598785; }
+#gelderland_overijssel .color_3 { color: #759B99; }
+#gelderland_overijssel .color_4 { color: #92AFAE; }
+#gelderland_overijssel .color_5 { color: #B0C6C4; }
+#gelderland_overijssel .color_6 { color: #EDF2F2; }
+#zuid_nederland .color_1 { color: #4D4C25; }
+#zuid_nederland .color_2 { color: #A39C5A; }
+#zuid_nederland .color_3 { color: #B1AC76; }
+#zuid_nederland .color_4 { color: #C4BD93; }
+#zuid_nederland .color_5 { color: #D5CFB1; }
+#zuid_nederland .color_6 { color: #F5F4ED; }
+#zuid_holland .color_1 { color: #452D3B; }
+#zuid_holland .color_2 { color: #8A6378; }
+#zuid_holland .color_3 { color: #9A7A8A; }
+#zuid_holland .color_4 { color: #9A7A8A; }
+#zuid_holland .color_5 { color: #C5B3BA; }
+#zuid_holland .color_6 { color: #F1EDEF; }
+
+.stroke_grey_1 { stroke: #414143; }
+.stroke_grey_2 { stroke: #919494; }
+.stroke_grey_3 { stroke: #D9DADB; }
+.stroke_1 { stroke: #074953; }
+.stroke_2 { stroke: #258999; }
+.stroke_3 { stroke: #51A1AE; }
+.stroke_4 { stroke: #7CB8C2; }
+.stroke_5 { stroke: #A8D0D6; }
+.stroke_6 { stroke: #F4F9FA; }
+#noord_nederland .stroke_1 { stroke: #776C31; }
+#noord_nederland .stroke_2 { stroke: #CCB65B; }
+#noord_nederland .stroke_3 { stroke: #D4C379; }
+#noord_nederland .stroke_4 { stroke: #DFD096; }
+#noord_nederland .stroke_5 { stroke: #E9E0B7; }
+#noord_nederland .stroke_6 { stroke: #F8F7EE; }
+#noord_holland .stroke_1 { stroke: #4E2109; }
+#noord_holland .stroke_2 { stroke: #A05639; }
+#noord_holland .stroke_3 { stroke: #AF7055; }
+#noord_holland .stroke_4 { stroke: #BF8C74; }
+#noord_holland .stroke_5 { stroke: #D2AD99; }
+#noord_holland .stroke_6 { stroke: #F5EBE6; }
+#midden_nederland .stroke_1 { stroke: #324554; }
+#midden_nederland .stroke_2 { stroke: #5C778D; }
+#midden_nederland .stroke_3 { stroke: #778EA2; }
+#midden_nederland .stroke_4 { stroke: #93A6B7; }
+#midden_nederland .stroke_5 { stroke: #B2C0CE; }
+#midden_nederland .stroke_6 { stroke: #EDF1F4; }
+#gelderland_overijssel .stroke_1 { stroke: #2E5150; }
+#gelderland_overijssel .stroke_2 { stroke: #598785; }
+#gelderland_overijssel .stroke_3 { stroke: #759B99; }
+#gelderland_overijssel .stroke_4 { stroke: #92AFAE; }
+#gelderland_overijssel .stroke_5 { stroke: #B0C6C4; }
+#gelderland_overijssel .stroke_6 { stroke: #EDF2F2; }
+#zuid_nederland .stroke_1 { stroke: #4D4C25; }
+#zuid_nederland .stroke_2 { stroke: #A39C5A; }
+#zuid_nederland .stroke_3 { stroke: #B1AC76; }
+#zuid_nederland .stroke_4 { stroke: #C4BD93; }
+#zuid_nederland .stroke_5 { stroke: #D5CFB1; }
+#zuid_nederland .stroke_6 { stroke: #F5F4ED; }
+#zuid_holland .stroke_1 { stroke: #452D3B; }
+#zuid_holland .stroke_2 { stroke: #8A6378; }
+#zuid_holland .stroke_3 { stroke: #9A7A8A; }
+#zuid_holland .stroke_4 { stroke: #9A7A8A; }
+#zuid_holland .stroke_5 { stroke: #C5B3BA; }
+#zuid_holland .stroke_6 { stroke: #F1EDEF; }
+
+.fill_grey_1 { fill: #414143; }
+.fill_grey_2 { fill: #919494; }
+.fill_grey_3 { fill: #D9DADB; }
+.fill_1 { fill: #074953; }
+.fill_2 { fill: #258999; }
+.fill_3 { fill: #51A1AE; }
+.fill_4 { fill: #7CB8C2; }
+.fill_5 { fill: #A8D0D6; }
+.fill_6 { fill: #F4F9FA; }
+#noord_nederland .fill_1 { fill: #776C31; }
+#noord_nederland .fill_2 { fill: #CCB65B; }
+#noord_nederland .fill_3 { fill: #D4C379; }
+#noord_nederland .fill_4 { fill: #DFD096; }
+#noord_nederland .fill_5 { fill: #E9E0B7; }
+#noord_nederland .fill_6 { fill: #F8F7EE; }
+#noord_holland .fill_1 { fill: #4E2109; }
+#noord_holland .fill_2 { fill: #A05639; }
+#noord_holland .fill_3 { fill: #AF7055; }
+#noord_holland .fill_4 { fill: #BF8C74; }
+#noord_holland .fill_5 { fill: #D2AD99; }
+#noord_holland .fill_6 { fill: #F5EBE6; }
+#midden_nederland .fill_1 { fill: #324554; }
+#midden_nederland .fill_2 { fill: #5C778D; }
+#midden_nederland .fill_3 { fill: #778EA2; }
+#midden_nederland .fill_4 { fill: #93A6B7; }
+#midden_nederland .fill_5 { fill: #B2C0CE; }
+#midden_nederland .fill_6 { fill: #EDF1F4; }
+#gelderland_overijssel .fill_1 { fill: #2E5150; }
+#gelderland_overijssel .fill_2 { fill: #598785; }
+#gelderland_overijssel .fill_3 { fill: #759B99; }
+#gelderland_overijssel .fill_4 { fill: #92AFAE; }
+#gelderland_overijssel .fill_5 { fill: #B0C6C4; }
+#gelderland_overijssel .fill_6 { fill: #EDF2F2; }
+#zuid_nederland .fill_1 { fill: #4D4C25; }
+#zuid_nederland .fill_2 { fill: #A39C5A; }
+#zuid_nederland .fill_3 { fill: #B1AC76; }
+#zuid_nederland .fill_4 { fill: #C4BD93; }
+#zuid_nederland .fill_5 { fill: #D5CFB1; }
+#zuid_nederland .fill_6 { fill: #F5F4ED; }
+#zuid_holland .fill_1 { fill: #452D3B; }
+#zuid_holland .fill_2 { fill: #8A6378; }
+#zuid_holland .fill_3 { fill: #9A7A8A; }
+#zuid_holland .fill_4 { fill: #9A7A8A; }
+#zuid_holland .fill_5 { fill: #C5B3BA; }
+#zuid_holland .fill_6 { fill: #F1EDEF; }
