@@ -19,19 +19,18 @@ jQuery(document).ready(function($) {
 	});
 
 	// selecteer de regio na klikken op knop
-	$('.knoppen li').click(function() {
-		$('.knoppen li').addClass('disabled');
+	$('#regioselectie li').click(function() {
+		$('#regioselectie li').addClass('disabled');
 		$(this).removeClass('disabled');
 		var regio = $(this).attr('id');
 		$('article').attr('id', regio);
+		$('#download-pdf').attr('href', '/wp-content/themes/trendfiles-theme/pdf/factsheet_technischeinstallatiebranche_' + regio + '.pdf');
 		maakGrafiek( regio );
 	});
 })
 
 function maakGrafiek(regio) {
 	//console.log( gegevens );
-
-	document.getElementById('download-pdf').setAttribute('href', '/wp-content/themes/trendfiles-theme/pdf/factsheet_technischeinstallatiebranche_' + regio + '.pdf');
 
 	var aantal_bedrijven_per_jaar = gegevens[regio].aantal_bedrijven_per_jaar.jaar_2019;
 

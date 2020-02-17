@@ -14,7 +14,7 @@ if (isset($_SERVER['HTTPS'])) {
 		<div class="col">
 			<header class="block">
 				<h1 class="category">Technische Installatiebranche</h1>
-				<ul class="knoppen">
+				<ul class="knoppen" id="regioselectie">
 					<li id="nederland">Nederland</li>
 					<li class="disabled" id="noord_nederland">Noord Nederland</li>
 					<li class="disabled" id="noord_holland">Noord-Holland</li>
@@ -24,7 +24,7 @@ if (isset($_SERVER['HTTPS'])) {
 					<li class="disabled" id="zuid_holland">Zuid-Holland</li>
 				</ul>
 				<ul class="knoppen pdf">
-					<li><a id="download-pdf" href="/wp-content/themes/trendfiles-theme/pdf/factsheet-technischeinstallatiebranche-nederland.pdf">PDF / Printversie</a></li>
+					<li><a id="download-pdf" href="/wp-content/themes/trendfiles-theme/pdf/factsheet_technischeinstallatiebranche_nederland.pdf">PDF / Printversie</a></li>
 				</ul>
 			</header>
 		</div>
