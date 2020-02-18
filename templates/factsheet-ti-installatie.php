@@ -3,7 +3,7 @@ get_header();
 
 ?>
 
-<script src="<?php echo $protocol . $host . '/wp-content/themes/trendfiles-theme/js/factsheet-technische-installatiebranche.js';?>" type="text/javascript"></script>
+<script src="<?php echo $protocol . $host . '/wp-content/themes/trendfiles-theme/js/factsheet-technische-installatiebranche.js'; ?>"></script>
 
 <article <?php post_class('article'); ?> id="nederland">
 	<div class="row header">
@@ -33,8 +33,6 @@ get_header();
 		</div>
 	</div>
 </article>
-
-<?php get_footer(); ?>
 
 <script>
 jQuery(document).ready(function($) {
@@ -66,3 +64,5 @@ jQuery(document).ready(function($) {
 
 });
 </script>
+
+<?php get_footer(); ?>
