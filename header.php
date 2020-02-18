@@ -2,7 +2,27 @@
 <html <?php language_attributes(); ?>>
 <head>
 <!--
-Website development by VanderWijk Consultancy - http://vanderwijk.nl
+    ╭──────────────────────────────────────────╮
+    │ ≡ Conceptontwikkeling                    │
+    ╞══════════════════════════════════════════╡
+    │  Zandra Booij - Camojo Media             │
+    ├──────────────────────────────────────────┤
+    │  https://camojo.nl/                      │
+    ╰──────────────────────────────────────────╯
+    ╭──────────────────────────────────────────╮
+    │ ≡ Ontwerp                                │
+    ╞══════════════════════════════════════════╡
+    │  Sandra de Jager - Studio Harm Hasenaar  │
+    ├──────────────────────────────────────────┤
+    │  http://www.studioharmhasenaar.nl        │
+    ╰──────────────────────────────────────────╯
+    ╭──────────────────────────────────────────╮
+    │ ≡ Technische realisatie                  │
+    ╞══════════════════════════════════════════╡
+    │ Johan van der Wijk - The Web Works       │
+    ├──────────────────────────────────────────┤
+    │  https://thewebworks.nl                  │
+    ╰──────────────────────────────────────────╯
 -->
 <meta charset='<?php bloginfo( 'charset' ); ?>' />
 <meta name='viewport' content='width=device-width, initial-scale=1.0' />
