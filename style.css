@@ -229,13 +229,13 @@ small {
 }
 .block .meer-button a {
 	background-color: #fff;
-	border: 1px solid #919494;
+	border: 1px solid #bbb;
 	border-radius: 1em;
 	padding: 5px 10px;
 	font-weight: 500;
 	color: #2e8d9e;
 	font-family: Roboto, sans-serif;
-	box-shadow: 1px 1px 5px 1px rgba(0, 0, 0, .2);
+	box-shadow: 1px 1px 5px 1px rgba(0, 0, 0, .15);
 	line-height: initial;
 }
 .block .meer-button a.disabled {
@@ -948,7 +948,7 @@ ul.knoppen.pdf li {
 /* Header
 ----------------------------------------------------------------------------------------------------*/
 
-.header .block {
+header .block {
 	display: flex;
 	flex-direction: row;
 	justify-content: space-between;

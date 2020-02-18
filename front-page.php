@@ -7,7 +7,7 @@
 	<div class="col four-fifths infographic">
 		<div class="block">
 			<div class="svg-wrap">
-				<?php echo file_get_contents('https://trendfiles.otib.nl/wp-content/themes/trendfiles-theme/img/home-techniekketen-optimized.svg'); ?>
+				<?php echo file_get_contents( $protocol . $host . '/wp-content/themes/trendfiles-theme/img/home-techniekketen-optimized.svg'); ?>
 			</div>
 			<p class="meer-button" style="text-align: center; width: 100%;"><a href="/factsheet/ti-installatie/">TI Installatie</a></p>
 			<p style="text-align: center; width: 100%;">Bekijk alle trends, cijfers en ontwikkelingen binnen de TI branche.</p>
@@ -16,7 +16,7 @@
 
 	<div class="col one-fifth uitgelicht">
 		<div class="block">
-			<?php echo file_get_contents('https://trendfiles.otib.nl/wp-content/themes/trendfiles-theme/img/home-uitgelicht.svg'); ?>
+			<?php echo file_get_contents( $protocol . $host . '/wp-content/themes/trendfiles-theme/img/home-uitgelicht.svg'); ?>
 			<h2>Nog geen kwart van de installatiebedrijven is actief als leerbedrijf.</h2>
 		</div>
 	</div>
@@ -29,9 +29,14 @@
 				<?php
 					$video_cats = array(102,103,104);
 					foreach ($video_cats as $video_cat) {
-					$video_args = array(
+						if ($video_cat === 120 ) {
+							$numberposts = 2;
+						} else {
+							$numberposts = 1;
+						}
+						$video_args = array(
 						'cat' => $video_cat,
-						'numberposts' => 1,
+						'numberposts' => $numberposts,
 						'tax_query' => array(
 							array(
 								'taxonomy' => 'post_format',

@@ -1,6 +1,15 @@
 <?php
 define('TRENDFILES_THEME_VER', '1.0.1');
 
+if (isset($_SERVER['HTTPS'])) {
+	$protocol = ($_SERVER['HTTPS'] && $_SERVER['HTTPS'] != "off") ? "https://" : "http://";
+} else {
+	$protocol = 'http://';
+}
+if (isset($_SERVER['HTTP_HOST'])) {
+	$host = $_SERVER['HTTP_HOST'];
+}
+
 // Translation
 function trendfiles_setup(){
 	load_theme_textdomain( 'trendfiles', get_template_directory() . '/languages' );

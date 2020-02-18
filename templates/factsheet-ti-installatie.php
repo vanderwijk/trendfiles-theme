@@ -1,13 +1,9 @@
 <?php
 get_header();
 
-if (isset($_SERVER['HTTPS'])) {
-	$protocol = ($_SERVER['HTTPS'] && $_SERVER['HTTPS'] != "off") ? "https" : "http";
-} else {
-	$protocol = 'http';
-} ?>
+?>
 
-<script src="<?php echo $protocol . '://' . $_SERVER['HTTP_HOST'] . '/wp-content/themes/trendfiles-theme/js/factsheet-technische-installatiebranche.js';?>" type="text/javascript"></script>
+<script src="<?php echo $protocol . $host . '/wp-content/themes/trendfiles-theme/js/factsheet-technische-installatiebranche.js';?>" type="text/javascript"></script>
 
 <article <?php post_class('article'); ?> id="nederland">
 	<div class="row header">
@@ -32,7 +28,7 @@ if (isset($_SERVER['HTTPS'])) {
 	<div class="row">
 		<div class="col">
 			<div class="block entry-content">
-				<?php echo file_get_contents( $protocol . '://' . $_SERVER['HTTP_HOST'] . '/wp-content/themes/trendfiles-theme/img/factsheet-ti-installatie.svg'); ?>
+				<?php echo file_get_contents( $protocol . $host . '/wp-content/themes/trendfiles-theme/img/factsheet-ti-installatie.svg'); ?>
 			</div>
 		</div>
 	</div>
