@@ -246,6 +246,9 @@ add_action( 'wp_enqueue_scripts', 'include_scripts_styles' );
 // Post formats
 add_theme_support( 'post-formats', array( 'video', 'quote', 'aside', 'image', 'link' ) );
 
+// Title tag
+add_theme_support( 'title-tag' );
+
 // Featured images
 add_image_size( 'thumb', 400, 9999 );
 add_image_size( 'thumb-video', 400, 225 );

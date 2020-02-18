@@ -5,16 +5,12 @@
 Website development by VanderWijk Consultancy - http://vanderwijk.nl
 -->
 <meta charset='<?php bloginfo( 'charset' ); ?>' />
-<meta name='viewport' content='width=device-width, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0' />
+<meta name='viewport' content='width=device-width, initial-scale=1.0' />
 <meta name='application-name' content='OTIB Trendfiles' />
 <meta name='apple-mobile-web-app-title' content='OTIB Trendfiles' />
-<title><?php wp_title(); ?></title>
 <link rel='icon' type='image/x-icon' href='<?php echo get_stylesheet_directory_uri(); ?>/img/favicon.ico' />
 <link rel='apple-touch-icon' sizes='144x144' href='<?php echo get_stylesheet_directory_uri(); ?>/img/touch-icon-ipad-retina.png' />
 <link rel='profile' href='http://gmpg.org/xfn/11' />
-<!--[if lt IE 9]>
-<script src="<?php echo get_template_directory_uri(); ?>/js/html5.js" type="text/javascript"></script>
-<![endif]-->
 <?php wp_head(); ?>
 <!-- Google Tag Manager -->
 <script>(function(w,d,s,l,i){w[l]=w[l]||[];w[l].push({'gtm.start':
