@@ -26,7 +26,7 @@ j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
 height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
 <!-- End Google Tag Manager (noscript) -->
 <div class="wrapper hfeed">
-	<header class="header" role="banner">
+	<header class="header">
 		<div class="row">
 			<div class="col">
 				<div class="block">
@@ -66,7 +66,7 @@ height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
 			</div>
 		</div>
 	</header>
-	<nav class="navigation" role="navigation">
+	<nav class="navigation">
 		<h3 class="menu-toggle"><?php _e( 'Menu', 'trendfiles' ); ?></h3>
 		<?php wp_nav_menu( array( 'theme_location' => 'primary', 'menu_class' => 'nav-menu' ) ); ?>
 	</nav>
