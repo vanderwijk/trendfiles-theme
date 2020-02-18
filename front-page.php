@@ -140,7 +140,6 @@
 							echo '</figure>';
 							echo '<div class="text">';
 							echo '<h2>';
-							echo '<a href="' . get_the_permalink() . '">';
 							echo '<a data-fancybox data-type="iframe" data-src="'.wp_get_attachment_url($attachment -> ID).'" href="'.wp_get_attachment_url($attachment -> ID).'">';
 							the_title();
 							echo '</a>';
