@@ -1,6 +1,7 @@
 <!DOCTYPE html>
 <html <?php language_attributes(); ?>>
 <head>
+<meta charset='<?php bloginfo( 'charset' ); ?>' />
 <!--
     ╭──────────────────────────────────────────╮
     │ ≡ Conceptontwikkeling                    │
@@ -24,7 +25,6 @@
     │  https://thewebworks.nl                  │
     ╰──────────────────────────────────────────╯
 -->
-<meta charset='<?php bloginfo( 'charset' ); ?>' />
 <meta name='viewport' content='width=device-width, initial-scale=1.0' />
 <meta name='application-name' content='OTIB Trendfiles' />
 <meta name='apple-mobile-web-app-title' content='OTIB Trendfiles' />
