@@ -27,9 +27,9 @@
 			<p style="width: 100%"><strong>Binnen alle video's kun je zoeken naar quotes op onderwerpen</strong></p>
 			<div class="video-listing">
 				<?php
-					$video_cats = array(102,103,104);
+					$video_cats = array(102,103); // 104 tijdelijk verwijderd
 					foreach ($video_cats as $video_cat) {
-						if ($video_cat == 120 ) {
+						if ($video_cat === 102 ) {
 							$numberposts = 2;
 						} else {
 							$numberposts = 1;
