@@ -105,6 +105,12 @@ if ( function_exists( 'register_sidebar' )) {
 	));
 }
 
+// Remove type from script and style tags
+function register_html_support() {
+	add_theme_support( 'html5', array( 'script', 'style' ) );
+}
+add_action( 'after_setup_theme', 'register_html_support' );
+
 // Include scripts
 function include_scripts_styles () {
 
