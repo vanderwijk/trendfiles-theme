@@ -29,47 +29,47 @@
 				<?php
 					$video_cats = array(102,103,104);
 					foreach ($video_cats as $video_cat) {
-						if ($video_cat === 120 ) {
+						if ($video_cat == 120 ) {
 							$numberposts = 2;
 						} else {
 							$numberposts = 1;
 						}
 						$video_args = array(
-						'cat' => $video_cat,
-						'numberposts' => $numberposts,
-						'tax_query' => array(
-							array(
-								'taxonomy' => 'post_format',
-								'field' => 'slug',
-								'terms' => array( 'post-format-video' )
+							'cat' => $video_cat,
+							'numberposts' => $numberposts,
+							'tax_query' => array(
+								array(
+									'taxonomy' => 'post_format',
+									'field' => 'slug',
+									'terms' => array( 'post-format-video' )
+								)
 							)
-						)
-					);
-					$video_posts = get_posts( $video_args );
-					foreach( $video_posts as $post ) {
-						setup_postdata( $post );
-						echo '<div class="video-thumb">';
-						echo '<h2>';
-						the_title();
-						echo '</h2>';
+						);
+						$video_posts = get_posts( $video_args );
+						foreach( $video_posts as $post ) {
+							setup_postdata( $post );
+							echo '<div class="video-thumb">';
+							echo '<h2>';
+							the_title();
+							echo '</h2>';
 
-						echo '<a href="' . get_the_permalink() . '">';
+							echo '<a href="' . get_the_permalink() . '">';
 
-						echo '<div class="figure">';
-						the_post_thumbnail( 'large' );
-						echo '<img class="icon-play" src="/wp-content/themes/trendfiles-theme/img/play-circle.svg" alt="Video afspelen">';
-						echo '</div>';
+							echo '<div class="figure">';
+							the_post_thumbnail( 'large' );
+							echo '<img class="icon-play" src="/wp-content/themes/trendfiles-theme/img/play-circle.svg" alt="Video afspelen">';
+							echo '</div>';
 
-						echo '<div class="video-excerpt">';
-						the_excerpt();
-						echo '</div>';
+							echo '<div class="video-excerpt">';
+							the_excerpt();
+							echo '</div>';
 
-						$category_link = get_category_link( $video_cat );
+							$category_link = get_category_link( $video_cat );
 
-						echo '</a>';
-						echo '<p class="meer-button"><a href="' . esc_url( $category_link ) . '">' . get_cat_name( $category_id = $video_cat ) . '</a></p>';
-						echo '</div>';
-					}
+							echo '</a>';
+							echo '<p class="meer-button"><a href="' . esc_url( $category_link ) . '">' . get_cat_name( $category_id = $video_cat ) . '</a></p>';
+							echo '</div>';
+						}
 					wp_reset_postdata();
 				} ?>
 			</div>
