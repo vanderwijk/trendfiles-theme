@@ -14,7 +14,7 @@
     ╞══════════════════════════════════════════╡
     │  Sandra de Jager - Studio Harm Hasenaar  │
     ├──────────────────────────────────────────┤
-    │  http://www.studioharmhasenaar.nl        │
+    │  https://www.studioharmhasenaar.nl       │
     ╰──────────────────────────────────────────╯
     ╭──────────────────────────────────────────╮
     │ ≡ Technische realisatie                  │
