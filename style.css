@@ -948,46 +948,26 @@ ul.knoppen.pdf li {
 /* Header
 ----------------------------------------------------------------------------------------------------*/
 
-.logo-trendfiles {
-	background: url('/wp-content/themes/trendfiles-theme/img/logo-trendfiles.png') no-repeat;
-	background-size: 23.125em 3.250em;
-	float: left;
-	height: 3.250em;
-	/* 52px */
-	overflow: hidden;
-	text-indent: -9999px;
-	width: 22.125em;
-	/* 370px */
+.header .block {
+	display: flex;
+	flex-direction: row;
+	justify-content: space-between;
 }
 
-.svg .logo-trendfiles {
-	background: url('/wp-content/themes/trendfiles-theme/img/logo-trendfiles.svg') no-repeat;
-	background-size: 22.125em 3.250em;
+.logo-trendfiles {
+
 }
+
 
 .logo-otib {
-	background: url('/wp-content/themes/trendfiles-theme/img/logo-otib.png') no-repeat;
-	background-size: 3.333em 3.667em;
-	float: right;
-	height: 2.75em;
-	/* 44px */
-	margin-left: 0.833em;
-	/* 10px */
-	overflow: hidden;
-	text-indent: -9999px;
-	width: 2.5em;
-	/* 40px */
-}
-
-.svg .logo-otib {
-	background: url('/wp-content/themes/trendfiles-theme/img/logo-otib.svg') no-repeat;
-	background-size: 2.5em 2.75em;
+	margin-left: 10px;
 }
 
 .utilities {
-	float: right;
+	margin-left: auto;
 	font-size: .750em;
 	/* 12px */
+	min-width: 270px;
 }
 
 .utilities .search {
