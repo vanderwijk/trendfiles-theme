@@ -263,6 +263,7 @@ ul.knoppen li {
 	box-shadow: 1px 1px 5px 1px rgba(0, 0, 0, .2);
 	line-height: initial;
 	cursor: pointer;
+	white-space: nowrap;
 }
 
 ul.knoppen li:active {
