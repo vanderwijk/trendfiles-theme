@@ -182,5 +182,43 @@ function maakGrafiek(regio) {
 	document.getElementById('line_jonger_dan_25_jaar').setAttribute('height', hoogte_jonger_dan_25_jaar);
 	document.getElementById('line_jonger_dan_25_jaar').setAttribute('y', hoogte_ouder_dan_55_jaar + hoogte_van_45_tot_54_jaar + hoogte_van_35_tot_44_jaar + hoogte_van_25_tot_34_jaar + 660);
 
+	var erkend_actief = gegevens[regio].leerbedrijven.erkend_actief;
+	var erkend_inactief = gegevens[regio].leerbedrijven.erkend_inactief;
+	var geen_leerbedrijf = gegevens[regio].leerbedrijven.geen_leerbedrijf;
 
+	totaal_leerbedrijven = erkend_actief + erkend_inactief + geen_leerbedrijf;
+
+	var percentage_erkend_actief = Math.round(erkend_actief * 100 / totaal_leerbedrijven);
+	var percentage_erkend_inactief = Math.round(erkend_inactief * 100 / totaal_leerbedrijven);
+	var percentage_geen_leerbedrijf = Math.round(geen_leerbedrijf * 100 / totaal_leerbedrijven);
+
+	hoogte_erkend_actief = erkend_actief * 328 / totaal_leerbedrijven;
+	hoogte_erkend_inactief = erkend_inactief * 328 / totaal_leerbedrijven;
+	hoogte_geen_leerbedrijf = geen_leerbedrijf * 328 / totaal_leerbedrijven;
+
+	document.getElementById('erkend_actief').textContent = '(' + formatNumber(erkend_actief) + ')';
+	document.getElementById('erkend_inactief').textContent = '(' + formatNumber(erkend_inactief) + ')';
+	document.getElementById('geen_leerbedrijf').textContent = '(' + formatNumber(geen_leerbedrijf) + ')';
+
+	document.getElementById('percentage_erkend_actief').textContent = percentage_erkend_actief + '%';
+	document.getElementById('percentage_erkend_inactief').textContent = percentage_erkend_inactief + '%';
+	document.getElementById('percentage_geen_leerbedrijf').textContent = percentage_geen_leerbedrijf + '%';
+
+	document.getElementById('line_erkend_actief').setAttribute('height', hoogte_erkend_actief);
+	document.getElementById('line_erkend_actief').setAttribute('y', hoogte_erkend_inactief + hoogte_geen_leerbedrijf + 1159);
+
+	document.getElementById('line_erkend_inactief').setAttribute('height', hoogte_erkend_inactief);
+	document.getElementById('line_erkend_inactief').setAttribute('y', hoogte_geen_leerbedrijf + 1159);
+
+	var leerbedrijven = gegevens[regio].leerlingen_leerbedrijven.leerbedrijven;
+	var leerlingen_leerbedrijven = gegevens[regio].leerlingen_leerbedrijven.leerlingen;
+
+	document.getElementById('leerbedrijven').textContent = formatNumber(leerbedrijven);
+	document.getElementById('leerlingen_leerbedrijven').textContent = formatNumber(leerlingen_leerbedrijven);
+
+	var opleidingscentra = gegevens[regio].leerlingen_opleidingscentra.opleidingscentra;
+	var leerlingen_opleidingscentra = gegevens[regio].leerlingen_opleidingscentra.leerlingen;
+
+	document.getElementById('opleidingscentra').textContent = formatNumber(opleidingscentra);
+	document.getElementById('leerlingen_opleidingscentra').textContent = formatNumber(leerlingen_opleidingscentra);
 }

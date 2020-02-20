@@ -328,18 +328,7 @@
 		<path id="vergrootglas 2" d="M1210.16 1355.32c-24.63-10.41-41.93-27.91-51.99-51.84-17.64-41.9-1.36-90.45 38.37-115.02 40.1-24.8 92.46-18.75 125.55 14.76 15.84 16.05 24.89 35.31 26.56 57.4 2.35 30.92-8.85 56.94-32.04 78.33 4.49 1.99 5.01 4.4 1.78 8.39.28.4.57.83.88 1.24 5.13 7.11 10.27 14.22 15.4 21.33 17.14 23.69 62.08 90.45 79.24 114.13.77 1.06.9 2.03.13 3.04-.86 1.13-1.71 2.29-2.75 3.26-6.92 6.47-15.01 11.28-23.78 15.01-2.69 1.14-5.59 1.89-8.47 2.55-1.99.46-2.49.02-3.47-1.74-17.16-30.91-62.13-104.87-79.3-135.79-1.41-2.55-2.83-5.1-4.24-7.64-4.71 1.79-7.87-1.71-6.8-5.38-25.41 8.73-50.48 8.37-75.07-2.03zm-44.08-107.39c-11.8 44.63 16.34 89.96 62.85 101.28 46.52 11.31 93.51-15.81 105.33-60.8 11.62-44.17-16.65-89.49-62.84-100.75-46.42-11.32-93.55 15.65-105.34 60.27z" fill="#D9DADB"/>
 		<path id="lijn_5" d="M1237.4 1125.39l-.14-60.04" stroke="#A6A8AB" stroke-width="1.145" stroke-miterlimit="10"/>
 		<path id="bolletje_5" d="M1240.5 1065.5c-.01-1.72-1.46-3.11-3.25-3.11-1.79.01-3.24 1.4-3.24 3.13.01 1.72 1.46 3.11 3.25 3.11 1.79-.01 3.24-1.41 3.24-3.13z" fill="#A6A8AB"/>
-		<text id="(62%)" class="fill_2" font-family="Roboto" font-size="25">
-			<tspan x="867.247" y="1501.72">(62%)</tspan>
-		</text>
-		<text id="4.936" class="fill_1" font-family="Roboto" font-size="45" font-weight="500">
-			<tspan x="740.395" y="1505.03">4.936</tspan>
-		</text>
-		<text id="2.981" class="fill_1" font-family="Roboto" font-size="45" font-weight="500">
-			<tspan x="1252.55" y="1078.57">2.981</tspan>
-		</text>
-		<text id="(38%)" class="fill_2" font-family="Roboto" font-size="25">
-			<tspan x="1384.43" y="1075.26">(38%)</tspan>
-		</text>
+
 		<text id="leerlingen_4" fill="#414143" font-family="Roboto" font-size="24">
 			<tspan x="1252.55" y="1102.46">leerlingen</tspan>
 		</text>
@@ -357,21 +346,42 @@
 		<text id="opleidings- centra" fill="#414143" font-family="Roboto" font-size="24">
 			<tspan x="773.22" y="1281.1">opleidings- </tspan><tspan x="798.005" y="1309.1">centra</tspan>
 		</text>
-		<text id="18" class="fill_2" font-family="Roboto" font-size="45" font-weight="500">
-			<tspan x="805.943" y="1252.38">18</tspan>
-		</text>
-		<text id="leerbedrijven" fill="#414143" font-family="Roboto" font-size="24">
+
+		<text fill="#414143" font-family="Roboto" font-size="24">
 			<tspan x="1178.59" y="1280.97">leerbedrijven</tspan>
 		</text>
-		<text id="1.833" class="fill_2" font-family="Roboto" font-size="45" font-weight="500">
-			<tspan x="1189.64" y="1253.34">1.833</tspan>
+
+
+
+		<text id="(62%)" class="fill_2" font-family="Roboto" font-size="25">
+			<tspan x="867.247" y="1501.72">(62%)</tspan>
 		</text>
+
+		<text id="leerlingen_leerbedrijven" class="fill_1" font-family="Roboto" font-size="45" font-weight="500" x="740.395" y="1505.03">4.936</text>
+
+		<text id="leerlingen_opleidingscentra" class="fill_1" font-family="Roboto" font-size="45" font-weight="500" x="1252.55" y="1078.57">2.981</text>
+		<text id="(38%)" class="fill_2" font-family="Roboto" font-size="25">
+			<tspan x="1384.43" y="1075.26">(38%)</tspan>
+		</text>
+
+		<text id="opleidingscentra" class="fill_2" font-family="Roboto" font-size="45" font-weight="500" text-anchor="middle" x="825" y="1252">18</text>
+		<text id="leerbedrijven" class="fill_2" font-family="Roboto" font-size="45" font-weight="500" text-anchor="middle" x="1245" y="1252">1.833</text>
+
+
 		</g>
 		<g id="leerbedrijven_2">
 		<g id="gebouw">
-			<path id="gebouw_2" fill-rule="evenodd" clip-rule="evenodd" d="M537.343 1156.7H369.56v330.07h225.05V1156.7H537.343zm27.126 0v-4.82h7.033v-38.61h-40.187v38.61h6.028v4.82h27.126zm-22.895-38.37h6.028v20.27h13.061v5.79h-19.089v-26.06zm-1.217 38.37v-4.82h21.098v4.82h-21.098zm21.31.24h-20.093 20.093z" fill="#D9DADB"/>
+
+			<path id="gebouw_2" d="M537.343 1156.7H369.56v330.07h225.05V1156.7H537.343zm27.126 0v-4.82h7.033v-38.61h-40.187v38.61h6.028v4.82h27.126zm-22.895-38.37h6.028v20.27h13.061v5.79h-19.089v-26.06zm-1.217 38.37v-4.82h21.098v4.82h-21.098zm21.31.24h-20.093 20.093z" fill="#D9DADB"/>
+
+			
+
 			<path id="vulling midden" d="M594.61 1319.81H369.56v92.65h225.05v-92.65z" fill="#919494"/>
-			<path id="vulling onder" fill-rule="evenodd" clip-rule="evenodd" d="M369.56 1412.46v74.31h225.05v-74.31H369.56z" class="fill_2"/>
+			<path id="vulling onder"  d="M369.56 1412.46v74.31h225.05v-74.31H369.56z" class="fill_2"/>
+
+			<rect id="line_erkend_inactief" class="" fill="#919494" x="370" y="1159" width="225" height="328" />
+			<rect id="line_erkend_actief" class="fill_2" x="370" y="1412" width="225" height="75" />
+
 			<g id="ramen" fill="#fff">
 			<path id="Vector_97" opacity=".62" d="M489.118 1369.99h-14.066v23.17h14.066v-23.17z"/>
 			<path id="Vector_98" opacity=".62" d="M457.972 1369.99h-14.065v23.17h14.065v-23.17z"/>
@@ -416,33 +426,29 @@
 			</g>
 		</g>
 		<path id="vergrootglas_2" d="M513.806 1504.13c-8.045-3.4-13.696-9.11-16.985-16.92-5.76-13.68-.443-29.53 12.535-37.55 13.1-8.1 30.203-6.13 41.014 4.82 5.176 5.23 8.131 11.52 8.678 18.73.767 10.1-2.89 18.59-10.467 25.58 1.466.65 1.635 1.43.581 2.74.093.13.188.27.286.4l5.034 6.96c5.597 7.74 20.278 29.53 25.885 37.26.253.35.293.67.043 1-.28.37-.559.75-.897 1.06-2.262 2.11-4.904 3.68-7.771 4.9-.879.38-1.826.62-2.765.83-.651.15-.813.01-1.133-.56-5.606-10.09-20.299-34.24-25.906-44.33-.462-.84-.926-1.67-1.386-2.5-1.539.59-2.571-.56-2.222-1.76-8.302 2.85-16.491 2.74-24.524-.66zm-14.401-35.06c-3.854 14.57 5.338 29.37 20.532 33.07 15.196 3.69 30.546-5.17 34.41-19.85 3.793-14.43-5.441-29.22-20.531-32.9-15.16-3.69-30.557 5.11-34.411 19.68z" fill="#404042"/>
-		<text id="54%" fill="#A7A9A9" font-family="Roboto" font-size="45" font-weight="500">
-			<tspan x="270.046" y="1240.67">54%</tspan>
-		</text>
-		<text id="25%" fill="#A7A9A9" font-family="Roboto" font-size="45" font-weight="500">
-			<tspan x="270.046" y="1358.42">25%</tspan>
-		</text>
-		<text id="21%" class="fill_3" font-family="Roboto" font-size="45" font-weight="500">
-			<tspan x="270.046" y="1455.9">21%</tspan>
-		</text>
-		<text id="(4.619)" fill="#919494" font-family="Roboto" font-size="25">
-			<tspan x="174.832" y="1235.83">(4.619)</tspan>
-		</text>
-		<text id="(2.151)" fill="#919494" font-family="Roboto" font-size="25">
-			<tspan x="174.832" y="1350.68">(2.151)</tspan>
-		</text>
-		<text id="(1.851)" class="fill_2" font-family="Roboto" font-size="25">
-			<tspan x="174.832" y="1446.23">(1.851)</tspan>
-		</text>
-		<text id="geen leerbedrijf" fill="#919494" font-family="Roboto" font-size="24">
+
+
+		<text id="percentage_geen_leerbedrijf" fill="#A7A9A9" font-family="Roboto" font-size="45" font-weight="500" x="270.046" y="1240.67">54%</text>
+		<text id="percentage_erkend_inactief" fill="#A7A9A9" font-family="Roboto" font-size="45" font-weight="500" x="270.046" y="1358.42">25%</text>
+		<text id="percentage_erkend_actief" class="fill_3" font-family="Roboto" font-size="45" font-weight="500" x="270.046" y="1455.9">21%</text>
+
+
+		<text id="geen_leerbedrijf" fill="#919494" font-family="Roboto" font-size="25" x="174" y="1235.83">(4.619)</text>
+		<text id="erkend_inactief" fill="#919494" font-family="Roboto" font-size="25" x="174" y="1350.68">(2.151)</text>
+		<text id="erkend_actief" class="fill_2" font-family="Roboto" font-size="25" x="174" y="1446.23">(1.851)</text>
+
+
+		<text fill="#919494" font-family="Roboto" font-size="24">
 			<tspan x="182.51" y="1270.62">geen leerbedrijf</tspan>
 		</text>
-		<text id="erkend leerbedrijf, niet actief" fill="#919494" font-family="Roboto" font-size="24">
+		<text fill="#919494" font-family="Roboto" font-size="24">
 			<tspan x="35.928" y="1390.34">erkend leerbedrijf, niet actief</tspan>
 		</text>
-		<text id="erkend leerbedrijf, actief" fill="#414143" font-family="Roboto" font-size="24">
+		<text fill="#414143" font-family="Roboto" font-size="24">
 			<tspan x="84.718" y="1486.53">erkend leerbedrijf, actief</tspan>
 		</text>
+
+
 		<g id="Leerbedrijven aangesloten bij OTIB" font-family="Roboto">
 			<text fill="#414042" style="white-space:pre" font-size="31" font-weight="500">
 			<tspan x="62.259" y="1063.08">Leerbedrijven</tspan>
