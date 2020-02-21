@@ -233,6 +233,7 @@ function maakGrafiek(regio) {
 	var techniek_ti = gegevens[regio].opleidingen.techniek_ti;
 	var techniek_overig = gegevens[regio].opleidingen.techniek_overig;
 	var overig = gegevens[regio].opleidingen.overig;
+	var opleidingen_totaal = techniek_ti + techniek_overig + overig;
 
 	document.getElementById('techniek_ti').textContent = formatNumber(techniek_ti);
 	document.getElementById('techniek_overig').textContent = formatNumber(techniek_overig);
@@ -242,10 +243,27 @@ function maakGrafiek(regio) {
 	var pathLength_leerlingen = element_leerlingen_leerbedrijven.getTotalLength();
 	stroke_leerlingen_leerbedrijven = leerlingen_leerbedrijven * pathLength_leerlingen / totaal_leerlingen;
 	element_leerlingen_leerbedrijven.style.strokeDasharray = stroke_leerlingen_leerbedrijven;
-/*
-	var element_leerlingen_opleidingscentra = document.getElementById('circle_leerlingen_opleidingscentr');
-	var pathLength_leerlingen = element_leerlingen_opleidingscentr.getTotalLength();
-	stroke_leerlingen_opleidingscentr = leerlingen_opleidingscentr * pathLength_leerlingen / totaal_leerlingen;
-	element_leerlingen_opleidingscentr.style.strokeDasharray = stroke_leerlingen_opleidingscentr;
-*/
+
+	var element_leerlingen_opleidingscentra = document.getElementById('circle_leerlingen_opleidingscentra');
+	var pathLength_leerlingen = element_leerlingen_opleidingscentra.getTotalLength();
+	stroke_leerlingen_opleidingscentra = leerlingen_opleidingscentra * pathLength_leerlingen / totaal_leerlingen;
+	element_leerlingen_opleidingscentra.style.strokeDasharray = stroke_leerlingen_opleidingscentra;
+
+	var circle_techniek_ti = document.getElementById('circle_techniek_ti');
+	var pathLength_circle_techniek_ti = circle_techniek_ti.getTotalLength();
+	stroke_circle_techniek_ti = techniek_ti * pathLength_circle_techniek_ti / opleidingen_totaal;
+	circle_techniek_ti.style.strokeDasharray = stroke_circle_techniek_ti;
+
+	circle_overlay_overig.style.strokeDasharray = stroke_circle_techniek_ti;
+	circle_overlay_techniek_overig.style.strokeDasharray = stroke_circle_techniek_ti;
+
+	var circle_techniek_overig = document.getElementById('circle_techniek_overig');
+	var pathLength_circle_techniek_overig = circle_techniek_overig.getTotalLength();
+	stroke_circle_techniek_overig = techniek_overig * pathLength_circle_techniek_overig / opleidingen_totaal;
+	circle_techniek_overig.style.strokeDasharray = stroke_circle_techniek_overig;
+
+	var circle_overig = document.getElementById('circle_overig');
+	var pathLength_circle_overig = circle_overig.getTotalLength();
+	stroke_circle_overig = overig * pathLength_circle_overig / opleidingen_totaal;
+	circle_overig.style.strokeDasharray = stroke_circle_overig;
 }
