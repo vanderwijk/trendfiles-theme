@@ -159,4 +159,11 @@ screen and (device-width: 360px) and (device-height: 640px) and (-webkit-device-
 		align-items: center;
 		justify-content: center;
 	}
+
+	.home .col.one-fifth .block,
+	.home .col.four-fifths .block {
+		margin: 2.272727272727273%;
+		padding: 2.272727272727273%;
+		width: 95.45454545454545%;
+	}
 }
