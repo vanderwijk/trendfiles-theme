@@ -26,9 +26,9 @@ jQuery(document).ready(function($) {
 	});
 
 	$('.page-omzet-en-werkvoorraad .entry-title').click(function(){
-			//$(this).parent().parent().next( '.collapsible' ).toggle();
-			$(this).parent().parent().nextAll('.col').slice(0, 3).toggle();
-			$(this).parent().toggleClass('collapsed');
+		//$(this).parent().parent().next( '.collapsible' ).toggle();
+		$(this).parent().parent().nextAll('.col').slice(0, 3).toggle();
+		$(this).parent().toggleClass('collapsed');
 	});
 
 	$('.page-downloads-en-links .entry-title').click(function(){
@@ -42,5 +42,11 @@ jQuery(document).ready(function($) {
 		$('.post-1510 .col.delayed').hide();
 	}
 	setTimeout(hideGraphs, 1500);
+
+	$('.tooltip').tooltipster({
+		animation: 'fade',
+		maxWidth: 270
+	 });
+
 
 });

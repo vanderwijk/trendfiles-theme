@@ -1969,3 +1969,9 @@ body.single-quote {
 #factsheet-ti-installatie svg {
 	background-color: #F4F9FA;
 }
+.tooltip:hover {
+	cursor: pointer;
+}
+.tooltipster-content {
+	font-size: 13px;
+}

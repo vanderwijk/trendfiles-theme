@@ -1,5 +1,5 @@
 <?php
-define('TRENDFILES_THEME_VER', '1.0.6');
+define('TRENDFILES_THEME_VER', '1.0.7');
 
 if (isset($_SERVER['HTTPS'])) {
 	$protocol = ($_SERVER['HTTPS'] && $_SERVER['HTTPS'] != "off") ? "https://" : "http://";
@@ -169,6 +169,11 @@ function include_scripts_styles () {
 			wp_enqueue_script( 'map' );
 			wp_enqueue_script( 'fancybox' );
 			wp_enqueue_style( 'fancybox' );
+
+			wp_enqueue_style( 'tooltipster' );
+			wp_enqueue_script( 'tooltipster-js' );
+			wp_enqueue_script( 'tooltipster-js-svg' );
+			wp_enqueue_script( 'svg-js' );
 		}
 
 		// if ( is_single() || is_page() ) {
