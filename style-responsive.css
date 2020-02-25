@@ -153,7 +153,7 @@ screen and (device-width: 360px) and (device-height: 640px) and (-webkit-device-
 	.video-listing {
 		flex-flow: row wrap;
 	}
-	.home .col.one-fifth.uitgelicht .block {
+	.home .col.one-fifth .block.uitgelicht  {
 		display: flex;
 		flex-flow: row;
 		align-items: center;

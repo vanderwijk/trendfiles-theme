@@ -4,20 +4,24 @@
 
 	<?php if ( !function_exists('dynamic_sidebar') || !dynamic_sidebar('Home Intro') ) : endif; ?>
 
-	<div class="col four-fifths infographic">
-		<div class="block">
-			<div class="svg-wrap">
-				<?php echo file_get_contents( $protocol . $host . '/wp-content/themes/trendfiles-theme/img/home-techniekketen-optimized.svg'); ?>
-			</div>
-			<p class="meer-button" style="text-align: center; width: 100%;"><a href="/kerngegevens/">TI Installatie</a></p>
-			<p style="text-align: center; width: 100%;">Bekijk alle trends, cijfers en ontwikkelingen binnen de TI branche.</p>
+	<div class="col one-fifth">
+		<div class="block techniekketen">
+			<h1>De Techniekketen</h1>
+			<p>Onder de techniekketen als hier bedoeld vallen alle bedrijven die zich bezig houden met het ontwerpen, adviseren, vervaardigen, installeren, distribueren, repareren van alle techniek in en rondom particuliere woningen, kantoren en industrie. De techniekketen is de omgeving waarin Technisch Installatiebedrijven opereren. Op Trendfiles zoomen we verder in op dit segment.</p>
+		</div>
+		<div class="block uitgelicht">
+			<?php echo file_get_contents( $protocol . $host . '/wp-content/themes/trendfiles-theme/img/home-uitgelicht.svg'); ?>
+			<h2>Nog geen kwart van de installatiebedrijven is actief als leerbedrijf.</h2>
 		</div>
 	</div>
 
-	<div class="col one-fifth uitgelicht">
+	<div class="col four-fifths infographic">
 		<div class="block">
-			<?php echo file_get_contents( $protocol . $host . '/wp-content/themes/trendfiles-theme/img/home-uitgelicht.svg'); ?>
-			<h2>Nog geen kwart van de installatiebedrijven is actief als leerbedrijf.</h2>
+			<div class="svg-wrap">
+				<?php echo file_get_contents( $protocol . $host . '/wp-content/themes/trendfiles-theme/img/home-techniekketen.svg'); ?>
+			</div>
+			<p class="meer-button" style="text-align: center; width: 100%;"><a href="/kerngegevens/">TI Installatie</a></p>
+			<p style="text-align: center; width: 100%;">Bekijk alle trends, cijfers en ontwikkelingen binnen de TI branche.</p>
 		</div>
 	</div>
 

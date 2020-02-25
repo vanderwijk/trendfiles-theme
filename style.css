@@ -567,7 +567,14 @@ ul.knoppen.pdf li {
 .uitgelicht .block {
 	border: none;
 }
-
+.home .block.techniekketen,
+.home .block.uitgelicht {
+	border: none;
+}
+.techniekketen h1 {
+	font-weight: 600;
+	font-size: 16px;
+}
 .uitgelicht {
 	display: flex;
 	align-items: center;
