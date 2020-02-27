@@ -281,4 +281,5 @@ function maakGrafiek(regio) {
 	var pathLength_circle_overig = circle_overig.getTotalLength();
 	stroke_circle_overig = overig * pathLength_circle_overig / opleidingen_totaal;
 	circle_overig.style.strokeDasharray = stroke_circle_overig;
+
 }

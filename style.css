@@ -306,6 +306,25 @@ ul.knoppen li.disabled {
 	cursor: default;
 }
 
+
+#noord_nederland #regio_noord_nederland path {
+	fill: #CCB65B;
+}
+#noord_holland #regio_noord_holland path {
+	fill: #A05639;
+}
+#midden_nederland #regio_midden_nederland path {
+	fill: #5C778D;
+}
+#gelderland_overijssel #regio_gelderland_overijssel path {
+	fill: #598785;
+}
+#zuid_nederland #regio_zuid_nederland path {
+	fill: #A39C5A;
+}
+#zuid_holland #regio_zuid_holland path {
+	fill: #8A6378;
+}
 ul.knoppen.pdf li {
 	padding-left: 30px;
 	background-image: url('img/print.svg');
