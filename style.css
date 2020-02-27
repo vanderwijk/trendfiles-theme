@@ -1995,6 +1995,7 @@ body.single-quote {
 }
 
 .row.main {
+	padding-top: 10px;
 	display: grid;
 	grid-template-columns: 1% calc(97%/5) 1% calc(97%/5*4) 1%;
 	grid-template-rows: auto;
