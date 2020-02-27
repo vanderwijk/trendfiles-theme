@@ -27,6 +27,17 @@ jQuery(document).ready(function($) {
 		$('#download-pdf').attr('href', '/wp-content/themes/trendfiles-theme/pdf/factsheet_technischeinstallatiebranche_' + regio + '.pdf');
 		maakGrafiek( regio );
 	});
+
+	var elementPosition = $('#regioselectie').offset();
+
+	$(window).scroll(function(){
+		if($(window).scrollTop() > elementPosition.top){
+			$('#regioselectie').css('position','fixed').css('top','0');
+		} else {
+			$('#regioselectie').css('position','static');
+		}
+	});
+
 })
 
 function maakGrafiek(regio) {
@@ -171,16 +182,16 @@ function maakGrafiek(regio) {
 	document.getElementById('line_ouder_dan_55_jaar').setAttribute('height', hoogte_ouder_dan_55_jaar);
 
 	document.getElementById('line_van_45_tot_54_jaar').setAttribute('height', hoogte_van_45_tot_54_jaar);
-	document.getElementById('line_van_45_tot_54_jaar').setAttribute('y', hoogte_ouder_dan_55_jaar + 630);
+	document.getElementById('line_van_45_tot_54_jaar').setAttribute('y', hoogte_ouder_dan_55_jaar + 839);
 
 	document.getElementById('line_van_35_tot_44_jaar').setAttribute('height', hoogte_van_35_tot_44_jaar);
-	document.getElementById('line_van_35_tot_44_jaar').setAttribute('y', hoogte_ouder_dan_55_jaar + hoogte_van_45_tot_54_jaar + 640);
+	document.getElementById('line_van_35_tot_44_jaar').setAttribute('y', hoogte_ouder_dan_55_jaar + hoogte_van_45_tot_54_jaar + 849);
 
 	document.getElementById('line_van_25_tot_34_jaar').setAttribute('height', hoogte_van_25_tot_34_jaar);
-	document.getElementById('line_van_25_tot_34_jaar').setAttribute('y', hoogte_ouder_dan_55_jaar + hoogte_van_45_tot_54_jaar + hoogte_van_35_tot_44_jaar + 650);
+	document.getElementById('line_van_25_tot_34_jaar').setAttribute('y', hoogte_ouder_dan_55_jaar + hoogte_van_45_tot_54_jaar + hoogte_van_35_tot_44_jaar + 859);
 
 	document.getElementById('line_jonger_dan_25_jaar').setAttribute('height', hoogte_jonger_dan_25_jaar);
-	document.getElementById('line_jonger_dan_25_jaar').setAttribute('y', hoogte_ouder_dan_55_jaar + hoogte_van_45_tot_54_jaar + hoogte_van_35_tot_44_jaar + hoogte_van_25_tot_34_jaar + 660);
+	document.getElementById('line_jonger_dan_25_jaar').setAttribute('y', hoogte_ouder_dan_55_jaar + hoogte_van_45_tot_54_jaar + hoogte_van_35_tot_44_jaar + hoogte_van_25_tot_34_jaar + 869);
 
 	var erkend_actief = gegevens[regio].leerbedrijven.erkend_actief;
 	var erkend_inactief = gegevens[regio].leerbedrijven.erkend_inactief;
@@ -205,10 +216,10 @@ function maakGrafiek(regio) {
 	document.getElementById('percentage_geen_leerbedrijf').textContent = percentage_geen_leerbedrijf + '%';
 
 	document.getElementById('line_erkend_actief').setAttribute('height', hoogte_erkend_actief);
-	document.getElementById('line_erkend_actief').setAttribute('y', hoogte_erkend_inactief + hoogte_geen_leerbedrijf + 1159);
+	document.getElementById('line_erkend_actief').setAttribute('y', hoogte_erkend_inactief + hoogte_geen_leerbedrijf + 1368);
 
 	document.getElementById('line_erkend_inactief').setAttribute('height', hoogte_erkend_inactief);
-	document.getElementById('line_erkend_inactief').setAttribute('y', hoogte_geen_leerbedrijf + 1159);
+	document.getElementById('line_erkend_inactief').setAttribute('y', hoogte_geen_leerbedrijf + 1368);
 
 	var leerbedrijven = gegevens[regio].leerlingen_leerbedrijven.leerbedrijven;
 	var leerlingen_leerbedrijven = gegevens[regio].leerlingen_leerbedrijven.leerlingen;
@@ -254,8 +265,8 @@ function maakGrafiek(regio) {
 	stroke_circle_techniek_ti = techniek_ti * pathLength_circle_techniek_ti / opleidingen_totaal;
 	circle_techniek_ti.style.strokeDasharray = stroke_circle_techniek_ti;
 
-	circle_overlay_overig.style.strokeDasharray = stroke_circle_techniek_ti;
-	circle_overlay_techniek_overig.style.strokeDasharray = stroke_circle_techniek_ti;
+	//circle_overlay_overig.style.strokeDasharray = stroke_circle_techniek_ti;
+	//circle_overlay_techniek_overig.style.strokeDasharray = stroke_circle_techniek_ti;
 
 	var circle_techniek_overig = document.getElementById('circle_techniek_overig');
 	var pathLength_circle_techniek_overig = circle_techniek_overig.getTotalLength();

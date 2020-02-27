@@ -19,7 +19,7 @@ get_header();
 					<li class="disabled" id="zuid_nederland">Zuid Nederland</li>
 					<li class="disabled" id="zuid_holland">Zuid-Holland</li>
 				</ul>
-				<ul class="knoppen pdf">
+				<ul class="knoppen pdf" style="display: none;">
 					<li><a id="download-pdf" href="/wp-content/themes/trendfiles-theme/pdf/factsheet_technischeinstallatiebranche_nederland.pdf">PDF / Printversie</a></li>
 				</ul>
 			</header>
@@ -27,8 +27,11 @@ get_header();
 	</div>
 	<div class="row">
 		<div class="col">
-			<div class="block entry-content">
-				<?php echo file_get_contents( $protocol . $host . '/wp-content/themes/trendfiles-theme/img/factsheet-ti-installatie.svg'); ?>
+			<div class="block entry-content no-border">
+				<svg id="factsheet-ti-installatie" width="1888" height="2552" viewBox="0 0 1888 2552" fill="none" xmlns="http://www.w3.org/2000/svg">
+					<?php echo file_get_contents( $protocol . $host . '/wp-content/themes/trendfiles-theme/img/factsheet-technische-installatiebranche.svg'); ?>
+					<?php echo file_get_contents( $protocol . $host . '/wp-content/themes/trendfiles-theme/img/factsheet-ti-installatie-data.svg'); ?>
+				</svg>
 			</div>
 		</div>
 	</div>

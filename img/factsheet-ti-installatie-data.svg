@@ -1,0 +1,160 @@
+<g id="ondervlak">
+
+	<!-- opleidingen van leerlingen en werknemers -->
+
+	<!-- techniek ti -->
+	<circle id="circle_techniek_ti" class="circle stroke_2" stroke-dasharray="450" stroke-width="6" fill="none" cx="330" cy="2120" r="120" />
+	<text id="techniek_ti" class="fill_1" font-family="Roboto" font-size="45" font-weight="500" x="330" y="2115" text-anchor="middle">0</text>
+
+	<!-- techniek overig -->
+	<circle id="circle_overlay_techniek_overig" class="circle stroke_2" stroke-dasharray="450" stroke-width="6" fill="none" cx="1564" cy="2120" r="120" />
+	<circle id="circle_techniek_overig" class="circle stroke_2" stroke-dasharray="450" stroke-width="6" fill="none" cx="1564" cy="2120" r="120" />
+	<text id="techniek_overig" class="fill_1" font-family="Roboto" font-size="45" font-weight="500" x="920" y="2115" text-anchor="middle">0</text>
+
+	<!-- overig -->
+	<circle id="circle_overlay_overig" class="circle stroke_2" stroke-dasharray="450" stroke-width="6" fill="none" cx="924" cy="2120" r="120" />
+	<circle id="circle_overig" class="circle stroke_2" stroke-dasharray="450" stroke-width="6" fill="none" cx="924" cy="2120" r="120" />
+	<text id="overig" class="fill_1" font-family="Roboto" font-size="45" font-weight="500" x="1560" y="2115" text-anchor="middle">0</text>
+
+</g>
+
+<g id="middenvlak">
+
+	<!-- verdeling leerlingen -->
+
+	<!-- opleidingscentra -->
+	<text id="leerlingen_opleidingscentra" class="fill_1" font-family="Roboto" font-size="45" font-weight="500" x="1252.55" y="1287">0</text>
+	<text id="percentage_leerlingen_opleidingscentra" class="fill_2" font-family="Roboto" font-size="25" x="1384.43" y="1284">(0%)</text>
+	<circle id="circle_leerlingen_opleidingscentra" class="circle stroke_1" stroke-dasharray="450" stroke-width="15" fill="none" cx="1250" cy="1477" r="132" />
+	<text id="opleidingscentra" class="fill_2" font-family="Roboto" font-size="45" font-weight="500" text-anchor="middle" x="825" y="1461">0</text>
+
+	<!-- leerbedrijven -->
+	<text id="leerlingen_leerbedrijven" class="fill_1" font-family="Roboto" font-size="45" font-weight="500" x="740.395" y="1714">0</text>
+	<text id="percentage_leerlingen_leerbedrijven" class="fill_2" font-family="Roboto" font-size="25" x="867.247" y="1710">(0%)</text>	
+	<circle id="circle_leerlingen_leerbedrijven" class="circle stroke_1" stroke-dasharray="450" stroke-width="15" fill="none" cx="835" cy="1477" r="132" />
+	<text id="leerbedrijven" class="fill_2" font-family="Roboto" font-size="45" font-weight="500" text-anchor="middle" x="1245" y="1461">0</text>
+
+	<!-- leerbedrijven aangesloten bij OTIB -->
+
+	<!-- geen leerbedrijf -->
+	<text id="percentage_geen_leerbedrijf" fill="#A7A9A9" font-family="Roboto" font-size="45" font-weight="500" x="270.046" y="1449">0%</text>
+	<text id="geen_leerbedrijf" fill="#919494" font-family="Roboto" font-size="25" x="174" y="1444">(0)</text>
+
+	<!-- erkend leerbedrijf, niet actief -->
+	<rect id="line_erkend_inactief" class="" fill="#919494" x="370" y="1368" width="225" height="328" />
+	<text id="percentage_erkend_inactief" fill="#A7A9A9" font-family="Roboto" font-size="45" font-weight="500" x="270.046" y="1567">0%</text>
+	<text id="erkend_inactief" fill="#919494" font-family="Roboto" font-size="25" x="174" y="1559">(0)</text>
+
+	<!-- erkend leerbedrijf, actief -->
+	<rect id="line_erkend_actief" class="fill_2" x="370" y="1621" width="225" height="75" />
+	<text id="percentage_erkend_actief" class="fill_3" font-family="Roboto" font-size="45" font-weight="500" x="270.046" y="1664">0%</text>
+	<text id="erkend_actief" class="fill_2" font-family="Roboto" font-size="25" x="174" y="1655">(0)</text>
+
+	<!-- profiel -->
+
+	<!-- mannen -->
+	<text id="percentage_mannen" class="fill_1" font-family="Roboto" font-size="45" font-weight="500" x="747.978" y="1105">0%</text>
+	<text id="mannen" class="fill_2" font-family="Roboto" font-size="25" x="844.343" y="1099">(0)</text>
+
+	<!-- vrouwen -->
+	<text id="vrouwen" class="fill_2" font-family="Roboto" font-size="25" x="1277.99" y="1103">(0)</text>
+	<text  id="percentage_vrouwen" class="fill_1" font-family="Roboto" font-size="45" font-weight="500" x="1170.21" y="1108">0%</text>
+
+	<text fill="#414143" style="white-space:pre" font-family="Roboto" font-size="24" x="677.006" y="806">2019</text>
+
+	<!-- leeftijd -->
+
+	<rect id="line_ouder_dan_55_jaar" class="fill_5" x="1565" y="829" width="80" height="172" />
+	<rect id="line_van_45_tot_54_jaar" class="fill_4" x="1565" y="1011" width="80" height="172" />
+	<rect id="line_van_35_tot_44_jaar" class="fill_3" x="1565" y="1193" width="80" height="172" />
+	<rect id="line_van_25_tot_34_jaar" class="fill_2" x="1565" y="1375" width="80" height="172" />
+	<rect id="line_jonger_dan_25_jaar" class="fill_2" x="1565" y="1557" width="80" height="172" />
+
+	<text id="jonger_dan_25_jaar" class="fill_1" x="1662" y="1693" font-family="Roboto" font-size="39" font-weight="500">0</text>
+	<text id="van_25_tot_34_jaar" class="fill_2" x="1662" y="1575" font-family="Roboto" font-size="39" font-weight="500">0</text>
+	<text id="van_35_tot_44_jaar" class="fill_3" x="1662" y="1377" font-family="Roboto" font-size="39" font-weight="500">0</text>
+	<text id="van_45_tot_54_jaar" class="fill_4" x="1662" y="1173" font-family="Roboto" font-size="39" font-weight="500">0</text>
+	<text id="ouder_dan_55_jaar" class="fill_5" x="1662" y="943" font-family="Roboto" font-size="39" font-weight="500">0</text>
+
+</g>
+
+<g id="bovenvlak">
+
+	<!-- aantal zzp’ers-->
+	<path id="plus" d="M1771.8 362.284H1788.06V371.042H1771.8V387.343H1763.05V371.042H1746.79V362.284H1763.05V345.983H1771.8V362.284Z" class="fill_3"></path>
+	<text id="aantal_zzp_ers" font-family="Roboto" font-weight="500" font-size="45" class="fill_3" text-anchor="middle" x="1650" y="404">0</text>
+	<text id="december 2019" fill="#414143" font-family="Roboto" font-size="24" x="1473.43" y="318">december 2019</text>
+
+	<text id="aantal_bedrijven_per_kwartaal_1" font-family="Roboto" font-size="25" fill="#414143" text-anchor="middle" x="114" y="485">0</text>
+	<text id="aantal_bedrijven_per_kwartaal_2" font-family="Roboto" font-size="25" fill="#414143" text-anchor="middle" x="249" y="485">0</text>
+	<text id="aantal_bedrijven_per_kwartaal_3" font-family="Roboto" font-size="25" fill="#414143" text-anchor="middle" x="385" y="485">0</text>
+	<text id="aantal_bedrijven_per_kwartaal_4" font-family="Roboto" font-size="25" fill="#414143" text-anchor="middle" x="520" y="485">0</text>
+
+	<!-- bedrijfsgrootte naar aantal werknemers -->
+
+	<!-- >250 werknemers -->
+	<circle class="circle" id="circle_bedrijfsgrootte_midden" cx="1270" cy="454" r="85" />
+	<circle class="circle" id="g_na_meer_dan_250_werknemers" stroke="#ffffff" stroke-width="20" stroke-dasharray="534,534" fill="none" cx="1270" cy="454" r="85" />
+	<circle class="circle" id="g_meer_dan_250_werknemers" stroke="#919494" stroke-width="20" fill="none" cx="1270" cy="454" r="85" />
+	<circle class="circle" id="g_na_van_25_tot_250_werknemers" stroke="#ffffff" stroke-width="20" stroke-dasharray="533,534" fill="none" cx="1270" cy="454" r="85" />
+	<circle class="circle" id="g_van_25_tot_250_werknemers" stroke="#D9DADB" stroke-width="20" fill="none" cx="1270" cy="454" r="85" />
+	<circle class="circle" id="g_na_minder_dan_25_werknemers" stroke="#ffffff" stroke-width="20" stroke-dasharray="453,534" fill="none" cx="1270" cy="454" r="85" />
+	<circle class="circle" id="g_minder_dan_25_werknemers" stroke="#D9DADB" stroke-width="20" fill="none" cx="1270" cy="454" r="85" />
+	<text id="aantal_meer_dan_250_werknemers" font-family="Roboto" font-weight="500" font-size="45" fill="#919494" text-anchor="middle" x="1270" y="610">0</text>
+
+	<!-- 26-250 werknemers -->
+	<circle class="circle" id="circle_bedrijfsgrootte_midden" cx="1030" cy="454" r="85" />
+	<circle class="circle" id="m_na_meer_dan_250_werknemers" stroke="#ffffff" stroke-width="20" stroke-dasharray="534,534" fill="none" cx="1030" cy="454" r="85" />
+	<circle class="circle" id="m_meer_dan_250_werknemers" stroke="#D9DADB" stroke-width="20" fill="none" cx="1030" cy="454" r="85" />
+	<circle class="circle" id="m_na_van_25_tot_250_werknemers" stroke="#ffffff" stroke-width="20" stroke-dasharray="533,534" fill="none" cx="1030" cy="454" r="85" />
+	<circle class="circle stroke_2" id="m_van_25_tot_250_werknemers"  stroke-width="20" fill="none" cx="1030" cy="454" r="85" />
+	<circle class="circle" id="m_na_minder_dan_25_werknemers" stroke="#ffffff" stroke-width="20" stroke-dasharray="453,534" fill="none" cx="1030" cy="454" r="85" />
+	<circle class="circle" id="m_minder_dan_25_werknemers" stroke="#D9DADB" stroke-width="20" fill="none" cx="1030" cy="454" r="85" />
+	<text id="aantal_van_25_tot_250_werknemers" font-family="Roboto" font-weight="500" font-size="45" fill="#134A55" text-anchor="middle" x="1030" y="610">0</text>
+
+	<!-- 1-25 werknemers -->
+	<circle class="circle" id="circle_bedrijfsgrootte_klein" cx="785" cy="454" r="85" />
+	<circle class="circle" id="k_na_meer_dan_250_werknemers" stroke="#ffffff" stroke-width="20" fill="none" cx="785" cy="454" r="85" />
+	<circle class="circle" id="k_meer_dan_250_werknemers" stroke="#D9DADB" stroke-width="20" fill="none" cx="785" cy="454" r="85" />
+	<circle class="circle" id="k_na_van_25_tot_250_werknemers" stroke="#ffffff" stroke-width="20" fill="none" cx="785" cy="454" r="85" />
+	<circle class="circle" id="k_van_25_tot_250_werknemers" stroke="#D9DADB" stroke-width="20" fill="none" cx="785" cy="454" r="85" />
+	<circle class="circle" id="k_na_minder_dan_25_werknemers" stroke="#ffffff" stroke-width="20" fill="none" cx="785" cy="454" r="85" />
+	<circle class="circle stroke_2" id="k_minder_dan_25_werknemers" stroke-width="20" fill="none" cx="785" cy="454" r="85" />
+	<text id="aantal_minder_dan_25_werknemers" font-family="Roboto" font-weight="500" font-size="45" class="fill_3" text-anchor="middle" x="785" y="610">0</text>
+
+	<!-- aantal werknemers aangesloten bij otib -->
+	<text id="aantal_werknemers" class="fill_1" font-family="Roboto" font-weight="500" font-size="57" text-anchor="left" x="64" y="900">0</text>
+
+	<text id="aantal_werknemers_per_kwartaal_1" font-family="Roboto" font-size="25" fill="#414143" text-anchor="middle" x="114" y="999">0</text>
+	<text id="aantal_werknemers_per_kwartaal_2" font-family="Roboto" font-size="25" fill="#414143" text-anchor="middle" x="249" y="999">0</text>
+	<text id="aantal_werknemers_per_kwartaal_3" font-family="Roboto" font-size="25" fill="#414143" text-anchor="middle" x="385" y="999">0</text>
+	<text  id="aantal_werknemers_per_kwartaal_4" font-family="Roboto" font-size="25" fill="#414143" text-anchor="middle" x="520" y="999">0</text>
+
+	<line id="vulling_aantal_werknemers_per_jaar_2018" class="stroke_2" x1="60" y1="1072" x2="487" y2="1072" stroke-width="30" />
+	<line id="vulling_aantal_werknemers_per_jaar_2017" class="stroke_1" x1="60" y1="1112" x2="487" y2="1112" stroke-width="30" />
+	<line id="vulling_aantal_werknemers_per_jaar_2016" class="stroke_grey_2" x1="60" y1="1152" x2="487" y2="1152" stroke-width="30" />
+
+	<text id="aantal_werknemers_per_jaar_2018" font-family="Roboto" font-size="25" class="fill_2" text-anchor="right" x="496" y="1081">0</text>
+	<text id="aantal_werknemers_per_jaar_2017" font-family="Roboto" font-size="25" class="fill_1" text-anchor="right" x="496" y="1121">0</text>
+	<text id="aantal_werknemers_per_jaar_2016" font-family="Roboto" font-size="25" fill="#919494" text-anchor="right" x="496" y="1161">0</text>
+
+	<text id="2018" fill="#fff" text-anchor="left" x="65" y="1081" font-family="Roboto" font-size="25">2018</text>
+	<text id="2017" fill="#fff" text-anchor="left" x="65" y="1121" font-family="Roboto" font-size="25">2017</text>
+	<text id="2016" fill="#fff" text-anchor="left" x="65" y="1161" font-family="Roboto" font-size="25">2016</text>
+
+	<!-- aantal bedrijven aangesloten bij otib -->
+	<text id="aantal_bedrijven" class="fill_1" font-family="Roboto" font-weight="500" font-size="57" text-anchor="left" x="64" y="386">8.960</text>
+
+	<line id="vulling_aantal_bedrijven_per_jaar_2018" class="stroke_2" x1="60" y1="566" x2="487" y2="566" stroke-width="30" />
+	<line id="vulling_aantal_bedrijven_per_jaar_2017" class="stroke_1" x1="60" y1="606" x2="487" y2="606" stroke-width="30" />
+	<line id="vulling_aantal_bedrijven_per_jaar_2016" class="stroke_grey_2" x1="60" y1="646" x2="487" y2="646" stroke-width="30" />
+
+	<text id="aantal_bedrijven_per_jaar_2018" font-family="Roboto" font-size="25" class="fill_2" text-anchor="right" x="496" y="575">8.670</text>
+	<text id="aantal_bedrijven_per_jaar_2017" font-family="Roboto" font-size="25" class="fill_1" text-anchor="right" x="496" y="615">8.410</text>
+	<text id="aantal_bedrijven_per_jaar_2016" font-family="Roboto" font-size="25" fill="#919494" text-anchor="right" x="496" y="655">8.350</text>
+
+	<text id="2018_2" fill="#fff" text-anchor="left" x="65" y="575" font-family="Roboto" font-size="25">2018</text>
+	<text id="2017_2" fill="#fff" text-anchor="left" x="65" y="615" font-family="Roboto" font-size="25">2017</text>
+	<text id="2016_2" fill="#fff" text-anchor="left" x="65" y="655" font-family="Roboto" font-size="25">2016</text>
+
+</g>

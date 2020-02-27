@@ -248,9 +248,15 @@ small {
 	margin: 10px 0 0 0;
 	display: flex;
 	flex-wrap: wrap;
-	justify-content: flex-end;
+	/*justify-content: flex-end;*/
+
+	z-index: 100000;
 }
 
+
+.block ul.knoppen.pdf {
+	justify-content: flex-end;
+}
 ul.knoppen li {
 	background-color: #fff;
 	border: 1px solid #919494;
@@ -2009,4 +2015,8 @@ body.single-quote {
 	flex-flow: column;
 	align-items: center;
 	justify-content: center;
+}
+
+.no-border {
+	border: none!important;
 }
