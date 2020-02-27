@@ -568,7 +568,8 @@ ul.knoppen.pdf li {
 	border: none;
 }
 .home .block.techniekketen,
-.home .block.uitgelicht {
+.home .block.uitgelicht,
+.home .block.infographic {
 	border: none;
 }
 .techniekketen h1 {
@@ -1974,4 +1975,30 @@ body.single-quote {
 }
 .tooltipster-content {
 	font-size: 13px;
+}
+
+.row.main .block {
+	margin: 0;
+	padding: 0;
+	width: 100%;
+}
+
+.techniekketen {
+	grid-area: techniekketen;
+
+}
+.infographic {
+	grid-area: infographic;
+}
+.uitgelicht {
+	grid-area: uitgelicht;
+}
+
+.row.main {
+	display: grid;
+	grid-template-columns: 1% calc(97%/3) 1% calc(97%/3*2) 1%;
+	grid-template-rows: auto;
+	grid-template-areas: 
+	". techniekketen . infographic ."
+	". uitgelicht . infographic .";
 }

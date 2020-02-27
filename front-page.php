@@ -1,32 +1,24 @@
 <?php get_header(); ?>
 
-<div class="row main flex">
-
-	<?php if ( !function_exists('dynamic_sidebar') || !dynamic_sidebar('Home Intro') ) : endif; ?>
-
-	<div class="col one-fifth">
-		<div class="block techniekketen">
-			<h1>De Techniekketen</h1>
-			<p>Onder de techniekketen als hier bedoeld vallen alle bedrijven die zich bezig houden met het ontwerpen, adviseren, vervaardigen, installeren, distribueren, repareren van alle techniek in en rondom particuliere woningen, kantoren en industrie. De techniekketen is de omgeving waarin Technisch Installatiebedrijven opereren. Op Trendfiles zoomen we verder in op dit segment.</p>
-		</div>
-		<div class="block uitgelicht">
-			<?php echo file_get_contents( $protocol . $host . '/wp-content/themes/trendfiles-theme/img/home-uitgelicht.svg'); ?>
-			<h2>Nog geen kwart van de installatiebedrijven is actief als leerbedrijf.</h2>
-		</div>
+<div class="row main">
+	<div class="block techniekketen">
+		<h1>De Techniekketen</h1>
+		<p>Onder de techniekketen als hier bedoeld vallen alle bedrijven die zich bezig houden met het ontwerpen, adviseren, vervaardigen, installeren, distribueren, repareren van alle techniek in en rondom particuliere woningen, kantoren en industrie. De techniekketen is de omgeving waarin Technisch Installatiebedrijven opereren. Op Trendfiles zoomen we verder in op dit segment.</p>
 	</div>
-
-
-
-	<div class="col four-fifths infographic">
-		<div class="block">
-			<div class="svg-wrap">
-				<?php echo file_get_contents( $protocol . $host . '/wp-content/themes/trendfiles-theme/img/home-techniekketen.svg'); ?>
-			</div>
-			<p class="meer-button" style="text-align: center; width: 100%;"><a href="/kerngegevens/">TI Installatie</a></p>
-			<p style="text-align: center; width: 100%;">Bekijk alle trends, cijfers en ontwikkelingen binnen de TI branche.</p>
-		</div>
+	<div class="block uitgelicht">
+		<?php echo file_get_contents( $protocol . $host . '/wp-content/themes/trendfiles-theme/img/home-uitgelicht.svg'); ?>
+		<h2>Nog geen kwart van de installatiebedrijven is actief als leerbedrijf.</h2>
 	</div>
+	<div class="block infographic">
+		<div class="svg-wrap">
+			<?php echo file_get_contents( $protocol . $host . '/wp-content/themes/trendfiles-theme/img/home-techniekketen.svg'); ?>
+		</div>
+		<p class="meer-button" style="text-align: center; width: 100%;"><a href="/kerngegevens/">Technische Installatie</a></p>
+		<p style="text-align: center; width: 100%;">Bekijk alle trends, cijfers en ontwikkelingen binnen de TI branche.</p>
+	</div>
+</div>
 
+<div class="row flex">
 	<div class="col">
 		<div class="block">
 			<a href="/type/video/" class="category videos">Video's</a>
