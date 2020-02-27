@@ -1996,9 +1996,16 @@ body.single-quote {
 
 .row.main {
 	display: grid;
-	grid-template-columns: 1% calc(97%/3) 1% calc(97%/3*2) 1%;
+	grid-template-columns: 1% calc(97%/5) 1% calc(97%/5*4) 1%;
 	grid-template-rows: auto;
 	grid-template-areas: 
 	". techniekketen . infographic ."
 	". uitgelicht . infographic .";
+}
+
+.home .block.uitgelicht  {
+	display: flex;
+	flex-flow: column;
+	align-items: center;
+	justify-content: center;
 }
