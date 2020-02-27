@@ -127,6 +127,10 @@ function maakGrafiek(regio) {
 	var aantal_werknemers_per_jaar_2017 = gegevens[regio].aantal_werknemers_per_jaar.jaar_2017;
 	var aantal_werknemers_per_jaar_2016 = gegevens[regio].aantal_werknemers_per_jaar.jaar_2016;
 
+	document.getElementById('aantal_werknemers_per_jaar_2018').textContent = formatNumber(aantal_werknemers_per_jaar_2018);
+	document.getElementById('aantal_werknemers_per_jaar_2017').textContent = formatNumber(aantal_werknemers_per_jaar_2017);
+	document.getElementById('aantal_werknemers_per_jaar_2016').textContent = formatNumber(aantal_werknemers_per_jaar_2016);
+
 	var x2_aantal_werknemers_per_jaar_2018 = aantal_werknemers_per_jaar_2018 * 487 / aantal_werknemers_per_jaar;
 	var x2_aantal_werknemers_per_jaar_2017 = aantal_werknemers_per_jaar_2017 * 487 / aantal_werknemers_per_jaar;
 	var x2_aantal_werknemers_per_jaar_2016 = aantal_werknemers_per_jaar_2016 * 487 / aantal_werknemers_per_jaar;
