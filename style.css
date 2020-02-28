@@ -2010,7 +2010,9 @@ body.single-quote {
 	transform-box: fill-box;
 	transform-origin: center;
 	transform: rotate(-90deg);
+	transition: stroke-dasharray .5s ease-in-out;
 }
+
 #factsheet-ti-installatie svg {
 	background-color: #F4F9FA;
 }
