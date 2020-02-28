@@ -81,9 +81,6 @@ function maakGrafiek(regio) {
 	var van_25_tot_250_werknemers = gegevens[regio].werknemers_bedrijfsgrootte.van_25_tot_250_werknemers;
 	var meer_dan_250_werknemers = gegevens[regio].werknemers_bedrijfsgrootte.meer_dan_250_werknemers;
 	
-	var element_bedrijfsgrootte_klein = document.getElementById('circle_bedrijfsgrootte_klein');
-	var pathLength = element_bedrijfsgrootte_klein.getTotalLength();
-	
 	document.getElementById('aantal_meer_dan_250_werknemers').textContent = formatNumber(meer_dan_250_werknemers);
 	document.getElementById('aantal_van_25_tot_250_werknemers').textContent = formatNumber(van_25_tot_250_werknemers);
 	document.getElementById('aantal_minder_dan_25_werknemers').textContent = formatNumber(minder_dan_25_werknemers);
@@ -101,17 +98,17 @@ function maakGrafiek(regio) {
 		var na_element_meer_dan_250_werknemers = document.getElementById( grootte + 'na_meer_dan_250_werknemers');
 	
 		// minder dan 25 werknemers
-		section_minder_dan_25_werknemers = minder_dan_25_werknemers * pathLength / aantal_bedrijven_per_jaar;
+		section_minder_dan_25_werknemers = minder_dan_25_werknemers * 534.0708 / aantal_bedrijven_per_jaar;
 		element_minder_dan_25_werknemers.style.strokeDasharray = section_minder_dan_25_werknemers - 2;
 		na_element_minder_dan_25_werknemers.style.strokeDasharray = section_minder_dan_25_werknemers;
 	
 		// van 25 tot 250 werknemers
-		section_van_25_tot_250_werknemers = van_25_tot_250_werknemers * pathLength / aantal_bedrijven_per_jaar;
+		section_van_25_tot_250_werknemers = van_25_tot_250_werknemers * 534.0708 / aantal_bedrijven_per_jaar;
 		element_van_25_tot_250_werknemers.style.strokeDasharray = section_van_25_tot_250_werknemers + section_minder_dan_25_werknemers - 2;
 		na_element_van_25_tot_250_werknemers.style.strokeDasharray = section_van_25_tot_250_werknemers + section_minder_dan_25_werknemers;
 	
 		// meer dan 250 werknemers
-		section_meer_dan_250_werknemers = meer_dan_250_werknemers * pathLength / aantal_bedrijven_per_jaar;
+		section_meer_dan_250_werknemers = meer_dan_250_werknemers * 534.0708 / aantal_bedrijven_per_jaar;
 		element_meer_dan_250_werknemers.style.strokeDasharray = section_meer_dan_250_werknemers + section_van_25_tot_250_werknemers + section_minder_dan_25_werknemers - 2;
 		na_element_meer_dan_250_werknemers.style.strokeDasharray = section_meer_dan_250_werknemers + section_van_25_tot_250_werknemers + section_minder_dan_25_werknemers;
 	
@@ -255,27 +252,22 @@ function maakGrafiek(regio) {
 	document.getElementById('overig').textContent = formatNumber(overig);
 
 	var element_leerlingen_leerbedrijven = document.getElementById('circle_leerlingen_leerbedrijven');
-	var pathLength_leerlingen_leerbedrijven = element_leerlingen_leerbedrijven.getTotalLength();
-	stroke_leerlingen_leerbedrijven = leerlingen_leerbedrijven * pathLength_leerlingen_leerbedrijven / totaal_leerlingen;
+	stroke_leerlingen_leerbedrijven = leerlingen_leerbedrijven * 829.3805 / totaal_leerlingen;
 	element_leerlingen_leerbedrijven.style.strokeDasharray =  "0 " + stroke_leerlingen_leerbedrijven + " 829.38";
 
 	var element_leerlingen_opleidingscentra = document.getElementById('circle_leerlingen_opleidingscentra');
 	element_leerlingen_opleidingscentra.style.strokeDasharray = stroke_leerlingen_leerbedrijven;
 
-
 	var circle_techniek_ti = document.getElementById('circle_techniek_ti');
-	var pathLength_circle_techniek_ti = circle_techniek_ti.getTotalLength();
-	stroke_circle_techniek_ti = techniek_ti * pathLength_circle_techniek_ti / opleidingen_totaal;
+	stroke_circle_techniek_ti = techniek_ti * 753.9822 / opleidingen_totaal;
 	circle_techniek_ti.style.strokeDasharray = stroke_circle_techniek_ti;
 
 	var circle_techniek_overig = document.getElementById('circle_techniek_overig');
-	var pathLength_circle_techniek_overig = circle_techniek_overig.getTotalLength();
-	stroke_circle_techniek_overig = techniek_overig * pathLength_circle_techniek_overig / opleidingen_totaal;
+	stroke_circle_techniek_overig = techniek_overig * 753.9822 / opleidingen_totaal;
 	circle_techniek_overig.style.strokeDasharray = stroke_circle_techniek_overig + " 753.98";
 
 	var circle_overig = document.getElementById('circle_overig');
-	var pathLength_circle_overig = circle_overig.getTotalLength();
-	stroke_circle_overig = overig * pathLength_circle_overig / opleidingen_totaal;
+	stroke_circle_overig = overig * 753.9822 / opleidingen_totaal;
 	circle_overig.style.strokeDasharray = stroke_circle_overig  + " 753.98";
 
 }
