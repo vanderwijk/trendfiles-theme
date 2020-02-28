@@ -189,6 +189,13 @@ screen and (device-width: 360px) and (device-height: 640px) and (-webkit-device-
 	.infographic {
 		order: 2;
 	}
+	#regioselectie.fixed {
+		position: static;
+		top: auto;
+	}
 
-
+	ul.knoppen li:last-child {
+		margin-left: initial;
+	}
+	
 }

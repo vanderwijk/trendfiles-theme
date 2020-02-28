@@ -248,14 +248,12 @@ small {
 	margin: 10px 0 0 0;
 	display: flex;
 	flex-wrap: wrap;
-	/*justify-content: flex-end;*/
 	z-index: 100000;
+	width: 100%;
 }
 
 
-.block ul.knoppen.pdf {
-	justify-content: flex-end;
-}
+
 ul.knoppen li {
 	background-color: #fff;
 	border: 1px solid #919494;
@@ -325,12 +323,15 @@ ul.knoppen li.disabled {
 #zuid_holland #regio_zuid_holland path {
 	fill: #8A6378;
 }
-ul.knoppen.pdf li {
+ul.knoppen li #download-pdf{
 	padding-left: 30px;
 	background-image: url('img/print.svg');
 	background-repeat: no-repeat;
 	background-size: 15px 20px;
 	background-position: 8px center;
+}
+ul.knoppen li:last-child {
+	margin-left: auto;
 }
 
 
@@ -2061,4 +2062,9 @@ body.single-quote {
 
 .no-border {
 	border: none!important;
+}
+
+#regioselectie.fixed {
+	position: fixed;
+	top: 0;
 }

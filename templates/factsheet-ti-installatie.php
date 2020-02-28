@@ -10,18 +10,19 @@ get_header();
 		<div class="col">
 			<header class="block">
 				<h1 class="category">Technische Installatiebranche</h1>
-				<ul class="knoppen" id="regioselectie">
-					<li id="nederland">Nederland</li>
-					<li class="disabled" id="noord_nederland">Noord Nederland</li>
-					<li class="disabled" id="noord_holland">Noord-Holland</li>
-					<li class="disabled" id="midden_nederland">Midden Nederland</li>
-					<li class="disabled" id="gelderland_overijssel">Gelderland/Overijssel</li>
-					<li class="disabled" id="zuid_nederland">Zuid Nederland</li>
-					<li class="disabled" id="zuid_holland">Zuid-Holland</li>
-				</ul>
-				<ul class="knoppen pdf" style="display: none;">
-					<li><a id="download-pdf" href="/wp-content/themes/trendfiles-theme/pdf/factsheet_technischeinstallatiebranche_nederland.pdf">PDF / Printversie</a></li>
-				</ul>
+				<div class="knoppen-container">
+					<ul class="knoppen" id="regioselectie">
+						<li class="regioknop" id="nederland">Nederland</li>
+						<li class="disabled regioknop" id="noord_nederland">Noord Nederland</li>
+						<li class="disabled regioknop" id="noord_holland">Noord-Holland</li>
+						<li class="disabled regioknop" id="midden_nederland">Midden Nederland</li>
+						<li class="disabled regioknop" id="gelderland_overijssel">Gelderland/Overijssel</li>
+						<li class="disabled regioknop" id="zuid_nederland">Zuid Nederland</li>
+						<li class="disabled regioknop" id="zuid_holland">Zuid-Holland</li>
+
+						<li class="pdf"><a download id="download-pdf" href="/wp-content/themes/trendfiles-theme/pdf/factsheet_technischeinstallatiebranche_nederland.pdf">PDF / Printversie</a></li>
+					</ul>
+				</div>
 			</header>
 		</div>
 	</div>

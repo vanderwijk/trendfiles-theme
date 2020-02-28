@@ -19,8 +19,8 @@ jQuery(document).ready(function($) {
 	});
 
 	// selecteer de regio na klikken op knop
-	$('#regioselectie li').click(function() {
-		$('#regioselectie li').addClass('disabled');
+	$('#regioselectie li.regioknop').click(function() {
+		$('#regioselectie li.regioknop').addClass('disabled');
 		$(this).removeClass('disabled');
 		var regio = $(this).attr('id');
 		$('article').attr('id', regio);
@@ -32,9 +32,9 @@ jQuery(document).ready(function($) {
 
 	$(window).scroll(function(){
 		if($(window).scrollTop() > elementPosition.top){
-			$('#regioselectie').css('position','fixed').css('top','0');
+			$('#regioselectie').addClass('fixed');
 		} else {
-			$('#regioselectie').css('position','static');
+			$('#regioselectie').removeClass('fixed');
 		}
 	});
 
