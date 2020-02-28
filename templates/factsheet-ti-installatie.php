@@ -30,8 +30,9 @@ get_header();
 		<div class="col">
 			<div class="block entry-content no-border">
 				<svg id="factsheet-ti-installatie" width="1888" height="2552" viewBox="0 0 1888 2552" fill="none" xmlns="http://www.w3.org/2000/svg">
+					<?php echo file_get_contents( $protocol . $host . '/wp-content/themes/trendfiles-theme/img/factsheet-technische-installatiebranche-achtergrond.svg'); ?>
 					<?php echo file_get_contents( $protocol . $host . '/wp-content/themes/trendfiles-theme/img/factsheet-technische-installatiebranche.svg'); ?>
-					<?php echo file_get_contents( $protocol . $host . '/wp-content/themes/trendfiles-theme/img/factsheet-ti-installatie-data.svg'); ?>
+					<?php echo file_get_contents( $protocol . $host . '/wp-content/themes/trendfiles-theme/img/factsheet-technische-installatiebranche-data.svg'); ?>
 				</svg>
 			</div>
 		</div>
