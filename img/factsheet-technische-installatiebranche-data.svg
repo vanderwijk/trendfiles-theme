@@ -97,7 +97,7 @@
 	<!-- bedrijfsgrootte naar aantal werknemers -->
 
 	<!-- >250 werknemers -->
-	<circle class="circle" id="circle_bedrijfsgrootte_midden" cx="1270" cy="454" r="85" />
+	<circle class="circle" id="circle_bedrijfsgrootte_groot" cx="1270" cy="454" r="85" />
 	<circle class="circle" id="g_na_meer_dan_250_werknemers" stroke="#ffffff" stroke-width="20" stroke-dasharray="534,534" fill="none" cx="1270" cy="454" r="85" />
 	<circle class="circle" id="g_meer_dan_250_werknemers" stroke="#919494" stroke-width="20" fill="none" cx="1270" cy="454" r="85" />
 	<circle class="circle" id="g_na_van_25_tot_250_werknemers" stroke="#ffffff" stroke-width="20" stroke-dasharray="533,534" fill="none" cx="1270" cy="454" r="85" />
@@ -142,9 +142,9 @@
 	<text id="aantal_werknemers_per_jaar_2017" font-family="Roboto" font-size="25" class="fill_1" text-anchor="end" x="496" y="1121">0</text>
 	<text id="aantal_werknemers_per_jaar_2016" font-family="Roboto" font-size="25" fill="#919494" text-anchor="end" x="496" y="1161">0</text>
 
-	<text id="2018" fill="#fff" text-anchor="start" x="65" y="1081" font-family="Roboto" font-size="25">2018</text>
-	<text id="2017" fill="#fff" text-anchor="start" x="65" y="1121" font-family="Roboto" font-size="25">2017</text>
-	<text id="2016" fill="#fff" text-anchor="start" x="65" y="1161" font-family="Roboto" font-size="25">2016</text>
+	<text fill="#fff" text-anchor="start" x="65" y="1081" font-family="Roboto" font-size="25">2018</text>
+	<text fill="#fff" text-anchor="start" x="65" y="1121" font-family="Roboto" font-size="25">2017</text>
+	<text fill="#fff" text-anchor="start" x="65" y="1161" font-family="Roboto" font-size="25">2016</text>
 
 	<!-- aantal bedrijven aangesloten bij otib -->
 	<text id="aantal_bedrijven" class="fill_1" font-family="Roboto" font-weight="500" font-size="57" text-anchor="start" x="64" y="386">8.960</text>
@@ -157,8 +157,8 @@
 	<text id="aantal_bedrijven_per_jaar_2017" font-family="Roboto" font-size="25" class="fill_1" text-anchor="end" x="496" y="615">8.410</text>
 	<text id="aantal_bedrijven_per_jaar_2016" font-family="Roboto" font-size="25" fill="#919494" text-anchor="end" x="496" y="655">8.350</text>
 
-	<text id="2018_2" fill="#fff" text-anchor="start" x="65" y="575" font-family="Roboto" font-size="25">2018</text>
-	<text id="2017_2" fill="#fff" text-anchor="start" x="65" y="615" font-family="Roboto" font-size="25">2017</text>
-	<text id="2016_2" fill="#fff" text-anchor="start" x="65" y="655" font-family="Roboto" font-size="25">2016</text>
+	<text fill="#fff" text-anchor="start" x="65" y="575" font-family="Roboto" font-size="25">2018</text>
+	<text fill="#fff" text-anchor="start" x="65" y="615" font-family="Roboto" font-size="25">2017</text>
+	<text fill="#fff" text-anchor="start" x="65" y="655" font-family="Roboto" font-size="25">2016</text>
 
 </g>
