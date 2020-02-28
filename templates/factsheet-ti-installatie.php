@@ -12,7 +12,7 @@ get_header();
 				<h1 class="category">Technische Installatiebranche</h1>
 				<div class="knoppen-container">
 					<ul class="knoppen" id="regioselectie">
-						<li class="regioknop" id="nederland">Nederland</li>
+						<li class="regioknop nederland" data-regio="nederland">Nederland</li>
 						<li class="disabled regioknop noord_nederland" data-regio="noord_nederland">Noord Nederland</li>
 						<li class="disabled regioknop noord_holland" data-regio="noord_holland">Noord-Holland</li>
 						<li class="disabled regioknop midden_nederland" data-regio="midden_nederland">Midden Nederland</li>
