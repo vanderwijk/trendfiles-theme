@@ -298,7 +298,9 @@ ul.knoppen li.disabled {
 	color: #bbb;
 	cursor: default;
 }
-
+#kaartje path {
+	transition: fill .5s ease-in-out;
+}
 
 #noord_nederland #regio_noord_nederland path {
 	fill: #CCB65B;
