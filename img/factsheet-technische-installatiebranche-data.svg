@@ -114,7 +114,7 @@
 	<circle class="circle stroke_2" id="m_van_25_tot_250_werknemers"  stroke-width="20" fill="none" cx="1030" cy="454" r="85" />
 	<circle class="circle" id="m_na_minder_dan_25_werknemers" stroke="#ffffff" stroke-width="20" stroke-dasharray="453,534" fill="none" cx="1030" cy="454" r="85" />
 	<circle class="circle" id="m_minder_dan_25_werknemers" stroke="#D9DADB" stroke-width="20" fill="none" cx="1030" cy="454" r="85" />
-	<text id="aantal_van_25_tot_250_werknemers" font-family="Roboto" font-weight="500" font-size="45" fill="#134A55" text-anchor="middle" x="1030" y="610">0</text>
+	<text class="fill_1" id="aantal_van_25_tot_250_werknemers" font-family="Roboto" font-weight="500" font-size="45" text-anchor="middle" x="1030" y="610">0</text>
 
 	<!-- 1-25 werknemers -->
 	<circle class="circle" id="circle_bedrijfsgrootte_klein" cx="785" cy="454" r="85" />
