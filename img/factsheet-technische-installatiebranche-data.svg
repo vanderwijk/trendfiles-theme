@@ -138,9 +138,9 @@
 	<line id="vulling_aantal_werknemers_per_jaar_2017" class="stroke_1" x1="60" y1="1112" x2="487" y2="1112" stroke-width="30" />
 	<line id="vulling_aantal_werknemers_per_jaar_2016" class="stroke_grey_2" x1="60" y1="1152" x2="487" y2="1152" stroke-width="30" />
 
-	<text id="aantal_werknemers_per_jaar_2018" font-family="Roboto" font-size="25" class="fill_2" text-anchor="end" x="496" y="1081">0</text>
-	<text id="aantal_werknemers_per_jaar_2017" font-family="Roboto" font-size="25" class="fill_1" text-anchor="end" x="496" y="1121">0</text>
-	<text id="aantal_werknemers_per_jaar_2016" font-family="Roboto" font-size="25" fill="#919494" text-anchor="end" x="496" y="1161">0</text>
+	<text id="aantal_werknemers_per_jaar_2018" font-family="Roboto" font-size="25" class="fill_2" text-anchor="start" x="496" y="1081">0</text>
+	<text id="aantal_werknemers_per_jaar_2017" font-family="Roboto" font-size="25" class="fill_1" text-anchor="start" x="496" y="1121">0</text>
+	<text id="aantal_werknemers_per_jaar_2016" font-family="Roboto" font-size="25" fill="#919494" text-anchor="start" x="496" y="1161">0</text>
 
 	<text fill="#fff" text-anchor="start" x="65" y="1081" font-family="Roboto" font-size="25">2018</text>
 	<text fill="#fff" text-anchor="start" x="65" y="1121" font-family="Roboto" font-size="25">2017</text>
@@ -153,9 +153,9 @@
 	<line id="vulling_aantal_bedrijven_per_jaar_2017" class="stroke_1" x1="60" y1="606" x2="487" y2="606" stroke-width="30" />
 	<line id="vulling_aantal_bedrijven_per_jaar_2016" class="stroke_grey_2" x1="60" y1="646" x2="487" y2="646" stroke-width="30" />
 
-	<text id="aantal_bedrijven_per_jaar_2018" font-family="Roboto" font-size="25" class="fill_2" text-anchor="end" x="496" y="575">8.670</text>
-	<text id="aantal_bedrijven_per_jaar_2017" font-family="Roboto" font-size="25" class="fill_1" text-anchor="end" x="496" y="615">8.410</text>
-	<text id="aantal_bedrijven_per_jaar_2016" font-family="Roboto" font-size="25" fill="#919494" text-anchor="end" x="496" y="655">8.350</text>
+	<text id="aantal_bedrijven_per_jaar_2018" font-family="Roboto" font-size="25" class="fill_2" text-anchor="start" x="496" y="575">0</text>
+	<text id="aantal_bedrijven_per_jaar_2017" font-family="Roboto" font-size="25" class="fill_1" text-anchor="start" x="496" y="615">0</text>
+	<text id="aantal_bedrijven_per_jaar_2016" font-family="Roboto" font-size="25" fill="#919494" text-anchor="start" x="496" y="655">0</text>
 
 	<text fill="#fff" text-anchor="start" x="65" y="575" font-family="Roboto" font-size="25">2018</text>
 	<text fill="#fff" text-anchor="start" x="65" y="615" font-family="Roboto" font-size="25">2017</text>
