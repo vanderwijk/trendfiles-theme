@@ -22,7 +22,7 @@ jQuery(document).ready(function($) {
 	$('#regioselectie li.regioknop').click(function() {
 		$('#regioselectie li.regioknop').addClass('disabled');
 		$(this).removeClass('disabled');
-		var regio = $(this).attr('id');
+		var regio = $(this).attr('data-regio');
 		$('article').attr('id', regio);
 		$('#download-pdf').attr('href', '/wp-content/themes/trendfiles-theme/pdf/factsheet_technischeinstallatiebranche_' + regio + '.pdf');
 		maakGrafiek( regio );

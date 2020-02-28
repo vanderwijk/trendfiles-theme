@@ -13,12 +13,12 @@ get_header();
 				<div class="knoppen-container">
 					<ul class="knoppen" id="regioselectie">
 						<li class="regioknop" id="nederland">Nederland</li>
-						<li class="disabled regioknop" id="noord_nederland">Noord Nederland</li>
-						<li class="disabled regioknop" id="noord_holland">Noord-Holland</li>
-						<li class="disabled regioknop" id="midden_nederland">Midden Nederland</li>
-						<li class="disabled regioknop" id="gelderland_overijssel">Gelderland/Overijssel</li>
-						<li class="disabled regioknop" id="zuid_nederland">Zuid Nederland</li>
-						<li class="disabled regioknop" id="zuid_holland">Zuid-Holland</li>
+						<li class="disabled regioknop noord_nederland" data-regio="noord_nederland">Noord Nederland</li>
+						<li class="disabled regioknop noord_holland" data-regio="noord_holland">Noord-Holland</li>
+						<li class="disabled regioknop midden_nederland" data-regio="midden_nederland">Midden Nederland</li>
+						<li class="disabled regioknop gelderland_overijssel" data-regio="gelderland_overijssel">Gelderland/Overijssel</li>
+						<li class="disabled regioknop zuid_nederland" data-regio="zuid_nederland">Zuid Nederland</li>
+						<li class="disabled regioknop zuid_holland" data-regio="zuid_holland">Zuid-Holland</li>
 
 						<li class="pdf"><a download id="download-pdf" href="/wp-content/themes/trendfiles-theme/pdf/factsheet_technischeinstallatiebranche_nederland.pdf">PDF / Printversie</a></li>
 					</ul>

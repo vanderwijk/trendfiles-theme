@@ -269,22 +269,22 @@ ul.knoppen li {
 	white-space: nowrap;
 }
 
-ul.knoppen li#noord_nederland {
+ul.knoppen li.noord_nederland {
 	color: #CCB65B;
 }
-ul.knoppen li#noord_holland {
+ul.knoppen li.noord_holland {
 	color: #A05639;
 }
-ul.knoppen li#midden_nederland {
+ul.knoppen li.midden_nederland {
 	color: #5C778D;
 }
-ul.knoppen li#gelderland_overijssel {
+ul.knoppen li.gelderland_overijssel {
 	color: #598785;
 }
-ul.knoppen li#zuid_nederland {
+ul.knoppen li.zuid_nederland {
 	color: #A39C5A;
 }
-ul.knoppen li#zuid_holland {
+ul.knoppen li.zuid_holland {
 	color: #8A6378;
 }
 
@@ -292,12 +292,7 @@ ul.knoppen li:active {
 	position: relative;
 	top: 1px;
 }
-ul.knoppen li#noord_nederland.disabled,
-ul.knoppen li#noord_holland.disabled,
-ul.knoppen li#midden_nederland.disabled,
-ul.knoppen li#gelderland_overijssel.disabled,
-ul.knoppen li#zuid_nederland.disabled,
-ul.knoppen li#zuid_holland.disabled,
+
 ul.knoppen li.disabled {
 	box-shadow: none;
 	color: #bbb;
