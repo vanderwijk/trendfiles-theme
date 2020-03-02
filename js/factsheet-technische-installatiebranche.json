@@ -44,7 +44,7 @@
 			"ouder_dan_55_jaar": 24900
 		},
 		"leerbedrijven": {
-			"erkend_actief": 2110,
+			"erkend_actief": 2109,
 			"erkend_inactief": 2120,
 			"geen_leerbedrijf": 4700
 		},
@@ -53,7 +53,7 @@
 			"leerlingen": 5580
 		},
 		"leerlingen_opleidingscentra": {
-			"opleidingscentra": 20,
+			"opleidingscentra": 19,
 			"leerlingen": 3440
 		},
 		"opleidingen": {
@@ -107,12 +107,12 @@
 			"ouder_dan_55_jaar": 5160
 		},
 		"leerbedrijven": {
-			"erkend_actief": 470,
+			"erkend_actief": 475,
 			"erkend_inactief": 450,
-			"geen_leerbedrijf": 950
+			"geen_leerbedrijf": 930
 		},
 		"leerlingen_leerbedrijven": {
-			"leerbedrijven": 468,
+			"leerbedrijven": 470,
 			"leerlingen": 1250
 		},
 		"leerlingen_opleidingscentra": {
@@ -170,7 +170,7 @@
 			"ouder_dan_55_jaar": 2600
 		},
 		"leerbedrijven": {
-			"erkend_actief": 230,
+			"erkend_actief": 233,
 			"erkend_inactief": 220,
 			"geen_leerbedrijf": 560
 		},
@@ -179,7 +179,7 @@
 			"leerlingen": 650
 		},
 		"leerlingen_opleidingscentra": {
-			"opleidingscentra": 0,
+			"opleidingscentra": 3,
 			"leerlingen": 200
 		},
 		"opleidingen": {
@@ -242,7 +242,7 @@
 			"leerlingen": 610
 		},
 		"leerlingen_opleidingscentra": {
-			"opleidingscentra": 0,
+			"opleidingscentra": 2,
 			"leerlingen": 970
 		},
 		"opleidingen": {
@@ -296,17 +296,17 @@
 			"ouder_dan_55_jaar": 2240
 		},
 		"leerbedrijven": {
-			"erkend_actief": 210,
+			"erkend_actief": 213,
 			"erkend_inactief": 220,
 			"geen_leerbedrijf": 340
 		},
 		"leerlingen_leerbedrijven": {
-			"leerbedrijven": 209,
-			"leerlingen": 495
+			"leerbedrijven": 210,
+			"leerlingen": 500
 		},
 		"leerlingen_opleidingscentra": {
 			"opleidingscentra": 3,
-			"leerlingen": 128
+			"leerlingen": 130
 		},
 		"opleidingen": {
 			"techniek_ti": 800,
@@ -359,8 +359,8 @@
 			"ouder_dan_55_jaar": 5380
 		},
 		"leerbedrijven": {
-			"erkend_actief": 410,
-			"erkend_inactief": 340,
+			"erkend_actief": 412,
+			"erkend_inactief": 380,
 			"geen_leerbedrijf": 1080
 		},
 		"leerlingen_leerbedrijven": {
@@ -368,7 +368,7 @@
 			"leerlingen": 1240
 		},
 		"leerlingen_opleidingscentra": {
-			"opleidingscentra": 0,
+			"opleidingscentra": 2,
 			"leerlingen": 520
 		},
 		"opleidingen": {
@@ -422,7 +422,7 @@
 			"ouder_dan_55_jaar": 6680
 		},
 		"leerbedrijven": {
-			"erkend_actief": 550,
+			"erkend_actief": 554,
 			"erkend_inactief": 510,
 			"geen_leerbedrijf": 1230
 		},
@@ -431,7 +431,7 @@
 			"leerlingen": 1330
 		},
 		"leerlingen_opleidingscentra": {
-			"opleidingscentra": 0,
+			"opleidingscentra": 4,
 			"leerlingen": 1070
 		},
 		"opleidingen": {
