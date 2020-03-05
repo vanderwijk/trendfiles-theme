@@ -95,7 +95,7 @@ function maakGrafiek(regio) {
 	document.getElementById('line_actief_leerbedrijf_installatie').setAttribute('y', 1524 - hoogte_actief_leerbedrijf_installatie);
 
 	document.getElementById('line_actief_leerbedrijf_overige').setAttribute('height', hoogte_actief_leerbedrijf_overige);
-	document.getElementById('line_actief_leerbedrijf_overige').setAttribute('y', 1524 - hoogte_actief_leerbedrijf_overige);
+	document.getElementById('line_actief_leerbedrijf_overige').setAttribute('y', 1526 - hoogte_actief_leerbedrijf_overige);
 
 	var leerlingen_leerwerkbanen_installatiebedrijf = gegevens[regio].uitsplitsing_leerwerkbanen.leerlingen_leerwerkbanen_installatiebedrijf;
 	var leerlingen_leerwerkbanen_overige_technische_bedrijven = gegevens[regio].uitsplitsing_leerwerkbanen.leerlingen_leerwerkbanen_overige_technische_bedrijven;
@@ -142,7 +142,7 @@ function maakGrafiek(regio) {
 	document.getElementById('rect_rendement_installatiebedrijf_branche').setAttribute('y', 2505 - hoogte_rendement_installatiebedrijf_branche);
 	document.getElementById('percentage_rendement_installatiebedrijf_branche').setAttribute('y', 2498 - hoogte_rendement_installatiebedrijf_branche);
 
-	percentage_rendement_overig_branche = Math.round(rendement_overig_branche * 100 / diplomarendement_leerwerkbanen_installatiebedrijf);
+	percentage_rendement_overig_branche = Math.round(rendement_overig_branche * 100 / diplomarendement_leerwerkbanen_overig);
 	document.getElementById('percentage_rendement_overig_branche').textContent = percentage_rendement_overig_branche + '%';
 	hoogte_rendement_overig_branche = percentage_rendement_overig_branche * 118 / 100;
 	document.getElementById('rect_rendement_overig_branche').setAttribute('height', hoogte_rendement_overig_branche);
@@ -155,11 +155,39 @@ function maakGrafiek(regio) {
 	document.getElementById('rendement_installatiebedrijf_sector').textContent = formatNumber(rendement_installatiebedrijf_sector);
 	document.getElementById('rendement_overig_sector').textContent = formatNumber(rendement_overig_sector);
 
+	percentage_rendement_installatiebedrijf_sector = Math.round(rendement_installatiebedrijf_sector * 100 / diplomarendement_leerwerkbanen_installatiebedrijf);
+	document.getElementById('percentage_rendement_installatiebedrijf_sector').textContent = percentage_rendement_installatiebedrijf_sector + '%';
+	hoogte_rendement_installatiebedrijf_sector = percentage_rendement_installatiebedrijf_sector * 118 / 100;
+	document.getElementById('rect_rendement_installatiebedrijf_sector').setAttribute('height', hoogte_rendement_installatiebedrijf_sector);
+	document.getElementById('rect_rendement_installatiebedrijf_sector').setAttribute('y', 2505 - hoogte_rendement_installatiebedrijf_sector);
+	document.getElementById('percentage_rendement_installatiebedrijf_sector').setAttribute('y', 2498 - hoogte_rendement_installatiebedrijf_sector);
+
+	percentage_rendement_overig_sector = Math.round(rendement_overig_sector * 100 / diplomarendement_leerwerkbanen_overig);
+	document.getElementById('percentage_rendement_overig_sector').textContent = percentage_rendement_overig_sector + '%';
+	hoogte_rendement_overig_sector = percentage_rendement_overig_sector * 118 / 100;
+	document.getElementById('rect_rendement_overig_sector').setAttribute('height', hoogte_rendement_overig_sector);
+	document.getElementById('rect_rendement_overig_sector').setAttribute('y', 2505 - hoogte_rendement_overig_sector);
+	document.getElementById('percentage_rendement_overig_sector').setAttribute('y', 2498 - hoogte_rendement_overig_sector);
+
 	var rendement_installatiebedrijf_uitstroom = gegevens[regio].uitstroom.rendement_installatiebedrijf_uitstroom;
 	var rendement_overig_uitstroom= gegevens[regio].uitstroom.rendement_overig_uitstroom;
 
 	document.getElementById('rendement_installatiebedrijf_uitstroom').textContent = formatNumber(rendement_installatiebedrijf_uitstroom);
 	document.getElementById('rendement_overig_uitstroom').textContent = formatNumber(rendement_overig_uitstroom);
+
+	percentage_rendement_installatiebedrijf_uitstroom = Math.round(rendement_installatiebedrijf_uitstroom * 100 / diplomarendement_leerwerkbanen_installatiebedrijf);
+	document.getElementById('percentage_rendement_installatiebedrijf_uitstroom').textContent = percentage_rendement_installatiebedrijf_uitstroom + '%';
+	hoogte_rendement_installatiebedrijf_uitstroom = percentage_rendement_installatiebedrijf_uitstroom * 118 / 100;
+	document.getElementById('rect_rendement_installatiebedrijf_uitstroom').setAttribute('height', hoogte_rendement_installatiebedrijf_uitstroom);
+	document.getElementById('rect_rendement_installatiebedrijf_uitstroom').setAttribute('y', 2505 - hoogte_rendement_installatiebedrijf_uitstroom);
+	document.getElementById('percentage_rendement_installatiebedrijf_uitstroom').setAttribute('y', 2498 - hoogte_rendement_installatiebedrijf_uitstroom);
+
+	percentage_rendement_overig_uitstroom = Math.round(rendement_overig_uitstroom * 100 / diplomarendement_leerwerkbanen_overig);
+	document.getElementById('percentage_rendement_overig_uitstroom').textContent = percentage_rendement_overig_uitstroom + '%';
+	hoogte_rendement_overig_uitstroom = percentage_rendement_overig_uitstroom * 118 / 100;
+	document.getElementById('rect_rendement_overig_uitstroom').setAttribute('height', hoogte_rendement_overig_uitstroom);
+	document.getElementById('rect_rendement_overig_uitstroom').setAttribute('y', 2505 - hoogte_rendement_overig_uitstroom);
+	document.getElementById('percentage_rendement_overig_uitstroom').setAttribute('y', 2498 - hoogte_rendement_overig_uitstroom);
 
 
 }
