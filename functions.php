@@ -333,6 +333,7 @@ add_filter('posts_where', 'my_posts_where');
 // rewrite rules
 function otib_rewrite_rules() {
 	add_rewrite_rule('factsheet/technische-installatiebranche/?$', 'index.php?factsheet=technische-installatiebranche', 'top' );
+	add_rewrite_rule('factsheet/leerwerkbanen-rendement/?$', 'index.php?factsheet=leerwerkbanen-rendement', 'top' );
 }
 add_action('init', 'otib_rewrite_rules');
 
@@ -353,6 +354,10 @@ function otib_include_templates($template) {
 
 		if ($query_var && $query_var === 'technische-installatiebranche') {
 			return get_template_directory() . '/templates/factsheet-technische-installatiebranche.php';
+		}
+
+		if ($query_var && $query_var === 'leerwerkbanen-rendement') {
+			return get_template_directory() . '/templates/factsheet-leerwerkbanen-rendement.php';
 		}
 
 	}

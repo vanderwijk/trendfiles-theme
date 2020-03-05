@@ -1,0 +1,113 @@
+<text class="fill_3" font-family="Roboto" font-size="25" x="196" y="143.544">Nederland februari 2020</text>
+<text class="fill_1" font-family="Roboto" font-size="40" font-weight="bold" x="196" y="101.764">FACTSHEET - LEERWERKBANEN &AMP; RENDEMENT</text>
+
+<text class="fill_2" font-family="Roboto" font-size="36" x="747" y="258">Schooljaar 2018/2019</text>
+
+<!-- bbl leerlingen per niveau -->
+<text id="startende_bbl_leerlingen_1_2" fill="white" font-family="Roboto" font-size="57" font-weight="500" x="330" y="448" text-anchor="middle">0</text>
+<text id="startende_bbl_leerlingen_3_4" fill="white" font-family="Roboto" font-size="57" font-weight="500" x="1515" y="448" text-anchor="middle">0</text>
+
+<text id="totaal_aantal_leerlingen_mbo" class="fill_2" font-family="Roboto" font-size="57" font-weight="500" x="940" y="755" text-anchor="middle">0</text>
+
+<!-- profiel -->
+<text id="percentage_mannen" class="fill_2" font-family="Roboto" font-size="45" font-weight="500" x="190" y="1045" text-anchor="middle">0</text>
+<text id="percentage_vrouwen" class="fill_2" font-family="Roboto" font-size="45" font-weight="500" x="375" y="1045" text-anchor="middle">0</text>
+
+<!-- leeftijd -->
+<text id="jonger_dan_25_jaar" class="fill_2" font-family="Roboto" font-size="45" font-weight="500" x="1410" y="1010" text-anchor="middle">0</text>
+<text id="van_26_tot_34_jaar" class="fill_2" font-family="Roboto" font-size="45" font-weight="500" x="1570" y="1010" text-anchor="middle">0</text>
+<text id="ouder_dan_35_jaar" fill="#919494" font-family="Roboto" font-size="45" font-weight="500" x="1720" y="1010" text-anchor="middle">0</text>
+
+<rect id="line_jonger_dan_25_jaar" class="fill_2" x="1390" y="725" width="52" height="218" />
+<rect x="1390" y="725" width="52" height="218" stroke-width="1" stroke="#919494" />
+
+<rect id="line_van_26_tot_34_jaar" class="fill_1" x="1545" y="725" width="52" height="218" />
+<rect x="1545" y="725" width="52" height="218" stroke-width="1" stroke="#919494" />
+
+<rect id="line_ouder_dan_35_jaar" class="fill_grey_2" x="1689" y="725" width="52" height="218" />
+<rect x="1689" y="725" width="52" height="218" stroke-width="1" stroke="#919494" />
+
+<!-- actieve leerbedrijven -->
+<text id="percentage_actief_leerbedrijf_installatie" fill="#414143" font-family="Roboto" font-size="24" x="116.5" y="1575.33">24% actief leerbedrijf</text>
+<text id="percentage_actief_leerbedrijf_overige" fill="#414143" font-family="Roboto" font-size="24" x="1521.67" y="1575.33">1,5% actief leerbedrijf</text>
+
+<rect id="line_actief_leerbedrijf_installatie" class="fill_2" x="116" y="1524" width="204" height="0" />
+
+<!-- ramen leerbedrijf installatie -->
+<path d="M208 1403.41H194V1427.41H208V1403.41Z" fill="white" fill-opacity="0.8"/>
+<path d="M177 1403.41H163V1427.41H177V1403.41Z" fill="white" fill-opacity="0.8"/>
+<path d="M148 1403.41H134V1427.41H148V1403.41Z" fill="white" fill-opacity="0.8"/>
+<path d="M208 1450.41H134V1519.41H208V1450.41Z" fill="white" fill-opacity="0.8"/>
+<path d="M238 1403.41H224V1427.41H238V1403.41Z" fill="white" fill-opacity="0.8"/>
+<path d="M238 1451.41H224V1474.41H238V1451.41Z" fill="white" fill-opacity="0.8"/>
+<path d="M269 1403.41H255V1427.41H269V1403.41Z" fill="white" fill-opacity="0.8"/>
+<path d="M269 1451.41H255V1474.41H269V1451.41Z" fill="white" fill-opacity="0.8"/>
+<path d="M300 1403.41H286V1427.41H300V1403.41Z" fill="white" fill-opacity="0.8"/>
+<path d="M300 1451.41H286V1474.41H300V1451.41Z" fill="white" fill-opacity="0.8"/>
+
+<rect id="line_actief_leerbedrijf_overige" class="fill_1" x="1527" y="1524" width="204" height="0" />
+
+<!-- ramen leerbedrijf overig -->
+<path d="M1619 1406.41H1605V1430.41H1619V1406.41Z" fill="white" fill-opacity="0.8"/>
+<path d="M1588 1406.41H1574V1430.41H1588V1406.41Z" fill="white" fill-opacity="0.8"/>
+<path d="M1559 1406.41H1545V1430.41H1559V1406.41Z" fill="white" fill-opacity="0.8"/>
+<path d="M1649 1406.41H1635V1430.41H1649V1406.41Z" fill="white" fill-opacity="0.8"/>
+<path d="M1649 1454.41H1635V1477.41H1649V1454.41Z" fill="white" fill-opacity="0.8"/>
+<path d="M1680 1406.41H1666V1430.41H1680V1406.41Z" fill="white" fill-opacity="0.8"/>
+<path d="M1680 1454.41H1666V1477.41H1680V1454.41Z" fill="white" fill-opacity="0.8"/>
+<path d="M1711 1406.41H1697V1430.41H1711V1406.41Z" fill="white" fill-opacity="0.8"/>
+<path d="M1711 1454.41H1697V1477.41H1711V1454.41Z" fill="white" fill-opacity="0.8"/>
+<path d="M1619 1453.41H1545V1522.41H1619V1453.41Z" fill="white" fill-opacity="0.8"/>
+
+<!-- uitsplitsing leerwerkbanen -->
+<text id="leerlingen_leerwerkbanen_installatiebedrijf" class="fill_3" font-family="Roboto" font-size="45" font-weight="500" x="610" y="1422" text-anchor="middle">0</text>
+<text id="percentage_leerlingen_leerwerkbanen_installatiebedrijf" class="fill_3" font-family="Roboto" font-size="45" x="610" y="1510" text-anchor="middle">0%</text>
+
+<circle class="circle" stroke="#A6A8AB" stroke-width="1" fill="none" cx="607" cy="1440" r="150" />
+<circle id="circle_leerlingen_leerwerkbanen_installatiebedrijf" class="circle stroke_1" stroke-width="20" fill="none" cx="607" cy="1440" r="150" />
+
+<text id="leerlingen_leerwerkbanen_overige_technische_bedrijven" class="fill_2" font-family="Roboto" font-size="45" font-weight="500" x="1245" y="1422" text-anchor="middle">0</text>
+<text id="percentage_leerlingen_leerwerkbanen_overige_technische_bedrijven" class="fill_2" font-family="Roboto" font-size="45" x="1245" y="1510" text-anchor="middle">0%</text>
+
+<circle class="circle" stroke="#A6A8AB" stroke-width="1" fill="none" cx="1250" cy="1440" r="150" />
+<circle id="circle_leerlingen_leerwerkbanen_overige_technische_bedrijven" class="circle stroke_1" stroke-width="20" fill="none" cx="1250" cy="1440" r="150" />
+
+
+<!-- diplomarendement -->
+<text id="diplomarendement_leerwerkbanen_installatiebedrijf" class="fill_3" font-family="Roboto" font-size="45" font-weight="500" x="610" y="1910" text-anchor="middle">0</text>
+<text id="percentage_diplomarendement_leerwerkbanen_installatiebedrijf" class="fill_3" font-family="Roboto" font-size="45" x="610" y="2000" text-anchor="middle">0%</text>
+
+<text id="diplomarendement_leerwerkbanen_overig" class="fill_2" font-family="Roboto" font-size="45" font-weight="500" x="1245" y="1910" text-anchor="middle">0</text>
+<text id="percentage_diplomarendement_leerwerkbanen_overig" class="fill_2" font-family="Roboto" font-size="45" x="1245" y="2000" text-anchor="middle">0%</text>
+
+<!-- brancherendement -->
+<path id="beker_rendement_installatiebedrijf_branche" d="M230.417 2534C230.386 2534 230.356 2534 230.323 2534H225.681C225.65 2534 225.619 2534 225.587 2534C207.962 2534 192.512 2531.32 180.906 2526.24L179.915 2525.81C171.112 2521.97 162.008 2518 162.008 2508.17V2376.96L153.434 2356.95C152.705 2355.33 152.903 2353.39 153.96 2351.91C154.92 2350.56 156.44 2349.85 158.006 2350.03C180.141 2352.34 209.561 2352.78 230.327 2352.73C231.169 2352.72 279.08 2352.01 297.995 2350.03C299.565 2349.85 301.083 2350.56 302.042 2351.91C303.099 2353.39 303.297 2355.33 302.558 2356.97L293.994 2376.96V2508.17C293.994 2518 284.89 2521.97 276.087 2525.81L275.097 2526.24C263.493 2531.32 248.042 2534 230.417 2534ZM225.68 2531.47H230.324C230.355 2531.47 230.387 2531.47 230.417 2531.47C247.704 2531.47 262.807 2528.86 274.102 2523.92L275.095 2523.48C283.89 2519.65 291.486 2516.34 291.486 2508.17V2376.44L300.266 2355.94C300.636 2355.12 300.531 2354.13 300.007 2353.39C299.751 2353.03 299.181 2352.45 298.256 2352.55C279.159 2354.55 230.843 2355.26 230.357 2355.26H230.342C209.494 2355.3 179.996 2354.88 157.748 2352.55C156.82 2352.45 156.255 2353.03 155.999 2353.39C155.475 2354.13 155.369 2355.12 155.73 2355.92L164.518 2376.44V2508.17C164.518 2516.34 172.115 2519.65 180.91 2523.48L181.902 2523.92C193.198 2528.86 208.302 2531.47 225.586 2531.47C225.62 2531.47 225.649 2531.47 225.68 2531.47Z" fill="#919494"/>
+<text id="percentage_rendement_installatiebedrijf_branche" class="fill_3" font-family="Roboto" font-size="25" x="230" y="2498" text-anchor="middle">0%</text>
+<path id="vulling_rendement_installatiebedrijf_branche" class="fill_3" d="M274.385 2516.84C240.861 2528.14 208.27 2527.29 181.614 2516.84C175.185 2514.32 169 2511.54 169 2505H287C286.999 2511.54 280.942 2514.63 274.385 2516.84Z"/>
+<rect id="rect_rendement_installatiebedrijf_branche" class="fill_3" x="169" y="2505" width="118" height="0"/>
+<text id="rendement_installatiebedrijf_branche" class="fill_3" font-family="Roboto" font-size="45" font-weight="500" x="230" y="2595" text-anchor="middle">0</text>
+
+<path id="beker_rendement_overig_branche" d="M419.417 2534C419.386 2534 419.356 2534 419.323 2534H414.681C414.65 2534 414.619 2534 414.587 2534C396.962 2534 381.512 2531.32 369.906 2526.24L368.915 2525.81C360.112 2521.97 351.008 2518 351.008 2508.17V2376.96L342.434 2356.95C341.705 2355.33 341.903 2353.39 342.96 2351.91C343.92 2350.56 345.44 2349.85 347.006 2350.03C369.141 2352.34 398.561 2352.78 419.327 2352.73C420.169 2352.72 468.08 2352.01 486.995 2350.03C488.565 2349.85 490.083 2350.56 491.042 2351.91C492.099 2353.39 492.297 2355.33 491.558 2356.97L482.994 2376.96V2508.17C482.994 2518 473.89 2521.97 465.087 2525.81L464.097 2526.24C452.493 2531.32 437.042 2534 419.417 2534ZM414.68 2531.47H419.324C419.355 2531.47 419.387 2531.47 419.417 2531.47C436.704 2531.47 451.807 2528.86 463.102 2523.92L464.095 2523.48C472.89 2519.65 480.486 2516.34 480.486 2508.17V2376.44L489.266 2355.94C489.636 2355.12 489.531 2354.13 489.007 2353.39C488.751 2353.03 488.181 2352.45 487.256 2352.55C468.159 2354.55 419.843 2355.26 419.357 2355.26H419.342C398.494 2355.3 368.996 2354.88 346.748 2352.55C345.82 2352.45 345.255 2353.03 344.999 2353.39C344.475 2354.13 344.369 2355.12 344.73 2355.92L353.518 2376.44V2508.17C353.518 2516.34 361.115 2519.65 369.91 2523.48L370.902 2523.92C382.198 2528.86 397.302 2531.47 414.586 2531.47C414.62 2531.47 414.649 2531.47 414.68 2531.47Z" fill="#919494"/>
+<text id="percentage_rendement_overig_branche" class="fill_1" font-family="Roboto" font-size="25" x="417" y="2498" text-anchor="middle">0%</text>
+<path id="vulling_rendement_overig_branche" class="fill_1" d="M463.385 2516.84C429.861 2528.14 397.27 2527.29 370.614 2516.84C364.185 2514.32 358 2511.54 358 2505H476C475.999 2511.54 469.942 2514.63 463.385 2516.84Z"/>
+<rect id="rect_rendement_overig_branche" class="fill_1" x="358" y="2505" width="118" height="0"/>
+<text id="rendement_overig_branche" class="fill_1" font-family="Roboto" font-size="45" font-weight="500" x="417" y="2595" text-anchor="middle">0</text>
+
+
+<!-- sectorrendement -->
+<path id="vulling_rendement_installatiebedrijf_sector" class="fill_3" d="M876.981 2513.8C843.335 2525.63 810.625 2524.75 783.872 2513.8C777.42 2511.16 771.212 2508.25 771.212 2501.41V2501.08H889.642V2501.41C889.641 2508.25 883.561 2511.49 876.981 2513.8Z"/>
+<text id="rendement_installatiebedrijf_sector" class="fill_3" font-family="Roboto" font-size="45" font-weight="500" x="793.72" y="2595">340</text>
+<text id="percentage_rendement_installatiebedrijf_sector" class="fill_3" font-family="Roboto" font-size="25" x="809.392" y="2496.11">11%</text>
+
+<path id="vulling_rendement_overig_sector" class="fill_1" d="M1081.19 2513.8C1047.54 2525.63 1014.83 2524.75 988.076 2513.8C981.624 2511.16 975.416 2508.25 975.416 2501.41V2451.5H1093.85V2501.41C1093.84 2508.25 1087.77 2511.49 1081.19 2513.8Z"/>
+<text id="percentage_rendement_overig_sector" class="fill_1" font-family="Roboto" font-size="25" x="1013.6" y="2441.42">47%</text>
+<text id="rendement_overig_sector" class="fill_1" font-family="Roboto" font-size="45" font-weight="500" x="977.728" y="2595">1.240</text>
+
+<!-- uitstroom -->
+<path id="vulling_rendement_installatiebedrijf_uitstroom" class="fill_3" d="M1426.1 2513.8C1392.45 2525.63 1359.74 2524.75 1332.99 2513.8C1326.54 2511.16 1320.33 2508.25 1320.33 2501.41V2501.2H1438.76V2501.41C1438.76 2508.25 1432.68 2511.49 1426.1 2513.8Z"/>
+<text id="rendement_installatiebedrijf_uitstroom" class="fill_3" font-family="Roboto" font-size="45" font-weight="500" x="1342.84" y="2595">200</text>
+<text id="percentage_rendement_installatiebedrijf_uitstroom" class="fill_3" font-family="Roboto" font-size="25" x="1365.84" y="2491.12">6%</text>
+
+<path id="vulling_rendement_overig_uitstroom" class="fill_2" d="M1628.77 2515.3C1595.12 2527.12 1562.41 2526.24 1535.66 2515.3C1529.21 2512.66 1523 2509.75 1523 2502.9V2457H1641.43V2502.9C1641.43 2509.75 1635.35 2512.99 1628.77 2515.3Z"/>
+<text id="rendement_overig_uitstroom" class="fill_1" font-family="Roboto" font-size="45" font-weight="500" x="1524.73" y="2595">1.120</text>
+<text id="percentage_rendement_overig_uitstroom" class="fill_1" font-family="Roboto" font-size="25" x="1558" y="2447.04">43%</text>
