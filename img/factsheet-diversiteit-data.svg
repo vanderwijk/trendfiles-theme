@@ -1,0 +1,20 @@
+
+<svg width="1888" height="2699" viewBox="0 0 1888 2699" fill="none" xmlns="http://www.w3.org/2000/svg">
+	<text id="werknemers_2019_totaal" fill="#074953" font-family="Roboto" font-size="57" font-weight="500" x="79" y="458">0</text>
+	<text id="beroepsbevolking_2019_totaal" fill="#074953" font-family="Roboto" font-size="57" x="1136" y="458">0</text>
+
+	<rect id="werknemers_2019_totaal_rect" x="54" y="572" width="735" height="64" fill="#F4F4F4"></rect>
+	<rect id="werknemers_2019_vrouwen_rect" x="54" y="572" width="0" height="64" fill="#A8D0D6"></rect>
+	<text id="werknemers_2019_vrouwen" fill="#A8D0D6" font-family="Roboto" font-size="39" x="150" y="619">0</text>
+	<text id="werknemers_2019_vrouwen_percentage" fill="#A8D0D6" font-family="Roboto" font-size="39" x="280" y="619">(0%)</text>
+
+	<rect id="directie_totaal_rect" x="516" y="1529" width="1221" height="45" fill="#ECEDED"></rect>
+	<rect id="directie_1" x="516" y="1529" width="0" height="45" fill="#A8D0D6"></rect>
+	<text id="percentage_directie_1" fill="#258999" font-family="Roboto" font-size="30" x="617" y="1561">0%</text>
+	<text id="percentage_directie_3" fill="#414143" font-family="Roboto" font-size="24" x="1766" y="1561">0%</text>
+
+	<rect id="ontwikkelen_totaal_rect" x="516" y="1592" width="1221" height="45" fill="#ECEDED"></rect>
+	<rect id="ontwikkelen_1" x="516" y="1592" width="0" height="45" fill="#A8D0D6"></rect>
+	<text id="percentage_ontwikkelen_1" fill="#258999" font-family="Roboto" font-size="30" x="617" y="1624">0%</text>
+	<text id="percentage_ontwikkelen_3" fill="#414143" font-family="Roboto" font-size="24" x="1766" y="1624">0%</text>
+</svg>

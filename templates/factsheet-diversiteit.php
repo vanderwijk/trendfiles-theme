@@ -1,0 +1,34 @@
+<?php
+get_header();
+
+?>
+
+<script src="<?php echo $protocol . $host . '/wp-content/themes/trendfiles-theme/js/factsheet-diversiteit.js'; ?>"></script>
+
+<article <?php post_class('article'); ?> id="nederland">
+	<div class="row header">
+		<div class="col">
+			<header class="block">
+				<h1 class="category">Diversiteit</h1>
+				<div class="knoppen-container">
+					<ul class="knoppen" id="regioselectie">
+						<li class="pdf"><a download id="download-pdf" href="/wp-content/themes/trendfiles-theme/pdf/factsheet_diversiteit_nederland.pdf">PDF / Printversie</a></li>
+					</ul>
+				</div>
+			</header>
+		</div>
+	</div>
+	<div class="row">
+		<div class="col">
+			<div class="block entry-content no-border">
+				<svg id="factsheet-ti-installatie" width="1888" height="2699" viewBox="0 0 1888 2699" fill="none" xmlns="http://www.w3.org/2000/svg">
+					<?php // echo file_get_contents( $protocol . $host . '/wp-content/themes/trendfiles-theme/img/factsheet-diversiteit-achtergrond.svg'); ?>
+					<?php echo file_get_contents( $protocol . $host . '/wp-content/themes/trendfiles-theme/img/factsheet-diversiteit.svg'); ?>
+					<?php echo file_get_contents( $protocol . $host . '/wp-content/themes/trendfiles-theme/img/factsheet-diversiteit-data.svg'); ?>
+				</svg>
+			</div>
+		</div>
+	</div>
+</article>
+
+<?php get_footer(); ?>

@@ -1,0 +1,106 @@
+{
+	"nederland": {
+		"werknemers": {
+			"jaar_2019": {
+				"totaal": 134380,
+				"vrouwen": 14360,
+				"westerse_migratieachtergrond": 7970,
+				"niet_westerse_migratieachtergrond": 9580,
+				"ouder_dan_55_jaar": 24560
+			},
+			"jaar_2015": {
+				"totaal": 119550,
+				"vrouwen": 12060,
+				"westerse_migratieachtergrond": 6890,
+				"niet_westerse_migratieachtergrond": 6680,
+				"ouder_dan_55_jaar": 17810
+			}
+		},
+		"beroepsbevolking": {
+			"jaar_2019": {
+				"totaal": 9267000,
+				"vrouwen": 4336000,
+				"westerse_migratieachtergrond": 1109000,
+				"niet_westerse_migratieachtergrond": 954000,
+				"ouder_dan_55_jaar": 1920000
+			},
+			"jaar_2015": {
+				"totaal": 8907000,
+				"vrouwen": 4129000,
+				"westerse_migratieachtergrond": 946000,
+				"niet_westerse_migratieachtergrond": 864000,
+				"ouder_dan_55_jaar": 1658000
+			}
+		},
+		"vrouw_vs_man": {
+			"directie": {
+				"vrouwen": 7,
+				"mannen": 93
+			},
+			"ontwikkelen": {
+				"vrouwen": 3,
+				"mannen": 97
+			},
+			"plannen_en_werkvoorbereiding": {
+				"vrouwen": 10,
+				"mannen": 90
+			},
+			"tekenen": {
+				"vrouwen": 6,
+				"mannen": 94
+			},
+			"technisch_voorbereidend_overig": {
+				"vrouwen": 3,
+				"mannen": 97
+			},
+			"monteren_installeren": {
+				"vrouwen": 1,
+				"mannen": 99
+			},
+			"lediginggevend_monteren_installeren": {
+				"vrouwen": 0,
+				"mannen": 100
+			},
+			"voorbewerken": {
+				"vrouwen": 0,
+				"mannen": 100
+			},
+			"staf_administratief_financieel": {
+				"vrouwen": 79,
+				"mannen": 21
+			},
+			"staf_personeelsfunctionaris": {
+				"vrouwen": 77,
+				"mannen": 23
+			},
+			"staf_verkopen": {
+				"vrouwen": 17,
+				"mannen": 83
+			},
+			"staf_afdelingschef": {
+				"vrouwen": 3,
+				"mannen": 97
+			},
+			"staf_bedrijfsleiding": {
+				"vrouwen": 10,
+				"mannen": 90
+			},
+			"staf_overig": {
+				"vrouwen": 22,
+				"mannen": 78
+			},
+			"overig_technisch_uitvoerend": {
+				"vrouwen": 19,
+				"mannen": 81
+			},
+			"overig": {
+				"vrouwen": 14,
+				"mannen": 86
+			},
+			"alle_functies": {
+				"vrouwen": 11,
+				"mannen": 89
+			}
+		}
+	}
+}
