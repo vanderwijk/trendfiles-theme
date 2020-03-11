@@ -8,13 +8,134 @@
 	<text id="werknemers_2019_vrouwen" fill="#A8D0D6" font-family="Roboto" font-size="39" x="150" y="619">0</text>
 	<text id="werknemers_2019_vrouwen_percentage" fill="#A8D0D6" font-family="Roboto" font-size="39" x="280" y="619">(0%)</text>
 
+
 	<rect id="directie_totaal_rect" x="516" y="1529" width="1221" height="45" fill="#ECEDED"></rect>
 	<rect id="directie_1" x="516" y="1529" width="0" height="45" fill="#A8D0D6"></rect>
-	<text id="percentage_directie_1" fill="#258999" font-family="Roboto" font-size="30" x="617" y="1561">0%</text>
-	<text id="percentage_directie_3" fill="#414143" font-family="Roboto" font-size="24" x="1766" y="1561">0%</text>
+	<rect id="directie_2" x="516" y="1529" width="0" height="45" fill="#074953"></rect>
+	<text id="percentage_directie_1" fill="#258999" font-family="Roboto" font-size="30" x="516" y="1561"></text>
+	<text id="percentage_directie_2" fill="#258999" font-family="Roboto" font-size="30" x="516" y="1561"></text>
+	<text id="percentage_directie_3" fill="#414143" font-family="Roboto" font-size="24" x="1766" y="1561"></text>
 
 	<rect id="ontwikkelen_totaal_rect" x="516" y="1592" width="1221" height="45" fill="#ECEDED"></rect>
 	<rect id="ontwikkelen_1" x="516" y="1592" width="0" height="45" fill="#A8D0D6"></rect>
-	<text id="percentage_ontwikkelen_1" fill="#258999" font-family="Roboto" font-size="30" x="617" y="1624">0%</text>
-	<text id="percentage_ontwikkelen_3" fill="#414143" font-family="Roboto" font-size="24" x="1766" y="1624">0%</text>
+	<rect id="ontwikkelen_2" x="516" y="1592" width="0" height="45" fill="#074953"></rect>
+	<text id="percentage_ontwikkelen_1" fill="#258999" font-family="Roboto" font-size="30" x="516" y="1624"></text>
+	<text id="percentage_ontwikkelen_2" fill="#258999" font-family="Roboto" font-size="30" x="516" y="1624"></text>
+	<text id="percentage_ontwikkelen_3" fill="#414143" font-family="Roboto" font-size="24" x="1766" y="1624"></text>
+
+	<rect id="plannen_en_werkvoorbereiding_totaal_rect" x="516" y="1655" width="1221" height="45" fill="#ECEDED"></rect>
+	<rect id="plannen_en_werkvoorbereiding_1" x="516" y="1655" width="0" height="45" fill="#A8D0D6"></rect>
+	<rect id="plannen_en_werkvoorbereiding_2" x="516" y="1655" width="0" height="45" fill="#074953"></rect>
+	<text id="percentage_plannen_en_werkvoorbereiding_1" fill="#258999" font-family="Roboto" font-size="30" x="516" y="1687"></text>
+	<text id="percentage_plannen_en_werkvoorbereiding_2" fill="#258999" font-family="Roboto" font-size="30" x="516" y="1687"></text>
+	<text id="percentage_plannen_en_werkvoorbereiding_3" fill="#414143" font-family="Roboto" font-size="24" x="1766" y="1687"></text>
+
+	<rect id="tekenen_totaal_rect" x="516" y="1718" width="1221" height="45" fill="#ECEDED"></rect>
+	<rect id="tekenen_1" x="516" y="1718" width="0" height="45" fill="#A8D0D6"></rect>
+	<rect id="tekenen_2" x="516" y="1718" width="0" height="45" fill="#074953"></rect>
+	<text id="percentage_tekenen_1" fill="#258999" font-family="Roboto" font-size="30" x="516" y="1750"></text>
+	<text id="percentage_tekenen_2" fill="#258999" font-family="Roboto" font-size="30" x="516" y="1750"></text>
+	<text id="percentage_tekenen_3" fill="#414143" font-family="Roboto" font-size="24" x="1766" y="1750"></text>
+
+	<rect id="technisch_voorbereidend_overig_totaal_rect" x="516" y="1781" width="1221" height="45" fill="#ECEDED"></rect>
+	<rect id="technisch_voorbereidend_overig_1" x="516" y="1781" width="0" height="45" fill="#A8D0D6"></rect>
+	<rect id="technisch_voorbereidend_overig_2" x="516" y="1781" width="0" height="45" fill="#074953"></rect>
+	<text id="percentage_technisch_voorbereidend_overig_1" fill="#258999" font-family="Roboto" font-size="30" x="516" y="1813"></text>
+	<text id="percentage_technisch_voorbereidend_overig_2" fill="#258999" font-family="Roboto" font-size="30" x="516" y="1813"></text>
+	<text id="percentage_technisch_voorbereidend_overig_3" fill="#414143" font-family="Roboto" font-size="24" x="1766" y="1813"></text>
+
+	<rect id="monteren_installeren_totaal_rect" x="516" y="1844" width="1221" height="45" fill="#ECEDED"></rect>
+	<rect id="monteren_installeren_1" x="516" y="1844" width="0" height="45" fill="#A8D0D6"></rect>
+	<rect id="monteren_installeren_2" x="516" y="1844" width="0" height="45" fill="#074953"></rect>
+	<text id="percentage_monteren_installeren_1" fill="#258999" font-family="Roboto" font-size="30" x="516" y="1876"></text>
+	<text id="percentage_monteren_installeren_2" fill="#258999" font-family="Roboto" font-size="30" x="516" y="1876"></text>
+	<text id="percentage_monteren_installeren_3" fill="#414143" font-family="Roboto" font-size="24" x="1766" y="1876"></text>
+
+	<rect id="leidinggevend_monteren_installeren_totaal_rect" x="516" y="1907" width="1221" height="45" fill="#ECEDED"></rect>
+	<rect id="leidinggevend_monteren_installeren_1" x="516" y="1907" width="0" height="45" fill="#A8D0D6"></rect>
+	<rect id="leidinggevend_monteren_installeren_2" x="516" y="1907" width="0" height="45" fill="#074953"></rect>
+	<text id="percentage_leidinggevend_monteren_installeren_1" fill="#258999" font-family="Roboto" font-size="30" x="516" y="1939"></text>
+	<text id="percentage_leidinggevend_monteren_installeren_2" fill="#258999" font-family="Roboto" font-size="30" x="516" y="1939"></text>
+	<text id="percentage_leidinggevend_monteren_installeren_3" fill="#414143" font-family="Roboto" font-size="24" x="1766" y="1939"></text>
+
+	<rect id="voorbewerken_totaal_rect" x="516" y="1970" width="1221" height="45" fill="#ECEDED"></rect>
+	<rect id="voorbewerken_1" x="516" y="1970" width="0" height="45" fill="#A8D0D6"></rect>
+	<rect id="voorbewerken_2" x="516" y="1970" width="0" height="45" fill="#074953"></rect>
+	<text id="percentage_voorbewerken_1" fill="#258999" font-family="Roboto" font-size="30" x="516" y="2002"></text>
+	<text id="percentage_voorbewerken_2" fill="#258999" font-family="Roboto" font-size="30" x="516" y="2002"></text>
+	<text id="percentage_voorbewerken_3" fill="#414143" font-family="Roboto" font-size="24" x="1766" y="2002"></text>
+
+	<rect id="staf_administratief_financieel_totaal_rect" x="516" y="2033" width="1221" height="45" fill="#ECEDED"></rect>
+	<rect id="staf_administratief_financieel_1" x="516" y="2033" width="0" height="45" fill="#A8D0D6"></rect>
+	<rect id="staf_administratief_financieel_2" x="516" y="2033" width="0" height="45" fill="#074953"></rect>
+	<text id="percentage_staf_administratief_financieel_1" fill="#258999" font-family="Roboto" font-size="30" x="516" y="2065"></text>
+	<text id="percentage_staf_administratief_financieel_2" fill="#258999" font-family="Roboto" font-size="30" x="516" y="2065"></text>
+	<text id="percentage_staf_administratief_financieel_3" fill="#414143" font-family="Roboto" font-size="24" x="1766" y="2065"></text>
+
+	<rect id="staf_personeelsfunctionaris_totaal_rect" x="516" y="2096" width="1221" height="45" fill="#ECEDED"></rect>
+	<rect id="staf_personeelsfunctionaris_1" x="516" y="2096" width="0" height="45" fill="#A8D0D6"></rect>
+	<rect id="staf_personeelsfunctionaris_2" x="516" y="2096" width="0" height="45" fill="#074953"></rect>
+	<text id="percentage_staf_personeelsfunctionaris_1" fill="#258999" font-family="Roboto" font-size="30" x="516" y="2128"></text>
+	<text id="percentage_staf_personeelsfunctionaris_2" fill="#258999" font-family="Roboto" font-size="30" x="516" y="2128"></text>
+	<text id="percentage_staf_personeelsfunctionaris_3" fill="#414143" font-family="Roboto" font-size="24" x="1766" y="2128"></text>
+
+	<rect id="staf_verkopen_totaal_rect" x="516" y="2159" width="1221" height="45" fill="#ECEDED"></rect>
+	<rect id="staf_verkopen_1" x="516" y="2159" width="0" height="45" fill="#A8D0D6"></rect>
+	<rect id="staf_verkopen_2" x="516" y="2159" width="0" height="45" fill="#074953"></rect>
+	<text id="percentage_staf_verkopen_1" fill="#258999" font-family="Roboto" font-size="30" x="516" y="2191"></text>
+	<text id="percentage_staf_verkopen_2" fill="#258999" font-family="Roboto" font-size="30" x="516" y="2191"></text>
+	<text id="percentage_staf_verkopen_3" fill="#414143" font-family="Roboto" font-size="24" x="1766" y="2191"></text>
+
+	<rect id="staf_afdelingschef_totaal_rect" x="516" y="2222" width="1221" height="45" fill="#ECEDED"></rect>
+	<rect id="staf_afdelingschef_1" x="516" y="2222" width="0" height="45" fill="#A8D0D6"></rect>
+	<rect id="staf_afdelingschef_2" x="516" y="2222" width="0" height="45" fill="#074953"></rect>
+	<text id="percentage_staf_afdelingschef_1" fill="#258999" font-family="Roboto" font-size="30" x="516" y="2254"></text>
+	<text id="percentage_staf_afdelingschef_2" fill="#258999" font-family="Roboto" font-size="30" x="516" y="2254"></text>
+	<text id="percentage_staf_afdelingschef_3" fill="#414143" font-family="Roboto" font-size="24" x="1766" y="2254"></text>
+
+	<rect id="staf_bedrijfsleiding_totaal_rect" x="516" y="2285" width="1221" height="45" fill="#ECEDED"></rect>
+	<rect id="staf_bedrijfsleiding_1" x="516" y="2285" width="0" height="45" fill="#A8D0D6"></rect>
+	<rect id="staf_bedrijfsleiding_2" x="516" y="2285" width="0" height="45" fill="#074953"></rect>
+	<text id="percentage_staf_bedrijfsleiding_1" fill="#258999" font-family="Roboto" font-size="30" x="516" y="2317"></text>
+	<text id="percentage_staf_bedrijfsleiding_2" fill="#258999" font-family="Roboto" font-size="30" x="516" y="2317"></text>
+	<text id="percentage_staf_bedrijfsleiding_3" fill="#414143" font-family="Roboto" font-size="24" x="1766" y="2317"></text>
+
+	<rect id="staf_overig_totaal_rect" x="516" y="2348" width="1221" height="45" fill="#ECEDED"></rect>
+	<rect id="staf_overig_1" x="516" y="2348" width="0" height="45" fill="#A8D0D6"></rect>
+	<rect id="staf_overig_2" x="516" y="2348" width="0" height="45" fill="#074953"></rect>
+	<text id="percentage_staf_overig_1" fill="#258999" font-family="Roboto" font-size="30" x="516" y="2380"></text>
+	<text id="percentage_staf_overig_2" fill="#258999" font-family="Roboto" font-size="30" x="516" y="2380"></text>
+	<text id="percentage_staf_overig_3" fill="#414143" font-family="Roboto" font-size="24" x="1766" y="2380"></text>
+
+	<rect id="overig_technisch_uitvoerend_totaal_rect" x="516" y="2411" width="1221" height="45" fill="#ECEDED"></rect>
+	<rect id="overig_technisch_uitvoerend_1" x="516" y="2411" width="0" height="45" fill="#A8D0D6"></rect>
+	<rect id="overig_technisch_uitvoerend_2" x="516" y="2411" width="0" height="45" fill="#074953"></rect>
+	<text id="percentage_overig_technisch_uitvoerend_1" fill="#258999" font-family="Roboto" font-size="30" x="516" y="2443"></text>
+	<text id="percentage_overig_technisch_uitvoerend_2" fill="#258999" font-family="Roboto" font-size="30" x="516" y="2443"></text>
+	<text id="percentage_overig_technisch_uitvoerend_3" fill="#414143" font-family="Roboto" font-size="24" x="1766" y="2443"></text>
+
+	<rect id="overig_totaal_rect" x="516" y="2474" width="1221" height="45" fill="#ECEDED"></rect>
+	<rect id="overig_1" x="516" y="2474" width="0" height="45" fill="#A8D0D6"></rect>
+	<rect id="overig_2" x="516" y="2474" width="0" height="45" fill="#074953"></rect>
+	<text id="percentage_overig_1" fill="#258999" font-family="Roboto" font-size="30" x="516" y="2506"></text>
+	<text id="percentage_overig_2" fill="#258999" font-family="Roboto" font-size="30" x="516" y="2506"></text>
+	<text id="percentage_overig_3" fill="#414143" font-family="Roboto" font-size="24" x="1766" y="2506"></text>
+
+	<rect id="alle_functies_totaal_rect" x="516" y="2537" width="1221" height="45" fill="#ECEDED"></rect>
+	<rect id="alle_functies_1" x="516" y="2537" width="0" height="45" fill="#A8D0D6"></rect>
+	<rect id="alle_functies_2" x="516" y="2537" width="0" height="45" fill="#074953"></rect>
+	<text id="percentage_alle_functies_1" fill="#258999" font-family="Roboto" font-size="30" x="516" y="2569"></text>
+	<text id="percentage_alle_functies_2" fill="#258999" font-family="Roboto" font-size="30" x="516" y="2569"></text>
+	<text id="percentage_alle_functies_3" fill="#414143" font-family="Roboto" font-size="24" x="1766" y="2569"></text>
+
+	<g id="titel" style=" cursor: pointer;">
+		<text fill="#A8D0D6" font-family="Roboto" font-size="42" font-weight="bold" x="68" y="1494">
+			<tspan id="geslacht" onClick="ververs('afkomst')"><tspan>Vrouw</tspan> <tspan fill="#414143">vs. Man</tspan></tspan>
+			<tspan id="afkomst" onClick="ververs('leeftijd')"><tspan fill="#074953">Westerse migratieachtergrond</tspan> <tspan fill="#258999">vs. Niet-westerse migratieachtergrond</tspan> <tspan fill="#414143">vs. autochtoon</tspan></tspan>
+			<tspan id="leeftijd" onClick="ververs('geslacht')"><tspan fill="#919494">55+</tspan> <tspan fill="#414143">vs. 55-</tspan></tspan>
+		</text>
+	</g>
+
+	<path id="vrouw" d="M450.88 1522.43C452.76 1524.8 453.698 1527.56 453.698 1530.7C453.698 1531.72 453.479 1532.52 453.035 1533.11C454.877 1535.08 456.204 1537.67 457.015 1540.89L457.236 1541.1C457.384 1541.61 457.418 1542.49 457.346 1543.73C458.525 1545.71 459.114 1546.87 459.114 1547.24C459.114 1547.53 459.04 1547.75 458.892 1547.9V1548.88L459.334 1549.43C460.66 1550.52 462.097 1551.07 463.645 1551.07C465.487 1551.07 466.924 1552.31 467.955 1554.8C470.976 1564.95 472.928 1572.65 473.813 1577.91C473.887 1578.57 474.255 1579.81 474.918 1581.63C475.434 1583.17 475.691 1584.41 475.691 1585.36C475.691 1589.08 474.622 1590.94 472.485 1590.94C469.538 1590.94 465.744 1589.48 461.102 1586.56L460.108 1587.55C461.801 1589.67 462.87 1591.16 463.314 1592.04C464.787 1596.79 465.966 1600.99 466.849 1604.64C467.659 1605.73 468.028 1606.65 467.954 1607.38C467.363 1607.82 466.884 1608.11 466.518 1608.25C466.884 1609.13 467.181 1609.79 467.401 1610.23C467.401 1610.52 467.254 1610.92 466.959 1611.43C466.665 1611.94 466.518 1612.34 466.518 1612.64C466.518 1615.05 465.965 1618.55 464.86 1623.15C463.753 1627.97 463.127 1631.51 462.98 1633.78C462.98 1634.36 462.833 1635.25 462.539 1636.46C462.244 1637.67 462.097 1638.56 462.097 1639.14C462.097 1641.92 461.876 1643.53 461.433 1643.96V1647.03C461.433 1647.83 461.545 1648.93 461.767 1650.32C461.986 1651.7 462.098 1652.73 462.098 1653.39C462.098 1656.74 461.839 1659.7 461.323 1662.26L461.877 1662.15L462.54 1662.37C461.433 1668.87 459.481 1674.82 456.681 1680.22C456.829 1680.66 456.203 1682.16 454.804 1684.71C454.509 1687.2 454.323 1688.51 454.251 1688.66C454.178 1688.8 453.845 1689.19 453.256 1689.81C452.667 1690.43 452.373 1690.99 452.373 1691.5C452.373 1692.46 452.594 1693.26 453.035 1693.91C452.299 1695.01 451.931 1695.89 451.931 1696.54C451.931 1697.06 452.465 1698.48 453.533 1700.82C454.6 1703.15 455.135 1704.91 455.135 1706.07C455.135 1707.1 453.182 1707.61 449.276 1707.61C445.816 1707.61 444.084 1706.15 444.084 1703.23C444.084 1702.42 444.25 1701.16 444.581 1699.45C444.912 1697.73 445.078 1696.58 445.078 1696V1693.48C444.415 1694.06 443.937 1694.61 443.64 1695.12C444.009 1695.7 444.194 1696.25 444.194 1696.76C444.194 1697.2 444.009 1697.86 443.64 1698.74C443.272 1699.61 443.089 1700.31 443.089 1700.82C443.089 1699.72 443.126 1700.89 443.199 1704.32L442.536 1704.76C442.536 1706.37 441.614 1707.17 439.773 1707.17C434.984 1707.17 432.664 1706.33 432.81 1704.65V1704.32C432.958 1704.25 433.067 1704.14 433.142 1703.99C434.984 1699.91 436.052 1696.55 436.346 1693.92C436.863 1693.19 437.121 1692.64 437.121 1692.27C437.121 1692.05 436.864 1691.54 436.346 1690.74C436.641 1690.01 436.9 1689.46 437.121 1689.1C437.121 1688.59 436.936 1687.78 436.567 1686.69C436.199 1685.59 436.016 1684.75 436.016 1684.17C436.016 1683.88 436.144 1683.4 436.401 1682.75C436.658 1682.09 436.79 1681.58 436.79 1681.21C436.79 1680.77 436.642 1680.1 436.346 1679.18C436.052 1678.27 435.904 1677.59 435.904 1677.16L436.127 1662.04L436.79 1661.71L437.121 1661.28L437.231 1660.51C437.157 1660.07 437.194 1659.58 437.341 1659.03C437.488 1658.48 437.563 1658.06 437.563 1657.77C437.563 1657.26 437.451 1656.71 437.231 1656.13C437.599 1654.45 437.784 1653.79 437.784 1654.15V1653.61L438.115 1652.73C438.263 1652.58 438.372 1652.36 438.449 1652.07L438.336 1651.09C438.706 1650.94 438.964 1650.58 439.112 1649.99C438.373 1647.07 438.005 1645.24 438.005 1644.51C436.459 1642.4 435.206 1637.65 434.247 1630.27C433.068 1621.51 432.257 1616.43 431.817 1615.05L430.49 1614.72C430.196 1614.35 430.049 1609.5 430.049 1600.15C430.049 1595.77 430.6 1592.88 431.707 1591.5C431.338 1590.69 431.376 1589.49 431.817 1587.88C432.48 1585.91 432.811 1584.63 432.811 1584.05C432.811 1583.68 432.737 1583.03 432.589 1582.08C430.159 1584.56 428.426 1585.8 427.396 1585.8C426.144 1585.8 424.965 1584.82 423.859 1582.84C422.829 1581.16 422.313 1579.67 422.313 1578.35C422.313 1577.33 422.754 1575.76 423.638 1573.64C424.67 1571.23 425.261 1569.55 425.408 1568.6C425.924 1565.9 426.365 1562.8 426.735 1559.29C426.954 1556.81 427.176 1554.29 427.397 1551.73C427.988 1549.25 429.606 1547.53 432.258 1546.59C434.248 1546.59 435.649 1546.33 436.46 1545.82C437.786 1543.41 438.816 1541.73 439.554 1540.78C437.418 1537.27 436.348 1535.27 436.348 1534.76L436.46 1533.66L436.238 1533.22C435.944 1533.07 435.76 1532.96 435.685 1532.89C435.76 1532.6 435.76 1532.42 435.685 1532.34C435.022 1531.1 434.691 1529.24 434.691 1526.76C434.691 1523.98 436.568 1521.57 440.327 1519.53C441.506 1519.6 442.317 1519.49 442.758 1519.2H443.531C446.553 1518.98 449.003 1520.05 450.88 1522.43Z" fill="#444241"/>
+	<path id="man" d="M1616.45 2550.7C1617.32 2549.6 1617.11 2548.49 1617.11 2548.49C1617.11 2548.49 1622.54 2515.39 1622.68 2511.79C1622.82 2508.2 1624.82 2505.31 1624.82 2502.55C1624.82 2500.93 1625.66 2492.78 1626.36 2486.3C1625.74 2483.7 1625.03 2480.99 1624.7 2480.39C1624.07 2479.23 1624.85 2477.12 1623.99 2476.23C1622.25 2474.42 1620.32 2473.57 1621.88 2470.46C1622.63 2468.96 1624.46 2470.63 1624.78 2471.44C1624.8 2471.51 1624.83 2471.55 1624.87 2471.59C1624.88 2471.61 1624.9 2471.62 1624.92 2471.63C1624.95 2471.64 1624.98 2471.66 1625.01 2471.66C1625.03 2471.66 1625.05 2471.66 1625.07 2471.66C1625.1 2471.66 1625.14 2471.65 1625.17 2471.64C1625.19 2471.63 1625.21 2471.63 1625.23 2471.62C1625.27 2471.6 1625.31 2471.58 1625.35 2471.55C1625.37 2471.53 1625.4 2471.52 1625.42 2471.5C1625.45 2471.48 1625.48 2471.45 1625.51 2471.43C1625.55 2471.4 1625.58 2471.37 1625.62 2471.34C1625.62 2471.33 1625.63 2471.33 1625.63 2471.32C1625.8 2471.16 1625.94 2470.99 1626.04 2470.87C1626.34 2470.52 1626.94 2471.42 1627.25 2470.77L1627.36 2462.22C1627.36 2462.22 1623.62 2460.85 1621.88 2456.7C1620.15 2452.55 1619.21 2452.41 1617.21 2450.07C1615.2 2447.72 1614.94 2444.67 1614.94 2438.74C1614.94 2432.79 1618.01 2424.79 1618.41 2421.9C1618.8 2418.99 1621.47 2412.63 1622.94 2410.9C1624.41 2409.16 1635.29 2406 1635.29 2406C1635.29 2406 1636.2 2403.73 1637.16 2403.28C1638.13 2402.84 1638.43 2402.21 1639.69 2401.04C1640.97 2399.87 1643.25 2400.19 1643.25 2400.19C1643.25 2400.19 1643.23 2399.72 1643.14 2399.36C1643.13 2399.29 1643.12 2399.24 1643.1 2399.19C1643.06 2399.08 1642.99 2398.99 1642.91 2398.96C1642.58 2398.82 1641.31 2396.05 1640.78 2394.6C1640.24 2393.16 1639.91 2389.98 1640.17 2386.53C1640.44 2383.08 1643.44 2379.2 1650.36 2377.85C1657.27 2376.51 1661.27 2382.17 1661.27 2382.17C1661.27 2382.17 1660.82 2382.22 1661.44 2382.71C1662.05 2383.22 1662.27 2384.34 1662.16 2384.1C1662.05 2383.89 1661.52 2383.46 1661.37 2383.35C1661.46 2383.42 1661.62 2383.6 1661.87 2384.13C1662.24 2384.89 1661.34 2386.72 1661.44 2386.2C1661.54 2385.68 1661.01 2384.96 1661.01 2384.96C1661.01 2384.96 1661.01 2384.98 1661.02 2385.04C1661.03 2385.05 1661.03 2385.08 1661.03 2385.1C1661.04 2385.14 1661.04 2385.19 1661.05 2385.25C1661.07 2385.5 1661.09 2385.98 1661.01 2386.89C1660.88 2388.41 1661.11 2387.73 1661.41 2388.93C1661.71 2390.13 1661.84 2390.76 1661.34 2391.61C1660.83 2392.48 1660.31 2393.18 1660.57 2393.58C1660.83 2394 1661.27 2394.27 1661.45 2395.31C1661.61 2396.35 1660.61 2396.03 1660.44 2396.45C1660.27 2396.86 1660.44 2397.66 1660.41 2398.21C1660.38 2398.76 1659.6 2398.93 1659.97 2399.07C1660.34 2399.21 1660.34 2399.52 1660.14 2399.73C1659.94 2399.93 1659.44 2401.59 1659.51 2403.08C1659.51 2403.35 1659.47 2403.58 1659.41 2403.76C1659.39 2403.79 1659.38 2403.84 1659.37 2403.86C1659.3 2404.03 1659.2 2404.16 1659.09 2404.25C1659.09 2404.26 1659.08 2404.27 1659.07 2404.28C1659.06 2404.29 1659.05 2404.29 1659.04 2404.3C1658.84 2404.46 1658.62 2404.55 1658.47 2404.57H1658.46C1658.44 2404.58 1658.45 2404.57 1658.42 2404.58C1658.35 2404.59 1658.31 2404.59 1658.31 2404.59C1658.31 2404.59 1658.97 2405.49 1659.44 2406.1C1659.91 2406.73 1661.68 2409.14 1661.68 2409.14C1661.68 2409.14 1661.76 2408.96 1663.36 2409.73C1664.96 2410.49 1668.98 2412.9 1670.18 2413.73C1671.38 2414.55 1674.25 2421.87 1674.79 2424.84C1675.32 2427.81 1676.26 2430.02 1677.66 2432.58C1679.07 2435.13 1678.99 2436.1 1678.93 2437.27C1678.86 2438.45 1679.13 2440.44 1679.13 2442.79C1679.13 2445.15 1677.93 2447.15 1677.93 2447.15C1677.93 2447.15 1678.26 2448.59 1678.53 2450.32C1678.8 2452.05 1678.06 2454.75 1677.26 2455.78C1676.46 2456.81 1677.26 2456.68 1677.46 2458.12C1677.66 2459.58 1678.06 2459.98 1677.06 2460.53C1676.06 2461.09 1675.39 2462.68 1674.52 2463.71C1673.65 2464.74 1672.52 2464.81 1671.65 2465.1C1670.78 2465.38 1670.11 2466.14 1669.31 2467.93C1668.5 2469.72 1669.91 2478.36 1669.37 2478.9C1668.84 2479.46 1667.73 2479.2 1667.73 2479.2C1667.73 2479.2 1668 2486.94 1667.6 2490.26C1667.2 2493.57 1663.56 2544.84 1663.56 2544.84C1663.56 2544.84 1665.24 2547.19 1666.77 2548.91C1668.31 2550.64 1668.77 2553.27 1668.44 2554.37C1667.48 2557.56 1661.19 2556.93 1659.02 2555.75C1657.75 2555.06 1657.35 2553.27 1656.61 2551.88C1655.88 2550.5 1654.21 2550.08 1653.01 2549.05C1651.81 2548.01 1652.1 2545.37 1652.1 2545.37L1649.69 2541.91C1649.69 2541.91 1649.2 2514.51 1649.2 2506.22C1649.2 2497.94 1647.32 2485.51 1647.32 2485.51C1644.88 2487.21 1641.53 2504.76 1638.86 2519.26C1636.19 2533.76 1630.02 2548.71 1630.02 2548.71L1627.81 2549.4C1627.81 2549.4 1627.75 2551.4 1627.68 2552.37C1627.62 2553.33 1626.08 2553.94 1625.88 2554.43C1625.68 2554.91 1625.68 2557.13 1625.34 2558.3C1625.01 2559.47 1623.94 2559.96 1621.74 2560.5C1619.54 2561.06 1615.39 2560.78 1614.92 2559.88C1614.45 2558.99 1614.19 2557.2 1614.12 2555.67C1614.04 2554.16 1615.58 2551.81 1616.45 2550.7Z" fill="#484545"></path>
 </svg>

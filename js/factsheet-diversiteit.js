@@ -5,43 +5,26 @@ function formatNumber (num) {
 
 jQuery(document).ready(function($) {
 
-	var regio = 'nederland';
+	var vergelijking = 'geslacht';
 	jQuery.ajax({
 		url: '/wp-content/themes/trendfiles-theme/js/factsheet-diversiteit.json',
 		dataType: 'json',
 		success: function ( data, textStatus, jqXHR) {
 			gegevens = data;
-			maakGrafiek( regio );
+			maakGrafiek(vergelijking);
 		},
 		error: function( jqXHR, textStatus, errorThrown) {
 			alert('Gegevens kunnen niet worden geladen.');
 		}
 	});
 
-	// selecteer de regio na klikken op knop
-	$('#regioselectie li.regioknop').click(function() {
-		$('#regioselectie li.regioknop').addClass('disabled');
-		$(this).removeClass('disabled');
-		var regio = $(this).attr('data-regio');
-		$('article').attr('id', regio);
-		$('#download-pdf').attr('href', '/wp-content/themes/trendfiles-theme/pdf/factsheet_diversiteit_' + regio + '.pdf');
-		maakGrafiek( regio );
-	});
-
-	var elementPosition = $('#regioselectie').offset();
-
-	$(window).scroll(function(){
-		if($(window).scrollTop() > elementPosition.top){
-			$('#regioselectie').addClass('fixed');
-		} else {
-			$('#regioselectie').removeClass('fixed');
-		}
-	});
-
 })
 
-function maakGrafiek(regio) {
-	//console.log( gegevens );
+function ververs(vergelijking) {
+	maakGrafiek(vergelijking);
+}
+
+function maakGrafiek(vergelijking) {
 
 	var werknemers_2019_totaal = gegevens.nederland.werknemers.jaar_2019.totaal;
 	document.getElementById('werknemers_2019_totaal').textContent = formatNumber(werknemers_2019_totaal);
@@ -59,23 +42,71 @@ function maakGrafiek(regio) {
 	document.getElementById('werknemers_2019_vrouwen_percentage').setAttribute('x', breedte_werknemers_2019_vrouwen + 194);
 	document.getElementById('werknemers_2019_vrouwen_rect').setAttribute('width', breedte_werknemers_2019_vrouwen);
 
+	if (vergelijking === "afkomst") {
+		document.getElementById('afkomst').style.display = 'block';
+		document.getElementById('geslacht').style.display = 'none';
+		document.getElementById('leeftijd').style.display = 'none';
+		var groep_1 = "westerse_migratieachtergrond";
+		var groep_1_class = "fill_1";
+		var groep_2 = "niet_westerse_migratieachtergrond";
+		var groep_2_class = "fill_2";
+		var groep_3 = "autochtoon";
+	} else if (vergelijking === "geslacht") {
+		document.getElementById('afkomst').style.display = 'none';
+		document.getElementById('geslacht').style.display = 'block';
+		document.getElementById('leeftijd').style.display = 'none';
+		var groep_1 = "vrouwen";
+		var groep_1_class = "fill_5";
+		var groep_3 = "mannen";
 
-	var werknemers_2019_directie_vrouwen = gegevens.nederland.vrouw_vs_man.directie.vrouwen;
-	var werknemers_2019_directie_mannen = gegevens.nederland.vrouw_vs_man.directie.mannen;
-	var breedte_werknemers_2019_directie_vrouwen = werknemers_2019_directie_vrouwen * 1221 / 100;
+	} else if (vergelijking === "leeftijd") {
+		document.getElementById('afkomst').style.display = 'none';
+		document.getElementById('geslacht').style.display = 'none';
+		document.getElementById('leeftijd').style.display = 'block';
+		var groep_1 = "ouder_dan_55_jaar";
+		var groep_1_class = "fill_grey_2";
+		var groep_3 = "jonger_dan_55_jaar";
+	}
 
-	document.getElementById('directie_1').setAttribute('width', breedte_werknemers_2019_directie_vrouwen);
-	document.getElementById('percentage_directie_1').textContent = werknemers_2019_directie_vrouwen + '%';
-	document.getElementById('percentage_directie_1').setAttribute('x', breedte_werknemers_2019_directie_vrouwen + 536);
-	document.getElementById('percentage_directie_3').textContent = werknemers_2019_directie_mannen + '%';
 
-	var werknemers_2019_ontwikkelen_vrouwen = gegevens.nederland.vrouw_vs_man.ontwikkelen.vrouwen;
-	var werknemers_2019_ontwikkelen_mannen = gegevens.nederland.vrouw_vs_man.ontwikkelen.mannen;
-	var breedte_werknemers_2019_ontwikkelen_vrouwen = werknemers_2019_ontwikkelen_vrouwen * 1221 / 100;
+	var functies = ["directie", "ontwikkelen", "plannen_en_werkvoorbereiding", "tekenen", "technisch_voorbereidend_overig", "monteren_installeren", "leidinggevend_monteren_installeren", "voorbewerken", "staf_administratief_financieel", "staf_personeelsfunctionaris", "staf_verkopen", "staf_afdelingschef", "staf_bedrijfsleiding", "staf_overig", "overig_technisch_uitvoerend", "overig", "alle_functies"];
 
-	document.getElementById('ontwikkelen_1').setAttribute('width', breedte_werknemers_2019_ontwikkelen_vrouwen);
-	document.getElementById('percentage_ontwikkelen_1').textContent = werknemers_2019_ontwikkelen_vrouwen + '%';
-	document.getElementById('percentage_ontwikkelen_1').setAttribute('x', breedte_werknemers_2019_ontwikkelen_vrouwen + 536);
-	document.getElementById('percentage_ontwikkelen_3').textContent = werknemers_2019_ontwikkelen_mannen + '%';
+	functies.forEach(function(functie) {
+
+		breedte_werknemers_2019_functie_2 = null;
+		document.getElementById( functie + '_2').setAttribute('x', 0);
+		document.getElementById('percentage_' + functie + '_2').setAttribute('x', 0);
+
+		var werknemers_2019_functie_1 = gegevens.nederland[vergelijking][functie][groep_1];
+
+		if ( typeof groep_2 != "undefined" ) {
+			var werknemers_2019_functie_2 = gegevens.nederland[vergelijking][functie][groep_2];
+			var breedte_werknemers_2019_functie_2 = werknemers_2019_functie_2 * 1221 / 100;
+		}
+		var werknemers_2019_functie_3 = gegevens.nederland[vergelijking][functie][groep_3];
+		var breedte_werknemers_2019_functie_1 = werknemers_2019_functie_1 * 1221 / 100;
+		
+		document.getElementById( functie + '_1').setAttribute('width', breedte_werknemers_2019_functie_1);
+		document.getElementById( functie + '_1').setAttribute('class', groep_1_class);
+		document.getElementById('percentage_' + functie + '_1').setAttribute('class', groep_1_class);
+		document.getElementById('percentage_' + functie + '_1').textContent = werknemers_2019_functie_1 + '%';
+		document.getElementById('percentage_' + functie + '_1').setAttribute('x', breedte_werknemers_2019_functie_1 + breedte_werknemers_2019_functie_2 + 536);
+
+		document.getElementById( functie + '_2').setAttribute('visibility', 'hidden');
+		document.getElementById('percentage_' + functie + '_2').setAttribute('visibility', 'hidden');
+
+		if ( typeof groep_2 != "undefined" ) {
+			document.getElementById( functie + '_2').setAttribute('width', breedte_werknemers_2019_functie_2);
+			document.getElementById( functie + '_2').setAttribute('x', breedte_werknemers_2019_functie_1 + 516);
+			document.getElementById( functie + '_2').setAttribute('class', groep_2_class);
+			document.getElementById( functie + '_2').setAttribute('visibility', 'visible');
+			document.getElementById('percentage_' + functie + '_2').setAttribute('visibility', 'visible');
+			document.getElementById('percentage_' + functie + '_2').setAttribute('class', groep_2_class);
+			document.getElementById('percentage_' + functie + '_2').textContent = werknemers_2019_functie_2 + '%';
+			document.getElementById('percentage_' + functie + '_2').setAttribute('x', breedte_werknemers_2019_functie_1 + breedte_werknemers_2019_functie_2 + 596);
+		}
+		document.getElementById('percentage_' + functie + '_3').textContent = werknemers_2019_functie_3 + '%';
+
+	})
 
 }
