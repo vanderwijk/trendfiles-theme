@@ -46,6 +46,9 @@ function maakGrafiek(vergelijking) {
 		document.getElementById('afkomst').style.display = 'block';
 		document.getElementById('geslacht').style.display = 'none';
 		document.getElementById('leeftijd').style.display = 'none';
+		document.getElementById('vrouw-silhouet').style.display = 'none';
+		document.getElementById('55plus-silhouet').style.display = 'none';
+		document.getElementById('allochtoon-silhouet').style.display = 'block';
 		var groep_1 = "westerse_migratieachtergrond";
 		var groep_1_class = "fill_1";
 		var groep_2 = "niet_westerse_migratieachtergrond";
@@ -55,6 +58,9 @@ function maakGrafiek(vergelijking) {
 		document.getElementById('afkomst').style.display = 'none';
 		document.getElementById('geslacht').style.display = 'block';
 		document.getElementById('leeftijd').style.display = 'none';
+		document.getElementById('vrouw-silhouet').style.display = 'block';
+		document.getElementById('55plus-silhouet').style.display = 'none';
+		document.getElementById('allochtoon-silhouet').style.display = 'none';
 		var groep_1 = "vrouwen";
 		var groep_1_class = "fill_5";
 		var groep_3 = "mannen";
@@ -63,6 +69,9 @@ function maakGrafiek(vergelijking) {
 		document.getElementById('afkomst').style.display = 'none';
 		document.getElementById('geslacht').style.display = 'none';
 		document.getElementById('leeftijd').style.display = 'block';
+		document.getElementById('vrouw-silhouet').style.display = 'none';
+		document.getElementById('55plus-silhouet').style.display = 'block';
+		document.getElementById('allochtoon-silhouet').style.display = 'none';
 		var groep_1 = "ouder_dan_55_jaar";
 		var groep_1_class = "fill_grey_2";
 		var groep_3 = "jonger_dan_55_jaar";

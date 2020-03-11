@@ -28,6 +28,15 @@ get_header();
 				</svg>
 			</div>
 		</div>
+		<div class="col">
+			<div class="block no-border">
+				<ul class="knoppen" id="vergelijkingselectie">
+					<li class="vergelijkingknop geslacht" data-vergelijking="geslacht" onClick="ververs('geslacht')">Vrouwen</li>
+					<li class="vergelijkingknop afkomst" data-vergelijking="afkomst" onClick="ververs('afkomst')">Migratieachtergrond </li>
+					<li class="vergelijkingknop leeftijd" data-vergelijking="leeftijd" onClick="ververs('leeftijd')">55 jaar en ouder</li>
+				</ul>
+			</div>
+		</div>
 	</div>
 </article>
 

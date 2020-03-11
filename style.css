@@ -4,7 +4,7 @@ Theme URI: https://trendfiles.otib.nl
 Author: Johan van der Wijk
 Author URI: http://vanderwijk.nl
 Description: OTIB trendfiles WordPress theme.
-Version: 1.1
+Version: 1.1.1
 */
 
 /* Reset
@@ -327,9 +327,14 @@ ul.knoppen li #download-pdf{
 	background-size: 15px 20px;
 	background-position: 8px center;
 }
-ul.knoppen li:last-child {
+ul.knoppen li.pdf{
 	margin-left: auto;
 }
+
+#vergelijkingselectie {
+	justify-content: space-around;
+}
+
 
 
 /* Grid
