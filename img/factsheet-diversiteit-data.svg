@@ -130,9 +130,9 @@
 
 	<g id="titel" style=" cursor: pointer;">
 		<text fill="#A8D0D6" font-family="Roboto" font-size="42" font-weight="bold" x="68" y="1494">
-			<tspan id="geslacht" onClick="ververs('afkomst')"><tspan>Vrouw</tspan> <tspan fill="#414143">vs. Man</tspan></tspan>
-			<tspan id="afkomst" onClick="ververs('leeftijd')"><tspan fill="#074953">Westerse migratieachtergrond</tspan> <tspan fill="#258999">vs. Niet-westerse migratieachtergrond</tspan> <tspan fill="#414143">vs. autochtoon</tspan></tspan>
-			<tspan id="leeftijd" onClick="ververs('geslacht')"><tspan fill="#919494">55+</tspan> <tspan fill="#414143">vs. 55-</tspan></tspan>
+			<tspan id="geslacht" onClick="ververs('afkomst')"><tspan>Vrouw</tspan> <tspan fill="#ECEDED">vs. Man</tspan></tspan>
+			<tspan id="afkomst" onClick="ververs('leeftijd')"><tspan fill="#074953">Westerse migratieachtergrond</tspan> <tspan fill="#258999">vs. Niet-westerse migratieachtergrond</tspan> <tspan fill="#ECEDED">vs. autochtoon</tspan></tspan>
+			<tspan id="leeftijd" onClick="ververs('geslacht')"><tspan fill="#919494">55+</tspan> <tspan fill="#ECEDED">vs. 55-</tspan></tspan>
 		</text>
 	</g>
 
