@@ -43,10 +43,4 @@ jQuery(document).ready(function($) {
 	}
 	setTimeout(hideGraphs, 1500);
 
-	$('.tooltip').tooltipster({
-		animation: 'fade',
-		maxWidth: 270
-	 });
-
-
 });
