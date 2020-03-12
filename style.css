@@ -2047,7 +2047,7 @@ body.single-quote {
 	grid-area: uitgelicht;
 }
 
-.row.main {
+.home .row.main {
 	padding-top: 10px;
 	display: grid;
 	grid-template-columns: 1% calc(97%/5) 1% calc(97%/5*4) 1%;
