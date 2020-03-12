@@ -1,5 +1,5 @@
 <?php
-define('TRENDFILES_THEME_VER', '1.1.6');
+define('TRENDFILES_THEME_VER', '1.1.7');
 
 if (isset($_SERVER['HTTPS'])) {
 	$protocol = ($_SERVER['HTTPS'] && $_SERVER['HTTPS'] != "off") ? "https://" : "http://";
@@ -158,6 +158,7 @@ function include_scripts_styles () {
 
 		wp_register_script( 'tooltipster-js', get_template_directory_uri() . '/js/tooltipster/js/tooltipster.bundle.min.js', array( 'jquery' ), '4.0.0', true );
 		wp_register_script( 'tooltipster-js-svg', get_template_directory_uri() . '/js/tooltipster/js/plugins/tooltipster/SVG/tooltipster-SVG.js', array( 'jquery' ), '4.0.0', true );
+		wp_register_script( 'tooltipster-init', get_template_directory_uri() . '/js/tooltipster-init.js', array( 'tooltipster-js' ), '4.0.0', true );
 
 		if ( is_front_page() ) {
 			wp_enqueue_style( 'royalslider-default' );
