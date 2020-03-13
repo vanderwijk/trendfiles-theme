@@ -1,6 +1,5 @@
 <?php
 get_header();
-
 ?>
 
 <script src="<?php echo $protocol . $host . '/wp-content/themes/trendfiles-theme/js/factsheet-diversiteit.js'; ?>"></script>

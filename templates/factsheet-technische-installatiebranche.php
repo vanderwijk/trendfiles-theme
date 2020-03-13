@@ -1,6 +1,5 @@
 <?php
 get_header();
-
 ?>
 
 <script src="<?php echo $protocol . $host . '/wp-content/themes/trendfiles-theme/js/factsheet-technische-installatiebranche.js'; ?>"></script>
@@ -39,36 +38,5 @@ get_header();
 		</div>
 	</div>
 </article>
-
-<script>
-jQuery(document).ready(function($) {
-
-	// only use svgPanZoom on mobile
-	if (jQuery('header').width() <= 375 ) {
-		var panZoomTiger = svgPanZoom('#factsheet-ti-installatie', {
-			panEnabled: true
-			, controlIconsEnabled: true
-			, zoomEnabled: true
-			, dblClickZoomEnabled: true
-			, mouseWheelZoomEnabled: false
-			, preventMouseEventsDefault: true
-			, zoomScaleSensitivity: 0.2
-			, minZoom: 1
-			, maxZoom: 10
-			, fit: true
-			, contain: false
-			, center: true
-			, refreshRate: 'auto'
-			, beforeZoom: function(){}
-			, onZoom: function(){}
-			, beforePan: function(){}
-			, onPan: function(){}
-			, onUpdatedCTM: function(){}
-			, eventsListenerElement: null
-		});
-	}
-
-});
-</script>
 
 <?php get_footer(); ?>
