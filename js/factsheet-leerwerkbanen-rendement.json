@@ -1,46 +1,46 @@
 {
 	"nederland": {
 		"mbo_bbl_leerlingen": {
-			"leerlingen_niveau_1_2": 2270,
-			"leerlingen_niveau_3_4": 5090
+			"leerlingen_niveau_1_2": 2250,
+			"leerlingen_niveau_3_4": 5130
 		},
 		"geslacht": {
 			"percentage_mannen": 98,
 			"percentage_vrouwen": 2
 		},
 		"leeftijd": {
-			"jonger_dan_25_jaar": 5340,
-			"van_26_tot_34_jaar": 1440,
-			"ouder_dan_35_jaar": 590
+			"jonger_dan_25_jaar": 5190,
+			"van_26_tot_34_jaar": 1560,
+			"ouder_dan_35_jaar": 620
 		},
 		"actieve_leerbedrijven": {
-			"percentage_actief_leerbedrijf_installatie": 24,
+			"percentage_actief_leerbedrijf_installatie": 26,
 			"percentage_actief_leerbedrijf_overige": 1.5
 		},
 		"uitsplitsing_leerwerkbanen": {
 			"leerlingen_leerwerkbanen_installatiebedrijf": 3950,
-			"leerlingen_leerwerkbanen_overige_technische_bedrijven": 3410
+			"leerlingen_leerwerkbanen_overige_technische_bedrijven": 3430
 		},
 		"diplomarendement": {
 			"diplomarendement_leerwerkbanen_installatiebedrijf": 3080,
-			"diplomarendement_leerwerkbanen_overig": 2630
+			"diplomarendement_leerwerkbanen_overig": 2530
 		},
 		"brancherendement": {
-			"rendement_installatiebedrijf_branche": 2540,
-			"rendement_overig_branche": 270
+			"rendement_installatiebedrijf_branche": 2490,
+			"rendement_overig_branche": 260
 		},
 		"sectorrendement": {
-			"rendement_installatiebedrijf_sector": 340,
-			"rendement_overig_sector": 1240
+			"rendement_installatiebedrijf_sector": 360,
+			"rendement_overig_sector": 1210
 		},
 		"uitstroom": {
-			"rendement_installatiebedrijf_uitstroom": 200,
-			"rendement_overig_uitstroom": 1120
+			"rendement_installatiebedrijf_uitstroom": 180,
+			"rendement_overig_uitstroom": 1060
 		}
 	},
 	"noord_nederland": {
 		"mbo_bbl_leerlingen": {
-			"leerlingen_niveau_1_2": 230,
+			"leerlingen_niveau_1_2": 240,
 			"leerlingen_niveau_3_4": 540
 		},
 		"geslacht": {
@@ -49,76 +49,76 @@
 		},
 		"leeftijd": {
 			"jonger_dan_25_jaar": 450,
-			"van_26_tot_34_jaar": 190,
-			"ouder_dan_35_jaar": 130
+			"van_26_tot_34_jaar": 210,
+			"ouder_dan_35_jaar": 120
 		},
 		"actieve_leerbedrijven": {
-			"percentage_actief_leerbedrijf_installatie": 27,
+			"percentage_actief_leerbedrijf_installatie": 28,
 			"percentage_actief_leerbedrijf_overige": 2.2
 		},
 		"uitsplitsing_leerwerkbanen": {
 			"leerlingen_leerwerkbanen_installatiebedrijf": 340,
-			"leerlingen_leerwerkbanen_overige_technische_bedrijven": 430
+			"leerlingen_leerwerkbanen_overige_technische_bedrijven": 440
 		},
 		"diplomarendement": {
-			"diplomarendement_leerwerkbanen_installatiebedrijf": 290,
-			"diplomarendement_leerwerkbanen_overig": 320
+			"diplomarendement_leerwerkbanen_installatiebedrijf": 270,
+			"diplomarendement_leerwerkbanen_overig": 300
 		},
 		"brancherendement": {
-			"rendement_installatiebedrijf_branche": 250,
+			"rendement_installatiebedrijf_branche": 220,
 			"rendement_overig_branche": 30
 		},
 		"sectorrendement": {
-			"rendement_installatiebedrijf_sector": 20,
-			"rendement_overig_sector": 120
+			"rendement_installatiebedrijf_sector": 30,
+			"rendement_overig_sector": 150
 		},
 		"uitstroom": {
-			"rendement_installatiebedrijf_uitstroom": 20,
-			"rendement_overig_uitstroom": 170
+			"rendement_installatiebedrijf_uitstroom": 10,
+			"rendement_overig_uitstroom": 120
 		}
 	},	
 	"noord_holland": {
 		"mbo_bbl_leerlingen": {
-			"leerlingen_niveau_1_2": 340,
-			"leerlingen_niveau_3_4": 620
+			"leerlingen_niveau_1_2": 360,
+			"leerlingen_niveau_3_4": 650
 		},
 		"geslacht": {
 			"percentage_mannen": 97,
 			"percentage_vrouwen": 3
 		},
 		"leeftijd": {
-			"jonger_dan_25_jaar": 700,
-			"van_26_tot_34_jaar": 180,
+			"jonger_dan_25_jaar": 710,
+			"van_26_tot_34_jaar": 230,
 			"ouder_dan_35_jaar": 80
 		},
 		"actieve_leerbedrijven": {
-			"percentage_actief_leerbedrijf_installatie": 19,
+			"percentage_actief_leerbedrijf_installatie": 22,
 			"percentage_actief_leerbedrijf_overige": 1.1
 		},
 		"uitsplitsing_leerwerkbanen": {
 			"leerlingen_leerwerkbanen_installatiebedrijf": 500,
-			"leerlingen_leerwerkbanen_overige_technische_bedrijven": 460
+			"leerlingen_leerwerkbanen_overige_technische_bedrijven": 510
 		},
 		"diplomarendement": {
-			"diplomarendement_leerwerkbanen_installatiebedrijf": 370,
-			"diplomarendement_leerwerkbanen_overig": 360
+			"diplomarendement_leerwerkbanen_installatiebedrijf": 340,
+			"diplomarendement_leerwerkbanen_overig": 390
 		},
 		"brancherendement": {
-			"rendement_installatiebedrijf_branche": 290,
+			"rendement_installatiebedrijf_branche": 270,
 			"rendement_overig_branche": 30
 		},
 		"sectorrendement": {
 			"rendement_installatiebedrijf_sector": 40,
-			"rendement_overig_sector": 170
+			"rendement_overig_sector": 160
 		},
 		"uitstroom": {
-			"rendement_installatiebedrijf_uitstroom": 50,
-			"rendement_overig_uitstroom": 160
+			"rendement_installatiebedrijf_uitstroom": 30,
+			"rendement_overig_uitstroom": 200
 		}
 	},	
 	"midden_nederland": {
 		"mbo_bbl_leerlingen": {
-			"leerlingen_niveau_1_2": 320,
+			"leerlingen_niveau_1_2": 300,
 			"leerlingen_niveau_3_4": 440
 		},
 		"geslacht": {
@@ -126,24 +126,24 @@
 			"percentage_vrouwen": 1
 		},
 		"leeftijd": {
-			"jonger_dan_25_jaar": 570,
-			"van_26_tot_34_jaar": 130,
-			"ouder_dan_35_jaar": 60
+			"jonger_dan_25_jaar": 540,
+			"van_26_tot_34_jaar": 140,
+			"ouder_dan_35_jaar": 50
 		},
 		"actieve_leerbedrijven": {
-			"percentage_actief_leerbedrijf_installatie": 23,
+			"percentage_actief_leerbedrijf_installatie": 25,
 			"percentage_actief_leerbedrijf_overige": 1.1
 		},
 		"uitsplitsing_leerwerkbanen": {
 			"leerlingen_leerwerkbanen_installatiebedrijf": 450,
-			"leerlingen_leerwerkbanen_overige_technische_bedrijven": 310
+			"leerlingen_leerwerkbanen_overige_technische_bedrijven": 290
 		},
 		"diplomarendement": {
-			"diplomarendement_leerwerkbanen_installatiebedrijf": 330,
-			"diplomarendement_leerwerkbanen_overig": 220
+			"diplomarendement_leerwerkbanen_installatiebedrijf": 320,
+			"diplomarendement_leerwerkbanen_overig": 200
 		},
 		"brancherendement": {
-			"rendement_installatiebedrijf_branche": 250,
+			"rendement_installatiebedrijf_branche": 240,
 			"rendement_overig_branche": 30
 		},
 		"sectorrendement": {
@@ -151,91 +151,91 @@
 			"rendement_overig_sector": 90
 		},
 		"uitstroom": {
-			"rendement_installatiebedrijf_uitstroom": 20,
-			"rendement_overig_uitstroom": 100
+			"rendement_installatiebedrijf_uitstroom": 30,
+			"rendement_overig_uitstroom": 80
 		}
 	},	
 	"gelderland_overijssel": {
 		"mbo_bbl_leerlingen": {
 			"leerlingen_niveau_1_2": 500,
-			"leerlingen_niveau_3_4": 1070
-		},
-		"geslacht": {
-			"percentage_mannen": 99,
-			"percentage_vrouwen": 1
-		},
-		"leeftijd": {
-			"jonger_dan_25_jaar": 1160,
-			"van_26_tot_34_jaar": 290,
-			"ouder_dan_35_jaar": 110
-		},
-		"actieve_leerbedrijven": {
-			"percentage_actief_leerbedrijf_installatie": 26,
-			"percentage_actief_leerbedrijf_overige": 1.9
-		},
-		"uitsplitsing_leerwerkbanen": {
-			"leerlingen_leerwerkbanen_installatiebedrijf": 820,
-			"leerlingen_leerwerkbanen_overige_technische_bedrijven": 750
-		},
-		"diplomarendement": {
-			"diplomarendement_leerwerkbanen_installatiebedrijf": 700,
-			"diplomarendement_leerwerkbanen_overig": 610
-		},
-		"brancherendement": {
-			"rendement_installatiebedrijf_branche": 600,
-			"rendement_overig_branche": 70
-		},
-		"sectorrendement": {
-			"rendement_installatiebedrijf_sector": 70,
-			"rendement_overig_sector": 310
-		},
-		"uitstroom": {
-			"rendement_installatiebedrijf_uitstroom": 30,
-			"rendement_overig_uitstroom": 240
-		}
-	},	
-	"zuid_nederland": {
-		"mbo_bbl_leerlingen": {
-			"leerlingen_niveau_1_2": 440,
-			"leerlingen_niveau_3_4": 1460
+			"leerlingen_niveau_3_4": 1050
 		},
 		"geslacht": {
 			"percentage_mannen": 98,
 			"percentage_vrouwen": 2
 		},
 		"leeftijd": {
-			"jonger_dan_25_jaar": 1450,
-			"van_26_tot_34_jaar": 330,
-			"ouder_dan_35_jaar": 130
+			"jonger_dan_25_jaar": 1130,
+			"van_26_tot_34_jaar": 300,
+			"ouder_dan_35_jaar": 120
 		},
 		"actieve_leerbedrijven": {
-			"percentage_actief_leerbedrijf_installatie": 24,
+			"percentage_actief_leerbedrijf_installatie": 27,
+			"percentage_actief_leerbedrijf_overige": 1.9
+		},
+		"uitsplitsing_leerwerkbanen": {
+			"leerlingen_leerwerkbanen_installatiebedrijf": 820,
+			"leerlingen_leerwerkbanen_overige_technische_bedrijven": 730
+		},
+		"diplomarendement": {
+			"diplomarendement_leerwerkbanen_installatiebedrijf": 690,
+			"diplomarendement_leerwerkbanen_overig": 550
+		},
+		"brancherendement": {
+			"rendement_installatiebedrijf_branche": 580,
+			"rendement_overig_branche": 70
+		},
+		"sectorrendement": {
+			"rendement_installatiebedrijf_sector": 80,
+			"rendement_overig_sector": 250
+		},
+		"uitstroom": {
+			"rendement_installatiebedrijf_uitstroom": 30,
+			"rendement_overig_uitstroom": 230
+		}
+	},	
+	"zuid_nederland": {
+		"mbo_bbl_leerlingen": {
+			"leerlingen_niveau_1_2": 430,
+			"leerlingen_niveau_3_4": 1500
+		},
+		"geslacht": {
+			"percentage_mannen": 98,
+			"percentage_vrouwen": 2
+		},
+		"leeftijd": {
+			"jonger_dan_25_jaar": 1410,
+			"van_26_tot_34_jaar": 370,
+			"ouder_dan_35_jaar": 150
+		},
+		"actieve_leerbedrijven": {
+			"percentage_actief_leerbedrijf_installatie": 26,
 			"percentage_actief_leerbedrijf_overige": 1.6
 		},
 		"uitsplitsing_leerwerkbanen": {
 			"leerlingen_leerwerkbanen_installatiebedrijf": 1050,
-			"leerlingen_leerwerkbanen_overige_technische_bedrijven": 850
+			"leerlingen_leerwerkbanen_overige_technische_bedrijven": 880
 		},
 		"diplomarendement": {
 			"diplomarendement_leerwerkbanen_installatiebedrijf": 880,
-			"diplomarendement_leerwerkbanen_overig": 650
+			"diplomarendement_leerwerkbanen_overig": 670
 		},
 		"brancherendement": {
-			"rendement_installatiebedrijf_branche": 730,
-			"rendement_overig_branche": 50
+			"rendement_installatiebedrijf_branche": 750,
+			"rendement_overig_branche": 60
 		},
 		"sectorrendement": {
 			"rendement_installatiebedrijf_sector": 100,
-			"rendement_overig_sector": 340
+			"rendement_overig_sector": 350
 		},
 		"uitstroom": {
-			"rendement_installatiebedrijf_uitstroom": 50,
+			"rendement_installatiebedrijf_uitstroom": 30,
 			"rendement_overig_uitstroom": 260
 		}
 	},
 	"zuid_holland": {
 		"mbo_bbl_leerlingen": {
-			"leerlingen_niveau_1_2": 440,
+			"leerlingen_niveau_1_2": 390,
 			"leerlingen_niveau_3_4": 920
 		},
 		"geslacht": {
@@ -243,33 +243,33 @@
 			"percentage_vrouwen": 1
 		},
 		"leeftijd": {
-			"jonger_dan_25_jaar": 980,
+			"jonger_dan_25_jaar": 920,
 			"van_26_tot_34_jaar": 300,
-			"ouder_dan_35_jaar": 80
+			"ouder_dan_35_jaar": 100
 		},
 		"actieve_leerbedrijven": {
-			"percentage_actief_leerbedrijf_installatie": 22,
+			"percentage_actief_leerbedrijf_installatie": 24,
 			"percentage_actief_leerbedrijf_overige": 0.9
 		},
 		"uitsplitsing_leerwerkbanen": {
 			"leerlingen_leerwerkbanen_installatiebedrijf": 780,
-			"leerlingen_leerwerkbanen_overige_technische_bedrijven": 580
+			"leerlingen_leerwerkbanen_overige_technische_bedrijven": 530
 		},
 		"diplomarendement": {
-			"diplomarendement_leerwerkbanen_installatiebedrijf": 540,
-			"diplomarendement_leerwerkbanen_overig": 440
+			"diplomarendement_leerwerkbanen_installatiebedrijf": 530,
+			"diplomarendement_leerwerkbanen_overig": 380
 		},
 		"brancherendement": {
-			"rendement_installatiebedrijf_branche": 450,
-			"rendement_overig_branche": 50
+			"rendement_installatiebedrijf_branche": 430,
+			"rendement_overig_branche": 40
 		},
 		"sectorrendement": {
 			"rendement_installatiebedrijf_sector": 60,
-			"rendement_overig_sector": 210
+			"rendement_overig_sector": 190
 		},
 		"uitstroom": {
 			"rendement_installatiebedrijf_uitstroom": 30,
-			"rendement_overig_uitstroom": 180
+			"rendement_overig_uitstroom": 150
 		}
 	}
 }
