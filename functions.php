@@ -10,11 +10,6 @@ if (isset($_SERVER['HTTP_HOST'])) {
 	$host = $_SERVER['HTTP_HOST'];
 }
 
-// Upload size
-@ini_set( 'upload_max_size' , '64M' );
-@ini_set( 'post_max_size', '64M');
-@ini_set( 'max_execution_time', '300' );
-
 // Translation
 function trendfiles_setup(){
 	load_theme_textdomain( 'trendfiles', get_template_directory() . '/languages' );
