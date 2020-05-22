@@ -23,6 +23,8 @@ jQuery(document).ready(function($) {
 		$('#regioselectie li.regioknop').addClass('disabled');
 		$(this).removeClass('disabled');
 		var regio = $(this).attr('data-regio');
+		var regio_label = $(this).html();
+		$('#regio_label').html(regio_label);
 		$('article').attr('id', regio);
 		$('#download-pdf').attr('href', '/wp-content/themes/trendfiles-theme/pdf/factsheet_leerwerkbanen_rendement_' + regio + '.pdf');
 		maakGrafiek( regio );
