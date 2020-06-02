@@ -46,7 +46,7 @@ jQuery(document).ready(function($) {
 function maakGrafiek(regio) {
 	//console.log( gegevens );
 
-	var aantal_bedrijven_per_jaar = gegevens[regio].aantal_bedrijven_per_kwartaal.kwartaal_1;
+	var aantal_bedrijven_per_jaar = gegevens[regio].aantal_bedrijven_per_kwartaal.kwartaal_2;
 
 	document.getElementById('aantal_bedrijven').textContent = formatNumber(aantal_bedrijven_per_jaar);
 
