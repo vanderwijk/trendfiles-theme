@@ -26,8 +26,8 @@
     ╰──────────────────────────────────────────╯
 -->
 <meta name='viewport' content='width=device-width, initial-scale=1.0' />
-<meta name='application-name' content='OTIB Trendfiles' />
-<meta name='apple-mobile-web-app-title' content='OTIB Trendfiles' />
+<meta name='application-name' content='Wij Techniek Trendfiles' />
+<meta name='apple-mobile-web-app-title' content='Wij Techniek Trendfiles' />
 <link rel='icon' type='image/x-icon' href='<?php echo get_stylesheet_directory_uri(); ?>/img/favicon.ico' />
 <link rel='apple-touch-icon' sizes='144x144' href='<?php echo get_stylesheet_directory_uri(); ?>/img/touch-icon-ipad-retina.png' />
 <link rel='profile' href='http://gmpg.org/xfn/11' />
@@ -74,14 +74,6 @@ height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
 							<input type="submit" value="&#xf179;">
 						</form>
 					</div>
-					<a href="http://www.otib.nl/" title="Opleidings- en ontwikkelingsfonds voor het Technisch InstallatieBedrijf." class="logo-otib" rel="external">
-						<svg width="46" height="50" viewBox="0 0 46 50" fill="none" xmlns="http://www.w3.org/2000/svg">
-							<path d="M31.1159 39.8716H35.6648C37.3784 39.8716 38.2034 40.6409 38.2034 42.0432C38.2034 43.883 36.8852 44.3182 35.367 44.3182H31.1148L31.1159 39.8716ZM23.8636 50H37.2136C41.367 50 45.4545 47.5273 45.4545 42.7489C45.4545 39.2398 43.4773 37.5364 41.367 36.7989C43.1148 35.8284 44.267 34.5261 44.267 32.1182C44.267 29.6795 42.9489 26.1364 36.7511 26.1364H23.8636V50ZM31.1159 31.817H34.9398C36.4227 31.817 37.4114 32.25 37.4114 33.4557C37.4114 34.992 36.4557 35.4261 34.9398 35.4261H31.1159V31.817V31.817Z" fill="#EF7D00"/>
-							<path d="M21.5909 31.8148V26.1364H1.13636V31.8148H7.81364V44.1886H1.20568V50H21.5909V44.1886H15.0602V31.8148H21.5909Z" fill="#EF7D00"/>
-							<path d="M31.5989 6.11591H25V0H45.4545V6.11705H38.8545V23.8636H31.5977V6.11591H31.5989Z" fill="black"/>
-							<path d="M7.25114 11.9318C7.25114 6.85795 10.0875 5.67841 11.9318 5.67841C13.7773 5.67841 16.6125 6.85795 16.6125 11.9318C16.6125 17.0057 13.7761 18.1841 11.9318 18.1841C10.0864 18.1852 7.25114 17.0057 7.25114 11.9318ZM0 11.9318C0 18.8864 4.78068 23.8636 11.9318 23.8636C19.083 23.8636 23.8636 18.8864 23.8636 11.9318C23.8636 4.97614 19.0841 0 11.933 0C4.78068 0 0 4.97614 0 11.9318Z" fill="black"/>
-						</svg>
-					</a>
 				</div>
 			</div>
 		</div>

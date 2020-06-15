@@ -1,6 +1,6 @@
 <?php
 /*
-Plugin Name: OTIB Functions Plugin
+Plugin Name: Wij Techniek Functions Plugin
 Description: Site specifieke functies
 Version: 0.1
 License: GPL

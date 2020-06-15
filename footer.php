@@ -5,7 +5,7 @@
  * Contains the closing of the id=main div and all content after
  *
  * @package WordPress
- * @subpackage OTIB
+ * @subpackage Wij Techniek
  */
 ?>
 
@@ -13,9 +13,7 @@
 		<div class="row">
 			<div class="col">
 				<div class="block">
-					<div class="breadcrumb">
-						<?php if ( function_exists('yoast_breadcrumb') ) { yoast_breadcrumb('',''); } ?>
-					</div>
+					<?php if ( function_exists('yoast_breadcrumb') ) { yoast_breadcrumb('<div class="breadcrumb">','</div>'); } ?>
 					<?php if ( !is_front_page() ) { ?>
 					<div class="pagination">
 						<?php $paginate_args = array(
@@ -27,6 +25,9 @@
 						echo paginate_links( $paginate_args ); ?>
 					</div>
 					<?php } ?>
+					<div class="wij-techniek-logo">
+						<a href="https://www.wij-techniek.nl"><img src="/wp-content/themes/trendfiles-theme/img/wij-techniek-logo.svg"></a>
+					</div>
 				</div>
 			</div>
 		</div>

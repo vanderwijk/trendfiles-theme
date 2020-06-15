@@ -1,10 +1,10 @@
 /*
-Theme Name: OTIB Trendfiles
-Theme URI: https://trendfiles.otib.nl
+Theme Name: Wij Techniek Trendfiles
+Theme URI: https://trendfiles.wij-techniek.nl
 Author: Johan van der Wijk
 Author URI: https://thewebworks.nl
-Description: OTIB trendfiles WordPress theme.
-Version: 1.2.2
+Description: Wij Techniek trendfiles WordPress theme.
+Version: 2.0
 */
 
 /* Reset
@@ -1014,14 +1014,9 @@ header .block {
 	justify-content: space-between;
 }
 
-.logo-otib {
-	margin-left: 10px;
-}
-
 .utilities {
 	margin-left: auto;
-	font-size: .750em;
-	/* 12px */
+	font-size: .750em; /* 12px */
 	min-width: 270px;
 }
 
@@ -1031,13 +1026,12 @@ header .block {
 }
 
 .utilities ul {
+	display: flex;
+	justify-content: flex-end;
 	margin-bottom: 5px;
-	overflow: hidden;
 }
 
 .utilities .menu li {
-	float: left;
-	position: relative;
 	text-transform: uppercase;
 	border-right: 1px solid #ccc;
 }
@@ -1057,19 +1051,6 @@ header .block {
 
 .utilities .menu a:hover {
 	color: #2e8d9e;
-}
-
-.utilities .menu .twitter a:before {
-	-webkit-font-smoothing: antialiased;
-	font: normal 1.250em/0 'dashicons';
-	/* 15px */
-	content: "\f301";
-	padding-right: 3px;
-	vertical-align: -3px;
-}
-
-.utilities .menu .twitter a:hover {
-	color: #2299CC;
 }
 
 /* Searchform
@@ -1114,23 +1095,32 @@ header .block {
 	min-width: 100px;
 }
 
+/* Footer
+----------------------------------------------------------------------------------------------------*/
+.footer .block {
+	display: flex;
+	align-items: center;
+	flex-direction:row;
+	justify-content: space-between;
+}
+.wij-techniek-logo {
+	width: 200px;
+}
+
 /* Breadcrubs
 ----------------------------------------------------------------------------------------------------*/
 
 .breadcrumb {
 	float: left;
 	font-family: Roboto, sans-serif;
-	font-size: 14px;
+	font-size: 13px;
 	font-weight: 400;
 	letter-spacing: 1px;
+	line-height: 1.5;
 }
 
-.breadcrumb span {
+.breadcrumb a {
 	border-bottom: 1px solid #424244;
-}
-
-.breadcrumb span.breadcrumb_last {
-	border-bottom: 1px solid #fff;
 }
 
 /* Pagination

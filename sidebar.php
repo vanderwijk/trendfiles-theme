@@ -3,7 +3,7 @@
  * The Sidebar containing the main widget area.
  *
  * @package WordPress
- * @subpackage OTIB
+ * @subpackage Wij Techniek
  */
  ?>
 

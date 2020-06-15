@@ -447,7 +447,7 @@ msgid "OTIB Trendfiles"
 msgstr ""
 
 #. Theme URI of the plugin/theme
-msgid "https://trendfiles.otib.nl"
+msgid "https://trendfiles.wij-techniek.nl"
 msgstr ""
 
 #. Description of the plugin/theme

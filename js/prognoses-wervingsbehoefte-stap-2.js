@@ -1,7 +1,7 @@
 // Laad gegevens via JSON vanaf externe server
 var gegevens;
 jQuery.ajax({
-	url: 'https://trendfiles.otib.nl/wp-content/data/json-figuur-3.json',
+	url: 'https://trendfiles.wij-techniek.nl/wp-content/data/json-figuur-3.json',
 	dataType: 'json',
 	success: function ( data, textStatus, jqXHR ) {
 		gegevens = data;

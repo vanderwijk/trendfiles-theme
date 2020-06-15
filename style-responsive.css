@@ -197,5 +197,16 @@ screen and (device-width: 360px) and (device-height: 640px) and (-webkit-device-
 	ul.knoppen li:last-child {
 		margin-left: initial;
 	}
+
+	.footer .block {
+		display: flex;
+		align-items: center;
+		flex-direction: column;
+		justify-content: space-between;
+	}
+
+	.footer .block .breadcrumb { order: 2; }
+	.footer .block .pagination { order: 1; margin-bottom: 10px; }
+    .footer .block .wij-techniek-logo { order: 3; }
 	
 }

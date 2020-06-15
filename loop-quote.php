@@ -3,7 +3,7 @@
  * The Template for displaying all single video posts
  *
  * @package WordPress
- * @subpackage OTIB
+ * @subpackage Wij Techniek
  */
  ?>
 

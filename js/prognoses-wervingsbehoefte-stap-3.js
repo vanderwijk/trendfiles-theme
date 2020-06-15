@@ -7,7 +7,7 @@ function formatNumber (num) {
 }
 
 jQuery.ajax({
-	url: 'https://trendfiles.otib.nl/wp-content/data/json-figuur-4.json',
+	url: 'https://trendfiles.wij-techniek.nl/wp-content/data/json-figuur-4.json',
 	dataType: 'json',
 	success: function ( data, textStatus, jqXHR ) {
 		gegevens = data;
