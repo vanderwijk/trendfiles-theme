@@ -226,6 +226,7 @@ small {
 	align-self: flex-end;
 	margin: 10px 0;
 	display: inline-block;
+	white-space: nowrap;
 }
 .block .meer-button a {
 	background-color: #fff;
