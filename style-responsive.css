@@ -205,8 +205,13 @@ screen and (device-width: 360px) and (device-height: 640px) and (-webkit-device-
 		justify-content: space-between;
 	}
 
-	.footer .block .breadcrumb { order: 2; }
+	.footer .block .breadcrumb { order: 2; margin-bottom: 10px; }
 	.footer .block .pagination { order: 1; margin-bottom: 10px; }
-    .footer .block .wij-techniek-logo { order: 3; }
+	.footer .block .menu { order: 3;}
+	.footer .block .wij-techniek-logo { order: 4; }
+
+	.footer .menu {
+		display: flex;
+	}
 	
 }

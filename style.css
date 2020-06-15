@@ -1031,16 +1031,16 @@ header .block {
 	margin-bottom: 5px;
 }
 
-.utilities .menu li {
+.menu li {
 	text-transform: uppercase;
 	border-right: 1px solid #ccc;
 }
 
-.utilities .menu li:last-child {
+.menu li:last-child {
 	border-right: none;
 }
 
-.utilities .menu a {
+.menu a {
 	color: #ccc;
 	text-decoration: none;
 	-webkit-transition: color .2s ease-in;
@@ -1049,7 +1049,7 @@ header .block {
 	padding: 5px;
 }
 
-.utilities .menu a:hover {
+.menu a:hover {
 	color: #2e8d9e;
 }
 
@@ -1105,6 +1105,9 @@ header .block {
 }
 .wij-techniek-logo {
 	width: 200px;
+}
+.footer .menu {
+	display: none;
 }
 
 /* Breadcrubs

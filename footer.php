@@ -25,6 +25,7 @@
 						echo paginate_links( $paginate_args ); ?>
 					</div>
 					<?php } ?>
+					<?php wp_nav_menu( array( 'theme_location' => 'top', 'container' => '' ) ); ?>
 					<div class="wij-techniek-logo">
 						<a href="https://www.wij-techniek.nl"><img src="/wp-content/themes/trendfiles-theme/img/wij-techniek-logo.svg"></a>
 					</div>
