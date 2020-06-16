@@ -28,8 +28,6 @@
 <meta name='viewport' content='width=device-width, initial-scale=1.0' />
 <meta name='application-name' content='Wij Techniek Trendfiles' />
 <meta name='apple-mobile-web-app-title' content='Wij Techniek Trendfiles' />
-<link rel='icon' type='image/x-icon' href='<?php echo get_stylesheet_directory_uri(); ?>/img/favicon.ico' />
-<link rel='apple-touch-icon' sizes='144x144' href='<?php echo get_stylesheet_directory_uri(); ?>/img/touch-icon-ipad-retina.png' />
 <link rel='profile' href='http://gmpg.org/xfn/11' />
 <?php wp_head(); ?>
 <!-- Google Tag Manager -->
