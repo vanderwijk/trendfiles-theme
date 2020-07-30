@@ -1905,6 +1905,13 @@ body.single-quote {
 	padding: 5px;
 }
 
+@media screen and (min-width: 1024px) {
+	.single-format-video .fancybox-slide--iframe .fancybox-content {
+		max-width  : 80%;
+		max-height : 80%;
+	}
+}
+
 /* Trends in cijfers blok op homepage
 ----------------------------------------------------------------------------------------------------*/
 
