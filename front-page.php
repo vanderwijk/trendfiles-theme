@@ -62,11 +62,15 @@
 							the_excerpt();
 							echo '</div>';
 
-							$category_link = get_category_link( $video_cat );
+							$terms = get_the_terms( get_the_ID(), 'rubriek' );
+							if ( ! is_wp_error( $terms ) && ! empty( $terms ) ) {
+								echo '</a>';
+								foreach ($terms as $term) {
+									echo '<p class="meer-button"><a href="' . esc_url( get_term_link($term->slug, 'rubriek')) .'">'.$term->name.'</a></p>';
+								}
+								echo '</div>';
+							}
 
-							echo '</a>';
-							echo '<p class="meer-button"><a href="' . esc_url( $category_link ) . '">' . get_cat_name( $category_id = $video_cat ) . '</a></p>';
-							echo '</div>';
 						}
 					wp_reset_postdata();
 				} ?>
