@@ -6,15 +6,45 @@
 		<p>Onder de techniekketen als hier bedoeld vallen alle bedrijven die zich bezig houden met het ontwerpen, adviseren, vervaardigen, installeren, distribueren, repareren van alle techniek in en rondom particuliere woningen, kantoren en industrie. De techniekketen is de omgeving waarin Technisch Installatiebedrijven opereren. Op Trendfiles zoomen we verder in op dit segment.</p>
 	</div>
 	<div class="block uitgelicht">
-		<?php echo file_get_contents( $protocol . $host . '/wp-content/themes/trendfiles-theme/img/home-uitgelicht.svg'); ?>
-		<h2>Nog geen kwart van de installatiebedrijven is actief als leerbedrijf.</h2>
+		<h2 class="category">uitgelicht</h2>
+		<div class="card">
+			<a href="/factsheet/technische-installatiebranche/">
+				<img src="/wp-content/themes/trendfiles-theme/img/update-factsheet-ti-installatie.svg" alt="Update-Factsheet Technische installatie" />
+				<h3>Update-Factsheet</h3>
+				<h4>Technische installatiebranche</h4>
+				<p>augustus 2020</p>
+			</a>
+		</div>
+		<div class="card">
+			<a href="/video/trendfiles-talks/trendfiles-talks-juliette-walma-van-der-molen/">
+				<img src="/wp-content/themes/trendfiles-theme/img/juliette-walma-van-der-molen.jpg" alt="Juliette Walma van der Molen" />
+				<h3>NIEUW-Trendfiles Talks</h3>
+				<h4>Juliette Walma van der Molen</h4>
+				<p>Over leven lang leren en het belang van beeldvorming technische bedrijven.</p>
+			</a>
+		</div>
+		<div class="card">
+			<a href="/downloads-en-links/">
+				<img src="/wp-content/themes/trendfiles-theme/img/scenario-2040.jpg" alt="Scenario 2040" />
+				<h3>PUBLICATIE</h3>
+				<h4>Scenario 2040</h4>
+				<p>Blik op 2040 vanuit de Technische Sector</p>
+			</a>
+		</div>
+		<div class="card">
+			<a href="/downloads-en-links/">
+				<img src="/wp-content/themes/trendfiles-theme/img/werkplekleren-in-de-techniek.png" alt="Werkplekleren in de techniek" />
+				<h3>Publicatie</h3>
+				<h4>Werkplekleren in de techniek</h4>
+				<p>Over wat werkgevers en werknemers kunnen doen om het effect van werkplekleren te vergroten.</p>
+			</a>
+		</div>
 	</div>
 	<div class="block infographic">
 		<div class="svg-wrap">
-			<?php echo file_get_contents( $protocol . $host . '/wp-content/themes/trendfiles-theme/img/home-techniekketen.svg'); ?>
+			<?php echo file_get_contents( $protocol . $host . '/wp-content/themes/trendfiles-theme/img/techniekketen-home.svg'); ?>
 		</div>
-		<p class="meer-button" style="text-align: center; width: 100%;"><a href="/kerngegevens/">Technische Installatie</a></p>
-		<p style="text-align: center; width: 100%;">Bekijk alle trends, cijfers en ontwikkelingen binnen de TI branche.</p>
+		<p class="meer-button" style="text-align: center; width: 100%; position: relative; right: 4%;"><a href="/kerngegevens/">Technische Installatiebranche</a></p>
 	</div>
 </div>
 
