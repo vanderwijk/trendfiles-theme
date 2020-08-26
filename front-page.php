@@ -26,7 +26,7 @@
 		<div class="card">
 			<a href="/downloads-en-links/">
 				<img src="/wp-content/themes/trendfiles-theme/img/scenario-2040.jpg" alt="Scenario 2040" />
-				<h3>PUBLICATIE</h3>
+				<h3>Publicatie</h3>
 				<h4>Scenario 2040</h4>
 				<p>Blik op 2040 vanuit de Technische Sector</p>
 			</a>
