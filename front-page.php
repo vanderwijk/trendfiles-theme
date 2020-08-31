@@ -8,6 +8,14 @@
 	<div class="block uitgelicht">
 		<h2 class="category">uitgelicht</h2>
 		<div class="card">
+			<a href="/video/trendfiles-talks-jan-jonker/">
+				<img src="/wp-content/themes/trendfiles-theme/img/duurzame-dinsdag.png" alt="Duurzame Troonrede" />
+				<h3>Aankondiging</h3>
+				<h4>Duurzame Troonrede door Prof. Jan Jonker</h4>
+				<p>Online toegang tot de Duurzame Troonrede in Den Haag in het kader van de 22ste editie van Duurzame Dinsdag.</p>
+			</a>
+		</div>
+		<div class="card">
 			<a href="/factsheet/technische-installatiebranche/">
 				<img src="/wp-content/themes/trendfiles-theme/img/update-factsheet-ti-installatie.svg" alt="Update-Factsheet Technische installatie" />
 				<h3>Update-Factsheet</h3>
@@ -31,7 +39,7 @@
 				<p>Blik op 2040 vanuit de Technische Sector</p>
 			</a>
 		</div>
-		<div class="card">
+		<div class="card" style="display:none;">
 			<a href="/downloads-en-links/">
 				<img src="/wp-content/themes/trendfiles-theme/img/werkplekleren-in-de-techniek.png" alt="Werkplekleren in de techniek" />
 				<h3>Publicatie</h3>
