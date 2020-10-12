@@ -8,19 +8,19 @@
 	<div class="block uitgelicht">
 		<h2 class="category">uitgelicht</h2>
 		<div class="card">
-			<a href="/video/trendfiles-talks-jan-jonker/">
-				<img src="/wp-content/themes/trendfiles-theme/img/duurzame-dinsdag.png" alt="Duurzame Troonrede" />
-				<h3>Actueel</h3>
-				<h4>Duurzame Troonrede door Prof. Jan Jonker</h4>
-				<p>Kijk hier terug op de Duurzame Troonrede in Den Haag in het kader van de 22ste editie van Duurzame Dinsdag.</p>
-			</a>
-		</div>
-		<div class="card">
 			<a href="/factsheet/technische-installatiebranche/">
 				<img src="/wp-content/themes/trendfiles-theme/img/update-factsheet-ti-installatie.svg" alt="Update-Factsheet Technische installatie" />
 				<h3>Update-Factsheet</h3>
 				<h4>Technische installatiebranche</h4>
 				<p>oktober 2020</p>
+			</a>
+		</div>
+		<div class="card">
+			<a href="/video/trendfiles-talks-jan-jonker/">
+				<img src="/wp-content/themes/trendfiles-theme/img/duurzame-dinsdag.png" alt="Duurzame Troonrede" />
+				<h3>Actueel</h3>
+				<h4>Duurzame Troonrede door Prof. Jan Jonker</h4>
+				<p>Kijk hier terug op de Duurzame Troonrede in Den Haag in het kader van de 22ste editie van Duurzame Dinsdag.</p>
 			</a>
 		</div>
 		<div class="card">
