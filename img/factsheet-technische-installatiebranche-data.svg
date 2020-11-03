@@ -24,8 +24,7 @@
 	<!-- verdeling leerlingen -->
 
 	<!-- opleidingscentra -->
-	<text id="leerlingen_opleidingscentra" class="fill_1" font-family="Roboto" font-size="45" font-weight="500" x="1252.55" y="1287">0</text>
-	<text id="percentage_leerlingen_opleidingscentra" class="fill_2" font-family="Roboto" font-size="25" x="1384.43" y="1284">(0%)</text>
+	<text id="percentage_leerlingen_opleidingscentra" class="fill_1" font-family="Roboto" font-size="45" font-weight="500" x="1252.55" y="1287">0</text>
 
 	<text id="leerbedrijven" class="fill_2" font-family="Roboto" font-size="45" font-weight="500" text-anchor="middle" x="830" y="1470">0</text>
 	<circle class="circle" stroke="#A6A8AB" stroke-width="1" fill="none" cx="835" cy="1477" r="132" />
@@ -35,8 +34,7 @@
 	<path d="M790.655 1564.32c-24.625-10.41-41.926-27.91-51.994-51.84-17.631-41.9-1.355-90.45 38.374-115.02 40.101-24.8 92.456-18.75 125.546 14.76 15.845 16.05 24.89 35.31 26.566 57.4 2.347 30.92-8.849 56.94-32.04 78.33 4.488 1.99 5.005 4.4 1.776 8.39.284.4.577.83.878 1.24 5.135 7.11 10.269 14.22 15.407 21.33 17.134 23.69 62.077 90.45 79.236 114.13.775 1.06.897 2.03.133 3.04-.859 1.13-1.71 2.29-2.748 3.26-6.922 6.47-15.011 11.28-23.786 15.01-2.69 1.14-5.593 1.89-8.464 2.55-1.992.46-2.492.02-3.469-1.74-17.162-30.91-62.138-104.87-79.3-135.79-1.416-2.55-2.834-5.1-4.246-7.64-4.71 1.79-7.871-1.71-6.8-5.38-25.412 8.73-50.477 8.37-75.069-2.03zm-44.083-107.39c-11.798 44.63 16.34 89.96 62.852 101.28 46.521 11.31 93.508-15.81 105.335-60.8 11.612-44.17-16.655-89.49-62.848-100.75-46.412-11.32-93.543 15.65-105.339 60.27z" fill="#D9DADB"></path>
 
 	<!-- leerbedrijven -->
-	<text id="leerlingen_leerbedrijven" class="fill_1" font-family="Roboto" font-size="45" font-weight="500" x="740.395" y="1714">0</text>
-	<text id="percentage_leerlingen_leerbedrijven" class="fill_2" font-family="Roboto" font-size="25" x="867.247" y="1710">(0%)</text>
+	<text id="percentage_leerlingen_leerbedrijven" class="fill_1" font-family="Roboto" font-size="45" font-weight="500" x="740.395" y="1714">0</text>
 
 	<text id="opleidingscentra" class="fill_2" font-family="Roboto" font-size="45" font-weight="500" text-anchor="middle" x="1245" y="1470">0</text>
 	<circle class="circle" stroke="#A6A8AB" stroke-width="1" fill="none" cx="1250" cy="1477" r="132" />
