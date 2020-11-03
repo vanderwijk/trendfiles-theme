@@ -78,7 +78,7 @@
 		"werknemers_bedrijfsgrootte": {
 			"minder_dan_25_werknemers": 660,
 			"van_25_tot_250_werknemers": 120,
-			"meer_dan_250_werknemers": 0
+			"meer_dan_250_werknemers": 1
 		},
 		"aantal_zzp_ers": {
 			"jaar_2019": 1590
@@ -141,7 +141,7 @@
 		"werknemers_bedrijfsgrootte": {
 			"minder_dan_25_werknemers": 980,
 			"van_25_tot_250_werknemers": 160,
-			"meer_dan_250_werknemers": 0
+			"meer_dan_250_werknemers": 4
 		},
 		"aantal_zzp_ers": {
 			"jaar_2019": 3340
@@ -204,7 +204,7 @@
 		"werknemers_bedrijfsgrootte": {
 			"minder_dan_25_werknemers": 850,
 			"van_25_tot_250_werknemers": 150,
-			"meer_dan_250_werknemers": 10
+			"meer_dan_250_werknemers": 7
 		},
 		"aantal_zzp_ers": {
 			"jaar_2019": 1660
@@ -267,7 +267,7 @@
 		"werknemers_bedrijfsgrootte": {
 			"minder_dan_25_werknemers": 1550,
 			"van_25_tot_250_werknemers": 320,
-			"meer_dan_250_werknemers": 0
+			"meer_dan_250_werknemers": 3
 		},
 		"aantal_zzp_ers": {
 			"jaar_2019": 2930
@@ -330,7 +330,7 @@
 		"werknemers_bedrijfsgrootte": {
 			"minder_dan_25_werknemers": 1980,
 			"van_25_tot_250_werknemers": 330,
-			"meer_dan_250_werknemers": 10
+			"meer_dan_250_werknemers": 6
 		},
 		"aantal_zzp_ers": {
 			"jaar_2019": 4130
@@ -393,7 +393,7 @@
 		"werknemers_bedrijfsgrootte": {
 			"minder_dan_25_werknemers": 1620,
 			"van_25_tot_250_werknemers": 260,
-			"meer_dan_250_werknemers": 10
+			"meer_dan_250_werknemers": 9
 		},
 		"aantal_zzp_ers": {
 			"jaar_2019": 4450
