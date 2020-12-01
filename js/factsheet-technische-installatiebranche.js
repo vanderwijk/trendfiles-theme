@@ -46,7 +46,7 @@ jQuery(document).ready(function($) {
 function maakGrafiek(regio) {
 	//console.log( gegevens );
 
-	var aantal_bedrijven_per_jaar = gegevens[regio].aantal_bedrijven_per_kwartaal.kwartaal_2;
+	var aantal_bedrijven_per_jaar = gegevens[regio].aantal_bedrijven_per_kwartaal.kwartaal_4;
 
 	document.getElementById('aantal_bedrijven').textContent = formatNumber(aantal_bedrijven_per_jaar);
 
@@ -125,7 +125,7 @@ function maakGrafiek(regio) {
 	var aantal_zzp_ers_2019 = gegevens[regio].aantal_zzp_ers.jaar_2019;
 	document.getElementById('aantal_zzp_ers').textContent = formatNumber(aantal_zzp_ers_2019);
 
-	var aantal_werknemers_per_jaar = gegevens[regio].aantal_werknemers_per_kwartaal.kwartaal_1;;
+	var aantal_werknemers_per_jaar = gegevens[regio].aantal_werknemers_per_kwartaal.kwartaal_4;
 	document.getElementById('aantal_werknemers').textContent = formatNumber(aantal_werknemers_per_jaar);
 
 	var aantal_werknemers_per_jaar_2019 = gegevens[regio].aantal_werknemers_per_jaar.jaar_2019;
