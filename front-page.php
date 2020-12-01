@@ -12,7 +12,7 @@
 				<img src="/wp-content/themes/trendfiles-theme/img/update-factsheet-ti-installatie.svg" alt="Update-Factsheet Technische installatie" />
 				<h3>Update-Factsheet</h3>
 				<h4>Technische installatiebranche</h4>
-				<p>november 2020</p>
+				<p>december 2020</p>
 			</a>
 		</div>
 		<div class="card">
