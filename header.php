@@ -37,6 +37,16 @@ j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
 'https://www.googletagmanager.com/gtm.js?id='+i+dl;f.parentNode.insertBefore(j,f);
 })(window,document,'script','dataLayer','GTM-TH2WQG');</script>
 <!-- End Google Tag Manager -->
+<!-- Global site tag (gtag.js) - Google Analytics -->
+<script async src="https://www.googletagmanager.com/gtag/js?id=G-LRNYTZCYS4"></script>
+<script>
+window.dataLayer = window.dataLayer || [];
+function gtag(){dataLayer.push(arguments);}
+gtag('js', new Date());
+
+gtag('config', 'G-LRNYTZCYS4');
+</script>
+<!-- End Global site tag (gtag.js) - Google Analytics -->
 </head>
 <body <?php body_class(); ?>>
 <!-- Google Tag Manager (noscript) -->

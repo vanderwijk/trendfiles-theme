@@ -314,21 +314,12 @@ function wrap_embed_with_div( $html, $url, $attr ) {
 }
 add_filter( 'embed_oembed_html', 'wrap_embed_with_div', 10, 3 );
 
-function se35728943_change_post_per_page( $params, $request ) {
-	$max = max( (int) $request->get_param( 'per_page' ), 200 );
-	$params['per_page']['maximum'] = $max;
-	return $params;
-}
-//add_filter( 'rest_post_collection_params', 'se35728943_change_post_per_page', 10, 2 );
-
 // Fragmenten query
 function my_posts_where( $where ) {
 	$where = str_replace("meta_key = 'fragmenten_$", "meta_key LIKE 'fragmenten_%", $where);
 	return $where;
 }
 add_filter('posts_where', 'my_posts_where');
-
-
 
 // rewrite rules
 function otib_rewrite_rules() {
