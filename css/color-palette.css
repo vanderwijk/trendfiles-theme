@@ -13,12 +13,12 @@
 #noord_nederland .color_4 { color: #DFD096; }
 #noord_nederland .color_5 { color: #E9E0B7; }
 #noord_nederland .color_6 { color: #F8F7EE; }
-#noord_holland .color_1 { color: #4E2109; }
-#noord_holland .color_2 { color: #A05639; }
-#noord_holland .color_3 { color: #AF7055; }
-#noord_holland .color_4 { color: #BF8C74; }
-#noord_holland .color_5 { color: #D2AD99; }
-#noord_holland .color_6 { color: #F5EBE6; }
+#noord_holland .color_1 { color: #570600; }
+#noord_holland .color_2 { color: #D62828; }
+#noord_holland .color_3 { color: #C45B3E; }
+#noord_holland .color_4 { color: #D07D61; }
+#noord_holland .color_5 { color: #DEA28A; }
+#noord_holland .color_6 { color: #F6E7DF; }
 #midden_nederland .color_1 { color: #324554; }
 #midden_nederland .color_2 { color: #5C778D; }
 #midden_nederland .color_3 { color: #778EA2; }
@@ -37,12 +37,12 @@
 #zuid_nederland .color_4 { color: #C4BD93; }
 #zuid_nederland .color_5 { color: #D5CFB1; }
 #zuid_nederland .color_6 { color: #F5F4ED; }
-#zuid_holland .color_1 { color: #452D3B; }
-#zuid_holland .color_2 { color: #8A6378; }
-#zuid_holland .color_3 { color: #9A7A8A; }
-#zuid_holland .color_4 { color: #9A7A8A; }
-#zuid_holland .color_5 { color: #C5B3BA; }
-#zuid_holland .color_6 { color: #F1EDEF; }
+#zuid_holland .color_1 { color: #4F0026; }
+#zuid_holland .color_2 { color: #BE3264; }
+#zuid_holland .color_3 { color: #C36080; }
+#zuid_holland .color_4 { color: #CE8398; }
+#zuid_holland .color_5 { color: #DBA6B4; }
+#zuid_holland .color_6 { color: #F5E9EA; }
 
 .stroke_grey_1 { stroke: #414143; }
 .stroke_grey_2 { stroke: #919494; }
@@ -59,12 +59,12 @@
 #noord_nederland .stroke_4 { stroke: #DFD096; }
 #noord_nederland .stroke_5 { stroke: #E9E0B7; }
 #noord_nederland .stroke_6 { stroke: #F8F7EE; }
-#noord_holland .stroke_1 { stroke: #4E2109; }
-#noord_holland .stroke_2 { stroke: #A05639; }
-#noord_holland .stroke_3 { stroke: #AF7055; }
-#noord_holland .stroke_4 { stroke: #BF8C74; }
-#noord_holland .stroke_5 { stroke: #D2AD99; }
-#noord_holland .stroke_6 { stroke: #F5EBE6; }
+#noord_holland .stroke_1 { stroke: #570600; }
+#noord_holland .stroke_2 { stroke: #D62828; }
+#noord_holland .stroke_3 { stroke: #C45B3E; }
+#noord_holland .stroke_4 { stroke: #D07D61; }
+#noord_holland .stroke_5 { stroke: #DEA28A; }
+#noord_holland .stroke_6 { stroke: #F6E7DF; }
 #midden_nederland .stroke_1 { stroke: #324554; }
 #midden_nederland .stroke_2 { stroke: #5C778D; }
 #midden_nederland .stroke_3 { stroke: #778EA2; }
@@ -83,10 +83,10 @@
 #zuid_nederland .stroke_4 { stroke: #C4BD93; }
 #zuid_nederland .stroke_5 { stroke: #D5CFB1; }
 #zuid_nederland .stroke_6 { stroke: #F5F4ED; }
-#zuid_holland .stroke_1 { stroke: #452D3B; }
-#zuid_holland .stroke_2 { stroke: #8A6378; }
-#zuid_holland .stroke_3 { stroke: #9A7A8A; }
-#zuid_holland .stroke_4 { stroke: #9A7A8A; }
+#zuid_holland .stroke_1 { stroke: #4F0026; }
+#zuid_holland .stroke_2 { stroke: #BE3264; }
+#zuid_holland .stroke_3 { stroke: #C36080; }
+#zuid_holland .stroke_4 { stroke: #CE8398; }
 #zuid_holland .stroke_5 { stroke: #C5B3BA; }
 #zuid_holland .stroke_6 { stroke: #F1EDEF; }
 
@@ -105,12 +105,12 @@
 #noord_nederland .fill_4 { fill: #DFD096; }
 #noord_nederland .fill_5 { fill: #E9E0B7; }
 #noord_nederland .fill_6 { fill: #F8F7EE; }
-#noord_holland .fill_1 { fill: #4E2109; }
-#noord_holland .fill_2 { fill: #A05639; }
-#noord_holland .fill_3 { fill: #AF7055; }
-#noord_holland .fill_4 { fill: #BF8C74; }
-#noord_holland .fill_5 { fill: #D2AD99; }
-#noord_holland .fill_6 { fill: #F5EBE6; }
+#noord_holland .fill_1 { fill: #570600; }
+#noord_holland .fill_2 { fill: #D62828; }
+#noord_holland .fill_3 { fill: #C45B3E; }
+#noord_holland .fill_4 { fill: #D07D61; }
+#noord_holland .fill_5 { fill: #DEA28A; }
+#noord_holland .fill_6 { fill: #F6E7DF; }
 #midden_nederland .fill_1 { fill: #324554; }
 #midden_nederland .fill_2 { fill: #5C778D; }
 #midden_nederland .fill_3 { fill: #778EA2; }
@@ -129,9 +129,9 @@
 #zuid_nederland .fill_4 { fill: #C4BD93; }
 #zuid_nederland .fill_5 { fill: #D5CFB1; }
 #zuid_nederland .fill_6 { fill: #F5F4ED; }
-#zuid_holland .fill_1 { fill: #452D3B; }
-#zuid_holland .fill_2 { fill: #8A6378; }
-#zuid_holland .fill_3 { fill: #9A7A8A; }
-#zuid_holland .fill_4 { fill: #9A7A8A; }
-#zuid_holland .fill_5 { fill: #C5B3BA; }
-#zuid_holland .fill_6 { fill: #F1EDEF; }
+#zuid_holland .fill_1 { fill: #4F0026; }
+#zuid_holland .fill_2 { fill: #BE3264; }
+#zuid_holland .fill_3 { fill: #C36080; }
+#zuid_holland .fill_4 { fill: #CE8398; }
+#zuid_holland .fill_5 { fill: #DBA6B4; }
+#zuid_holland .fill_6 { fill: #F5E9EA; }

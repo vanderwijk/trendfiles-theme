@@ -274,7 +274,7 @@ ul.knoppen li.noord_nederland {
 	color: #CCB65B;
 }
 ul.knoppen li.noord_holland {
-	color: #A05639;
+	color: #D62828;
 }
 ul.knoppen li.midden_nederland {
 	color: #5C778D;
@@ -286,7 +286,7 @@ ul.knoppen li.zuid_nederland {
 	color: #A39C5A;
 }
 ul.knoppen li.zuid_holland {
-	color: #8A6378;
+	color: #BE3264;
 }
 
 ul.knoppen li:active {
@@ -307,7 +307,7 @@ ul.knoppen li.disabled {
 	fill: #CCB65B;
 }
 #noord_holland #regio_noord_holland path {
-	fill: #A05639;
+	fill: #D62828;
 }
 #midden_nederland #regio_midden_nederland path {
 	fill: #5C778D;
@@ -319,7 +319,7 @@ ul.knoppen li.disabled {
 	fill: #A39C5A;
 }
 #zuid_holland #regio_zuid_holland path {
-	fill: #8A6378;
+	fill: #BE3264;
 }
 ul.knoppen li #download-pdf{
 	padding-left: 30px;

@@ -1,4 +1,4 @@
-<text class="fill_3" xml:space="preserve" style="white-space: pre" font-family="Roboto" font-size="25" x="196" y="143.544"><tspan id="regio_label">Nederland</tspan> december 2020</text>
+<text class="fill_3" xml:space="preserve" style="white-space: pre" font-family="Roboto" font-size="25" x="196" y="143.544"><tspan id="regio_label">Nederland</tspan> januari 2021</text>
 <text class="fill_1" xml:space="preserve" style="white-space: pre" font-family="Roboto" font-size="40" font-weight="bold" x="196" y="101.764">FACTSHEET - TECHNISCHE INSTALLATIEBRANCHE</text>
 
 <g id="ondervlak">
@@ -88,7 +88,7 @@
 	<rect id="line_van_45_tot_54_jaar" class="fill_4" x="1565" y="1011" width="80" height="172" />
 	<rect id="line_van_35_tot_44_jaar" class="fill_3" x="1565" y="1193" width="80" height="172" />
 	<rect id="line_van_25_tot_34_jaar" class="fill_2" x="1565" y="1375" width="80" height="172" />
-	<rect id="line_jonger_dan_25_jaar" class="fill_2" x="1565" y="1557" width="80" height="172" />
+	<rect id="line_jonger_dan_25_jaar" class="fill_1" x="1565" y="1557" width="80" height="172" />
 
 	<text id="jonger_dan_25_jaar" class="fill_1" x="1662" y="1693" font-family="Roboto" font-size="39" font-weight="500">0</text>
 	<text id="van_25_tot_34_jaar" class="fill_2" x="1662" y="1575" font-family="Roboto" font-size="39" font-weight="500">0</text>
