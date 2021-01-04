@@ -8,6 +8,14 @@
 	<div class="block uitgelicht">
 		<h2 class="category">uitgelicht</h2>
 		<div class="card">
+			<a href="/downloads-en-links/">
+				<img src="/wp-content/themes/trendfiles-theme/img/arbeidsmarkt-technische-installatiebranche-2020.png" alt="Arbeidsmarkt technische installatiebranche 2020" />
+				<h3>Enquête</h3>
+				<h4>Arbeidsmarkt technische installatiebranche 2020</h4>
+				<p>Uitkomsten van de telefonische en digitale enquête TI-bedrijven medio 2020</p>
+			</a>
+		</div>
+		<div class="card">
 			<a href="/factsheet/technische-installatiebranche/">
 				<img src="/wp-content/themes/trendfiles-theme/img/update-factsheet-ti-installatie.svg" alt="Update-Factsheet Technische installatie" />
 				<h3>Update-Factsheet</h3>
@@ -31,7 +39,7 @@
 				<p>Over leven lang leren en het belang van beeldvorming technische bedrijven.</p>
 			</a>
 		</div>
-		<div class="card">
+		<div class="card" style="display:none;">
 			<a href="/downloads-en-links/">
 				<img src="/wp-content/themes/trendfiles-theme/img/scenario-2040.jpg" alt="Scenario 2040" />
 				<h3>Publicatie</h3>
