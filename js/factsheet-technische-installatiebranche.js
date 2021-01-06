@@ -242,13 +242,13 @@ function maakGrafiek(regio) {
 	var percentage_leerlingen_leerbedrijven = Math.round(leerlingen_leerbedrijven * 100 / totaal_leerlingen);
 
 	document.getElementById('leerbedrijven').textContent = formatNumber(leerbedrijven);
-	//document.getElementById('leerlingen_leerbedrijven').textContent = formatNumber(leerlingen_leerbedrijven);
+	document.getElementById('leerlingen_leerbedrijven').textContent = formatNumber(leerlingen_leerbedrijven);
 
 	document.getElementById('opleidingscentra').textContent = formatNumber(opleidingscentra);
-	//document.getElementById('percentage_leerlingen_opleidingscentra').textContent = formatNumber(leerlingen_opleidingscentra);
+	document.getElementById('leerlingen_opleidingscentra').textContent = formatNumber(leerlingen_opleidingscentra);
 
-	document.getElementById('percentage_leerlingen_leerbedrijven').textContent = formatNumber(percentage_leerlingen_leerbedrijven) + '%';
-	document.getElementById('percentage_leerlingen_opleidingscentra').textContent = formatNumber(percentage_leerlingen_opleidingscentra) + '%';
+	document.getElementById('percentage_leerlingen_leerbedrijven').textContent = '(' + formatNumber(percentage_leerlingen_leerbedrijven) + '%)';
+	document.getElementById('percentage_leerlingen_opleidingscentra').textContent = '(' + formatNumber(percentage_leerlingen_opleidingscentra) + '%)';
 
 	var techniek_ti = gegevens[regio].opleidingen.techniek_ti;
 	var techniek_overig = gegevens[regio].opleidingen.techniek_overig;
