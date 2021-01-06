@@ -264,7 +264,8 @@ function maakGrafiek(regio) {
 	element_leerlingen_leerbedrijven.style.strokeDasharray =  "0 " + stroke_leerlingen_leerbedrijven + " 829.38";
 
 	var element_leerlingen_opleidingscentra = document.getElementById('circle_leerlingen_opleidingscentra');
-	element_leerlingen_opleidingscentra.style.strokeDasharray = stroke_leerlingen_leerbedrijven;
+	var testtest = 829.38 - stroke_leerlingen_leerbedrijven;
+	element_leerlingen_opleidingscentra.style.strokeDasharray = stroke_leerlingen_leerbedrijven + " " + testtest;
 
 	var circle_techniek_ti = document.getElementById('circle_techniek_ti');
 	stroke_circle_techniek_ti = techniek_ti * 753.9822 / opleidingen_totaal;
