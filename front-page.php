@@ -8,7 +8,7 @@
 	<div class="block uitgelicht">
 		<h2 class="category">uitgelicht</h2>
 		<div class="card">
-			<a href="/downloads-en-links/">
+			<a href="https://trendfiles.wij-techniek.nl/wp-content/uploads/arbeidsmarkt-technische-installatiebranche-2020-pdf.jpg">
 				<img src="/wp-content/themes/trendfiles-theme/img/arbeidsmarkt-technische-installatiebranche-2020.png" alt="Arbeidsmarkt technische installatiebranche 2020" />
 				<h3>Enquête</h3>
 				<h4>Arbeidsmarkt technische installatiebranche 2020</h4>
