@@ -8,6 +8,14 @@
 	<div class="block uitgelicht">
 		<h2 class="category">uitgelicht</h2>
 		<div class="card">
+			<a href="/factsheet/technische-installatiebranche/">
+				<img src="/wp-content/themes/trendfiles-theme/img/update-factsheet-ti-installatie.svg" alt="Update-Factsheet Technische installatie" />
+				<h3>Update-Factsheet</h3>
+				<h4>Technische installatiebranche</h4>
+				<p>februari 2020</p>
+			</a>
+		</div>
+		<div class="card">
 			<a href="https://trendfiles.wij-techniek.nl/wp-content/uploads/arbeidsmarkt-technische-installatiebranche-2020.pdf">
 				<img src="/wp-content/themes/trendfiles-theme/img/arbeidsmarkt-technische-installatiebranche-2020.png" alt="Arbeidsmarkt technische installatiebranche 2020" />
 				<h3>Enquête</h3>
@@ -15,14 +23,7 @@
 				<p>Uitkomsten van de telefonische en digitale enquête TI-bedrijven medio 2020</p>
 			</a>
 		</div>
-		<div class="card">
-			<a href="/factsheet/technische-installatiebranche/">
-				<img src="/wp-content/themes/trendfiles-theme/img/update-factsheet-ti-installatie.svg" alt="Update-Factsheet Technische installatie" />
-				<h3>Update-Factsheet</h3>
-				<h4>Technische installatiebranche</h4>
-				<p>januari 2020</p>
-			</a>
-		</div>
+
 		<div class="card">
 			<a href="/video/trendfiles-talks-jan-jonker/">
 				<img src="/wp-content/themes/trendfiles-theme/img/duurzame-dinsdag.png" alt="Duurzame Troonrede" />

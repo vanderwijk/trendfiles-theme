@@ -10,11 +10,11 @@
 			"kwartaal_1": 8900,
 			"kwartaal_2": 9010,
 			"kwartaal_3": 9010,
-			"kwartaal_4": 9060
+			"kwartaal_4": 9110
 		},
 		"werknemers_bedrijfsgrootte": {
-			"minder_dan_25_werknemers": 7700,
-			"van_25_tot_250_werknemers": 1330,
+			"minder_dan_25_werknemers": 7730,
+			"van_25_tot_250_werknemers": 1350,
 			"meer_dan_250_werknemers": 30
 		},
 		"aantal_zzp_ers": {
@@ -30,36 +30,36 @@
 			"kwartaal_1": 136110,
 			"kwartaal_2": 136500,
 			"kwartaal_3": 136840,
-			"kwartaal_4": 137250
+			"kwartaal_4": 137660
 		},
 		"geslacht": {
-			"mannen": 122290,
-			"vrouwen": 14960
+			"mannen": 122620,
+			"vrouwen": 15040
 		},
 		"leeftijd": {
-			"jonger_dan_25_jaar": 18080,
-			"van_25_tot_34_jaar": 28850,
-			"van_35_tot_44_jaar": 29930,
-			"van_45_tot_54_jaar": 34550,
-			"ouder_dan_55_jaar": 25850
+			"jonger_dan_25_jaar": 18090,
+			"van_25_tot_34_jaar": 28980,
+			"van_35_tot_44_jaar": 30030,
+			"van_45_tot_54_jaar": 34570,
+			"ouder_dan_55_jaar": 26000
 		},
 		"leerbedrijven": {
-			"erkend_actief": 1829,
-			"erkend_inactief": 2360,
-			"geen_leerbedrijf": 4840
+			"erkend_actief": 1879,
+			"erkend_inactief": 2330,
+			"geen_leerbedrijf": 4860
 		},
 		"leerlingen_leerbedrijven": {
-			"leerbedrijven": 1810,
-			"leerlingen": 4870
+			"leerbedrijven": 1860,
+			"leerlingen": 5090
 		},
 		"leerlingen_opleidingscentra": {
 			"opleidingscentra": 19,
-			"leerlingen": 2970
+			"leerlingen": 3070
 		},
 		"opleidingen": {
-			"techniek_ti": 10800,
-			"techniek_overig": 350,
-			"overig": 280
+			"techniek_ti": 11300,
+			"techniek_overig": 330,
+			"overig": 380
 		}
 	},
 	"noord_nederland": {
@@ -93,18 +93,18 @@
 			"kwartaal_1": 12370,
 			"kwartaal_2": 12440,
 			"kwartaal_3": 12420,
-			"kwartaal_4": 12480
+			"kwartaal_4": 12520
 		},
 		"geslacht": {
-			"mannen": 11430,
+			"mannen": 11460,
 			"vrouwen": 1060
 		},
 		"leeftijd": {
-			"jonger_dan_25_jaar": 1310,
-			"van_25_tot_34_jaar": 2450,
+			"jonger_dan_25_jaar": 1300,
+			"van_25_tot_34_jaar": 2470,
 			"van_35_tot_44_jaar": 2910,
 			"van_45_tot_54_jaar": 3470,
-			"ouder_dan_55_jaar": 2360
+			"ouder_dan_55_jaar": 2370
 		},
 		"leerbedrijven": {
 			"erkend_actief": 173,
@@ -113,15 +113,15 @@
 		},
 		"leerlingen_leerbedrijven": {
 			"leerbedrijven": 170,
-			"leerlingen": 420
+			"leerlingen": 440
 		},
 		"leerlingen_opleidingscentra": {
 			"opleidingscentra": 3,
-			"leerlingen": 100
+			"leerlingen": 120
 		},
 		"opleidingen": {
-			"techniek_ti": 800,
-			"techniek_overig": 30,
+			"techniek_ti": 860,
+			"techniek_overig": 20,
 			"overig": 30
 		}
 	},
@@ -136,12 +136,12 @@
 			"kwartaal_1": 1130,
 			"kwartaal_2": 1140,
 			"kwartaal_3": 1140,
-			"kwartaal_4": 1140
+			"kwartaal_4": 1150
 		},
 		"werknemers_bedrijfsgrootte": {
 			"minder_dan_25_werknemers": 980,
 			"van_25_tot_250_werknemers": 160,
-			"meer_dan_250_werknemers": 4
+			"meer_dan_250_werknemers": 3
 		},
 		"aantal_zzp_ers": {
 			"jaar_2019": 3340
@@ -156,18 +156,18 @@
 			"kwartaal_1": 15880,
 			"kwartaal_2": 15810,
 			"kwartaal_3": 15900,
-			"kwartaal_4": 15860
+			"kwartaal_4": 16050
 		},
 		"geslacht": {
-			"mannen": 14000,
-			"vrouwen": 1870
+			"mannen": 14160,
+			"vrouwen": 1890
 		},
 		"leeftijd": {
-			"jonger_dan_25_jaar": 2140,
-			"van_25_tot_34_jaar": 3370,
-			"van_35_tot_44_jaar": 3290,
-			"van_45_tot_54_jaar": 4110,
-			"ouder_dan_55_jaar": 2960
+			"jonger_dan_25_jaar": 2150,
+			"van_25_tot_34_jaar": 3430,
+			"van_35_tot_44_jaar": 3320,
+			"van_45_tot_54_jaar": 4150,
+			"ouder_dan_55_jaar": 3000
 		},
 		"leerbedrijven": {
 			"erkend_actief": 172,
@@ -176,16 +176,16 @@
 		},
 		"leerlingen_leerbedrijven": {
 			"leerbedrijven": 170,
-			"leerlingen": 420
+			"leerlingen": 440
 		},
 		"leerlingen_opleidingscentra": {
 			"opleidingscentra": 2,
-			"leerlingen": 880
+			"leerlingen": 910
 		},
 		"opleidingen": {
-			"techniek_ti": 1630,
-			"techniek_overig": 30,
-			"overig": 20
+			"techniek_ti": 1650,
+			"techniek_overig": 20,
+			"overig": 40
 		}
 	},
 	"midden_nederland": {
@@ -203,7 +203,7 @@
 		},
 		"werknemers_bedrijfsgrootte": {
 			"minder_dan_25_werknemers": 860,
-			"van_25_tot_250_werknemers": 160,
+			"van_25_tot_250_werknemers": 150,
 			"meer_dan_250_werknemers": 8
 		},
 		"aantal_zzp_ers": {
@@ -219,36 +219,36 @@
 			"kwartaal_1": 15230,
 			"kwartaal_2": 15320,
 			"kwartaal_3": 15380,
-			"kwartaal_4": 15490
+			"kwartaal_4": 15500
 		},
 		"geslacht": {
 			"mannen": 13620,
 			"vrouwen": 1870
 		},
 		"leeftijd": {
-			"jonger_dan_25_jaar": 2090,
-			"van_25_tot_34_jaar": 3360,
-			"van_35_tot_44_jaar": 3390,
-			"van_45_tot_54_jaar": 3950,
-			"ouder_dan_55_jaar": 2710
+			"jonger_dan_25_jaar": 2080,
+			"van_25_tot_34_jaar": 3370,
+			"van_35_tot_44_jaar": 3380,
+			"van_45_tot_54_jaar": 3940,
+			"ouder_dan_55_jaar": 2720
 		},
 		"leerbedrijven": {
-			"erkend_actief": 213,
-			"erkend_inactief": 250,
+			"erkend_actief": 223,
+			"erkend_inactief": 240,
 			"geen_leerbedrijf": 560
 		},
 		"leerlingen_leerbedrijven": {
-			"leerbedrijven": 210,
-			"leerlingen": 620
+			"leerbedrijven": 220,
+			"leerlingen": 650
 		},
 		"leerlingen_opleidingscentra": {
 			"opleidingscentra": 3,
 			"leerlingen": 170
 		},
 		"opleidingen": {
-			"techniek_ti": 1170,
-			"techniek_overig": 30,
-			"overig": 30
+			"techniek_ti": 1240,
+			"techniek_overig": 40,
+			"overig": 50
 		}
 	},
 	"gelderland_overijssel": {
@@ -262,10 +262,10 @@
 			"kwartaal_1": 1850,
 			"kwartaal_2": 1870,
 			"kwartaal_3": 1870,
-			"kwartaal_4": 1860
+			"kwartaal_4": 1880
 		},
 		"werknemers_bedrijfsgrootte": {
-			"minder_dan_25_werknemers": 1540,
+			"minder_dan_25_werknemers": 1550,
 			"van_25_tot_250_werknemers": 320,
 			"meer_dan_250_werknemers": 3
 		},
@@ -282,36 +282,36 @@
 			"kwartaal_1": 29370,
 			"kwartaal_2": 29470,
 			"kwartaal_3": 29510,
-			"kwartaal_4": 29580
+			"kwartaal_4": 29620
 		},
 		"geslacht": {
-			"mannen": 26430,
-			"vrouwen": 3150
+			"mannen": 26450,
+			"vrouwen": 3180
 		},
 		"leeftijd": {
 			"jonger_dan_25_jaar": 4000,
 			"van_25_tot_34_jaar": 6360,
-			"van_35_tot_44_jaar": 6610,
+			"van_35_tot_44_jaar": 6620,
 			"van_45_tot_54_jaar": 7320,
-			"ouder_dan_55_jaar": 5290
+			"ouder_dan_55_jaar": 5320
 		},
 		"leerbedrijven": {
-			"erkend_actief": 435,
-			"erkend_inactief": 520,
-			"geen_leerbedrijf": 910
+			"erkend_actief": 445,
+			"erkend_inactief": 510,
+			"geen_leerbedrijf": 920
 		},
 		"leerlingen_leerbedrijven": {
-			"leerbedrijven": 430,
-			"leerlingen": 1100
+			"leerbedrijven": 440,
+			"leerlingen": 1150
 		},
 		"leerlingen_opleidingscentra": {
 			"opleidingscentra": 5,
-			"leerlingen": 410
+			"leerlingen": 430
 		},
 		"opleidingen": {
-			"techniek_ti": 2110,
+			"techniek_ti": 2230,
 			"techniek_overig": 70,
-			"overig": 80
+			"overig": 100
 		}
 	},
 	"zuid_nederland": {
@@ -325,7 +325,7 @@
 			"kwartaal_1": 2290,
 			"kwartaal_2": 2310,
 			"kwartaal_3": 2310,
-			"kwartaal_4": 2340
+			"kwartaal_4": 2350
 		},
 		"werknemers_bedrijfsgrootte": {
 			"minder_dan_25_werknemers": 2010,
@@ -345,36 +345,36 @@
 			"kwartaal_1": 34450,
 			"kwartaal_2": 34540,
 			"kwartaal_3": 34710,
-			"kwartaal_4": 34820
+			"kwartaal_4": 34830
 		},
 		"geslacht": {
-			"mannen": 31130,
-			"vrouwen": 3690
+			"mannen": 31140,
+			"vrouwen": 3700
 		},
 		"leeftijd": {
-			"jonger_dan_25_jaar": 4810,
+			"jonger_dan_25_jaar": 4800,
 			"van_25_tot_34_jaar": 7080,
-			"van_35_tot_44_jaar": 7390,
-			"van_45_tot_54_jaar": 8620,
-			"ouder_dan_55_jaar": 6910
+			"van_35_tot_44_jaar": 7400,
+			"van_45_tot_54_jaar": 8610,
+			"ouder_dan_55_jaar": 6950
 		},
 		"leerbedrijven": {
-			"erkend_actief": 494,
-			"erkend_inactief": 560,
-			"geen_leerbedrijf": 1270
+			"erkend_actief": 514,
+			"erkend_inactief": 550,
+			"geen_leerbedrijf": 1280
 		},
 		"leerlingen_leerbedrijven": {
-			"leerbedrijven": 490,
-			"leerlingen": 1210
+			"leerbedrijven": 510,
+			"leerlingen": 1270
 		},
 		"leerlingen_opleidingscentra": {
 			"opleidingscentra": 4,
-			"leerlingen": 960
+			"leerlingen": 980
 		},
 		"opleidingen": {
-			"techniek_ti": 2630,
-			"techniek_overig": 110,
-			"overig": 60
+			"techniek_ti": 2770,
+			"techniek_overig": 90,
+			"overig": 80
 		}
 	},
 	"zuid_holland": {
@@ -388,10 +388,10 @@
 			"kwartaal_1": 1880,
 			"kwartaal_2": 1900,
 			"kwartaal_3": 1890,
-			"kwartaal_4": 1900
+			"kwartaal_4": 1910
 		},
 		"werknemers_bedrijfsgrootte": {
-			"minder_dan_25_werknemers": 1630,
+			"minder_dan_25_werknemers": 1650,
 			"van_25_tot_250_werknemers": 260,
 			"meer_dan_250_werknemers": 8
 		},
@@ -408,36 +408,36 @@
 			"kwartaal_1": 28810,
 			"kwartaal_2": 28910,
 			"kwartaal_3": 28930,
-			"kwartaal_4": 29020
+			"kwartaal_4": 29140
 		},
 		"geslacht": {
-			"mannen": 25670,
-			"vrouwen": 3340
+			"mannen": 25800,
+			"vrouwen": 3350
 		},
 		"leeftijd": {
-			"jonger_dan_25_jaar": 3730,
-			"van_25_tot_34_jaar": 6230,
-			"van_35_tot_44_jaar": 6350,
+			"jonger_dan_25_jaar": 3760,
+			"van_25_tot_34_jaar": 6260,
+			"van_35_tot_44_jaar": 6390,
 			"van_45_tot_54_jaar": 7080,
-			"ouder_dan_55_jaar": 5620
+			"ouder_dan_55_jaar": 5640
 		},
 		"leerbedrijven": {
-			"erkend_actief": 352,
+			"erkend_actief": 362,
 			"erkend_inactief": 420,
-			"geen_leerbedrijf": 1120
+			"geen_leerbedrijf": 1130
 		},
 		"leerlingen_leerbedrijven": {
-			"leerbedrijven": 350,
-			"leerlingen": 1100
+			"leerbedrijven": 360,
+			"leerlingen": 1140
 		},
 		"leerlingen_opleidingscentra": {
 			"opleidingscentra": 2,
-			"leerlingen": 460
+			"leerlingen": 470
 		},
 		"opleidingen": {
-			"techniek_ti": 2020,
+			"techniek_ti": 2050,
 			"techniek_overig": 70,
-			"overig": 50
+			"overig": 80
 		}
 	}
 }
