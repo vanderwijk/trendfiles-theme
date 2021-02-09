@@ -1,0 +1,21 @@
+<text id="percentage_geen_leerbedrijf" x="94" y="233" fill="#D9DADB" font-family="Calibri,Candara,Segoe,'Segoe UI',Optima,Arial,sans-serif" font-size="26" font-weight="600">0</text>
+
+<text id="percentage_erkend_inactief" x="94" y="319" fill="#919494" font-family="Calibri,Candara,Segoe,'Segoe UI',Optima,Arial,sans-serif" font-size="26" font-weight="600">0</text>
+
+<text id="percentage_erkend_actief" x="94" y="379" fill="#5F6BC1" font-family="Calibri,Candara,Segoe,'Segoe UI',Optima,Arial,sans-serif" font-size="26" font-weight="600">0</text>
+
+<text id="opleidingscentra" x="576" y="286" fill="#5F6BC1" font-family="Calibri,Candara,Segoe,'Segoe UI',Optima,Arial,sans-serif" font-size="26" font-weight="600">0</text>
+
+<text id="leerlingen_opleidingscentra" x="562" y="169" fill="#141853" font-family="Calibri,Candara,Segoe,'Segoe UI',Optima,Arial,sans-serif" font-size="26" font-weight="600">0</text>
+
+<text id="leerbedrijven" x="383" y="286" fill="#5F6BC1" font-family="Calibri,Candara,Segoe,'Segoe UI',Optima,Arial,sans-serif" font-size="26" font-weight="600">0</text>
+
+<text id="leerlingen_leerbedrijven" x="367" y="427" fill="#141853" font-family="Calibri,Candara,Segoe,'Segoe UI',Optima,Arial,sans-serif" font-size="26" font-weight="600">0</text>
+
+<text fill="#141853" x="106" y="70" font-family="Calibri,Candara,Segoe,'Segoe UI',Optima,Arial,sans-serif" font-size="26" font-weight="600">TI WERKNEMERS</text>
+
+<circle class="circle" stroke="#A6A8AB" stroke-width="1" fill="none" cx="588" cy="292" r="70"></circle>
+<circle id="circle_leerlingen_leerbedrijven" class="circle" stroke-dasharray="0,439.822" stroke="#141853" stroke-width="10" fill="none" cx="588" cy="292" r="70"></circle>
+
+<circle class="circle" stroke="#A6A8AB" stroke-width="1" fill="none" cx="414" cy="292" r="70"></circle>
+<circle id="circle_leerlingen_opleidingscentra" class="circle" stroke-dasharray="439.822,0" stroke="#141853" stroke-width="10" fill="none" cx="414" cy="292" r="70"></circle>

@@ -354,15 +354,15 @@ function otib_include_templates($template) {
 		$query_var = $wp_query->query_vars['factsheet'];
 
 		if ($query_var && $query_var === 'technische-installatiebranche') {
-			return get_template_directory() . '/templates/factsheet-technische-installatiebranche.php';
+			return get_template_directory() . '/templates/factsheets/factsheet-technische-installatiebranche.php';
 		}
 
 		if ($query_var && $query_var === 'leerwerkbanen-rendement') {
-			return get_template_directory() . '/templates/factsheet-leerwerkbanen-rendement.php';
+			return get_template_directory() . '/templates/factsheets/factsheet-leerwerkbanen-rendement.php';
 		}
 
 		if ($query_var && $query_var === 'diversiteit') {
-			return get_template_directory() . '/templates/factsheet-diversiteit.php';
+			return get_template_directory() . '/templates/factsheets/factsheet-diversiteit.php';
 		}
 
 	}
@@ -372,19 +372,19 @@ function otib_include_templates($template) {
 		$query_var = $wp_query->query_vars['infographic'];
 
 		if ($query_var && $query_var === 'bedrijven') {
-			return get_template_directory() . '/templates/infographic-bedrijven.php';
+			return get_template_directory() . '/templates/infographics/infographic-bedrijven.php';
 		}
 
 		if ($query_var && $query_var === 'werknemers') {
-			return get_template_directory() . '/templates/infographic-werknemers.php';
+			return get_template_directory() . '/templates/infographics/infographic-werknemers.php';
 		}
 
 		if ($query_var && $query_var === 'leerbedrijven') {
-			return get_template_directory() . '/templates/infographic-leerbedrijven.php';
+			return get_template_directory() . '/templates/infographics/infographic-leerbedrijven.php';
 		}
 
 		if ($query_var && $query_var === 'wervingsbehoefte') {
-			return get_template_directory() . '/templates/infographic-wervingsbehoefte.php';
+			return get_template_directory() . '/templates/infographics/infographic-wervingsbehoefte.php';
 		}
 
 	}
