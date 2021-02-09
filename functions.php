@@ -248,6 +248,10 @@ function include_scripts_styles () {
 			wp_enqueue_style( 'fancybox' );
 			wp_enqueue_script( 'rest-api-video' );
 		}
+		global $wp_query;
+		if ( isset($wp_query->query_vars['infographic'])) {
+			//wp_enqueue_style( 'calibri' );
+		}
 
 	}
 
@@ -326,12 +330,17 @@ function otib_rewrite_rules() {
 	add_rewrite_rule('factsheet/technische-installatiebranche/?$', 'index.php?factsheet=technische-installatiebranche', 'top' );
 	add_rewrite_rule('factsheet/leerwerkbanen-rendement/?$', 'index.php?factsheet=leerwerkbanen-rendement', 'top' );
 	add_rewrite_rule('factsheet/diversiteit/?$', 'index.php?factsheet=diversiteit', 'top' );
+	add_rewrite_rule('infographic/bedrijven/?$', 'index.php?infographic=bedrijven', 'top' );
+	add_rewrite_rule('infographic/werknemers/?$', 'index.php?infographic=werknemers', 'top' );
+	add_rewrite_rule('infographic/leerbedrijven/?$', 'index.php?infographic=leerbedrijven', 'top' );
+	add_rewrite_rule('infographic/wervingsbehoefte/?$', 'index.php?infographic=wervingsbehoefte', 'top' );
 }
 add_action('init', 'otib_rewrite_rules');
 
 // query vars
 function otib_register_query_var( $vars ) {
 	$vars[] = 'factsheet';
+	$vars[] = 'infographic';
 	return $vars;
 }
 add_filter('query_vars', 'otib_register_query_var' );
@@ -358,6 +367,68 @@ function otib_include_templates($template) {
 
 	}
 
+	if ( isset($wp_query->query_vars['infographic'])) {
+
+		$query_var = $wp_query->query_vars['infographic'];
+
+		if ($query_var && $query_var === 'bedrijven') {
+			return get_template_directory() . '/templates/infographic-bedrijven.php';
+		}
+
+		if ($query_var && $query_var === 'werknemers') {
+			return get_template_directory() . '/templates/infographic-werknemers.php';
+		}
+
+		if ($query_var && $query_var === 'leerbedrijven') {
+			return get_template_directory() . '/templates/infographic-leerbedrijven.php';
+		}
+
+		if ($query_var && $query_var === 'wervingsbehoefte') {
+			return get_template_directory() . '/templates/infographic-wervingsbehoefte.php';
+		}
+
+	}
+
 	return $template;
 }
 add_filter('template_include', 'otib_include_templates', 1, 1);
+
+function filter_product_wpseo_title($title) {
+	global $wp_query;
+	if ( isset($wp_query->query_vars['infographic'])) {
+		$query_var = $wp_query->query_vars['infographic'];
+
+		if ( $query_var && $query_var === 'bedrijven' ) {
+			$title = 'Bedrijven';
+		}
+
+		if ( $query_var && $query_var === 'werknemers' ) {
+			$title = 'Werknemers';
+		}
+
+		if ( $query_var && $query_var === 'leerbedrijven' ) {
+			$title = 'Leerbedrijven';
+		}
+
+		if ( $query_var && $query_var === 'wervingsbehoefte' ) {
+			$title = 'Wervingsbehoefte';
+		}
+	}
+
+	return $title;
+}
+add_filter( 'the_title', 'filter_product_wpseo_title' );
+add_filter( 'wpseo_title', 'filter_product_wpseo_title' );
+
+
+// Add slug to body class
+function add_body_class( $classes ) {
+	global $post;
+	if (!is_front_page()) {
+	if ( isset( $post ) ) {
+		$classes[] = $post->post_type . '-' . $post->post_name;
+	}
+}
+	return $classes;
+}
+add_filter( 'body_class', 'add_body_class' );

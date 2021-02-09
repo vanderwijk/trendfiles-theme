@@ -1,0 +1,32 @@
+<!-- >250 werknemers -->
+<circle class="circle" id="circle_bedrijfsgrootte_groot" cx="530" cy="365" r="65" />
+<circle class="circle" id="g_na_meer_dan_250_werknemers" stroke="#ffffff" stroke-width="15" stroke-dasharray="0,408" fill="none" cx="530" cy="365" r="65" />
+<circle class="circle" id="g_meer_dan_250_werknemers" stroke="#919494" stroke-width="15" stroke-dasharray="0,408" fill="none" cx="530" cy="365" r="65" />
+<circle class="circle" id="g_na_van_25_tot_250_werknemers" stroke="#ffffff" stroke-width="15" stroke-dasharray="0,408" fill="none" cx="530" cy="365" r="65" />
+<circle class="circle" id="g_van_25_tot_250_werknemers" stroke="#D9DADB" stroke-width="15" stroke-dasharray="0,408" fill="none" cx="530" cy="365" r="65" />
+<circle class="circle" id="g_na_minder_dan_25_werknemers" stroke="#ffffff" stroke-width="15" stroke-dasharray="0,408" fill="none" cx="530" cy="365" r="65" />
+<circle class="circle" id="g_minder_dan_25_werknemers" stroke="#D9DADB" stroke-width="15" stroke-dasharray="0,408" fill="none" cx="530" cy="365" r="65" />
+<text fill="#A6BBDF" id="aantal_meer_dan_250_werknemers" font-family="Calibri,Candara,Segoe,'Segoe UI',Optima,Arial,sans-serif" font-weight="600" font-size="26" text-anchor="middle" x="530" y="470">0</text>
+
+<!-- 26-250 werknemers -->
+<circle class="circle" id="circle_bedrijfsgrootte_midden" cx="340" cy="365" r="65" />
+<circle class="circle" id="m_na_meer_dan_250_werknemers" stroke="#ffffff" stroke-width="15" stroke-dasharray="0,408" fill="none" cx="340" cy="365" r="65" />
+<circle class="circle" id="m_meer_dan_250_werknemers" stroke="#D9DADB" stroke-width="15" stroke-dasharray="0,408" fill="none" cx="340" cy="365" r="65" />
+<circle class="circle" id="m_na_van_25_tot_250_werknemers" stroke="#ffffff"  stroke-width="15" stroke-dasharray="0,408" fill="none" cx="340" cy="365" r="65" />
+<circle class="circle" id="m_van_25_tot_250_werknemers" stroke="#141853"  stroke-width="15" stroke-dasharray="0,408" fill="none" cx="340" cy="365" r="65" />
+<circle class="circle" id="m_na_minder_dan_25_werknemers" stroke="#ffffff"  stroke-width="15" stroke-dasharray="0,408" fill="none" cx="340" cy="365" r="65" />
+<circle class="circle" id="m_minder_dan_25_werknemers" stroke="#D9DADB"  stroke-width="15" stroke-dasharray="0,408" fill="none" cx="340" cy="365" r="65" />
+<text fill="#141853" id="aantal_van_25_tot_250_werknemers" font-family="Calibri,Candara,Segoe,'Segoe UI',Optima,Arial,sans-serif" font-weight="600" font-size="26" text-anchor="middle" x="340" y="470">0</text>
+
+<!-- 1-25 werknemers -->
+<circle class="circle" id="circle_bedrijfsgrootte_klein" cx="150" cy="365" r="65" />
+<circle class="circle" id="k_na_meer_dan_250_werknemers" stroke="#ffffff" stroke-width="15" stroke-dasharray="0,408" fill="none" cx="150" cy="365" r="65" />
+<circle class="circle" id="k_meer_dan_250_werknemers" stroke="#D9DADB"  stroke-width="15" stroke-dasharray="0,408" fill="none" cx="150" cy="365" r="65" />
+<circle class="circle" id="k_na_van_25_tot_250_werknemers" stroke="#ffffff"  stroke-width="15" stroke-dasharray="0,408" fill="none" cx="150" cy="365" r="65" />
+<circle class="circle" id="k_van_25_tot_250_werknemers" stroke="#D9DADB"  stroke-width="15" stroke-dasharray="0,408" fill="none" cx="150" cy="365" r="65" />
+<circle class="circle" id="k_na_minder_dan_25_werknemers" stroke="#ffffff"  stroke-width="15" stroke-dasharray="0,408" fill="none" cx="150" cy="365" r="65" />
+<circle class="circle" id="k_minder_dan_25_werknemers" stroke="#5F6BC1"  stroke-width="15" stroke-dasharray="0,408" fill="none" cx="150" cy="365" r="65" />
+<text fill="#5F6BC1" id="aantal_minder_dan_25_werknemers" font-family="Calibri,Candara,Segoe,'Segoe UI',Optima,Arial,sans-serif" font-weight="600" font-size="26" text-anchor="middle" x="150" y="470">0</text>
+
+<text id="aantal_bedrijven" fill="#381094" font-family="Calibri,Candara,Segoe,'Segoe UI',Optima,Arial,sans-serif" font-weight="600" font-size="36" text-anchor="start" x="22" y="183">0</text>
+<text id="aantal_zzp_ers" fill="#381094" font-family="Calibri,Candara,Segoe,'Segoe UI',Optima,Arial,sans-serif" font-weight="600" font-size="36" text-anchor="start" x="438.09" y="183">0</text>
