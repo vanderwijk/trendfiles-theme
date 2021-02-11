@@ -21,51 +21,34 @@ jQuery(document).ready(function($) {
 })
 
 function maakGrafiek(regio) {
+	var aantal_werknemers_per_jaar = gegevens[regio].aantal_werknemers_per_kwartaal.kwartaal_4;
+	document.getElementById('aantal_werknemers').textContent = formatNumber(aantal_werknemers_per_jaar);
 
-	var erkend_actief = gegevens[regio].leerbedrijven.erkend_actief;
-	var erkend_inactief = gegevens[regio].leerbedrijven.erkend_inactief;
-	var geen_leerbedrijf = gegevens[regio].leerbedrijven.geen_leerbedrijf;
+	var mannen = gegevens[regio].geslacht.mannen;
+	var vrouwen = gegevens[regio].geslacht.vrouwen;
 
-	totaal_leerbedrijven = erkend_actief + erkend_inactief + geen_leerbedrijf;
+	var percentage_mannen = Math.round(mannen * 100 / (mannen + vrouwen));
+	var percentage_vrouwen = Math.round(vrouwen * 100 / (mannen + vrouwen));
+	document.getElementById('percentage_mannen').textContent = percentage_mannen + '%';
+	document.getElementById('percentage_vrouwen').textContent = percentage_vrouwen + '%';
 
-	var percentage_erkend_actief = Math.round(erkend_actief * 100 / totaal_leerbedrijven);
-	var percentage_erkend_inactief = Math.round(erkend_inactief * 100 / totaal_leerbedrijven);
-	var percentage_geen_leerbedrijf = Math.round(geen_leerbedrijf * 100 / totaal_leerbedrijven);
+	var jonger_dan_25_jaar = gegevens[regio].leeftijd.jonger_dan_25_jaar;
+	var van_25_tot_34_jaar = gegevens[regio].leeftijd.van_25_tot_34_jaar;
+	var van_35_tot_44_jaar = gegevens[regio].leeftijd.van_35_tot_44_jaar;
+	var van_45_tot_54_jaar = gegevens[regio].leeftijd.van_45_tot_54_jaar;
+	var ouder_dan_55_jaar = gegevens[regio].leeftijd.ouder_dan_55_jaar;
 
-	hoogte_erkend_actief = erkend_actief * 217 / totaal_leerbedrijven;
-	hoogte_erkend_inactief = erkend_inactief * 217 / totaal_leerbedrijven;
-	hoogte_geen_leerbedrijf = geen_leerbedrijf * 217 / totaal_leerbedrijven;
+	totaal_leeftijden = jonger_dan_25_jaar + van_25_tot_34_jaar + van_35_tot_44_jaar + van_45_tot_54_jaar + ouder_dan_55_jaar;
 
-	document.getElementById('percentage_erkend_actief').textContent = percentage_erkend_actief + '%';
-	document.getElementById('percentage_erkend_inactief').textContent = percentage_erkend_inactief + '%';
-	document.getElementById('percentage_geen_leerbedrijf').textContent = percentage_geen_leerbedrijf + '%';
+	var percentage_jonger_dan_25_jaar = Math.round(jonger_dan_25_jaar * 100 / totaal_leeftijden);
+	var percentage_van_25_tot_34_jaar = Math.round(van_25_tot_34_jaar * 100 / totaal_leeftijden);
+	var percentage_van_35_tot_44_jaar = Math.round(van_35_tot_44_jaar * 100 / totaal_leeftijden);
+	var percentage_van_45_tot_54_jaar = Math.round(van_45_tot_54_jaar * 100 / totaal_leeftijden);
+	var percentage_ouder_dan_55_jaar = Math.round(ouder_dan_55_jaar * 100 / totaal_leeftijden);
 
-	document.getElementById('line_erkend_actief').setAttribute('height', hoogte_erkend_actief);
-	document.getElementById('line_erkend_actief').setAttribute('y', hoogte_erkend_inactief + hoogte_geen_leerbedrijf + 188);
-
-	document.getElementById('line_erkend_inactief').setAttribute('height', hoogte_erkend_inactief);
-	document.getElementById('line_erkend_inactief').setAttribute('y', hoogte_geen_leerbedrijf + 188);
-
-	var leerbedrijven = gegevens[regio].leerlingen_leerbedrijven.leerbedrijven;
-	var leerlingen_leerbedrijven = gegevens[regio].leerlingen_leerbedrijven.leerlingen;
-
-	var opleidingscentra = gegevens[regio].leerlingen_opleidingscentra.opleidingscentra;
-	var leerlingen_opleidingscentra = gegevens[regio].leerlingen_opleidingscentra.leerlingen;
-
-	totaal_leerlingen = leerlingen_opleidingscentra + leerlingen_leerbedrijven;
-
-	document.getElementById('leerbedrijven').textContent = formatNumber(leerbedrijven);
-	document.getElementById('leerlingen_leerbedrijven').textContent = formatNumber(leerlingen_leerbedrijven);
-
-	document.getElementById('opleidingscentra').textContent = formatNumber(opleidingscentra);
-	document.getElementById('leerlingen_opleidingscentra').textContent = formatNumber(leerlingen_opleidingscentra);
-
-	var element_leerlingen_leerbedrijven = document.getElementById('circle_leerlingen_leerbedrijven');
-	stroke_leerlingen_leerbedrijven = leerlingen_leerbedrijven * 439.823 / totaal_leerlingen;
-	element_leerlingen_leerbedrijven.style.strokeDasharray =  "0 " + stroke_leerlingen_leerbedrijven + " 829.38";
-
-	var element_leerlingen_opleidingscentra = document.getElementById('circle_leerlingen_opleidingscentra');
-	var testtest = 439.823 - stroke_leerlingen_leerbedrijven;
-	element_leerlingen_opleidingscentra.style.strokeDasharray = stroke_leerlingen_leerbedrijven + " " + testtest;
-
+	document.getElementById('jonger_dan_25_jaar').textContent = percentage_jonger_dan_25_jaar + '%';
+	document.getElementById('van_25_tot_34_jaar').textContent = percentage_van_25_tot_34_jaar + '%';
+	document.getElementById('van_35_tot_44_jaar').textContent = percentage_van_35_tot_44_jaar + '%';
+	document.getElementById('van_45_tot_54_jaar').textContent = percentage_van_45_tot_54_jaar + '%';
+	document.getElementById('ouder_dan_55_jaar').textContent = percentage_ouder_dan_55_jaar + '%';
 }
