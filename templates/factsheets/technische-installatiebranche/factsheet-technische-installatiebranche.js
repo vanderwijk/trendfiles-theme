@@ -46,7 +46,7 @@ jQuery(document).ready(function($) {
 function maakGrafiek(regio) {
 	//console.log( gegevens );
 
-	var aantal_bedrijven_per_jaar = gegevens[regio].aantal_bedrijven_per_kwartaal.kwartaal_1;
+	var aantal_bedrijven_per_jaar = gegevens[regio].aantal_bedrijven_per_kwartaal.kwartaal_2021_1;
 
 	document.getElementById('aantal_bedrijven').textContent = formatNumber(aantal_bedrijven_per_jaar);
 
@@ -80,10 +80,10 @@ function maakGrafiek(regio) {
 	//document.getElementById('aantal_bedrijven_per_jaar_2017').setAttribute('x', x2_aantal_bedrijven_per_jaar_2017 + 10);
 	//document.getElementById('aantal_bedrijven_per_jaar_2016').setAttribute('x', x2_aantal_bedrijven_per_jaar_2016 + 10);
 
-	var aantal_bedrijven_per_kwartaal_1 = gegevens[regio].aantal_bedrijven_per_kwartaal.kwartaal_1;
-	var aantal_bedrijven_per_kwartaal_2 = gegevens[regio].aantal_bedrijven_per_kwartaal.kwartaal_2;
-	var aantal_bedrijven_per_kwartaal_3 = gegevens[regio].aantal_bedrijven_per_kwartaal.kwartaal_3;
-	var aantal_bedrijven_per_kwartaal_4 = gegevens[regio].aantal_bedrijven_per_kwartaal.kwartaal_4;
+	var aantal_bedrijven_per_kwartaal_1 = gegevens[regio].aantal_bedrijven_per_kwartaal.kwartaal_2021_1;
+	var aantal_bedrijven_per_kwartaal_2 = gegevens[regio].aantal_bedrijven_per_kwartaal.kwartaal_2020_2;
+	var aantal_bedrijven_per_kwartaal_3 = gegevens[regio].aantal_bedrijven_per_kwartaal.kwartaal_2020_3;
+	var aantal_bedrijven_per_kwartaal_4 = gegevens[regio].aantal_bedrijven_per_kwartaal.kwartaal_2020_4;
 
 	document.getElementById('aantal_bedrijven_per_kwartaal_1').textContent = formatNumber(aantal_bedrijven_per_kwartaal_1);
 	document.getElementById('aantal_bedrijven_per_kwartaal_2').textContent = formatNumber(aantal_bedrijven_per_kwartaal_2);
@@ -130,7 +130,7 @@ function maakGrafiek(regio) {
 	var aantal_zzp_ers_2019 = gegevens[regio].aantal_zzp_ers.jaar_2019;
 	document.getElementById('aantal_zzp_ers').textContent = formatNumber(aantal_zzp_ers_2019);
 
-	var aantal_werknemers_per_jaar = gegevens[regio].aantal_werknemers_per_kwartaal.kwartaal_1;
+	var aantal_werknemers_per_jaar = gegevens[regio].aantal_werknemers_per_kwartaal.kwartaal_2021_1;
 	document.getElementById('aantal_werknemers').textContent = formatNumber(aantal_werknemers_per_jaar);
 
 	var aantal_werknemers_per_jaar_2020 = gegevens[regio].aantal_werknemers_per_jaar.jaar_2020;
@@ -153,10 +153,10 @@ function maakGrafiek(regio) {
 	document.getElementById('aantal_werknemers_per_jaar_2019').setAttribute('x', x2_aantal_werknemers_per_jaar_2019 + 10);
 	document.getElementById('aantal_werknemers_per_jaar_2018').setAttribute('x', x2_aantal_werknemers_per_jaar_2018 + 10);
 
-	var aantal_werknemers_per_kwartaal_1 = gegevens[regio].aantal_werknemers_per_kwartaal.kwartaal_1;
-	var aantal_werknemers_per_kwartaal_2 = gegevens[regio].aantal_werknemers_per_kwartaal.kwartaal_2;
-	var aantal_werknemers_per_kwartaal_3 = gegevens[regio].aantal_werknemers_per_kwartaal.kwartaal_3;
-	var aantal_werknemers_per_kwartaal_4 = gegevens[regio].aantal_werknemers_per_kwartaal.kwartaal_4;
+	var aantal_werknemers_per_kwartaal_1 = gegevens[regio].aantal_werknemers_per_kwartaal.kwartaal_2021_1;
+	var aantal_werknemers_per_kwartaal_2 = gegevens[regio].aantal_werknemers_per_kwartaal.kwartaal_2020_2;
+	var aantal_werknemers_per_kwartaal_3 = gegevens[regio].aantal_werknemers_per_kwartaal.kwartaal_2020_3;
+	var aantal_werknemers_per_kwartaal_4 = gegevens[regio].aantal_werknemers_per_kwartaal.kwartaal_2020_4;
 
 	document.getElementById('aantal_werknemers_per_kwartaal_1').textContent = formatNumber(aantal_werknemers_per_kwartaal_1);
 	document.getElementById('aantal_werknemers_per_kwartaal_2').textContent = formatNumber(aantal_werknemers_per_kwartaal_2);
