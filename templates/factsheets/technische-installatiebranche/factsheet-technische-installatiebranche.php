@@ -24,7 +24,7 @@ get_header();
 						<li class="disabled regioknop zeeland" data-regio="zeeland">Zeeland</li>
 						<li class="disabled regioknop noord_brabant" data-regio="noord_brabant">Noord-Brabant</li>
 						<li class="disabled regioknop limburg" data-regio="limburg">Limburg</li>
-						<li class="pdf"><a download id="download-pdf" href="/wp-content/themes/trendfiles-theme/pdf/factsheet_technischeinstallatiebranche_nederland.pdf">PDF / Printversie</a></li>
+						<li class="pdf"><a download id="download-pdf" href="/wp-content/themes/trendfiles-theme/pdf/factsheet_technischeinstallatiebranche_nederland.pdf">PDF</a></li>
 					</ul>
 				</div>
 			</header>
