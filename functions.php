@@ -354,15 +354,15 @@ function otib_include_templates($template) {
 		$query_var = $wp_query->query_vars['factsheet'];
 
 		if ($query_var && $query_var === 'technische-installatiebranche') {
-			return get_template_directory() . '/templates/factsheets/factsheet-technische-installatiebranche.php';
+			return get_template_directory() . '/templates/factsheets/technische-installatiebranche/factsheet-technische-installatiebranche.php';
 		}
 
 		if ($query_var && $query_var === 'leerwerkbanen-rendement') {
-			return get_template_directory() . '/templates/factsheets/factsheet-leerwerkbanen-rendement.php';
+			return get_template_directory() . '/templates/factsheets/factsheet-leerwerkbanen-rendement/factsheet-leerwerkbanen-rendement.php';
 		}
 
 		if ($query_var && $query_var === 'diversiteit') {
-			return get_template_directory() . '/templates/factsheets/factsheet-diversiteit.php';
+			return get_template_directory() . '/templates/factsheets/factsheet-diversiteit/factsheet-diversiteit.php';
 		}
 
 	}

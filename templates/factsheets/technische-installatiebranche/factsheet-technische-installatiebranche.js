@@ -7,7 +7,7 @@ jQuery(document).ready(function($) {
 
 	var regio = 'nederland';
 	jQuery.ajax({
-		url: '/wp-content/themes/trendfiles-theme/js/factsheet-technische-installatiebranche.json',
+		url: '/wp-content/themes/trendfiles-theme/templates/factsheets/technische-installatiebranche/factsheet-technische-installatiebranche.json',
 		dataType: 'json',
 		success: function ( data, textStatus, jqXHR) {
 			gegevens = data;
@@ -46,33 +46,38 @@ jQuery(document).ready(function($) {
 function maakGrafiek(regio) {
 	//console.log( gegevens );
 
-	var aantal_bedrijven_per_jaar = gegevens[regio].aantal_bedrijven_per_kwartaal.kwartaal_4;
+	var aantal_bedrijven_per_jaar = gegevens[regio].aantal_bedrijven_per_kwartaal.kwartaal_1;
 
 	document.getElementById('aantal_bedrijven').textContent = formatNumber(aantal_bedrijven_per_jaar);
 
+	var aantal_bedrijven_per_jaar_2020 = gegevens[regio].aantal_bedrijven_per_jaar.jaar_2020;
 	var aantal_bedrijven_per_jaar_2019 = gegevens[regio].aantal_bedrijven_per_jaar.jaar_2019;
 	var aantal_bedrijven_per_jaar_2018 = gegevens[regio].aantal_bedrijven_per_jaar.jaar_2018;
-	var aantal_bedrijven_per_jaar_2017 = gegevens[regio].aantal_bedrijven_per_jaar.jaar_2017;
+	//var aantal_bedrijven_per_jaar_2017 = gegevens[regio].aantal_bedrijven_per_jaar.jaar_2017;
 	//var aantal_bedrijven_per_jaar_2016 = gegevens[regio].aantal_bedrijven_per_jaar.jaar_2016;
 
+	document.getElementById('aantal_bedrijven_per_jaar_2020').textContent = formatNumber(aantal_bedrijven_per_jaar_2020);
 	document.getElementById('aantal_bedrijven_per_jaar_2019').textContent = formatNumber(aantal_bedrijven_per_jaar_2019);
 	document.getElementById('aantal_bedrijven_per_jaar_2018').textContent = formatNumber(aantal_bedrijven_per_jaar_2018);
-	document.getElementById('aantal_bedrijven_per_jaar_2017').textContent = formatNumber(aantal_bedrijven_per_jaar_2017);
+	//document.getElementById('aantal_bedrijven_per_jaar_2017').textContent = formatNumber(aantal_bedrijven_per_jaar_2017);
 	//document.getElementById('aantal_bedrijven_per_jaar_2016').textContent = formatNumber(aantal_bedrijven_per_jaar_2016);
 
+	var x2_aantal_bedrijven_per_jaar_2020 = aantal_bedrijven_per_jaar_2020 * 487 / aantal_bedrijven_per_jaar;
 	var x2_aantal_bedrijven_per_jaar_2019 = aantal_bedrijven_per_jaar_2019 * 487 / aantal_bedrijven_per_jaar;
 	var x2_aantal_bedrijven_per_jaar_2018 = aantal_bedrijven_per_jaar_2018 * 487 / aantal_bedrijven_per_jaar;
-	var x2_aantal_bedrijven_per_jaar_2017 = aantal_bedrijven_per_jaar_2017 * 487 / aantal_bedrijven_per_jaar;
+	//var x2_aantal_bedrijven_per_jaar_2017 = aantal_bedrijven_per_jaar_2017 * 487 / aantal_bedrijven_per_jaar;
 	//var x2_aantal_bedrijven_per_jaar_2016 = aantal_bedrijven_per_jaar_2016 * 487 / aantal_bedrijven_per_jaar;
 
+	document.getElementById('vulling_aantal_bedrijven_per_jaar_2020').setAttribute('x2', x2_aantal_bedrijven_per_jaar_2020);
 	document.getElementById('vulling_aantal_bedrijven_per_jaar_2019').setAttribute('x2', x2_aantal_bedrijven_per_jaar_2019);
 	document.getElementById('vulling_aantal_bedrijven_per_jaar_2018').setAttribute('x2', x2_aantal_bedrijven_per_jaar_2018);
-	document.getElementById('vulling_aantal_bedrijven_per_jaar_2017').setAttribute('x2', x2_aantal_bedrijven_per_jaar_2017);
+	//document.getElementById('vulling_aantal_bedrijven_per_jaar_2017').setAttribute('x2', x2_aantal_bedrijven_per_jaar_2017);
 	//document.getElementById('vulling_aantal_bedrijven_per_jaar_2016').setAttribute('x2', x2_aantal_bedrijven_per_jaar_2016);
 
+	document.getElementById('aantal_bedrijven_per_jaar_2020').setAttribute('x', x2_aantal_bedrijven_per_jaar_2020 + 10);
 	document.getElementById('aantal_bedrijven_per_jaar_2019').setAttribute('x', x2_aantal_bedrijven_per_jaar_2019 + 10);
 	document.getElementById('aantal_bedrijven_per_jaar_2018').setAttribute('x', x2_aantal_bedrijven_per_jaar_2018 + 10);
-	document.getElementById('aantal_bedrijven_per_jaar_2017').setAttribute('x', x2_aantal_bedrijven_per_jaar_2017 + 10);
+	//document.getElementById('aantal_bedrijven_per_jaar_2017').setAttribute('x', x2_aantal_bedrijven_per_jaar_2017 + 10);
 	//document.getElementById('aantal_bedrijven_per_jaar_2016').setAttribute('x', x2_aantal_bedrijven_per_jaar_2016 + 10);
 
 	var aantal_bedrijven_per_kwartaal_1 = gegevens[regio].aantal_bedrijven_per_kwartaal.kwartaal_1;
@@ -125,28 +130,28 @@ function maakGrafiek(regio) {
 	var aantal_zzp_ers_2019 = gegevens[regio].aantal_zzp_ers.jaar_2019;
 	document.getElementById('aantal_zzp_ers').textContent = formatNumber(aantal_zzp_ers_2019);
 
-	var aantal_werknemers_per_jaar = gegevens[regio].aantal_werknemers_per_kwartaal.kwartaal_4;
+	var aantal_werknemers_per_jaar = gegevens[regio].aantal_werknemers_per_kwartaal.kwartaal_1;
 	document.getElementById('aantal_werknemers').textContent = formatNumber(aantal_werknemers_per_jaar);
 
+	var aantal_werknemers_per_jaar_2020 = gegevens[regio].aantal_werknemers_per_jaar.jaar_2020;
 	var aantal_werknemers_per_jaar_2019 = gegevens[regio].aantal_werknemers_per_jaar.jaar_2019;
 	var aantal_werknemers_per_jaar_2018 = gegevens[regio].aantal_werknemers_per_jaar.jaar_2018;
-	var aantal_werknemers_per_jaar_2017 = gegevens[regio].aantal_werknemers_per_jaar.jaar_2017;
 
+	document.getElementById('aantal_werknemers_per_jaar_2020').textContent = formatNumber(aantal_werknemers_per_jaar_2020);
 	document.getElementById('aantal_werknemers_per_jaar_2019').textContent = formatNumber(aantal_werknemers_per_jaar_2019);
 	document.getElementById('aantal_werknemers_per_jaar_2018').textContent = formatNumber(aantal_werknemers_per_jaar_2018);
-	document.getElementById('aantal_werknemers_per_jaar_2017').textContent = formatNumber(aantal_werknemers_per_jaar_2017);
 
+	var x2_aantal_werknemers_per_jaar_2020 = aantal_werknemers_per_jaar_2020 * 487 / aantal_werknemers_per_jaar;
 	var x2_aantal_werknemers_per_jaar_2019 = aantal_werknemers_per_jaar_2019 * 487 / aantal_werknemers_per_jaar;
 	var x2_aantal_werknemers_per_jaar_2018 = aantal_werknemers_per_jaar_2018 * 487 / aantal_werknemers_per_jaar;
-	var x2_aantal_werknemers_per_jaar_2017 = aantal_werknemers_per_jaar_2017 * 487 / aantal_werknemers_per_jaar;
 
+	document.getElementById('vulling_aantal_werknemers_per_jaar_2020').setAttribute('x2', x2_aantal_werknemers_per_jaar_2020);
 	document.getElementById('vulling_aantal_werknemers_per_jaar_2019').setAttribute('x2', x2_aantal_werknemers_per_jaar_2019);
 	document.getElementById('vulling_aantal_werknemers_per_jaar_2018').setAttribute('x2', x2_aantal_werknemers_per_jaar_2018);
-	document.getElementById('vulling_aantal_werknemers_per_jaar_2017').setAttribute('x2', x2_aantal_werknemers_per_jaar_2017);
 
+	document.getElementById('aantal_werknemers_per_jaar_2020').setAttribute('x', x2_aantal_werknemers_per_jaar_2020 + 10);
 	document.getElementById('aantal_werknemers_per_jaar_2019').setAttribute('x', x2_aantal_werknemers_per_jaar_2019 + 10);
 	document.getElementById('aantal_werknemers_per_jaar_2018').setAttribute('x', x2_aantal_werknemers_per_jaar_2018 + 10);
-	document.getElementById('aantal_werknemers_per_jaar_2017').setAttribute('x', x2_aantal_werknemers_per_jaar_2017 + 10);
 
 	var aantal_werknemers_per_kwartaal_1 = gegevens[regio].aantal_werknemers_per_kwartaal.kwartaal_1;
 	var aantal_werknemers_per_kwartaal_2 = gegevens[regio].aantal_werknemers_per_kwartaal.kwartaal_2;

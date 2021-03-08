@@ -4,7 +4,7 @@ Theme URI: https://trendfiles.wij-techniek.nl
 Author: Johan van der Wijk
 Author URI: https://thewebworks.nl
 Description: Wij Techniek trendfiles WordPress theme.
-Version: 2.0.6
+Version: 2.1.0
 */
 
 /* Reset
@@ -270,19 +270,29 @@ ul.knoppen li {
 	white-space: nowrap;
 }
 
-ul.knoppen li.noord_nederland {
+ul.knoppen li.noord_nederland,
+ul.knoppen li.groningen,
+ul.knoppen li.fryslan,
+ul.knoppen li.drenthe {
 	color: #CCB65B;
 }
 ul.knoppen li.noord_holland {
 	color: #D62828;
 }
-ul.knoppen li.midden_nederland {
+ul.knoppen li.midden_nederland,
+ul.knoppen li.flevoland,
+ul.knoppen li.utrecht {
 	color: #5C778D;
 }
-ul.knoppen li.gelderland_overijssel {
+ul.knoppen li.gelderland_overijssel,
+ul.knoppen li.gelderland,
+ul.knoppen li.overijssel {
 	color: #598785;
 }
-ul.knoppen li.zuid_nederland {
+ul.knoppen li.zuid_nederland,
+ul.knoppen li.zeeland,
+ul.knoppen li.noord_brabant,
+ul.knoppen li.limburg {
 	color: #A39C5A;
 }
 ul.knoppen li.zuid_holland {
@@ -303,22 +313,34 @@ ul.knoppen li.disabled {
 	transition: fill .5s ease-in-out;
 }
 
-#noord_nederland #regio_noord_nederland path {
+#noord_nederland #regio_noord_nederland path,
+#groningen #provincie_groningen path,
+#fryslan #provincie_fryslan path,
+#drenthe #provincie_drenthe path {
 	fill: #CCB65B;
 }
-#noord_holland #regio_noord_holland path {
+#noord_holland #regio_noord_holland path,
+#noord_holland #provincie_noord_holland path {
 	fill: #D62828;
 }
-#midden_nederland #regio_midden_nederland path {
+#midden_nederland #regio_midden_nederland path,
+#flevoland #provincie_flevoland path,
+#utrecht #provincie_utrecht path {
 	fill: #5C778D;
 }
-#gelderland_overijssel #regio_gelderland_overijssel path {
+#gelderland_overijssel #regio_gelderland_overijssel path,
+#gelderland #provincie_gelderland path,
+#overijssel #provincie_overijssel path {
 	fill: #598785;
 }
-#zuid_nederland #regio_zuid_nederland path {
+#zuid_nederland #regio_zuid_nederland path,
+#zeeland #provincie_zeeland path,
+#noord_brabant #provincie_noord_brabant path,
+#limburg #provincie_limburg path {
 	fill: #A39C5A;
 }
-#zuid_holland #regio_zuid_holland path {
+#zuid_holland #regio_zuid_holland path,
+#zuid_holland #provincie_zuid_holland path {
 	fill: #BE3264;
 }
 ul.knoppen li #download-pdf{
@@ -1593,15 +1615,22 @@ ul.nav-menu li:hover>ul,
 	display: block;
 }
 
-label.noord-nederland {
+label.noord-nederland,
+label.groningen,
+label.fryslan,
+label.drenthe {
 	color: #cbb65c;
 }
 
-label.gelderland-overijssel {
+label.gelderland-overijssel,
+label.gelderland,
+label.overijssel {
 	color: #5A8885;
 }
 
-label.midden-nederland {
+label.midden-nederland,
+label.utrecht,
+label.flevoland {
 	color: #5E788E;
 }
 
@@ -1613,7 +1642,10 @@ label.zuid-holland {
 	color: #896377;
 }
 
-label.zuid-nederland {
+label.zuid-nederland,
+label.zeeland,
+label.noord-brabant,
+label.limburg {
 	color: #A39D59;
 }
 
