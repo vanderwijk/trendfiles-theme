@@ -7,7 +7,7 @@ jQuery(document).ready(function($) {
 
 	var regio = 'nederland';
 	jQuery.ajax({
-		url: '/wp-content/themes/trendfiles-theme/js/factsheet-technische-installatiebranche.json',
+		url: '/wp-content/themes/trendfiles-theme/templates/factsheets/technische-installatiebranche/factsheet-technische-installatiebranche.json',
 		dataType: 'json',
 		success: function ( data, textStatus, jqXHR) {
 			gegevens = data;
@@ -21,7 +21,7 @@ jQuery(document).ready(function($) {
 })
 
 function maakGrafiek(regio) {
-	var aantal_werknemers_per_jaar = gegevens[regio].aantal_werknemers_per_kwartaal.kwartaal_4;
+	var aantal_werknemers_per_jaar = gegevens[regio].aantal_werknemers_per_kwartaal.kwartaal_2021_1;
 	document.getElementById('aantal_werknemers').textContent = formatNumber(aantal_werknemers_per_jaar);
 
 	var mannen = gegevens[regio].geslacht.mannen;

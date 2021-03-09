@@ -7,7 +7,7 @@ jQuery(document).ready(function($) {
 
 	var regio = 'nederland';
 	jQuery.ajax({
-		url: '/wp-content/themes/trendfiles-theme/js/factsheet-technische-installatiebranche.json',
+		url: '/wp-content/themes/trendfiles-theme/templates/factsheets/technische-installatiebranche/factsheet-technische-installatiebranche.json',
 		dataType: 'json',
 		success: function ( data, textStatus, jqXHR) {
 			gegevens = data;

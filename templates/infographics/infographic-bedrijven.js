@@ -7,7 +7,7 @@ jQuery(document).ready(function($) {
 
 	var regio = 'nederland';
 	jQuery.ajax({
-		url: '/wp-content/themes/trendfiles-theme/js/factsheet-technische-installatiebranche.json',
+		url: '/wp-content/themes/trendfiles-theme/templates/factsheets/technische-installatiebranche/factsheet-technische-installatiebranche.json',
 		dataType: 'json',
 		success: function ( data, textStatus, jqXHR) {
 			gegevens = data;
@@ -21,7 +21,7 @@ jQuery(document).ready(function($) {
 })
 
 function maakGrafiek(regio) {
-	var aantal_bedrijven = gegevens[regio].aantal_bedrijven_per_kwartaal.kwartaal_4;
+	var aantal_bedrijven = gegevens[regio].aantal_bedrijven_per_kwartaal.kwartaal_2021_1;
 	document.getElementById('aantal_bedrijven').textContent = formatNumber(aantal_bedrijven);
 
 	var aantal_zzp_ers = gegevens[regio].aantal_zzp_ers.jaar_2019;
