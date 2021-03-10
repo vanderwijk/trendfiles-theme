@@ -27,7 +27,7 @@
 					<?php } ?>
 					<?php wp_nav_menu( array( 'theme_location' => 'top', 'container' => '' ) ); ?>
 					<div class="wij-techniek-logo">
-						<a href="https://www.wij-techniek.nl"><img src="/wp-content/themes/trendfiles-theme/img/wij-techniek-logo.svg"></a>
+						<a href="https://www.wij-techniek.nl"><img width="200" height="63" src="/wp-content/themes/trendfiles-theme/img/wij-techniek-logo.svg"></a>
 					</div>
 				</div>
 			</div>
