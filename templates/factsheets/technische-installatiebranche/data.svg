@@ -107,10 +107,15 @@
 	<text id="aantal_zzp_ers" font-family="Roboto" font-weight="500" font-size="45" class="fill_3" text-anchor="middle" x="1650" y="404">0</text>
 	<text id="december_2019" fill="#414143" font-family="Roboto" font-size="24" x="1473.43" y="318">2019</text>
 
-	<text id="aantal_bedrijven_per_kwartaal_2020_2" font-family="Roboto" font-size="25" fill="#414143" text-anchor="middle" x="114" y="485">0</text>
-	<text id="aantal_bedrijven_per_kwartaal_2020_3" font-family="Roboto" font-size="25" fill="#414143" text-anchor="middle" x="249" y="485">0</text>
-	<text id="aantal_bedrijven_per_kwartaal_2020_4" font-family="Roboto" font-size="25" fill="#414143" text-anchor="middle" x="385" y="485">0</text>
-	<text id="aantal_bedrijven_per_kwartaal_2021_1" font-family="Roboto" font-size="25" fill="#414143" text-anchor="middle" x="520" y="485">0</text>
+	<text id="aantal_bedrijven_per_kwartaal_2020_2" font-family="Roboto" font-size="25" fill="#414143" text-anchor="middle" x="116" y="490">0</text>
+	<text id="aantal_bedrijven_per_kwartaal_2020_3" font-family="Roboto" font-size="25" fill="#414143" text-anchor="middle" x="251" y="490">0</text>
+	<text id="aantal_bedrijven_per_kwartaal_2020_4" font-family="Roboto" font-size="25" fill="#414143" text-anchor="middle" x="388" y="490">0</text>
+	<text id="aantal_bedrijven_per_kwartaal_2021_1" font-family="Roboto" font-size="25" fill="#414143" text-anchor="middle" x="525" y="490">0</text>
+
+	<text font-family="Roboto" font-size="21" fill="#919494" text-anchor="middle" x="116" y="460">kw-2 2020</text>
+	<text font-family="Roboto" font-size="21" fill="#919494" text-anchor="middle" x="251" y="460">kw-3 2020</text>
+	<text font-family="Roboto" font-size="21" fill="#919494" text-anchor="middle" x="388" y="460">kw-4 2020</text>
+	<text font-family="Roboto" font-size="21" fill="#919494" text-anchor="middle" x="525" y="460">kw-1 2021</text>
 
 	<!-- bedrijfsgrootte naar aantal werknemers -->
 
@@ -147,10 +152,15 @@
 	<!-- aantal werknemers aangesloten bij otib -->
 	<text id="aantal_werknemers" class="fill_1" font-family="Roboto" font-weight="500" font-size="57" text-anchor="start" x="64" y="900">0</text>
 
-	<text id="aantal_werknemers_per_kwartaal_1" font-family="Roboto" font-size="25" fill="#414143" text-anchor="middle" x="114" y="999">0</text>
-	<text id="aantal_werknemers_per_kwartaal_2" font-family="Roboto" font-size="25" fill="#414143" text-anchor="middle" x="249" y="999">0</text>
-	<text id="aantal_werknemers_per_kwartaal_3" font-family="Roboto" font-size="25" fill="#414143" text-anchor="middle" x="385" y="999">0</text>
-	<text  id="aantal_werknemers_per_kwartaal_4" font-family="Roboto" font-size="25" fill="#414143" text-anchor="middle" x="520" y="999">0</text>
+	<text id="aantal_werknemers_per_kwartaal_2020_2" font-family="Roboto" font-size="25" fill="#414143" text-anchor="middle" x="119" y="999">0</text>
+	<text id="aantal_werknemers_per_kwartaal_2020_3" font-family="Roboto" font-size="25" fill="#414143" text-anchor="middle" x="255" y="999">0</text>
+	<text id="aantal_werknemers_per_kwartaal_2020_4" font-family="Roboto" font-size="25" fill="#414143" text-anchor="middle" x="391" y="999">0</text>
+	<text  id="aantal_werknemers_per_kwartaal_2021_1" font-family="Roboto" font-size="25" fill="#414143" text-anchor="middle" x="526" y="999">0</text>
+
+	<text font-family="Roboto" font-size="21" fill="#919494" text-anchor="middle" x="119" y="970">kw-2 2020</text>
+	<text font-family="Roboto" font-size="21" fill="#919494" text-anchor="middle" x="255" y="970">kw-3 2020</text>
+	<text font-family="Roboto" font-size="21" fill="#919494" text-anchor="middle" x="391" y="970">kw-4 2020</text>
+	<text font-family="Roboto" font-size="21" fill="#919494" text-anchor="middle" x="526" y="970">kw-1 2021</text>
 
 	<line id="vulling_aantal_werknemers_per_jaar_2020" class="stroke_2" x1="60" y1="1072" x2="487" y2="1072" stroke-width="30" />
 	<line id="vulling_aantal_werknemers_per_jaar_2019" class="stroke_1" x1="60" y1="1112" x2="487" y2="1112" stroke-width="30" />
