@@ -272,7 +272,7 @@ ul.knoppen li {
 
 ul.knoppen li.noord_nederland,
 ul.knoppen li.groningen,
-ul.knoppen li.fryslan,
+ul.knoppen li.friesland,
 ul.knoppen li.drenthe {
 	color: #CCB65B;
 }
@@ -315,7 +315,7 @@ ul.knoppen li.disabled {
 
 #noord_nederland #regio_noord_nederland path,
 #groningen #provincie_groningen path,
-#fryslan #provincie_fryslan path,
+#friesland #provincie_friesland path,
 #drenthe #provincie_drenthe path {
 	fill: #CCB65B;
 }
@@ -1617,7 +1617,7 @@ ul.nav-menu li:hover>ul,
 
 label.noord-nederland,
 label.groningen,
-label.fryslan,
+label.friesland,
 label.drenthe {
 	color: #cbb65c;
 }

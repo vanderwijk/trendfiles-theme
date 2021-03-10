@@ -9,9 +9,9 @@
 		},
 		"aantal_bedrijven_per_kwartaal": {
 			"kwartaal_2021_1": 9090,
-			"kwartaal_2020_4": 0,
-			"kwartaal_2020_3": 0,
-			"kwartaal_2020_2": 0
+			"kwartaal_2020_2": 9010,
+			"kwartaal_2020_3": 9010,
+			"kwartaal_2020_4": 9110
 		},
 		"werknemers_bedrijfsgrootte": {
 			"minder_dan_25_werknemers": 7730,
@@ -30,9 +30,9 @@
 		},
 		"aantal_werknemers_per_kwartaal": {
 			"kwartaal_2021_1": 137030,
-			"kwartaal_2020_2": 0,
-			"kwartaal_2020_3": 0,
-			"kwartaal_2020_4": 0
+			"kwartaal_2020_2": 136500,
+			"kwartaal_2020_3": 136840,
+			"kwartaal_2020_4": 137660
 		},
 		"geslacht": {
 			"mannen": 122000,
@@ -74,9 +74,9 @@
 		},
 		"aantal_bedrijven_per_kwartaal": {
 			"kwartaal_2021_1": 240,
-			"kwartaal_2020_2": 0,
-			"kwartaal_2020_3": 0,
-			"kwartaal_2020_4": 0
+			"kwartaal_2020_2": 240,
+			"kwartaal_2020_3": 240,
+			"kwartaal_2020_4": 240
 		},
 		"werknemers_bedrijfsgrootte": {
 			"minder_dan_25_werknemers": 200,
@@ -84,7 +84,7 @@
 			"meer_dan_250_werknemers": 0
 		},
 		"aantal_zzp_ers": {
-			"jaar_2019": 1590
+			"jaar_2019": 600
 		},
 		"aantal_werknemers_per_jaar": {
 			"jaar_2020": 3990,
@@ -95,9 +95,9 @@
 		},
 		"aantal_werknemers_per_kwartaal": {
 			"kwartaal_2021_1": 3990,
-			"kwartaal_2020_2": 0,
-			"kwartaal_2020_3": 0,
-			"kwartaal_2020_4": 0
+			"kwartaal_2020_2": 3960,
+			"kwartaal_2020_3": 3970,
+			"kwartaal_2020_4": 3990
 		},
 		"geslacht": {
 			"mannen": 3670,
@@ -124,12 +124,12 @@
 			"leerlingen": 50
 		},
 		"opleidingen": {
-			"techniek_ti": "",
-			"techniek_overig": "",
-			"overig": ""
+			"techniek_ti": 340,
+			"techniek_overig": "<10",
+			"overig": 10
 		}
 	},
-	"fryslan": {
+	"friesland": {
 		"aantal_bedrijven_per_jaar": {
 			"jaar_2020": 300,
 			"jaar_2019": 290,
@@ -139,9 +139,9 @@
 		},
 		"aantal_bedrijven_per_kwartaal": {
 			"kwartaal_2021_1": 300,
-			"kwartaal_2020_2": 0,
-			"kwartaal_2020_3": 0,
-			"kwartaal_2020_4": 0
+			"kwartaal_2020_2": 290,
+			"kwartaal_2020_3": 300,
+			"kwartaal_2020_4": 300
 		},
 		"werknemers_bedrijfsgrootte": {
 			"minder_dan_25_werknemers": 260,
@@ -149,7 +149,7 @@
 			"meer_dan_250_werknemers": 0
 		},
 		"aantal_zzp_ers": {
-			"jaar_2019": 3340
+			"jaar_2019": 740
 		},
 		"aantal_werknemers_per_jaar": {
 			"jaar_2020": 4630,
@@ -160,9 +160,9 @@
 		},
 		"aantal_werknemers_per_kwartaal": {
 			"kwartaal_2021_1": 4620,
-			"kwartaal_2020_2": 0,
-			"kwartaal_2020_3": 0,
-			"kwartaal_2020_4": 0
+			"kwartaal_2020_2": 4610,
+			"kwartaal_2020_3": 4600,
+			"kwartaal_2020_4": 4630
 		},
 		"geslacht": {
 			"mannen": 4220,
@@ -189,9 +189,9 @@
 			"leerlingen": 50
 		},
 		"opleidingen": {
-			"techniek_ti": "",
-			"techniek_overig": "",
-			"overig": ""
+			"techniek_ti": 360,
+			"techniek_overig": 10,
+			"overig": 15
 		}
 	},
 	"drenthe": {
@@ -204,9 +204,9 @@
 		},
 		"aantal_bedrijven_per_kwartaal": {
 			"kwartaal_2021_1": 250,
-			"kwartaal_2020_2": 0,
-			"kwartaal_2020_3": 0,
-			"kwartaal_2020_4": 0
+			"kwartaal_2020_2": 250,
+			"kwartaal_2020_3": 250,
+			"kwartaal_2020_4": 260
 		},
 		"werknemers_bedrijfsgrootte": {
 			"minder_dan_25_werknemers": 220,
@@ -214,7 +214,7 @@
 			"meer_dan_250_werknemers": 1
 		},
 		"aantal_zzp_ers": {
-			"jaar_2019": 1660
+			"jaar_2019": 490
 		},
 		"aantal_werknemers_per_jaar": {
 			"jaar_2020": 3900,
@@ -225,9 +225,9 @@
 		},
 		"aantal_werknemers_per_kwartaal": {
 			"kwartaal_2021_1": 3890,
-			"kwartaal_2020_2": 0,
-			"kwartaal_2020_3": 0,
-			"kwartaal_2020_4": 0
+			"kwartaal_2020_2": 3880,
+			"kwartaal_2020_3": 3850,
+			"kwartaal_2020_4": 3900
 		},
 		"geslacht": {
 			"mannen": 3550,
@@ -254,9 +254,9 @@
 			"leerlingen": 10
 		},
 		"opleidingen": {
-			"techniek_ti": "",
-			"techniek_overig": "",
-			"overig": ""
+			"techniek_ti": 310,
+			"techniek_overig": "<10",
+			"overig": "<10"
 		}
 	},
 	"overijssel": {
@@ -269,9 +269,9 @@
 		},
 		"aantal_bedrijven_per_kwartaal": {
 			"kwartaal_2021_1": 610,
-			"kwartaal_2020_2": 0,
-			"kwartaal_2020_3": 0,
-			"kwartaal_2020_4": 0
+			"kwartaal_2020_2": 620,
+			"kwartaal_2020_3": 620,
+			"kwartaal_2020_4": 610
 		},
 		"werknemers_bedrijfsgrootte": {
 			"minder_dan_25_werknemers": 470,
@@ -279,7 +279,7 @@
 			"meer_dan_250_werknemers": 0
 		},
 		"aantal_zzp_ers": {
-			"jaar_2019": 2930
+			"jaar_2019": 1070
 		},
 		"aantal_werknemers_per_jaar": {
 			"jaar_2020": 11020,
@@ -290,9 +290,9 @@
 		},
 		"aantal_werknemers_per_kwartaal": {
 			"kwartaal_2021_1": 10950,
-			"kwartaal_2020_2": 0,
-			"kwartaal_2020_3": 0,
-			"kwartaal_2020_4": 0
+			"kwartaal_2020_2": 10960,
+			"kwartaal_2020_3": 10980,
+			"kwartaal_2020_4": 10990
 		},
 		"geslacht": {
 			"mannen": 9830,
@@ -319,9 +319,9 @@
 			"leerlingen": 20
 		},
 		"opleidingen": {
-			"techniek_ti": "",
-			"techniek_overig": "",
-			"overig": ""
+			"techniek_ti": 850,
+			"techniek_overig": 20,
+			"overig": 50
 		}
 	},
 	"flevoland": {
@@ -334,9 +334,9 @@
 		},
 		"aantal_bedrijven_per_kwartaal": {
 			"kwartaal_2021_1": 180,
-			"kwartaal_2020_2": 0,
-			"kwartaal_2020_3": 0,
-			"kwartaal_2020_4": 0
+			"kwartaal_2020_2": 180,
+			"kwartaal_2020_3": 180,
+			"kwartaal_2020_4": 180
 		},
 		"werknemers_bedrijfsgrootte": {
 			"minder_dan_25_werknemers": 150,
@@ -344,7 +344,7 @@
 			"meer_dan_250_werknemers": 0
 		},
 		"aantal_zzp_ers": {
-			"jaar_2019": 4130
+			"jaar_2019": 390
 		},
 		"aantal_werknemers_per_jaar": {
 			"jaar_2020": 3190,
@@ -355,9 +355,9 @@
 		},
 		"aantal_werknemers_per_kwartaal": {
 			"kwartaal_2021_1": 3240,
-			"kwartaal_2020_2": 0,
-			"kwartaal_2020_3": 0,
-			"kwartaal_2020_4": 0
+			"kwartaal_2020_2": 3140,
+			"kwartaal_2020_3": 3150,
+			"kwartaal_2020_4": 3200
 		},
 		"geslacht": {
 			"mannen": 2900,
@@ -384,9 +384,9 @@
 			"leerlingen": 30
 		},
 		"opleidingen": {
-			"techniek_ti": "",
-			"techniek_overig": "",
-			"overig": ""
+			"techniek_ti": 270,
+			"techniek_overig": "<10",
+			"overig": "<10"
 		}
 	},
 	"gelderland": {
@@ -399,9 +399,9 @@
 		},
 		"aantal_bedrijven_per_kwartaal": {
 			"kwartaal_2021_1": 1260,
-			"kwartaal_2020_2": 0,
-			"kwartaal_2020_3": 0,
-			"kwartaal_2020_4": 0
+			"kwartaal_2020_2": 1250,
+			"kwartaal_2020_3": 1250,
+			"kwartaal_2020_4": 1260
 		},
 		"werknemers_bedrijfsgrootte": {
 			"minder_dan_25_werknemers": 1080,
@@ -409,7 +409,7 @@
 			"meer_dan_250_werknemers": 3
 		},
 		"aantal_zzp_ers": {
-			"jaar_2019": 4450
+			"jaar_2019": 2105
 		},
 		"aantal_werknemers_per_jaar": {
 			"jaar_2020": 18630,
@@ -420,9 +420,9 @@
 		},
 		"aantal_werknemers_per_kwartaal": {
 			"kwartaal_2021_1": 18450,
-			"kwartaal_2020_2": 0,
-			"kwartaal_2020_3": 0,
-			"kwartaal_2020_4": 0
+			"kwartaal_2020_2": 18510,
+			"kwartaal_2020_3": 18530,
+			"kwartaal_2020_4": 18630
 		},
 		"geslacht": {
 			"mannen": 16410,
@@ -449,9 +449,9 @@
 			"leerlingen": 400
 		},
 		"opleidingen": {
-			"techniek_ti": "",
-			"techniek_overig": "",
-			"overig": ""
+			"techniek_ti": 1450,
+			"techniek_overig": 50,
+			"overig": 55
 		}
 	},
 	"utrecht": {
@@ -464,9 +464,9 @@
 		},
 		"aantal_bedrijven_per_kwartaal": {
 			"kwartaal_2021_1": 780,
-			"kwartaal_2020_2": 0,
-			"kwartaal_2020_3": 0,
-			"kwartaal_2020_4": 0
+			"kwartaal_2020_2": 730,
+			"kwartaal_2020_3": 730,
+			"kwartaal_2020_4": 740
 		},
 		"werknemers_bedrijfsgrootte": {
 			"minder_dan_25_werknemers": 640,
@@ -474,7 +474,7 @@
 			"meer_dan_250_werknemers": 7
 		},
 		"aantal_zzp_ers": {
-			"jaar_2019": 4450
+			"jaar_2019": 1445
 		},
 		"aantal_werknemers_per_jaar": {
 			"jaar_2020": 11140,
@@ -485,9 +485,9 @@
 		},
 		"aantal_werknemers_per_kwartaal": {
 			"kwartaal_2021_1": 11380,
-			"kwartaal_2020_2": 0,
-			"kwartaal_2020_3": 0,
-			"kwartaal_2020_4": 0
+			"kwartaal_2020_2": 10980,
+			"kwartaal_2020_3": 11020,
+			"kwartaal_2020_4": 11090
 		},
 		"geslacht": {
 			"mannen": 9900,
@@ -514,9 +514,9 @@
 			"leerlingen": 140
 		},
 		"opleidingen": {
-			"techniek_ti": "",
-			"techniek_overig": "",
-			"overig": ""
+			"techniek_ti": 890,
+			"techniek_overig": 40,
+			"overig": 40
 		}
 	},
 	"noord_holland": {
@@ -529,9 +529,9 @@
 		},
 		"aantal_bedrijven_per_kwartaal": {
 			"kwartaal_2021_1": 1250,
-			"kwartaal_2020_2": 0,
-			"kwartaal_2020_3": 0,
-			"kwartaal_2020_4": 0
+			"kwartaal_2020_2": 1240,
+			"kwartaal_2020_3": 1240,
+			"kwartaal_2020_4": 1250
 		},
 		"werknemers_bedrijfsgrootte": {
 			"minder_dan_25_werknemers": 1080,
@@ -539,7 +539,7 @@
 			"meer_dan_250_werknemers": 5
 		},
 		"aantal_zzp_ers": {
-			"jaar_2019": 4450
+			"jaar_2019": 3500
 		},
 		"aantal_werknemers_per_jaar": {
 			"jaar_2020": 17270,
@@ -550,9 +550,9 @@
 		},
 		"aantal_werknemers_per_kwartaal": {
 			"kwartaal_2021_1": 17170,
-			"kwartaal_2020_2": 0,
-			"kwartaal_2020_3": 0,
-			"kwartaal_2020_4": 0
+			"kwartaal_2020_2": 17030,
+			"kwartaal_2020_3": 17110,
+			"kwartaal_2020_4": 17270
 		},
 		"geslacht": {
 			"mannen": 15180,
@@ -579,9 +579,9 @@
 			"leerlingen": 920
 		},
 		"opleidingen": {
-			"techniek_ti": "",
-			"techniek_overig": "",
-			"overig": ""
+			"techniek_ti": 1780,
+			"techniek_overig": 30,
+			"overig": 40
 		}
 	},
 	"zuid_holland": {
@@ -594,9 +594,9 @@
 		},
 		"aantal_bedrijven_per_kwartaal": {
 			"kwartaal_2021_1": 1890,
-			"kwartaal_2020_2": 0,
-			"kwartaal_2020_3": 0,
-			"kwartaal_2020_4": 0
+			"kwartaal_2020_2": 1910,
+			"kwartaal_2020_3": 1890,
+			"kwartaal_2020_4": 1920
 		},
 		"werknemers_bedrijfsgrootte": {
 			"minder_dan_25_werknemers": 1640,
@@ -604,7 +604,7 @@
 			"meer_dan_250_werknemers": 8
 		},
 		"aantal_zzp_ers": {
-			"jaar_2019": 4450
+			"jaar_2019": 3660
 		},
 		"aantal_werknemers_per_jaar": {
 			"jaar_2020": 29230,
@@ -615,9 +615,9 @@
 		},
 		"aantal_werknemers_per_kwartaal": {
 			"kwartaal_2021_1": 28740,
-			"kwartaal_2020_2": 0,
-			"kwartaal_2020_3": 0,
-			"kwartaal_2020_4": 0
+			"kwartaal_2020_2": 28970,
+			"kwartaal_2020_3": 28990,
+			"kwartaal_2020_4": 29200
 		},
 		"geslacht": {
 			"mannen": 25480,
@@ -644,9 +644,9 @@
 			"leerlingen": 480
 		},
 		"opleidingen": {
-			"techniek_ti": "",
-			"techniek_overig": "",
-			"overig": ""
+			"techniek_ti": 2210,
+			"techniek_overig": 70,
+			"overig": 80
 		}
 	},
 	"zeeland": {
@@ -659,9 +659,9 @@
 		},
 		"aantal_bedrijven_per_kwartaal": {
 			"kwartaal_2021_1": 190,
-			"kwartaal_2020_2": 0,
-			"kwartaal_2020_3": 0,
-			"kwartaal_2020_4": 0
+			"kwartaal_2020_2": 180,
+			"kwartaal_2020_3": 180,
+			"kwartaal_2020_4": 180
 		},
 		"werknemers_bedrijfsgrootte": {
 			"minder_dan_25_werknemers": 160,
@@ -669,7 +669,7 @@
 			"meer_dan_250_werknemers": 0
 		},
 		"aantal_zzp_ers": {
-			"jaar_2019": 4450
+			"jaar_2019": 450
 		},
 		"aantal_werknemers_per_jaar": {
 			"jaar_2020": 3540,
@@ -680,9 +680,9 @@
 		},
 		"aantal_werknemers_per_kwartaal": {
 			"kwartaal_2021_1": 3530,
-			"kwartaal_2020_2": 0,
-			"kwartaal_2020_3": 0,
-			"kwartaal_2020_4": 0
+			"kwartaal_2020_2": 3490,
+			"kwartaal_2020_3": 3520,
+			"kwartaal_2020_4": 3540
 		},
 		"geslacht": {
 			"mannen": 3190,
@@ -709,9 +709,9 @@
 			"leerlingen": 0
 		},
 		"opleidingen": {
-			"techniek_ti": "",
-			"techniek_overig": "",
-			"overig": ""
+			"techniek_ti": 310,
+			"techniek_overig": 20,
+			"overig": 10
 		}
 	},
 	"noord_brabant": {
@@ -724,9 +724,9 @@
 		},
 		"aantal_bedrijven_per_kwartaal": {
 			"kwartaal_2021_1": 1570,
-			"kwartaal_2020_2": 0,
-			"kwartaal_2020_3": 0,
-			"kwartaal_2020_4": 0
+			"kwartaal_2020_2": 1550,
+			"kwartaal_2020_3": 1550,
+			"kwartaal_2020_4": 1580
 		},
 		"werknemers_bedrijfsgrootte": {
 			"minder_dan_25_werknemers": 1330,
@@ -734,7 +734,7 @@
 			"meer_dan_250_werknemers": 5
 		},
 		"aantal_zzp_ers": {
-			"jaar_2019": 4450
+			"jaar_2019": 2600
 		},
 		"aantal_werknemers_per_jaar": {
 			"jaar_2020": 23020,
@@ -745,9 +745,9 @@
 		},
 		"aantal_werknemers_per_kwartaal": {
 			"kwartaal_2021_1": 22920,
-			"kwartaal_2020_2": 0,
-			"kwartaal_2020_3": 0,
-			"kwartaal_2020_4": 0
+			"kwartaal_2020_2": 22740,
+			"kwartaal_2020_3": 22880,
+			"kwartaal_2020_4": 23010
 		},
 		"geslacht": {
 			"mannen": 20300,
@@ -774,9 +774,9 @@
 			"leerlingen": 770
 		},
 		"opleidingen": {
-			"techniek_ti": "",
-			"techniek_overig": "",
-			"overig": ""
+			"techniek_ti": 1970,
+			"techniek_overig": 60,
+			"overig": 60
 		}
 	},
 	"limburg": {
@@ -789,9 +789,9 @@
 		},
 		"aantal_bedrijven_per_kwartaal": {
 			"kwartaal_2021_1": 570,
-			"kwartaal_2020_2": 0,
-			"kwartaal_2020_3": 0,
-			"kwartaal_2020_4": 0
+			"kwartaal_2020_2": 570,
+			"kwartaal_2020_3": 570,
+			"kwartaal_2020_4": 580
 		},
 		"werknemers_bedrijfsgrootte": {
 			"minder_dan_25_werknemers": 510,
@@ -799,7 +799,7 @@
 			"meer_dan_250_werknemers": 2
 		},
 		"aantal_zzp_ers": {
-			"jaar_2019": 4450
+			"jaar_2019": 1060
 		},
 		"aantal_werknemers_per_jaar": {
 			"jaar_2020": 8260,
@@ -810,9 +810,9 @@
 		},
 		"aantal_werknemers_per_kwartaal": {
 			"kwartaal_2021_1": 8150,
-			"kwartaal_2020_2": 0,
-			"kwartaal_2020_3": 0,
-			"kwartaal_2020_4": 0
+			"kwartaal_2020_2": 8250,
+			"kwartaal_2020_3": 8240,
+			"kwartaal_2020_4": 8220
 		},
 		"geslacht": {
 			"mannen": 7370,
@@ -839,9 +839,9 @@
 			"leerlingen": 220
 		},
 		"opleidingen": {
-			"techniek_ti": "",
-			"techniek_overig": "",
-			"overig": ""
+			"techniek_ti": 570,
+			"techniek_overig": 10,
+			"overig": 10
 		}
 	}
 }

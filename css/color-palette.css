@@ -15,12 +15,12 @@
 #groningen .color_5 { color: #E9E0B7; }
 #groningen .color_6 { color: #F8F7EE; }
 
-#fryslan .color_1 { color: #776C31; }
-#fryslan .color_2 { color: #CCB65B; }
-#fryslan .color_3 { color: #D4C379; }
-#fryslan .color_4 { color: #DFD096; }
-#fryslan .color_5 { color: #E9E0B7; }
-#fryslan .color_6 { color: #F8F7EE; }
+#friesland .color_1 { color: #776C31; }
+#friesland .color_2 { color: #CCB65B; }
+#friesland .color_3 { color: #D4C379; }
+#friesland .color_4 { color: #DFD096; }
+#friesland .color_5 { color: #E9E0B7; }
+#friesland .color_6 { color: #F8F7EE; }
 
 #drenthe .color_1 { color: #776C31; }
 #drenthe .color_2 { color: #CCB65B; }
@@ -110,12 +110,12 @@
 #groningen .stroke_5 { stroke: #E9E0B7; }
 #groningen .stroke_6 { stroke: #F8F7EE; }
 
-#fryslan .stroke_1 { stroke: #776C31; }
-#fryslan .stroke_2 { stroke: #CCB65B; }
-#fryslan .stroke_3 { stroke: #D4C379; }
-#fryslan .stroke_4 { stroke: #DFD096; }
-#fryslan .stroke_5 { stroke: #E9E0B7; }
-#fryslan .stroke_6 { stroke: #F8F7EE; }
+#friesland .stroke_1 { stroke: #776C31; }
+#friesland .stroke_2 { stroke: #CCB65B; }
+#friesland .stroke_3 { stroke: #D4C379; }
+#friesland .stroke_4 { stroke: #DFD096; }
+#friesland .stroke_5 { stroke: #E9E0B7; }
+#friesland .stroke_6 { stroke: #F8F7EE; }
 
 #drenthe .stroke_1 { stroke: #776C31; }
 #drenthe .stroke_2 { stroke: #CCB65B; }
@@ -205,12 +205,12 @@
 #groningen .fill_5 { fill: #E9E0B7; }
 #groningen .fill_6 { fill: #F8F7EE; }
 
-#fryslan .fill_1 { fill: #776C31; }
-#fryslan .fill_2 { fill: #CCB65B; }
-#fryslan .fill_3 { fill: #D4C379; }
-#fryslan .fill_4 { fill: #DFD096; }
-#fryslan .fill_5 { fill: #E9E0B7; }
-#fryslan .fill_6 { fill: #F8F7EE; }
+#friesland .fill_1 { fill: #776C31; }
+#friesland .fill_2 { fill: #CCB65B; }
+#friesland .fill_3 { fill: #D4C379; }
+#friesland .fill_4 { fill: #DFD096; }
+#friesland .fill_5 { fill: #E9E0B7; }
+#friesland .fill_6 { fill: #F8F7EE; }
 
 #drenthe .fill_1 { fill: #776C31; }
 #drenthe .fill_2 { fill: #CCB65B; }

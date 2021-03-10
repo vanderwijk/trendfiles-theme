@@ -13,7 +13,7 @@ get_header();
 					<ul class="knoppen" id="regioselectie">
 						<li class="regioknop nederland" data-regio="nederland">Nederland</li>
 						<li class="disabled regioknop groningen" data-regio="groningen">Groningen</li>
-						<li class="disabled regioknop fryslan" data-regio="fryslan">Fryslan</li>
+						<li class="disabled regioknop friesland" data-regio="friesland">Friesland</li>
 						<li class="disabled regioknop drenthe" data-regio="drenthe">Drenthe</li>
 						<li class="disabled regioknop overijssel" data-regio="overijssel">Overijssel</li>
 						<li class="disabled regioknop gelderland" data-regio="gelderland">Gelderland</li>
@@ -24,7 +24,7 @@ get_header();
 						<li class="disabled regioknop zeeland" data-regio="zeeland">Zeeland</li>
 						<li class="disabled regioknop noord_brabant" data-regio="noord_brabant">Noord-Brabant</li>
 						<li class="disabled regioknop limburg" data-regio="limburg">Limburg</li>
-						<li class="pdf"><a download id="download-pdf" href="/wp-content/themes/trendfiles-theme/pdf/factsheet_technischeinstallatiebranche_nederland.pdf">PDF</a></li>
+						<li class="pdf" style="display: none;"><a download id="download-pdf" href="/wp-content/themes/trendfiles-theme/pdf/factsheet_technischeinstallatiebranche_nederland.pdf">PDF</a></li>
 					</ul>
 				</div>
 			</header>

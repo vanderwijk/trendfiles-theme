@@ -50,7 +50,7 @@ get_header(); ?>
 						<ul>
 							<li>
 								<label class="groningen"><input type="checkbox" value="20" class="groningen" name="rpa_id[]">Groningen</label>
-								<label class="fryslan"><input type="checkbox" value="21" class="fryslan" name="rpa_id[]">Fryslân</label>
+								<label class="friesland"><input type="checkbox" value="21" class="friesland" name="rpa_id[]">Fryslân</label>
 								<label class="drenthe"><input type="checkbox" value="22" class="drenthe" name="rpa_id[]">Drenthe</label>
 							</li>
 							<li>

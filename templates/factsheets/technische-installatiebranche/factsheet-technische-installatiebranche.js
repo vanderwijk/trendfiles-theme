@@ -80,15 +80,15 @@ function maakGrafiek(regio) {
 	//document.getElementById('aantal_bedrijven_per_jaar_2017').setAttribute('x', x2_aantal_bedrijven_per_jaar_2017 + 10);
 	//document.getElementById('aantal_bedrijven_per_jaar_2016').setAttribute('x', x2_aantal_bedrijven_per_jaar_2016 + 10);
 
-	var aantal_bedrijven_per_kwartaal_1 = gegevens[regio].aantal_bedrijven_per_kwartaal.kwartaal_2021_1;
-	var aantal_bedrijven_per_kwartaal_2 = gegevens[regio].aantal_bedrijven_per_kwartaal.kwartaal_2020_2;
-	var aantal_bedrijven_per_kwartaal_3 = gegevens[regio].aantal_bedrijven_per_kwartaal.kwartaal_2020_3;
-	var aantal_bedrijven_per_kwartaal_4 = gegevens[regio].aantal_bedrijven_per_kwartaal.kwartaal_2020_4;
+	var aantal_bedrijven_per_kwartaal_2021_1 = gegevens[regio].aantal_bedrijven_per_kwartaal.kwartaal_2021_1;
+	var aantal_bedrijven_per_kwartaal_2020_4 = gegevens[regio].aantal_bedrijven_per_kwartaal.kwartaal_2020_4;
+	var aantal_bedrijven_per_kwartaal_2020_3 = gegevens[regio].aantal_bedrijven_per_kwartaal.kwartaal_2020_3;
+	var aantal_bedrijven_per_kwartaal_2020_2 = gegevens[regio].aantal_bedrijven_per_kwartaal.kwartaal_2020_2;
 
-	document.getElementById('aantal_bedrijven_per_kwartaal_1').textContent = formatNumber(aantal_bedrijven_per_kwartaal_1);
-	document.getElementById('aantal_bedrijven_per_kwartaal_2').textContent = formatNumber(aantal_bedrijven_per_kwartaal_2);
-	document.getElementById('aantal_bedrijven_per_kwartaal_3').textContent = formatNumber(aantal_bedrijven_per_kwartaal_3);
-	document.getElementById('aantal_bedrijven_per_kwartaal_4').textContent = formatNumber(aantal_bedrijven_per_kwartaal_4);
+	document.getElementById('aantal_bedrijven_per_kwartaal_2021_1').textContent = formatNumber(aantal_bedrijven_per_kwartaal_2021_1);
+	document.getElementById('aantal_bedrijven_per_kwartaal_2020_4').textContent = formatNumber(aantal_bedrijven_per_kwartaal_2020_4);
+	document.getElementById('aantal_bedrijven_per_kwartaal_2020_3').textContent = formatNumber(aantal_bedrijven_per_kwartaal_2020_3);
+	document.getElementById('aantal_bedrijven_per_kwartaal_2020_2').textContent = formatNumber(aantal_bedrijven_per_kwartaal_2020_2);
 
 	var minder_dan_25_werknemers = gegevens[regio].werknemers_bedrijfsgrootte.minder_dan_25_werknemers;
 	var van_25_tot_250_werknemers = gegevens[regio].werknemers_bedrijfsgrootte.van_25_tot_250_werknemers;
