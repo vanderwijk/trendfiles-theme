@@ -46,11 +46,11 @@ get_header(); ?>
 					<h3 id="rpa">Stap 3: Regio</h3>
 					<div class="regio">
 						<label><input type="radio" name="regio" value="alle-regios" checked>Totaal Nederland</label>
-						<label><input type="radio" name="regio" value="selecteer-regio">Selecteer regio (meerdere keuzes mogelijk)</label>
+						<label><input type="radio" name="regio" value="selecteer-regio">Selecteer provincie (meerdere keuzes mogelijk)</label>
 						<ul>
 							<li>
 								<label class="groningen"><input type="checkbox" value="20" class="groningen" name="rpa_id[]">Groningen</label>
-								<label class="friesland"><input type="checkbox" value="21" class="friesland" name="rpa_id[]">Fryslân</label>
+								<label class="friesland"><input type="checkbox" value="21" class="friesland" name="rpa_id[]">Friesland</label>
 								<label class="drenthe"><input type="checkbox" value="22" class="drenthe" name="rpa_id[]">Drenthe</label>
 							</li>
 							<li>
