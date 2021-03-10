@@ -1,5 +1,5 @@
 <?php
-define('TRENDFILES_THEME_VER', '2.0.6');
+define('TRENDFILES_THEME_VER', '2.1.2');
 
 if (isset($_SERVER['HTTPS'])) {
 	$protocol = ($_SERVER['HTTPS'] && $_SERVER['HTTPS'] != "off") ? "https://" : "http://";
@@ -237,7 +237,15 @@ function include_scripts_styles () {
 		wp_enqueue_style( 'dashicons', get_stylesheet_uri(), array( 'dashicons' ) );
 		wp_enqueue_style( 'color-palette', get_template_directory_uri() . '/css/color-palette.css', TRENDFILES_THEME_VER );
 		wp_enqueue_style( 'style', get_stylesheet_uri(), array(), TRENDFILES_THEME_VER );
-		wp_enqueue_style( 'responsive', get_template_directory_uri() . '/style-responsive.css', TRENDFILES_THEME_VER );
+		wp_enqueue_style( 'responsive', get_template_directory_uri() . '/style-responsive.css', array(), TRENDFILES_THEME_VER );
+
+		global $wp_query;
+		if ( isset($wp_query->query_vars['factsheet'])) {
+			$query_var = $wp_query->query_vars['factsheet'];
+			if ($query_var && $query_var === 'technische-installatiebranche') {
+				wp_enqueue_style( 'print', get_template_directory_uri() . '/style-print.css', array(), TRENDFILES_THEME_VER, 'print' );
+			}
+		}
 
 		wp_enqueue_script( 'modernizr' );
 		wp_enqueue_script( 'matchheight' );

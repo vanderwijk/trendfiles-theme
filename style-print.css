@@ -1,0 +1,13 @@
+header,
+nav,
+footer {
+	display: none;;
+}
+body {
+	background-color: #ffffff;
+	padding: 0;
+}
+.wrapper {
+	box-shadow: none;
+	max-width: auto;
+}
