@@ -38,33 +38,15 @@ get_header(); ?>
 						<object class="map" id="map" data="/wp-content/themes/trendfiles-theme/img/nederland.svg" width="186" height="235" type="image/svg+xml"></object>
 					</p>
 					<div class="regio">
-						<label><input type="radio" name="regio" value="alle-regios" checked>Totaal Nederland</label>
-						<label><input type="radio" name="regio" value="selecteer-regio">Selecteer provincie (meerdere keuzes mogelijk)</label>
+						<label><input type="radio" name="rbpi_totaal" value="99" class="alle-regios" checked>Totaal Nederland</label>
+						<label><input type="radio" name="rbpi_totaal" value="selecteer-regio">Selecteer regio (meerdere keuzes mogelijk)</label>
 						<ul>
-							<li>
-								<label class="groningen"><input type="checkbox" value="20" class="groningen" name="rpa_id[]">Groningen</label>
-								<label class="friesland"><input type="checkbox" value="21" class="friesland" name="rpa_id[]">Friesland</label>
-								<label class="drenthe"><input type="checkbox" value="22" class="drenthe" name="rpa_id[]">Drenthe</label>
-							</li>
-							<li>
-								<label class="overijssel"><input type="checkbox" value="23" class="overijssel" name="rpa_id[]">Overijssel</label>
-								<label class="gelderland"><input type="checkbox" value="25" class="gelderland" name="rpa_id[]">Gelderland</label>
-							</li>
-							<li>
-								<label class="flevoland"><input type="checkbox" value="24" class="flevoland" name="rpa_id[]">Flevoland</label>
-								<label class="utrecht"><input type="checkbox" value="26" class="utrecht" name="rpa_id[]">Utrecht</label>
-							</li>
-							<li>
-								<label class="noord-holland"><input type="checkbox" value="27" class="noord-holland" name="rpa_id[]">Noord-Holland</label>
-							</li>
-							<li>
-								<label class="zuid-holland"><input type="checkbox" value="28" class="zuid-holland" name="rpa_id[]">Zuid-Holland</label>
-							</li>
-							<li>
-								<label class="zeeland"><input type="checkbox" value="29" class="zeeland" name="rpa_id[]">Zeeland</label>
-								<label class="noord-brabant"><input type="checkbox" value="30" class="noord-brabant" name="rpa_id[]">Noord-Brabant</label>
-								<label class="limburg"><input type="checkbox" value="31" class="limburg" name="rpa_id[]">Limburg</label>
-							</li>
+							<li><label><input type="checkbox" value="1" name="id_rpbi[]" class="noord-nederland">Noord Nederland</label></li>
+							<li><label><input type="checkbox" value="2" name="id_rpbi[]" class="gelderland-overijssel">Gelderland / Overijssel</label></li>
+							<li><label><input type="checkbox" value="3" name="id_rpbi[]" class="midden-nederland">Midden Nederland</label></li>
+							<li><label><input type="checkbox" value="4" name="id_rpbi[]" class="noord-holland">Noord Holland</label></li>
+							<li><label><input type="checkbox" value="5" name="id_rpbi[]" class="zuid-holland">Zuid Holland</label></li>
+							<li><label><input type="checkbox" value="6" name="id_rpbi[]" class="zuid-nederland">Zuid Nederland</label></li>
 						</ul>
 					</div>
 					<h3 id="stap-3">Stap 3: Scholing  <span class="check">✔</span><span class="false">✘</span></h3>
