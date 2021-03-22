@@ -31,15 +31,6 @@
 				<p>Uitkomsten van de telefonische en digitale enquête TI-bedrijven medio 2020</p>
 			</a>
 		</div>
-
-		<div class="card">
-			<a href="/video/trendfiles-talks-jan-jonker/">
-				<img src="/wp-content/themes/trendfiles-theme/img/duurzame-dinsdag.png" alt="Duurzame Troonrede" />
-				<h3>Actueel</h3>
-				<h4>Duurzame Troonrede door Prof. Jan Jonker</h4>
-				<p>Kijk hier terug op de Duurzame Troonrede in Den Haag in het kader van de 22ste editie van Duurzame Dinsdag.</p>
-			</a>
-		</div>
 		<div class="card">
 			<a href="/video/trendfiles-talks/trendfiles-talks-juliette-walma-van-der-molen/">
 				<img src="/wp-content/themes/trendfiles-theme/img/juliette-walma-van-der-molen.jpg" alt="Juliette Walma van der Molen" />
