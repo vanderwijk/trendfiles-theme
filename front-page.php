@@ -8,6 +8,14 @@
 	<div class="block uitgelicht">
 		<h2 class="category">uitgelicht</h2>
 		<div class="card">
+			<a href="/video/themafilms/cybersecurity-in-de-praktijk/">
+				<img src="/wp-content/themes/trendfiles-theme/img/cybersecurity.jpg" alt="Trendfiles themafilm Cybersecurity" />
+				<h3>NIEUW - Trendfiles themafilm</h3>
+				<h4>Cybersecurity in de praktijk</h4>
+				<p>CS2 (venture Croonwolter&dros) over cybersecurity for control systems en hoe installatiebedrijven te maken krijgen met Cybersecurity.</p>
+			</a>
+		</div>
+		<div class="card">
 			<a href="/factsheet/technische-installatiebranche/">
 				<img src="/wp-content/themes/trendfiles-theme/img/update-factsheet-ti-installatie.svg" alt="Update-Factsheet Technische installatie" />
 				<h3>Update-Factsheet</h3>
