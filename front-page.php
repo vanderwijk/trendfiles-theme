@@ -8,6 +8,14 @@
 	<div class="block uitgelicht">
 		<h2 class="category">uitgelicht</h2>
 		<div class="card">
+			<a href="/video/trendfiles-talks/trendfiles-talks-rutger-leukfeldt/">
+				<img src="/wp-content/themes/trendfiles-theme/img/rutger-leukfeldt.jpg" alt="Rutger Leukfeldt" />
+				<h3>NIEUW - Trendfiles Talks</h3>
+				<h4>Rutger Leukfeldt</h4>
+				<p>Over cybersecurity in het MKB.</p>
+			</a>
+		</div>
+		<div class="card">
 			<a href="/video/themafilms/cybersecurity-in-de-praktijk/">
 				<img src="/wp-content/themes/trendfiles-theme/img/cybersecurity.jpg" alt="Trendfiles themafilm Cybersecurity" />
 				<h3>NIEUW - Trendfiles themafilm</h3>
@@ -31,7 +39,7 @@
 				<p>Uitkomsten van de telefonische en digitale enquête TI-bedrijven medio 2020</p>
 			</a>
 		</div>
-		<div class="card">
+		<div class="card" style="display:none;">
 			<a href="/video/trendfiles-talks/trendfiles-talks-juliette-walma-van-der-molen/">
 				<img src="/wp-content/themes/trendfiles-theme/img/juliette-walma-van-der-molen.jpg" alt="Juliette Walma van der Molen" />
 				<h3>NIEUW-Trendfiles Talks</h3>
