@@ -2017,6 +2017,7 @@ body.single-quote {
 .video-listing {
 	display: flex;
 	justify-content: space-between;
+	align-items: flex-start;
 }
 .video-thumb {
 	width: calc((100% / 3) - 2%);
