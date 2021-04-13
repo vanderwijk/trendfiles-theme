@@ -8,6 +8,14 @@
 	<div class="block uitgelicht">
 		<h2 class="category">uitgelicht</h2>
 		<div class="card">
+			<a href="/factsheet/technische-installatiebranche/">
+				<img src="/wp-content/themes/trendfiles-theme/img/update-factsheet-ti-installatie.svg" alt="Update-Factsheet Technische installatie" />
+				<h3>Update-Factsheet</h3>
+				<h4>Technische installatiebranche</h4>
+				<p>NL en per provincie<br>april 2021</p>
+			</a>
+		</div>
+		<div class="card">
 			<a href="/video/trendfiles-talks/trendfiles-talks-rutger-leukfeldt/">
 				<img src="/wp-content/themes/trendfiles-theme/img/rutger-leukfeldt.jpg" alt="Rutger Leukfeldt" />
 				<h3>NIEUW - Trendfiles Talks</h3>
@@ -21,14 +29,6 @@
 				<h3>NIEUW - Trendfiles themafilm</h3>
 				<h4>Cybersecurity in de praktijk</h4>
 				<p>CS2 (venture Croonwolter&dros) over cybersecurity for control systems en hoe installatiebedrijven te maken krijgen met Cybersecurity.</p>
-			</a>
-		</div>
-		<div class="card">
-			<a href="/factsheet/technische-installatiebranche/">
-				<img src="/wp-content/themes/trendfiles-theme/img/update-factsheet-ti-installatie.svg" alt="Update-Factsheet Technische installatie" />
-				<h3>Update-Factsheet</h3>
-				<h4>Technische installatiebranche</h4>
-				<p>NL en per provincie<br>maart 2020</p>
 			</a>
 		</div>
 		<div class="card">
