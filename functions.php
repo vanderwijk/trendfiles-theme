@@ -242,7 +242,7 @@ function include_scripts_styles () {
 		global $wp_query;
 		if ( isset($wp_query->query_vars['factsheet'])) {
 			$query_var = $wp_query->query_vars['factsheet'];
-			if ($query_var && $query_var === 'technische-installatiebranche') {
+			if ( ($query_var && $query_var === 'technische-installatiebranche') || ($query_var && $query_var === 'diversiteit')) {
 				wp_enqueue_style( 'print', get_template_directory_uri() . '/style-print.css', array(), TRENDFILES_THEME_VER, 'print' );
 			}
 		}

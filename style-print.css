@@ -1,7 +1,8 @@
 header,
 nav,
-footer {
-	display: none;;
+footer,
+#vergelijkingselectie {
+	display: none;
 }
 body {
 	background-color: #ffffff;

@@ -1,6 +1,13 @@
 {
 	"nederland": {
 		"werknemers": {
+			"jaar_2020": {
+				"totaal": 138256,
+				"vrouwen": 15061,
+				"westerse_migratieachtergrond": 8526,
+				"niet_westerse_migratieachtergrond": 10508,
+				"ouder_dan_55_jaar": 25715
+			},
 			"jaar_2019": {
 				"totaal": 134380,
 				"vrouwen": 14360,
@@ -17,6 +24,13 @@
 			}
 		},
 		"beroepsbevolking": {
+			"jaar_2020": {
+				"totaal": 9308000,
+				"vrouwen": 4372000,
+				"westerse_migratieachtergrond": 985000,
+				"niet_westerse_migratieachtergrond": 1160000,
+				"ouder_dan_55_jaar": 2000000
+			},
 			"jaar_2019": {
 				"totaal": 9267000,
 				"vrouwen": 4336000,

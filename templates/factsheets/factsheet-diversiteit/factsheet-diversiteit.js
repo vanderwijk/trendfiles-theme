@@ -7,7 +7,7 @@ jQuery(document).ready(function($) {
 
 	var vergelijking = 'geslacht';
 	jQuery.ajax({
-		url: '/wp-content/themes/trendfiles-theme/js/factsheet-diversiteit.json',
+		url: '/wp-content/themes/trendfiles-theme/templates/factsheets/factsheet-diversiteit/factsheet-diversiteit.json',
 		dataType: 'json',
 		success: function ( data, textStatus, jqXHR) {
 			gegevens = data;
@@ -26,21 +26,21 @@ function ververs(vergelijking) {
 
 function maakGrafiek(vergelijking) {
 
-	var werknemers_2019_totaal = gegevens.nederland.werknemers.jaar_2019.totaal;
-	document.getElementById('werknemers_2019_totaal').textContent = formatNumber(werknemers_2019_totaal);
+	var werknemers_2020_totaal = gegevens.nederland.werknemers.jaar_2020.totaal;
+	document.getElementById('werknemers_2020_totaal').textContent = formatNumber(werknemers_2020_totaal);
 
-	var beroepsbevolking_2019_totaal = gegevens.nederland.beroepsbevolking.jaar_2019.totaal;
-	document.getElementById('beroepsbevolking_2019_totaal').textContent = formatNumber(beroepsbevolking_2019_totaal);
+	var beroepsbevolking_2020_totaal = gegevens.nederland.beroepsbevolking.jaar_2020.totaal;
+	document.getElementById('beroepsbevolking_2020_totaal').textContent = formatNumber(beroepsbevolking_2020_totaal);
 
-	var werknemers_2019_vrouwen = gegevens.nederland.werknemers.jaar_2019.vrouwen;
-	var breedte_werknemers_2019_vrouwen = werknemers_2019_vrouwen * 735 / werknemers_2019_totaal;
-	var werknemers_2019_vrouwen_percentage = Math.round(werknemers_2019_vrouwen * 100 / werknemers_2019_totaal);
+	var werknemers_2020_vrouwen = gegevens.nederland.werknemers.jaar_2020.vrouwen;
+	var breedte_werknemers_2020_vrouwen = werknemers_2020_vrouwen * 735 / werknemers_2020_totaal;
+	var werknemers_2020_vrouwen_percentage = Math.round(werknemers_2020_vrouwen * 100 / werknemers_2020_totaal);
 
-	document.getElementById('werknemers_2019_vrouwen').textContent = formatNumber(werknemers_2019_vrouwen);
-	document.getElementById('werknemers_2019_vrouwen').setAttribute('x', breedte_werknemers_2019_vrouwen + 64);
-	document.getElementById('werknemers_2019_vrouwen_percentage').textContent = '(' + werknemers_2019_vrouwen_percentage + '%)';
-	document.getElementById('werknemers_2019_vrouwen_percentage').setAttribute('x', breedte_werknemers_2019_vrouwen + 194);
-	document.getElementById('werknemers_2019_vrouwen_rect').setAttribute('width', breedte_werknemers_2019_vrouwen);
+	document.getElementById('werknemers_2020_vrouwen').textContent = formatNumber(werknemers_2020_vrouwen);
+	document.getElementById('werknemers_2020_vrouwen').setAttribute('x', breedte_werknemers_2020_vrouwen + 64);
+	document.getElementById('werknemers_2020_vrouwen_percentage').textContent = '(' + werknemers_2020_vrouwen_percentage + '%)';
+	document.getElementById('werknemers_2020_vrouwen_percentage').setAttribute('x', breedte_werknemers_2020_vrouwen + 194);
+	document.getElementById('werknemers_2020_vrouwen_rect').setAttribute('width', breedte_werknemers_2020_vrouwen);
 
 	if (vergelijking === "afkomst") {
 		document.getElementById('afkomst').style.display = 'block';
@@ -82,39 +82,39 @@ function maakGrafiek(vergelijking) {
 
 	functies.forEach(function(functie) {
 
-		breedte_werknemers_2019_functie_2 = null;
+		breedte_werknemers_2020_functie_2 = null;
 		document.getElementById( functie + '_2').setAttribute('x', 0);
 		document.getElementById('percentage_' + functie + '_2').setAttribute('x', 0);
 
-		var werknemers_2019_functie_1 = gegevens.nederland[vergelijking][functie][groep_1];
+		var werknemers_2020_functie_1 = gegevens.nederland[vergelijking][functie][groep_1];
 
 		if ( typeof groep_2 != "undefined" ) {
-			var werknemers_2019_functie_2 = gegevens.nederland[vergelijking][functie][groep_2];
-			var breedte_werknemers_2019_functie_2 = werknemers_2019_functie_2 * 1221 / 100;
+			var werknemers_2020_functie_2 = gegevens.nederland[vergelijking][functie][groep_2];
+			var breedte_werknemers_2020_functie_2 = werknemers_2020_functie_2 * 1221 / 100;
 		}
-		var werknemers_2019_functie_3 = gegevens.nederland[vergelijking][functie][groep_3];
-		var breedte_werknemers_2019_functie_1 = werknemers_2019_functie_1 * 1221 / 100;
+		var werknemers_2020_functie_3 = gegevens.nederland[vergelijking][functie][groep_3];
+		var breedte_werknemers_2020_functie_1 = werknemers_2020_functie_1 * 1221 / 100;
 		
-		document.getElementById( functie + '_1').setAttribute('width', breedte_werknemers_2019_functie_1);
+		document.getElementById( functie + '_1').setAttribute('width', breedte_werknemers_2020_functie_1);
 		document.getElementById( functie + '_1').setAttribute('class', groep_1_class);
 		document.getElementById('percentage_' + functie + '_1').setAttribute('class', groep_1_class);
-		document.getElementById('percentage_' + functie + '_1').textContent = werknemers_2019_functie_1 + '%';
-		document.getElementById('percentage_' + functie + '_1').setAttribute('x', breedte_werknemers_2019_functie_1 + breedte_werknemers_2019_functie_2 + 536);
+		document.getElementById('percentage_' + functie + '_1').textContent = werknemers_2020_functie_1 + '%';
+		document.getElementById('percentage_' + functie + '_1').setAttribute('x', breedte_werknemers_2020_functie_1 + breedte_werknemers_2020_functie_2 + 536);
 
 		document.getElementById( functie + '_2').setAttribute('visibility', 'hidden');
 		document.getElementById('percentage_' + functie + '_2').setAttribute('visibility', 'hidden');
 
 		if ( typeof groep_2 != "undefined" ) {
-			document.getElementById( functie + '_2').setAttribute('width', breedte_werknemers_2019_functie_2);
-			document.getElementById( functie + '_2').setAttribute('x', breedte_werknemers_2019_functie_1 + 516);
+			document.getElementById( functie + '_2').setAttribute('width', breedte_werknemers_2020_functie_2);
+			document.getElementById( functie + '_2').setAttribute('x', breedte_werknemers_2020_functie_1 + 516);
 			document.getElementById( functie + '_2').setAttribute('class', groep_2_class);
 			document.getElementById( functie + '_2').setAttribute('visibility', 'visible');
 			document.getElementById('percentage_' + functie + '_2').setAttribute('visibility', 'visible');
 			document.getElementById('percentage_' + functie + '_2').setAttribute('class', groep_2_class);
-			document.getElementById('percentage_' + functie + '_2').textContent = werknemers_2019_functie_2 + '%';
-			document.getElementById('percentage_' + functie + '_2').setAttribute('x', breedte_werknemers_2019_functie_1 + breedte_werknemers_2019_functie_2 + 596);
+			document.getElementById('percentage_' + functie + '_2').textContent = werknemers_2020_functie_2 + '%';
+			document.getElementById('percentage_' + functie + '_2').setAttribute('x', breedte_werknemers_2020_functie_1 + breedte_werknemers_2020_functie_2 + 596);
 		}
-		document.getElementById('percentage_' + functie + '_3').textContent = werknemers_2019_functie_3 + '%';
+		document.getElementById('percentage_' + functie + '_3').textContent = werknemers_2020_functie_3 + '%';
 
 	})
 

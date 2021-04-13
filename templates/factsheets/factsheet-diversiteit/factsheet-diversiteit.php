@@ -2,7 +2,7 @@
 get_header();
 ?>
 
-<script src="<?php echo $protocol . $host . '/wp-content/themes/trendfiles-theme/js/factsheet-diversiteit.js'; ?>"></script>
+<script src="<?php echo $protocol . $host . '/wp-content/themes/trendfiles-theme/templates/factsheets/factsheet-diversiteit/factsheet-diversiteit.js'; ?>"></script>
 
 <article <?php post_class('article'); ?> id="nederland">
 	<div class="row header">
@@ -21,9 +21,12 @@ get_header();
 		<div class="col">
 			<div class="block entry-content no-border">
 				<svg id="factsheet-ti-installatie" width="1888" height="2699" viewBox="0 0 1888 2699" fill="none" xmlns="http://www.w3.org/2000/svg">
+					<defs>
+						<style type="text/css">@import url('//fonts.googleapis.com/css?family=Roboto:700,500,400,300');</style>
+					</defs>
 					<?php // echo file_get_contents( $protocol . $host . '/wp-content/themes/trendfiles-theme/img/factsheet-diversiteit-achtergrond.svg'); ?>
-					<?php echo file_get_contents( $protocol . $host . '/wp-content/themes/trendfiles-theme/img/factsheet-diversiteit.svg'); ?>
-					<?php echo file_get_contents( $protocol . $host . '/wp-content/themes/trendfiles-theme/img/factsheet-diversiteit-data.svg'); ?>
+					<?php echo file_get_contents( $protocol . $host . '/wp-content/themes/trendfiles-theme/templates/factsheets/factsheet-diversiteit/factsheet-diversiteit.svg'); ?>
+					<?php echo file_get_contents( $protocol . $host . '/wp-content/themes/trendfiles-theme/templates/factsheets/factsheet-diversiteit/factsheet-diversiteit-data.svg'); ?>
 				</svg>
 			</div>
 		</div>
