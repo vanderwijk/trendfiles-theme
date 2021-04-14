@@ -230,9 +230,10 @@
 </g>
 <g id="werknemers_vrouwen_2019">
 <path id="vlak_2019_7" d="M789 572H54V642H789V572Z" fill="#F4F4F4"/>
-<text id="2019_8" fill="#3E3F41" xml:space="preserve" style="white-space: pre" font-family="Roboto" font-size="24" letter-spacing="0em"><tspan x="712" y="618.203">2019</tspan></text>
+
+<text id="" fill="#3E3F41" xml:space="preserve" style="white-space: pre" font-family="Roboto" font-size="24" letter-spacing="0em"><tspan x="712" y="618.203">2019</tspan></text>
 </g>
-<text id="vrouwen_2" fill="#414143" xml:space="preserve" style="white-space: pre" font-family="Roboto" font-size="24" letter-spacing="0em"><tspan x="53.7524" y="553.124">vrouwen</tspan></text>
+<text id="vrouwen_2" fill="#414143" xml:space="preserve" style="white-space: pre" font-family="Roboto" font-size="24" letter-spacing="0em"><tspan x="53.7524" y="553.125">vrouwen</tspan></text>
 </g>
 <g id="aantal_werknemers">
 <g id="werknemers">

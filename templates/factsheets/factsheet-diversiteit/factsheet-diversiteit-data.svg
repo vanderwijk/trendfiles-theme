@@ -3,7 +3,7 @@
 	<text id="werknemers_2020_totaal" fill="#074953" font-family="Roboto" font-size="57" font-weight="500" x="79" y="458">0</text>
 	<text id="beroepsbevolking_2020_totaal" fill="#074953" font-family="Roboto" font-size="57" x="1136" y="458">0</text>
 
-	<rect id="werknemers_2020_totaal_rect" x="54" y="572" width="735" height="64" fill="#F4F4F4"></rect>
+
 	<rect id="werknemers_2020_vrouwen_rect" x="54" y="572" width="0" height="64" fill="#A8D0D6"></rect>
 	<text id="werknemers_2020_vrouwen" fill="#A8D0D6" font-family="Roboto" font-size="39" x="150" y="619">0</text>
 	<text id="werknemers_2020_vrouwen_percentage" fill="#A8D0D6" font-family="Roboto" font-size="39" x="280" y="619">(0%)</text>
