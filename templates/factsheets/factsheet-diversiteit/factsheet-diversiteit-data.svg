@@ -8,7 +8,6 @@
 	<text id="werknemers_2020_vrouwen" fill="#A8D0D6" font-family="Roboto" font-size="39" x="150" y="619">0</text>
 	<text id="werknemers_2020_vrouwen_percentage" fill="#A8D0D6" font-family="Roboto" font-size="39" x="280" y="619">(0%)</text>
 
-
 	<rect id="directie_totaal_rect" x="516" y="1529" width="1221" height="45" fill="#ECEDED"></rect>
 	<rect id="directie_1" x="516" y="1529" width="0" height="45" fill="#A8D0D6"></rect>
 	<rect id="directie_2" x="516" y="1529" width="0" height="45" fill="#074953"></rect>
