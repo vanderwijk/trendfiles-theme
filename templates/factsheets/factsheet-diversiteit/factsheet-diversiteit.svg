@@ -49,7 +49,7 @@
 <g id="beroepsbevolking_55plus_2019">
 <path id="vlak_2019" d="M1832.8 1225H1098V1295H1832.8V1225Z" fill="#F4F4F4"/>
 <path id="vulling_2019" d="M1249.84 1225H1098V1295H1249.84V1225Z" fill="#919494"/>
-<text id="beroepsbevolking_2019_ouder_dan_55_jaar" fill="#919494" xml:space="preserve" style="white-space: pre" font-family="Roboto" font-size="32" letter-spacing="0em"><tspan x="1270.5" y="1267.29">1.920.000</tspan></text>
+<text id="beroepsbevolking_2019_ouder_dan_55_jaar" fill="#919494" xml:space="preserve" style="white-space: pre" font-family="Roboto" font-size="32" letter-spacing="0em"><tspan x="1270.5" y="1267.29">2.000.000</tspan></text>
 <text id="beroepsbevolking_2019_ouder_dan_55_jaar_percentage" fill="#919494" xml:space="preserve" style="white-space: pre" font-family="Roboto" font-size="32" letter-spacing="0em"><tspan x="1423" y="1267.29">(21%)</tspan></text>
 <text id="2019" fill="#3E3F41" xml:space="preserve" style="white-space: pre" font-family="Roboto" font-size="24" letter-spacing="0em"><tspan x="1755" y="1268.2">2019</tspan></text>
 </g>
@@ -59,8 +59,8 @@
 <g id="beroepsbevolking_nietwesters_2019">
 <path id="vlak_2019_2" d="M1829.88 1015H1098V1085H1829.88V1015Z" fill="#F4F4F4"/>
 <path id="vulling_2019_2" d="M1171.64 1015H1098V1085H1171.64V1015Z" fill="#074953"/>
-<text id="beroepsbevolking_2019_niet_westerse_migratieachtergrond" fill="#074953" xml:space="preserve" style="white-space: pre" font-family="Roboto" font-size="32" letter-spacing="0em"><tspan x="1192.34" y="1057.38">954.000</tspan></text>
-<text id="beroepsbevolking_2019_niet_westerse_migratieachtergrond_percentage" fill="#074953" xml:space="preserve" style="white-space: pre" font-family="Roboto" font-size="32" letter-spacing="0em"><tspan x="1322" y="1057.38">(10%)</tspan></text>
+<text id="beroepsbevolking_2019_niet_westerse_migratieachtergrond" fill="#074953" xml:space="preserve" style="white-space: pre" font-family="Roboto" font-size="32" letter-spacing="0em"><tspan x="1192.34" y="1057.38">1.160.000</tspan></text>
+<text id="beroepsbevolking_2019_niet_westerse_migratieachtergrond_percentage" fill="#074953" xml:space="preserve" style="white-space: pre" font-family="Roboto" font-size="32" letter-spacing="0em"><tspan x="1352" y="1057.38">(12%)</tspan></text>
 <text id="2019_2" fill="#3E3F41" xml:space="preserve" style="white-space: pre" font-family="Roboto" font-size="24" letter-spacing="0em"><tspan x="1757" y="1058.2">2019</tspan></text>
 </g>
 <g id="beroepsbevolking_nietwesters_2015">
@@ -81,8 +81,8 @@
 <g id="beroepsbevolking_westers_2019">
 <path id="vlak_2019_3" d="M1832.83 792H1098.07V862H1832.83V792Z" fill="#F4F4F4"/>
 <path id="vulling_2019_3" d="M1186.46 792H1098V862H1186.46V792Z" fill="#258999"/>
-<text id="beroepsbevolking_2019_westerse_migratieachtergrond" fill="#258999" xml:space="preserve" style="white-space: pre" font-family="Roboto" font-size="32" letter-spacing="0em"><tspan x="1210.48" y="833.977">1.109.000</tspan></text>
-<text id="beroepsbevolking_2019_westerse_migratieachtergrond_percentage" fill="#258999" xml:space="preserve" style="white-space: pre" font-family="Roboto" font-size="32" letter-spacing="0em"><tspan x="1362" y="833.977">(12%)</tspan></text>
+<text id="beroepsbevolking_2019_westerse_migratieachtergrond" fill="#258999" xml:space="preserve" style="white-space: pre" font-family="Roboto" font-size="32" letter-spacing="0em"><tspan x="1210.48" y="833.977">985.000</tspan></text>
+<text id="beroepsbevolking_2019_westerse_migratieachtergrond_percentage" fill="#258999" xml:space="preserve" style="white-space: pre" font-family="Roboto" font-size="32" letter-spacing="0em"><tspan x="1332" y="833.977">(11%)</tspan></text>
 <text id="2019_3" fill="#3E3F41" xml:space="preserve" style="white-space: pre" font-family="Roboto" font-size="24" letter-spacing="0em"><tspan x="1756" y="835.203">2019</tspan></text>
 </g>
 <text id="westerse migratieachtergrond" fill="#414143" xml:space="preserve" style="white-space: pre" font-family="Roboto" font-size="24" letter-spacing="0em"><tspan x="1097.72" y="771.515">westerse migratieachtergrond</tspan></text>
@@ -97,7 +97,7 @@
 <g id="beroepsbevolking_vrouwen_2019">
 <path id="vlak_2019_4" d="M1834.38 572H1098V642H1834.38V572Z" fill="#F4F4F4"/>
 <path id="vulling_2019_4" d="M1444.08 572H1098V642H1444.08V572Z" fill="#A8D0D6"/>
-<text id="beroepsbevolking_2019_vrouwen" fill="#A8D0D6" xml:space="preserve" style="white-space: pre" font-family="Roboto" font-size="32" letter-spacing="0em"><tspan x="1451" y="615.291">4.336.000</tspan></text>
+<text id="beroepsbevolking_2019_vrouwen" fill="#A8D0D6" xml:space="preserve" style="white-space: pre" font-family="Roboto" font-size="32" letter-spacing="0em"><tspan x="1451" y="615.291">4.372.000</tspan></text>
 <text id="beroepsbevolking_2019_vrouwen_percentage" fill="#A8D0D6" xml:space="preserve" style="white-space: pre" font-family="Roboto" font-size="32" letter-spacing="0em"><tspan x="1607" y="615.291">(47%)</tspan></text>
 <text id="2019_4" fill="#3E3F41" xml:space="preserve" style="white-space: pre" font-family="Roboto" font-size="24" letter-spacing="0em"><tspan x="1755" y="615.203">2019</tspan></text>
 </g>
@@ -163,8 +163,8 @@
 <path id="vlak 2019 3" d="M789 1225H54V1295H789V1225Z" fill="#F4F4F4"/>
 <path id="vulling 2119" d="M186.105 1225H54V1295H186.105V1225Z" fill="#919494"/>
 <text id="2019_5" fill="#3E3F41" xml:space="preserve" style="white-space: pre" font-family="Roboto" font-size="24" letter-spacing="0em"><tspan x="712" y="1268.2">2019</tspan></text>
-<text id="werknemers_2019_ouder_dan_55_jaar" fill="#919494" xml:space="preserve" style="white-space: pre" font-family="Roboto" font-size="39" letter-spacing="0em"><tspan x="202.022" y="1268.93">24.560</tspan></text>
-<text id="werknemers_2019_ouder_dan_55_jaar_percentage" fill="#919494" xml:space="preserve" style="white-space: pre" font-family="Roboto" font-size="39" letter-spacing="0em"><tspan x="338" y="1269.33">(18%)</tspan></text>
+<text id="werknemers_2019_ouder_dan_55_jaar" fill="#919494" xml:space="preserve" style="white-space: pre" font-family="Roboto" font-size="39" letter-spacing="0em"><tspan x="202.022" y="1268.93">25.715</tspan></text>
+<text id="werknemers_2019_ouder_dan_55_jaar_percentage" fill="#919494" xml:space="preserve" style="white-space: pre" font-family="Roboto" font-size="39" letter-spacing="0em"><tspan x="338" y="1269.33">(19%)</tspan></text>
 </g>
 <text id="55+_2" fill="#414143" xml:space="preserve" style="white-space: pre" font-family="Roboto" font-size="24" letter-spacing="0em"><tspan x="53.7515" y="1206.84">55+</tspan></text>
 </g>
@@ -186,8 +186,8 @@
 <path id="vlak_2019_5" d="M789 1015H54V1085H789V1015Z" fill="#F4F4F4"/>
 <path id="vulling_2019_5" d="M105.358 1015H54V1085H105.358V1015Z" fill="#074953"/>
 <text id="2019_6" fill="#3E3F41" xml:space="preserve" style="white-space: pre" font-family="Roboto" font-size="24" letter-spacing="0em"><tspan x="712" y="1061.2">2019</tspan></text>
-<text id="werknemers_2019_niet_westerse_migratieachtergrond" fill="#074953" xml:space="preserve" style="white-space: pre" font-family="Roboto" font-size="39" letter-spacing="0em"><tspan x="122.022" y="1061.93">9.580</tspan></text>
-<text id="werknemers_2019_niet_westerse_migratieachtergrond_percentage" fill="#074953" xml:space="preserve" style="white-space: pre" font-family="Roboto" font-size="39" letter-spacing="0em"><tspan x="237" y="1063.33">(7%)</tspan></text>
+<text id="werknemers_2019_niet_westerse_migratieachtergrond" fill="#074953" xml:space="preserve" style="white-space: pre" font-family="Roboto" font-size="39" letter-spacing="0em"><tspan x="122.022" y="1061.93">10.508</tspan></text>
+<text id="werknemers_2019_niet_westerse_migratieachtergrond_percentage" fill="#074953" xml:space="preserve" style="white-space: pre" font-family="Roboto" font-size="39" letter-spacing="0em"><tspan x="237" y="1063.33"> (8%)</tspan></text>
 </g>
 <text id="niet-westerse migratieachtergrond_2" fill="#414143" xml:space="preserve" style="white-space: pre" font-family="Roboto" font-size="24" letter-spacing="0em"><tspan x="53.7534" y="994.515">niet-westerse migratieachtergrond</tspan></text>
 </g>
@@ -208,7 +208,7 @@
 <g id="werknemers_westers_2019">
 <path id="vlak_2019_6" d="M789 792H54V862H789V792Z" fill="#F4F4F4"/>
 <path id="vulling_2019_6" d="M98.01 792H54V862H98.01V792Z" fill="#258999"/>
-<text id="werknemers_2019_westerse_migratieachtergrond" fill="#258999" xml:space="preserve" style="white-space: pre" font-family="Roboto" font-size="39" letter-spacing="0em"><tspan x="122.022" y="838.933">7.970</tspan></text>
+<text id="werknemers_2019_westerse_migratieachtergrond" fill="#258999" xml:space="preserve" style="white-space: pre" font-family="Roboto" font-size="39" letter-spacing="0em"><tspan x="122.022" y="838.933">8.562</tspan></text>
 <text id="percentage_werknemers_westers_2019" fill="#258999" xml:space="preserve" style="white-space: pre" font-family="Roboto" font-size="39" letter-spacing="0em"><tspan x="232" y="838.933">(6%)</tspan></text>
 <text id="2019_7" fill="#3E3F41" xml:space="preserve" style="white-space: pre" font-family="Roboto" font-size="24" letter-spacing="0em"><tspan x="712" y="837.203">2019</tspan></text>
 </g>

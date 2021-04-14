@@ -56,8 +56,8 @@
 				"mannen": 97
 			},
 			"plannen_en_werkvoorbereiding": {
-				"vrouwen": 10,
-				"mannen": 90
+				"vrouwen": 11,
+				"mannen": 89
 			},
 			"tekenen": {
 				"vrouwen": 6,
@@ -80,36 +80,36 @@
 				"mannen": 100
 			},
 			"staf_administratief_financieel": {
-				"vrouwen": 79,
-				"mannen": 21
+				"vrouwen": 80,
+				"mannen": 20
 			},
 			"staf_personeelsfunctionaris": {
-				"vrouwen": 77,
-				"mannen": 23
+				"vrouwen": 78,
+				"mannen": 22
 			},
 			"staf_verkopen": {
-				"vrouwen": 17,
-				"mannen": 83
+				"vrouwen": 18,
+				"mannen": 82
 			},
 			"staf_afdelingschef": {
 				"vrouwen": 3,
 				"mannen": 97
 			},
 			"staf_bedrijfsleiding": {
-				"vrouwen": 10,
-				"mannen": 90
+				"vrouwen": 11,
+				"mannen": 89
 			},
 			"staf_overig": {
-				"vrouwen": 22,
-				"mannen": 78
+				"vrouwen": 21,
+				"mannen": 79
 			},
 			"overig_technisch_uitvoerend": {
-				"vrouwen": 19,
-				"mannen": 81
+				"vrouwen": 4,
+				"mannen": 96
 			},
 			"overig": {
-				"vrouwen": 14,
-				"mannen": 86
+				"vrouwen": 20,
+				"mannen": 80
 			},
 			"alle_functies": {
 				"vrouwen": 11,
@@ -118,12 +118,12 @@
 		},
 		"leeftijd": {
 			"directie": {
-				"ouder_dan_55_jaar": 32,
-				"jonger_dan_55_jaar": 68
+				"ouder_dan_55_jaar": 34,
+				"jonger_dan_55_jaar": 66
 			},
 			"ontwikkelen": {
-				"ouder_dan_55_jaar": 18,
-				"jonger_dan_55_jaar": 82
+				"ouder_dan_55_jaar": 19,
+				"jonger_dan_55_jaar": 81
 			},
 			"plannen_en_werkvoorbereiding": {
 				"ouder_dan_55_jaar": 17,
@@ -134,143 +134,143 @@
 				"jonger_dan_55_jaar": 85
 			},
 			"technisch_voorbereidend_overig": {
-				"ouder_dan_55_jaar": 27,
-				"jonger_dan_55_jaar": 73
+				"ouder_dan_55_jaar": 28,
+				"jonger_dan_55_jaar": 72
 			},
 			"monteren_installeren": {
 				"ouder_dan_55_jaar": 16,
 				"jonger_dan_55_jaar": 84
 			},
 			"leidinggevend_monteren_installeren": {
-				"ouder_dan_55_jaar": 38,
-				"jonger_dan_55_jaar": 62
+				"ouder_dan_55_jaar": 39,
+				"jonger_dan_55_jaar": 61
 			},
 			"voorbewerken": {
-				"ouder_dan_55_jaar": 22,
-				"jonger_dan_55_jaar": 78
+				"ouder_dan_55_jaar": 25,
+				"jonger_dan_55_jaar": 75
 			},
 			"staf_administratief_financieel": {
-				"ouder_dan_55_jaar": 20,
-				"jonger_dan_55_jaar": 80
-			},
-			"staf_personeelsfunctionaris": {
-				"ouder_dan_55_jaar": 12,
-				"jonger_dan_55_jaar": 88
-			},
-			"staf_verkopen": {
 				"ouder_dan_55_jaar": 21,
 				"jonger_dan_55_jaar": 79
+			},
+			"staf_personeelsfunctionaris": {
+				"ouder_dan_55_jaar": 13,
+				"jonger_dan_55_jaar": 87
+			},
+			"staf_verkopen": {
+				"ouder_dan_55_jaar": 22,
+				"jonger_dan_55_jaar": 78
 			},
 			"staf_afdelingschef": {
 				"ouder_dan_55_jaar": 39,
 				"jonger_dan_55_jaar": 62
 			},
 			"staf_bedrijfsleiding": {
-				"ouder_dan_55_jaar": 10,
-				"jonger_dan_55_jaar": 90
+				"ouder_dan_55_jaar": 29,
+				"jonger_dan_55_jaar": 71
 			},
 			"staf_overig": {
 				"ouder_dan_55_jaar": 19,
 				"jonger_dan_55_jaar": 81
 			},
 			"overig_technisch_uitvoerend": {
-				"ouder_dan_55_jaar": 25,
-				"jonger_dan_55_jaar": 75
+				"ouder_dan_55_jaar": 22,
+				"jonger_dan_55_jaar": 78
 			},
 			"overig": {
-				"ouder_dan_55_jaar": 15,
-				"jonger_dan_55_jaar": 85
+				"ouder_dan_55_jaar": 17,
+				"jonger_dan_55_jaar": 83
 			},
 			"alle_functies": {
-				"ouder_dan_55_jaar": 18,
-				"jonger_dan_55_jaar": 82
+				"ouder_dan_55_jaar": 19,
+				"jonger_dan_55_jaar": 81
 			}
 		},
 		"afkomst": {
 			"directie": {
-				"westerse_migratieachtergrond": 2,
-				"niet_westerse_migratieachtergrond": 6,
-				"autochtoon": 92
+				"westerse_migratieachtergrond": 9,
+				"niet_westerse_migratieachtergrond": 1,
+				"autochtoon": 90
 			},
 			"ontwikkelen": {
-				"westerse_migratieachtergrond": 8,
+				"westerse_migratieachtergrond": 9,
 				"niet_westerse_migratieachtergrond": 8,
-				"autochtoon": 84
+				"autochtoon": 83
 			},
 			"plannen_en_werkvoorbereiding": {
 				"westerse_migratieachtergrond": 5,
-				"niet_westerse_migratieachtergrond": 5,
-				"autochtoon": 90
-			},
-			"tekenen": {
-				"westerse_migratieachtergrond": 7,
-				"niet_westerse_migratieachtergrond": 8,
-				"autochtoon":85
-			},
-			"technisch_voorbereidend_overig": {
-				"westerse_migratieachtergrond": 7,
-				"niet_westerse_migratieachtergrond": 7,
-				"autochtoon": 97
-			},
-			"monteren_installeren": {
-				"westerse_migratieachtergrond": 9,
 				"niet_westerse_migratieachtergrond": 6,
-				"autochtoon": 85
-			},
-			"leidinggevend_monteren_installeren": {
-				"westerse_migratieachtergrond": 4,
-				"niet_westerse_migratieachtergrond": 6,
-				"autochtoon": 90
-			},
-			"voorbewerken": {
-				"westerse_migratieachtergrond": 3,
-				"niet_westerse_migratieachtergrond": 9,
 				"autochtoon": 89
 			},
-			"staf_administratief_financieel": {
+			"tekenen": {
+				"westerse_migratieachtergrond": 8,
+				"niet_westerse_migratieachtergrond": 7,
+				"autochtoon": 85
+			},
+			"technisch_voorbereidend_overig": {
 				"westerse_migratieachtergrond": 5,
-				"niet_westerse_migratieachtergrond": 6,
+				"niet_westerse_migratieachtergrond": 3,
+				"autochtoon": 91
+			},
+			"monteren_installeren": {
+				"westerse_migratieachtergrond": 6,
+				"niet_westerse_migratieachtergrond": 10,
+				"autochtoon": 84
+			},
+			"leidinggevend_monteren_installeren": {
+				"westerse_migratieachtergrond": 7,
+				"niet_westerse_migratieachtergrond": 5,
+				"autochtoon": 89
+			},
+			"voorbewerken": {
+				"westerse_migratieachtergrond": 10,
+				"niet_westerse_migratieachtergrond": 4,
+				"autochtoon": 86
+			},
+			"staf_administratief_financieel": {
+				"westerse_migratieachtergrond": 6,
+				"niet_westerse_migratieachtergrond": 4,
 				"autochtoon": 89
 			},
 			"staf_personeelsfunctionaris": {
-				"westerse_migratieachtergrond": 5,
+				"westerse_migratieachtergrond": 4,
 				"niet_westerse_migratieachtergrond": 5,
-				"autochtoon": 90
+				"autochtoon": 92
 			},
 			"staf_verkopen": {
-				"westerse_migratieachtergrond": 3,
-				"niet_westerse_migratieachtergrond": 6,
+				"westerse_migratieachtergrond": 6,
+				"niet_westerse_migratieachtergrond": 3,
 				"autochtoon": 91
 			},
 			"staf_afdelingschef": {
-				"westerse_migratieachtergrond": 1,
-				"niet_westerse_migratieachtergrond": 7,
-				"autochtoon": 92
+				"westerse_migratieachtergrond": 6,
+				"niet_westerse_migratieachtergrond": 1,
+				"autochtoon": 93
 			},
 			"staf_bedrijfsleiding": {
-				"westerse_migratieachtergrond": 3,
-				"niet_westerse_migratieachtergrond": 7,
+				"westerse_migratieachtergrond": 7,
+				"niet_westerse_migratieachtergrond": 3,
 				"autochtoon": 90
 			},
 			"staf_overig": {
-				"westerse_migratieachtergrond": 4,
-				"niet_westerse_migratieachtergrond": 7,
+				"westerse_migratieachtergrond": 7,
+				"niet_westerse_migratieachtergrond": 5,
 				"autochtoon": 89
 			},
 			"overig_technisch_uitvoerend": {
-				"westerse_migratieachtergrond": 8,
+				"westerse_migratieachtergrond": 7,
 				"niet_westerse_migratieachtergrond": 8,
-				"autochtoon": 84
+				"autochtoon": 85
 			},
 			"overig": {
 				"westerse_migratieachtergrond": 7,
-				"niet_westerse_migratieachtergrond": 6,
-				"autochtoon": 87
+				"niet_westerse_migratieachtergrond": 7,
+				"autochtoon": 86
 			},
 			"alle_functies": {
 				"westerse_migratieachtergrond": 6,
-				"niet_westerse_migratieachtergrond": 7,
-				"autochtoon": 87
+				"niet_westerse_migratieachtergrond": 8,
+				"autochtoon": 86
 			}
 		}
 	}
