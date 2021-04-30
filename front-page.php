@@ -32,6 +32,14 @@
 			</a>
 		</div>
 		<div class="card">
+			<a href="https://trendfiles.wij-techniek.nl/wp-content/uploads/ti-branche-en-ti-beroepen.pdf">
+				<img src="/wp-content/uploads/ti-branche-en-ti-beroepen.png" alt="Arbeidsmarkt technische installatiebranche 2020" />
+				<h3>Rapport</h3>
+				<h4>TI-branche en TI-beroepen</h4>
+				<p>Analyse en rapportage op basis van onderzoek onder werknemers en werkgevers</p>
+			</a>
+		</div>
+		<div class="card" style="display:none;">
 			<a href="https://trendfiles.wij-techniek.nl/wp-content/uploads/arbeidsmarkt-technische-installatiebranche-2020.pdf">
 				<img src="/wp-content/themes/trendfiles-theme/img/arbeidsmarkt-technische-installatiebranche-2020.png" alt="Arbeidsmarkt technische installatiebranche 2020" />
 				<h3>Enquête</h3>
