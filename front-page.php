@@ -12,7 +12,7 @@
 				<img src="/wp-content/themes/trendfiles-theme/img/update-factsheet-ti-installatie.svg" alt="Update-Factsheet Technische installatie" />
 				<h3>Update-Factsheet</h3>
 				<h4>Technische installatiebranche</h4>
-				<p>NL en per provincie<br>april 2021</p>
+				<p>NL en per provincie<br>mei 2021</p>
 			</a>
 		</div>
 		<div class="card">
