@@ -1,6 +1,6 @@
 <ul class="sharing">
 	<li>
-		<a href="https://www.linkedin.com/shareArticle?mini=true&url=<?php the_permalink(); ?>" title="Deel deze pagina op Linkedin" target="_blank"><div class="dashicons dashicons-linkedin"></div></a>
+		<a href="https://www.linkedin.com/sharing/share-offsite/?url=<?php the_permalink(); ?>" title="Deel deze pagina op Linkedin" target="_blank"><div class="dashicons dashicons-linkedin"></div></a>
 	</li>
 	<li>
 		<a href="http://twitter.com/home?status=<?php the_title_attribute(); ?> <?php the_permalink(); ?> via @OTIBTrendfiles" title="Deel deze pagina op Twitter" target="_blank"><div class="dashicons dashicons-twitter"></div></a>
