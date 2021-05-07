@@ -1,5 +1,5 @@
 <?php
-define('TRENDFILES_THEME_VER', '2.1.4');
+define('TRENDFILES_THEME_VER', '2.1.5');
 
 if (isset($_SERVER['HTTPS'])) {
 	$protocol = ($_SERVER['HTTPS'] && $_SERVER['HTTPS'] != "off") ? "https://" : "http://";
