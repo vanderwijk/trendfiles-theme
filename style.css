@@ -881,6 +881,10 @@ ul.knoppen li.pdf{
 /* Sharing
 ----------------------------------------------------------------------------------------------------*/
 
+.block ul.sharing {
+	line-height: auto;
+}
+
 .single .article .sharing li {
 	display: inline-block;
 	margin: 0 .625em 0 0;
@@ -890,6 +894,8 @@ ul.knoppen li.pdf{
 .single .article .sharing li .dashicons {
 	font-size: 24px;
 	line-height: 24px;
+	width: 24px;
+	height: 24px;
 }
 
 .single .article .sharing a {
