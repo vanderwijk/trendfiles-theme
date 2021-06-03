@@ -46,7 +46,7 @@ jQuery(document).ready(function($) {
 function maakGrafiek(regio) {
 	//console.log( gegevens );
 
-	var aantal_bedrijven_per_jaar = gegevens[regio].aantal_bedrijven_per_kwartaal.kwartaal_2021_1;
+	var aantal_bedrijven_per_jaar = gegevens[regio].aantal_bedrijven_per_kwartaal.kwartaal_2021_2;
 
 	document.getElementById('aantal_bedrijven').textContent = formatNumber(aantal_bedrijven_per_jaar);
 
@@ -80,15 +80,16 @@ function maakGrafiek(regio) {
 	//document.getElementById('aantal_bedrijven_per_jaar_2017').setAttribute('x', x2_aantal_bedrijven_per_jaar_2017 + 10);
 	//document.getElementById('aantal_bedrijven_per_jaar_2016').setAttribute('x', x2_aantal_bedrijven_per_jaar_2016 + 10);
 
+	var aantal_bedrijven_per_kwartaal_2021_2 = gegevens[regio].aantal_bedrijven_per_kwartaal.kwartaal_2021_2;
 	var aantal_bedrijven_per_kwartaal_2021_1 = gegevens[regio].aantal_bedrijven_per_kwartaal.kwartaal_2021_1;
 	var aantal_bedrijven_per_kwartaal_2020_4 = gegevens[regio].aantal_bedrijven_per_kwartaal.kwartaal_2020_4;
 	var aantal_bedrijven_per_kwartaal_2020_3 = gegevens[regio].aantal_bedrijven_per_kwartaal.kwartaal_2020_3;
 	var aantal_bedrijven_per_kwartaal_2020_2 = gegevens[regio].aantal_bedrijven_per_kwartaal.kwartaal_2020_2;
 
+	document.getElementById('aantal_bedrijven_per_kwartaal_2021_2').textContent = formatNumber(aantal_bedrijven_per_kwartaal_2021_2);
 	document.getElementById('aantal_bedrijven_per_kwartaal_2021_1').textContent = formatNumber(aantal_bedrijven_per_kwartaal_2021_1);
 	document.getElementById('aantal_bedrijven_per_kwartaal_2020_4').textContent = formatNumber(aantal_bedrijven_per_kwartaal_2020_4);
 	document.getElementById('aantal_bedrijven_per_kwartaal_2020_3').textContent = formatNumber(aantal_bedrijven_per_kwartaal_2020_3);
-	document.getElementById('aantal_bedrijven_per_kwartaal_2020_2').textContent = formatNumber(aantal_bedrijven_per_kwartaal_2020_2);
 
 	var minder_dan_25_werknemers = gegevens[regio].werknemers_bedrijfsgrootte.minder_dan_25_werknemers;
 	var van_25_tot_250_werknemers = gegevens[regio].werknemers_bedrijfsgrootte.van_25_tot_250_werknemers;
@@ -130,7 +131,7 @@ function maakGrafiek(regio) {
 	var aantal_zzp_ers_2019 = gegevens[regio].aantal_zzp_ers.jaar_2019;
 	document.getElementById('aantal_zzp_ers').textContent = formatNumber(aantal_zzp_ers_2019);
 
-	var aantal_werknemers_per_jaar = gegevens[regio].aantal_werknemers_per_kwartaal.kwartaal_2021_1;
+	var aantal_werknemers_per_jaar = gegevens[regio].aantal_werknemers_per_kwartaal.kwartaal_2021_2;
 	document.getElementById('aantal_werknemers').textContent = formatNumber(aantal_werknemers_per_jaar);
 
 	var aantal_werknemers_per_jaar_2020 = gegevens[regio].aantal_werknemers_per_jaar.jaar_2020;
@@ -153,15 +154,15 @@ function maakGrafiek(regio) {
 	document.getElementById('aantal_werknemers_per_jaar_2019').setAttribute('x', x2_aantal_werknemers_per_jaar_2019 + 10);
 	document.getElementById('aantal_werknemers_per_jaar_2018').setAttribute('x', x2_aantal_werknemers_per_jaar_2018 + 10);
 
-	var aantal_werknemers_per_kwartaal_2020_2 = gegevens[regio].aantal_werknemers_per_kwartaal.kwartaal_2020_2;
 	var aantal_werknemers_per_kwartaal_2020_3 = gegevens[regio].aantal_werknemers_per_kwartaal.kwartaal_2020_3;
 	var aantal_werknemers_per_kwartaal_2020_4 = gegevens[regio].aantal_werknemers_per_kwartaal.kwartaal_2020_4;
 	var aantal_werknemers_per_kwartaal_2021_1 = gegevens[regio].aantal_werknemers_per_kwartaal.kwartaal_2021_1;
+	var aantal_werknemers_per_kwartaal_2021_2 = gegevens[regio].aantal_werknemers_per_kwartaal.kwartaal_2021_2;
 
-	document.getElementById('aantal_werknemers_per_kwartaal_2020_2').textContent = formatNumber(aantal_werknemers_per_kwartaal_2020_2);
 	document.getElementById('aantal_werknemers_per_kwartaal_2020_3').textContent = formatNumber(aantal_werknemers_per_kwartaal_2020_3);
 	document.getElementById('aantal_werknemers_per_kwartaal_2020_4').textContent = formatNumber(aantal_werknemers_per_kwartaal_2020_4);
 	document.getElementById('aantal_werknemers_per_kwartaal_2021_1').textContent = formatNumber(aantal_werknemers_per_kwartaal_2021_1);
+	document.getElementById('aantal_werknemers_per_kwartaal_2021_2').textContent = formatNumber(aantal_werknemers_per_kwartaal_2021_2);
 
 	var mannen = gegevens[regio].geslacht.mannen;
 	var vrouwen = gegevens[regio].geslacht.vrouwen;

@@ -12,7 +12,7 @@
 				<img src="/wp-content/themes/trendfiles-theme/img/update-factsheet-ti-installatie.svg" alt="Update-Factsheet Technische installatie" />
 				<h3>Update-Factsheet</h3>
 				<h4>Technische installatiebranche</h4>
-				<p>NL en per provincie<br>mei 2021</p>
+				<p>NL en per provincie<br>juni 2021</p>
 			</a>
 		</div>
 		<div class="card">
@@ -33,7 +33,7 @@
 		</div>
 		<div class="card">
 			<a href="https://trendfiles.wij-techniek.nl/wp-content/uploads/ti-branche-en-ti-beroepen.pdf">
-				<img src="/wp-content/uploads/ti-branche-en-ti-beroepen.png" alt="Arbeidsmarkt technische installatiebranche 2020" />
+				<img src="/wp-content/themes/trendfiles-theme/img/ti-branche-en-ti-beroepen.png" alt="Arbeidsmarkt technische installatiebranche 2020" />
 				<h3>Themarapport</h3>
 				<h4>Profiel TI branche en TI beroepen in de techniekketen</h4>
 				<p>Analyse en rapportage op basis van onderzoek onder werknemers en werkgevers</p>

@@ -4,7 +4,7 @@ Theme URI: https://trendfiles.wij-techniek.nl
 Author: Johan van der Wijk
 Author URI: https://thewebworks.nl
 Description: Wij Techniek trendfiles WordPress theme.
-Version: 2.1.6
+Version: 2.1.7
 */
 
 /* Reset
@@ -268,6 +268,10 @@ ul.knoppen li {
 	line-height: initial;
 	cursor: pointer;
 	white-space: nowrap;
+}
+
+#regioselectie li:last-child {
+	margin-right: 0;
 }
 
 ul.knoppen li.noord_nederland,
