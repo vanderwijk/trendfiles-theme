@@ -27,6 +27,12 @@ get_header();
 						<li class="pdf"><a download id="download-pdf" onClick="window.print();return false" href="/wp-content/themes/trendfiles-theme/pdf/factsheet_technischeinstallatiebranche_nederland.pdf">Print</a></li>
 					</ul>
 				</div>
+				<div class="sharing">
+					<span>Deel dit:</span>
+					<a href="http://twitter.com/home?status=Factsheet Technische Installatiebranche https://trendfiles.wij-techniek.nl/factsheet/technische-installatiebranche/ via @OTIBTrendfiles" title="Deel deze pagina op Twitter" target="_blank"><div class="dashicons dashicons-twitter"></div></a>
+					<a href="https://www.linkedin.com/sharing/share-offsite/?url=https://trendfiles.wij-techniek.nl/factsheet/technische-installatiebranche/" title="Deel deze pagina op Linkedin" target="_blank"><div class="dashicons dashicons-linkedin"></div></a>
+					<a href="whatsapp://send?text=Factsheet Technische Installatiebranche https://trendfiles.wij-techniek.nl/factsheet/technische-installatiebranche/" title="Deel deze pagina via WhatsApp"><div class="dashicons dashicons-whatsapp"></div></a>
+				</div>
 			</header>
 		</div>
 	</div>

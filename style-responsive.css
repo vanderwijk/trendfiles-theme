@@ -213,5 +213,11 @@ screen and (device-width: 360px) and (device-height: 640px) and (-webkit-device-
 	.footer .menu {
 		display: flex;
 	}
+
+	.sharing {
+		position: relative;
+		float: right;
+		top: -10px;
+	}
 	
 }
