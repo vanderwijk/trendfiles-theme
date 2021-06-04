@@ -16,6 +16,14 @@
 			</a>
 		</div>
 		<div class="card">
+			<a href="https://trendfiles.wij-techniek.nl/wp-content/uploads/instroom-vanuit-het-onderwijs-in-de-ti.pdf">
+				<img src="/wp-content/themes/trendfiles-theme/img/instroom-vanuit-het-onderwijs-in-de-ti.png" alt="Instroom vanuit het onderwijs in de TI" />
+				<h3>Themarapport</h3>
+				<h4>Instroom vanuit het onderwijs in de TI</h4>
+				<p>Trendanalyse periode 2008-2019</p>
+			</a>
+		</div>
+		<div class="card">
 			<a href="/video/trendfiles-talks/trendfiles-talks-rutger-leukfeldt/">
 				<img src="/wp-content/themes/trendfiles-theme/img/rutger-leukfeldt.jpg" alt="Rutger Leukfeldt" />
 				<h3>NIEUW - Trendfiles Talks</h3>
@@ -29,14 +37,6 @@
 				<h3>NIEUW - Trendfiles themafilm</h3>
 				<h4>Cybersecurity in de praktijk</h4>
 				<p>CS2 (venture Croonwolter&dros) over cybersecurity for control systems en hoe installatiebedrijven te maken krijgen met Cybersecurity.</p>
-			</a>
-		</div>
-		<div class="card">
-			<a href="https://trendfiles.wij-techniek.nl/wp-content/uploads/ti-branche-en-ti-beroepen.pdf">
-				<img src="/wp-content/themes/trendfiles-theme/img/ti-branche-en-ti-beroepen.png" alt="Arbeidsmarkt technische installatiebranche 2020" />
-				<h3>Themarapport</h3>
-				<h4>Profiel TI branche en TI beroepen in de techniekketen</h4>
-				<p>Analyse en rapportage op basis van onderzoek onder werknemers en werkgevers</p>
 			</a>
 		</div>
 		<div class="card" style="display:none;">
