@@ -8,6 +8,14 @@
 	<div class="block uitgelicht">
 		<h2 class="category">uitgelicht</h2>
 		<div class="card">
+			<a href="/video/trendfiles-talks/trendfiles-talks-frank-pot/">
+				<img src="/wp-content/themes/trendfiles-theme/img/frank-pot.jpg" alt="Frank Pot" />
+				<h3>NIEUW - Trendfiles Talks</h3>
+				<h4>Frank Pot</h4>
+				<p>Over de noodzaak van het aanbieden van een goede kwaliteit van arbeid en hoe dat te bereiken met sociale innovatie.</p>
+			</a>
+		</div>
+		<div class="card">
 			<a href="/factsheet/technische-installatiebranche/">
 				<img src="/wp-content/themes/trendfiles-theme/img/update-factsheet-ti-installatie.svg" alt="Update-Factsheet Technische installatie" />
 				<h3>Update-Factsheet</h3>
@@ -23,7 +31,7 @@
 				<p>Trendanalyse periode 2008-2019</p>
 			</a>
 		</div>
-		<div class="card">
+		<div class="card" style="display:none;">
 			<a href="/video/trendfiles-talks/trendfiles-talks-rutger-leukfeldt/">
 				<img src="/wp-content/themes/trendfiles-theme/img/rutger-leukfeldt.jpg" alt="Rutger Leukfeldt" />
 				<h3>NIEUW - Trendfiles Talks</h3>
