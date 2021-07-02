@@ -1,5 +1,5 @@
 <?php
-define('TRENDFILES_THEME_VER', '2.1.8');
+define('TRENDFILES_THEME_VER', '2.1.9');
 
 if (isset($_SERVER['HTTPS'])) {
 	$protocol = ($_SERVER['HTTPS'] && $_SERVER['HTTPS'] != "off") ? "https://" : "http://";
@@ -421,11 +421,15 @@ function filter_product_wpseo_title($title) {
 		if ( $query_var && $query_var === 'wervingsbehoefte' ) {
 			$title = 'Wervingsbehoefte';
 		}
-	}
+	} else if ( isset($wp_query->query_vars['factsheet'])) {
+		$query_var = $wp_query->query_vars['factsheet'];
 
+		if ( $query_var && $query_var === 'technische-installatiebranche' ) {
+			$title = 'Factsheet Technische Installatiebranche - Wij Techniek Trendfiles';
+		}
+	}
 	return $title;
 }
-add_filter( 'the_title', 'filter_product_wpseo_title' );
 add_filter( 'wpseo_title', 'filter_product_wpseo_title' );
 
 

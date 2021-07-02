@@ -6,6 +6,10 @@ function formatNumber (num) {
 jQuery(document).ready(function($) {
 
 	var regio = 'nederland';
+	var regio_label = 'Nederland';
+	var periode = $('#periode').html();
+	$(document).attr('title', 'Factsheet Technische Installatiebranche ' + regio_label + ' - ' + periode);
+
 	jQuery.ajax({
 		url: '/wp-content/themes/trendfiles-theme/templates/factsheets/technische-installatiebranche/factsheet-technische-installatiebranche.json',
 		dataType: 'json',
@@ -25,8 +29,8 @@ jQuery(document).ready(function($) {
 		var regio = $(this).attr('data-regio');
 		var regio_label = $(this).html();
 		$('#regio_label').html(regio_label);
-		console.log(regio_label);
 		$('article').attr('id', regio);
+		$(document).attr('title', 'Factsheet Technische Installatiebranche ' + regio_label + ' - ' + periode);
 		$('#download-pdf').attr('href', '/wp-content/themes/trendfiles-theme/pdf/factsheet_technischeinstallatiebranche_' + regio + '.pdf');
 		maakGrafiek( regio );
 	});
