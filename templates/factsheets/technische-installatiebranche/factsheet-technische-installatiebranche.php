@@ -2,7 +2,7 @@
 get_header();
 ?>
 
-<script src="<?php echo $protocol . $host . '/wp-content/themes/trendfiles-theme/templates/factsheets/technische-installatiebranche/factsheet-technische-installatiebranche.js'; ?>"></script>
+<script src="<?php echo $protocol . $host . '/wp-content/themes/trendfiles-theme/templates/factsheets/technische-installatiebranche/factsheet-technische-installatiebranche.js?ver=' . TRENDFILES_THEME_VER; ?>"></script>
 
 <article <?php post_class('article'); ?> id="nederland">
 	<div class="row header">
