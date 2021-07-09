@@ -9,7 +9,7 @@
 		<h2 class="category">uitgelicht</h2>
 		<div class="card">
 			<a href="/factsheet/leerwerkbanen-rendement/">
-				<img src="/wp-content/themes/trendfiles-theme/img/update-factsheet-leerwerkbanen-rendement.png" alt="UPDATE - Factsheet Leerwerkbanen & Rendement" />
+				<img src="/wp-content/themes/trendfiles-theme/img/update-factsheet-leerwerkbanen-rendement.svg" alt="UPDATE - Factsheet Leerwerkbanen & Rendement" />
 				<h3>UPDATE - Factsheet</h3>
 				<h4>Leerwerkbanen & Rendement</h4>
 				<p>NL en per provincie<br>juli 2021</p>
