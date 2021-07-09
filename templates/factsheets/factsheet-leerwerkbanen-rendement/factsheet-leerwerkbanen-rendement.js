@@ -28,7 +28,6 @@ jQuery(document).ready(function($) {
 		$(this).removeClass('disabled');
 		var regio = $(this).attr('data-regio');
 		var regio_label = $(this).html();
-		console.log(regio_label);
 		$('#regio_label').html(regio_label);
 		$('article').attr('id', regio);
 		$(document).attr('title', 'Factsheet Leerwerkbanen en Rendement ' + regio_label + ' - ' + periode);
