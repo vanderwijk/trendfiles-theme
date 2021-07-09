@@ -6,8 +6,12 @@ function formatNumber (num) {
 jQuery(document).ready(function($) {
 
 	var regio = 'nederland';
+	var regio_label = 'Nederland';
+	var periode = $('#periode').html();
+	$(document).attr('title', 'Factsheet Technische Installatiebranche ' + regio_label + ' - ' + periode);
+	
 	jQuery.ajax({
-		url: '/wp-content/themes/trendfiles-theme/js/factsheet-leerwerkbanen-rendement.json',
+		url: '/wp-content/themes/trendfiles-theme/templates/factsheets/factsheet-leerwerkbanen-rendement/factsheet-leerwerkbanen-rendement.json',
 		dataType: 'json',
 		success: function ( data, textStatus, jqXHR) {
 			gegevens = data;
