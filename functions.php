@@ -1,5 +1,5 @@
 <?php
-define('TRENDFILES_THEME_VER', '2.1.9');
+define('TRENDFILES_THEME_VER', '2.2.0');
 
 if (isset($_SERVER['HTTPS'])) {
 	$protocol = ($_SERVER['HTTPS'] && $_SERVER['HTTPS'] != "off") ? "https://" : "http://";
@@ -426,6 +426,10 @@ function filter_product_wpseo_title($title) {
 
 		if ( $query_var && $query_var === 'technische-installatiebranche' ) {
 			$title = 'Factsheet Technische Installatiebranche - Wij Techniek Trendfiles';
+		}
+
+		if ( $query_var && $query_var === 'leerwerkbanen-rendement' ) {
+			$title = 'Factsheet Leerwerkbanen en Rendement - Wij Techniek Trendfiles';
 		}
 	}
 	return $title;

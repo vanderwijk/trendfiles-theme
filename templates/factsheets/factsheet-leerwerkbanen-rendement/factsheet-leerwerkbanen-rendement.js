@@ -8,7 +8,7 @@ jQuery(document).ready(function($) {
 	var regio = 'nederland';
 	var regio_label = 'Nederland';
 	var periode = $('#periode').html();
-	$(document).attr('title', 'Factsheet Technische Installatiebranche ' + regio_label + ' - ' + periode);
+	$(document).attr('title', 'Factsheet Leerwerkbanen en Rendement ' + regio_label + ' - ' + periode);
 	
 	jQuery.ajax({
 		url: '/wp-content/themes/trendfiles-theme/templates/factsheets/factsheet-leerwerkbanen-rendement/factsheet-leerwerkbanen-rendement.json',
@@ -28,8 +28,10 @@ jQuery(document).ready(function($) {
 		$(this).removeClass('disabled');
 		var regio = $(this).attr('data-regio');
 		var regio_label = $(this).html();
+		console.log(regio_label);
 		$('#regio_label').html(regio_label);
 		$('article').attr('id', regio);
+		$(document).attr('title', 'Factsheet Leerwerkbanen en Rendement ' + regio_label + ' - ' + periode);
 		$('#download-pdf').attr('href', '/wp-content/themes/trendfiles-theme/pdf/factsheet_leerwerkbanen_rendement_' + regio + '.pdf');
 		maakGrafiek( regio );
 	});
