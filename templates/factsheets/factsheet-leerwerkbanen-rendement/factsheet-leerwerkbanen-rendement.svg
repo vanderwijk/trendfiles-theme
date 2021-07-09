@@ -371,7 +371,7 @@
 <text id="MBO niveau 1+2" fill="#414143" xml:space="preserve" style="white-space: pre" font-family="Roboto" font-size="24" letter-spacing="0em"><tspan x="243.011" y="658.684">MBO niveau 1+2</tspan></text>
 <text id="startende BBL leerlingen_2" fill="white" xml:space="preserve" style="white-space: pre" font-family="Roboto" font-size="24" letter-spacing="0em"><tspan x="282.453" y="488.203">startende&#10;</tspan><tspan x="257.223" y="516.203">BBL leerlingen</tspan></text>
 </g>
-<text id="schooljaar_2018_2019" fill="#258999" xml:space="preserve" style="white-space: pre" font-family="Roboto" font-size="36" letter-spacing="0em"><tspan x="747" y="258.305">Schooljaar 2018/2019</tspan></text>
+
 <g id="header">
 <path id="achtergrond header" d="M1888 0H0V209H1888V0Z" fill="white"/>
 <path id="lijn_2" d="M1564 164.325L0 164.325" stroke="#919494" stroke-miterlimit="10"/>
