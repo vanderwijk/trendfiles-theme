@@ -8,6 +8,14 @@
 	<div class="block uitgelicht">
 		<h2 class="category">uitgelicht</h2>
 		<div class="card">
+			<a href="/factsheet/leerwerkbanen-rendement/">
+				<img src="/wp-content/themes/trendfiles-theme/img/update-factsheet-leerwerkbanen-rendement.png" alt="UPDATE - Factsheet Leerwerkbanen & Rendement" />
+				<h3>UPDATE - Factsheet</h3>
+				<h4>Leerwerkbanen & Rendement</h4>
+				<p>NL en per provincie<br>juli 2021</p>
+			</a>
+		</div>
+		<div class="card">
 			<a href="/video/trendfiles-talks/trendfiles-talks-frank-pot/">
 				<img src="/wp-content/themes/trendfiles-theme/img/frank-pot.jpg" alt="Frank Pot" />
 				<h3>NIEUW - Trendfiles Talks</h3>
@@ -18,7 +26,7 @@
 		<div class="card">
 			<a href="/factsheet/technische-installatiebranche/">
 				<img src="/wp-content/themes/trendfiles-theme/img/update-factsheet-ti-installatie.svg" alt="Update-Factsheet Technische installatie" />
-				<h3>Update-Factsheet</h3>
+				<h3>UPDATE - Factsheet</h3>
 				<h4>Technische installatiebranche</h4>
 				<p>NL en per provincie<br>juli 2021</p>
 			</a>
@@ -39,7 +47,7 @@
 				<p>Over cybersecurity in het MKB.</p>
 			</a>
 		</div>
-		<div class="card">
+		<div class="card" style="display:none;">
 			<a href="/video/themafilms/cybersecurity-in-de-praktijk/">
 				<img src="/wp-content/themes/trendfiles-theme/img/cybersecurity.jpg" alt="Trendfiles themafilm Cybersecurity" />
 				<h3>NIEUW - Trendfiles themafilm</h3>
